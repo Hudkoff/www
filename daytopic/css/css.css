@@ -1,0 +1,48 @@
+
+/* хидер */
+.daytopic-title {
+	background: #f90 url("/daytopic/images/header-bg.jpg") no-repeat center;
+	background-size: cover;
+}
+.daytopic-title .wrapper {
+	height: 295px;
+}
+
+
+
+
+
+
+
+/* контентная область */
+.daytopic-content {
+	margin-bottom: 20px;
+}
+.daytopic-content .column-left, .daytopic-content .column-right {
+	width: 20%;
+}
+.daytopic-content .column-left .intopic {
+	border: 1px solid #ccc;
+	margin: 20px 20px 0 0;
+}
+.daytopic-content .column-central {
+	border: 1px solid #ccc;
+	border-top: 0;
+	padding: 20px;
+	width: auto;
+}
+.daytopic-content .column-central .separate {
+	border-bottom: 1px solid #ccc;
+}
+
+.daytopic-content .column-central .table-cell {
+	width: 33.3%;
+	padding-left: 20px;
+}
+.daytopic-content .column-central .table-cell:first-child {
+	padding-left: 0;
+}
+
+.intopic {
+	font-family: 'Open Sans', sans-serif;
+}

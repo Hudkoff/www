@@ -1,0 +1,8 @@
+.banner-wide {
+	background: #fec542;
+	margin-bottom: 28px;
+}
+.banner-wide .wrapper {	
+	height: 193px;
+	background: url("/banner-wide/images/banner.jpg") no-repeat left;
+}

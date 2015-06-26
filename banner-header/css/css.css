@@ -1,0 +1,13 @@
+.banner-header {
+	display: block;
+	width: 50%;
+	height: 67px;
+	/*max-width: 1000px; /* не нужно! не может её превысить */
+	float: right;
+	margin: 20px 0 0;
+	font-size: 0;
+	text-align: right;
+	background-position: center;
+	background-repeat: no-repeat; 
+
+}

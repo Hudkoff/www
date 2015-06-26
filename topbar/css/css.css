@@ -1,0 +1,35 @@
+.topbar {
+	height: 37px;
+	width: 100%;
+	background: #0e53b2;
+}
+
+/* ссылки в левой части */
+.topnav {
+	float: left;
+}
+.topnav li {
+	display: block;
+	float: left;	
+}
+.topnav a {
+	font-size: 1.3rem;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	border-left: 1px solid #2361b6;
+	border-bottom: 1px solid transparent;
+	width: 120px;
+  	line-height: 2.8;
+  	text-align: center;
+
+  	-moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+ .topnav a:hover {
+ 	background: #4381d6;
+}
