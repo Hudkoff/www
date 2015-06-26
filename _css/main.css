@@ -1,0 +1,68 @@
+html {
+	font-size: 62.5%; /* =10px */
+
+}
+body {
+	line-height: 1.2;
+	font-size: 1.6rem; /* 1.6*10px = 16px */
+	max-width: 1920px;
+	min-width: 1024px;
+	font-family: 'Noto Serif', serif;
+}
+
+
+/* для плавающих блоков */
+.clearfix:after {
+	display: block;
+	height: 0;
+	clear: both;
+	content: '';
+	visibility: hidden;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 20px;
+}
+h1, h2, h3, h4, h5, h6, b {
+	font-weight: bold;
+}
+
+.table {
+	display: table;
+	width: 100%;
+	box-sizing: border-box;
+}
+.table-cell {
+	display: table-cell;
+	vertical-align: top;
+}
+
+
+.table-cell {
+	padding-left: 20px;
+	width: 33.3%;
+}
+.table-cell:first-child {
+	padding-left: 0;
+	width: 33.4%;
+}
+.table-cell.double { /* перебивает ширину */
+	width: 66.7%;
+}
+.table-cell .table-cell {
+	width: 50%; /* перебивает ширину - при вложнности в двойную ячейку */
+}
+
+
+
+
+h6 {
+	font-size: 1.4rem;
+}
+h5 {
+	font-size: 1.6rem;
+}
+h4 {
+	font-size: 1.8rem;
+}

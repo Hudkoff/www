@@ -1,0 +1,27 @@
+﻿li.toliLabel {
+  background: none repeat scroll 0 0 #4874A3;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 4px #3A6487;
+  color: white;
+  display: inline-block;
+  font: 12pt arial;
+  margin: 7px;
+}
+
+.toliLabel span {
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+li.toliLabel .toliLabelClose {
+  border-left: 1px solid #A6B4D6;
+  cursor: pointer;
+  line-height: 10px;
+  padding: 10px;
+}
+
+.toliShowWindow,.toliShowWindow form {display:block !important}
+.toliBlockIsDownloadingParent {position:relative !important;}
+#toliIsDownloadingBlock {opacity:0;background:rgba(255,255,255,0.8);bottom:0;left:0;position:absolute;right:0;top:0;z-index:10}
+#toliIsDownloadingBlock.toliBlockIsDownloading {opacity:1}
+#toliIsDownloadingBlock>div {background:url("//toldot.ru/images/download.gif") no-repeat 4px 3px #fff;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;font:8pt arial;height:16px;left:50%;margin:-6px -50px;padding:6px 0 0 14px;position:absolute;text-align:center;top:50%;width:100px}
