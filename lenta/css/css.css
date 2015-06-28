@@ -1,5 +1,18 @@
 .lenta {
-	padding: 10px;
+	padding: 10px 10px 0;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.3rem;
+	color: #000;
+}
+.lenta p {
+	padding-bottom: 10px;
+}
+.lenta span {
+	color: #747474;
+}
+.lenta a {
+	color: #0e53b2;
+}
+.lenta a:hover {
+	text-decoration: none;
 }
