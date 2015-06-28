@@ -52,8 +52,10 @@ body {
 }
 
 
-
-h1, h2, h3, h4, h5, h6, b {
+b {
+	font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 	font-family: 'Noto Serif', serif;	
 }
@@ -75,6 +77,82 @@ h2 {
 h1 {
 	font-size: 3rem;
 }
+/* цветные заголовки */
+
+[class ^= color] a {
+	text-decoration: none;
+  	z-index: 10; /* чтоб цветная граница закрыла серую */
+  	position: relative; /* чтоб цветная граница закрыла серую */
+	padding-bottom: 10px;
+	display: block;
+
+}
+/*[class ^= color] a:hover {
+	opacity: .8;
+}*/
+[class ^= color] a:hover .arrow {
+	margin-left: 5px;
+}
+.arrow, .arrow:after {
+	font-family: Arial, serif;
+}
+.arrow {
+	position: relative;
+	display: inline-block;
+	font-size: 18px;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.arrow:after { 
+	font-size: 13px;
+	position: absolute;
+	display: block;
+	content: "\25C6";
+	color: #fff;
+	top: 3px;
+	left: 0;
+}
+.color-b38d39 a {
+	color: #b38d39;
+	border-bottom: 2px solid #b38d39;
+}
+.color-d55940 a {
+	color: #d55940;
+	border-bottom: 2px solid #d55940;
+}
+.color-727272 a {
+	color: #727272;
+	border-bottom: 2px solid #727272;
+}
+.color-3792aa a {
+	color: #3792aa;
+	border-bottom: 2px solid #3792aa;
+}
+.color-7247ba a {
+	color: #7247ba;
+	border-bottom: 2px solid #7247ba;
+}
+.color-8db20e a {
+	color: #8db20e;
+	border-bottom: 2px solid #8db20e;
+}
+.color-43ac69 a {
+	color: #43ac69;
+	border-bottom: 2px solid #43ac69;
+}
+.color-b20e89 a {
+	color: #b20e89;
+	border-bottom: 2px solid #b20e89;
+}
+.color-1259a8 a {
+	color: #1259a8;
+	border-bottom: 2px solid #1259a8;
+}
+
+
+
 
 
 a {
