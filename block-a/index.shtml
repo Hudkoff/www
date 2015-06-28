@@ -1,44 +1,46 @@
 <link href="block-a/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="block-a table wrapper">
-	<div class="table-cell column-left">
-		<div class="table">
-			<div class="table-cell slider-box">
-				<!--#include virtual="../slider/index.shtml"-->
+<div class="block-a wrapper">
+	<div class="table ">
+		<div class="table-cell column-left">
+			<div class="table">
+				<div class="table-cell slider-box">
+					<!--#include virtual="../slider/index.shtml"-->
+				</div>
+				<a class="table-cell banner-central" href="" title="">
+					<img src="block-a/images/main-banner_01.jpg" alt="">
+				</a>
 			</div>
-			<a class="table-cell banner-central" href="" title="">
-				<img src="block-a/images/main-banner_01.jpg" alt="">
-			</a>
-		</div>
-		<div class="table">
-			<div class="table-cell questions-box">
-				<h2>Вопросы раввину</h2>
-				<!--#include virtual="../questions/index.shtml"-->
-				<!--#include virtual="../questions/index.shtml"-->
-				<!--#include virtual="../questions/index.shtml"-->
-			</div>
-			<div class="table-cell questions-box">
-				<h2>Семья</h2>
-				<!--#include virtual="../questions/index.shtml"-->
-				<!--#include virtual="../questions/index.shtml"-->
-				<!--#include virtual="../questions/index.shtml"-->
+			<div class="table">
+				<div class="table-cell questions-box">
+					<h2>Вопросы раввину</h2>
+					<!--#include virtual="../questions/index.shtml"-->
+					<!--#include virtual="../questions/index.shtml"-->
+					<!--#include virtual="../questions/index.shtml"-->
+				</div>
+				<div class="table-cell questions-box">
+					<h2>Семья</h2>
+					<!--#include virtual="../questions/index.shtml"-->
+					<!--#include virtual="../questions/index.shtml"-->
+					<!--#include virtual="../questions/index.shtml"-->
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="table-cell column-right">
-		<div class="lenta-box">
-			<!--#include virtual="../lenta/index.shtml?f8f8f8"-->
-			<!--#include virtual="../lenta/index.shtml?ededed"-->
-			<!--#include virtual="../lenta/index.shtml?e5edf6"-->
-			<!--#include virtual="../lenta/index.shtml?fbf0ee"-->
-			<!--#include virtual="../lenta/index.shtml?fbe9f6"-->
-			<!--#include virtual="../lenta/index.shtml?e1f5fa"-->
-			<!--#include virtual="../lenta/index.shtml?e5edf6"-->
-			<!--#include virtual="../lenta/index.shtml?d3f1de"-->
-			<!--#include virtual="../lenta/index.shtml?e1f5fa"-->
-		</div>
+		<div class="table-cell column-right">
+			<div class="lenta-box">
+				<!--#include virtual="../lenta/index.shtml?f8f8f8"-->
+				<!--#include virtual="../lenta/index.shtml?ededed"-->
+				<!--#include virtual="../lenta/index.shtml?e5edf6"-->
+				<!--#include virtual="../lenta/index.shtml?fbf0ee"-->
+				<!--#include virtual="../lenta/index.shtml?fbe9f6"-->
+				<!--#include virtual="../lenta/index.shtml?e1f5fa"-->
+				<!--#include virtual="../lenta/index.shtml?e5edf6"-->
+				<!--#include virtual="../lenta/index.shtml?d3f1de"-->
+				<!--#include virtual="../lenta/index.shtml?e1f5fa"-->
+			</div>
 			<a class="" href="" title="">
 				<img src="block-a/images/right-banner_01.jpg" alt="">
 			</a>
 		</div>
+	</div>
 </div>

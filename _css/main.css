@@ -1,12 +1,13 @@
 html {
 	font-size: 62.5%; /* =10px */
+	width: 100%;
 
 }
 body {
 	line-height: 1.2;
 	font-size: 1.6rem; /* 1.6*10px = 16px */
-	max-width: 1920px;
 	min-width: 1024px;
+	width: 100%;
 }
 
 
@@ -19,25 +20,22 @@ body {
 	visibility: hidden;
 }
 
-.wrapper {
+.wrapper { /* не должен быть на одном блоке с классом .table */
+	max-width: 1380px;
 	margin: 0 auto;
 	padding: 0 20px;
 }
-h1, h2, h3, h4, h5, h6, b {
-	font-weight: bold;
-}
 
+/* табличная модель */
 .table {
 	display: table;
 	width: 100%;
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 }
 .table-cell {
 	display: table-cell;
 	vertical-align: top;
 }
-
-
 .table-cell {
 	padding-left: 20px;
 	width: 33.3%;
@@ -55,7 +53,9 @@ h1, h2, h3, h4, h5, h6, b {
 
 
 
-
+h1, h2, h3, h4, h5, h6, b {
+	font-weight: bold;
+}
 h6 {
 	font-size: 1.4rem;
 }
@@ -64,4 +64,13 @@ h5 {
 }
 h4 {
 	font-size: 1.8rem;
+}
+h3 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 2.4rem;
+}
+h1 {
+	font-size: 3rem;
 }
