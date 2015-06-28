@@ -5,34 +5,61 @@
 	<div class="table ">
 		<div class="table-cell double">
 			<div>
-				<h2>Статьи</h2>
+				<h3 class="color-727272">
+					<a href="#" title="">
+						Статьи
+						<b class="arrow">&#9670;</b>
+					</a>
+				</h3>
 			</div>
 			<div class="table">
 				<div class="table-cell column-left">
-					Любой плод запрещено выжимать в пустой сосуд или в напиток, как используя для выжимания инструмент, так и выжимая рукой Часть 5. Законы выжимания (סְחִיטָה — сехита) плодов в Шаббат и Йом тов 5.1. Выжимание плодов для получения напитка запрещено в Шаббат и Йом тов, и есть для этого различные законы, как будет объяснено далее.
+					<a href class="questions favourite">
+						<img src="questions/images/article.jpg" alt="" />
+						<br><br>
+						<h4>
+							Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов
+						</h4>
+						<p class="details">
+							10 апреля, <b>Рав Йеошуа Ишайя Нойвирт</b>
+						</p>
+						<p class="description">
+						Любой плод запрещено выжимать в пустой сосуд или в напиток, как используя для выжимания инструмент, так и выжимая рукой Часть 5. Законы выжимания (סְחִיטָה — сехита) плодов в Шаббат и Йом тов 5.1. Выжимание плодов для получения напитка запрещено в Шаббат и Йом тов, и есть для этого различные законы, как будет объяснено далее.
+						</p>
+					</a>
 				</div>
 				<div class="table-cell">
-					<!--#include virtual="../questions/index.shtml"-->
-					<!--#include virtual="../questions/index.shtml"-->
-					<!--#include virtual="../questions/index.shtml"-->
+					<!--#include virtual="../questions/index.shtml?h=h4&descr=full&det=f&ava=1"-->
+					<!--#include virtual="../questions/index.shtml?h=h4&descr=full&det=f&ava=1"-->
+					<!--#include virtual="../questions/index.shtml?h=h4&descr=full&det=f&ava=noava"-->
 				</div>
 			</div>
 		</div>
 		<div class="table-cell">
 			<div class="table">
 				<div class="table-cell">
-					<h2>Блоги</h2>
-					<div><hr>Lorem ipsum</div>
-					<div><hr>Lorem ipsum</div>
-					<div><hr>Lorem ipsum</div>
-					<div><hr>Lorem ipsum</div>
-					<div><hr>Lorem ipsum</div>
+					<h3 class="color-3792aa">
+						<a href="#" title="">
+							Блоги
+							<b class="arrow">&#9670;</b>
+						</a>
+					</h3>
+					<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=1det=short"-->
+					<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=1det=short"-->
+					<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=1det=short"-->
+					<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=1det=short"-->
+					<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=1det=short"-->
 				</div>
 				<div class="table-cell">
-					<h2>Тесты</h2>
-					<div><hr>Lorem ipsum</div>
-					<div><hr>Lorem ipsum</div>
-					<div><hr>Lorem ipsum</div>
+					<h3 class="color-7247ba">
+						<a href="#" title="">
+							Тесты
+							<b class="arrow">&#9670;</b>
+						</a>
+					</h3>
+					<!--#include virtual="../tests/index.shtml"-->
+					<!--#include virtual="../tests/index.shtml"-->
+					<!--#include virtual="../tests/index.shtml"-->
 				</div>
 			</div>
 		</div>
@@ -42,14 +69,23 @@
 <div class="block-b wrapper">
 	<div class="table ">
 		<div class="table-cell">
-			<h2>Аудио</h2>
-			<!--#include virtual="../questions/index.shtml"-->
-			<!--#include virtual="../questions/index.shtml"-->
-			<!--#include virtual="../questions/index.shtml"-->
+			<h3 class="color-8db20e">
+				<a href="#" title="">
+					Аудио
+					<b class="arrow">&#9670;</b>
+				</a>
+			</h3>
+			<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=audio&det=f"-->
+			<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=audio&det=f"-->
+			<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=audio&det=f"-->
 		</div>
 		<div class="table-cell">
-			<h2>Видео</h2>
-			<div><hr>Lorem ipsum</div>
+			<h3 class="color-43ac69">
+				<a href="#" title="">
+					Видео
+					<b class="arrow">&#9670;</b>
+				</a>
+			</h3>
 			<div><hr>Lorem ipsum</div>
 			<div><hr>Lorem ipsum</div>
 			<div><hr>Lorem ipsum</div>
@@ -58,7 +94,12 @@
 		<div class="table-cell">
 			<div class="table">
 				<div class="table-cell">
-					<h2>В Толдоте</h2>
+					<h3 class="color-b20e89">
+						<a href="#" title="">
+							В Толдоте
+							<b class="arrow">&#9670;</b>
+						</a>
+					</h3>					
 					<div><hr>Lorem ipsum</div>
 					<div><hr>Lorem ipsum</div>
 					<div><hr>Lorem ipsum</div>
@@ -66,7 +107,12 @@
 					<div><hr>Lorem ipsum</div>
 				</div>
 				<div class="table-cell">
-					<h2>Магазин</h2>
+					<h3 class="color-1259a8">
+						<a href="#" title="">
+							Магазин
+							<b class="arrow">&#9670;</b>
+						</a>
+					</h3>					
 					<div><hr>Lorem ipsum</div>
 					<div><hr>Lorem ipsum</div>
 					<div><hr>Lorem ipsum</div>
