@@ -1,0 +1,12 @@
+<link href="tests/css/css.css" rel="stylesheet" type="text/css" />
+
+<a href="index.html" class="tests" title="">
+	<div style="background-image: url('tests/images/test_01.jpg')">
+		<span>
+			50
+			<b>мин</b>
+		</span> 
+	</div>
+	<span class="description">Книга пророка Йирмиягу</span>
+</a>
+
