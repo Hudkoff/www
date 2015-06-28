@@ -1,7 +1,26 @@
 .block-seo {
 	margin-bottom: 40px;
+	color: #323232;
+}
+.block-seo a {
+	color: #323232;
+	text-decoration: underline;
+}
+.block-seo a:hover {
+	text-decoration: none;
+}
+
+.block-seo h4 {
+	margin-bottom: 20px;
+}
+.block-seo h6 {
+	margin-bottom: 5px;
+}
+.block-seo p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.2rem;
+	margin-bottom: 20px;
+	line-height: 1.4;	
 }
 .block-seo .column-left {
 	width: 40%;
