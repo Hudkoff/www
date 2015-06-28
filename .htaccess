@@ -1,4 +1,10 @@
-RewriteEngine On
-RewriteBase /
+#RewriteEngine On
+#RewriteBase /
+
+Options +Indexes +Includes
+Options +Includes
+ 
+AddType text/html .html 
+AddHandler server-parsed  .html
 
 AddDefaultCharset utf-8

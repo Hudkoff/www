@@ -1,7 +1,7 @@
 
 /* хидер */
 .daytopic-title {
-	background: #f90 url("/daytopic/images/header-bg.jpg") no-repeat center;
+	background: #f90 url("daytopic/images/header-bg.jpg") no-repeat center;
 	background-size: cover;
 }
 .daytopic-title .wrapper {

@@ -37,7 +37,7 @@
 	width: 10px;
 	height: 7px;
 	margin-left: 8px;
-	background-image: url("/menu/images/sprite_arrow.png");
+	background-image: url("menu/images/sprite_arrow.png");
 	background-position: 0 100%;
 	margin-bottom: 2px;
 }
