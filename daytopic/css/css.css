@@ -2,10 +2,27 @@
 /* хидер */
 .daytopic-title {
 	background: #f90 url("../images/header-bg.jpg") no-repeat center;
-	background-size: cover;
-}
-.daytopic-title .wrapper {
+/*	background-size: cover; /* отклонено */
 	height: 295px;
+}
+.daytopic-title .menu {
+	background: rgba(0,0,0,.3);
+	font-family: 'Open Sans', sans-serif;
+}
+.daytopic-title .menu a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.8rem;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+	display: inline-block;
+	padding: 12px 12px 14px 0;
+}
+.daytopic-title .menu a:hover {
+	text-decoration: underline;
+}
+.daytopic-title .bottom-text {
+	padding-left: 20%;
 }
 
 
