@@ -2,14 +2,14 @@
 
 <div class="header">
 
-	<!--#include virtual="../topbar/index.html"-->
+	<!--#include virtual="../topbar/index.shtml"-->
 
 	<div class="wrapper clearfix">
-		<!--#include virtual="../logo/index.html"-->
-		<!--#include virtual="../banner-header/index.html"-->
+		<!--#include virtual="../logo/index.shtml"-->
+		<!--#include virtual="../banner-header/index.shtml"-->
 	</div>
 
-	<!--#include virtual="../menu/index.html"-->
+	<!--#include virtual="../menu/index.shtml"-->
 
 </div>
 

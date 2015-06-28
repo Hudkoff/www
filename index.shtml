@@ -28,19 +28,19 @@
 </head>
 <body>
 
-		<!--#include virtual="header/index.html"-->
+		<!--#include virtual="header/index.shtml"-->
 
-		<!--#include virtual="block-a/index.html"-->
+		<!--#include virtual="block-a/index.shtml"-->
 
-		<!--#include virtual="block-b/index.html"-->
+		<!--#include virtual="block-b/index.shtml"-->
 
-		<!--#include virtual="banner-wide/index.html"-->
+		<!--#include virtual="banner-wide/index.shtml"-->
 
-		<!--#include virtual="daytopic/index.html"-->
+		<!--#include virtual="daytopic/index.shtml"-->
 
-		<!--#include virtual="block-seo/index.html"-->			
+		<!--#include virtual="block-seo/index.shtml"-->			
 	
-		<!--#include virtual="footer/index.html"-->
+		<!--#include virtual="footer/index.shtml"-->
 
 		<!--[if lt IE 9]><script src="_js/html5shiv.js" type="text/javascript"></script><![endif]-->
 		
