@@ -12,50 +12,55 @@
 			<a href="#" title="">Отмена обетов</a>
 		</div>
 	</div>
-	<div class="wrapper bottom-text">
-		Тема дня
-		Рош аШана — еврейский новый год
-		«Не забудьте перед праздником в четверг вечером сделать эрув тавшилин!
+	<div class="wrapper">
+		<div class="bottom-text">
+			<div class="definition">Тема дня</div>
+			<h1>Рош аШана — еврейский новый год</h1>
+			<div class="details">&laquo;Не забудьте перед праздником в четверг вечером сделать эрув тавшилин!&raquo;</div>
+		</div>
 	</div>
 
 </div>
 
-<div class="wrapper daytopic-content table">
-	<div class="table-cell column-left">
-		<div class="intopic">
-			В Тему
-			<br>•  Йом-Кипур
-			<br>•  Праздники 
-			<br>•  Календарь
-			<br>•  Новый год и елка
-			<br>•  Молитвы
-			<br>•  Храм
-			<br>•  Берейшит
-			<br>•  Нусах
-			<br>•  Тишрей
-			<br>•  Заповеди
-		</div>
-	</div>
-	<div class="table-cell column-central">
-		<p class="separate">В этом году праздник еврейского Нового года, Рош-Ашана, наступает вечером в пятницу 18 сентября. Праздничными являются оба первых дня месяца тишрей, поэтому праздник кончится с появлением на небе первых звезд вечером 20 сентября. Все это время нельзя делать никакой работы, кроме приготовления пищи непосредственно для нужд праздника. Читать дальше→
-		<div class="table">
-			<div class="table-cell">
-				<div><hr>Lorem ipsum</div>
-				<div><hr>Lorem ipsum</div>
-				<div><hr>Lorem ipsum</div>
-				<div><hr>Lorem ipsum</div>
-			</div>
-			<div class="table-cell">
-				<div><hr>Lorem ipsum</div>
-				<div><hr>Lorem ipsum</div>
-				<div><hr>Lorem ipsum</div>
-			</div>
-			<div class="table-cell">
-				<div><hr>Lorem ipsum</div>
-				<div><hr>Lorem ipsum</div>
-				<div><hr>Lorem ipsum</div>
+<div class="daytopic-content wrapper">
+	<div class=" table">
+		<div class="table-cell column-left">
+			<div class="intopic">
+				В Тему
+				<br>•  Йом-Кипур
+				<br>•  Праздники 
+				<br>•  Календарь
+				<br>•  Новый год и елка
+				<br>•  Молитвы
+				<br>•  Храм
+				<br>•  Берейшит
+				<br>•  Нусах
+				<br>•  Тишрей
+				<br>•  Заповеди
 			</div>
 		</div>
+		<div class="table-cell column-central">
+			<p class="separate">В этом году праздник еврейского Нового года, Рош-Ашана, наступает вечером в пятницу 18 сентября. Праздничными являются оба первых дня месяца тишрей, поэтому праздник кончится с появлением на небе первых звезд вечером 20 сентября. Все это время нельзя делать никакой работы, кроме приготовления пищи непосредственно для нужд праздника. Читать дальше→
+			<div class="table">
+				<div class="table-cell">
+					<div><hr>Lorem ipsum</div>
+					<div><hr>Lorem ipsum</div>
+					<div><hr>Lorem ipsum</div>
+					<div><hr>Lorem ipsum</div>
+				</div>
+				<div class="table-cell">
+					<div><hr>Lorem ipsum</div>
+					<div><hr>Lorem ipsum</div>
+					<div><hr>Lorem ipsum</div>
+				</div>
+				<div class="table-cell">
+					<div><hr>Lorem ipsum</div>
+					<div><hr>Lorem ipsum</div>
+					<div><hr>Lorem ipsum</div>
+				</div>
+			</div>
+		</div>
+		<div class="table-cell column-right"></div>
 	</div>
-	<div class="table-cell column-right"></div>
+
 </div>
