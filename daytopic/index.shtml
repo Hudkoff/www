@@ -26,17 +26,20 @@
 	<div class=" table">
 		<div class="table-cell column-left">
 			<div class="intopic">
-				В Тему
-				<br>•  Йом-Кипур
-				<br>•  Праздники 
-				<br>•  Календарь
-				<br>•  Новый год и елка
-				<br>•  Молитвы
-				<br>•  Храм
-				<br>•  Берейшит
-				<br>•  Нусах
-				<br>•  Тишрей
-				<br>•  Заповеди
+				<h3>В Тему</h3>
+				<ul>
+					<li><a href="" title="">Йом-Кипур</a></li>
+					<li><a href="" title="">Праздники</a></li>
+					<li><a href="" title="">Календарь</a></li>
+					<li><a href="" title="">Новый год и елка</a></li>
+					<li><a href="" title="">Молитвы</a></li>
+					<li><a href="" title="">Храм</a></li>
+					<li><a href="" title="">Берейшит</a></li>
+					<li><a href="" title="">Нусах</a></li>
+					<li><a href="" title="">Тишрей</a></li>
+					<li><a href="" title="">Заповеди</a></li>
+				</ul>
+				<a class="more" href="" title="">Все темы</a>
 			</div>
 		</div>
 		<div class="table-cell column-central">
