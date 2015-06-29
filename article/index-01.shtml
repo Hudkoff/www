@@ -1,9 +1,8 @@
-<link href="questions/css/css.css" rel="stylesheet" type="text/css" />
+<link href="article/css/css.css" rel="stylesheet" type="text/css" />
 
-
-<a class="questions clearfix" href="" title="">
+<a class="article clearfix" href="" title="">
 	<div class="icon">
-		<img src="questions/images/avatar.jpg" alt="" />
+		<img src="article/images/avatar.jpg" alt="" />
 	</div>
 	<div class="content">
 		<h5>Страх, побеждённый страхом</h5>		

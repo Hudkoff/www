@@ -1,4 +1,4 @@
-.questions {
+.article {
 	font-family: 'Noto Serif', serif;
 	display: block;
  	border-top: 1px solid #ccc;
@@ -8,35 +8,35 @@
  	color: #000;
  	text-decoration: none;
 }
-.questions:first-child {
+.article:first-child {
  	border-top: 0;
 }
-.questions h6,
-.questions h5,
-.questions h4 {
+.article h6,
+.article h5,
+.article h4 {
 	margin-bottom: 5px;
 }
-.questions:hover h6,
-.questions:hover h5,
-.questions:hover h4 {
+.article:hover h6,
+.article:hover h5,
+.article:hover h4 {
 	text-decoration: underline;
 }
 
 /* колонки */
-.questions .icon {
+.article .icon {
 	float: left;
  }
-.questions .content {
+.article .content {
   margin-left: 79px;
  }
 
 
-.questions .details {
+.article .details {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.2rem;
 	color: #6c6c6c;
 }
-.questions .description {
+.article .description {
 	margin-top: 10px;
 	font-size: 1.4rem;
 	line-height: 1.4;

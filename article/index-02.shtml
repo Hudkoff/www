@@ -1,9 +1,9 @@
-<link href="questions/css/css.css" rel="stylesheet" type="text/css" />
+<link href="article/css/css.css" rel="stylesheet" type="text/css" />
 
 
-<a class="questions clearfix" href="" title="">
+<a class="article clearfix" href="" title="">
 	<div class="icon">
-		<img src="questions/images/no-avatar.gif" alt="" />
+		<img src="article/images/no-avatar.gif" alt="" />
 	</div>
 	<div class="content">
 		<h4>Смысл пасхального Седера</h4>		

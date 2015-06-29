@@ -14,11 +14,11 @@
 			</div>
 			<div class="table">
 				<div class="table-cell column-left">
-					<a href class="questions favourite">
-						<img src="questions/images/article.jpg" alt="" />
+					<a href class="article favourite">
+						<img src="article/images/article.jpg" alt="" />
 						<br><br>
 						<h4>
-							Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов
+							Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов
 						</h4>
 						<p class="details">
 							10 апреля, <b>Рав Йеошуа Ишайя Нойвирт</b>
@@ -29,9 +29,9 @@
 					</a>
 				</div>
 				<div class="table-cell">
-					<!--#include virtual="../questions/index-02.shtml"-->
-					<!--#include virtual="../questions/index-02.shtml"-->
-					<!--#include virtual="../questions/index-22.shtml"-->
+					<!--#include virtual="../article/index-02.shtml"-->
+					<!--#include virtual="../article/index-02.shtml"-->
+					<!--#include virtual="../article/index-22.shtml"-->
 				</div>
 			</div>
 		</div>
@@ -44,11 +44,11 @@
 							<b class="arrow">&#9670;</b>
 						</a>
 					</h3>
-					<!--#include virtual="../questions/index-03.shtml"-->
-					<!--#include virtual="../questions/index-03.shtml"-->
-					<!--#include virtual="../questions/index-03.shtml"-->
-					<!--#include virtual="../questions/index-03.shtml"-->
-					<!--#include virtual="../questions/index-03.shtml"-->
+					<!--#include virtual="../article/index-03.shtml"-->
+					<!--#include virtual="../article/index-03.shtml"-->
+					<!--#include virtual="../article/index-03.shtml"-->
+					<!--#include virtual="../article/index-03.shtml"-->
+					<!--#include virtual="../article/index-03.shtml"-->
 				</div>
 				<div class="table-cell">
 					<h3 class="color-7247ba">
@@ -75,9 +75,9 @@
 					<b class="arrow">&#9670;</b>
 				</a>
 			</h3>
-			<!--#include virtual="../questions/index-04.shtml"-->
-			<!--#include virtual="../questions/index-04.shtml"-->
-			<!--#include virtual="../questions/index-04.shtml"-->
+			<!--#include virtual="../article/index-04.shtml"-->
+			<!--#include virtual="../article/index-04.shtml"-->
+			<!--#include virtual="../article/index-04.shtml"-->
 		</div>
 		<div class="table-cell">
 			<h3 class="color-43ac69">
