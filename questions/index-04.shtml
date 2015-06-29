@@ -1,0 +1,15 @@
+<link href="questions/css/css.css" rel="stylesheet" type="text/css" />
+
+
+<a class="questions clearfix" href="" title="">
+	<div class="icon">
+		<img src="questions/images/audio.gif" alt="" />
+	</div>
+	<div class="content">
+		<h6>Если учёные-атеисты ошибаются, то откуда у них такие успехи?</h6>
+		<p class="details">
+			28 марта, <b>Рав Ашер Кушнир</b><br>
+			отвечает на вопрос от Эллы Абрамович 
+		</p>
+	</div>
+</a>

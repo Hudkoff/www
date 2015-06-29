@@ -19,9 +19,9 @@
 							<b class="arrow">&#9670;</b>
 						</a>
 					</h3>
-					<!--#include virtual="../questions/index.shtml?1"-->
-					<!--#include virtual="../questions/index.shtml?1"-->
-					<!--#include virtual="../questions/index.shtml?1"-->
+					<!--#include virtual="../questions/index-01.shtml"-->
+					<!--#include virtual="../questions/index-01.shtml"-->
+					<!--#include virtual="../questions/index-01.shtml"-->
 				</div>
 				<div class="table-cell questions-box">
 					<h3 class="color-d55940">
@@ -30,9 +30,9 @@
 							<b class="arrow">&#9670;</b>
 						</a>
 					</h3>
-					<!--#include virtual="../questions/index.shtml?1"-->
-					<!--#include virtual="../questions/index.shtml?1"-->
-					<!--#include virtual="../questions/index.shtml?1"-->
+					<!--#include virtual="../questions/index-01.shtml"-->
+					<!--#include virtual="../questions/index-01.shtml"-->
+					<!--#include virtual="../questions/index-01.shtml"-->
 				</div>
 			</div>
 		</div>

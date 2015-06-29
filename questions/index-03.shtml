@@ -1,0 +1,14 @@
+<link href="questions/css/css.css" rel="stylesheet" type="text/css" />
+
+
+<a class="questions clearfix" href="" title="">
+	<div class="icon">
+		<img src="questions/images/avatar.jpg" alt="" />
+	</div>
+	<div class="content">
+		<h6>Еврейский мужчина на кухне</h6>
+		<p class="details">
+			<b>Рав Реувен Пятигорский</b>
+		</p>
+	</div>
+</a>
