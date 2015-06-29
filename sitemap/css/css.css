@@ -1,0 +1,52 @@
+/* для отображения в футере */
+.sitemap-box {
+	padding: 15px 0 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+.sitemap-box dl {
+	display: block;
+	float: left;
+	margin-right: 3%;
+}
+.sitemap-box a {
+	font-size: 1.2rem;
+	color: #505050;
+}
+.sitemap-box a:hover {
+	text-decoration: underline;
+}
+.sitemap-box dt a {
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 3.3;
+}
+.sitemap-box dd a {
+	text-decoration: none;
+	line-height: 1.8;
+}
+
+/* для меню */ 
+.submenu-box {
+	padding: 15px 0 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+.submenu-box dl {
+	display: block;
+	float: left;
+	margin-right: 3%;
+}
+.submenu-box a {
+	font-size: 1.2rem;
+	color: #505050;
+}
+.submenu-box a:hover {
+	text-decoration: underline;
+}
+.submenu-box dt {
+	display: none;
+}
+.submenu-box dd a {
+	text-decoration: none;
+	line-height: 1.8;
+}

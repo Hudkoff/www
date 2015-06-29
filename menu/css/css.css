@@ -42,6 +42,12 @@
 	margin-bottom: 2px;
 }
 
+
+
+
+
+
+
 /* подменю, оформление */
 .submenu-box {
 	display: none;
@@ -50,6 +56,7 @@
 	right: 0;
 	top: 57px; /* высоту лучше не делать большей высоты пункта меню первого уровня */
 	background: #f2f2f2;
+	border-top: 2px solid transparent;
 	z-index: 1000;
 
 	-webkit-box-shadow: 0px 25px 54px 0px rgba(0,0,0,0.2);
@@ -61,7 +68,14 @@
     -o-transition: all 0.1s;
     transition: all 0.1s;
 }
-
+.submenu-box:before {
+	display: block;
+	content: "";
+	position: absolute;
+	top: -6px;
+	height: 4px;
+	width: 100%;
+}
 /* при наведении на пункт меню первого уровня */
 .menu-item:hover .menu-link {
 	background-color: #0e53b2;
@@ -70,13 +84,10 @@
 .menu-item:hover .menu-link:after {
 	background-position: 0 0;
 }
-.menu-item:hover .submenu-box {
+.submenu-box:hover,
+.submenu-box.over {
 	display: block; 
 }
 
 
 
-.submenu li {
-	float: none;
-	display: block;
-}
