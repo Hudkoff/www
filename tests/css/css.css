@@ -6,6 +6,7 @@
  	padding: 20px;
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
+	width: 155px;
 }
 .tests:first-child {
  	border-top: 0;
