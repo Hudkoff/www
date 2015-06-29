@@ -1,42 +1,32 @@
 <link href="questions/css/css.css" rel="stylesheet" type="text/css" />
 
-<!--#if expr="$QUERY_STRING = /h=([a-zA-Z0-9]+)/" -->
-<!--#set var="h" value="$1" -->
-<!--#endif -->
-
-<!--#if expr="$QUERY_STRING = /descr=([a-zA-Z0-9]+)/" -->
-<!--#set var="descr" value="$1" -->
-<!--#endif -->
-
-<!--#if expr="$QUERY_STRING = /ava=([a-zA-Z0-9]+)/" -->
-<!--#set var="ava" value="$1" -->
-<!--#endif -->
-
-<!--#if expr="$QUERY_STRING = /det=([a-zA-Z0-9]+)/" -->
-<!--#set var="det" value="$1" -->
-<!--#endif -->
+<!--#echo var="QUERY_STRING"-->
 
 <a class="questions clearfix" href="" title="">
 	<div class="icon">
-		<!--#if expr="$ava==audio" -->
+		<!--#if expr="$QUERY_STRING==4" -->
 		<img src="questions/images/audio.gif" alt="" />
-		<!--#elif expr="$ava==noava" -->
+		<!--#elif expr="$QUERY_STRING==22" -->
 		<img src="questions/images/no-avatar.gif" alt="" />
 		<!--#else -->
 		<img src="questions/images/avatar.jpg" alt="" />
 		<!--#endif -->
 	</div>
 	<div class="content">
-		<!--#if expr="$h==h6" -->
-		<h6>Законы седьмого года 10</h6>
-		<!--#elif expr="$h==h5" -->
+		<!--#if expr="$QUERY_STRING==22" -->
+		<h4>Смысл пасхального Седера</h4>
+		<!--#elif expr="$QUERY_STRING==2" -->
+		<h4>Страх, побеждённый страхом</h4>
+		<!--#elif expr="$QUERY_STRING==1" -->
 		<h5>Страх, побеждённый страхом</h5>
-		<!--#elif expr="$h==h4" -->
-		<h4>Если учёные-атеисты ошибаются, то откуда у них такие успехи?</h4>
+		<!--#elif expr="$QUERY_STRING==3" -->
+		<h6>Еврейский мужчина на кухне</h6>
+		<!--#elif expr="$QUERY_STRING==4" -->
+		<h6>Если учёные-атеисты ошибаются, то откуда у них такие успехи?</h6>
 		<!--#endif -->	
 		
 		<p class="details">
-			<!--#if expr="$det==short" -->
+			<!--#if expr="$QUERY_STRING==3" -->
 			<b>Рав Реувен Пятигорский</b>
 			<!--#else -->
 			28 марта, <b>Рав Ашер Кушнир</b><br>
@@ -44,9 +34,13 @@
 			<!--#endif -->
 		</p>
 
-		<!--#if expr="$descr==full" -->
+		<!--#if expr="$QUERY_STRING==2" -->
 		<p class="description">
 		Существует качественно иной вид страха, а именно — страх, вызванный осознанием
+		</p>
+		<!--#elif expr="$QUERY_STRING==22" -->
+		<p class="description">
+		Исход из Египта для нас — событие давней истории. Однако, в действительности мы не движемся вперед по прямой линии оставляя прошлое позади.
 		</p>
 		<!--#endif -->
 	</div>

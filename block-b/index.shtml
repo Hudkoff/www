@@ -29,9 +29,9 @@
 					</a>
 				</div>
 				<div class="table-cell">
-					<!--#include virtual="../questions/index.shtml?h=h4&descr=full&det=f&ava=1"-->
-					<!--#include virtual="../questions/index.shtml?h=h4&descr=full&det=f&ava=1"-->
-					<!--#include virtual="../questions/index.shtml?h=h4&descr=full&det=f&ava=noava"-->
+					<!--#include virtual="../questions/index.shtml?2"-->
+					<!--#include virtual="../questions/index.shtml?2"-->
+					<!--#include virtual="../questions/index.shtml?22"-->
 				</div>
 			</div>
 		</div>
@@ -44,11 +44,11 @@
 							<b class="arrow">&#9670;</b>
 						</a>
 					</h3>
-					<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=1det=short"-->
-					<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=1det=short"-->
-					<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=1det=short"-->
-					<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=1det=short"-->
-					<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=1det=short"-->
+					<!--#include virtual="../questions/index.shtml?3"-->
+					<!--#include virtual="../questions/index.shtml?3"-->
+					<!--#include virtual="../questions/index.shtml?3"-->
+					<!--#include virtual="../questions/index.shtml?3"-->
+					<!--#include virtual="../questions/index.shtml?3"-->
 				</div>
 				<div class="table-cell">
 					<h3 class="color-7247ba">
@@ -75,9 +75,9 @@
 					<b class="arrow">&#9670;</b>
 				</a>
 			</h3>
-			<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=audio&det=f"-->
-			<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=audio&det=f"-->
-			<!--#include virtual="../questions/index.shtml?h=h6&descr=0&ava=audio&det=f"-->
+			<!--#include virtual="../questions/index.shtml?4"-->
+			<!--#include virtual="../questions/index.shtml?4"-->
+			<!--#include virtual="../questions/index.shtml?4"-->
 		</div>
 		<div class="table-cell">
 			<h3 class="color-43ac69">
