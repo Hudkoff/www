@@ -16,7 +16,6 @@
 <!--#set var="det" value="$1" -->
 <!--#endif -->
 
-
 <a class="questions clearfix" href="" title="">
 	<div class="icon">
 		<!--#if expr="$ava==audio" -->

@@ -1,6 +1,6 @@
 <link href="tests/css/css.css" rel="stylesheet" type="text/css" />
 
-<a href="index.html" class="tests" title="">
+<a href="#" class="tests" title="">
 	<div style="background-image: url('tests/images/test_01.jpg')">
 		<span>
 			50
