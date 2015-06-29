@@ -1,17 +1,11 @@
 <link href="video-link/css/css.css" rel="stylesheet" type="text/css" />
 
-<!--#if expr="$QUERY_STRING = /label=([a-zA-Z0-9]+)/" -->
-<!--#set var="label" value="$1" -->
-<!--#endif -->
-
 <a href="" class="video-link clearfix" title="">
 	<div class="screenshot" style="background-image: url('video-link/images/screen_01.jpg')">
 		<div class="fader">
 			<div class="icon"></div>
 			<div class="date">10 апреля<br>13:00</div>
-			<!--#if expr="$label==vebinar" -->
-			<div class="label">ВЕБИНАР</div>
-			<!--#endif -->			
+			<div class="label" style="display: <!--#echo var='QUERY_STRING' -->">ВЕБИНАР</div>		
 		</div> 
 	</div>
 	<div class="description">

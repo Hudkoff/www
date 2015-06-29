@@ -86,9 +86,9 @@
 					<b class="arrow">&#9670;</b>
 				</a>
 			</h3>
-			<!--#include virtual="../video-link/index.shtml?label=vebinar"-->
-			<!--#include virtual="../video-link/index.shtml?label=0"-->
-			<!--#include virtual="../video-link/index.shtml?label=0"-->
+			<!--#include virtual="../video-link/index.shtml?block"-->
+			<!--#include virtual="../video-link/index.shtml?none"-->
+			<!--#include virtual="../video-link/index.shtml?none"-->
 		</div>
 		<div class="table-cell">
 			<div class="table">

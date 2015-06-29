@@ -41,6 +41,7 @@
 	font-size: 1.2rem;
 	background: #4fc77a;
 	padding: 5px 10px 4px;
+	display: none;
 }
 .video-link:hover .date {
 	opacity: 1;
