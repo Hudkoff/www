@@ -85,7 +85,7 @@ h1 {
   	position: relative; /* чтоб цветная граница закрыла серую */
 	padding-bottom: 10px;
 	display: block;
-
+	white-space: nowrap; /* чтоб строка не переносилась */
 }
 /*[class ^= color] a:hover {
 	opacity: .8;

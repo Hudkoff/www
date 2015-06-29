@@ -1,0 +1,5 @@
+<link href="lenta/css/css.css" rel="stylesheet" type="text/css" />
+
+<div class="lenta" style="background: #<!--#echo var='QUERY_STRING' -->">
+	<p>Юдит только что прокомментировал запись <a href="#" title="">в блоге Брохи Губерман</a></p>
+</div>

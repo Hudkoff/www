@@ -1,0 +1,16 @@
+<link href="video-link/css/css.css" rel="stylesheet" type="text/css" />
+
+<a href="" class="video-link clearfix" title="">
+	<div class="screenshot" style="background-image: url('video-link/images/screen_02.jpg')">
+		<div class="fader">
+			<div class="icon"></div>
+			<div class="date">25 мая</div>
+			<div class="label" style="display: <!--#echo var='QUERY_STRING' -->">ВЕБИНАР</div>		
+		</div> 
+	</div>
+	<div class="description">
+		<h6>Почитание родителей 2. Ваикра 33</h6>
+		<p class="details">28 марта, <b>Рав Моше Пантелят. «Уроки Пятикнижия»</b></p>
+	</div>
+</a>
+

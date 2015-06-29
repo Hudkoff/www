@@ -1,7 +1,7 @@
 <link href="tests/css/css.css" rel="stylesheet" type="text/css" />
 
 <a href="#" class="tests" title="">
-	<div style="background-image: url('tests/images/test_01.jpg')">
+	<div style="background-image: url('tests/images/test-01.jpg')">
 		<span>
 			50
 			<b>мин</b>

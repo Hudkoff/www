@@ -10,6 +10,7 @@
 	width: 190px;
 	height: 108px;
 	position: relative;
+	background-size: cover; /* масштабируем фон на всякий случай */
 }
 .video-link .fader {
 	width: 100%;

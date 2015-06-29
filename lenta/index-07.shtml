@@ -1,0 +1,5 @@
+<link href="lenta/css/css.css" rel="stylesheet" type="text/css" />
+
+<div class="lenta" style="background: #<!--#echo var='QUERY_STRING' -->">
+	<p>Александр только что внес $60 в разделе <a href="#" title="">«Хесед»</a></p>
+</div>
