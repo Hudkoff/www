@@ -86,10 +86,9 @@
 					<b class="arrow">&#9670;</b>
 				</a>
 			</h3>
-			<div><hr>Lorem ipsum</div>
-			<div><hr>Lorem ipsum</div>
-			<div><hr>Lorem ipsum</div>
-			<div><hr>Lorem ipsum</div>
+			<!--#include virtual="../video-link/index.shtml?label=vebinar"-->
+			<!--#include virtual="../video-link/index.shtml?label=0"-->
+			<!--#include virtual="../video-link/index.shtml?label=0"-->
 		</div>
 		<div class="table-cell">
 			<div class="table">
