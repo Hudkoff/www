@@ -61,7 +61,7 @@
 	margin-bottom: 20px;
 	background-image: url("../images/content-bg_01.jpg"), url("../images/content-bg_02.jpg");
 	background-repeat: no-repeat;
-	background-position: 0 94%, 96% 90%;
+	background-position: 10% 94%, 96% 90%;
 }
 .daytopic-content .column-left, .daytopic-content .column-right {
 	width: 20%;
