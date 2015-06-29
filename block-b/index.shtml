@@ -110,10 +110,7 @@
 							<b class="arrow">&#9670;</b>
 						</a>
 					</h3>					
-					<div><hr>Lorem ipsum</div>
-					<div><hr>Lorem ipsum</div>
-					<div><hr>Lorem ipsum</div>
-					<div><hr>Lorem ipsum</div>
+					<!--#include virtual="../shop-item/index.shtml"-->
 				</div>
 			</div>
 		</div>
