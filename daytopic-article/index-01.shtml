@@ -1,0 +1,15 @@
+<link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
+
+<div class="daytopic-article clearfix">
+	<a href="" title="">
+		<img src="daytopic-article/images/img-01.jpg" alt="" />
+		<h4>По спирали времени</h4>		
+	</a>
+	<p class="details">
+		10 апреля, <b>Неизвестный автор</b><br>
+	</p>
+	<p class="description">
+		Во многих еврейских семьях, не
+		ведущих традиционный образ жизни, существует странный...
+	</p>
+</div>

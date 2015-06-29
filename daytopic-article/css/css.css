@@ -1,0 +1,150 @@
+.daytopic-article {
+	font-family: 'Noto Serif', serif;
+	display: block;
+ 	border-top: 1px solid #ccc;
+ 	margin-top: -1px; /* чтоб цветная граница закрыла серую */
+ 	z-index: 1;  /* чтоб цветная граница закрыла серую */
+ 	padding: 20px 0;
+}
+.daytopic-article:first-child {
+ 	border-top: 0;
+}
+.daytopic-article img {
+	margin-bottom: 10px;
+}
+.daytopic-article a {
+	display: inline-block;
+	margin-bottom: 3px;
+ 	color: #000;
+ 	text-decoration: none;
+}
+.daytopic-article a:hover {
+	text-decoration: underline;
+}
+
+.daytopic-article .details {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+	color: #6c6c6c;
+}
+.daytopic-article .description {
+	margin-top: 7px;
+	font-size: 1.4rem;
+	line-height: 1.4;
+}
+
+.daytopic-article .label {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 0 3p;
+}
+
+
+
+
+
+
+
+/* видео */
+.daytopic-article a:hover .video {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* тесты */
+.daytopic-article a:hover .test {
+	text-decoration: none;
+}
+.daytopic-article .test {
+	width: 240px;
+}
+.daytopic-article .test .bg {
+	height: 140px;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-color: #ebebec;
+	margin-bottom: 15px;
+	position: relative;
+}
+.daytopic-article .test .num:before,
+.daytopic-article .test .num:after {
+    width: 0;
+    height: 0;
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.daytopic-article .test .num:before {
+    border-top: 25px solid #fff; 
+    border-left: 25px solid transparent;
+
+}
+.daytopic-article .test .num:after {
+    border-bottom: 25px solid #b9b9b9; 
+    border-right: 25px solid transparent;
+
+}
+.daytopic-article .test .num {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	border: 1px solid #b9b9b9;
+	color: #845fc4;
+	float: right;
+	width: 98px;
+	height: 138px;
+  	text-align: center;
+	line-height: 1;
+}
+.daytopic-article .test .num div {
+	font-size: 5rem;
+}
+.daytopic-article .test .num i {
+	font-style: normal;
+	font-weight: normal;
+	color: #6c6c6c;
+	font-size: 1.2rem;
+	display: block;
+	margin-top: 30px;
+}
+.daytopic-article .test .num b {
+	background: #845fc4; 
+	color: #fff;
+	font-size: .9rem;
+	font-weight: bold;
+	padding: 1px 3px 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* колонки */
+.article .icon {
+	float: left;
+ }
+.article .content {
+  margin-left: 79px;
+ }
+
+

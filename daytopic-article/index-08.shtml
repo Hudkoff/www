@@ -1,0 +1,20 @@
+<link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
+
+<div class="daytopic-article clearfix">
+	<a href="" title="">
+		<div class="test">
+			<div class="bg" style="background-image: url('daytopic-article/images/test-01.jpg')">
+				<span class="num">
+					<i>вопросов</i>
+					<div>50</div>
+					<b>TECTЫ</b>
+				</span> 
+			</div>
+		</div>
+		<h4>Рош-аШана. Как «выиграть» судебный процесс?</h4>		
+	</a>
+	<p class="details">
+		10 апреля, <b>Рав Моше Пантелят</b><br> из цикла «Уроки Пятикнижия»<br>
+	</p>
+	<span class="label" style="background: #43ac69">Видео</span>
+</div>

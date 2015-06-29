@@ -1,0 +1,22 @@
+<link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
+
+<div class="daytopic-article clearfix">
+	<a href="" title="">
+		<div class="test">
+			<div class="bg" style="background-image: url('daytopic-article/images/test-01.jpg')">
+				<span class="num">
+					<i>вопросов</i>
+					<div>50</div>
+					<b>TECTЫ</b>
+				</span> 
+			</div>
+		</div>
+		<h4>Готовы ли вы к Шаувоту?</h4>		
+	</a>
+	<p class="details">
+		Этот тест прошли 45 раз<br>
+	</p>
+	<p class="description">
+		Проверь себя - знаешь ли ты Талмуд? Трактат Бава Мецея, 6 глава. 
+	</p>
+</div>
