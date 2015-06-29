@@ -1,7 +1,5 @@
 <link href="questions/css/css.css" rel="stylesheet" type="text/css" />
 
-<!--#echo var="QUERY_STRING"-->
-
 <a class="questions clearfix" href="" title="">
 	<div class="icon">
 		<!--#if expr="$QUERY_STRING==4" -->
