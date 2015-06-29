@@ -3,7 +3,7 @@
 <div class="slider">
 	<ul>
 		<li style="background-image: url('slider/images/slide_01.jpg'); background-color: #faaaaf;">
-			Истинная свобода
+			<!-- <h2>Истинная свобода</h2> -->
 		</li>
 		<li style="background: #afaaaa"></li>
 		<li style="background: #aafaaa"></li>
