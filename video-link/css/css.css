@@ -2,6 +2,7 @@
 	display: block;
 	text-decoration: none;
 	margin-top: 20px;
+	border: 1px solid #ccc;
 }
 .video-link .screenshot {
 	float: left;
@@ -51,9 +52,7 @@
 
 .video-link .description {
 	margin-left: 190px;
-	height: 86px;
-	border: 1px solid #ccc;
-	border-left: 0;
+	min-height: 86px;
 	padding: 10px;
 }
 .video-link  h6 {
