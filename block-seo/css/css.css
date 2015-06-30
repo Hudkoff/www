@@ -22,10 +22,15 @@
 	margin-bottom: 20px;
 	line-height: 1.4;	
 }
+/* перебиваем ширины табличной модели */
 .block-seo .column-left {
-	width: 40%;
+	width: 40.4%;
 }
 .block-seo .column-central {
 	width: 26.6%;
 }
+.block-seo .column-right {
+	width: 33.0%;
+}
+
 
