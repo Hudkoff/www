@@ -4,18 +4,19 @@
 	<div class="wrapper clearfix">
 	
 	<ul class="topnav">
-		<li><a class="" href="#">Статьи</a></li>
-		<li><a class="" href="#">Аудио</a></li>
-		<li><a class="" href="#">Видео</a></li>
-		<li><a class="" href="#">Фото</a></li>
-		<li><a class="" href="#">Блоги</a></li>
+		<li><a class="articles" href="#">Статьи</a></li>
+		<li><a class="audio" href="#">Аудио</a></li>
+		<li><a class="video" href="#">Видео</a></li>
+		<li><a class="photo" href="#">Фото</a></li>
+		<li><a class="blogs" href="#">Блоги</a></li>
 	</ul>
 
-	<form>
-		<input type="text">
-		<input type="submit">
-	</form>
-
+	<div class="search">
+		<form>
+			<input type="text" placeholder="Поиск">
+			<input type="submit" value="&nbsp;">
+		</form>
+	</div>
 
 	</div>
 </div>
