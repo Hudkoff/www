@@ -1,0 +1,16 @@
+<link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
+
+<div class="daytopic-article clearfix">
+	<a href="" title="">
+		<div class="shop" style="background-image: url('daytopic-article/images/shop-01.jpg')">
+			<div class="price">₪<b>20.00</b> / $5.08</div>
+		</div>
+		<h4>Слихот на русском языке. Нусах Хабад</h4>		
+	</a>
+	<p class="details">
+		<b>Сборник молитв</b>
+	</p>
+	<p class="description">
+		<span class="label" style="background: #1159a9">Магазин</span>
+	</p>
+</div>

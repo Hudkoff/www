@@ -1,0 +1,16 @@
+<link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
+
+<div class="daytopic-article clearfix">
+	<a href="" title="">
+		<div class="clearfix">
+			<img class="avatar" src="article/images/avatar-40.jpg" alt="" />
+			<p class="details">
+				<b>Авраам Коен</b><br> 28 марта
+			</p>
+			<p class="description">
+				<span class="label" style="background: #46aac4">Блоги</span>
+			</p>		
+		</div>
+		<h4>Все, что вы хотели спросить о фараоне, да было недосуг</h4>		
+	</a>
+</div>

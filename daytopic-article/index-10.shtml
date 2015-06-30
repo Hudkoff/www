@@ -1,0 +1,21 @@
+<link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
+
+<div class="daytopic-article clearfix">
+	<a href="" title="" class="bg-img" style="background-image: url('daytopic-article/images/img-02.png')">
+		<div>
+		</div>
+		<h4>Элуль. Месяц милосердия и прощения</h4>		
+	</a>
+	<p class="details">
+		10 апреля, <b>Толдот</b>
+	</p>
+	<p class="description">
+		<span class="label-wrapper" style="color: #c50825">
+			<span class="label" style="background: #c50825">Фото</span> 25
+		</span>
+	</p>
+	<p class="description">
+		В течение этого месяца мы стараемся обеспечить себе как можно больше добрых...
+	</p>
+
+</div>

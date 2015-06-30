@@ -4,7 +4,7 @@
 <a href="#" class="shop-item clearfix" title="">
 	<div class="image">
 		<img src="shop-item/images/t.jpg" alt=""/>
-		<div class="price">₪20.00 / $5.08</div>
+		<div class="price">₪<b>20.00</b> / $5.08</div>
 	</div>
 	<p class="title">Спасение Торы из огня катастрофы</p>
 	<p class="author">Рав Ехеззкель Ляйтнер</p>

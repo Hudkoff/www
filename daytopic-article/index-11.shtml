@@ -1,0 +1,12 @@
+<link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
+
+<div class="daytopic-article clearfix">
+	<a href="" title="">
+		<h4>Читайте также тему:</h4>		
+	<p class="description">
+		<div class="img" style="background-image: url('daytopic-article/images/img-03.jpg')">
+			<b>Гематрия и нумерология</b>
+		</div>
+	</p>
+	</a>
+</div>
