@@ -9,15 +9,13 @@
 
 		<!--#include virtual="header/index.shtml"-->
 
-		<!--#include virtual="block-a/index.shtml"-->
-
-		<!--#include virtual="block-b/index.shtml"-->
+		бла бла контент
 
 		<!--#include virtual="banner-wide/index.shtml"-->
 
 		<!--#include virtual="daytopic-title/index.shtml"-->
 
-		<!--#include virtual="daytopic/index.shtml"-->
+		<!--#include virtual="daytopic/index-audio.shtml"-->
 
 		<!--#include virtual="block-seo/index.shtml"-->			
 	

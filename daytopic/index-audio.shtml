@@ -6,33 +6,25 @@
 			<!--#include virtual="../intopic/index.shtml"-->
 		</div>
 		<div class="table-cell column-central">
-			<div class="summary separate">
+			<div class="summary">
 				<p>В этом году праздник еврейского Нового года, Рош-Ашана, наступает вечером в пятницу 18 сентября. Праздничными являются оба первых дня месяца тишрей, поэтому праздник кончится с появлением на небе первых звезд вечером 20 сентября. Все это время нельзя делать никакой работы, кроме приготовления пищи непосредственно для нужд праздника.
 				</p>
 				<a class="more" href="" title="">Читать дальше</a>
 			</div>
+			<div class="summary separate">
+				<h3>Аудиоуроки: Рош аШана</h3>
+			</div>
 			<div class="table">
 				<div class="table-cell">
-					<!--#include virtual="../daytopic-article/index-01.shtml"-->
-					<!--#include virtual="../daytopic-article/index-02.shtml"-->
-					<!--#include virtual="../daytopic-article/index-03.shtml"-->
-					<!--#include virtual="../daytopic-article/index-04.shtml"-->
+					запилить блоки и перебить ширины колонок
 				</div>
 				<div class="table-cell">
-					<!--#include virtual="../daytopic-article/index-05.shtml"-->
-					<!--#include virtual="../daytopic-article/index-06.shtml"-->
-					<!--#include virtual="../daytopic-article/index-07.shtml"-->
-					<!--#include virtual="../daytopic-article/index-08.shtml"-->
-				</div>
-				<div class="table-cell">
-					<!--#include virtual="../daytopic-article/index-09.shtml"-->
-					<!--#include virtual="../daytopic-article/index-10.shtml"-->
-					<!--#include virtual="../daytopic-article/index-11.shtml"-->
+					запилить блоки и перебить ширины колонок
 				</div>
 			</div>
 		</div>
 		<div class="table-cell column-right">
-			
+			бла бла баннер внизу добавить
 		</div>
 	</div>
 
