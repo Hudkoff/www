@@ -61,7 +61,7 @@
 /* форма */
 .search {
 	float: left;
-	padding: 4px 0px;
+	padding: 4px 4px;
 }
 .search input[type="text"] {
 	padding: 5px 20px;
