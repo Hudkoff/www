@@ -3,50 +3,49 @@
 	padding: 15px 0 25px;
 	font-family: 'Open Sans', sans-serif;
 }
-.sitemap-box dl {
+.sitemap-box ul {
 	display: block;
 	float: left;
 	margin-right: 2%;
 }
-.sitemap-box a {
+.sitemap-box li a {
 	font-size: 1.2rem;
 	color: #505050;
 }
-.sitemap-box a:hover {
-	text-decoration: underline;
-}
-.sitemap-box dt a {
+.sitemap-box li.root a {
 	font-weight: bold;
 	text-decoration: none;
 	text-transform: uppercase;
 	line-height: 3.3;
 }
-.sitemap-box dd a {
+.sitemap-box li a {
 	text-decoration: none;
 	line-height: 1.8;
 }
+.sitemap-box li a:hover {
+	text-decoration: underline;
+}
 
-/* для меню */ 
+/* для отображения в меню */ 
 .submenu-box {
 	padding: 15px 0 25px;
 	font-family: 'Open Sans', sans-serif;
 }
-.submenu-box dl {
+.submenu-box ul {
 	display: block;
 	float: left;
 	margin-right: 3%;
 }
-.submenu-box a {
+.submenu-box li a {
 	font-size: 1.2rem;
 	color: #505050;
-}
-.submenu-box a:hover {
-	text-decoration: underline;
-}
-.submenu-box dt {
-	display: none;
-}
-.submenu-box dd a {
 	text-decoration: none;
 	line-height: 1.8;
+}
+.submenu-box li a:hover {
+	text-decoration: underline;
+}
+.submenu-box li.root,
+ .submenu-box .no-in-menu {
+	display: none;
 }

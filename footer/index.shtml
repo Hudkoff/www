@@ -1,17 +1,17 @@
 <link href="footer/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="footer">
+<footer>
 	<div class="wrapper">
-		<div class="sitemap-box separate clearfix">
+		<nav class="sitemap-box separate clearfix">
 			<!--#include virtual="../sitemap/index.shtml"-->
-		</div>   
+		</nav>   
 		<div class="contacts-box separate">
-			<div class="contacts">
-				<span>Тел.:  <b>(972)-25-400-005</b></span>
-				<span>Факс:  <b>(972)-25-400-946</b></span>
-				<span>Email: <b>info@toldot.ru</b></span>
-				<span>Адрес: <b>Toldos Yeshurun, PO Box 23156, Jerusalem 9123101, Israel</b></span>
-			</div>
+			<address>
+				<span>Тел.:  <a href="tel:(972)-25-400-005">(972)-25-400-005</a></span>
+				<span>Факс:  <a href="tel:(972)-25-400-005">(972)-25-400-946</a></span>
+				<span>Email: <a href="mailto:info@toldot.ru">info@toldot.ru</a></span>
+				<span>Адрес: <a href="https://www.google.com/maps/place/%D0%98%D0%B5%D1%80%D1%83%D1%81%D0%B0%D0%BB%D0%B8%D0%BC,+%D0%98%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8C/@31.7591432,35.2305481,14z/data=!4m2!3m1!1s0x1502d7d634c1fc4b:0xd96f623e456ee1cb">Toldos Yeshurun, PO Box 23156, Jerusalem 9123101, Israel</a></span>
+			</address>
 			<div class="socials">
 				<a href="" title=""><img src="footer/images/fb.png" alt=""/></a>
 				<a href="" title=""><img src="footer/images/vk.png" alt=""/></a>
@@ -27,4 +27,4 @@
 			<p>Перепечатка материалов приветствуется с обязательной активной гиперссылкой на Toldot.ru<br> после каждого процитированного материала
 		</div>   
 	</div>   
-</div>
+</footer>

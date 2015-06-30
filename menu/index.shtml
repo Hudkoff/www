@@ -27,11 +27,11 @@
 			</li>
 		</ul>
 
-		<div class="submenu-box">
+		<nav class="submenu-box">
 			<div class="wrapper">
 				<!--#include virtual="../sitemap/index.shtml"-->
 			</div>
-		</div>
+		</nav>
 
 
 
