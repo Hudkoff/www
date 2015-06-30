@@ -3,11 +3,11 @@
 <div class="daytopic-article clearfix">
 	<a href="" title="">
 		<div class="test" style="background-image: url('daytopic-article/images/test-01.jpg')">
-			<span class="num">
+			<div class="num">
 				<i>вопросов</i>
 				<div>50</div>
 				<b>TECTЫ</b>
-			</span> 
+			</div> 
 		</div>
 		<h4>Готовы ли вы к Шаувоту?</h4>		
 	</a>

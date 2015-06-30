@@ -11,9 +11,9 @@
 	<meta name="keywords" content="евреи еврейские праздники знакомства культура философия образование книги иудаизм история библия танах тора талмуд аудио видео уроки мистика заповеди мицвот рав зильбер израиль иерусалим иудей раввин рав Зильбер толдот йешурун Toldot Yeshurun Toldos каббала недельная глава синагога ешива йешива колель иерусалим уроки торы суббота йом кипур рош а-шана суккот шавуот песах ханука пурим">
 	<meta name="description" content="Толдот Йешурун - иудаизм и евреи. Уроки иудаизма во многих городах Израиля, программа Талмуд по интернету, библиотека еврейских книг, статей, аудио и видеоуроков по иудаизму. Помощь построения семьи - программа еврейских знакомств, шидухим. Ежедневные онлайн видеоуроки по иудаизму">
 
-	<link href="_css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="_css/main.css" rel="stylesheet" type="text/css" />
-	<!--[if lt IE 9]><link href="_css/ie8.css" rel="stylesheet" type="text/css"/><![endif]-->
+	<link href="_css/reset.css" rel="stylesheet" type="text/css">
+	<link href="_css/main.css" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><link href="_css/ie8.css" rel="stylesheet" type="text/css"><![endif]-->
 	<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700|Open+Sans:300,400,600,700&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
 	
 	<script src="http://toldot.ru/images/js/toldot.js?1432567279" type="text/javascript"></script>
