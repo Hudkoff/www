@@ -3,12 +3,41 @@
 <section class="slider">
 	<ul>
 		<li style="background-image: url('slider/images/slide_01.jpg'); background-color: #faaaaf;">
-			<!-- <h2>Истинная свобода</h2> -->
+			<div class="text">
+				<h2>Истинная свобода</h2>
+				<p>В нашей душе присутствуют какофония и разнобой. Как найти собственное «я» и отличить мимолетное желание от жизненно необходимого?</p>
+			</div>
 		</li>
-		<li style="background: #afaaaa"></li>
-		<li style="background: #aafaaa"></li>
-		<li style="background: #aaafaa"></li>
-		<li style="background: #aaaafa"></li>
+		<li style="background: #afaaaa">
+			<div class="text">
+				<h2>Слайд 2</h2>
+				<p>Меньше описания</p>
+			</div>
+		</li>
+		<li style="background: #aafaaa">
+			<div class="text">
+				<h2>Третий стайд</h2>
+				<p>Больше описания<br>
+				в несколько строк<br>
+				в несколько строк<br></p>
+			</div>
+		</li>
+		<li style="background: #aaafaa">
+			<div class="text">
+				<h2>Number 4</h2>
+				<p>Больше описания<br>
+				в несколько строк<br>
+				в несколько строк<br>
+				в несколько строк<br>
+				в несколько строк<br></p>
+			</div>
+		</li>
+		<li style="background: #aaaafa">
+			<div class="text">
+				<h2>5-ый слайд</h2>
+				<p>В нашей душе присутствуют какофония и разнобой. Как найти собственное «я» и отличить мимолетное желание от жизненно необходимого?</p>
+			</div>
+		</li>
 	</ul>
 </section>
 
