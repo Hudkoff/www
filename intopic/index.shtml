@@ -1,6 +1,6 @@
 <link href="intopic/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="intopic" itemscope itemtype="http://schema.org/WPSideBar">
+<nav class="intopic" itemscope itemtype="http://schema.org/WPSideBar">
 	<h3>В Тему</h3>
 	<ul itemprop="text">
 		<li><a href="" title="">Йом-Кипур</a></li>
@@ -15,4 +15,4 @@
 		<li><a href="" title="">Заповеди</a></li>
 	</ul>
 	<a class="more" href="" title="">Все темы</a>
-</div>
+</nav>

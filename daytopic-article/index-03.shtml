@@ -1,6 +1,6 @@
 <link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="daytopic-article clearfix">
+<section class="daytopic-article clearfix">
 	<a href="" title="">
 		<div class="clearfix">
 			<img class="avatar" src="article/images/avatar-40.jpg" alt="" />
@@ -13,4 +13,4 @@
 		</div>
 		<h4>Все, что вы хотели спросить о фараоне, да было недосуг</h4>		
 	</a>
-</div>
+</section>

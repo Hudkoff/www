@@ -1,6 +1,6 @@
 <link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="daytopic-article clearfix">
+<section class="daytopic-article clearfix">
 	<a href="" title="">
 		<div class="img" style="background-image: url('daytopic-article/images/img-01.jpg')"></div>
 		<h4>По спирали времени</h4>		
@@ -12,4 +12,4 @@
 		Во многих еврейских семьях, не
 		ведущих традиционный образ жизни, существует странный...
 	</p>
-</div>
+</section>

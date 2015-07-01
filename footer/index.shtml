@@ -18,19 +18,19 @@
 					<span itemprop="addressCountry">Israel</span>
 				</a></span>
 			</address>
-			<div class="socials">
+			<section class="socials">
 				<a href="" title=""><img src="footer/images/fb.png" alt=""/></a>
 				<a href="" title=""><img src="footer/images/vk.png" alt=""/></a>
 				<a href="" title=""><img src="footer/images/tw.png" alt=""/></a>
 				<a href="" title=""><img src="footer/images/lj.png" alt=""/></a>
 				<a href="" title=""><img src="footer/images/g.png" alt=""/></a>
 				<a href="" title=""><img src="footer/images/rss.png" alt=""/></a>
-			</div>
+			</section>
 		</div>   
-		<div class="copyrights-box" itemprop="text">
+		<section class="copyrights-box" itemprop="text">
 			<h2 itemprop="name">Иудаизм и евреи</h2>
 			<p>&copy; <b>5762&ndash;5775 &laquo;<span itemprop="copyrightHolder">Толдот Йешурун</span>&raquo;</b>
 			<p>Перепечатка материалов приветствуется с обязательной активной гиперссылкой на Toldot.ru<br> после каждого процитированного материала
-		</div>   
+		</section>   
 	</div>   
 </footer>

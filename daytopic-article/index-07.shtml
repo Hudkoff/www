@@ -1,6 +1,6 @@
 <link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="daytopic-article clearfix">
+<section class="daytopic-article clearfix">
 	<a href="" title="">
 		<h4>Структура разума. Знание</h4>		
 	</a>
@@ -10,4 +10,4 @@
 	<p class="description">
 		Подобно времени и жизненному опыту человеческий разум имеет две фазы существования...
 	</p>
-</div>
+</section>

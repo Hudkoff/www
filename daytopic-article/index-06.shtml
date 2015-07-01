@@ -1,6 +1,6 @@
 <link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="daytopic-article clearfix">
+<section class="daytopic-article clearfix">
 	<a href="" title="">
 		<div class="shop" style="background-image: url('daytopic-article/images/shop-01.jpg')">
 			<div class="price">₪<b>20.00</b> / $5.08</div>
@@ -13,4 +13,4 @@
 	<p class="description">
 		<span class="label" style="background: #1159a9">Магазин</span>
 	</p>
-</div>
+</section>

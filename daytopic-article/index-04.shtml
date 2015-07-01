@@ -1,6 +1,6 @@
 <link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="daytopic-article clearfix">
+<section class="daytopic-article clearfix">
 	<a href="" title="">
 		<div class="test" style="background-image: url('daytopic-article/images/test-01.jpg')">
 			<div class="num">
@@ -17,4 +17,4 @@
 	<p class="description">
 		Проверь себя - знаешь ли ты Талмуд? Трактат Бава Мецея, 6 глава. 
 	</p>
-</div>
+</section>

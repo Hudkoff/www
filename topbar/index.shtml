@@ -1,22 +1,22 @@
 <link href="topbar/css/css.css" rel="stylesheet" type="text/css" />
 
 <div class="topbar clearfix">
-	<div class="wrapper clearfix">
+	<section class="wrapper clearfix">
 	
-	<ul class="topnav">
-		<li><a class="articles" href="#">Статьи</a></li>
-		<li><a class="audio" href="#">Аудио</a></li>
-		<li><a class="video" href="#">Видео</a></li>
-		<li><a class="photo" href="#">Фото</a></li>
-		<li><a class="blogs" href="#">Блоги</a></li>
-	</ul>
+		<ul class="topnav">
+			<li><a class="articles" href="#">Статьи</a></li>
+			<li><a class="audio" href="#">Аудио</a></li>
+			<li><a class="video" href="#">Видео</a></li>
+			<li><a class="photo" href="#">Фото</a></li>
+			<li><a class="blogs" href="#">Блоги</a></li>
+		</ul>
 
-	<div class="search">
-		<form>
-			<input type="text" placeholder="Поиск">
-			<input type="submit" value="&nbsp;">
-		</form>
-	</div>
+		<section class="search">
+			<form>
+				<input type="text" placeholder="Поиск">
+				<input type="submit" value="&nbsp;">
+			</form>
+		</section>
 
-	</div>
+	</section>
 </div>
