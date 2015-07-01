@@ -1,8 +1,8 @@
 <link href="intopic/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="intopic">
+<div class="intopic" itemscope itemtype="http://schema.org/WPSideBar">
 	<h3>В Тему</h3>
-	<ul>
+	<ul itemprop="text">
 		<li><a href="" title="">Йом-Кипур</a></li>
 		<li><a href="" title="">Праздники</a></li>
 		<li><a href="" title="">Календарь</a></li>

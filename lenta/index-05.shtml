@@ -1,5 +1,5 @@
 <link href="lenta/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="lenta" style="background: #<!--#echo var='QUERY_STRING' -->">
+<div itemprop="text" class="lenta" style="background: #<!--#echo var='QUERY_STRING' -->">
 	<p><a href="#" title="">«Песах: День рождения»</a> сегодня посмотрели уже 402 человека</p>
 </div>

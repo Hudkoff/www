@@ -1,6 +1,6 @@
 <link href="header/css/css.css" rel="stylesheet" type="text/css" />
 
-<header>
+<header itemscope itemtype="http://schema.org/WPHeader">
 
 	<!--#include virtual="../topbar/index.shtml"-->
 

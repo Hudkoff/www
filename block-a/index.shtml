@@ -1,13 +1,13 @@
 <link href="block-a/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="block-a wrapper">
+<div class="block-a wrapper" itemprop="mainContentOfPage">
 	<div class="table ">
 		<div class="table-cell column-left">
 			<div class="table">
 				<div class="table-cell slider-box">
 					<!--#include virtual="../slider/index.shtml"-->
 				</div>
-				<a class="table-cell banner-central" href="" title="">
+				<a class="table-cell banner-central" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
 					<img src="block-a/images/main-banner_01.jpg" alt="">
 				</a>
 			</div>
@@ -37,7 +37,7 @@
 			</div>
 		</div>
 		<div class="table-cell column-right">
-			<div class="lenta-box">
+			<div class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
 				<!--#include virtual="../lenta/index-01.shtml?f8f8f8"-->
 				<!--#include virtual="../lenta/index-02.shtml?ededed"-->
 				<!--#include virtual="../lenta/index-03.shtml?e5edf6"-->
@@ -48,7 +48,7 @@
 				<!--#include virtual="../lenta/index-08.shtml?d3f1de"-->
 				<!--#include virtual="../lenta/index-09.shtml?e1f5fa"-->
 			</div>
-			<a class="" href="" title="">
+			<a class="" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
 				<img src="block-a/images/right-banner_01.jpg" alt="">
 			</a>
 		</div>
