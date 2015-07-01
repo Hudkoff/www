@@ -50,9 +50,15 @@ $(document).ready(function() {
 			
 			clearInterval(slidertimer);
 
-			var obj = $(this).attr("rel"); // узнаем его номер
-			sliderJS(obj, sl);
-			return false;
+			if ($(this).hasClass("on")) {
+				// ничего не делаем, если включен этот слайд
+			} else {
+				var obj = $(this).attr("rel"); // узнаем его номер
+				sliderJS(obj, sl);
+
+			}
+				return false;				
+
 		});
 
 	});
