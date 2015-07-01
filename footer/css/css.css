@@ -24,10 +24,10 @@ footer .separate {
 address  {
 	margin-bottom: 17px;
 }
-address span {
+address .part {
 	margin-left: 3%;
 }
-address span:first-child {
+address .part:first-child {
 	margin-left: 0;
 }
 address a {

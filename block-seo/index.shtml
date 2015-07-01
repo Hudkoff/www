@@ -3,7 +3,7 @@
 <div class="block-seo">
 	<div class="wrapper">
 		<h4>Вкратце о сайте</h4>
-		<div class="table">
+		<div class="table" itemprop="about">
 			<div class="table-cell column-left">
 				<p>Сайт создан и поддерживается силами организации &laquo;<a href="" title="">Толдот Йешурун</a>&raquo;, которая была основана равом <a href="" title="">Ицхаком Зильбером</a>.
 				<h6>Ответы на эти вопросы в разделе &laquo;<a href="" title="">Темы</a>&raquo; нашего сайта:</h6>
