@@ -19,7 +19,7 @@
 
 		<!--#include virtual="header/index.shtml"-->
 
-		бла бла контент
+		<!--#include virtual="audio-main/index.shtml"-->
 
 		<!--#include virtual="banner-wide-toldot/index.shtml"-->
 

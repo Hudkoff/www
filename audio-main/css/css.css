@@ -1,0 +1,16 @@
+.audio-main .column-left {
+	width: 17%;
+}
+.audio-main .column-right {
+	width: 25.45%;
+}
+.audio-main .column-central {
+	padding: 20px;
+	width: auto;
+	background: #eef6e7;
+}
+
+.audio-main .lenta-box {
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+}
