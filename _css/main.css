@@ -117,7 +117,6 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
 
 
 /* цветные заголовки */
-
 [class ^= color] a {
 	text-decoration: none;
   	z-index: 10; /* чтоб цветная граница закрыла серую */
@@ -125,36 +124,6 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
 	padding-bottom: 10px;
 	display: block;
 	white-space: nowrap; /* чтоб строка не переносилась */
-}
-/*[class ^= color] a:hover {
-	opacity: .8;
-}*/
-[class ^= color] a:hover .arrow {
-	margin-left: 4px;
-	margin-right: 0;
-}
-.arrow, .arrow:after {
-	font-family: Arial, serif;
-}
-.arrow {
-	position: relative;
-	display: inline-block;
-	font-size: 18px;
-	margin-left: 0;
-	margin-right: 4px;
-	-moz-transition: all 0.2s;
-	-webkit-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
-}
-.arrow:after { 
-	font-size: 13px;
-	position: absolute;
-	display: block;
-	content: "\25C6";
-	color: #fff;
-	top: 3px;
-	left: 0;
 }
 .color-b38d39 a {
 	color: #b38d39;
@@ -192,6 +161,54 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
 	color: #1259a8;
 	border-bottom: 2px solid #1259a8;
 }
+
+
+
+/* заготовка для стрелок */
+.arrow, .arrow:after {
+	font-family: Arial, serif;
+}
+.arrow {
+	position: relative;
+	display: inline-block;
+}
+.arrow:after { 
+	position: absolute;
+	display: block;
+	content: "\25C6";
+	color: #fff;
+}
+
+
+/* вправо */
+.arrow.right {
+	font-size: 18px;
+	/* анимация */
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	margin-left: 0;
+	margin-right: 4px;
+}
+.arrow.right:after { 
+	font-size: 13px;
+	top: 3px;
+	left: 0;	
+}
+a:hover .arrow.right {
+	/* анимация */
+	margin-left: 4px;
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
 
 
 
