@@ -41,7 +41,16 @@
 	background-position: 0 100%;
 	margin-bottom: 2px;
 }
-
+/* при наведении на пункт меню первого уровня */
+.menu-item:hover .menu-link,
+.menu-item.on .menu-link {
+	background-color: #0e53b2;
+	color: #fff;
+}
+.menu-item:hover .menu-link:after,
+.menu-item.on .menu-link:after {
+	background-position: 0 0;
+}
 
 
 
@@ -63,10 +72,10 @@
 	-moz-box-shadow: 0px 25px 54px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 25px 54px 0px rgba(0,0,0,0.2);
 
-	-moz-transition: all 0.1s;
-    -webkit-transition: all 0.2s;
-    -o-transition: all 0.1s;
-    transition: all 0.1s;
+	-moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 .submenu-box:before {
 	display: block;
@@ -75,14 +84,6 @@
 	top: -6px;
 	height: 4px;
 	width: 100%;
-}
-/* при наведении на пункт меню первого уровня */
-.menu-item:hover .menu-link {
-	background-color: #0e53b2;
-	color: #fff;
-}
-.menu-item:hover .menu-link:after {
-	background-position: 0 0;
 }
 .submenu-box:hover,
 .submenu-box.over {

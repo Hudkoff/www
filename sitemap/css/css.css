@@ -26,6 +26,10 @@
 	text-decoration: underline;
 }
 
+
+
+
+
 /* для отображения в меню */ 
 .submenu-box {
 	padding: 15px 0 25px;
@@ -34,18 +38,27 @@
 .submenu-box ul {
 	display: block;
 	float: left;
-	margin-right: 3%;
+	margin-right: 0;
+}
+.submenu-box li {
+	margin: 0 0 5px 15px;
 }
 .submenu-box li a {
-	font-size: 1.2rem;
-	color: #505050;
+	font-size: 1.3rem;
+	font-weight: 600;
+	color: #000;
 	text-decoration: none;
-	line-height: 1.8;
+	line-height: 1;
 }
 .submenu-box li a:hover {
 	text-decoration: underline;
 }
+/* скрываем ненужное */
 .submenu-box li.root,
- .submenu-box .no-in-menu {
+.submenu-box .no-in-menu {
 	display: none;
+}
+.submenu-box ul.on li a,
+.submenu-box ul:hover li a {
+	font-weight: bold;
 }
