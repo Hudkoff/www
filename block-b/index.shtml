@@ -8,7 +8,7 @@
 				<h3 class="color-727272">
 					<a href="#" title="">
 						Статьи
-						<b class="arrow">&#9670;</b>
+						<b class="arrow right">&#9670;</b>
 					</a>
 				</h3>
 			</div>
@@ -41,7 +41,7 @@
 					<h3 class="color-3792aa">
 						<a href="#" title="">
 							Блоги
-							<b class="arrow">&#9670;</b>
+							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
 					<!--#include virtual="../article/index-31.shtml"-->
@@ -54,7 +54,7 @@
 					<h3 class="color-7247ba">
 						<a href="#" title="">
 							Тесты
-							<b class="arrow">&#9670;</b>
+							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
 					<!--#include virtual="../tests/index-01.shtml"-->
@@ -72,7 +72,7 @@
 			<h3 class="color-8db20e">
 				<a href="#" title="">
 					Аудио
-					<b class="arrow">&#9670;</b>
+					<b class="arrow right">&#9670;</b>
 				</a>
 			</h3>
 			<!--#include virtual="../article/index-41.shtml"-->
@@ -85,7 +85,7 @@
 			<h3 class="color-43ac69">
 				<a href="#" title="">
 					Видео
-					<b class="arrow">&#9670;</b>
+					<b class="arrow right">&#9670;</b>
 				</a>
 			</h3>
 			<!--#include virtual="../video-link/index-01.shtml?block"-->
@@ -98,7 +98,7 @@
 					<h3 class="color-b20e89">
 						<a href="#" title="">
 							В Толдоте
-							<b class="arrow">&#9670;</b>
+							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>					
 					<!--#include virtual="../intoldot/index-01.shtml"-->
@@ -109,7 +109,7 @@
 					<h3 class="color-1259a8">
 						<a href="#" title="">
 							Магазин
-							<b class="arrow">&#9670;</b>
+							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>					
 					<!--#include virtual="../shop-item/index.shtml"-->

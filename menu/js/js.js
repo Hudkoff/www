@@ -1,48 +1,36 @@
 $(document).ready(function() {
 	
-
-	var menuItem = $(".menu .menu-item");
-
-	var subMenuSection = $(".submenu-box ul").not(".no-in-menu");
-
-
-	function mmwidth() {
-
-		var width = [];  // переменная, которая будет хранить ширины элементов
-	 
-		$(menuItem).each(function(indx, element){
-			width = $(this).outerWidth()
-			// width.push($(this).outerWidth());
-			$(subMenuSection[indx]).width(width);
-
-			// console.log(subMenuSection[indx],width)
-		});			
-	}
+	var menu = $(".menu");
+	var menuItem = $(menu).find(".section");
+	var submenu = $(menu).find(".submenu");
+	var bg = $(menu).find(".submenu-bg");
+	var height = [0]; // переменная, которая будет хранить высоты элементов
+	var max;
+	var done = false;
 
 
-	$(menuItem).hover(
-		function(){
-			$(this).addClass("on")
-			
-			mmwidth();
-			$(subMenuSection[$(this).index()]).addClass("on");
-			$(".submenu-box").addClass("over");
-		},
-		function(){
-			$(this).removeClass("on")
-			$(".submenu-box").removeClass("over");
-			$(".submenu-box .on").removeClass("on");
-		});
+	// ищем максимальную высоту среди подменю
+	$(submenu).each(function(indx, element){
+		h = $(this).outerHeight();
+		height.push(h);	// в массиве 2 значения: [0, h]
+		max = Math.max(height[0], height[1]); // выбираем максимальное из них
+		height = [max]; // перезаписываем массив
+	});
 
-	$(subMenuSection).hover(
-		function(){
-			$(this).addClass("on");
-			// console.log($(this).index());
-			
-			$(menuItem[$(this).index()-1]).addClass("on");
-		},
-		function(){
-			$(this).removeClass("on")
-			$(".menu .on").removeClass("on");
-		});
+	// добавляем запас и назначем высоту подложен и блокам подменю
+	height[0] += 15;
+	$(menuItem).hover(function(){
+		if (!done) {
+			$(bg).height(height[0]);
+			$(submenu).height(height[0]);
+			done = true;
+		}
+	},function(){
+		if (!done) {
+			$(bg).height(height[0]);
+			$(submenu).height(height[0]);
+			done = true;
+		}
+	});
+
 });

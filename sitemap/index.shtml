@@ -1,63 +1,81 @@
 <link href="sitemap/css/css.css" rel="stylesheet" type="text/css" />
 
-<ul>
-	<li class="root"><a href="" title="">Жизнь</a></li>
-	<li><a href="" title="">Места</a></li>
-	<li><a href="" title="">Фамилии</a></li>
-	<li><a href="" title="">Имена</a></li>
-	<li><a href="" title="">Кладбища</a></li>
-	<li><a href="" title="">Где учить Тору?</a></li>
-	<li><a href="" title="">Знакомства</a></li>
-	<li><a href="" title="">Раввины</a></li>
-</ul>
-<ul>
-	<li class="root"><a href="" title="">Учеба</a></li>
-	<li><a href="" title="">Талмуд он-лайн</a></li>
-	<li><a href="" title="">Вебинары</a></li>
-	<li><a href="" title="">Тесты</a></li>
-	<li><a href="" title="">Библиотека</a></li>
-	<li><a href="" title="">Рассылки</a></li>
-	<li><a href="" title="">Где учить Тору?</a></li>
-</ul>
-<ul>
-	<li class="root"><a href="" title="">Спросить</a></li>
-	<li><a href="" title="">Спросить раввина</a></li>
-	<li><a href="" title="">Чат</a></li>
-	<li><a href="" title="">Встреча с раввином</a></li>
-</ul>
-<ul>
-	<li class="root"><a href="" title="">Семья</a></li>
-	<li><a href="" title="">Муж и жена</a></li>
-	<li><a href="" title="">Женщина</a></li>
-	<li><a href="" title="">Воспитание детей</a></li>
-	<li><a href="" title="">Тора для детей</a></li>
-	<li><a href="" title="">Наши родители</a></li>
-	<li><a href="" title="">Знакомства</a></li>
-	<li><a href="" title="">Консультанты</a></li>
-</ul>
-<ul>
-	<li class="root"><a href="" title="">Деньги</a></li>
-	<li><a href="" title="">Талмуд он-лайн</a></li>
-	<li><a href="" title="">Хесед</a></li>
-	<li><a href="" title="">Помощь нам</a></li>
-	<li><a href="" title="">Магазин</a></li>
-</ul>
-<ul>
-	<li class="root"><a href="" title="">Моё</a></li>
-	<li><a href="" title="">Избранное</a></li>
-	<li><a href="" title="">Отложенное</a></li>
-	<li><a href="" title="">Циклы</a></li>
-	<li><a href="" title="">Подписки</a></li>
-</ul>
-<ul class="no-in-menu">
-	<li class="root"><a href="" title="">ТОЛДОТ</a></li>
-	<li><a href="" title="">О нас</a></li>
-	<li><a href="" title="">Обратная связь</a></li>
-	<li><a href="" title="">Наши баннеры</a></li>
-	<li><a href="" title="">Рекламодателям</a></li>
-</ul>
-<ul>
-	<li class="root"><a href="" title="">Тема дня</a></li>
-	<li><a href="" title="">Темы</a></li>
-	<li><a href="" title="">Циклы</a></li>
+<ul class="root">
+	<li class="section">
+		<a class="menu-item" href="" title="">Жизнь</a>
+		<ul class="submenu">
+			<li><a class="submenu-item" href="" title="">Места</a></li>
+			<li><a class="submenu-item" href="" title="">Фамилии</a></li>
+			<li><a class="submenu-item" href="" title="">Имена</a></li>
+			<li><a class="submenu-item" href="" title="">Кладбища</a></li>
+			<li><a class="submenu-item" href="" title="">Где учить Тору?</a></li>
+			<li><a class="submenu-item" href="" title="">Знакомства</a></li>
+			<li><a class="submenu-item" href="" title="">Раввины</a></li>
+		</ul>
+	</li>
+	<li class="section">
+		<a class="menu-item" href="" title="">Учеба</a>
+		<ul class="submenu">
+			<li><a class="submenu-item" href="" title="">Талмуд он-лайн</a></li>
+			<li><a class="submenu-item" href="" title="">Вебинары</a></li>
+			<li><a class="submenu-item" href="" title="">Тесты</a></li>
+			<li><a class="submenu-item" href="" title="">Библиотека</a></li>
+			<li><a class="submenu-item" href="" title="">Рассылки</a></li>
+			<li><a class="submenu-item" href="" title="">Где учить Тору?</a></li>
+		</ul>
+	</li>
+	<li class="section">
+		<a class="menu-item" href="" title="">Спросить</a>
+		<ul class="submenu">
+			<li><a class="submenu-item" href="" title="">Спросить раввина</a></li>
+			<li><a class="submenu-item" href="" title="">Чат</a></li>
+			<li><a class="submenu-item" href="" title="">Встреча с раввином</a></li>
+		</ul>
+	</li>
+	<li class="section">
+		<a class="menu-item" href="" title="">Семья</a>
+		<ul class="submenu">
+			<li><a class="submenu-item" href="" title="">Муж и жена</a></li>
+			<li><a class="submenu-item" href="" title="">Женщина</a></li>
+			<li><a class="submenu-item" href="" title="">Воспитание детей</a></li>
+			<li><a class="submenu-item" href="" title="">Тора для детей</a></li>
+			<li><a class="submenu-item" href="" title="">Наши родители</a></li>
+			<li><a class="submenu-item" href="" title="">Знакомства</a></li>
+			<li><a class="submenu-item" href="" title="">Консультанты</a></li>
+		</ul>
+	</li>
+	<li class="section">
+		<a class="menu-item" href="" title="">Деньги</a>
+		<ul class="submenu">
+			<li><a class="submenu-item" href="" title="">Талмуд он-лайн</a></li>
+			<li><a class="submenu-item" href="" title="">Хесед</a></li>
+			<li><a class="submenu-item" href="" title="">Помощь нам</a></li>
+			<li><a class="submenu-item" href="" title="">Магазин</a></li>
+		</ul>
+	</li>
+	<li class="section">
+		<a class="menu-item" href="" title="">Моё</a>
+		<ul class="submenu">
+			<li><a class="submenu-item" href="" title="">Избранное</a></li>
+			<li><a class="submenu-item" href="" title="">Отложенное</a></li>
+			<li><a class="submenu-item" href="" title="">Циклы</a></li>
+			<li><a class="submenu-item" href="" title="">Подписки</a></li>
+		</ul>
+	</li>
+	<li class="section no-in-menu">
+		<a class="menu-item" href="" title="">ТОЛДОТ</a>
+		<ul class="submenu">
+			<li><a class="submenu-item" href="" title="">О нас</a></li>
+			<li><a class="submenu-item" href="" title="">Обратная связь</a></li>
+			<li><a class="submenu-item" href="" title="">Наши баннеры</a></li>
+			<li><a class="submenu-item" href="" title="">Рекламодателям</a></li>
+		</ul>
+	</li>
+	<li class="section">
+		<a class="menu-item" href="" title="">Тема дня</a>
+		<ul class="submenu">
+			<li><a class="submenu-item" href="" title="">Темы</a></li>
+			<li><a class="submenu-item" href="" title="">Циклы</a></li>
+		</ul>
+	</li>
 </ul>

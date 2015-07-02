@@ -3,62 +3,165 @@
 	padding: 15px 0 25px;
 	font-family: 'Open Sans', sans-serif;
 }
-.sitemap-box ul {
-	display: block;
+.sitemap-box .section {
 	float: left;
 	margin-right: 2%;
 }
-.sitemap-box li a {
+/* общие стили для ссылок */
+.sitemap-box a {
 	font-size: 1.2rem;
 	color: #505050;
-}
-.sitemap-box li.root a {
-	font-weight: bold;
 	text-decoration: none;
+	display: block;
+}
+.sitemap-box a:hover {
+	text-decoration: underline;
+}
+/* родительский пункт */
+.sitemap-box a.menu-item {
+	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 3.3;
 }
-.sitemap-box li a {
-	text-decoration: none;
+/* дочерний */
+.sitemap-box a.submenu-item {
 	line-height: 1.8;
 }
-.sitemap-box li a:hover {
-	text-decoration: underline;
+.sitemap-box .arrow {
+	display: none;
 }
+
+
+
+
 
 
 
 
 
 /* для отображения в меню */ 
-.submenu-box {
-	padding: 15px 0 25px;
-	font-family: 'Open Sans', sans-serif;
+.menu .root {
+	position: absolute;
+	z-index: 1000;
 }
-.submenu-box ul {
-	display: block;
-	float: left;
-	margin-right: 0;
+.menu .section .submenu {
+	visibility: hidden;
+	/*display: none;*/
+	/*display: block;*/
+	/*opacity: 0;*/
+	padding-top: 23px;
+
+/*	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;*/
 }
-.submenu-box li {
-	margin: 0 0 5px 15px;
+.menu:hover .section .submenu {
+	/*display: block;*/
+	visibility: visible;
+	/*opacity: 1;*/
 }
-.submenu-box li a {
-	font-size: 1.3rem;
-	font-weight: 600;
-	color: #000;
-	text-decoration: none;
-	line-height: 1;
+.menu .section:hover .submenu {
+	padding-top: 22px;
 }
-.submenu-box li a:hover {
-	text-decoration: underline;
-}
-/* скрываем ненужное */
-.submenu-box li.root,
-.submenu-box .no-in-menu {
+
+
+
+.menu .no-in-menu {
 	display: none;
 }
-.submenu-box ul.on li a,
-.submenu-box ul:hover li a {
+.menu .submenu-bg {
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 60px; /* высоту лучше не делать большей высоты пункта меню первого уровня */
+	background: #f2f2f2;
+	z-index: 999;
+	height: 190px;
+
+/*	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;*/
+
+	-webkit-box-shadow: 0px 25px 54px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 25px 54px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 25px 54px 0px rgba(0,0,0,0.2);
+}
+.menu:hover .submenu-bg,
+.menu:hover .submenu-bg:hover,
+.menu .submenu-bg:hover/*,
+.menu .submenu-bg.on*/ {
+	display: block;
+	opacity: 0.97;
+}
+
+
+
+.menu .section {
+	float: left; 
+	margin-right: 20px;
+	cursor: pointer;
+	padding: 9px 8px;
+}
+.menu .section:first-child {
+	padding-left: 0;
+}
+
+
+
+
+.menu .section .menu-item {
+	display: block;
+	font-family: 'Noto Serif', serif;
+	font-size: 2.2rem;
 	font-weight: bold;
+	text-decoration: none;
+	color: #0e53b2;
+	padding: 4px 8px 8px;
+
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.menu .section .menu-item:after {
+	display: inline-block;
+	content: "";
+	width: 10px;
+	height: 7px;
+	margin-left: 8px;
+	background-image: url("../images/sprite_arrow.png");
+	background-position: 0 100%;
+	margin-bottom: 2px;
+}
+.menu .section:hover .menu-item {
+	background-color: #0e53b2;
+	color: #fff;
+}
+.menu .section:hover .menu-item:after {
+	background-position: 0 0;
+}
+.menu .section:hover .submenu-item {
+	text-shadow: 0px 1px 0px rgba(150, 150, 150, 1);
+	color: #000;
+}
+
+
+
+
+
+.menu .submenu li {
+	margin: 0 0 5px 8px;
+}
+.menu .submenu-item {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3rem;
+	font-weight: 600;
+	color: #222;
+	text-decoration: none;
+}
+.menu .submenu-item:hover {
+	text-decoration: underline;
 }

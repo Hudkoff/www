@@ -16,7 +16,7 @@
 					<h3 class="color-b38d39">
 						<a href="#" title="">
 							Вопросы раввину
-							<b class="arrow">&#9670;</b>
+							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
 					<!--#include virtual="../article/index-11.shtml"-->
@@ -27,7 +27,7 @@
 					<h3 class="color-d55940">
 						<a href="#" title="">
 							Семья
-							<b class="arrow">&#9670;</b>
+							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
 					<!--#include virtual="../article/index-11.shtml"-->

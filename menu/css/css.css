@@ -1,94 +1,10 @@
-.menu-border {
+.menu {
+	height: 57px;
 	border-bottom: 1px solid #fff;
 	position: relative; /* чтобы выпадающее меню позиционировалось относительно родителя */
 }
 
 
-
-.menu-item {
-	float: left; /* элементы списка делаем блочными и выстраиваем в ряд */
-	/*height: 20px; /* высоту лучше жестко указать, чтобы выпадающее меню появлялось в предсказуемом месте */
-	/*margin-right: 20px;*/
-	cursor: pointer;
-	z-index: 1;
-	padding: 9px 8px;
-	margin-bottom: -2px; /* чтобы кнопка заползала на границу и между ней и подменю не было разрыва для курсора */
-}
-.menu-item:first-child {
-	padding-left: 0;
-}
-.menu-link {
-	display: block;
-	font-family: 'Noto Serif', serif;
-	font-size: 2.2rem;
-	font-weight: bold;
-	text-decoration: none;
-	color: #0e53b2;
-	padding: 4px 8px 8px;
-
-	-moz-transition: all 0.1s;
-    -webkit-transition: all 0.1s;
-    -o-transition: all 0.1s;
-    transition: all 0.1s;
-}
-.menu-link:after {
-	display: inline-block;
-	content: "";
-	width: 10px;
-	height: 7px;
-	margin-left: 8px;
-	background-image: url("../images/sprite_arrow.png");
-	background-position: 0 100%;
-	margin-bottom: 2px;
-}
-/* при наведении на пункт меню первого уровня */
-.menu-item:hover .menu-link,
-.menu-item.on .menu-link {
-	background-color: #0e53b2;
-	color: #fff;
-}
-.menu-item:hover .menu-link:after,
-.menu-item.on .menu-link:after {
-	background-position: 0 0;
-}
-
-
-
-
-
-
-/* подменю, оформление */
-.submenu-box {
-	display: none;
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 57px; /* высоту лучше не делать большей высоты пункта меню первого уровня */
-	background: #f2f2f2;
-	border-top: 2px solid transparent;
-	z-index: 1000;
-
-	-webkit-box-shadow: 0px 25px 54px 0px rgba(0,0,0,0.2);
-	-moz-box-shadow: 0px 25px 54px 0px rgba(0,0,0,0.2);
-	box-shadow: 0px 25px 54px 0px rgba(0,0,0,0.2);
-
-	-moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
-}
-.submenu-box:before {
-	display: block;
-	content: "";
-	position: absolute;
-	top: -6px;
-	height: 4px;
-	width: 100%;
-}
-.submenu-box:hover,
-.submenu-box.over {
-	display: block; 
-}
 
 
 

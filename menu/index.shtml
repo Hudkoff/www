@@ -1,37 +1,11 @@
 <link href="menu/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="menu-border">
+<div class="menu">
 	<menu class="wrapper">
 
-		<ul class="menu clearfix">
-			<li class="menu-item">
-				<a class="menu-link" href="?home">Жизнь</a>
-			</li>
-			<li class="menu-item">
-				<a class="menu-link" href="?home">Учеба</a>
-			</li>
-			<li class="menu-item">
-				<a class="menu-link" href="?home">Спросить</a>
-			</li>
-			<li class="menu-item">
-				<a class="menu-link" href="?home">Семья</a>
-			</li>
-			<li class="menu-item">
-				<a class="menu-link" href="?home">Деньги</a>
-			</li>
-			<li class="menu-item">
-				<a class="menu-link" href="?home">Моё</a>
-			</li>
-			<li class="menu-item">
-				<a class="menu-link" href="?home">Тема дня</a>
-			</li>
-		</ul>
+		<!--#include virtual="../sitemap/index.shtml"-->
 
-		<div class="submenu-box">
-			<nav class="wrapper">
-				<!--#include virtual="../sitemap/index.shtml"-->
-			</nav>
-		</div>
+		<div class="submenu-bg"></div>
 
 	</menu>
 </div>
