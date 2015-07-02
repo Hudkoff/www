@@ -1,0 +1,30 @@
+
+<div class="table-cell column-central">
+
+	<h2>
+		Фото
+	</h2>
+
+	<section class="search">
+		<form>
+			<input type="text" placeholder="Поиск">
+		</form>
+	</section>
+
+	<div class="paginator">
+		<ul>
+			<li>1</li>
+			<li>1</li>
+			<li>1</li>
+		</ul>
+	</div>
+
+	<div class="galleryBlock">
+		<div class="photoBlock">1</div>
+		<div class="photoBlock">2</div>
+		<div class="photoBlock">3</div>
+		<div class="photoBlock">1</div>
+		<div class="photoBlock">2</div>
+		<div class="photoBlock">3</div>
+	</div>
+</div>

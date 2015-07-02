@@ -19,11 +19,9 @@
 
 		<!--#include virtual="header/index.shtml"-->
 
-		бла бла контент
+		<!--#include virtual="gallery/index.shtml"-->
 
 		<!--#include virtual="footer/index.shtml"-->
-
-		<!--[if lt IE 9]><script src="_js/html5shiv.js" type="text/javascript"></script><![endif]-->
 
 </body>
 </html>
