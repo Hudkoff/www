@@ -1,53 +1,16 @@
 <link href="daytopic/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="daytopic-title">
-	<div class="menu">
-		<div class="wrapper">
-			<a href="#" title="">Элуль</a>
-			<a href="#" title="">Тшува</a>
-			<a href="#" title="">Молитва</a>
-			<a href="#" title="">Раскаяние</a>
-			<a href="#" title="">Пост Гедальи</a>
-			<a href="#" title="">Слихот</a>
-			<a href="#" title="">Отмена обетов</a>
-		</div>
-	</div>
-	<div class="wrapper">
-		<div class="bottom-text">
-			<div class="definition">Тема дня</div>
-			<h1>Рош аШана — еврейский новый год</h1>
-			<div class="details">&laquo;Не забудьте перед праздником в четверг вечером сделать эрув тавшилин!&raquo;</div>
-		</div>
-	</div>
-
-</div>
-
 <div class="daytopic-content wrapper">
 	<div class=" table">
-		<div class="table-cell column-left">
-			<div class="intopic">
-				<h3>В Тему</h3>
-				<ul>
-					<li><a href="" title="">Йом-Кипур</a></li>
-					<li><a href="" title="">Праздники</a></li>
-					<li><a href="" title="">Календарь</a></li>
-					<li><a href="" title="">Новый год и елка</a></li>
-					<li><a href="" title="">Молитвы</a></li>
-					<li><a href="" title="">Храм</a></li>
-					<li><a href="" title="">Берейшит</a></li>
-					<li><a href="" title="">Нусах</a></li>
-					<li><a href="" title="">Тишрей</a></li>
-					<li><a href="" title="">Заповеди</a></li>
-				</ul>
-				<a class="more" href="" title="">Все темы</a>
-			</div>
-		</div>
+		<aside class="table-cell column-left">
+			<!--#include virtual="../intopic/index.shtml"-->
+		</aside>
 		<div class="table-cell column-central">
-			<div class="summary">
+			<section class="summary separate">
 				<p>В этом году праздник еврейского Нового года, Рош-Ашана, наступает вечером в пятницу 18 сентября. Праздничными являются оба первых дня месяца тишрей, поэтому праздник кончится с появлением на небе первых звезд вечером 20 сентября. Все это время нельзя делать никакой работы, кроме приготовления пищи непосредственно для нужд праздника.
 				</p>
 				<a class="more" href="" title="">Читать дальше</a>
-			</div>
+			</section>
 			<div class="table">
 				<div class="table-cell">
 					<!--#include virtual="../daytopic-article/index-01.shtml"-->
@@ -68,7 +31,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="table-cell column-right"></div>
+		<aside class="table-cell column-right">
+			
+		</aside>
 	</div>
 
 </div>

@@ -11,6 +11,12 @@ body {
 }
 
 
+
+
+
+
+
+
 /* для плавающих блоков */
 .clearfix:after {
 	display: block;
@@ -25,6 +31,14 @@ body {
 	margin: 0 auto;
 	padding: 0 20px;
 }
+
+
+
+
+
+
+
+
 
 /* табличная модель */
 .table {
@@ -50,7 +64,6 @@ body {
 .table-cell .table-cell {
 	width: 50%; /* перебивает ширину - при вложнности в двойную ячейку */
 }
-
 
 b {
 	font-weight: bold;
@@ -78,6 +91,11 @@ h1 {
 	font-size: 3rem;
 }
 
+
+
+
+
+
 /* плавное изменение прозрачности  placeholder-а при фокусе */
 input[type="text"]::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
 input[type="text"]::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
@@ -99,7 +117,6 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
 
 
 /* цветные заголовки */
-
 [class ^= color] a {
 	text-decoration: none;
   	z-index: 10; /* чтоб цветная граница закрыла серую */
@@ -107,33 +124,6 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
 	padding-bottom: 10px;
 	display: block;
 	white-space: nowrap; /* чтоб строка не переносилась */
-}
-/*[class ^= color] a:hover {
-	opacity: .8;
-}*/
-[class ^= color] a:hover .arrow {
-	margin-left: 5px;
-}
-.arrow, .arrow:after {
-	font-family: Arial, serif;
-}
-.arrow {
-	position: relative;
-	display: inline-block;
-	font-size: 18px;
-	-moz-transition: all 0.2s;
-	-webkit-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
-}
-.arrow:after { 
-	font-size: 13px;
-	position: absolute;
-	display: block;
-	content: "\25C6";
-	color: #fff;
-	top: 3px;
-	left: 0;
 }
 .color-b38d39 a {
 	color: #b38d39;
@@ -155,6 +145,9 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
 	color: #7247ba;
 	border-bottom: 2px solid #7247ba;
 }
+.color-8db20e {
+	color: #8db20e;
+}
 .color-8db20e a {
 	color: #8db20e;
 	border-bottom: 2px solid #8db20e;
@@ -171,6 +164,54 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
 	color: #1259a8;
 	border-bottom: 2px solid #1259a8;
 }
+
+
+
+/* заготовка для стрелок */
+.arrow, .arrow:after {
+	font-family: Arial, serif;
+}
+.arrow {
+	position: relative;
+	display: inline-block;
+}
+.arrow:after { 
+	position: absolute;
+	display: block;
+	content: "\25C6";
+	color: #fff;
+}
+
+
+/* вправо */
+.arrow.right {
+	font-size: 18px;
+	/* анимация */
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	margin-left: 0;
+	margin-right: 4px;
+}
+.arrow.right:after { 
+	font-size: 13px;
+	top: 3px;
+	left: 0;	
+}
+a:hover .arrow.right {
+	/* анимация */
+	margin-left: 4px;
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
 
 
 

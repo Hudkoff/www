@@ -1,6 +1,6 @@
 <link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="daytopic-article clearfix">
+<section class="daytopic-article clearfix">
 	<a href="" title="">
 		<h4>Законы седьмого года 10</h4>		
 	</a>
@@ -10,4 +10,4 @@
 	<p class="description">
 		<span class="label" style="background: #8db20e">Аудио</span>
 	</p>
-</div>
+</section>

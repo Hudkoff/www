@@ -1,0 +1,18 @@
+<link href="intopic/css/css.css" rel="stylesheet" type="text/css" />
+
+<nav class="intopic" itemscope itemtype="http://schema.org/WPSideBar">
+	<h3>В Тему</h3>
+	<ul itemprop="text">
+		<li><a href="" title="">Йом-Кипур</a></li>
+		<li><a href="" title="">Праздники</a></li>
+		<li><a href="" title="">Календарь</a></li>
+		<li><a href="" title="">Новый год и елка</a></li>
+		<li><a href="" title="">Молитвы</a></li>
+		<li><a href="" title="">Храм</a></li>
+		<li><a href="" title="">Берейшит</a></li>
+		<li><a href="" title="">Нусах</a></li>
+		<li><a href="" title="">Тишрей</a></li>
+		<li><a href="" title="">Заповеди</a></li>
+	</ul>
+	<a class="more" href="" title="">Все темы</a>
+</nav>

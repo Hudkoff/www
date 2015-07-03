@@ -1,0 +1,23 @@
+<link href="daytopic-title/css/css.css" rel="stylesheet" type="text/css" />
+
+<div class="daytopic-title">
+	<div class="daytopic-menu">
+		<div class="wrapper">
+			<a href="#" title="">Элуль</a>
+			<a href="#" title="">Тшува</a>
+			<a href="#" title="">Молитва</a>
+			<a href="#" title="">Раскаяние</a>
+			<a href="#" title="">Пост Гедальи</a>
+			<a href="#" title="">Слихот</a>
+			<a href="#" title="">Отмена обетов</a>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="bottom-text">
+			<div class="definition">Тема дня</div>
+			<h1>Рош аШана — еврейский новый год</h1>
+			<div class="details">&laquo;Не забудьте перед праздником в четверг вечером сделать эрув тавшилин!&raquo;</div>
+		</div>
+	</div>
+
+</div>

@@ -1,14 +1,14 @@
 <link href="block-b/css/css.css" rel="stylesheet" type="text/css" />
 
 
-<div class="block-b wrapper">
+<div class="block-b wrapper" itemprop="mainContentOfPage">
 	<div class="table ">
-		<div class="table-cell double">
+		<section class="table-cell double">
 			<div>
 				<h3 class="color-727272">
 					<a href="#" title="">
 						Статьи
-						<b class="arrow">&#9670;</b>
+						<b class="arrow right">&#9670;</b>
 					</a>
 				</h3>
 			</div>
@@ -34,14 +34,14 @@
 					<!--#include virtual="../article/index-23.shtml"-->
 				</div>
 			</div>
-		</div>
+		</section>
 		<div class="table-cell">
 			<div class="table">
-				<div class="table-cell">
+				<section class="table-cell">
 					<h3 class="color-3792aa">
 						<a href="#" title="">
 							Блоги
-							<b class="arrow">&#9670;</b>
+							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
 					<!--#include virtual="../article/index-31.shtml"-->
@@ -49,18 +49,18 @@
 					<!--#include virtual="../article/index-33.shtml"-->
 					<!--#include virtual="../article/index-32.shtml"-->
 					<!--#include virtual="../article/index-33.shtml"-->
-				</div>
-				<div class="table-cell">
+				</section>
+				<section class="table-cell">
 					<h3 class="color-7247ba">
 						<a href="#" title="">
 							Тесты
-							<b class="arrow">&#9670;</b>
+							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
 					<!--#include virtual="../tests/index-01.shtml"-->
 					<!--#include virtual="../tests/index-02.shtml"-->
 					<!--#include virtual="../tests/index-03.shtml"-->
-				</div>
+				</section>
 			</div>
 		</div>
 	</div>
@@ -68,11 +68,11 @@
 
 <div class="block-b wrapper">
 	<div class="table ">
-		<div class="table-cell">
+		<section class="table-cell">
 			<h3 class="color-8db20e">
 				<a href="#" title="">
 					Аудио
-					<b class="arrow">&#9670;</b>
+					<b class="arrow right">&#9670;</b>
 				</a>
 			</h3>
 			<!--#include virtual="../article/index-41.shtml"-->
@@ -80,40 +80,40 @@
 			<!--#include virtual="../article/index-41.shtml"-->
 			<!--#include virtual="../article/index-42.shtml"-->
 			<!--#include virtual="../article/index-41.shtml"-->
-		</div>
-		<div class="table-cell">
+		</section>
+		<section class="table-cell">
 			<h3 class="color-43ac69">
 				<a href="#" title="">
 					Видео
-					<b class="arrow">&#9670;</b>
+					<b class="arrow right">&#9670;</b>
 				</a>
 			</h3>
 			<!--#include virtual="../video-link/index-01.shtml?block"-->
 			<!--#include virtual="../video-link/index-02.shtml?none"-->
 			<!--#include virtual="../video-link/index-03.shtml?none"-->
-		</div>
+		</section>
 		<div class="table-cell">
 			<div class="table">
-				<div class="table-cell">
+				<section class="table-cell">
 					<h3 class="color-b20e89">
 						<a href="#" title="">
 							В Толдоте
-							<b class="arrow">&#9670;</b>
+							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>					
 					<!--#include virtual="../intoldot/index-01.shtml"-->
 					<!--#include virtual="../intoldot/index-02.shtml"-->
 					<!--#include virtual="../intoldot/index-03.shtml"-->
-				</div>
-				<div class="table-cell">
+				</section>
+				<section class="table-cell">
 					<h3 class="color-1259a8">
 						<a href="#" title="">
 							Магазин
-							<b class="arrow">&#9670;</b>
+							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>					
 					<!--#include virtual="../shop-item/index.shtml"-->
-				</div>
+				</section>
 			</div>
 		</div>
 	</div>

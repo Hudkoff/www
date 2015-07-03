@@ -1,22 +1,32 @@
 <link href="topbar/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="topbar clearfix">
-	<div class="wrapper clearfix">
+<div class="topbar clearfix" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	<section class="wrapper clearfix">
 	
-	<ul class="topnav">
-		<li><a class="articles" href="#">Статьи</a></li>
-		<li><a class="audio" href="#">Аудио</a></li>
-		<li><a class="video" href="#">Видео</a></li>
-		<li><a class="photo" href="#">Фото</a></li>
-		<li><a class="blogs" href="#">Блоги</a></li>
-	</ul>
+		<menu class="topnav">
+			<a class="articles" href="#" itemprop="text">Статьи</a>
+			<a class="audio" href="#" itemprop="text">Аудио</a>
+			<a class="video" href="#" itemprop="text">Видео</a>
+			<a class="photo" href="#" itemprop="text">Фото</a>
+			<a class="blogs" href="#" itemprop="text">Блоги</a>
+		</menu>
 
-	<div class="search">
-		<form>
-			<input type="text" placeholder="Поиск">
-			<input type="submit" value="&nbsp;">
-		</form>
-	</div>
+		<section class="search">
+			<form>
+				<input type="text" placeholder="Поиск">
+				<input type="submit" value="&nbsp;">
+			</form>
+		</section>
 
-	</div>
+		<menu class="lang">
+			<a class="e" href="#" itemprop="text">English</a>
+			<a class="i" href="#" itemprop="text">עברית</a>
+			<a class="d" href="#" itemprop="text">Deutsch</a>
+		</menu>
+
+		<menu class="login">
+			<a class="" href="#" itemprop="text"><span>Войти</span></a>
+		</menu>
+
+	</section>
 </div>

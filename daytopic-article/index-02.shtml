@@ -1,6 +1,6 @@
 <link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="daytopic-article clearfix">
+<section class="daytopic-article clearfix">
 	<a href="" title="">
 		<div class="clearfix">
 			<img class="avatar" src="article/images/avatar-32.jpg" alt="" />
@@ -13,4 +13,4 @@
 		</div>
 		<h4>Есть ли срок жизни у раввинов?</h4>		
 	</a>
-</div>
+</section>

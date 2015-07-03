@@ -1,0 +1,81 @@
+header,
+nav,
+section,
+article,
+aside,
+footer {
+    display: block;
+}
+
+h6 {
+    font-size: 14px;
+}
+h5 {
+    font-size: 16px;
+}
+h4 {
+    font-size: 18px;
+}
+h3 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 24px;
+}
+h1 {
+    font-size: 30px;
+}
+
+section {
+    display: block;
+}
+
+.topnav a {
+    font-size: 13px;
+}
+
+.topbar a {
+    font-size: 13px;
+}
+
+.logo .title {
+    font-size: 36px;
+}
+
+.logo .note {
+    font-size: 12px;
+}
+
+.menu-link {
+    font-size: 22px;
+}
+
+.submenu-box {
+    top: 50px !important;
+}
+
+.submenu-box li a {
+    font-size: 13px !important;;
+    font-weight: 300 !important;
+    line-height: 20px !important;
+}
+
+.lenta {
+    font-size: 13px;
+}
+
+.article .details {
+    font-size: 12px;
+}
+
+.article .description {
+    font-size: 14px;
+}
+
+.favourite .description {
+    font-size: 14px;
+}
+
+.tests .description {
+    font-size: 14px;
+}

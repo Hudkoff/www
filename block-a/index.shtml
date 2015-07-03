@@ -1,43 +1,43 @@
 <link href="block-a/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="block-a wrapper">
+<div class="block-a wrapper" itemprop="mainContentOfPage">
 	<div class="table ">
 		<div class="table-cell column-left">
 			<div class="table">
 				<div class="table-cell slider-box">
 					<!--#include virtual="../slider/index.shtml"-->
 				</div>
-				<a class="table-cell banner-central" href="" title="">
+				<a class="table-cell banner-central" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
 					<img src="block-a/images/main-banner_01.jpg" alt="">
 				</a>
 			</div>
 			<div class="table">
-				<div class="table-cell questions-box">
+				<section class="table-cell questions-box">
 					<h3 class="color-b38d39">
 						<a href="#" title="">
 							Вопросы раввину
-							<b class="arrow">&#9670;</b>
+							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
 					<!--#include virtual="../article/index-11.shtml"-->
 					<!--#include virtual="../article/index-12.shtml"-->
 					<!--#include virtual="../article/index-13.shtml"-->
-				</div>
-				<div class="table-cell questions-box">
+				</section>
+				<section class="table-cell questions-box">
 					<h3 class="color-d55940">
 						<a href="#" title="">
 							Семья
-							<b class="arrow">&#9670;</b>
+							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
 					<!--#include virtual="../article/index-11.shtml"-->
 					<!--#include virtual="../article/index-12.shtml"-->
 					<!--#include virtual="../article/index-13.shtml"-->
-				</div>
+				</section>
 			</div>
 		</div>
-		<div class="table-cell column-right">
-			<div class="lenta-box">
+		<aside class="table-cell column-right">
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
 				<!--#include virtual="../lenta/index-01.shtml?f8f8f8"-->
 				<!--#include virtual="../lenta/index-02.shtml?ededed"-->
 				<!--#include virtual="../lenta/index-03.shtml?e5edf6"-->
@@ -47,10 +47,10 @@
 				<!--#include virtual="../lenta/index-07.shtml?e5edf6"-->
 				<!--#include virtual="../lenta/index-08.shtml?d3f1de"-->
 				<!--#include virtual="../lenta/index-09.shtml?e1f5fa"-->
-			</div>
-			<a class="" href="" title="">
+			</section>
+			<a class="" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
 				<img src="block-a/images/right-banner_01.jpg" alt="">
 			</a>
-		</div>
+		</aside>
 	</div>
 </div>

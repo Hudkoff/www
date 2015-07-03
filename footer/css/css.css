@@ -1,4 +1,4 @@
-.footer {
+footer {
 	border-top: 1px solid #dddddd;
 	background: #f3f3f3;
 	background-image: -webkit-linear-gradient(top, #eee, #f8f8f8);
@@ -6,7 +6,7 @@
    background-image: -ms-linear-gradient(top, #eee, #f8f8f8);
    background-image: -o-linear-gradient(top, #eee, #f8f8f8);
 }
-.footer .separate {
+footer .separate {
 	border-bottom: 1px solid #d2d2d2;
 }
 
@@ -14,7 +14,6 @@
 
 
 /* второй блок */
-
 .contacts-box {
 	padding: 35px 0 25px;
 	font-family: 'Open Sans', sans-serif;
@@ -22,12 +21,24 @@
 	font-size: 1.2rem;
 	color: #707070;
 }
-.contacts-box .contacts  {
+address  {
 	margin-bottom: 17px;
 }
-.contacts-box .contacts span {
-	margin: 0 40px 40px 0;
+address .part {
+	margin-left: 3%;
 }
+address .part:first-child {
+	margin-left: 0;
+}
+address a {
+	font-weight: bold;
+	text-decoration: none;
+	color: inherit;
+}
+address a:hover {
+	text-decoration: underline;
+}
+
 .contacts-box .socials a {
 	text-decoration: none;
 	font-size: 0;
@@ -38,8 +49,9 @@
 	opacity: .7;
 }
 
-/* третий блок */
 
+
+/* третий блок */
 .copyrights-box {
 	padding: 35px 0 25px;
 	font-family: 'Open Sans', sans-serif;

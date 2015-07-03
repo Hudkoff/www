@@ -1,62 +1,3 @@
-
-/* хидер */
-.daytopic-title {
-	background: #f90 url("../images/header-bg.jpg") no-repeat center;
-/*	background-size: cover; /* отклонено */
-	height: 295px;
-	position: relative;
-}
-.daytopic-title .menu {
-	background: rgba(0,0,0,.3);
-	font-family: 'Open Sans', sans-serif;
-}
-.daytopic-title .menu a {
-	color: #fff;
-	font-weight: bold;
-	font-size: 1.8rem;
-	text-decoration: none;
-	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
-
-	display: inline-block;
-	padding: 12px 12px 14px 0;
-}
-.daytopic-title .menu a:hover {
-	text-decoration: underline;
-}
-.daytopic-title .bottom-text {
-	margin-left: 20%;
-	padding-left: 20px;
-	bottom: 10px;
-	position: absolute;
-}
-.daytopic-title .bottom-text .definition {
-	font-family: 'Open Sans', sans-serif;
-	color: #fff;
-	font-size: 1.4rem;
-	font-weight: bold;
-	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
-	margin-bottom: 5px;
-}
-.daytopic-title .bottom-text h1 {
-	font-family: 'Noto Serif', serif;
-	color: #fff;
-	font-size: 3rem;
-	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
-}
-.daytopic-title .bottom-text .details {
-	font-family: 'Open Sans', sans-serif;
-	color: #fff;
-	font-size: 1.6rem;
-	font-weight: 600;
-	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
-}
-
-
-
-
-
-
-/* контентная область */
 .daytopic-content {
 	margin-bottom: 20px;
 	background-image: url("../images/content-bg_01.jpg"), url("../images/content-bg_02.jpg");
@@ -73,40 +14,6 @@
 
 
 
-
-.daytopic-content .column-left .intopic {
-	border: 1px solid #ccc;
-	margin: 20px 20px 0 0;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.3rem;
-	padding: 15px 20px 20px;
-}
-.daytopic-content .column-left h3 {
-	font-family: 'Noto Serif', serif;
-	margin-bottom: 20px;
-}
-.daytopic-content .column-left ul {
-	margin-bottom: 20px;
-}
-.daytopic-content .column-left li {
-	padding-bottom: 5px;
-}
-.daytopic-content .column-left li:before {
-	color: #2f63b7;
-	display: inline-block;
-	content: "\2022";
-	padding-right: 5px;
-}
-.daytopic-content .column-left a {
-	color: #2f63b7;
-}
-
-
-
-
-
-
-
 .daytopic-content .column-central {
 	border: 1px solid #ccc;
 	border-top: 0;
@@ -115,11 +22,13 @@
 	background: rgba(255,255,255,.9);
 }
 .daytopic-content .column-central .summary {
-	border-bottom: 1px solid #ccc;
 	font-family: 'Noto Serif', serif;
 	font-size: 1.6rem;
 	line-height: 1.6;
 	padding-bottom: 30px;
+}
+.daytopic-content .column-central .summary.separate {
+	border-bottom: 1px solid #ccc;
 }
 .daytopic-content .column-central .summary a {
 	color: #0e53b2;

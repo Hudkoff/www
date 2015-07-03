@@ -1,6 +1,6 @@
 <link href="banner-wide/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="banner-wide">
+<div class="banner-wide" itemscope itemtype="http://schema.org/WPAdBlock">
 	<div class="wrapper">
 		
 	</div>
