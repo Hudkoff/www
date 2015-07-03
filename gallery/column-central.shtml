@@ -20,11 +20,89 @@
 	</div>
 
 	<div class="galleryBlock">
-		<div class="photoBlock">1</div>
-		<div class="photoBlock">2</div>
-		<div class="photoBlock">3</div>
-		<div class="photoBlock">1</div>
-		<div class="photoBlock">2</div>
-		<div class="photoBlock">3</div>
+		<div class="photoBlock">
+			<div class="folder">
+				<img src="gallery/images/photo-1.jpg" alt="В израиле"/>
+				<div class="overlay">
+					<h3>
+						В израиле
+					</h3>
+					<div class="photoCount">
+						91
+					</div>
+				</div>
+			</div>
+			<div class="underlines"></div>
+			<div class="info">
+				28 марта,
+				<b>Рав Моше Пантелят</b>
+			</div>
+		</div>
+
+		<div class="photoBlock photo">
+			<img src="gallery/images/photo-2.jpg" alt="Выставка народного творчества"/>
+			<h6>Выставка народного творчества</h6>
+			<div class="info">
+				28 марта,
+				<b>Рав Моше Пантелят</b>
+			</div>
+		</div>
+
+		<div class="photoBlock">
+			<div class="folder">
+				<img src="gallery/images/photo-3.jpg" alt="В израиле"/>
+				<div class="overlay">
+					<h3>
+						Встреча с раввином
+					</h3>
+					<div class="photoCount">
+						591
+					</div>
+				</div>
+			</div>
+			<div class="underlines"></div>
+			<div class="info">
+				28 марта,
+				<b>Рав Моше Пантелят</b>
+			</div>
+		</div>
+
+		<div class="photoBlock">
+			<div class="folder">
+				<img src="gallery/images/photo-1.jpg" alt="В израиле"/>
+				<div class="overlay">
+					<h3>
+						В израиле
+					</h3>
+					<div class="photoCount">
+						91
+					</div>
+				</div>
+			</div>
+			<div class="underlines"></div>
+			<div class="info">
+				28 марта,
+				<b>Рав Моше Пантелят</b>
+			</div>
+		</div>
+
+		<div class="photoBlock photo">
+			<img src="gallery/images/photo-4.jpg" alt="Весенний пикник"/>
+			<h6>Весенний пикник</h6>
+			<div class="info">
+				28 марта,
+				<b>Рав Моше Пантелят</b>
+			</div>
+		</div>
+
+		<div class="photoBlock photo">
+			<img src="gallery/images/photo-3.jpg" alt="Беседа с раввином"/>
+			<h6>Беседа с раввином</h6>
+			<div class="info">
+				28 марта,
+				<b>Рав Моше Пантелят</b>
+			</div>
+		</div>
+
 	</div>
 </div>
