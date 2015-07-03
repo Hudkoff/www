@@ -1,7 +1,7 @@
 <link href="daytopic-title/css/css.css" rel="stylesheet" type="text/css" />
 
 <div class="daytopic-title">
-	<div class="menu">
+	<div class="daytopic-menu">
 		<div class="wrapper">
 			<a href="#" title="">Элуль</a>
 			<a href="#" title="">Тшува</a>
