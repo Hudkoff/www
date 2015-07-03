@@ -1,0 +1,30 @@
+<link href="audio-main/css/css.css" rel="stylesheet" type="text/css" />
+
+<div class="audio-main wrapper">
+	<div class="table">
+		<div class="table-cell column-left">
+			<!--#include virtual="../audio-side-nav/index.shtml"-->
+		</div>
+		<div class="table-cell column-central">
+
+			<div class="audio-lessons"></div>
+			
+		</div>
+		<div class="table-cell column-right">
+			<!--#include virtual="../radio-toldot/index.shtml"-->
+			
+			<div class="lenta-box">
+				<!--#include virtual="../lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="../lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="../lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="../lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="../lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="../lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="../lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="../lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="../lenta/index-09.shtml?e1f5fa"-->
+			</div>
+
+		</div>
+	</div>
+</div>

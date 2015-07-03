@@ -145,6 +145,9 @@ input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opa
 	color: #7247ba;
 	border-bottom: 2px solid #7247ba;
 }
+.color-8db20e {
+	color: #8db20e;
+}
 .color-8db20e a {
 	color: #8db20e;
 	border-bottom: 2px solid #8db20e;
