@@ -1,4 +1,46 @@
 
-<div class="table-cell column-right">
-	left column
-</div>
+<aside class="table-cell column-right">
+
+	<div class="banner-aside">
+		<a href="#">
+			<img src="gallery/images/banner_2.jpg" alt="Шавуот. Как купить подарок?"/>
+		</a>
+	</div>
+
+	<section class="questionOfTheDay">
+		<h3>
+			Вопрос дня
+		</h3>
+		<div class="question">Если ученые-атеисты ошибаются, то откуда у них такие успехи?</div>
+		<div class="info">
+			28 марта,
+			<b>Элла Абрамовна</b>
+		</div>
+		<div class="answer clearfix">
+			<div class="icon">
+				<img src="gallery/images/avatar-11.jpg" alt="Рав Ашер Кушнир"/>
+			</div>
+			<div class="info">
+				Отвечает:
+				<div class="name">
+					Рав Ашер Кушнир
+				</div>
+				<a href="#" title="Читать ответ">Читать ответ &#8594;</a>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<h3 class="color-3792aa">
+			<a href="#" title="">
+				Блоги
+				<b class="arrow right">&#9670;</b>
+			</a>
+		</h3>
+		<!--#include virtual="../article/index-31.shtml"-->
+		<!--#include virtual="../article/index-32.shtml"-->
+		<!--#include virtual="../article/index-33.shtml"-->
+		<!--#include virtual="../article/index-32.shtml"-->
+		<!--#include virtual="../article/index-33.shtml"-->
+	</section>
+</aside>
