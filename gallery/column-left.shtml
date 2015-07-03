@@ -1,4 +1,72 @@
 
-<div class="table-cell column-left">
-	left column
-</div>
+<aside class="table-cell column-left">
+
+	<div class="galleryCategories">
+		<h4>
+			Фото
+		</h4>
+		<ul>
+			<li>
+				<a href="#">
+					Праздники
+				</a>
+			</li>
+			<li>
+                <a href="#">
+                    Путешествия
+                </a>
+            </li>
+			<li>
+                <a href="#">
+                    Дети
+                </a>
+            </li>
+			<li>
+                <a href="#">
+                    Еврейская жизнь
+                </a>
+            </li>
+			<li>
+                <a href="#">
+                    Еврейская история
+                </a>
+            </li>
+			<li>
+                <a href="#">
+                    Пейзаж
+                </a>
+            </li>
+			<li>
+                <a href="#">
+                    Животные
+                </a>
+            </li>
+			<li>
+                <a href="#">
+                    Свадьба
+                </a>
+            </li>
+			<li>
+                <a href="#">
+                    Семья
+                </a>
+            </li>
+			<li>
+                <a href="#">
+                    Разное
+                </a>
+            </li>
+			<li>
+                <a href="#">
+                    Молитва
+                </a>
+            </li>
+		</ul>
+	</div>
+
+    <div class="banner">
+        <a href="#">
+            <img src="gallery/images/banner_1.jpg" alt="Где учиьть ТОРУ?"/>
+        </a>
+    </div>
+</aside>
