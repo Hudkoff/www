@@ -1,6 +1,6 @@
 
 .daytopic-content .column-left .intopic {
-	border: 1px solid #ccc;
+	border: 1px solid #e5e5e5;
 	margin: 20px 20px 0 0;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.3rem;
@@ -25,6 +25,3 @@
 .daytopic-content .column-left .intopic a {
 	color: #2f63b7;
 }
-
-
-

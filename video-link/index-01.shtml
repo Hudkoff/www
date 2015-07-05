@@ -1,5 +1,3 @@
-<link href="video-link/css/css.css" rel="stylesheet" type="text/css" />
-
 <a href="" class="video-link clearfix" title="">
 	<div class="screenshot" style="background-image: url('video-link/images/screen_01.jpg')">
 		<div class="fader">
@@ -13,4 +11,3 @@
 		<p class="details">28 марта, <b>Рав Моше Пантелят</b></p>
 	</div>
 </a>
-

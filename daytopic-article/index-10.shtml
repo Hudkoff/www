@@ -1,5 +1,3 @@
-<link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
-
 <section class="daytopic-article clearfix">
 	<a href="" title="" class="bg-img" style="background-image: url('daytopic-article/images/img-02.png')">
 		<div>
@@ -17,5 +15,4 @@
 	<p class="description">
 		В течение этого месяца мы стараемся обеспечить себе как можно больше добрых...
 	</p>
-
 </section>

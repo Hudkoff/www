@@ -1,9 +1,7 @@
 .daytopic-article {
 	font-family: 'Noto Serif', serif;
 	display: block;
- 	border-top: 1px solid #ccc;
- 	margin-top: -1px; /* чтоб цветная граница закрыла серую */
- 	z-index: 1;  /* чтоб цветная граница закрыла серую */
+ 	border-top: 1px solid #e5e5e5;
  	padding: 20px 0;
 }
 .daytopic-article:first-child {
@@ -82,8 +80,6 @@
 	height: 110px;
 	max-width: 240px;
 }
-
-
 
 
 
@@ -202,15 +198,6 @@
 	font-weight: bold;
 	padding: 1px 3px 1px;
 }
-
-
-
-
-
-
-
-
-
 
 
 

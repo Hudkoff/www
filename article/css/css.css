@@ -1,21 +1,30 @@
 .article {
 	font-family: 'Noto Serif', serif;
 	display: block;
- 	border-top: 1px solid #ccc;
- 	margin-top: -1px; /* чтоб цветная граница закрыла серую */
- 	z-index: 1;  /* чтоб цветная граница закрыла серую */
- 	padding: 15px 0;
+ 	border-top: 1px solid #e5e5e5;
+ 	/* margin-top: -1px; чтоб цветная граница закрыла серую */
+ 	/* z-index: 1;  чтоб цветная граница закрыла серую */
+ 	padding: 20px 0;
  	color: #000;
  	text-decoration: none;
 }
+.article.small-padding {
+ 	padding: 10px 0 9px;
+}
 .article:first-child {
  	border-top: 0;
+ 	padding-top: 20px;
 }
 .article h6,
 .article h5,
 .article h4 {
 	margin-bottom: 5px;
 }
+.article a {
+	text-decoration: none;
+ 	color: #000;
+}
+.article a:hover,
 .article:hover h6,
 .article:hover h5,
 .article:hover h4 {
@@ -25,11 +34,11 @@
 /* колонки */
 .article .icon {
 	float: left;
+	font-size: 0;
  }
 .article .content {
   margin-left: 79px;
  }
-
 
 .article .details {
 	font-family: 'Open Sans', sans-serif;
@@ -41,6 +50,7 @@
 	font-size: 1.4rem;
 	line-height: 1.4;
 }
+
 .favourite .description {
 	line-height: 1.6;
 }

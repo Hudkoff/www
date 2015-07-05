@@ -1,14 +1,16 @@
 .tests {
 	display: block;
-	border-top: 1px solid #ccc;
- 	margin-top: -1px; /* чтоб цветная граница закрыла серую */
- 	z-index: 1;  /* чтоб цветная граница закрыла серую */
+	border-top: 1px solid #e5e5e5;
  	padding: 20px 0;
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
 }
+.tests.small-padding {
+ 	padding: 15px 0 12px;
+}
 .tests:first-child {
  	border-top: 0;
+ 	padding-top: 20px;
 }
 .tests div {
 	height: 64px;

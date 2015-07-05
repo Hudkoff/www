@@ -1,6 +1,4 @@
-<link href="tests/css/css.css" rel="stylesheet" type="text/css" />
-
-<a href="#" class="tests" title="">
+<a href="#" class="tests small-padding" title="">
 	<div style="background-image: url('tests/images/test-01.jpg')">
 		<span>
 			50
@@ -9,4 +7,3 @@
 	</div>
 	<span class="description">Книга пророка Йирмиягу</span>
 </a>
-

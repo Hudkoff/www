@@ -1,17 +1,11 @@
 .intoldot {
 	display: block;
-	border-top: 1px solid #ccc;
- 	margin-top: -1px; /* чтоб цветная граница закрыла серую */
- 	z-index: 1;  /* чтоб цветная граница закрыла серую */
+	border-top: 1px solid #e5e5e5;
  	padding: 20px 0;
 	font-family: 'Open Sans', sans-serif;
-	text-decoration: none;
 }
 .intoldot:first-child {
  	border-top: 0;
-}
-.intoldot:hover .description {
-	text-decoration: underline;
 }
 .intoldot .date {
 	color: #b3b2b2;
@@ -23,5 +17,10 @@
 	font-size: 1.3rem;
 	color: #000;
 	line-height: 1.5;
+	text-decoration: none;
+	display: inline-block;
+}
+.intoldot .description:hover {
+	text-decoration: underline;
 }
 

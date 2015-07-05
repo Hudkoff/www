@@ -1,4 +1,5 @@
 <link href="block-a/css/css.css" rel="stylesheet" type="text/css" />
+<link href="article/css/css.css" rel="stylesheet" type="text/css" />
 
 <div class="block-a wrapper" itemprop="mainContentOfPage">
 	<div class="table ">
@@ -19,9 +20,11 @@
 							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
-					<!--#include virtual="../article/index-11.shtml"-->
-					<!--#include virtual="../article/index-12.shtml"-->
-					<!--#include virtual="../article/index-13.shtml"-->
+					<div>
+						<!--#include virtual="../article/index-11.shtml"-->
+						<!--#include virtual="../article/index-12.shtml"-->
+						<!--#include virtual="../article/index-13.shtml"-->
+					</div>
 				</section>
 				<section class="table-cell questions-box">
 					<h3 class="color-d55940">
@@ -30,9 +33,11 @@
 							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
-					<!--#include virtual="../article/index-11.shtml"-->
-					<!--#include virtual="../article/index-12.shtml"-->
-					<!--#include virtual="../article/index-13.shtml"-->
+					<div>
+						<!--#include virtual="../article/index-11.shtml"-->
+						<!--#include virtual="../article/index-12.shtml"-->
+						<!--#include virtual="../article/index-13.shtml"-->
+					</div>
 				</section>
 			</div>
 		</div>

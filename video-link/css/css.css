@@ -1,8 +1,11 @@
 .video-link {
 	display: block;
 	text-decoration: none;
+	margin-top: 27px;
+	border: 1px solid #e5e5e5;
+}
+.video-link:first-child {
 	margin-top: 20px;
-	border: 1px solid #ccc;
 }
 .video-link .screenshot {
 	float: left;
@@ -47,8 +50,6 @@
 .video-link:hover .date {
 	opacity: 1;
 }
-
-
 
 
 
