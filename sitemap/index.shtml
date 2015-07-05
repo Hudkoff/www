@@ -1,6 +1,6 @@
 <link href="sitemap/css/css.css" rel="stylesheet" type="text/css" />
 
-<ul class="root">
+<ul class="root wrapper">
 	<li class="section">
 		<a class="menu-item" href="" title="">Жизнь</a>
 		<ul class="submenu">

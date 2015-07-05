@@ -1,16 +1,23 @@
 $(document).ready(function() {
 	
-	var menu = $(".menu");
-	var menuItem = $(menu).find(".section");
-	var submenu = $(menu).find(".submenu");
+	var menu = $(".main-menu");
+	var section = $(menu).find(".section").not(".no-in-menu"); // все, кроме скрытых
+	var submenu = $(section).find(".submenu"); 
 	var bg = $(menu).find(".submenu-bg");
 	var height = [0]; // переменная, которая будет хранить высоты элементов
 	var max;
+	var el;
 	var done = false;
-
 
 	// ищем максимальную высоту среди подменю
 	$(submenu).each(function(indx, element){
+		// находим и устанавливаем ширину пунктов
+		w = $(this).outerWidth();
+		el = $(section)[indx];
+		if ($(el).width() <= w) {
+			$(el).width(w+10);
+		}
+		// находим максимальную высоту подменю
 		h = $(this).outerHeight();
 		height.push(h);	// в массиве 2 значения: [0, h]
 		max = Math.max(height[0], height[1]); // выбираем максимальное из них
@@ -19,18 +26,27 @@ $(document).ready(function() {
 
 	// добавляем запас и назначем высоту подложен и блокам подменю
 	height[0] += 15;
-	$(menuItem).hover(function(){
+	$(menu).hover(function(){
 		if (!done) {
 			$(bg).height(height[0]);
 			$(submenu).height(height[0]);
 			done = true;
 		}
+		// если нет класса, анимируем - проверка, чтоб не запускать повторную анимацию
+		if (!$(bg).hasClass("on")) {
+			$(bg).addClass("on").stop(true,true).fadeIn(150);
+			$(submenu).stop(true,true).fadeIn(150);			
+		} 
 	},function(){
 		if (!done) {
 			$(bg).height(height[0]);
 			$(submenu).height(height[0]);
 			done = true;
 		}
+		if ($(bg).hasClass("on")) {
+			$(bg).removeClass("on").stop(true,true).fadeOut(150);
+			$(submenu).stop(true,true).fadeOut(150);			
+		} 
 	});
 
 });
