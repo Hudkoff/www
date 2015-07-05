@@ -1,0 +1,21 @@
+.bread-crumbs {
+	margin-bottom: 10px;
+	font-size: 0;
+	color: #8f9398;
+}
+.bread-crumbs li {
+	display: inline-block;
+	font: normal 1.3rem 'Open Sans', sans-serif;
+}
+.bread-crumbs li a {
+	color: #8f9398;
+}
+.bread-crumbs li:before {
+	content: '/';
+	display: inline-block;
+	margin: 0 4px;
+}
+.bread-crumbs li:first-child:before {
+	content: '';
+	margin: 0;
+}
