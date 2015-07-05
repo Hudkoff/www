@@ -3,12 +3,12 @@
 }
 .audio-side-nav h3 {
 	font-size: 1.8rem;
-	color: #8db20e;
 }
 .audio-side-nav h3 a {
 	display: block;
 	height: 100%;
-	color: #8db20e;
+	padding: 0;
+	border: none;
 	text-decoration: none;
 }
 .audio-side-nav h3 a:hover {

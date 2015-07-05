@@ -6,9 +6,22 @@
 			<!--#include virtual="../audio-side-nav/index.shtml"-->
 		</div>
 		<div class="table-cell column-central">
+			<!--#include virtual="../breadcrumbs/index.shtml"-->
 
-			<div class="audio-lessons"></div>
-			
+			<div class="audio-lessons table">
+				<div class="table-cell">
+					<h1 class="color-8db20e">Аудиоуроки</h1>
+					<div class="audio-lessons-summary">
+						<p><span>20 567</span> аудиоуроков, <span>358</span> авторов</p>
+						<!--#include virtual="../audio-lesson/index.shtml"-->
+					</div>
+				</div>
+				<div class="table-cell">
+					<div class="different-font-size">
+						<h3 class="">Циклы</h3>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="table-cell column-right">
 			<!--#include virtual="../radio-toldot/index.shtml"-->
