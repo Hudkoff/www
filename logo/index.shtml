@@ -1,7 +1,6 @@
 <link href="logo/css/css.css" rel="stylesheet" type="text/css" />
 
-<a href="index.html" class="logo" title="">
+<a href="index.shtml" class="logo" title="">
 	<span class="title">Иудаизм и евреи</span>
 	<span class="note">Памяти Фрумы Малки Швингер посвящается</span>
 </a>
-
