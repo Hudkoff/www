@@ -7,19 +7,19 @@
 			<a class="table-cell banner" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
 				<img src="audio-catalog/images/banner_01.jpg" alt="">
 			</a>
-			<h4>Рекомендуем:</h4>
+			<h4 class="title">Рекомендуем:</h4>
 			<div>
 				<!--#include virtual="../recommendation-link/index-01.shtml"-->
 				<!--#include virtual="../recommendation-link/index-02.shtml"-->
 				<!--#include virtual="../recommendation-link/index-03.shtml"-->
 			</div>
-			<section class="">
-				<h3 class="color-1259a8">
+			<section>
+				<h4 class="color-1259a8">
 					<a href="#" title="">
 						Магазин
 						<b class="arrow right">&#9670;</b>
 					</a>
-				</h3>					
+				</h4>					
 				<!--#include virtual="../shop-item/index.shtml"-->
 			</section>	
 		</div>

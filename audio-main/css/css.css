@@ -28,7 +28,7 @@
 	border-bottom: 2px solid #d6ddcf;
 }
 .audio-main .column-central h3 {
-	padding: 10px 0 12px 0;
+  	padding: 10px 0 1px 0;
 }
 .audio-lessons-summary {
 	font: normal 1.4rem 'Open Sans', sans-serif;
@@ -36,4 +36,10 @@
 .audio-lessons-summary span {
 	font-weight: bold;
 	color: #8db20e;
+}
+.audio-main .column-central .more {
+	float: right;
+	margin-top:13px;
+	font: normal 1.3rem 'Open Sans', sans-serif;
+	color: #4a7ec0;
 }
