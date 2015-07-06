@@ -1,0 +1,42 @@
+.catalog-pagination {
+	display: table;
+	margin: 0 auto;
+	font: bold 1.4rem 'Open Sans', sans-serif;
+}
+.catalog-pagination ul {
+	display: inline-block;
+	vertical-align: top;
+}
+.catalog-pagination li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.catalog-pagination li:first-child {
+	margin-left: 20px;
+}
+.catalog-pagination li a {
+	text-decoration: none;
+	color: #000;
+	line-height: 30px;
+}
+.catalog-pagination li.selected a {
+	display: block;
+	width: 30px;
+	color: #fff;
+	background: #8db20e;
+	border-radius: 50%;
+	text-align: center;
+}
+.catalog-pagination .left-button, 
+.catalog-pagination .right-button {
+	display: inline-block;
+	height: 28px;
+	width: 28px;
+	background: url("../images/left-button.png") 9px 7px no-repeat;
+	vertical-align: top;
+	border:2px solid #e5e5e5;
+	border-radius: 50%;
+}
+.catalog-pagination .right-button {
+	background: url("../images/right-button.png") 11px 7px no-repeat;
+}

@@ -1,5 +1,5 @@
 <link href="audio-authors/css/css.css" rel="stylesheet" type="text/css" />
-<ul class="audio-authors">
+<ul class="audio-authors-list">
 	<li><a href="#" title="Бурштейн Хаим">Бурштейн Хаим</a></li>
 	<li><a href="#" title="Вассерман Цви">Вассерман Цви</a></li>
 	<li><a href="#" title="Гитик Михаэль">Гитик Михаэль</a></li>

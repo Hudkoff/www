@@ -1,9 +1,8 @@
 <div class="audio-link">
-	<a href="#">
-		<div class="audio-picture" style="background-image: url('audio-link/images/picture_01.jpg')">
-			<div class="icon"></div>
-		</div>
-	</a>
+	<div class="author-photo" style="background-image: url('audio-link/images/picture_01.jpg')">
+		<a href="#"></a>
+		<div class="icon"></div>
+	</div>
 	<div class="header clearfix">
 		<div class="center">
 			<h4><a href="#">Шмита 6</a></h4>
@@ -14,8 +13,7 @@
 		Домашний комитет решает пригласить садовника вопреки мнению религиозного жителя. Имеет ли право человек не платить домкому?
 	</p>
 	<div class="buttons">
-		<a href="#" class="button setAside">Отложить</a>
+		<a href="#" class="button set-aside">Отложить</a>
 		<a href="#" class="button subscribe">Подписаться</a>
 	</div>
-	
 </div>

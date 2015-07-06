@@ -6,13 +6,8 @@
 	width: 16.93%;
 }
 .audio-catalog .column-central {
-	padding: 20px;
 	width: auto;
-}
-.different-font-size {
-	position: relative;
-	height: 3.5rem;
-	margin-bottom: 10px;
+	padding: 0;
 }
 .audio-catalog .column-left h4 {
 	padding-bottom: 6px;
@@ -56,4 +51,12 @@
 .search :-moz-placeholder           {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}/* Firefox 18- */
 .search :-ms-input-placeholder      {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}
 
+.audio-catalog .audio-list-wrapper {
+	margin-bottom: 28px;
+	padding: 20px;
+	background: #eef6e7;
+}
 
+.audio-catalog .audio-list {
+	margin-bottom: 25px;
+}

@@ -1,6 +1,5 @@
 <link href="audio-main/css/css.css" rel="stylesheet" type="text/css" />
 <link href="audio-link/css/css.css" rel="stylesheet" type="text/css" />
-<link href="audio-link-with-picture/css/css.css" rel="stylesheet" type="text/css" />
 
 <div class="audio-main wrapper">
 	<div class="table">
@@ -18,8 +17,8 @@
 							<p><span>20 567</span> аудиоуроков, <span>358</span> авторов</p>
 						</div>
 						<div class="audiolessons-list">
-							<!--#include virtual="../audio-link-with-picture/index-11.shtml"-->
-							<!--#include virtual="../audio-link-with-picture/index-12.shtml"-->
+							<!--#include virtual="../audio-link/index-11.shtml"-->
+							<!--#include virtual="../audio-link/index-12.shtml"-->
 						</div>
 					</div>
 				</div>

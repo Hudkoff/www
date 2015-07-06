@@ -1,0 +1,22 @@
+<!-- With date, big picture and iTunes button -->
+<div class="audio-link in-catalog">
+	<div class="author-photo" style="background-image: url('audio-link/images/picture_04.jpg')">
+		<a href="#"></a>
+	</div>
+	<p class="audio-date">10 апреля</p>
+	<div class="audio-info-container">
+		<div class="header clearfix">
+			<div class="center">
+				<h4><a href="#">Законы седьмого года 10</a></h4>
+				<p class="details"><b>Рав Моше Пантелят</b> из цикла «Уроки Пятикнижия»</p>
+			</div>
+		</div>
+		<p class="description">
+			Урок рава Бенциона Зильбера в ешиве Толдот Йешурун. О подробностях исполнения заповедей Пасхального вечера <a href="#" class="more">Далее</a>
+		</p>
+		<div class="buttons">
+			<a href="#" class="button set-aside">Отложить</a>
+			<a href="#" class="button subscribe">Подписаться</a>
+		</div>
+	</div>
+</div>

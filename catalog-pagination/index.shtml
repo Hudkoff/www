@@ -1,0 +1,17 @@
+<link href="catalog-pagination/css/css.css" rel="stylesheet" type="text/css" />
+
+<div class="catalog-pagination">
+	<a href="#" class="left-button" title=""></a>
+	<ul>
+		<li><a href="#" title="">1</a></li>
+		<li><a href="#" title="">...</a></li>
+		<li><a href="#" title="">17</a></li>
+		<li><a href="#" title="">18</a></li>
+		<li class="selected"><a href="#" title="">19</a></li>
+		<li><a href="#" title="">20</a></li>
+		<li><a href="#" title="">21</a></li>
+		<li><a href="#" title="">...</a></li>
+		<li><a href="#" title="">42</a></li>
+	</ul>
+	<a href="#" class="right-button" title=""></a>
+</div>

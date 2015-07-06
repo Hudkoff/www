@@ -10,7 +10,7 @@
 	color: #000;
 	text-decoration: none;
 }
-.audio-link .audio-picture {
+.audio-link .author-photo {
 	position: relative;
 	float: left;
 	width: 128px;
@@ -18,7 +18,7 @@
 	border-radius: 4px;
 	background-size: cover; /* масштабируем фон на всякий случай */
 }
-.audio-link .audio-picture a {
+.audio-link .author-photo a {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -45,7 +45,7 @@
 .audio-link h4 {
 	margin-bottom: 11px;
 }
-.audio-link:hover h4 {
+.audio-link h4 a:hover {
 	text-decoration: underline;
 }
 .audio-link .details {
@@ -56,6 +56,12 @@
 .audio-link .description {
 	margin: 12px 0 17px 0;
 	text-decoration: none;
+}
+.audio-link .description .more {
+	color: #0e53b2
+}
+.audio-link .description .more:hover {
+	text-decoration: underline;
 }
 .audio-link .buttons {
 	font-size: 0;
@@ -68,14 +74,51 @@
 	color: #676767;
 	border: 1px solid #d4d4d4;
 	border-radius: 2px;
+	vertical-align: top;
 }
-.audio-link .button.setAside:hover,
+.audio-link .button.set-aside:hover,
 .audio-link .button.subscribe:hover {
 	background-color: #f2f2f2;
 }
-.audio-link .button.setAside {
+.audio-link .button.set-aside {
 	background: #ebebeb url('../images/icon-time.png') 5px 3px no-repeat;
 }
 .audio-link .button.subscribe {
 	background: #ebebeb url('../images/icon-plus.png') 7px 5px no-repeat;
+}
+.audio-link .button.true {
+	background: #d4e6c5 url('../images/icon-tick.png') 7px 5px no-repeat;	
+}
+.audio-link .button.true:hover {
+	background-color: #dff2d0;
+}
+.audio-link .itunes-button {
+	display: inline-block;
+	width: 65px;
+	height: 24px;
+	background: url('../images/icon-itunes.png') 0 0 no-repeat;
+}
+.audio-link.in-catalog {
+	border-bottom: 1px solid #e5e5e5;
+}
+.audio-link.in-catalog:first-child {
+	border-top: 1px solid #e5e5e5;
+}
+.audio-link.in-catalog .author-photo {
+	width: 64px;
+	height: 64px;
+}
+.audio-link.in-catalog .header {
+	min-height: 0;
+	margin-left: 0;
+}
+.audio-link.in-catalog .audio-info-container {
+	margin: 0 84px;
+}
+.audio-link.in-catalog .audio-date {
+	float: right;
+	width: 64px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+	color: #6c6c6c;
 }

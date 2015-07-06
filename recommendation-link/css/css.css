@@ -1,30 +1,20 @@
 .recommendation-link {
-	font-family: 'Noto Serif', serif;
 	display: block;
- 	border-top: 1px solid #e5e5e5;
- 	/* margin-top: -1px; чтоб цветная граница закрыла серую */
- 	/* z-index: 1;  чтоб цветная граница закрыла серую */
  	padding: 11px 0;
+ 	border-top: 1px solid #e5e5e5;
+	font-family: 'Noto Serif', serif;
  	color: #000;
  	text-decoration: none;
 }
 .recommendation-link:first-child {
- 	border-top: none;
  	padding-top: 15px;
-}
-.recommendation-link h6,
-.recommendation-link h5,
-.recommendation-link h4 {
-	margin-bottom: 5px;
+ 	border-top: none;
 }
 .recommendation-link a {
 	text-decoration: none;
  	color: #000;
 }
-.recommendation-link a:hover,
-.recommendation-link:hover h6,
-.recommendation-link:hover h5,
-.recommendation-link:hover h4 {
+.recommendation-link:hover .title {
 	text-decoration: underline;
 }
 .recommendation-link .details {
@@ -38,7 +28,7 @@
 	line-height: 1.4;
 }
 .recommendation-link .title {
+	margin-bottom: 7px;
 	font-size: 1.3rem;
 	font-weight: bold;
-	margin-bottom: 7px;
 }

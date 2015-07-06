@@ -1,8 +1,7 @@
 <div class="audio-link">
-	<div class="audio-picture" style="background-image: url('audio-link/images/picture_02.jpg')">
-		<a href="#">
-			<div class="icon"></div>
-		</a>
+	<div class="author-photo" style="background-image: url('audio-link/images/picture_02.jpg')">
+		<a href="#"></a>
+		<div class="icon"></div>
 	</div>
 	<div class="header clearfix">
 		<div class="center">
@@ -14,7 +13,7 @@
 		Отличия реконструированного иврита от святого языка, на котором разговаривали праотцы. Духовные и практические аспекты.
 	</p>
 	<div class="buttons">
-		<a href="#" class="button setAside">Отложить</a>
+		<a href="#" class="button set-aside">Отложить</a>
 		<a href="#" class="button subscribe">Подписаться</a>
 	</div>
 </div>

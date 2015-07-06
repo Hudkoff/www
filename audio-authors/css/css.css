@@ -1,17 +1,17 @@
-.audio-authors > li:before{
-	color: #668dca;
-	display: inline-block;
-	content: "\2022";
-	padding-right: 7px;
-}
-.audio-authors {
+.audio-authors-list {
 	padding: 13px 0 7px 0;
 	font: normal 1.3rem/2.4rem 'Open Sans', sans-serif;
 }
-.audio-authors > li a {
+.audio-authors-list > li:before {
+	content: "\2022";
+	display: inline-block;
+	padding-right: 7px;
+	color: #668dca;
+}
+.audio-authors-list > li a {
 	color: #668dca;
 	text-decoration: underline;
 }
-.audio-authors > li a:hover {
+.audio-authors-list > li a:hover {
 	text-decoration: none;
 }
