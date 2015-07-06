@@ -8,14 +8,12 @@
 			<a class="banner" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
 				<img src="audio-catalog/images/banner_01.jpg" alt="">
 			</a>
-			<section>
-				<h4>Рекомендуем:</h4>
-				<div>
-					<!--#include virtual="../recommendation-link/index-01.shtml"-->
-					<!--#include virtual="../recommendation-link/index-02.shtml"-->
-					<!--#include virtual="../recommendation-link/index-03.shtml"-->
-				</div>
-			</section>
+			<h4 class="title">Рекомендуем:</h4>
+			<div>
+				<!--#include virtual="../recommendation-link/index-01.shtml"-->
+				<!--#include virtual="../recommendation-link/index-02.shtml"-->
+				<!--#include virtual="../recommendation-link/index-03.shtml"-->
+			</div>
 			<section>
 				<h4 class="color-1259a8">
 					<a href="#" title="">
