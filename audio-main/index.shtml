@@ -1,4 +1,6 @@
 <link href="audio-main/css/css.css" rel="stylesheet" type="text/css" />
+<link href="audio-link/css/css.css" rel="stylesheet" type="text/css" />
+<link href="audio-link-with-picture/css/css.css" rel="stylesheet" type="text/css" />
 
 <div class="audio-main wrapper">
 	<div class="table">
@@ -8,18 +10,21 @@
 		<div class="table-cell column-central">
 			<!--#include virtual="../breadcrumbs/index.shtml"-->
 
-			<div class="audio-lessons table">
-				<div class="table-cell">
-					<h1 class="color-8db20e">Аудиоуроки</h1>
-					<div class="audio-lessons-summary">
-						<p><span>20 567</span> аудиоуроков, <span>358</span> авторов</p>
-						<!--#include virtual="../audio-lesson/index.shtml"-->
+			<div class="table">
+				<div class="table-cell column-left">
+					<div class="audiolessons">
+						<h1 class="color-8db20e">Аудиоуроки</h1>
+						<div class="audio-lessons-summary">
+							<p><span>20 567</span> аудиоуроков, <span>358</span> авторов</p>
+						</div>
+						<div class="audiolessons-list">
+							<!--#include virtual="../audio-link-with-picture/index-11.shtml"-->
+							<!--#include virtual="../audio-link-with-picture/index-12.shtml"-->
+						</div>
 					</div>
 				</div>
-				<div class="table-cell">
-					<div class="different-font-size">
-						<h3 class="">Циклы</h3>
-					</div>
+				<div class="table-cell column-right">
+					<h3 class="different-font-size">Циклы</h3>
 				</div>
 			</div>
 		</div>
