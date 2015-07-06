@@ -220,3 +220,20 @@ a:hover {
 	content: "\2192";
 	padding-left: 5px;
 }
+
+
+
+.label {
+	padding: 0 3px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	color: #fff;
+}
+.blog {
+	background: #46aac4;
+}
+.audio {
+	background: #8db20e;
+}

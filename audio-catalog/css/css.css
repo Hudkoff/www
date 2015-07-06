@@ -1,0 +1,59 @@
+.audio-catalog .column-left {
+	width: 17%;
+	padding: 0 20px 0 0;
+}
+.audio-catalog .column-right {
+	width: 16.93%;
+}
+.audio-catalog .column-central {
+	padding: 20px;
+	width: auto;
+}
+.different-font-size {
+	position: relative;
+	height: 3.5rem;
+	margin-bottom: 10px;
+}
+.audio-catalog .column-left h4 {
+	padding-bottom: 6px;
+	border-bottom: 2px solid #989898;
+}
+.audio-catalog .banner {
+	display: block;
+	margin-bottom: 20px;
+}
+.search {
+	float: left;
+	width: 24.5%;
+	padding: 4px 0;
+	margin-right: 0.5%;
+	position: relative;
+	border: 1px solid #e1e1e1;
+}
+.search input[type="text"] {
+	padding: 5px 5%;
+	font-size: 1.3rem;
+	font-family: 'Open Sans', sans-serif;
+	width: 90%;
+}
+.search input[type="submit"] {
+	position: absolute;
+	border: 0;
+	background: url('../images/icon_search.png') no-repeat center;
+	right: 0;
+	top: 4px;
+	width: 38px;
+	height: 28px;
+	padding: 0;
+	opacity: .8;
+	cursor: pointer;
+}
+.search input[type="submit"]:hover {
+	opacity: 1;
+}
+.search ::-webkit-input-placeholder {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}
+.search ::-moz-placeholder          {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}/* Firefox 19+ */
+.search :-moz-placeholder           {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}/* Firefox 18- */
+.search :-ms-input-placeholder      {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}
+
+

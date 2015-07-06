@@ -21,6 +21,8 @@
 
 		<!--#include virtual="audio-main/index.shtml"-->
 
+		<!--#include virtual="audio-catalog/index.shtml"-->
+
 		<!--#include virtual="banner-wide-toldot/index.shtml"-->
 
 		<!--#include virtual="daytopic-title/index.shtml"-->

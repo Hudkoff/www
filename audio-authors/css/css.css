@@ -1,0 +1,17 @@
+.audio-authors > li:before{
+	color: #668dca;
+	display: inline-block;
+	content: "\2022";
+	padding-right: 7px;
+}
+.audio-authors {
+	padding: 13px 0 7px 0;
+	font: normal 1.3rem/2.4rem 'Open Sans', sans-serif;
+}
+.audio-authors > li a {
+	color: #668dca;
+	text-decoration: underline;
+}
+.audio-authors > li a:hover {
+	text-decoration: none;
+}
