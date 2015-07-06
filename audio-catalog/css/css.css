@@ -13,6 +13,12 @@
 	padding-bottom: 6px;
 	border-bottom: 2px solid #989898;
 }
+.audio-catalog .column-left section {
+	margin-top: 13px;
+}
+.audio-catalog .column-left section h4 {
+	border:none;
+}
 .audio-catalog .banner {
 	display: block;
 	margin-bottom: 20px;

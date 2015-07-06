@@ -1,6 +1,6 @@
 .recommendation-link {
 	display: block;
- 	padding: 11px 0;
+	padding: 14px 0;
  	border-top: 1px solid #e5e5e5;
 	font-family: 'Noto Serif', serif;
  	color: #000;
@@ -23,7 +23,7 @@
 	color: #6c6c6c;
 }
 .recommendation-link .description {
-	margin-top: 7px;
+	margin-top: 10px;
 	font-size: 1.4rem;
 	line-height: 1.4;
 }

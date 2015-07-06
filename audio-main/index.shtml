@@ -1,5 +1,6 @@
 <link href="audio-main/css/css.css" rel="stylesheet" type="text/css" />
 <link href="audio-link/css/css.css" rel="stylesheet" type="text/css" />
+<link href="article/css/css.css" rel="stylesheet" type="text/css" />
 
 <div class="audio-main wrapper">
 	<div class="table">
@@ -22,10 +23,22 @@
 						</div>
 					</div>
 				</div>
-				<div class="table-cell column-right">
+				<div class="table-cell column-right clearfix">
 					<h3 class="different-font-size">Циклы</h3>
+					<div>
+						<!--#include virtual="../article/index-51.shtml"-->
+						<!--#include virtual="../article/index-52.shtml"-->
+						<!--#include virtual="../article/index-51.shtml"-->
+						<!--#include virtual="../article/index-52.shtml"-->
+						<!--#include virtual="../article/index-51.shtml"-->
+						<!--#include virtual="../article/index-52.shtml"-->
+					</div>
+					<a href="#" class="more" title="">Далее</a>
 				</div>
 			</div>
+			<a href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
+				<img src="audio-main/images/banner_01.jpg" alt="">
+			</a>
 		</div>
 		<div class="table-cell column-right">
 			<!--#include virtual="../radio-toldot/index.shtml"-->
