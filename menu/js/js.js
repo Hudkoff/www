@@ -12,11 +12,9 @@ $(document).ready(function() {
 	// ищем максимальную высоту среди подменю
 	$(submenu).each(function(indx, element){
 		// находим и устанавливаем ширину пунктов
-		w = $(this).outerWidth();
-		el = $(section)[indx];
-		if ($(el).width() <= w) {
-			$(el).width(w+10);
-		}
+		w = $(this).parent().find(".menu-item").outerWidth(true);
+		$(this).width(w+5);
+
 		// находим максимальную высоту подменю
 		h = $(this).outerHeight();
 		height.push(h);	// в массиве 2 значения: [0, h]
@@ -24,8 +22,7 @@ $(document).ready(function() {
 		height = [max]; // перезаписываем массив
 	});
 
-	// добавляем запас и назначем высоту подложен и блокам подменю
-	height[0] += 15;
+	// назначем высоту подложки и блокам подменю
 	$(menu).hover(function(){
 		if (!done) {
 			$(bg).height(height[0]);
