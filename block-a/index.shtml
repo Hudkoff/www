@@ -1,5 +1,6 @@
 <link href="block-a/css/css.css" rel="stylesheet" type="text/css" />
 <link href="article/css/css.css" rel="stylesheet" type="text/css" />
+<link href="lenta/css/css.css" rel="stylesheet" type="text/css" />
 
 <div class="block-a wrapper" itemprop="mainContentOfPage">
 	<div class="table ">
@@ -59,3 +60,5 @@
 		</aside>
 	</div>
 </div>
+
+<script src="lenta/js/js.js" type="text/javascript"></script>
