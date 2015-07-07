@@ -1,16 +1,17 @@
 <link href="daytopic/css/css.css" rel="stylesheet" type="text/css" />
+<link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
 
 <div class="daytopic-content wrapper">
 	<div class=" table">
-		<div class="table-cell column-left">
+		<aside class="table-cell column-left">
 			<!--#include virtual="../intopic/index.shtml"-->
-		</div>
+		</aside>
 		<div class="table-cell column-central">
-			<div class="summary">
+			<section class="summary">
 				<p>В этом году праздник еврейского Нового года, Рош-Ашана, наступает вечером в пятницу 18 сентября. Праздничными являются оба первых дня месяца тишрей, поэтому праздник кончится с появлением на небе первых звезд вечером 20 сентября. Все это время нельзя делать никакой работы, кроме приготовления пищи непосредственно для нужд праздника.
 				</p>
 				<a class="more" href="" title="">Читать дальше</a>
-			</div>
+			</section>
 			<div class="summary separate">
 				<h3>Аудиоуроки: Рош аШана</h3>
 			</div>
@@ -23,9 +24,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="table-cell column-right">
+		<aside class="table-cell column-right">
 			бла бла баннер внизу добавить
-		</div>
+		</aside>
 	</div>
 
 </div>
