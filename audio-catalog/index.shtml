@@ -37,6 +37,7 @@
 			<!--#include virtual="../tag-cloud/index.shtml"-->
 
 			<div class="audio-list-wrapper">
+				<!--#include virtual="../audio-filters/index.shtml"-->
 				<div class="audio-list">
 					<!--#include virtual="../audio-link/index-21.shtml"-->
 					<!--#include virtual="../audio-link/index-22.shtml"-->
