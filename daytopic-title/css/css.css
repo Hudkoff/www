@@ -1,8 +1,7 @@
 
 /* хидер */
 .daytopic-title {
-	background: #f90 url("../images/header-bg.jpg") no-repeat center;
-/*	background-size: cover; /* отклонено */
+	background: #f90 url("../images/header-bg.jpg") repeat center;
 	height: 295px;
 	position: relative;
 }

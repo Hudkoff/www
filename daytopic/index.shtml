@@ -2,7 +2,9 @@
 <link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
 
 <div class="daytopic-content wrapper">
-	<div class=" table">
+	<div class="bg1"></div>
+	<div class="bg2"></div>
+	<div class="table">
 		<aside class="table-cell column-left">
 			<!--#include virtual="../intopic/index.shtml"-->
 		</aside>
