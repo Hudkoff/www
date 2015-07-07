@@ -1,0 +1,43 @@
+.tag-cloud {
+	margin-bottom: 50px;
+	padding: 0 12px;
+	text-align: center;
+	font-size: 0;
+}
+.tag-cloud li {
+	display: inline;
+	padding: 0 8px;
+}
+.tag-cloud a {
+	font: normal 1.2rem 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: #717171;
+}
+.tag-cloud a:hover {
+	text-decoration: underline;
+}
+.tag-cloud .weight1 a {
+	line-height: 3.4rem;
+}
+.tag-cloud .weight2 a {
+	font-size: 1.4rem;
+}
+.tag-cloud .weight3 a {
+	font-size: 2rem;
+}
+.tag-cloud .weight4 a {
+	font-size: 2.2rem;
+}
+.tag-cloud .weight5 a {
+	font-size: 2.4rem;
+}
+.tag-cloud .weight6 a {
+	font-size: 2.8rem;
+}
+.tag-cloud .weight7 a {
+	font-size: 3.2rem;
+}
+.tag-cloud .weight8 a {
+	font-size: 3.2rem;
+	color: #8db20e;
+}

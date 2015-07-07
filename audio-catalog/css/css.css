@@ -23,39 +23,41 @@
 	display: block;
 	margin-bottom: 20px;
 }
-.search {
-	float: left;
-	width: 24.5%;
+.tag-search-wrapper {
+	padding: 0 20px;
+}
+.tag-search {
+	width: 100%;
+	box-sizing: border-box;
 	padding: 4px 0;
-	margin-right: 0.5%;
+	margin-bottom: 20px;
 	position: relative;
 	border: 1px solid #e1e1e1;
 }
-.search input[type="text"] {
+.tag-search input[type="text"] {
 	padding: 5px 5%;
-	font-size: 1.3rem;
-	font-family: 'Open Sans', sans-serif;
+	font: normal 1.6rem 'Open Sans', sans-serif;
 	width: 90%;
 }
-.search input[type="submit"] {
+.tag-search input[type="submit"] {
 	position: absolute;
 	border: 0;
-	background: url('../images/icon_search.png') no-repeat center;
-	right: 0;
-	top: 4px;
+	background: url('../images/icon-search.png') no-repeat center;
+	left: 0;
+	top: 6px;
 	width: 38px;
 	height: 28px;
 	padding: 0;
 	opacity: .8;
 	cursor: pointer;
 }
-.search input[type="submit"]:hover {
+.tag-search input[type="submit"]:hover {
 	opacity: 1;
 }
-.search ::-webkit-input-placeholder {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}
-.search ::-moz-placeholder          {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}/* Firefox 19+ */
-.search :-moz-placeholder           {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}/* Firefox 18- */
-.search :-ms-input-placeholder      {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}
+.tag-search ::-webkit-input-placeholder {color:#cccccc; font-family: 'Open Sans', sans-serif;}
+.tag-search ::-moz-placeholder          {color:#cccccc; font-family: 'Open Sans', sans-serif;}/* Firefox 19+ */
+.tag-search :-moz-placeholder           {color:#cccccc; font-family: 'Open Sans', sans-serif;}/* Firefox 18- */
+.tag-search :-ms-input-placeholder      {color:#cccccc; font-family: 'Open Sans', sans-serif;}
 
 .audio-catalog .audio-list-wrapper {
 	margin-bottom: 28px;

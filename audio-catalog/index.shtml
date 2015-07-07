@@ -25,14 +25,17 @@
 			</section>	
 		</div>
 		<div class="table-cell column-central">
-			<!-- <div>
-				<section class="search">
+			<div class="tag-search-wrapper">
+				<section class="tag-search">
 					<form>
 						<input type="submit" value="&nbsp;">
 						<input type="text" placeholder="Поиск по тегам">
 					</form>
 				</section>
-			</div> -->
+			</div>
+
+			<!--#include virtual="../tag-cloud/index.shtml"-->
+
 			<div class="audio-list-wrapper">
 				<div class="audio-list">
 					<!--#include virtual="../audio-link/index-21.shtml"-->
