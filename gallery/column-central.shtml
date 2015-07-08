@@ -21,7 +21,7 @@
 
 		<div class="photoBlock">
 			<div class="folder">
-				<img src="gallery/images/photo-1.jpg" alt="В израиле"/>
+				<img src="images/photo-1.jpg" alt="В израиле"/>
 				<div class="overlay">
 					<h3>
 						В израиле
@@ -39,7 +39,7 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<img src="gallery/images/photo-2.jpg" alt="Выставка народного творчества"/>
+			<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
 			<h6>Выставка народного творчества</h6>
 			<div class="info">
 				28 марта,
@@ -49,7 +49,7 @@
 
 		<div class="photoBlock">
 			<div class="folder">
-				<img src="gallery/images/photo-3.jpg" alt="В израиле"/>
+				<img src="images/photo-3.jpg" alt="В израиле"/>
 				<div class="overlay">
 					<h3>
 						Встреча с раввином
@@ -68,7 +68,7 @@
 
 		<div class="photoBlock">
 			<div class="folder">
-				<img src="gallery/images/photo-1.jpg" alt="В израиле"/>
+				<img src="images/photo-1.jpg" alt="В израиле"/>
 				<div class="overlay">
 					<h3>
 						В израиле
@@ -86,7 +86,7 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<img src="gallery/images/photo-4.jpg" alt="Весенний пикник"/>
+			<img src="images/photo-4.jpg" alt="Весенний пикник"/>
 			<h6>Весенний пикник</h6>
 			<div class="info">
 				28 марта,
@@ -95,7 +95,7 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<img src="gallery/images/photo-3.jpg" alt="Беседа с раввином"/>
+			<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
 			<h6>Беседа с раввином</h6>
 			<div class="info">
 				28 марта,
@@ -105,7 +105,7 @@
 
 		<div class="photoBlock">
 			<div class="folder">
-				<img src="gallery/images/photo-1.jpg" alt="В израиле"/>
+				<img src="images/photo-1.jpg" alt="В израиле"/>
 				<div class="overlay">
 					<h3>
 						В израиле
@@ -123,7 +123,7 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<img src="gallery/images/photo-2.jpg" alt="Выставка народного творчества"/>
+			<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
 			<h6>Выставка народного творчества</h6>
 			<div class="info">
 				28 марта,
@@ -133,7 +133,7 @@
 
 		<div class="photoBlock">
 			<div class="folder">
-				<img src="gallery/images/photo-3.jpg" alt="В израиле"/>
+				<img src="images/photo-3.jpg" alt="В израиле"/>
 				<div class="overlay">
 					<h3>
 						Встреча с раввином
@@ -152,7 +152,7 @@
 
 		<div class="photoBlock">
 			<div class="folder">
-				<img src="gallery/images/photo-1.jpg" alt="В израиле"/>
+				<img src="images/photo-1.jpg" alt="В израиле"/>
 				<div class="overlay">
 					<h3>
 						В израиле
@@ -170,7 +170,7 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<img src="gallery/images/photo-4.jpg" alt="Весенний пикник"/>
+			<img src="images/photo-4.jpg" alt="Весенний пикник"/>
 			<h6>Весенний пикник</h6>
 			<div class="info">
 				28 марта,
@@ -179,7 +179,7 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<img src="gallery/images/photo-3.jpg" alt="Беседа с раввином"/>
+			<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
 			<h6>Беседа с раввином</h6>
 			<div class="info">
 				28 марта,
@@ -189,7 +189,7 @@
 
 		<div class="photoBlock">
 			<div class="folder">
-				<img src="gallery/images/photo-1.jpg" alt="В израиле"/>
+				<img src="images/photo-1.jpg" alt="В израиле"/>
 				<div class="overlay">
 					<h3>
 						В израиле
@@ -207,7 +207,7 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<img src="gallery/images/photo-2.jpg" alt="Выставка народного творчества"/>
+			<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
 			<h6>Выставка народного творчества</h6>
 			<div class="info">
 				28 марта,
@@ -217,7 +217,7 @@
 
 		<div class="photoBlock">
 			<div class="folder">
-				<img src="gallery/images/photo-3.jpg" alt="В израиле"/>
+				<img src="images/photo-3.jpg" alt="В израиле"/>
 				<div class="overlay">
 					<h3>
 						Встреча с раввином
@@ -236,7 +236,7 @@
 
 		<div class="photoBlock">
 			<div class="folder">
-				<img src="gallery/images/photo-1.jpg" alt="В израиле"/>
+				<img src="images/photo-1.jpg" alt="В израиле"/>
 				<div class="overlay">
 					<h3>
 						В израиле
@@ -254,7 +254,7 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<img src="gallery/images/photo-4.jpg" alt="Весенний пикник"/>
+			<img src="images/photo-4.jpg" alt="Весенний пикник"/>
 			<h6>Весенний пикник</h6>
 			<div class="info">
 				28 марта,
@@ -263,7 +263,7 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<img src="gallery/images/photo-3.jpg" alt="Беседа с раввином"/>
+			<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
 			<h6>Беседа с раввином</h6>
 			<div class="info">
 				28 марта,

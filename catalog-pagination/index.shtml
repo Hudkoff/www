@@ -1,5 +1,3 @@
-<link href="catalog-pagination/css/css.css" rel="stylesheet" type="text/css" />
-
 <div class="catalog-pagination">
 	<a href="#" class="left-button" title=""></a>
 	<ul>

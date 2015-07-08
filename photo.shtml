@@ -3,6 +3,7 @@
 <head>
 
 	<!--#include virtual="_head.shtml"-->
+	<link href="_css/photo.css" rel="stylesheet" type="text/css">
 
 	<title>Иудаизм и евреи — Judaism and Jews</title>
 	<meta property="og:title" content="Иудаизм и евреи — Judaism and Jews" /><!-- Название страницы -->
@@ -17,11 +18,13 @@
 </head>
 <body>
 
-		<!--#include virtual="header/index.shtml"-->
+		<!--#include virtual="_header.shtml"-->
 
 		<!--#include virtual="gallery/index.shtml"-->
 
-		<!--#include virtual="footer/index.shtml"-->
+		<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
 
 </body>
 </html>

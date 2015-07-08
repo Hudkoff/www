@@ -1,16 +1,12 @@
-<link href="block-a/css/css.css" rel="stylesheet" type="text/css" />
-<link href="article/css/css.css" rel="stylesheet" type="text/css" />
-<link href="lenta/css/css.css" rel="stylesheet" type="text/css" />
-
 <div class="block-a wrapper" itemprop="mainContentOfPage">
 	<div class="table ">
 		<div class="table-cell column-left">
 			<div class="table">
 				<div class="table-cell slider-box">
-					<!--#include virtual="../slider/index.shtml"-->
+					<!--#include virtual="../_slider.shtml"-->
 				</div>
 				<a class="table-cell banner-central" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
-					<img src="block-a/images/main-banner_01.jpg" alt="">
+					<img src="images/main-banner_01.jpg" alt="">
 				</a>
 			</div>
 			<div class="table">
@@ -55,10 +51,8 @@
 				<!--#include virtual="../lenta/index-09.shtml?e1f5fa"-->
 			</section>
 			<a class="" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
-				<img src="block-a/images/right-banner_01.jpg" alt="">
+				<img src="images/right-banner_01.jpg" alt="">
 			</a>
 		</aside>
 	</div>
 </div>
-
-<script src="lenta/js/js.js" type="text/javascript"></script>

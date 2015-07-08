@@ -3,7 +3,7 @@
 
 	<div class="banner-aside">
 		<a href="#">
-			<img src="gallery/images/banner_2.jpg" alt="Шавуот. Как купить подарок?"/>
+			<img src="images/banner_2.jpg" alt="Шавуот. Как купить подарок?"/>
 		</a>
 	</div>
 
@@ -18,7 +18,7 @@
 		</div>
 		<div class="answer clearfix">
 			<div class="icon">
-				<img src="gallery/images/avatar-11.jpg" alt="Рав Ашер Кушнир"/>
+				<img src="images/avatar-11.jpg" alt=""/>
 			</div>
 			<div class="info">
 				Отвечает:

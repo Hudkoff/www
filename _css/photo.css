@@ -1,0 +1,359 @@
+/* стили для страницы фото */
+@import "_article.css";
+@import "_shop-item.css";
+@import "_recommendation-link.css";
+@import "_breadcrumbs.css";
+
+
+
+
+.galleryWrapper .column-left {
+    width: 18% ;
+    padding: 20px;
+}
+
+.galleryWrapper .column-right {
+    width: 18%;
+    padding: 20px;
+}
+
+.galleryWrapper .column-central {
+    width: auto;
+}
+
+.galleryWrapper .banner-aside {
+    margin-bottom: 30px;
+}
+
+/* ======== Left column ======== */
+
+.galleryCategories ul {
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.galleryCategories ul li {
+    line-height: 24px;
+}
+
+.galleryCategories a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ======== Central column ======== */
+
+.galleryWrapper .column-central h2,
+.galleryWrapper .column-left h4 {
+    font-family: 'Noto Serif', serif;
+    color: #9c5630;
+}
+
+.galleryWrapper .search {
+    position: relative;
+    float: none;
+    width: 100%;
+    margin: 7px auto 20px;
+}
+
+.galleryWrapper .search input{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #e1e1e1;
+    padding: 15px;
+    padding-left: 40px;
+    position: relative;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.galleryWrapper .search .icon-search {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 21px;
+    left: 15px;
+    background: url(../images/icon-search.png) no-repeat center center;
+}
+
+.galleryWrapper .search .tags-button {
+    position: absolute;
+    right: 0;
+    background-color: #ebebeb;
+    color: #676767;
+    padding: 3px 10px;
+    border: 1px solid #d4d4d4;
+    border-top: 0;
+    cursor: pointer;
+
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+
+.paginator {
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 15px;
+}
+
+.paginator .arrow {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-image: url(../images/arrows-sprite.png);
+    position: relative;
+    top: 8px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.paginator .arrow-left {
+    background-position: 0 0;
+}
+
+.paginator .arrow-right {
+    background-position: 30px 0;
+}
+
+.paginator ul {
+    display: inline-block;
+}
+
+.paginator li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 9px;
+    font-size: 1.6rem;
+    cursor: default;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.paginator li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.paginator li.active {
+    background-color: #9c5630;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.paginator li.active a {
+    color: #fff;
+}
+
+.galleryBlock {
+    text-align: center;
+    font-size: 0;
+}
+
+.galleryBlock .photoBlock {
+    width: 30%;
+    display: inline-block;
+    margin: 0 25px 30px 0;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.galleryBlock .photoBlock img {
+    width: 100%;
+}
+
+.galleryBlock .folder {
+   position: relative;
+}
+
+.galleryBlock .folder .overlay {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    position: absolute;
+    bottom: 0;
+    background-image: url(../images/overlay.png);
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    padding: 0 10px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.galleryBlock .folder .overlay h3 {
+    width: 190px;
+    height: 35px;
+    overflow: hidden;
+    word-break: break-all;
+
+    font-size: 1.8rem;
+}
+
+.galleryBlock .folder .photoCount {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 35px;
+    line-height: 35px;
+    font-family: arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0 10px 0 25px;
+    background: url(../images/icon-photo.png) left center no-repeat;
+    /*background-repeat: no-repeat;*/
+    /*background-position: left center;*/
+}
+
+.galleryBlock .photo h6 {
+    margin: 10px 0 5px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.galleryBlock .photoBlock .underlines {
+    display: block;
+    height: 3px;
+    margin: 3px 0 8px;
+    background-color: transparent;
+    border-top: 1px solid #a9a9a9;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+.galleryBlock .photoBlock .info {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #717171;
+    text-align: left;
+}
+
+.galleryBlock .photoBlock:nth-child(3n) {
+    margin-right: 0;
+}
+
+/* ======== Right column ======== */
+.questionOfTheDay {
+    font-family: 'Noto Serif', serif;
+}
+
+.questionOfTheDay h3 {
+    color: #b38d39;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #b38d39;
+    margin-bottom: 15px;
+}
+
+.questionOfTheDay .question {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.questionOfTheDay .info {
+    color: #6c6c6c;
+    font-size: 1.3rem;
+    margin-bottom: 13px;
+}
+
+.questionOfTheDay .answer {
+    font-family: 'Open Sans', sans-serif;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 15px;
+    line-height: 20px;
+}
+
+.questionOfTheDay .answer .icon {
+    float: left;
+}
+
+.questionOfTheDay .answer .info {
+    margin-left: 80px;
+}
+
+.questionOfTheDay .answer .name {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.questionOfTheDay .answer  a {
+    display: inline-block;;
+    margin-top: 15px;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #2f63b7;
+}
+
+.article {
+    font-family: 'Noto Serif', serif;
+    display: block;
+    border-top: 1px solid #e5e5e5;
+    /* margin-top: -1px; ÷òîá öâåòíàÿ ãðàíèöà çàêðûëà ñåðóþ */
+    /* z-index: 1;  ÷òîá öâåòíàÿ ãðàíèöà çàêðûëà ñåðóþ */
+    padding: 20px 0;
+    color: #000;
+    text-decoration: none;
+}
+.article.small-padding {
+    padding: 10px 0 9px;
+}
+.article:first-child {
+    border-top: 0;
+    padding-top: 20px;
+}
+.article h6,
+.article h5,
+.article h4 {
+    margin-bottom: 5px;
+}
+.article a {
+    text-decoration: none;
+    color: #000;
+}
+.article a:hover,
+.article:hover h6,
+.article:hover h5,
+.article:hover h4 {
+    text-decoration: underline;
+}
+
+/* êîëîíêè */
+.article .icon {
+    float: left;
+    font-size: 0;
+}
+.article .content {
+    margin-left: 79px;
+}
+
+.article .details {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #6c6c6c;
+}
+.article .description {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+.favourite .description {
+    line-height: 1.6;
+}
+
+

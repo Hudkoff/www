@@ -1,12 +1,8 @@
-<link href="audio-catalog/css/css.css" rel="stylesheet" type="text/css" />
-<link href="audio-link/css/css.css" rel="stylesheet" type="text/css" />
-<link href="recommendation-link/css/css.css" rel="stylesheet" type="text/css" />
-
-<div class="audio-catalog wrapper">
+﻿<div class="audio-catalog wrapper">
 	<div class="table">
 		<div class="table-cell column-left">
 			<a class="banner" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
-				<img src="audio-catalog/images/banner_01.jpg" alt="">
+				<img src="images/banner_02.jpg" alt="">
 			</a>
 			<h4 class="title">Рекомендуем:</h4>
 			<div>
@@ -37,7 +33,11 @@
 			<!--#include virtual="../tag-cloud/index.shtml"-->
 
 			<div class="audio-list-wrapper">
-				<!--#include virtual="../audio-filters/index.shtml"-->
+				<ul class="audio-filters">
+					<li class="author"><span>Автор</span></li>
+					<li class="date"><span>Дата</span></li>
+					<li class="title"><span>Название</span></li>
+				</ul>
 				<div class="audio-list">
 					<!--#include virtual="../audio-link/index-21.shtml"-->
 					<!--#include virtual="../audio-link/index-22.shtml"-->

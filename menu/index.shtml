@@ -1,8 +1,0 @@
-<link href="menu/css/css.css" rel="stylesheet" type="text/css" />
-
-<menu class="main-menu">
-		<!--#include virtual="../sitemap/index.shtml"-->
-		<div class="submenu-bg"></div>
-</menu>
-
-<script src="menu/js/js.js" type="text/javascript"></script>

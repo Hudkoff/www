@@ -1,5 +1,3 @@
-<link href="gallery/css/css.css" rel="stylesheet" type="text/css" />
-
 <div class="table galleryWrapper">
 
 	<!--#include virtual="column-left.shtml"-->

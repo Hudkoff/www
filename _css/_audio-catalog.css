@@ -1,0 +1,95 @@
+.audio-catalog .column-left {
+	width: 17%;
+	padding: 0 20px 0 0;
+}
+.audio-catalog .column-right {
+	width: 16.93%;
+}
+.audio-catalog .column-central {
+	width: auto;
+	padding: 0;
+}
+.audio-catalog .column-left h4 {
+	padding-bottom: 6px;
+	border-bottom: 2px solid #989898;
+}
+.audio-catalog .column-left section {
+	margin-top: 13px;
+}
+.audio-catalog .column-left section h4 {
+	border:none;
+}
+.audio-catalog .banner {
+	display: block;
+	margin-bottom: 20px;
+}
+.tag-search-wrapper {
+	padding: 0 20px;
+}
+.tag-search {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 4px 0;
+	margin-bottom: 20px;
+	position: relative;
+	border: 2px solid #e1e1e1;
+}
+.tag-search input[type="text"] {
+	padding: 5px 5%;
+	font: normal 1.6rem 'Open Sans', sans-serif;
+	width: 90%;
+}
+.tag-search input[type="submit"] {
+	position: absolute;
+	border: 0;
+	background: url('../images/icon-search.png') no-repeat center;
+	left: 0;
+	top: 6px;
+	width: 38px;
+	height: 28px;
+	padding: 0;
+	opacity: .8;
+	cursor: pointer;
+}
+.tag-search input[type="submit"]:hover {
+	opacity: 1;
+}
+.tag-search ::-webkit-input-placeholder {color:#cccccc; font-family: 'Open Sans', sans-serif;}
+.tag-search ::-moz-placeholder          {color:#cccccc; font-family: 'Open Sans', sans-serif;}/* Firefox 19+ */
+.tag-search :-moz-placeholder           {color:#cccccc; font-family: 'Open Sans', sans-serif;}/* Firefox 18- */
+.tag-search :-ms-input-placeholder      {color:#cccccc; font-family: 'Open Sans', sans-serif;}
+
+.audio-catalog .audio-list-wrapper {
+	margin-bottom: 28px;
+	padding: 20px;
+	background: #eef6e7;
+}
+
+.audio-catalog .audio-list {
+	margin-bottom: 25px;
+}
+
+
+
+
+.audio-filters {
+	margin-bottom: 10px;
+}
+.audio-filters .author {
+	float: left;
+	width: 64px;
+}
+.audio-filters .date {
+	float: right;
+	width: 64px;
+}
+.audio-filters .title {
+	margin: 0 84px;
+}
+.audio-filters span {
+	padding-right: 15px;
+	background: url("../images/icon-arrow.png") 100% 7px no-repeat;
+	border-bottom: 1px dotted #000;
+	color: #0a3674;
+	cursor: pointer;
+}
