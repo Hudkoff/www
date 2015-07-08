@@ -1,7 +1,7 @@
 <link href="daytopic/css/css.css" rel="stylesheet" type="text/css" />
 <link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
 
-<div class="daytopic-content wrapper">
+<div class="daytopic-content wrapper audio-page">
 	<div class=" table">
 		<aside class="table-cell column-left">
 			<!--#include virtual="../intopic/index.shtml"-->
@@ -16,11 +16,15 @@
 				<h3>Аудиоуроки: Рош аШана</h3>
 			</div>
 			<div class="table">
-				<div class="table-cell">
-					запилить блоки и перебить ширины колонок
+				<div class="table-cell column-left">
+					<!--#include virtual="../audio-link/index-31.shtml"-->
+					<!--#include virtual="../audio-link/index-32.shtml"-->
 				</div>
-				<div class="table-cell">
-					запилить блоки и перебить ширины колонок
+				<div class="table-cell column-right">
+					<!--#include virtual="../article/index-51.shtml"-->
+					<!--#include virtual="../article/index-52.shtml"-->
+					<!--#include virtual="../article/index-51.shtml"-->
+					<a href="#" class="more" title="">Далее</a>
 				</div>
 			</div>
 		</div>

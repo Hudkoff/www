@@ -108,12 +108,22 @@
 	width: 64px;
 	height: 64px;
 }
+.audio-link.in-catalog.big-picture .author-photo {
+	width: 128px;
+	height: 128px;
+}
 .audio-link.in-catalog .header {
 	min-height: 0;
 	margin-left: 0;
 }
 .audio-link.in-catalog .audio-info-container {
 	margin: 0 84px;
+}
+.audio-link.in-catalog.big-picture .audio-info-container {
+	margin: 0 0 0 148px;
+}
+.audio-link.in-catalog.big-picture .audio-info-container .description {
+	font-size: 1.3rem;
 }
 .audio-link.in-catalog .audio-date {
 	float: right;

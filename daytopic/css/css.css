@@ -57,3 +57,12 @@
 .intopic {
 	font-family: 'Open Sans', sans-serif;
 }
+.daytopic-content.audio-page .column-central .column-left {
+	width: 69%;
+}
+.daytopic-content.audio-page .more {
+	float: right;
+	margin-top:13px;
+	font: normal 1.3rem 'Open Sans', sans-serif;
+	color: #4a7ec0;
+}
