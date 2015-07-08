@@ -12,5 +12,3 @@
 	<!--#include virtual="../menu/index.shtml"-->
 
 </header>
-
-<script src="header/js/js.js" type="text/javascript"></script>
