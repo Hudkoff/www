@@ -8,16 +8,24 @@ $(document).ready(function() {
 
 	var lentaItem;
 	var box = $(".lenta-box");
+	var newItem;
 
 	var slidertimer = setInterval(function() {
 
 		lentaItem = $(box).find(".lenta:last-child");
+		noScrollItemLast = $(box).find(".no-scroll:last"); // добавить этот класс тем блокам, которые должны оставаться вверху
 		lentaItem.fadeOut(600, function(){
 			$(this).detach();
-			$(this).prependTo($(box)).fadeIn(600); // $(this) заменить на функцию ajax, которая сформирует новость в нужном шаблоне
+			newItem = $(this); // $(this) заменить на функцию ajax, которая сформирует новость в нужном шаблоне
+			if (!noScrollItemLast) {
+				newItem.prependTo($(box)); 
+			} else {
+				newItem.insertAfter($(noScrollItemLast));
+			}
+			newItem.fadeIn(600)
 		});
 
-	}, 10000);
+	}, 1000);
 
 
 
