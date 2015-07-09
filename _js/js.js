@@ -25,7 +25,7 @@ $(document).ready(function() {
 			newItem.fadeIn(600)
 		});
 
-	}, 1000);
+	}, 10000);
 
 
 
