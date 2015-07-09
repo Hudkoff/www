@@ -39,7 +39,7 @@ $(document).ready(function() {
 	$(submenu).each(function(indx, element){
 		// находим и устанавливаем ширину пунктов
 		w = $(this).parent().find(".menu-item").outerWidth(true);
-		$(this).width(w+5);
+		$(this).width(w-1);
 
 		// находим максимальную высоту подменю
 		h = $(this).outerHeight();
