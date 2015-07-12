@@ -84,7 +84,14 @@ $(document).ready(function() {
 
 
 
+//////////////////////////////////////////////
+// ColorBox gallery
+//////////////////////////////////////////////
 
+$(".photoBlock a").colorbox({
+	rel:'gal',
+	current: "{current} из {total}"
+});
 
 
 
