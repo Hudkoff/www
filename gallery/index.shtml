@@ -1,10 +1,12 @@
-<div class="table galleryWrapper">
+<div class="galleryWrapper wrapper">
+	<div class="table">
 
-	<!--#include virtual="column-left.shtml"-->
+		<!--#include virtual="column-left.shtml"-->
 
-	<!--#include virtual="column-central.shtml"-->
+		<!--#include virtual="column-central.shtml"-->
 
-	<!--#include virtual="column-right.shtml"-->
+		<!--#include virtual="column-right.shtml"-->
 
+	</div>
 </div>
 

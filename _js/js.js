@@ -87,13 +87,22 @@ $(document).ready(function() {
 //////////////////////////////////////////////
 // ColorBox gallery
 //////////////////////////////////////////////
+var galleryPhoto = $(".galleryWrapper .photoBlock.photo a");
 
-$(".photoBlock a").colorbox({
-	rel:'gal',
+var tagsButton = $(".galleryWrapper .tags-button"),
+	tagsTextToggle = $(".galleryWrapper .showTags, .galleryWrapper .hideTags"),
+	tagsCloud = $(".galleryWrapper .tag-cloud");
+
+galleryPhoto.colorbox({
+	//rel:'gal',
+	opacity: 0.82,
 	current: "{current} из {total}"
 });
 
-
+tagsButton.on('click', function(){
+	tagsTextToggle.toggle();
+	tagsCloud.slideToggle();
+});
 
 
 
