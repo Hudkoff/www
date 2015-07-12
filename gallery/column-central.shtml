@@ -30,7 +30,7 @@
 	<div class="galleryBlock">
 
 		<div class="photoBlock">
-			<div class="folder">
+			<div class="image folder">
 				<a href="#">
 					<img src="images/photo-1.jpg" alt="В израиле"/>
 				</a>
@@ -51,9 +51,11 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<a href="/images/photo-2.jpg">
-				<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
-			</a>
+			<div class="image">
+				<a href="/images/photo-2.jpg">
+					<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
+				</a>
+			</div>
 			<h6>Выставка народного творчества</h6>
 			<div class="info">
 				28 марта,
@@ -62,7 +64,7 @@
 		</div>
 
 		<div class="photoBlock">
-			<div class="folder">
+			<div class="image folder">
 				<a href="#">
 					<img src="images/photo-3.jpg" alt="В израиле"/>
 				</a>
@@ -83,7 +85,7 @@
 		</div>
 
 		<div class="photoBlock">
-			<div class="folder">
+			<div class="image folder">
 				<a href="#">
 					<img src="images/photo-1.jpg" alt="В израиле"/>
 				</a>
@@ -104,9 +106,11 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<a href="/images/photo-4.jpg">
-				<img src="images/photo-4.jpg" alt="Весенний пикник"/>
-			</a>
+			<div class="image">
+				<a href="/images/photo-4.jpg">
+					<img src="images/photo-4.jpg" alt="Весенний пикник"/>
+				</a>
+			</div>
 			<h6>Весенний пикник</h6>
 			<div class="info">
 				28 марта,
@@ -115,9 +119,11 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<a href="/images/photo-3.jpg">
-				<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
-			</a>
+			<div class="image">
+				<a href="/images/photo-3.jpg">
+					<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
+				</a>
+			</div>
 			<h6>Беседа с раввином</h6>
 			<div class="info">
 				28 марта,
@@ -126,7 +132,7 @@
 		</div>
 
 		<div class="photoBlock">
-			<div class="folder">
+			<div class="image folder">
 				<a href="#">
 					<img src="images/photo-1.jpg" alt="В израиле"/>
 				</a>
@@ -147,9 +153,11 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<a href="/images/photo-2.jpg">
-				<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
-			</a>
+			<div class="image">
+				<a href="/images/photo-2.jpg">
+					<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
+				</a>
+			</div>
 			<h6>Выставка народного творчества</h6>
 			<div class="info">
 				28 марта,
@@ -158,7 +166,7 @@
 		</div>
 
 		<div class="photoBlock">
-			<div class="folder">
+			<div class="image folder">
 				<a href="#">
 					<img src="images/photo-3.jpg" alt="В израиле"/>
 				</a>
@@ -179,7 +187,7 @@
 		</div>
 
 		<div class="photoBlock">
-			<div class="folder">
+			<div class="image folder">
 				<a href="#">
 					<img src="images/photo-1.jpg" alt="В израиле"/>
 				</a>
@@ -200,9 +208,11 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<a href="/images/photo-4.jpg">
-				<img src="images/photo-4.jpg" alt="Весенний пикник"/>
-			</a>
+			<div class="image">
+				<a href="/images/photo-4.jpg">
+					<img src="images/photo-4.jpg" alt="Весенний пикник"/>
+				</a>
+			</div>
 			<h6>Весенний пикник</h6>
 			<div class="info">
 				28 марта,
@@ -211,9 +221,11 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<a href="/images/photo-3.jpg">
-				<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
-			</a>
+			<div class="image">
+				<a href="/images/photo-3.jpg">
+					<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
+				</a>
+			</div>
 			<h6>Беседа с раввином</h6>
 			<div class="info">
 				28 марта,
@@ -222,7 +234,7 @@
 		</div>
 
 		<div class="photoBlock">
-			<div class="folder">
+			<div class="image folder">
 				<a href="#">
 					<img src="images/photo-1.jpg" alt="В израиле"/>
 				</a>
@@ -243,9 +255,11 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<a href="/images/photo-2.jpg">
-				<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
-			</a>
+			<div class="image">
+				<a href="/images/photo-2.jpg">
+					<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
+				</a>
+			</div>
 			<h6>Выставка народного творчества</h6>
 			<div class="info">
 				28 марта,
@@ -254,7 +268,7 @@
 		</div>
 
 		<div class="photoBlock">
-			<div class="folder">
+			<div class="image folder">
 				<a href="#">
 					<img src="images/photo-3.jpg" alt="В израиле"/>
 				</a>
@@ -275,7 +289,7 @@
 		</div>
 
 		<div class="photoBlock">
-			<div class="folder">
+			<div class="image folder">
 				<a href="#">
 					<img src="images/photo-1.jpg" alt="В израиле"/>
 				</a>
@@ -296,9 +310,11 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<a href="/images/photo-4.jpg">
-				<img src="images/photo-4.jpg" alt="Весенний пикник"/>
-			</a>
+			<div class="image">
+				<a href="/images/photo-4.jpg">
+					<img src="images/photo-4.jpg" alt="Весенний пикник"/>
+				</a>
+			</div>
 			<h6>Весенний пикник</h6>
 			<div class="info">
 				28 марта,
@@ -307,9 +323,11 @@
 		</div>
 
 		<div class="photoBlock photo">
-			<a href="/images/photo-3.jpg">
-				<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
-			</a>
+			<div class="image">
+				<a href="/images/photo-3.jpg">
+					<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
+				</a>
+			</div>
 			<h6>Беседа с раввином</h6>
 			<div class="info">
 				28 марта,

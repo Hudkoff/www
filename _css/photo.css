@@ -5,6 +5,7 @@
 @import "_tag-cloud.css";
 @import "_breadcrumbs.css";
 @import "colorbox.css";
+@import "_tests.css";
 
 
 .galleryWrapper .column-left {
@@ -177,10 +178,20 @@
 
 .galleryBlock .photoBlock {
     width: 30%;
+    overflow: hidden;
     display: inline-block;
     margin: 0 25px 30px 0;
     vertical-align: top;
     cursor: pointer;
+}
+
+.galleryBlock .image {
+    max-height: 140px;
+    overflow: hidden;
+}
+
+.galleryBlock .image:hover .overlay {
+    opacity: 1;
 }
 
 .galleryBlock .photoBlock img {
@@ -196,6 +207,13 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+
+    opacity: 0;
     position: absolute;
     bottom: 0;
     background-image: url(../images/overlay.png);
@@ -369,5 +387,87 @@
     line-height: 1.6;
 }
 
+.askQuestion .question {
+    display: block;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    color: #0a3674;
+}
 
+.askQuestion .button {
+    display: inline-block;
+    margin: 20px 0;
+    color: #fff;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.familyQuestion .question {
+    display: block;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    color: #0a3674;
+}
+
+.familyQuestion .button {
+    display: inline-block;
+    margin: 20px 0;
+    color: #fff;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.burialPlacesSearch {
+    background-color: #ededed;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+}
+
+.burialPlacesSearch .heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.burialPlacesSearch input[type="submit"] {
+
+    width: 28%;
+
+    background-color: #f69227;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    float: right;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.burialPlacesSearch input[type="text"] {
+
+    width: 60%;
+
+    padding: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000;
+    border: 2px solid #e1e1e1;
+}
 

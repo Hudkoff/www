@@ -31,7 +31,7 @@
 	</section>
 
 	<section>
-		<h3 class="color-3792aa">
+		<h3 class="color-b38d39">
 			<a href="#" title="">
 				Блоги
 				<b class="arrow right">&#9670;</b>
@@ -42,5 +42,51 @@
 		<!--#include virtual="../article/index-33.shtml"-->
 		<!--#include virtual="../article/index-32.shtml"-->
 		<!--#include virtual="../article/index-33.shtml"-->
+	</section>
+
+	<section class="askQuestion">
+		<h3 class="color-b38d39">
+			<a href="#" title="">
+				Вопросы раввину
+				<b class="arrow right">&#9670;</b>
+			</a>
+		</h3>
+		<a class="question" href="#">Можно ли делать временные татуировки?</a>
+		<a class="question" href="#">Наша вера основана на свидетельстве шестисот тысяч человек? Или на доверии лично Моше?</a>
+		<a class="question" href="#">Как объяснить парикмахеру, как надо стричь, не сбривая пейсы?</a>
+		<a class="button color-b38d39 askQuestionButton">Спросить раввина</a>
+	</section>
+
+	<section class="familyQuestion">
+		<h3 class="color-d55940">
+			<a href="#" title="">
+				Вопросы раввину
+				<b class="arrow right">&#9670;</b>
+			</a>
+		</h3>
+		<a class="question" href="#">Муж очень привязан к своей маме. К счастью, она живет в другой стране. Недавно она...</a>
+		<a class="question" href="#">Супруга очень ленится...</a>
+		<a class="question" href="#">Что делать, если у нас с мужем разные мнения практически по всем вопросам?</a>
+		<a class="button color-d55940 askQuestionButton">Спросить семейного консультанта</a>
+	</section>
+
+	<section class="testLight">
+		<h3 class="color-7247ba">
+			<a href="#" title="">
+				Тесты
+				<b class="arrow right">&#9670;</b>
+			</a>
+		</h3>
+
+		<!--#include virtual="../tests/index-01.shtml"-->
+
+	</section>
+
+	<section class="burialPlacesSearch">
+		<div class="heading">Поиск еврейских захоронений:</div>
+		<form>
+			<input type="submit" value="Найти"/>
+			<input type="text" placeholder="Анбрейт"/>
+		</form>
 	</section>
 </aside>
