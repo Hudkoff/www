@@ -1,0 +1,30 @@
+<h3 class="color-0e53b2">
+	Вход
+	<a href="#" onclick="$.colorbox.next(); return false"><span>Зарегистрироваться</span></a>
+</h3>
+
+<form>
+	<div class="table">
+		<div class="table-cell">
+			<label>Имя:</label>
+			<input type="text" class="" placeholder="Поиск">
+			<label>Имя:</label>
+			<input type="text" class="" placeholder="Поиск">
+			<label>Имя:</label>
+			<input type="text" class="" placeholder="Поиск">
+		</div>
+		<div class="table-cell">
+			<label>Имя:</label>
+			<input type="text" class="" placeholder="Поиск">
+			<label>Имя:</label>
+			<input type="text" class="" placeholder="Поиск">
+			<label>&nbsp;</label>
+			<input type="submit" value="ЗАРЕГИСТРИРОВАТЬСЯ">
+		</div>
+	</div>
+	<p class="text">
+		На указанный email будет выслан пароль и<br> ссылка для подтверждения регистрации
+	</p>
+</form>
+
+

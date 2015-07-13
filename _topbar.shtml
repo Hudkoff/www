@@ -11,7 +11,7 @@
 
 		<section class="search">
 			<form>
-				<input type="text" placeholder="Поиск">
+				<input type="text" class="globalSearch" placeholder="Поиск">
 				<input type="submit" value="&nbsp;">
 			</form>
 		</section>
@@ -23,7 +23,8 @@
 		</menu>
 
 		<menu class="login">
-			<a class="" href="#" itemprop="text"><span>Войти</span></a>
+			<a class="" href="popup_login.shtml" itemprop="text"><span>Войти</span></a>
+			<a class="" href="popup_registration.shtml" itemprop="text" style="display: none;"><span>Зарегистрироваться</span></a>
 		</menu>
 
 	</section>

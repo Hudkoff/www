@@ -25,10 +25,6 @@
 }
 
 
-
-
-
-
 /* ссылки в левой части */
 .topnav {
 	float: left;
@@ -80,8 +76,9 @@
 .search input[type="text"] {
 	padding: 5px 5%;
 	font-size: 1.3rem;
-	font-family: 'Open Sans', sans-serif;
-	width: 90%;
+	width: 100%;
+	border: 0;
+	margin: 0;
 }
 .search input[type="submit"] {
 	position: absolute;
@@ -98,10 +95,6 @@
 .search input[type="submit"]:hover {
 	opacity: 1;
 }
-.search ::-webkit-input-placeholder {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}
-.search ::-moz-placeholder          {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}/* Firefox 19+ */
-.search :-moz-placeholder           {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}/* Firefox 18- */
-.search :-ms-input-placeholder      {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}
 
 
 

@@ -20,7 +20,7 @@
     Change the following styles to modify the appearance of Colorbox.  They are
     ordered & tabbed in a way that represents the nesting of the generated HTML.
 */
-#cboxOverlay{background-color: #efe9e3; opacity: 0.83; filter: alpha(opacity = 83);}
+#cboxOverlay{background-color: #efe9e3; opacity: 0.82; filter: alpha(opacity = 82);}
 #colorbox{outline:0;}
 #cboxTopLeft{width:25px; height:25px; background:url(/images/colorBox/border1.png) no-repeat 0 0;}
 #cboxTopCenter{height:25px; background:url(/images/colorBox/border1.png) repeat-x 0 -50px;}
@@ -67,4 +67,62 @@
 .cboxIE #cboxMiddleLeft,
 .cboxIE #cboxMiddleRight {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+/* 
+  Классы для скроллинга попапов, размеры которых больше окна.
+  Переносят скроллинг с окна на попап, если он нужен.
+  Стилизация попапов.
+*/
+html.cboxOn {overflow-y: scroll;}
+body.cboxOn {overflow: hidden;}
+.popup #cboxTopLeft,
+.popup #cboxTopCenter,
+.popup #cboxTopRight,
+.popup #cboxBottomLeft,
+.popup #cboxBottomCenter,
+.popup #cboxBottomRight,
+.popup #cboxMiddleLeft,
+.popup #cboxMiddleRight,
+.popup #cboxNext,
+.popup #cboxPrevious,
+.popup #cboxCurrent {
+	display: none;
+	width: 0;
+	height: 0;
+	background-image: none;
+}
+.popup #cboxClose {
+	top: 0;
+	background: url(/images/colorBox/popup_close.png) no-repeat center;
+	opacity: .5;
+	width: 31px;
+	height: 31px;
+}
+.popup #cboxClose:hover{
+	background-position: center;
+	opacity: 1;
+}
+.popup #cboxLoadedContent{
+	margin: 31px 40px 40px;
+}
+.popup#cboxOverlay {
+  background-color: #000;
+}
+.popup {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+/* Стили для конкретных попапов */
+.popup_login .table {
+	width: 460px;
+}
+.popup_login .table-cell {
+	width: 50%;
+}
+.popup_login .text {
+	margin-top: 20px;
+	width: 460px;
+	text-align: right;
 }

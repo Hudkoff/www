@@ -84,25 +84,79 @@ $(document).ready(function() {
 
 
 
+
+
+
+
 //////////////////////////////////////////////
 // ColorBox gallery
 //////////////////////////////////////////////
+
+// перенос скроллинга с окна на попап и назад
+function cboxPageScrollingAdjust() {
+	$("html, body").addClass("cboxOn");
+	var H = Math.max($("#colorbox").outerHeight(), $(window).height()); // если попап больше окна, то скролла нет, т.к. переполнение = высоте окна
+	$("body").height(H);
+}
+function cboxPageScrollingReturn() {
+	$("html, body").removeClass("cboxOn");
+	$("body").height("auto");
+}
+
 var galleryPhoto = $(".galleryWrapper .photoBlock.photo a");
+if (galleryPhoto.length != 0) { // если элемент есть на странице
+	galleryPhoto.colorbox({
+		//rel:'gal',
+		fixed: true,
+		current: "{current} из {total}"
+	});
+}
+
+var globalSearch = $(".globalSearch");
+if (globalSearch.length != 0) { // если элемент есть на странице
+	globalSearch.colorbox({
+		href: "_block-seo.shtml", // надо перебить т.к. поле ввода не имеет ссылки
+		opacity: 0.5,
+		scrolling: false,
+		width: "80%",
+		maxWidth: "1600px",
+		height: "50%",
+		onComplete: cboxPageScrollingAdjust,
+		onCleanup: cboxPageScrollingReturn,
+		className: "popup"
+	});
+}
+
+var loginButton = $(".login a");
+if (loginButton.length != 0) { // если элемент есть на странице
+	loginButton.colorbox({
+		rel: "login",
+		scrolling: false,
+		opacity: 0.5,
+		onComplete: cboxPageScrollingAdjust,
+		onCleanup: cboxPageScrollingReturn,
+		className: "popup popup_login"
+	});
+}
+
+
+
+
+
+//////////////////////////////////////////////
+// Показать-Скрыть тэги
+//////////////////////////////////////////////
 
 var tagsButton = $(".galleryWrapper .tags-button"),
-	tagsTextToggle = $(".galleryWrapper .showTags, .galleryWrapper .hideTags"),
-	tagsCloud = $(".galleryWrapper .tag-cloud");
+tagsTextToggle = $(".galleryWrapper .showTags, .galleryWrapper .hideTags"),
+tagsCloud = $(".galleryWrapper .tag-cloud");
 
-galleryPhoto.colorbox({
-	//rel:'gal',
-	opacity: 0.82,
-	current: "{current} из {total}"
-});
 
 tagsButton.on('click', function(){
 	tagsTextToggle.toggle();
 	tagsCloud.slideToggle();
-});
+});	
+
 
 
 
@@ -110,10 +164,6 @@ tagsButton.on('click', function(){
 //////////////////////////////////////////////
 // slider
 //////////////////////////////////////////////
-
-
-
-
 
 
 function sliderJS (obj, sl) {
