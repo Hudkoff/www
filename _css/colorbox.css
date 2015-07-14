@@ -104,25 +104,61 @@ body.cboxOn {overflow: hidden;}
 	opacity: 1;
 }
 .popup #cboxLoadedContent{
-	margin: 31px 40px 40px;
+	margin: 31px 40px 35px;
 }
 .popup#cboxOverlay {
   background-color: #000;
 }
+
+/* Общие стили для всех попапов */
 .popup {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 }
+.popup h3 {
+	margin-bottom: 30px;
+	position: relative;
+}
+.popup .tablink {
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-weight: normal;
+	font-size: 14px;
+	position: absolute;
+	right: 0;
+	border-bottom: 1px dotted #000;
+	top: 3px;
+}
+.popup .tablink:hover {
+	 border: 0;
+}
+.popup .tablink:before {
+	display: block;
+	content: "/";
+	position: absolute;
+	top: 0;
+	left: -13px;
+	color: #CACACA;
+	font-size: 16px;
+}
+.section {
+	margin-bottom: 20px;
+}
 
 /* Стили для конкретных попапов */
-.popup_login .table {
+.popup_login-reg .table {
 	width: 460px;
 }
-.popup_login .table-cell {
+.popup_login-reg .table-cell {
 	width: 50%;
 }
-.popup_login .text {
-	margin-top: 20px;
+.popup_login-reg .text {
 	width: 460px;
 	text-align: right;
+}
+.popup_login-reg .login-form {
+	width: 220px;
+}
+.popup_login-reg center a:last-child {
+	line-height: 2;
 }

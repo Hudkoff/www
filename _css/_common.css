@@ -203,6 +203,7 @@ a:hover .arrow.right {
 
 a {
 	text-decoration: underline;
+	color: #0e53b2;
 }
 a:hover {
 	text-decoration: none;
@@ -259,26 +260,64 @@ a:hover {
 
 /* формы */
 /* плавное изменение прозрачности  placeholder-а при фокусе */
-input[type="text"]::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.2s ease;}
-input[type="text"]::-moz-placeholder                {opacity: 1; transition: opacity 0.2s ease;}
-input[type="text"]:-moz-placeholder                 {opacity: 1; transition: opacity 0.2s ease;}
-input[type="text"]:-ms-input-placeholder            {opacity: 1; transition: opacity 0.2s ease;}
-input[type="text"]:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.2s ease;}
-input[type="text"]:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.2s ease;}
-input[type="text"]:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.2s ease;}
-input[type="text"]:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.2s ease;}
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder, 
+input[type="password"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
+input[type="url"]::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.2s ease; color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}
+input[type="text"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder, 
+input[type="number"]::-moz-placeholder, 
+input[type="password"]::-moz-placeholder, 
+input[type="tel"]::-moz-placeholder, 
+input[type="url"]::-moz-placeholder                {opacity: 1; transition: opacity 0.2s ease; color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;} /* Firefox 19+ */
+input[type="text"]:-moz-placeholder,
+input[type="email"]:-moz-placeholder, 
+input[type="number"]:-moz-placeholder, 
+input[type="password"]:-moz-placeholder, 
+input[type="tel"]:-moz-placeholder, 
+input[type="url"]:-moz-placeholder                 {opacity: 1; transition: opacity 0.2s ease; color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;} /* Firefox 18- */
+input[type="text"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder, 
+input[type="number"]:-ms-input-placeholder, 
+input[type="password"]:-ms-input-placeholder, 
+input[type="tel"]:-ms-input-placeholder, 
+input[type="url"]:-ms-input-placeholder            {opacity: 1; transition: opacity 0.2s ease; color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}
+input[type="text"]:focus::-webkit-input-placeholder,
+input[type="email"]:focus::-webkit-input-placeholder, 
+input[type="number"]:focus::-webkit-input-placeholder, 
+input[type="password"]:focus::-webkit-input-placeholder, 
+input[type="tel"]:focus::-webkit-input-placeholder, 
+input[type="url"]:focus::-webkit-input-placeholder {opacity: 0;}
+input[type="text"]:focus::-moz-placeholder,
+input[type="email"]:focus::-moz-placeholder, 
+input[type="number"]:focus::-moz-placeholder, 
+input[type="password"]:focus::-moz-placeholder, 
+input[type="tel"]:focus::-moz-placeholder, 
+input[type="url"] :focus::-moz-placeholder         {opacity: 0;}
+input[type="text"]:focus:-moz-placeholder,
+input[type="email"]:focus:-moz-placeholder, 
+input[type="number"]:focus:-moz-placeholder, 
+input[type="password"]:focus:-moz-placeholder, 
+input[type="tel"]:focus:-moz-placeholder, 
+input[type="url"]:focus:-moz-placeholder           {opacity: 0;}
+input[type="text"]:focus:-ms-input-placeholder,
+input[type="email"]:focus:-ms-input-placeholder, 
+input[type="number"]:focus:-ms-input-placeholder, 
+input[type="password"]:focus:-ms-input-placeholder, 
+input[type="tel"]:focus:-ms-input-placeholder, 
+input[type="url"]:focus:-ms-input-placeholder      {opacity: 0;}
 
-input::-webkit-input-placeholder {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}
-input::-moz-placeholder          {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}/* Firefox 19+ */
-input:-moz-placeholder           {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}/* Firefox 18- */
-input:-ms-input-placeholder      {color:#d2d2d2; font-weight: bold; font-family: 'Open Sans', sans-serif;}
 
 
 
-
-input[type="email"], input[type="number"], 
-input[type="password"], input[type="tel"], 
-input[type="url"], input[type="text"] {
+input[type="email"], 
+input[type="number"], 
+input[type="password"], 
+input[type="tel"], 
+input[type="url"], 
+input[type="text"] {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	border: 2px solid #e1e1e1;
@@ -286,15 +325,7 @@ input[type="url"], input[type="text"] {
 	padding: 8px 8px 7px;
 	width: 100%;
 	box-sizing: border-box;
-	margin-bottom: 10px;
-}
-
-label {
-	color: #747474;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
-	margin-bottom: 7px;
-	display: inline-block;
+	margin-bottom: 14px;
 }
 
 input[type="submit"] {
@@ -307,7 +338,64 @@ input[type="submit"] {
 	color: #fff;
 	padding: 9px 8px 8px;
 	cursor: pointer;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
 input[type="submit"]:hover {
 	opacity: .85;
 }
+
+/* капча */
+.captcha {
+	position: relative;
+}
+.captcha-img {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+}
+.captcha .reload {
+	position: absolute;
+	bottom: -8px;
+	font-size: 12px;
+	text-decoration: none;
+}
+.captcha .reload:hover {
+	text-decoration: underline;
+}
+
+/* лэйблы, чекбоксы, радиобатоны */
+label {
+	color: #747474;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	margin-bottom: 7px;
+	display: inline-block;
+}
+label.checkboxWrap {
+	color: #000;
+	cursor: pointer;
+	position: relative;
+	padding-left: 21px;
+}
+.checkboxWrap:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	cursor: pointer;
+	background: url("../images/sprite_forms.png");
+	background-position: 0 0;
+}
+.checkboxWrap.checked:before {
+	background-position: 0 -14px;
+}
+.checkboxWrap input[type="checkbox"] {
+	display: none;
+}
+
