@@ -80,6 +80,14 @@ $(document).ready(function() {
 		} 
 	});
 
+
+
+
+
+
+
+
+
 });
 
 
@@ -88,8 +96,72 @@ $(document).ready(function() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 //////////////////////////////////////////////
-// ColorBox gallery
+// Чекбоксы
+//////////////////////////////////////////////
+
+function changeCheck(el) {
+	// обрабатываем клик по чекбоксу
+    var el = el, // контейнер дял обычного чекбокса 
+        input = el.find("input").eq(0);
+   	if(input.attr("checked")) {
+		el.removeClass("checked");	
+		input.attr("checked", false);
+	} else {
+		el.addClass("checked");	
+		input.attr("checked", true);
+	}
+    return true;
+}
+
+function changeCheckStart(el) {
+	// 	если установлен атрибут checked, меняем вид чекбокса 
+	var el = el,
+	input = el.find("input").eq(0);
+    if(input.attr("checked")) {
+		el.addClass("checked");	
+	}
+    return true;
+}
+
+$(document).ready(function(){
+	// 	 при загрузке страницы нужно проверить какое значение имеет чекбокс и в соответствии с ним выставить вид     
+	$(".checkboxWrap").each(function() {
+	    changeCheckStart($(this));
+	});
+	// при клике на чекбоксе меняем его вид и значение 
+	$(".checkboxWrap").on("mouseup", function() {
+	    changeCheck($(this)); 
+	});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////
+// ColorBox 
 //////////////////////////////////////////////
 
 // перенос скроллинга с окна на попап и назад
@@ -97,6 +169,14 @@ function cboxPageScrollingAdjust() {
 	$("html, body").addClass("cboxOn");
 	var H = Math.max($("#colorbox").outerHeight(), $(window).height()); // если попап больше окна, то скролла нет, т.к. переполнение = высоте окна
 	$("body").height(H);
+
+	// обрабатываем чекбоксы на попапе - т.к. в момент привязки событий к чекбоксам попапа не существует
+	$(".checkboxWrap").each(function() {
+	    changeCheckStart($(this));
+	});
+	$(".checkboxWrap").on("mouseup", function() {
+	    changeCheck($(this)); 
+	});
 }
 function cboxPageScrollingReturn() {
 	$("html, body").removeClass("cboxOn");
@@ -135,7 +215,7 @@ if (loginButton.length != 0) { // если элемент есть на стра
 		opacity: 0.5,
 		onComplete: cboxPageScrollingAdjust,
 		onCleanup: cboxPageScrollingReturn,
-		className: "popup popup_login"
+		className: "popup popup_login-reg"
 	});
 }
 
@@ -143,19 +223,13 @@ if (loginButton.length != 0) { // если элемент есть на стра
 
 
 
-//////////////////////////////////////////////
-// Показать-Скрыть тэги
-//////////////////////////////////////////////
-
-var tagsButton = $(".galleryWrapper .tags-button"),
-tagsTextToggle = $(".galleryWrapper .showTags, .galleryWrapper .hideTags"),
-tagsCloud = $(".galleryWrapper .tag-cloud");
 
 
-tagsButton.on('click', function(){
-	tagsTextToggle.toggle();
-	tagsCloud.slideToggle();
-});	
+
+
+
+
+
 
 
 
@@ -232,3 +306,39 @@ $(document).ready(function() {
 	});
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////
+// Показать-Скрыть тэги
+//////////////////////////////////////////////
+
+var tagsButton = $(".galleryWrapper .tags-button"),
+tagsTextToggle = $(".galleryWrapper .showTags, .galleryWrapper .hideTags"),
+tagsCloud = $(".galleryWrapper .tag-cloud");
+
+
+tagsButton.on('click', function(){
+	tagsTextToggle.toggle();
+	tagsCloud.slideToggle();
+});	
+
+
+
