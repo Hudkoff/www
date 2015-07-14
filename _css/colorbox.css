@@ -115,6 +115,9 @@ body.cboxOn {overflow: hidden;}
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 }
+.popup #cboxContent {
+	margin: 20px 0;
+}
 .popup h3 {
 	margin-bottom: 30px;
 	position: relative;

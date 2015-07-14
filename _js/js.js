@@ -200,7 +200,7 @@ if (globalSearch.length != 0) { // если элемент есть на стр�
 		scrolling: false,
 		width: "80%",
 		maxWidth: "1600px",
-		height: "50%",
+		height: "60%",
 		onComplete: cboxPageScrollingAdjust,
 		onCleanup: cboxPageScrollingReturn,
 		className: "popup"
