@@ -4,5 +4,9 @@
 @import "_topbar.css";
 @import "_footer.css";
 @import "_sitemap.css";
-
-
+@import "colorbox.css";
+@import "_article.css";
+@import "_shop-item.css";
+@import "_recommendation-link.css";
+@import "_breadcrumbs.css";
+@import "_tag-cloud.css";
