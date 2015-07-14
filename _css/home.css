@@ -1,14 +1,11 @@
 /* стили для главной страницы */
-@import "_lenta.css";
 @import "_block-seo.css";
 @import "_slider.css";
 @import "_daytopic-title.css";
 @import "_daytopic.css";
 @import "_daytopic-article.css";
-@import "_article.css";
 @import "_video-link.css";
 @import "_tests.css";
-@import "_shop-item.css";
 @import "_intoldot.css";
 @import "_intopic.css";
 
