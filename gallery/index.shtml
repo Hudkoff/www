@@ -1,4 +1,4 @@
-<div class="galleryWrapper wrapper">
+<div class="page_gallery wrapper">
 	<div class="table">
 
 		<!--#include virtual="column-left.shtml"-->

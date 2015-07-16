@@ -1,6 +1,6 @@
 .catalog-pagination {
 	display: table;
-	margin: 0 auto;
+	margin: 10px auto 20px;
 	font: bold 1.4rem 'Open Sans', sans-serif;
 }
 .catalog-pagination ul {
@@ -9,8 +9,21 @@
 }
 .catalog-pagination li {
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 8px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
 }
+
+.catalog-pagination li:hover {
+	background-color: #ddd;
+}
+
+
 .catalog-pagination li:first-child {
 	margin-left: 20px;
 }
@@ -39,4 +52,11 @@
 }
 .catalog-pagination .right-button {
 	background: url("../images/right-button.png") 11px 7px no-repeat;
+}
+
+.catalog-pagination .right-button:hover {
+	background-color: #ddd;
+}
+.catalog-pagination .left-button:hover {
+	background-color: #ddd;
 }

@@ -183,11 +183,12 @@ function cboxPageScrollingReturn() {
 	$("body").height("auto");
 }
 
-var galleryPhoto = $(".galleryWrapper .photoBlock.photo a");
+var galleryPhoto = $(".page_gallery .photoBlock.photo a");
 if (galleryPhoto.length != 0) { // если элемент есть на странице
 	galleryPhoto.colorbox({
-		//rel:'gal',
+		rel:'gal', // uncomment to turn the group photo gallery on / включить группирование фоток в галерее
 		fixed: true,
+		//title: true,
 		current: "{current} из {total}"
 	});
 }

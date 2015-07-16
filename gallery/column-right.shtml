@@ -2,7 +2,7 @@
 <aside class="table-cell column-right">
 
 	<div class="banner-aside">
-		<a href="#">
+		<a href="#" title="">
 			<img src="images/banner_2.jpg" alt="Шавуот. Как купить подарок?"/>
 		</a>
 	</div>
@@ -51,23 +51,23 @@
 				<b class="arrow right">&#9670;</b>
 			</a>
 		</h3>
-		<a class="question" href="#">Можно ли делать временные татуировки?</a>
-		<a class="question" href="#">Наша вера основана на свидетельстве шестисот тысяч человек? Или на доверии лично Моше?</a>
-		<a class="question" href="#">Как объяснить парикмахеру, как надо стричь, не сбривая пейсы?</a>
-		<a class="button color-b38d39 askQuestionButton">Спросить раввина</a>
+		<a class="question" title="" href="#">Можно ли делать временные татуировки?</a>
+		<a class="question" title="" href="#">Наша вера основана на свидетельстве шестисот тысяч человек? Или на доверии лично Моше?</a>
+		<a class="question" title="" href="#">Как объяснить парикмахеру, как надо стричь, не сбривая пейсы?</a>
+		<a class="button color-b38d39 askQuestionButton" title="Спросить раввина">Спросить раввина</a>
 	</section>
 
 	<section class="familyQuestion">
 		<h3 class="color-d55940">
 			<a href="#" title="">
-				Вопросы раввину
+				Семья
 				<b class="arrow right">&#9670;</b>
 			</a>
 		</h3>
-		<a class="question" href="#">Муж очень привязан к своей маме. К счастью, она живет в другой стране. Недавно она...</a>
-		<a class="question" href="#">Супруга очень ленится...</a>
-		<a class="question" href="#">Что делать, если у нас с мужем разные мнения практически по всем вопросам?</a>
-		<a class="button color-d55940 askQuestionButton">Спросить семейного консультанта</a>
+		<a class="question" title="" href="#">Муж очень привязан к своей маме. К счастью, она живет в другой стране. Недавно она...</a>
+		<a class="question" title="" href="#">Супруга очень ленится...</a>
+		<a class="question" title="" href="#">Что делать, если у нас с мужем разные мнения практически по всем вопросам?</a>
+		<a class="button color-d55940 askQuestionButton" title="Спросить семейного консультанта">Спросить семейного консультанта</a>
 	</section>
 
 	<section class="testLight">
