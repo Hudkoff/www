@@ -4,10 +4,8 @@
 	<div class="table">
 		<div class="table-cell double">
 			<!--#include virtual="../breadcrumbs/index.shtml"-->
-
-			<h2>
-				Фото
-			</h2>
+ 
+			<h2>Фото</h2>
 
 			<div class="photo-of-day">
 				<div class="photoCountInfo">
@@ -50,9 +48,7 @@
 
 	<div class="galleryBlock galleryWide">
 
-		<h2 class="galleryHeading">
-			Последние добавленные
-		</h2>
+		<h2 class="galleryHeading">Последние добавленные</h2>
 
 
 		<div class="photoBlock">
@@ -61,9 +57,7 @@
 					<img src="images/photo-1.jpg" alt="В израиле" />
 				</a>
 				<div class="overlay">
-					<h3>
-						В израиле
-					</h3>
+					<h3>В израиле</h3>
 					<div class="photoCount">
 						91
 					</div>
@@ -71,8 +65,7 @@
 			</div>
 			<div class="underlines"></div>
 			<div class="info">
-				28 марта,
-				<b>Рав Моше Пантелят</b>
+				28 марта, <b>Рав Моше Пантелят</b>
 			</div>
 		</div>
 
@@ -84,20 +77,17 @@
 			</div>
 			<h6>Выставка народного творчества</h6>
 			<div class="info">
-				28 марта,
-				<b>Рав Моше Пантелят</b>
+				28 марта, <b>Рав Моше Пантелят</b>
 			</div>
 		</div>
 
 		<div class="photoBlock">
 			<div class="image folder">
-				<a href="/images/photo-3-big.jpg"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
 					<img src="images/photo-3.jpg" alt="В израиле"/>
 				</a>
 				<div class="overlay">
-					<h3>
-						Встреча с раввином
-					</h3>
+					<h3>Встреча с раввином</h3>
 					<div class="photoCount">
 						591
 					</div>
@@ -105,20 +95,17 @@
 			</div>
 			<div class="underlines"></div>
 			<div class="info">
-				28 марта,
-				<b>Рав Моше Пантелят</b>
+				28 марта, <b>Рав Моше Пантелят</b>
 			</div>
 		</div>
 
 		<div class="photoBlock">
 			<div class="image folder" title="В израиле">
-				<a href="/images/photo-4-big.jpg"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
 					<img src="images/photo-1.jpg" alt="В израиле"/>
 				</a>
 				<div class="overlay">
-					<h3>
-						В израиле
-					</h3>
+					<h3>В израиле</h3>
 					<div class="photoCount">
 						91
 					</div>
@@ -126,8 +113,7 @@
 			</div>
 			<div class="underlines"></div>
 			<div class="info">
-				28 марта,
-				<b>Рав Моше Пантелят</b>
+				28 марта, <b>Рав Моше Пантелят</b>
 			</div>
 		</div>
 
@@ -156,20 +142,17 @@
 			</div>
 			<h6>Беседа с раввином</h6>
 			<div class="info">
-				28 марта,
-				<b>Рав Моше Пантелят</b>
+				28 марта, <b>Рав Моше Пантелят</b>
 			</div>
 		</div>
 
 		<div class="photoBlock">
 			<div class="image folder">
-				<a href="/images/photo-3-big.jpg"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
 					<img src="images/photo-1.jpg" alt="В израиле" />
 				</a>
 				<div class="overlay">
-					<h3>
-						В израиле
-					</h3>
+					<h3>В израиле</h3>
 					<div class="photoCount">
 						91
 					</div>
@@ -177,8 +160,7 @@
 			</div>
 			<div class="underlines"></div>
 			<div class="info">
-				28 марта,
-				<b>Рав Моше Пантелят</b>
+				28 марта, <b>Рав Моше Пантелят</b>
 			</div>
 		</div>
 
@@ -190,14 +172,13 @@
 			</div>
 			<h6>Выставка народного творчества</h6>
 			<div class="info">
-				28 марта,
-				<b>Рав Моше Пантелят</b>
+				28 марта, <b>Рав Моше Пантелят</b>
 			</div>
 		</div>
 
 		<div class="photoBlock">
 			<div class="image folder">
-				<a href="/images/photo-1-big.jpg"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
 					<img src="images/photo-3.jpg" alt="В израиле"/>
 				</a>
 				<div class="overlay">
@@ -211,20 +192,17 @@
 			</div>
 			<div class="underlines"></div>
 			<div class="info">
-				28 марта,
-				<b>Рав Моше Пантелят</b>
+				28 марта, <b>Рав Моше Пантелят</b>
 			</div>
 		</div>
 
 		<div class="photoBlock">
 			<div class="image folder" title="В израиле">
-				<a href="/images/photo-2-big.jpg"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
 					<img src="images/photo-1.jpg" alt="В израиле"/>
 				</a>
 				<div class="overlay">
-					<h3>
-						В израиле
-					</h3>
+					<h3>В израиле</h3>
 					<div class="photoCount">
 						91
 					</div>

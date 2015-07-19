@@ -1,7 +1,7 @@
 
 <aside class="table-cell column-right">
 
-	<div class="banner-aside">
+	<!--div class="banner-aside">
 		<a href="#" title="">
 			<img src="images/banner_2.jpg" alt="Шавуот. Как купить подарок?"/>
 		</a>
@@ -42,7 +42,7 @@
 		<!--#include virtual="../article/index-33.shtml"-->
 		<!--#include virtual="../article/index-32.shtml"-->
 		<!--#include virtual="../article/index-33.shtml"-->
-	</section>
+	</section-->
 
 	<section class="askQuestion">
 		<h3 class="color-b38d39">

@@ -5,20 +5,6 @@
 	<!--#include virtual="_head.shtml"-->
 	<link href="_css/home.css" rel="stylesheet" type="text/css">
 
-	<meta itemprop="url" property="og:url" content="http://toldot.ru/" /><!-- Канонический путь к странице -->
-	<meta itemprop="image" property="og:image" content="logo/images/og-logo.png" /><!-- Картинка для отображения -->
-
-	<title>Иудаизм и евреи — Judaism and Jews</title>
-	<meta property="og:title" content="Иудаизм и евреи — Judaism and Jews" /><!-- Название страницы -->
-	<meta property="og:type" content="website" />
-	<meta property="og:description" content="Толдот Йешурун - иудаизм и евреи. Уроки иудаизма во многих городах Израиля, программа Талмуд по интернету, библиотека еврейских книг, статей, аудио и видеоуроков по иудаизму. Помощь построения семьи - программа еврейских знакомств, шидухим. Ежедневные онлайн видеоуроки по иудаизму" /><!-- Описание страницы -->
-
-	<meta itemprop="inLanguage" content="ru" />
-	<meta itemprop="isFamilyFriendly" content="1" />
-	<meta itemprop="audience" content="jews" />
-	<meta itemprop="keywords" name="keywords" content="евреи еврейские праздники знакомства культура философия образование книги иудаизм история библия танах тора талмуд аудио видео уроки мистика заповеди мицвот рав зильбер израиль иерусалим иудей раввин рав Зильбер толдот йешурун Toldot Yeshurun Toldos каббала недельная глава синагога ешива йешива колель иерусалим уроки торы суббота йом кипур рош а-шана суккот шавуот песах ханука пурим" />
-	<meta itemprop="description" name="description" content="Толдот Йешурун - иудаизм и евреи. Уроки иудаизма во многих городах Израиля, программа Талмуд по интернету, библиотека еврейских книг, статей, аудио и видеоуроков по иудаизму. Помощь построения семьи - программа еврейских знакомств, шидухим. Ежедневные онлайн видеоуроки по иудаизму" />	
-
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
 

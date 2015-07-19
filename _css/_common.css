@@ -227,8 +227,11 @@ a:hover {
 	text-transform: uppercase;
 	color: #fff;
 }
-.blog {
+.label.blog {
 	background: #46aac4;
+}
+.label.audio {
+	background: #8db20e;
 }
 
 
