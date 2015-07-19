@@ -1,8 +1,6 @@
 
 <div class="table-cell column-central">
 
-
-
 	<div class="table">
 		<div class="table-cell double">
 			<!--#include virtual="../breadcrumbs/index.shtml"-->
@@ -266,5 +264,19 @@
 		</div>
 
 	</div>
+
+	<div class="column-central-fake">
+		<section class="search">
+			<form>
+				<input type="text" placeholder="Поиск по тегам">
+			</form>
+			<div class="icon icon-search"></div>
+		</section>
+
+		<!--#include virtual="../tag-cloud/index.shtml"-->
+
+	</div>
+
+
 
 </div>

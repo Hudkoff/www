@@ -45,6 +45,9 @@
 .daytopic-content .column-central .summary a {
 	color: #0e53b2;
 }
+.daytopic-content .galleryHeading {
+	margin-top: 0;
+}
 
 .daytopic-content .column-central .table-cell {
 	width: 33.3%;
