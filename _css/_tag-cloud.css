@@ -56,10 +56,15 @@
 	display: block;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
 	color: #0e53b2;
-	margin: 0 auto;
+	margin: 13px auto 0;
 	cursor: pointer;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.dotted {
+	border-bottom: 1px dotted #000;
 }
 
 .show-all-tags {

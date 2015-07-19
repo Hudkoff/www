@@ -1,12 +1,13 @@
-<div class="page_gallery wrapper">
-	<div class="table">
+<div class="page_gallery">
 
-		<!--#include virtual="column-left.shtml"-->
+	<div class="top-block wrapper">
+		<div class="table">
 
-		<!--#include virtual="top-block.shtml"-->
+			<!--#include virtual="column-left.shtml"-->
 
+			<!--#include virtual="top-block.shtml"-->
 
-
+		</div>
 	</div>
 
 	<!--#include virtual="../_banner-wide-toldot.shtml"-->
@@ -14,5 +15,6 @@
 	<!--#include virtual="../_daytopic-title.shtml"-->
 
 	<!--#include virtual="../_daytopic-photo.shtml"-->
+
 </div>
 

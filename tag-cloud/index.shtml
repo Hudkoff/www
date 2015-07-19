@@ -220,7 +220,7 @@
 		</ul>
 	</div>
 	<div class="show-all-tags">
-		<span class="show-all-tags-text">&#8595; Показать все теги</span>
-		<span class="hide-all-tags-text">&#8593; Показать основные теги</span>
+		<span class="show-all-tags-text">&#8595; <span class="dotted">Показать все теги</span></span>
+		<span class="hide-all-tags-text">&#8593; <span class="dotted">Показать основные теги</span></span>
 	</div>
 </div>

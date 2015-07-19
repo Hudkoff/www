@@ -188,7 +188,7 @@ if (galleryPhoto.length != 0) { // если элемент есть на стр�
 	galleryPhoto.colorbox({
 		rel:'gal', // uncomment to turn the group photo gallery on / включает группирование фоток в галерее
 		fixed: true,
-		className: 'border-9c5630',
+		className: 'colorbox-gallery border-9c5630',
 		current: "{current} из {total}"
 	});
 }
@@ -204,7 +204,8 @@ if (globalSearch.length != 0) { // если элемент есть на стр�
 		height: "60%",
 		onComplete: cboxPageScrollingAdjust,
 		onCleanup: cboxPageScrollingReturn,
-		className: "popup"
+		className: "popup",
+		current: ''
 	});
 }
 
@@ -216,7 +217,8 @@ if (loginButton.length != 0) { // если элемент есть на стра
 		opacity: 0.5,
 		onComplete: cboxPageScrollingAdjust,
 		onCleanup: cboxPageScrollingReturn,
-		className: "popup popup_login-reg"
+		className: "popup popup_login-reg",
+		current: ''
 	});
 }
 

@@ -5,7 +5,7 @@
 @import "_daytopic-article.css";
 @import "_daytopic.css";
 @import "_intopic.css";
-
+@import "_lenta.css";
 
 .page_gallery .catalog-pagination li.selected a {
     background-color: #9c5630;
