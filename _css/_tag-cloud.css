@@ -1,5 +1,4 @@
 .tag-cloud {
-	margin-bottom: 50px;
 	padding: 0 12px;
 	text-align: center;
 	font-size: 0;
@@ -39,4 +38,25 @@
 }
 .tag-cloud .weight8 a {
 	font-size: 3.2rem;
+}
+
+.all-tags,
+.hideTags,
+.tag-cloud-wrapper,
+.hide-all-tags-text{
+	display: none;
+}
+
+.show-all-tags {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #0e53b2;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.show-all-tags {
+	margin-top: 10px;
+	margin-bottom: 40px;
 }

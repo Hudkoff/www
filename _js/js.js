@@ -186,9 +186,9 @@ function cboxPageScrollingReturn() {
 var galleryPhoto = $(".page_gallery .photoBlock.photo a");
 if (galleryPhoto.length != 0) { // если элемент есть на странице
 	galleryPhoto.colorbox({
-		rel:'gal', // uncomment to turn the group photo gallery on / включить группирование фоток в галерее
+		rel:'gal', // uncomment to turn the group photo gallery on / включает группирование фоток в галерее
 		fixed: true,
-		//title: true,
+		className: 'border-9c5630',
 		current: "{current} из {total}"
 	});
 }
@@ -331,15 +331,23 @@ $(document).ready(function() {
 // Показать-Скрыть тэги
 //////////////////////////////////////////////
 
-var tagsButton = $(".galleryWrapper .tags-button"),
-tagsTextToggle = $(".galleryWrapper .showTags, .galleryWrapper .hideTags"),
-tagsCloud = $(".galleryWrapper .tag-cloud");
-
+var tagsButton = $(".tags-button"),
+	tagsTextToggle = $(".showTags, .hideTags"),
+	tagsCloud = $(".tag-cloud-wrapper");
 
 tagsButton.on('click', function(){
 	tagsTextToggle.toggle();
 	tagsCloud.slideToggle();
-});	
+});
+
+var allTagsTextToggle = $(".show-all-tags-text, .hide-all-tags-text"),
+	allTags = $(".all-tags"),
+	allTagsButton = $(".show-all-tags");
+
+allTagsButton.on('click', function(){
+	allTags.slideToggle();
+	allTagsTextToggle.toggle();
+});
 
 
 
