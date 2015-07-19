@@ -40,14 +40,20 @@
 	font-size: 3.2rem;
 }
 
+.tag-cloud-wrapper {
+	margin-bottom: 40px;
+}
+
 .all-tags,
 .hideTags,
-.tag-cloud-wrapper,
-.hide-all-tags-text{
+.tags-hidden .tag-cloud-wrapper,
+.hide-all-tags-text,
+.show-all-tags {
 	display: none;
 }
 
-.show-all-tags {
+.all-tags-available .show-all-tags {
+	display: block;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
@@ -58,5 +64,4 @@
 
 .show-all-tags {
 	margin-top: 10px;
-	margin-bottom: 40px;
 }

@@ -1,30 +1,61 @@
 
 <div class="table-cell column-central">
 
-	<!--#include virtual="../breadcrumbs/index.shtml"-->
 
-	<h2>
-		Фото
-	</h2>
 
-	<section class="search">
-		<form>
-			<input type="text" placeholder="Поиск фото">
-		</form>
-		<div class="icon icon-search"></div>
-		<div class="tags-button">
-			<span class="showTags">&#8595; Показать теги</span>
-			<span class="hideTags">&#8593; Скрыть теги</span>
+	<div class="table">
+		<div class="table-cell double">
+			<!--#include virtual="../breadcrumbs/index.shtml"-->
+
+			<h2>
+				Фото
+			</h2>
+
+			<div class="photo-of-day">
+				<div class="photoCountInfo">
+					<span>20 567</span>
+					фотографий,
+					<span>358</span>
+					авторов
+				</div>
+				<div class="image-container">
+					<img src="../images/photo-of-the-day.jpg" alt="Фото дня" title="Фото дня"/>
+					<div class="image-overlay">
+						<h6>Фото дня</h6>
+						<h1>Прекрасный Иерусалим</h1>
+						<div class="author">
+							Автор: Натан Агрес
+							<a href="#" title="">См. все его фото</a>
+						</div>
+					</div>
+				</div>
+				<a href="#" title="" class="send-photo-button">
+					Прислать фото
+				</a>
+			</div>
 		</div>
 
-	</section>
-
-	<div class="tags-hidden all-tags-available">
-		<!--#include virtual="../tag-cloud/index.shtml"-->
+		<div class="table-cell">
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+				<!--#include virtual="../lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="../lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="../lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="../lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="../lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="../lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="../lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="../lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="../lenta/index-09.shtml?e1f5fa"-->
+			</section>
+		</div>
 	</div>
-	<!--#include virtual="../catalog-pagination/index.shtml"-->
 
-	<div class="galleryBlock">
+	<div class="galleryBlock galleryWide">
+
+		<h2 class="galleryHeading">
+			Последние добавленные
+		</h2>
+
 
 		<div class="photoBlock">
 			<div class="image folder">
@@ -101,6 +132,10 @@
 				<b>Рав Моше Пантелят</b>
 			</div>
 		</div>
+
+		<h2 class="galleryHeading">
+			Популярные
+		</h2>
 
 		<div class="photoBlock photo">
 			<div class="image">
@@ -231,7 +266,5 @@
 		</div>
 
 	</div>
-
-	<!--#include virtual="../catalog-pagination/index.shtml"-->
 
 </div>

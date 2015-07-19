@@ -60,11 +60,13 @@ body {
 	padding-left: 0;
 	width: 33.4%;
 }
-.table-cell.double { /* перебивает ширину */
-	width: 66.7%;
-}
+
 .table-cell .table-cell {
 	width: 50%; /* перебивает ширину - при вложнности в двойную ячейку */
+}
+
+.table-cell.double { /* перебивает ширину */
+	width: 66.7%;
 }
 
 b {

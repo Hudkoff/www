@@ -1,0 +1,10 @@
+<div class="page_gallery wrapper">
+	<div class="table">
+
+		<!--#include virtual="column-left.shtml"-->
+
+		<!--#include virtual="top-block.shtml"-->
+
+	</div>
+</div>
+
