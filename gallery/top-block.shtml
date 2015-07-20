@@ -15,7 +15,7 @@
 					авторов
 				</div>
 				<div class="image-container">
-					<img src="../images/photo-of-the-day.jpg" alt="Фото дня" title="Фото дня"/>
+					<img src="images/photo-of-the-day.jpg" alt="Фото дня"/>
 					<div class="image-overlay">
 						<h6>Фото дня</h6>
 						<h1>Прекрасный Иерусалим</h1>
