@@ -1,7 +1,7 @@
 
 <div class="table-cell column-central">
 
-	<!--#include virtual="../breadcrumbs/index.shtml"-->
+	<!--#include virtual="../breadcrumbs/photo.shtml"-->
 
 	<h2>Фото</h2>
 
