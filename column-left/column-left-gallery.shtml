@@ -25,9 +25,7 @@
                 <b class="arrow right">&#9670;</b>
             </a>
         </h3>
-
         <!--#include virtual="../shop-item/index.shtml"-->
-
     </section>
 
 </aside>

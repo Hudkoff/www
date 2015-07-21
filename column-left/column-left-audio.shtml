@@ -1,0 +1,23 @@
+<aside class="table-cell column-left">
+
+	<a class="banner" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
+		<img src="images/banner_02.jpg" alt="">
+	</a>
+
+	<h4 class="title">Рекомендуем:</h4>
+	<section>
+		<!--#include virtual="../recommendation-link/index-01.shtml"-->
+		<!--#include virtual="../recommendation-link/index-02.shtml"-->
+		<!--#include virtual="../recommendation-link/index-03.shtml"-->
+	</section>
+	
+	<section>
+		<h4 class="color-1259a8">
+			<a href="#" title="">
+				Магазин
+				<b class="arrow right">&#9670;</b>
+			</a>
+		</h4>					
+		<!--#include virtual="../shop-item/index.shtml"-->
+	</section>	
+</aside>

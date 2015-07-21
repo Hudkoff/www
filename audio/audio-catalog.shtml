@@ -1,25 +1,8 @@
 ﻿<div class="audio-catalog wrapper">
 	<div class="table">
-		<div class="table-cell column-left">
-			<a class="banner" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
-				<img src="images/banner_02.jpg" alt="">
-			</a>
-			<h4 class="title">Рекомендуем:</h4>
-			<div>
-				<!--#include virtual="../recommendation-link/index-01.shtml"-->
-				<!--#include virtual="../recommendation-link/index-02.shtml"-->
-				<!--#include virtual="../recommendation-link/index-03.shtml"-->
-			</div>
-			<section>
-				<h4 class="color-1259a8">
-					<a href="#" title="">
-						Магазин
-						<b class="arrow right">&#9670;</b>
-					</a>
-				</h4>					
-				<!--#include virtual="../shop-item/index.shtml"-->
-			</section>	
-		</div>
+
+		<!--#include virtual="../column-left/column-left-audio.shtml"-->
+
 		<div class="table-cell column-central">
 			<div class="tag-search-wrapper">
 				<section class="tag-search">
@@ -54,6 +37,7 @@
 				<!--#include virtual="../catalog-pagination/index.shtml"-->
 			</div>
 		</div>
+
 		<div class="table-cell column-right">
 			<section>
 				<h4 class="color-8db20e">
@@ -65,5 +49,6 @@
 				<!--#include virtual="../audio-authors/index.shtml"-->
 			</section>
 		</div>
+		
 	</div>
 </div>

@@ -10,9 +10,9 @@
 
 	<!--#include virtual="_header.shtml"-->
 
-	<!--#include virtual="audio-main/index.shtml"-->
+	<!--#include virtual="audio/audio-main.shtml"-->
 
-	<!--#include virtual="audio-catalog/index.shtml"-->
+	<!--#include virtual="audio/audio-catalog.shtml"-->
 
 	<!--#include virtual="_banner-wide-toldot.shtml"-->
 
