@@ -9,6 +9,7 @@
 /* перенести кнопки в глобал и удалить отсюда и из _audio-link.css */
 .buttons {
 	font-size: 0;
+	margin-bottom: 12px;
 }
 .button {
 	display: inline-block;
@@ -77,14 +78,56 @@
 
 
 .article-header {
-	padding: 20px;
+	padding: 20px 20px 23px;
 }
-
-
-
-
-
-
+.article-header .askQuestionButton {
+	float: right;
+	color: #fff;
+ 	 padding: 10px 13px 8px 13px;
+  	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 3px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+	background: #b38d39;
+}
+.article-header .askQuestionButton:hover {
+	opacity: .8;
+}
+.article-header .askLink {
+	color: #b38d39;
+	text-decoration: underline;
+  	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	float: right;
+	 margin: 9px 0 0 20px;
+}
+.article-header .askLink:hover {
+	text-decoration: none;
+}
+.article-header h1 {
+	padding-bottom: 12px;
+	border-bottom: 2px solid #e5e5e5;
+	  margin-bottom: 12px;
+}
+.article-header h4 {
+	margin-bottom: 4px;
+}
+.article-header .details {
+	  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  color: #6c6c6c;
+	margin-bottom: 10px;
+}
+.article-header p {
+	font-family: 'Noto Serif', serif;	
+	font-size: 14px;
+	line-height: 1.4;
+}
 
 
 
@@ -135,6 +178,10 @@
 .page_ask-article .article-content {
 	border-color: #f7f2e7;
 }
+.page_ask-article h1 {
+	color: #b38d39;
+}
+
 
 
 
