@@ -1,0 +1,24 @@
+<h3 class="color-0e53b2">
+	Спросить раввина
+</h3>
+
+<form>
+	<div class="table">
+		<div class="table-cell">
+			<label>Имя:</label>
+			<input type="text" class="" placeholder="Иван">
+		</div>
+		<div class="table-cell">
+			<label>Email:</label>
+			<input type="text" class="" placeholder="mail@mail.ru">
+		</div>
+	</div>
+	<div class="section">
+		<label>Вопрос:</label>
+		<input type="text" class="" placeholder="Что вас интересует?">
+		Можно ли публиковать ответ:
+	</div>
+	<input type="submit" value="ДАЛЕЕ">
+</form>
+
+

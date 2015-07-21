@@ -116,11 +116,13 @@ body.cboxOn {overflow: hidden;}
 .popup #cboxMiddleRight,
 .popup #cboxNext,
 .popup #cboxPrevious,
-.popup #cboxCurrent {
+.popup #cboxCurrent,
+.popup #cboxTitle {
 	display: none;
 	width: 0;
 	height: 0;
 	background-image: none;
+	overflow: hidden;
 }
 .popup #cboxClose {
 	top: 0;

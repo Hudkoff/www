@@ -205,7 +205,6 @@ if (globalSearch.length != 0) { // если элемент есть на стр�
 		onComplete: cboxPageScrollingAdjust,
 		onCleanup: cboxPageScrollingReturn,
 		className: "popup",
-		current: ''
 	});
 }
 
@@ -218,11 +217,20 @@ if (loginButton.length != 0) { // если элемент есть на стра
 		onComplete: cboxPageScrollingAdjust,
 		onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_login-reg",
-		current: ''
 	});
 }
 
-
+var loginButton = $(".askQuestionButton");
+if (loginButton.length != 0) { // если элемент есть на странице
+	loginButton.colorbox({
+		scrolling: false,
+		opacity: 0.5,
+		width: "526px",
+		onComplete: cboxPageScrollingAdjust,
+		onCleanup: cboxPageScrollingReturn,
+		className: "popup",
+	});
+}
 
 
 
