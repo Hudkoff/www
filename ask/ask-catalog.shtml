@@ -1,38 +1,35 @@
 ﻿<div class="audio-catalog wrapper">
 	<div class="table">
 
-		<!--#include virtual="../column-left/column-left-audio.shtml"-->
+		<!--#include virtual="../column-left/column-left-ask.shtml"-->
 
 		<div class="table-cell column-central">
-			<div class="tag-search-wrapper">
-				<section class="tag-search">
-					<form>
-						<input type="submit" value="&nbsp;">
-						<input type="text" placeholder="Поиск по тегам">
-					</form>
-				</section>
-			</div>
+
+			<section class="search">
+				<form>
+					<input type="text" placeholder="Поиск по тегам">
+				</form>
+				<div class="icon icon-search"></div>
+			</section>
 
 			<!--#include virtual="../tag-cloud/index.shtml"-->
 
 			<div class="audio-list-wrapper">
+				<p class="block-title">Вопросы Раввину</p>
 				<ul class="audio-filters">
 					<li class="author"><span>Автор</span></li>
 					<li class="date"><span>Дата</span></li>
 					<li class="title"><span>Название</span></li>
 				</ul>
 				<div class="audio-list">
-					<!--#include virtual="../audio-link/index-21.shtml"-->
-					<!--#include virtual="../audio-link/index-22.shtml"-->
-					<!--#include virtual="../audio-link/index-23.shtml"-->
-					<!--#include virtual="../audio-link/index-24.shtml"-->
-					<!--#include virtual="../audio-link/index-25.shtml"-->
-					<!--#include virtual="../audio-link/index-24.shtml"-->
-					<!--#include virtual="../audio-link/index-25.shtml"-->
-					<!--#include virtual="../audio-link/index-26.shtml"-->
-					<!--#include virtual="../audio-link/index-25.shtml"-->
-					<!--#include virtual="../audio-link/index-26.shtml"-->
-					<!--#include virtual="../audio-link/index-25.shtml"-->
+					<!--#include virtual="../audio-link/index-41.shtml"-->
+					<!--#include virtual="../audio-link/index-42.shtml"-->
+					<!--#include virtual="../audio-link/index-43.shtml"-->
+					<!--#include virtual="../audio-link/index-44.shtml"-->
+					<!--#include virtual="../audio-link/index-45.shtml"-->
+					<!--#include virtual="../audio-link/index-46.shtml"-->
+					<!--#include virtual="../audio-link/index-47.shtml"-->
+					<!--#include virtual="../audio-link/index-48.shtml"-->
 				</div>
 				<!--#include virtual="../catalog-pagination/index.shtml"-->
 			</div>

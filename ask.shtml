@@ -16,7 +16,9 @@
 
 	<!--#include virtual="_banner-wide-toldot.shtml"-->
 
-	<!--#include virtual="_daytopic-title.shtml"-->		
+	<!--#include virtual="_daytopic-title.shtml"-->	
+
+	<!--#include virtual="_daytopic-ask.shtml"-->		
 
 	<!--#include virtual="_footer.shtml"-->
 
