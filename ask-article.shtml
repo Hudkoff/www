@@ -17,7 +17,12 @@
 
 			<div class="table-cell column-central">
 
-				<div class="article-header">sdfsdf</div>
+				<div class="article-header">
+					<div class="buttons">
+						<a href="#" class="button set-aside">Отложить</a>
+						<a href="#" class="button subscribe">Подписаться</a>
+					</div>
+				</div>
 
 				<div class="article-content">
 					<h6>Отвечает Рав Ашер Кушнир</h6>
