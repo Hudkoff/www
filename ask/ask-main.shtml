@@ -2,44 +2,39 @@
 	<div class="table">
 
 		<div class="table-cell column-left">
-			<!--#include virtual="../column-left/sidemenu-audio.shtml"-->
+			<!--#include virtual="../column-left/sidemenu-ask.shtml"-->
 		</div>
 
 		<div class="table-cell column-central">
-			<!--#include virtual="../breadcrumbs/audio.shtml"-->
+			<!--#include virtual="../breadcrumbs/ask.shtml"-->
 
 			<div class="table">
 				<div class="table-cell column-left">
 					<div class="audiolessons">
-						<h1 class="color-8db20e">Аудиоуроки</h1>
+						<h1>Спросить раввина</h1>
 						<div class="audio-lessons-summary">
 							<p><span>20 567</span> аудиоуроков, <span>358</span> авторов</p>
 						</div>
+						<!--#include virtual="../ask/ask-buttons.shtml"-->
 						<div class="audiolessons-list">
-							<!--#include virtual="../audio-link/index-11.shtml"-->
-							<!--#include virtual="../audio-link/index-12.shtml"-->
+							<!--#include virtual="../audio-link/index-41.shtml"-->
+							<!--#include virtual="../audio-link/index-42.shtml"-->
 						</div>
 					</div>
 				</div>
 				<div class="table-cell column-right clearfix">
-					<h3 class="different-font-size">Циклы</h3>
+					<h3 class="different-font-size">Популярное</h3>
 					<div>
-						<!--#include virtual="../article/index-51.shtml"-->
-						<!--#include virtual="../article/index-52.shtml"-->
-						<!--#include virtual="../article/index-51.shtml"-->
-						<!--#include virtual="../article/index-52.shtml"-->
-						<!--#include virtual="../article/index-51.shtml"-->
-						<!--#include virtual="../article/index-52.shtml"-->
+						<!--#include virtual="../article-link/index-61.shtml"-->
+						<!--#include virtual="../article-link/index-62.shtml"-->
+						<!--#include virtual="../article-link/index-63.shtml"-->
+						<!--#include virtual="../article-link/index-61.shtml"-->
+						<!--#include virtual="../article-link/index-63.shtml"-->
 					</div>
-					<a href="#" class="more" title="">Далее</a>
 				</div>
 			</div>
-			<a href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
-				<img src="images/banner_01.jpg" alt="">
-			</a>
 		</div>
 		<div class="table-cell column-right">
-			<!--#include virtual="../radio-toldot/index.shtml"-->
 			
 			<div class="lenta-box">
 				<!--#include virtual="../lenta/index-01.shtml?f8f8f8"-->
