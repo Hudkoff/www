@@ -9,7 +9,7 @@
         </a>
     </div>
 
-    <section>
+    <section class="recommendations">
         <h4 class="title">Рекомендуем:</h4>
         <div>
             <!--#include virtual="../recommendation-link/index-01.shtml"-->

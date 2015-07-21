@@ -4,8 +4,8 @@
 		<img src="images/banner_02.jpg" alt="">
 	</a>
 
-	<h4 class="title">Рекомендуем:</h4>
-	<section>
+	<section class="recommendations">
+		<h4 class="title">Рекомендуем:</h4>
 		<!--#include virtual="../recommendation-link/index-01.shtml"-->
 		<!--#include virtual="../recommendation-link/index-02.shtml"-->
 		<!--#include virtual="../recommendation-link/index-03.shtml"-->
