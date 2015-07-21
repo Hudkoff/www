@@ -1,0 +1,31 @@
+.lenta-box {
+	border: 2px solid #ddd;
+	box-sizing: border-box; /* чтоб 2пкс граница не торчала */
+	margin-bottom: 20px;
+
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	overflow: hidden;
+	height: auto;
+}
+
+.lenta {
+	padding: 10px 10px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3rem;
+	color: #000;
+}
+.lenta p {
+	padding-bottom: 10px;
+}
+.lenta span {
+	color: #747474;
+}
+.lenta a {
+	color: #0e53b2;
+}
+.lenta a:hover {
+	text-decoration: none;
+}

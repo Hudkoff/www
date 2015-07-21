@@ -1,9 +1,7 @@
-<link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
-
 <section class="daytopic-article clearfix">
 	<a href="" title="">
 		<div class="clearfix">
-			<img class="avatar" src="article/images/avatar-32.jpg" alt="" />
+			<img class="avatar" src="images/avatar-32.jpg" alt="" />
 			<p class="details">
 				<b>Барух Фельдман</b><br> 28 марта
 			</p>

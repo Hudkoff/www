@@ -47,7 +47,6 @@ table {
 input[type="email"], input[type="number"], 
 input[type="password"], input[type="tel"], 
 input[type="url"], input[type="text"] {
-	border: 0;
 	padding: 0;
 }
 * {

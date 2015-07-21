@@ -1,8 +1,6 @@
-<link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
-
 <section class="daytopic-article clearfix">
 	<a href="" title="">
-		<div class="screenshot" style="background-image: url('daytopic-article/images/video-01.jpg')">
+		<div class="screenshot" style="background-image: url('images/video-01.jpg')">
 			<div class="fader">
 				<div class="icon"></div>
 			</div> 

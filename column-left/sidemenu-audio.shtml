@@ -1,0 +1,25 @@
+<div class="audio-side-nav">
+	<ul class="first-level-nav">
+		<li>
+			<h3 class="color-8db20e">Аудиоуроки</h3>
+			<ul class="second-level-nav">
+				<li><a href="#" title="Талмуд">Талмуд</a></li>
+				<li><a href="#" title="Еврейские законы">Еврейские законы</a></li>
+				<li><a href="#" title="Мировоззрение">Мировоззрение</a></li>
+				<li><a href="#" title="Пиркей Авот">Пиркей Авот</a></li>
+				<li><a href="#" title="Еврейская история">Еврейская история</a></li>
+				<li><a href="#" title="Танах">Танах</a></li>
+				<li><a href="#" title="Еврейская семья">Еврейская семья</a></li>
+				<li><a href="#" title="Недельная глава">Недельная глава</a></li>
+				<li><a href="#" title="Еврейские праздники">Еврейские праздники</a></li>
+				<li><a href="#" title="Рав Ицхак Зильбер">Рав Ицхак Зильбер</a></li>
+				<li><a href="#" title="Проблемы и вопросы">Проблемы и вопросы</a></li>
+				<li><a href="#" title="Суббота">Суббота</a></li>
+				<li><a href="#" title="Тора и психология">Тора и психология</a></li>
+			</ul>
+		</li>
+		<li><h3 class="color-8db20e"><a href="#" title="Радио Толдот">Радио Толдот</a></h3></li>
+		<li><h3 class="color-8db20e"><a href="#" title="Еврейская музыка">Еврейская музыка</a></h3></li>
+		<li><h3 class="color-8db20e"><a href="#" title="Хазанут">Хазанут</a></h3></li>
+	</ul>
+</div>

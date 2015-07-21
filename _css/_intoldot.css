@@ -1,0 +1,26 @@
+.intoldot {
+	display: block;
+	border-top: 1px solid #e5e5e5;
+ 	padding: 20px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.intoldot:first-child {
+ 	border-top: 0;
+}
+.intoldot .date {
+	color: #b3b2b2;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.intoldot .description {
+	font-size: 1.3rem;
+	color: #000;
+	line-height: 1.5;
+	text-decoration: none;
+	display: inline-block;
+}
+.intoldot .description:hover {
+	text-decoration: underline;
+}
+

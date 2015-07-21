@@ -1,4 +1,92 @@
 
-<div class="table-cell column-right">
-	left column
-</div>
+<aside class="table-cell column-right">
+
+	<!--div class="banner-aside">
+		<a href="#" title="">
+			<img src="images/banner_2.jpg" alt="Шавуот. Как купить подарок?"/>
+		</a>
+	</div>
+
+	<section class="questionOfTheDay">
+		<h3>
+			Вопрос дня
+		</h3>
+		<div class="question">Если ученые-атеисты ошибаются, то откуда у них такие успехи?</div>
+		<div class="info">
+			28 марта,
+			<b>Элла Абрамовна</b>
+		</div>
+		<div class="answer clearfix">
+			<div class="icon">
+				<img src="images/avatar-11.jpg" alt=""/>
+			</div>
+			<div class="info">
+				Отвечает:
+				<div class="name">
+					Рав Ашер Кушнир
+				</div>
+				<a href="#" title="Читать ответ">Читать ответ &#8594;</a>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<h3 class="color-b38d39">
+			<a href="#" title="">
+				Блоги
+				<b class="arrow right">&#9670;</b>
+			</a>
+		</h3>
+		<!--#include virtual="../article/index-31.shtml"-->
+		<!--#include virtual="../article/index-32.shtml"-->
+		<!--#include virtual="../article/index-33.shtml"-->
+		<!--#include virtual="../article/index-32.shtml"-->
+		<!--#include virtual="../article/index-33.shtml"-->
+	</section-->
+
+	<section class="askQuestion">
+		<h3 class="color-b38d39">
+			<a href="#" title="">
+				Вопросы раввину
+				<b class="arrow right">&#9670;</b>
+			</a>
+		</h3>
+		<a class="question" title="" href="#">Можно ли делать временные татуировки?</a>
+		<a class="question" title="" href="#">Наша вера основана на свидетельстве шестисот тысяч человек? Или на доверии лично Моше?</a>
+		<a class="question" title="" href="#">Как объяснить парикмахеру, как надо стричь, не сбривая пейсы?</a>
+		<a class="button color-b38d39 askQuestionButton" title="Спросить раввина">Спросить раввина</a>
+	</section>
+
+	<section class="familyQuestion">
+		<h3 class="color-d55940">
+			<a href="#" title="">
+				Семья
+				<b class="arrow right">&#9670;</b>
+			</a>
+		</h3>
+		<a class="question" title="" href="#">Муж очень привязан к своей маме. К счастью, она живет в другой стране. Недавно она...</a>
+		<a class="question" title="" href="#">Супруга очень ленится...</a>
+		<a class="question" title="" href="#">Что делать, если у нас с мужем разные мнения практически по всем вопросам?</a>
+		<a class="button color-d55940 askQuestionButton" title="Спросить семейного консультанта">Спросить семейного консультанта</a>
+	</section>
+
+	<section class="testLight">
+		<h3 class="color-7247ba">
+			<a href="#" title="">
+				Тесты
+				<b class="arrow right">&#9670;</b>
+			</a>
+		</h3>
+
+		<!--#include virtual="../tests/index-01.shtml"-->
+
+	</section>
+
+	<section class="burialPlacesSearch">
+		<div class="heading">Поиск еврейских захоронений:</div>
+		<form>
+			<input type="submit" value="Найти"/>
+			<input type="text" placeholder="Анбрейт"/>
+		</form>
+	</section>
+</aside>

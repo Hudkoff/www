@@ -1,0 +1,63 @@
+/* ======== Left column ======== */
+
+.sidemenu ul {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.sidemenu ul li {
+    line-height: 24px;
+}
+
+.sidemenu a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+
+.audio-side-nav h3 {
+    font-size: 1.8rem;
+}
+.audio-side-nav h3 a {
+    display: block;
+    height: 100%;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+.audio-side-nav h3 a:hover {
+    text-decoration: underline;
+}
+.audio-side-nav .first-level-nav > li {
+    padding: 19px 0 19px 0;
+    border-top: 1px solid #eef6e7;
+}
+.audio-side-nav .second-level-nav > li:before{
+    color: #000;
+    display: inline-block;
+    content: "\2022";
+    padding-right: 7px;
+}
+.audio-side-nav .first-level-nav > li:first-child {
+    padding-top: 5px;
+    border-top: none;
+}
+.audio-side-nav .second-level-nav {
+    padding: 13px 0 7px 0;
+    font: bold 1.3rem/2.2rem 'Open Sans', sans-serif;
+}
+.audio-side-nav .second-level-nav > li a {
+    color: #000;
+    text-decoration: none;
+}
+.audio-side-nav .second-level-nav > li a:hover {
+    text-decoration: underline;
+}

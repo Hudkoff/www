@@ -1,5 +1,3 @@
-<link href="lenta/css/css.css" rel="stylesheet" type="text/css" />
-
 <div itemprop="text" class="lenta" style="background: #<!--#echo var='QUERY_STRING' -->">
 	<p><span>Хесед:</span> Фонд № 368. <a href="#" title="">Помощь многодетному раввину, отцу пятерых детей</a></p>
 </div>

@@ -1,0 +1,61 @@
+.article {
+	font-family: 'Noto Serif', serif;
+	display: block;
+ 	border-top: 1px solid #e5e5e5;
+ 	/* margin-top: -1px; чтоб цветная граница закрыла серую */
+ 	/* z-index: 1;  чтоб цветная граница закрыла серую */
+ 	padding: 20px 0;
+ 	color: #000;
+ 	text-decoration: none;
+}
+.article.middle-padding {
+	padding: 15px 0;
+}
+.article.border-bottom {
+	border-top: none;
+	border-bottom: 1px solid #e5e5e5;
+}
+.article.small-padding {
+ 	padding: 10px 0 9px;
+}
+.article:first-child {
+ 	border-top: 0;
+ 	padding-top: 20px;
+}
+.article h6,
+.article h5,
+.article h4 {
+	margin-bottom: 5px;
+}
+.article a {
+	text-decoration: none;
+ 	color: #000;
+}
+.article a:hover,
+.article:hover h6,
+.article:hover h5,
+.article:hover h4 {
+	text-decoration: underline;
+}
+
+/* колонки */
+.article .icon {
+	float: left;
+	font-size: 0;
+	margin:0 15px 5px 0;
+ }
+
+.article .details {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+	color: #6c6c6c;
+}
+.article .description {
+	margin-top: 10px;
+	font-size: 1.4rem;
+	line-height: 1.4;
+}
+
+.favourite .description {
+	line-height: 1.6;
+}

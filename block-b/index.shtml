@@ -1,6 +1,3 @@
-<link href="block-b/css/css.css" rel="stylesheet" type="text/css" />
-
-
 <div class="block-b wrapper" itemprop="mainContentOfPage">
 	<div class="table ">
 		<section class="table-cell double">
@@ -14,19 +11,21 @@
 			</div>
 			<div class="table">
 				<div class="table-cell column-left">
-					<a href class="article favourite">
-						<img src="article/images/article.jpg" alt="" />
-						<br><br>
-						<h4>
-							Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов
-						</h4>
+					<section class="article favourite">
+						<a href="" title="">
+							<img src="images/article.jpg" alt="" />
+							<br><br>
+							<h4>
+								Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов
+							</h4>
+						</a>
 						<p class="details">
 							10 апреля, <b>Рав Йеошуа Ишайя Нойвирт</b>
 						</p>
 						<p class="description">
 						Любой плод запрещено выжимать в пустой сосуд или в напиток, как используя для выжимания инструмент, так и выжимая рукой Часть 5. Законы выжимания (סְחִיטָה — сехита) плодов в Шаббат и Йом тов 5.1. Выжимание плодов для получения напитка запрещено в Шаббат и Йом тов, и есть для этого различные законы, как будет объяснено далее.
 						</p>
-					</a>
+					</section>
 				</div>
 				<div class="table-cell">
 					<!--#include virtual="../article/index-21.shtml"-->
@@ -44,11 +43,13 @@
 							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
-					<!--#include virtual="../article/index-31.shtml"-->
-					<!--#include virtual="../article/index-32.shtml"-->
-					<!--#include virtual="../article/index-33.shtml"-->
-					<!--#include virtual="../article/index-32.shtml"-->
-					<!--#include virtual="../article/index-33.shtml"-->
+					<div>
+						<!--#include virtual="../article/index-31.shtml"-->
+						<!--#include virtual="../article/index-32.shtml"-->
+						<!--#include virtual="../article/index-33.shtml"-->
+						<!--#include virtual="../article/index-32.shtml"-->
+						<!--#include virtual="../article/index-33.shtml"-->
+					</div>
 				</section>
 				<section class="table-cell">
 					<h3 class="color-7247ba">
@@ -57,9 +58,11 @@
 							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
-					<!--#include virtual="../tests/index-01.shtml"-->
-					<!--#include virtual="../tests/index-02.shtml"-->
-					<!--#include virtual="../tests/index-03.shtml"-->
+					<div>
+						<!--#include virtual="../tests/index-01.shtml"-->
+						<!--#include virtual="../tests/index-02.shtml"-->
+						<!--#include virtual="../tests/index-03.shtml"-->
+					</div>
 				</section>
 			</div>
 		</div>
@@ -75,11 +78,13 @@
 					<b class="arrow right">&#9670;</b>
 				</a>
 			</h3>
-			<!--#include virtual="../article/index-41.shtml"-->
-			<!--#include virtual="../article/index-42.shtml"-->
-			<!--#include virtual="../article/index-41.shtml"-->
-			<!--#include virtual="../article/index-42.shtml"-->
-			<!--#include virtual="../article/index-41.shtml"-->
+			<div>
+				<!--#include virtual="../article/index-41.shtml"-->
+				<!--#include virtual="../article/index-42.shtml"-->
+				<!--#include virtual="../article/index-41.shtml"-->
+				<!--#include virtual="../article/index-42.shtml"-->
+				<!--#include virtual="../article/index-41.shtml"-->
+			</div>
 		</section>
 		<section class="table-cell">
 			<h3 class="color-43ac69">
@@ -88,9 +93,11 @@
 					<b class="arrow right">&#9670;</b>
 				</a>
 			</h3>
-			<!--#include virtual="../video-link/index-01.shtml?block"-->
-			<!--#include virtual="../video-link/index-02.shtml?none"-->
-			<!--#include virtual="../video-link/index-03.shtml?none"-->
+			<div>
+				<!--#include virtual="../video-link/index-01.shtml?block"-->
+				<!--#include virtual="../video-link/index-02.shtml?none"-->
+				<!--#include virtual="../video-link/index-03.shtml?none"-->
+			</div>
 		</section>
 		<div class="table-cell">
 			<div class="table">
@@ -100,10 +107,12 @@
 							В Толдоте
 							<b class="arrow right">&#9670;</b>
 						</a>
-					</h3>					
-					<!--#include virtual="../intoldot/index-01.shtml"-->
-					<!--#include virtual="../intoldot/index-02.shtml"-->
-					<!--#include virtual="../intoldot/index-03.shtml"-->
+					</h3>
+					<div>					
+						<!--#include virtual="../intoldot/index-01.shtml"-->
+						<!--#include virtual="../intoldot/index-02.shtml"-->
+						<!--#include virtual="../intoldot/index-03.shtml"-->
+					</div>
 				</section>
 				<section class="table-cell">
 					<h3 class="color-1259a8">
@@ -118,4 +127,3 @@
 		</div>
 	</div>
 </div>
-               

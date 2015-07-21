@@ -1,14 +1,12 @@
-<link href="block-a/css/css.css" rel="stylesheet" type="text/css" />
-
 <div class="block-a wrapper" itemprop="mainContentOfPage">
 	<div class="table ">
 		<div class="table-cell column-left">
 			<div class="table">
 				<div class="table-cell slider-box">
-					<!--#include virtual="../slider/index.shtml"-->
+					<!--#include virtual="../_slider.shtml"-->
 				</div>
 				<a class="table-cell banner-central" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
-					<img src="block-a/images/main-banner_01.jpg" alt="">
+					<img src="images/main-banner_01.jpg" alt="">
 				</a>
 			</div>
 			<div class="table">
@@ -19,9 +17,11 @@
 							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
-					<!--#include virtual="../article/index-11.shtml"-->
-					<!--#include virtual="../article/index-12.shtml"-->
-					<!--#include virtual="../article/index-13.shtml"-->
+					<div>
+						<!--#include virtual="../article/index-11.shtml"-->
+						<!--#include virtual="../article/index-12.shtml"-->
+						<!--#include virtual="../article/index-13.shtml"-->
+					</div>
 				</section>
 				<section class="table-cell questions-box">
 					<h3 class="color-d55940">
@@ -30,9 +30,11 @@
 							<b class="arrow right">&#9670;</b>
 						</a>
 					</h3>
-					<!--#include virtual="../article/index-11.shtml"-->
-					<!--#include virtual="../article/index-12.shtml"-->
-					<!--#include virtual="../article/index-13.shtml"-->
+					<div>
+						<!--#include virtual="../article/index-11.shtml"-->
+						<!--#include virtual="../article/index-12.shtml"-->
+						<!--#include virtual="../article/index-13.shtml"-->
+					</div>
 				</section>
 			</div>
 		</div>
@@ -49,7 +51,7 @@
 				<!--#include virtual="../lenta/index-09.shtml?e1f5fa"-->
 			</section>
 			<a class="" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
-				<img src="block-a/images/right-banner_01.jpg" alt="">
+				<img src="images/right-banner_01.jpg" alt="">
 			</a>
 		</aside>
 	</div>

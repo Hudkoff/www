@@ -1,0 +1,226 @@
+<div class="tag-cloud-wrapper">
+	<ul class="tag-cloud">
+		<li class="weight4"><a href="#">Аскетизм</a></li>
+		<li class="weight2"><a href="#">Благословение</a></li>
+		<li class="weight2"><a href="#">Брак</a></li>
+		<li class="weight1"><a href="#">Вера</a></li>
+		<li class="weight6"><a href="#">Веротерпимость</a></li>
+		<li class="weight1"><a href="#">Гадание</a></li>
+		<li class="weight1"><a href="#">Гнев Грех</a></li>
+		<li class="weight1"><a href="#">Деньги</a></li>
+		<li class="weight1"><a href="#">Дружба</a></li>
+		<li class="weight1"><a href="#">Дурное начало</a></li>
+		<li class="weight1"><a href="#">Дух</a></li>
+		<li class="weight1"><a href="#">Духовное развитие</a></li>
+		<li class="weight1"><a href="#">Духовность</a></li>
+		<li class="weight1"><a href="#">Душа</a></li>
+		<li class="weight7"><a href="#">Евреи</a></li>
+		<li class="weight5"><a href="#">Еврейские фамилии</a></li>
+		<li class="weight1"><a href="#">Женщина</a></li>
+		<li class="weight2"><a href="#">Загробная жизнь</a></li>
+		<li class="weight1"><a href="#">Зло</a></li>
+		<li class="weight4"><a href="#">Злословие</a></li>
+		<li class="weight1"><a href="#">Интимная жизнь</a></li>
+		<li class="weight1"><a href="#">Искупление</a></li>
+		<li class="weight1"><a href="#">Колдовство</a></li>
+		<li class="weight1"><a href="#">Лень</a></li>
+		<li class="weight1"><a href="#">Личный пример</a></li>
+		<li class="weight1"><a href="#">Ложь Любовь</a></li>
+		<li class="weight1"><a href="#">Магия</a></li>
+		<li class="weight1"><a href="#">Месть</a></li>
+		<li class="weight1"><a href="#">Милосердие</a></li>
+		<li class="weight1"><a href="#">Мистика</a></li>
+		<li class="weight1"><a href="#">Мораль иудаизма</a></li>
+		<li class="weight1"><a href="#">Музыка</a></li>
+		<li class="weight1"><a href="#">Наслаждения</a></li>
+		<li class="weight2"><a href="#">Национальность</a></li>
+		<li class="weight1"><a href="#">Обман</a></li>
+		<li class="weight8"><a href="#">Песах</a></li>
+		<li class="weight2"><a href="#">Переселение душ</a></li>
+		<li class="weight1"><a href="#">Помощь</a></li>
+		<li class="weight1"><a href="#">Порча</a></li>
+		<li class="weight4"><a href="#">Почитание родителей</a></li>
+		<li class="weight1"><a href="#">Предсказание</a></li>
+		<li class="weight1"><a href="#">Прелюбодеяние</a></li>
+		<li class="weight1"><a href="#">Пророчество</a></li>
+		<li class="weight5"><a href="#">Прощение</a></li>
+		<li class="weight1"><a href="#">Психология</a></li>
+		<li class="weight1"><a href="#">Равноправие</a></li>
+		<li class="weight1"><a href="#">Радость</a></li>
+		<li class="weight1"><a href="#">Развитие личности</a></li>
+		<li class="weight1"><a href="#">Развлечения</a></li>
+		<li class="weight1"><a href="#">Развод</a></li>
+		<li class="weight1"><a href="#">Раскаяние</a></li>
+		<li class="weight1"><a href="#">Ревность</a></li>
+		<li class="weight1"><a href="#">Реинкарнация</a></li>
+		<li class="weight1"><a href="#">Религия</a></li>
+		<li class="weight2"><a href="#">Самосовершенствование</a></li>
+		<li class="weight1"><a href="#">Свобода выбора</a></li>
+		<li class="weight4"><a href="#">Священник</a></li>
+		<li class="weight1"><a href="#">Сглаз</a></li>
+		<li class="weight1"><a href="#">Сгула</a></li>
+		<li class="weight1"><a href="#">Секс</a></li>
+		<li class="weight7"><a href="#">Синагога</a></li>
+		<li class="weight1"><a href="#">Скромность</a></li>
+		<li class="weight2"><a href="#">Смысл жизни</a></li>
+		<li class="weight1"><a href="#">Сны Совесть</a></li>
+		<li class="weight2"><a href="#">Счастье</a></li>
+		<li class="weight1"><a href="#">Улыбка</a></li>
+		<li class="weight1"><a href="#">Характер</a></li>
+		<li class="weight1"><a href="#">Храм</a></li>
+		<li class="weight6"><a href="#">Цдака</a></li>
+		<li class="weight1"><a href="#">Чудеса</a></li>
+		<li class="weight1"><a href="#">Этика</a></li>
+	</ul>
+	<div class="all-tags">
+		<ul class="tag-cloud">
+			<li class="weight4"><a href="#">Аскетизм</a></li>
+			<li class="weight2"><a href="#">Благословение</a></li>
+			<li class="weight2"><a href="#">Брак</a></li>
+			<li class="weight1"><a href="#">Вера</a></li>
+			<li class="weight6"><a href="#">Веротерпимость</a></li>
+			<li class="weight1"><a href="#">Гадание</a></li>
+			<li class="weight1"><a href="#">Гнев Грех</a></li>
+			<li class="weight1"><a href="#">Деньги</a></li>
+			<li class="weight1"><a href="#">Дружба</a></li>
+			<li class="weight1"><a href="#">Дурное начало</a></li>
+			<li class="weight1"><a href="#">Дух</a></li>
+			<li class="weight1"><a href="#">Духовное развитие</a></li>
+			<li class="weight1"><a href="#">Духовность</a></li>
+			<li class="weight1"><a href="#">Душа</a></li>
+			<li class="weight7"><a href="#">Евреи</a></li>
+			<li class="weight5"><a href="#">Еврейские фамилии</a></li>
+			<li class="weight1"><a href="#">Женщина</a></li>
+			<li class="weight2"><a href="#">Загробная жизнь</a></li>
+			<li class="weight1"><a href="#">Зло</a></li>
+			<li class="weight4"><a href="#">Злословие</a></li>
+			<li class="weight1"><a href="#">Интимная жизнь</a></li>
+			<li class="weight1"><a href="#">Искупление</a></li>
+			<li class="weight1"><a href="#">Колдовство</a></li>
+			<li class="weight1"><a href="#">Лень</a></li>
+			<li class="weight1"><a href="#">Личный пример</a></li>
+			<li class="weight1"><a href="#">Ложь Любовь</a></li>
+			<li class="weight1"><a href="#">Магия</a></li>
+			<li class="weight1"><a href="#">Месть</a></li>
+			<li class="weight1"><a href="#">Милосердие</a></li>
+			<li class="weight1"><a href="#">Мистика</a></li>
+			<li class="weight1"><a href="#">Мораль иудаизма</a></li>
+			<li class="weight1"><a href="#">Музыка</a></li>
+			<li class="weight1"><a href="#">Наслаждения</a></li>
+			<li class="weight2"><a href="#">Национальность</a></li>
+			<li class="weight1"><a href="#">Обман</a></li>
+			<li class="weight8"><a href="#">Песах</a></li>
+			<li class="weight2"><a href="#">Переселение душ</a></li>
+			<li class="weight1"><a href="#">Помощь</a></li>
+			<li class="weight1"><a href="#">Порча</a></li>
+			<li class="weight4"><a href="#">Почитание родителей</a></li>
+			<li class="weight1"><a href="#">Предсказание</a></li>
+			<li class="weight1"><a href="#">Прелюбодеяние</a></li>
+			<li class="weight1"><a href="#">Пророчество</a></li>
+			<li class="weight5"><a href="#">Прощение</a></li>
+			<li class="weight1"><a href="#">Психология</a></li>
+			<li class="weight1"><a href="#">Равноправие</a></li>
+			<li class="weight1"><a href="#">Радость</a></li>
+			<li class="weight1"><a href="#">Развитие личности</a></li>
+			<li class="weight1"><a href="#">Развлечения</a></li>
+			<li class="weight1"><a href="#">Развод</a></li>
+			<li class="weight1"><a href="#">Раскаяние</a></li>
+			<li class="weight1"><a href="#">Ревность</a></li>
+			<li class="weight1"><a href="#">Реинкарнация</a></li>
+			<li class="weight1"><a href="#">Религия</a></li>
+			<li class="weight2"><a href="#">Самосовершенствование</a></li>
+			<li class="weight1"><a href="#">Свобода выбора</a></li>
+			<li class="weight4"><a href="#">Священник</a></li>
+			<li class="weight1"><a href="#">Сглаз</a></li>
+			<li class="weight1"><a href="#">Сгула</a></li>
+			<li class="weight1"><a href="#">Секс</a></li>
+			<li class="weight7"><a href="#">Синагога</a></li>
+			<li class="weight1"><a href="#">Скромность</a></li>
+			<li class="weight2"><a href="#">Смысл жизни</a></li>
+			<li class="weight1"><a href="#">Сны Совесть</a></li>
+			<li class="weight2"><a href="#">Счастье</a></li>
+			<li class="weight1"><a href="#">Улыбка</a></li>
+			<li class="weight1"><a href="#">Характер</a></li>
+			<li class="weight1"><a href="#">Храм</a></li>
+			<li class="weight6"><a href="#">Цдака</a></li>
+			<li class="weight1"><a href="#">Чудеса</a></li>
+			<li class="weight1"><a href="#">Этика</a></li>
+			<li class="weight4"><a href="#">Аскетизм</a></li>
+			<li class="weight2"><a href="#">Благословение</a></li>
+			<li class="weight2"><a href="#">Брак</a></li>
+			<li class="weight1"><a href="#">Вера</a></li>
+			<li class="weight6"><a href="#">Веротерпимость</a></li>
+			<li class="weight1"><a href="#">Гадание</a></li>
+			<li class="weight1"><a href="#">Гнев Грех</a></li>
+			<li class="weight1"><a href="#">Деньги</a></li>
+			<li class="weight1"><a href="#">Дружба</a></li>
+			<li class="weight1"><a href="#">Дурное начало</a></li>
+			<li class="weight1"><a href="#">Дух</a></li>
+			<li class="weight1"><a href="#">Духовное развитие</a></li>
+			<li class="weight1"><a href="#">Духовность</a></li>
+			<li class="weight1"><a href="#">Душа</a></li>
+			<li class="weight7"><a href="#">Евреи</a></li>
+			<li class="weight5"><a href="#">Еврейские фамилии</a></li>
+			<li class="weight1"><a href="#">Женщина</a></li>
+			<li class="weight2"><a href="#">Загробная жизнь</a></li>
+			<li class="weight1"><a href="#">Зло</a></li>
+			<li class="weight4"><a href="#">Злословие</a></li>
+			<li class="weight1"><a href="#">Интимная жизнь</a></li>
+			<li class="weight1"><a href="#">Искупление</a></li>
+			<li class="weight1"><a href="#">Колдовство</a></li>
+			<li class="weight1"><a href="#">Лень</a></li>
+			<li class="weight1"><a href="#">Личный пример</a></li>
+			<li class="weight1"><a href="#">Ложь Любовь</a></li>
+			<li class="weight1"><a href="#">Магия</a></li>
+			<li class="weight1"><a href="#">Месть</a></li>
+			<li class="weight1"><a href="#">Милосердие</a></li>
+			<li class="weight1"><a href="#">Мистика</a></li>
+			<li class="weight1"><a href="#">Мораль иудаизма</a></li>
+			<li class="weight1"><a href="#">Музыка</a></li>
+			<li class="weight6"><a href="#">Гематрия</a></li>
+			<li class="weight1"><a href="#">Наслаждения</a></li>
+			<li class="weight2"><a href="#">Национальность</a></li>
+			<li class="weight1"><a href="#">Обман</a></li>
+			<li class="weight8"><a href="#">Песах</a></li>
+			<li class="weight2"><a href="#">Переселение душ</a></li>
+			<li class="weight1"><a href="#">Помощь</a></li>
+			<li class="weight1"><a href="#">Порча</a></li>
+			<li class="weight4"><a href="#">Почитание родителей</a></li>
+			<li class="weight1"><a href="#">Предсказание</a></li>
+			<li class="weight1"><a href="#">Прелюбодеяние</a></li>
+			<li class="weight1"><a href="#">Пророчество</a></li>
+			<li class="weight5"><a href="#">Прощение</a></li>
+			<li class="weight1"><a href="#">Психология</a></li>
+			<li class="weight1"><a href="#">Равноправие</a></li>
+			<li class="weight1"><a href="#">Радость</a></li>
+			<li class="weight1"><a href="#">Развитие личности</a></li>
+			<li class="weight1"><a href="#">Развлечения</a></li>
+			<li class="weight1"><a href="#">Развод</a></li>
+			<li class="weight1"><a href="#">Раскаяние</a></li>
+			<li class="weight1"><a href="#">Ревность</a></li>
+			<li class="weight1"><a href="#">Реинкарнация</a></li>
+			<li class="weight1"><a href="#">Религия</a></li>
+			<li class="weight2"><a href="#">Самосовершенствование</a></li>
+			<li class="weight1"><a href="#">Свобода выбора</a></li>
+			<li class="weight4"><a href="#">Священник</a></li>
+			<li class="weight1"><a href="#">Сглаз</a></li>
+			<li class="weight1"><a href="#">Сгула</a></li>
+			<li class="weight1"><a href="#">Секс</a></li>
+			<li class="weight7"><a href="#">Синагога</a></li>
+			<li class="weight1"><a href="#">Скромность</a></li>
+			<li class="weight2"><a href="#">Смысл жизни</a></li>
+			<li class="weight1"><a href="#">Сны Совесть</a></li>
+			<li class="weight2"><a href="#">Счастье</a></li>
+			<li class="weight1"><a href="#">Улыбка</a></li>
+			<li class="weight1"><a href="#">Характер</a></li>
+			<li class="weight1"><a href="#">Храм</a></li>
+			<li class="weight6"><a href="#">Цдака</a></li>
+			<li class="weight1"><a href="#">Чудеса</a></li>
+			<li class="weight1"><a href="#">Этика</a></li>
+		</ul>
+	</div>
+	<div class="show-all-tags">
+		<span class="show-all-tags-text">&#8595; <span class="dotted">Показать все теги</span></span>
+		<span class="hide-all-tags-text">&#8593; <span class="dotted">Показать основные теги</span></span>
+	</div>
+</div>
