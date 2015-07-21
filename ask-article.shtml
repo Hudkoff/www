@@ -59,7 +59,7 @@
 
 				<div class="intopic-block table">
 					<div class="table-cell">
-						<div>В Тему</div>
+						<h3 class="intopic">В тему</h3>
 						<div class="table">
 							<div class="table-cell">
 								<!--#include virtual="daytopic-article/index-01.shtml"-->
@@ -81,7 +81,19 @@
 						</div>
 					</div>
 					<div class="table-cell">
-						sdfsdfs
+						<h3 class="color-d55940">
+							<a href="#" title="">
+								Семья
+								<b class="arrow right">◆</b>
+							</a>
+						</h3>
+						<div>
+							<a class="family-article-link" href="#" title="">Муж очень привязан к своей маме. К счастью, она живет в другой стране. Недавно она...</a>
+							<a class="family-article-link" href="#" title="">Супруга очень ленится...</a>
+							<a class="family-article-link" href="#" title="">Что делать, если у нас с мужем разные мнения практически по всем вопросам?</a>
+							<a class="family-article-link" href="#" title="">Между мужем и женой не должно быть никаких тайн?</a>
+							<a class="family-article-link" href="#" title="">Мы уже в браке несколько лет, но муж продолжает встречаться с...</a>
+						</div>
 					</div>
 				</div>
 

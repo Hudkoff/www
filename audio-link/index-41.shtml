@@ -1,0 +1,20 @@
+<div class="audio-link">
+	<div class="author-photo" style="background-image: url('images/picture_01.jpg')">
+		<a href="#"></a>
+	</div>
+	<div class="audio-info-container">
+		<div class="header clearfix">
+			<div class="center">
+				<h4><a href="#">Можно ли ходить на работу в Холь аМолэд?</a></h4>
+				<p class="details">9 апреля, <b>Рав Ашер Кушнир</b>отвечает на вопрос от Эллы Абрамович</p>
+			</div>
+		</div>
+		<p class="description">
+			Шалом. Я знаю, что в холь-амоэд («праздничные будни» — те дни праздников Песах и Суккот, которые не имеют статуса<a href="#" title="" class="more">Читать дальше</a>
+		</p>
+		<div class="buttons">
+			<a href="#" class="button set-aside">Отложить</a>
+			<a href="#" class="button subscribe">Подписаться</a>
+		</div>
+	</div>
+</div>

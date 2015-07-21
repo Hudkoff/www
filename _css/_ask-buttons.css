@@ -1,0 +1,22 @@
+.ask-buttons {
+	margin: 20px 0 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.ask-buttons a {
+	display: inline-block;
+	font: bold 12px 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: #b38d39;
+}
+.ask-buttons .ask-button {
+	margin: 0 20px 0 0;
+	padding: 10px;
+	background: #b38d39;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+}
+.ask-buttons .ask-button:hover {
+	opacity: 0.9;
+}
