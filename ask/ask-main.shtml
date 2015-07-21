@@ -17,8 +17,8 @@
 						</div>
 						<!--#include virtual="../ask/ask-buttons.shtml"-->
 						<div class="audiolessons-list">
-							<!--#include virtual="../audio-link/index-41.shtml"-->
-							<!--#include virtual="../audio-link/index-42.shtml"-->
+							<!--#include virtual="../audio-link/index-61.shtml"-->
+							<!--#include virtual="../audio-link/index-62.shtml"-->
 						</div>
 					</div>
 				</div>
@@ -35,6 +35,7 @@
 			</div>
 		</div>
 		<div class="table-cell column-right">
+			<!--#include virtual="../video-live/index.shtml"-->
 			
 			<div class="lenta-box">
 				<!--#include virtual="../lenta/index-01.shtml?f8f8f8"-->
@@ -47,7 +48,6 @@
 				<!--#include virtual="../lenta/index-08.shtml?d3f1de"-->
 				<!--#include virtual="../lenta/index-09.shtml?e1f5fa"-->
 			</div>
-
 		</div>
 	</div>
 </div>

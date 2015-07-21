@@ -1,0 +1,47 @@
+.people-list {
+	padding: 6px 0 7px 0;
+	font: normal 1.3rem/2.4rem 'Open Sans', sans-serif;
+}
+.people-list:not('.with-picture') > li:before {
+	content: "\2022";
+	display: inline-block;
+	padding-right: 7px;
+	color: #668dca;
+}
+.people-list > li:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.people-list > li a {
+	color: #668dca;
+	text-decoration: underline;
+}
+.people-list > li a:hover {
+	text-decoration: none;
+}
+
+.people-list.with-picture > li {
+	margin-bottom: 20px;
+}
+.people-list.with-picture a {
+	display: table;
+	font: bold 1.4rem 'Open Sans', sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+.people-list.with-picture a:hover {
+	text-decoration: underline;
+}
+.people-list.with-picture p {
+  	display: table-cell;
+	vertical-align: middle;
+	line-height: 13px;
+}
+.people-list.with-picture img {
+	float: left;
+	margin-right: 14px;
+	border-radius: 3px;
+}

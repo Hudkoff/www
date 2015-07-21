@@ -3,6 +3,8 @@
 @import "_daytopic.css";
 @import "_daytopic-article.css";
 @import "_intopic.css";
+@import "_people-list.css";
+@import "_video-live.css";
 
 @import "_audio-link.css";
 @import "_audio-catalog.css";
@@ -28,6 +30,9 @@
 	color: #000;
 }
 .page_ask .tag-cloud a:hover {
+	color: #b38d39;
+}
+.page_ask .catalog-pagination li.selected a {
 	color: #b38d39;
 }
 
