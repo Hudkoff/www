@@ -15,7 +15,10 @@
 
 			<!--#include virtual="column-left/column-left-article.shtml"-->
 
-			<div class="table-cell column-central"></div>
+			<div class="table-cell column-central">
+				<div class="article-header">sdfsdf</div>
+				<div class="article-content">sdfsfs</div>
+			</div>
 
 			<div class="table-cell column-right"></div>
 

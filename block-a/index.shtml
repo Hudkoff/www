@@ -18,9 +18,9 @@
 						</a>
 					</h3>
 					<div>
-						<!--#include virtual="../article/index-11.shtml"-->
-						<!--#include virtual="../article/index-12.shtml"-->
-						<!--#include virtual="../article/index-13.shtml"-->
+						<!--#include virtual="../article-link/index-11.shtml"-->
+						<!--#include virtual="../article-link/index-12.shtml"-->
+						<!--#include virtual="../article-link/index-13.shtml"-->
 					</div>
 				</section>
 				<section class="table-cell questions-box">
@@ -31,9 +31,9 @@
 						</a>
 					</h3>
 					<div>
-						<!--#include virtual="../article/index-11.shtml"-->
-						<!--#include virtual="../article/index-12.shtml"-->
-						<!--#include virtual="../article/index-13.shtml"-->
+						<!--#include virtual="../article-link/index-11.shtml"-->
+						<!--#include virtual="../article-link/index-12.shtml"-->
+						<!--#include virtual="../article-link/index-13.shtml"-->
 					</div>
 				</section>
 			</div>

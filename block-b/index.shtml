@@ -28,9 +28,9 @@
 					</section>
 				</div>
 				<div class="table-cell">
-					<!--#include virtual="../article/index-21.shtml"-->
-					<!--#include virtual="../article/index-22.shtml"-->
-					<!--#include virtual="../article/index-23.shtml"-->
+					<!--#include virtual="../article-link/index-21.shtml"-->
+					<!--#include virtual="../article-link/index-22.shtml"-->
+					<!--#include virtual="../article-link/index-23.shtml"-->
 				</div>
 			</div>
 		</section>
@@ -44,11 +44,11 @@
 						</a>
 					</h3>
 					<div>
-						<!--#include virtual="../article/index-31.shtml"-->
-						<!--#include virtual="../article/index-32.shtml"-->
-						<!--#include virtual="../article/index-33.shtml"-->
-						<!--#include virtual="../article/index-32.shtml"-->
-						<!--#include virtual="../article/index-33.shtml"-->
+						<!--#include virtual="../article-link/index-31.shtml"-->
+						<!--#include virtual="../article-link/index-32.shtml"-->
+						<!--#include virtual="../article-link/index-33.shtml"-->
+						<!--#include virtual="../article-link/index-32.shtml"-->
+						<!--#include virtual="../article-link/index-33.shtml"-->
 					</div>
 				</section>
 				<section class="table-cell">
@@ -79,11 +79,11 @@
 				</a>
 			</h3>
 			<div>
-				<!--#include virtual="../article/index-41.shtml"-->
-				<!--#include virtual="../article/index-42.shtml"-->
-				<!--#include virtual="../article/index-41.shtml"-->
-				<!--#include virtual="../article/index-42.shtml"-->
-				<!--#include virtual="../article/index-41.shtml"-->
+				<!--#include virtual="../article-link/index-41.shtml"-->
+				<!--#include virtual="../article-link/index-42.shtml"-->
+				<!--#include virtual="../article-link/index-41.shtml"-->
+				<!--#include virtual="../article-link/index-42.shtml"-->
+				<!--#include virtual="../article-link/index-41.shtml"-->
 			</div>
 		</section>
 		<section class="table-cell">
