@@ -37,9 +37,7 @@
 .page_gallery .column-left {
     width: 20%;
 }
-.page_gallery .column-left section {
-    margin-bottom: 20px;
-}
+
 
 .page_gallery .column-right {
     width: 20%;
@@ -49,14 +47,9 @@
     width: auto;
 }
 
-.page_gallery .banner-aside {
-    margin-bottom: 30px;
-}
-
 /* ======== Central column ======== */
 
-.page_gallery .column-central h2,
-.page_gallery .column-left h4 {
+.page_gallery .column-central h2 {
     color: #9c5630;
 }
 

@@ -1,7 +1,7 @@
-<div class="audio-side-nav">
+<section class="sidemenu">
 	<ul class="first-level-nav">
 		<li>
-			<h3 class="color-8db20e">Аудиоуроки</h3>
+			<h3>Аудиоуроки</h3>
 			<ul class="second-level-nav">
 				<li><a href="#" title="Талмуд">Талмуд</a></li>
 				<li><a href="#" title="Еврейские законы">Еврейские законы</a></li>
@@ -18,8 +18,14 @@
 				<li><a href="#" title="Тора и психология">Тора и психология</a></li>
 			</ul>
 		</li>
-		<li><h3 class="color-8db20e"><a href="#" title="Радио Толдот">Радио Толдот</a></h3></li>
-		<li><h3 class="color-8db20e"><a href="#" title="Еврейская музыка">Еврейская музыка</a></h3></li>
-		<li><h3 class="color-8db20e"><a href="#" title="Хазанут">Хазанут</a></h3></li>
+		<li>
+			<h3><a href="#" title="Радио Толдот">Радио Толдот</a></h3>
+		</li>
+		<li>
+			<h3><a href="#" title="Еврейская музыка">Еврейская музыка</a></h3>
+		</li>
+		<li>
+			<h3><a href="#" title="Хазанут">Хазанут</a></h3>
+		</li>
 	</ul>
-</div>
+</section>

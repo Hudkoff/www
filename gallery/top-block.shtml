@@ -3,7 +3,7 @@
 
 	<div class="table">
 		<div class="table-cell double">
-			<!--#include virtual="../breadcrumbs/index.shtml"-->
+			<!--#include virtual="../breadcrumbs/photo.shtml"-->
  
 			<h2>Фото</h2>
 
