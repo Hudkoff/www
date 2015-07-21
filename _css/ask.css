@@ -3,12 +3,38 @@
 @import "_daytopic.css";
 @import "_daytopic-article.css";
 @import "_intopic.css";
+@import "_people-list.css";
+@import "_video-live.css";
 
 @import "_audio-link.css";
 @import "_audio-catalog.css";
 @import "_audio-authors.css";
 @import "_catalog-pagination.css";
-@import "_radio-toldot.css";
+
+@import "_ask-buttons.css";
+
+.page_ask h1,
+.page_ask h3 {
+	color: #b38d39;
+}
+.page_ask .ask-main .column-central {
+	background: #f7f2e7;
+}
+.page_ask .ask-main .column-central {
+	border-color: #e5e5e5;
+}
+.page_ask .audio-catalog .audio-list-wrapper {
+	background: #f7f2e7;
+}
+.page_ask .ask-main .column-central h3 {
+	color: #000;
+}
+.page_ask .tag-cloud a:hover {
+	color: #b38d39;
+}
+.page_ask .catalog-pagination li.selected a {
+	color: #b38d39;
+}
 
 .ask-main {
 	margin-bottom: 25px;
@@ -23,7 +49,6 @@
 .ask-main .column-central {
 	padding: 20px;
 	width: auto;
-	background: #eef6e7;
 }
 .ask-main .column-central .column-left {
 	width: 57%;
@@ -44,14 +69,17 @@
 	margin-top: 10px;
 	font: normal 1.4rem 'Open Sans', sans-serif;
 }
-.ask-lessons-summary span {
+.page_ask .audio-lessons-summary span {
 	font-weight: bold;
-	color: #8db20e;
+	color: #b38d39;
 }
 .ask-main .column-central .more {
-	float: right;
-	margin-top:13px;
-	font: normal 1.3rem 'Open Sans', sans-serif;
-	color: #4a7ec0;
+	margin-left: 5px;
+	font: normal 1.4rem 'Open Sans', sans-serif;
+	color: #01369d;
+	text-decoration: underline;
+}
+.ask-main .column-central .more:hover {
+	text-decoration: none;
 }
 

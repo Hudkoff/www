@@ -63,6 +63,7 @@
 .audio-link .description .more:hover {
 	text-decoration: underline;
 }
+
 .audio-link .buttons {
 	font-size: 0;
 }
@@ -92,6 +93,7 @@
 .audio-link .button.true:hover {
 	background-color: #dff2d0;
 }
+
 .audio-link .itunes-button {
 	display: inline-block;
 	width: 65px;

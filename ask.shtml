@@ -7,18 +7,20 @@
 
 </head>
 <body>
+	<div class="page_ask">
+		<!--#include virtual="_header.shtml"-->
 
-	<!--#include virtual="_header.shtml"-->
+		<!--#include virtual="ask/ask-main.shtml"-->
 
-	<!--#include virtual="ask/ask-main.shtml"-->
+		<!--#include virtual="ask/ask-catalog.shtml"-->
 
-	<!--#include virtual="ask/ask-catalog.shtml"-->
+		<!--#include virtual="_banner-wide-toldot.shtml"-->
 
-	<!--#include virtual="_banner-wide-toldot.shtml"-->
+		<!--#include virtual="_daytopic-title.shtml"-->	
 
-	<!--#include virtual="_daytopic-title.shtml"-->	
-
-	<!--#include virtual="_daytopic-ask.shtml"-->		
+		<!--#include virtual="_daytopic-ask.shtml"-->		
+		
+	</div>	
 
 	<!--#include virtual="_footer.shtml"-->
 
