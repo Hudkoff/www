@@ -1,1 +1,110 @@
 /* стили для страницы */
+@import "_daytopic-article.css";
+
+.page_ask-article .column-left {
+  width: 17%;
+  padding: 0 20px 0 0;
+}
+.page_ask-article .column-central {
+	width: auto;
+	padding: 0;
+}
+.page_ask-article .column-right {
+	display: none;
+}
+@media all and (min-width: 1440px) {
+	.page_ask-article .column-right {
+		display: table-cell;
+		width: 20%
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article-header {
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article-content {
+	border-width: 2px;
+	border-style: solid;
+	border-top: none;
+	padding: 18px;
+	font-family: 'Noto Serif', serif;	
+}
+.article-content p {
+	font-size: 14px;
+	line-height: 1.4;
+	padding-bottom: 5px;
+}
+.article-content p.signature {
+	font-style: italic; 
+}
+
+
+
+
+
+
+
+
+
+
+/* colors */
+.page_ask-article .article-header {
+	background: #f7f2e7;
+}
+.page_ask-article .article-content {
+	border-color: #f7f2e7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.intopic-block > .table-cell {
+	width: 20%;
+}
+.intopic-block > .table-cell:first-child {
+	width: auto;
+	padding-left: 20px;
+}
+.intopic-block .table-cell .table-cell {
+	width: 33.3%;
+}
+.intopic-block .table-cell .table-cell:first-child {
+	width: 33.4%;
+}
+
+

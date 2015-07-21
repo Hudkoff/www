@@ -16,11 +16,52 @@
 			<!--#include virtual="column-left/column-left-article.shtml"-->
 
 			<div class="table-cell column-central">
+
 				<div class="article-header">sdfsdf</div>
-				<div class="article-content">sdfsfs</div>
+
+				<div class="article-content">
+					<h6>Отвечает Рав Ашер Кушнир</h6>
+					<img src="images/avatar-11.jpg" alt="" />
+					<p>Уважаемый И.,
+					<p>Согласен, рабы не имели права носить оружие. Но не все колена были на одинаковом положении. Например, колено Леви не было в рабстве, а в Пиркей дэ-раби Элиэзер (ч. 47) сказано, что колено Эфраима было царского рода и поэтому не испытало тягот рабства. Известный мидраш рассказывает, что за тридцать лет до Исхода вооружённый отряд из колена Эфраима вышел из Египта, но почти все погибли в сражении с плиштим (филистимлянами). 
+					<p>Так что часть евреев была вооружена и до выхода из Египта. А те, кто не имел оружия, могли его получить не только тайно — от своих, но и с согласия самого фараона. Как пишет рав Штейнман в Айелет а-Шахар: сказали фараону, что берут оружие для защиты от опасностей в пустыне. При этом не исключено, что и в этом была Рука Небес: как сказано в Псикта дэ-рав Каана, у каждого еврея при выходе из Египта было пять видов оружия — от меча до лука.
+					<p>Интересен вопрос: зачем евреям нужно было оружие? Всевышний выводит евреев из Египта, чтобы привести их в Святую Землю, — кто может противостоять?!
+					<p>Рав Штейнман полагает, что оружие было необходимо, потому что нельзя полагаться на чудо. А в действительности всё зависело от святости еврейских воинов. Как пишет Раши в комментарии к Дварим 1:8: «Если бы не послали разведчиков, то вошли бы в Святую Землю и без оружия, и без войны. И так было в войне с Мидьяном, когда был послан еврейский отряд в 12 тысяч праведников, и взяли они священные предметы, при виде которых пали воины Мидьяна. А то, что написано (Бамидбар 31:8) “а Билама сына Беора убили мечом”, означает: его единственного — мечом, и то — его собственным».
+					<p>Чем выше уровень святости армии… Как это актуально сегодня.
+					<p class="signature">С уважением, Рав Ашер Кушнир.</p>
+				</div>
+
+				<div class="intopic-block table">
+					<div class="table-cell">
+						<div>В Тему</div>
+						<div class="table">
+							<div class="table-cell">
+								<!--#include virtual="daytopic-article/index-01.shtml"-->
+								<!--#include virtual="daytopic-article/index-02.shtml"-->
+								<!--#include virtual="daytopic-article/index-03.shtml"-->
+								<!--#include virtual="daytopic-article/index-04.shtml"-->
+							</div>
+							<div class="table-cell">
+								<!--#include virtual="daytopic-article/index-05.shtml"-->
+								<!--#include virtual="daytopic-article/index-06.shtml"-->
+								<!--#include virtual="daytopic-article/index-07.shtml"-->
+								<!--#include virtual="daytopic-article/index-08.shtml"-->
+							</div>
+							<div class="table-cell">
+								<!--#include virtual="daytopic-article/index-09.shtml"-->
+								<!--#include virtual="daytopic-article/index-10.shtml"-->
+								<!--#include virtual="daytopic-article/index-11.shtml"-->
+							</div>
+						</div>
+					</div>
+					<div class="table-cell">
+						sdfsdfs
+					</div>
+				</div>
+
 			</div>
 
-			<div class="table-cell column-right"></div>
+			<div class="table-cell column-right" style="background: red">dfsd</div>
 
 		</div>
 	</div>
