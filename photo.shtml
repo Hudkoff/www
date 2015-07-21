@@ -13,7 +13,7 @@
 	<div class="page_gallery wrapper">
 		<div class="table">
 
-			<!--#include virtual="gallery/column-left.shtml"-->
+			<!--#include virtual="column-left/column-left-gallery.shtml"-->
 
 			<!--#include virtual="gallery/column-central.shtml"-->
 

@@ -1,0 +1,20 @@
+/* ======== Left column ======== */
+
+.sidemenu ul {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.sidemenu ul li {
+    line-height: 24px;
+}
+
+.sidemenu a {
+    text-decoration: none;
+    color: #000;
+}
