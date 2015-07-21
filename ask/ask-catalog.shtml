@@ -1,0 +1,54 @@
+﻿<div class="audio-catalog wrapper">
+	<div class="table">
+
+		<!--#include virtual="../column-left/column-left-audio.shtml"-->
+
+		<div class="table-cell column-central">
+			<div class="tag-search-wrapper">
+				<section class="tag-search">
+					<form>
+						<input type="submit" value="&nbsp;">
+						<input type="text" placeholder="Поиск по тегам">
+					</form>
+				</section>
+			</div>
+
+			<!--#include virtual="../tag-cloud/index.shtml"-->
+
+			<div class="audio-list-wrapper">
+				<ul class="audio-filters">
+					<li class="author"><span>Автор</span></li>
+					<li class="date"><span>Дата</span></li>
+					<li class="title"><span>Название</span></li>
+				</ul>
+				<div class="audio-list">
+					<!--#include virtual="../audio-link/index-21.shtml"-->
+					<!--#include virtual="../audio-link/index-22.shtml"-->
+					<!--#include virtual="../audio-link/index-23.shtml"-->
+					<!--#include virtual="../audio-link/index-24.shtml"-->
+					<!--#include virtual="../audio-link/index-25.shtml"-->
+					<!--#include virtual="../audio-link/index-24.shtml"-->
+					<!--#include virtual="../audio-link/index-25.shtml"-->
+					<!--#include virtual="../audio-link/index-26.shtml"-->
+					<!--#include virtual="../audio-link/index-25.shtml"-->
+					<!--#include virtual="../audio-link/index-26.shtml"-->
+					<!--#include virtual="../audio-link/index-25.shtml"-->
+				</div>
+				<!--#include virtual="../catalog-pagination/index.shtml"-->
+			</div>
+		</div>
+
+		<div class="table-cell column-right">
+			<section>
+				<h4 class="color-8db20e">
+					<a href="#" title="">
+						Авторы
+						<b class="arrow right">&#9670;</b>
+					</a>
+				</h4>
+				<!--#include virtual="../audio-authors/index.shtml"-->
+			</section>
+		</div>
+		
+	</div>
+</div>
