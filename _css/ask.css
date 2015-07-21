@@ -13,8 +13,8 @@
 
 @import "_ask-buttons.css";
 
-.page_ask h1,
-.page_ask h3 {
+.page_ask .ask-main h1,
+.page_ask .ask-main h3 {
 	color: #b38d39;
 }
 .page_ask .ask-main .column-central {
@@ -33,7 +33,49 @@
 	color: #b38d39;
 }
 .page_ask .catalog-pagination li.selected a {
-	color: #b38d39;
+	background: #b38d39;
+}
+.page_ask .wide-banner img {
+	margin-bottom: 20px;
+}
+.page_ask .daytopic-content .column-central .summary.separate {
+	border: none;
+}
+.page_ask .daytopic-content .column-central .column-left {
+	width: 70%;
+}
+.page_ask .daytopic-content .column-left .intopic {
+	background: #fff;
+}
+.page_ask .daytopic-content > .table > .column-right,
+.page_ask .daytopic-content > .table > .column-left {
+	width: 16.9%;
+}
+.page_ask .daytopic-content .column-central h3 {
+	margin-bottom: 10px;
+}
+.page_ask .daytopic-content .column-central .article-link:first-child {
+	border-top: 2px solid #e5e5e5;
+}
+.page_ask .daytopic-content .column-central .audio-link:first-child {
+	border-top: 2px solid #e5e5e5;
+}
+.page_ask .daytopic-content .column-central .audio-link:last-child {
+	border: none;
+	padding-bottom: 10px;
+}
+.page_ask .daytopic-content .column-right {
+	position: relative;
+}
+.page_ask .daytopic-content .column-right .banner {
+	position: absolute;
+	bottom: 0;
+}
+.page_ask .daytopic-content .bg1 {
+	background-position: 0 325px;
+}
+.page_ask .daytopic-content .bg2 {
+	background-position: 98% -50px;
 }
 
 .ask-main {

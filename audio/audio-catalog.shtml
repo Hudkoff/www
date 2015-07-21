@@ -46,7 +46,7 @@
 						<b class="arrow right">&#9670;</b>
 					</a>
 				</h4>
-				<!--#include virtual="../audio-authors/index.shtml"-->
+				<!--#include virtual="../people-list/index-1.shtml"-->
 			</section>
 		</div>
 		

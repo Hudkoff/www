@@ -23,6 +23,9 @@
 	text-decoration: none;
 }
 
+.people-list.with-picture {
+	margin-top: 20px;
+}
 .people-list.with-picture > li {
 	margin-bottom: 20px;
 }

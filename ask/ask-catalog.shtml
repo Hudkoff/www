@@ -36,16 +36,16 @@
 		</div>
 
 		<div class="table-cell column-right">
-			<section>
-				<h4 class="color-8db20e">
+			<section class="clearfix">
+				<h4 class="color-b38d39">
 					<a href="#" title="">
-						Авторы
+						Раввины
 						<b class="arrow right">&#9670;</b>
 					</a>
 				</h4>
-				<!--#include virtual="../audio-authors/index.shtml"-->
+				<!--#include virtual="../people-list/index-2.shtml"-->
+				<a href="#" class="more">Все раввины</a>
 			</section>
 		</div>
-		
 	</div>
 </div>
