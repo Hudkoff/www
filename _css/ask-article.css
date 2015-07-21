@@ -61,7 +61,7 @@
 @media all and (min-width: 1440px) {
 	.page_ask-article .column-right {
 		display: table-cell;
-		width: 20%
+		width: 24%;
 	}
 }
 
@@ -231,6 +231,11 @@
 }
 
 
+
+
+
+
+
 .page_ask-article .column-right .header {
 	color: #6c6c6c;
 	font-family: 'Open Sans', sans-serif;
@@ -249,3 +254,27 @@
 }
 
 
+
+.answer-link {
+	padding-top: 20px;
+ 	border-top: 1px solid #e5e5e5;
+	font-family: 'Open Sans', sans-serif;
+}
+.answer-link:first-child {
+	border: 0;
+}
+.answer-link h6 {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 10px;
+}
+
+.answer-link .details {
+	font-size: 12px;
+	color: #6c6c6c;
+	margin-bottom: 10px;
+}
+.answer-link p {
+	margin-bottom: 10px;
+	font-size: 13px;
+	line-height: 1.4;
+}
