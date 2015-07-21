@@ -229,3 +229,23 @@
 .intopic-block .family-article-link:hover {
 	text-decoration: none;
 }
+
+
+.page_ask-article .column-right .header {
+	color: #6c6c6c;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	border-bottom: 2px solid #b38d39;
+	height: 64px;
+}
+
+.page_ask-article .column-right .header img {
+	float: left;
+	margin: 0 20px 0 0;
+}
+.page_ask-article .column-right .header h6 {
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+}
+
+

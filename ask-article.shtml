@@ -99,7 +99,19 @@
 
 			</div>
 
-			<div class="table-cell column-right" style="background: red">dfsd</div>
+			<aside class="table-cell column-right">
+				<div class="header">
+					<img src="images/avatar-11.jpg" alt="" />
+					Отвечает <h6>Рав Ашер Кушнир</h6>
+				</div>
+				<div>
+					<!--#include virtual="article-link/column-right-01.shtml"-->
+					<!--#include virtual="article-link/column-right-02.shtml"-->
+					<!--#include virtual="article-link/column-right-03.shtml"-->
+				</div>
+				
+
+			</aside>
 
 		</div>
 	</div>
