@@ -110,14 +110,14 @@ $(document).ready(function() {
 
 
 //////////////////////////////////////////////
-// Чекбоксы
+// Чекбоксы & Радиобатоны
 //////////////////////////////////////////////
 
 function changeCheck(el) {
-	// обрабатываем клик по чекбоксу
-    var el = el, // контейнер дял обычного чекбокса 
+	// обрабатываем клик по обертке
+    var el = el,
         input = el.find("input").eq(0);
-   	if(input.attr("checked")) {
+   	if (input.attr("checked")) {
 		el.removeClass("checked");	
 		input.attr("checked", false);
 	} else {
@@ -126,6 +126,25 @@ function changeCheck(el) {
 	}
     return true;
 }
+
+function changeRadio(el) {
+	// обрабатываем клик по обертке
+	var el = el,
+		input = el.find("input").eq(0);
+	var nm = input.attr("name");
+		
+	$(".radioWrap input").each(function() {
+		if ($(this).attr("name") == nm) {
+			$(this).parent().removeClass("checked");
+		}		   
+	});					  	
+	if (el.attr("class").indexOf("niceRadioDisabled") == -1) {	
+		el.addClass("checked");
+		input.attr("checked", true);
+	}	
+    return true;
+}
+
 
 function changeCheckStart(el) {
 	// 	если установлен атрибут checked, меняем вид чекбокса 
@@ -136,20 +155,110 @@ function changeCheckStart(el) {
 	}
     return true;
 }
+function changeRadioStart(el) {
+	// 	если установлен атрибут checked, меняем вид чекбокса 
+	var el = el,
+	input = el.find("input").eq(0);
+    if(input.attr("checked")) {
+		el.addClass("checked");	
+	}
+    return true;
+}
 
-$(document).ready(function(){
-	// 	 при загрузке страницы нужно проверить какое значение имеет чекбокс и в соответствии с ним выставить вид     
+function bindControls() {
+	// 	 при загрузке страницы
 	$(".checkboxWrap").each(function() {
 	    changeCheckStart($(this));
 	});
-	// при клике на чекбоксе меняем его вид и значение 
+	$(".radioWrap").each(function() {
+	     changeRadioStart($(this));
+	});
+	// при клике
 	$(".checkboxWrap").on("mouseup", function() {
 	    changeCheck($(this)); 
 	});
+	$(".radioWrap").on("mouseup", function() {
+	    changeRadio($(this)); 
+	});
+}
+
+
+
+$(document).ready(function(){
+	bindControls();
 });
 
 
+// function changeVisualRadio(input) {
+// 	//	меняем вид radio при смене значения
+// 	var wrapInput = input.parent();
+// 	var nm = input.attr("name");
+		
+// 	$(".radioWrap input").each(function() {
+// 		if ($(this).attr("name") == nm) {
+// 			$(this).parent().removeClass("checked");
+// 		}     
+// 	});
 
+// 	if(input.attr("checked")) {
+// 		wrapInput.addClass("checked");
+// 	}
+// }
+
+
+
+// function changeRadioStart(el) {
+// 	/* 
+// 		новый контрол выглядит так <span class="niceRadio"><input type="radio" name="[name radio]" id="[id radio]" [checked="checked"] /></span>
+// 		новый контрол получает теже name, id и другие атрибуты что и были у обычного
+// 	*/
+// 	try {
+// 		var el = el,
+// 			radioName = el.attr("name"),
+// 			radioId = el.attr("id"),
+// 			radioChecked = el.attr("checked"),
+// 			radioDisabled = el.attr("disabled"),
+// 			radioTab = el.attr("tabindex"),
+// 			radioValue = el.attr("value");
+// 		if(radioChecked)
+// 			el.after("<span class='niceRadio radioChecked'>"+
+// 				"<input type='radio'"+
+// 				"name='"+radioName+"'"+
+// 				"id='"+radioId+"'"+
+// 				"checked='"+radioChecked+"'"+
+// 				"tabindex='"+radioTab+"'"+
+// 				"value='"+radioValue+"' /></span>");
+// 		else
+// 			el.after("<span class='niceRadio'>"+
+// 				"<input type='radio'"+
+// 				"name='"+radioName+"'"+
+// 				"id='"+radioId+"'"+
+// 				"tabindex='"+radioTab+"'"+
+// 				"value='"+radioValue+"' /></span>");
+		
+// 		/* если контрол disabled - добавляем соответсвующий класс для нужного вида и добавляем атрибут disabled для вложенного radio */		
+// 		if(radioDisabled) {
+// 			el.next().addClass("niceRadioDisabled");
+// 			el.next().find("input").eq(0).attr("disabled","disabled");
+// 		}
+		
+// 		/* цепляем обработчики стилизированным radio */		
+// 		el.next().bind("mousedown", function(e) { changeRadio($(this)) });
+
+// 		if($.browser.msie) {
+// 			el.next().find("input").eq(0).bind("click", function(e) { changeVisualRadio($(this)) });
+// 		} else {
+// 			el.next().find("input").eq(0).bind("change", function(e) { changeVisualRadio($(this)) });
+// 		}
+
+// 		el.remove();
+// 	}
+// 	catch(e) {
+// 		// если ошибка, ничего не делаем
+// 	}
+
+// 	return true;
+// }
 
 
 
@@ -171,12 +280,7 @@ function cboxPageScrollingAdjust() {
 	$("body").height(H);
 
 	// обрабатываем чекбоксы на попапе - т.к. в момент привязки событий к чекбоксам попапа не существует
-	$(".checkboxWrap").each(function() {
-	    changeCheckStart($(this));
-	});
-	$(".checkboxWrap").on("mouseup", function() {
-	    changeCheck($(this)); 
-	});
+	bindControls();
 }
 function cboxPageScrollingReturn() {
 	$("html, body").removeClass("cboxOn");
@@ -228,7 +332,7 @@ if (loginButton.length != 0) { // если элемент есть на стра
 		width: "526px",
 		onComplete: cboxPageScrollingAdjust,
 		onCleanup: cboxPageScrollingReturn,
-		className: "popup",
+		className: "popup popup_ask-rav",
 	});
 }
 

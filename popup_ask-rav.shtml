@@ -17,6 +17,15 @@
 		<label>Вопрос:</label>
 		<input type="text" class="" placeholder="Что вас интересует?">
 		Можно ли публиковать ответ:
+		<label class="radioWrap">
+			<input type="radio" name="publ">Да
+		</label>
+		<label class="radioWrap">
+			<input type="radio" name="publ" checked="checked">Анонимно
+		</label>
+		<label class="radioWrap">
+			<input type="radio" name="publ">Нет
+		</label>
 	</div>
 	<input type="submit" value="ДАЛЕЕ">
 </form>

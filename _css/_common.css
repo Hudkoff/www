@@ -380,12 +380,18 @@ label {
 	margin-bottom: 7px;
 	display: inline-block;
 }
-label.checkboxWrap {
+label.checkboxWrap,
+label.radioWrap {
 	color: #000;
 	cursor: pointer;
 	position: relative;
 	padding-left: 21px;
 }
+.checkboxWrap input[type="checkbox"],
+.radioWrap input[type="radio"]{
+	display: none;
+}
+.radioWrap:before,
 .checkboxWrap:before {
 	content: "";
 	position: absolute;
@@ -396,12 +402,18 @@ label.checkboxWrap {
 	display: inline-block;
 	cursor: pointer;
 	background: url("../images/sprite_forms.png");
+}
+.checkboxWrap:before {
 	background-position: 0 0;
 }
 .checkboxWrap.checked:before {
 	background-position: 0 -14px;
 }
-.checkboxWrap input[type="checkbox"] {
-	display: none;
+.radioWrap:before {
+	background-position: 14px 0;
 }
+.radioWrap.checked:before {
+	background-position: 14px -14px;
+}
+
 

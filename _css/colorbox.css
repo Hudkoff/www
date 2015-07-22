@@ -197,3 +197,11 @@ body.cboxOn {overflow: hidden;}
 .popup_login-reg center a:last-child {
 	line-height: 2;
 }
+
+ .popup_ask-rav .radioWrap {
+	margin-left: 24px;
+ }
+
+ .popup_ask-rav input[type="submit"] {
+	float: right;
+ }
