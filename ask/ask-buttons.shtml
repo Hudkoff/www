@@ -1,4 +1,4 @@
 <div class="ask-buttons">
-	<a href="#" title="" class="ask-button">Задать вопрос</a>
-	<a href="" title="" class="ask-link">Спросить семейного консультанта</a>
+	<a href="popup_ask-rav.shtml" title="" class="ask-button p_ask-rav">Задать вопрос</a>
+	<a href="#" title="" class="ask-link">Спросить семейного консультанта</a>
 </div>

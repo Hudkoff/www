@@ -20,9 +20,7 @@
 	text-decoration: none;
  	color: #000;
 }
-.recommendation-link:hover .title {
-	text-decoration: underline;
-}
+
 .recommendation-link .details {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.2rem;
@@ -37,4 +35,8 @@
 	margin-bottom: 7px;
 	font-size: 1.3rem;
 	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;	
+}
+.recommendation-link:hover .title {
+	text-decoration: underline;
 }

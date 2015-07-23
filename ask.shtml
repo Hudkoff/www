@@ -14,7 +14,7 @@
 
 		<!--#include virtual="ask/ask-catalog.shtml"-->
 
-		<a href="#" title="" class="wide-banner"><img src="images/banner-02.jpg" alt=""></a>
+		<!--#include virtual="_banner-wide-toldot.shtml"-->
 
 		<!--#include virtual="_daytopic-title.shtml"-->	
 

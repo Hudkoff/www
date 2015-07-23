@@ -324,7 +324,7 @@ if (loginButton.length != 0) { // если элемент есть на стра
 	});
 }
 
-var loginButton = $(".askQuestionButton");
+var loginButton = $(".p_ask-rav");
 if (loginButton.length != 0) { // если элемент есть на странице
 	loginButton.colorbox({
 		scrolling: false,

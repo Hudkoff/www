@@ -2,10 +2,13 @@
 	margin-bottom: 20px;
 	position: relative;
 }
-.daytopic-content .column-left, .daytopic-content .column-right {
+.daytopic-content .column-left, 
+.daytopic-content .column-right {
 	width: 20%;
 }
-
+.daytopic-content > .column-right {
+	vertical-align: bottom;
+}
 .daytopic-content .bg1,
 .daytopic-content .bg2 {
 	background-repeat: no-repeat;
@@ -56,6 +59,8 @@
 .daytopic-content .column-central .table-cell:first-child {
 	padding-left: 0;
 }
+
+
 
 
 .daytopic-content.audio-page .column-central .column-left {

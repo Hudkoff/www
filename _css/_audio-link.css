@@ -6,10 +6,6 @@
 .audio-link:first-child {
 	border-top: none;
 }
-.audio-link a {
-	color: #000;
-	text-decoration: none;
-}
 .audio-link .author-photo {
 	position: relative;
 	float: left;
@@ -45,24 +41,29 @@
 .audio-link h4 {
 	margin-bottom: 11px;
 }
+.audio-link h4 a {
+	color: #000;
+	text-decoration: none;
+}
 .audio-link h4 a:hover {
 	text-decoration: underline;
 }
 .audio-link .details {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #6c6c6c;
 }
 .audio-link .description {
 	margin: 12px 0 17px 0;
 	text-decoration: none;
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	line-height: 1.4;
 }
 .audio-link .description .more {
-	color: #0e53b2
+	font-family: inherit;
 }
-.audio-link .description .more:hover {
-	text-decoration: underline;
-}
+
 
 .audio-link .buttons {
 	font-size: 0;
@@ -76,6 +77,7 @@
 	border: 1px solid #d4d4d4;
 	border-radius: 2px;
 	vertical-align: top;
+	text-decoration: none;
 }
 .audio-link .button.set-aside:hover,
 .audio-link .button.subscribe:hover {

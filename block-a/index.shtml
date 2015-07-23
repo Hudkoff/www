@@ -51,7 +51,7 @@
 				<!--#include virtual="../lenta/index-09.shtml?e1f5fa"-->
 			</section>
 			<a class="" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
-				<img src="images/right-banner_01.jpg" alt="">
+				<img src="images/right-banner_01.jpg" style="width: 100%" alt="">
 			</a>
 		</aside>
 	</div>

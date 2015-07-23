@@ -24,7 +24,7 @@
 					<h1>
 						Спросить раввина
 						<a href="#" class="askLink" title="">Спросить семейного консультанта</a>
-						<a href="popup_ask-rav.shtml" class="askQuestionButton" title="Задать Вопрос">Задать Вопрос</a>
+						<a href="popup_ask-rav.shtml" class="askQuestionButton p_ask-rav" title="Задать Вопрос">Задать Вопрос</a>
 					</h1>
 
 					<h4>Евреи вышли из Египта вооруженными. Откуда оружие у вчерашних рабов?</h4>

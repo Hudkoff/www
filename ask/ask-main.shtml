@@ -3,6 +3,9 @@
 
 		<div class="table-cell column-left">
 			<!--#include virtual="../column-left/sidemenu-ask.shtml"-->
+			<a class="banner" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
+			    <img src="images/banner_02.jpg" style="width: 100%" alt="">
+			</a>
 		</div>
 
 		<div class="table-cell column-central">
@@ -13,7 +16,7 @@
 					<div class="audiolessons">
 						<h1>Спросить раввина</h1>
 						<div class="audio-lessons-summary">
-							<p><span>20 567</span> аудиоуроков, <span>358</span> авторов</p>
+							<p><span>20 567</span> вопросов, <span>358</span> раввинов отвечают</p>
 						</div>
 						<!--#include virtual="../ask/ask-buttons.shtml"-->
 						<div class="audiolessons-list">
