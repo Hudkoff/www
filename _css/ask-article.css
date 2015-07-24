@@ -48,7 +48,7 @@
 
 
 .page_ask-article .column-left {
-  width: 17%;
+  width: 20%;
   padding: 0 20px 0 0;
 }
 .page_ask-article .column-central {
@@ -56,13 +56,7 @@
 	padding: 0;
 }
 .page_ask-article .column-right {
-	display: none;
-}
-@media all and (min-width: 1440px) {
-	.page_ask-article .column-right {
-		display: table-cell;
-		width: 24%;
-	}
+	width: 24.25%;
 }
 
 
@@ -203,7 +197,7 @@
 }
 .intopic-block > .table-cell:first-child {
 	width: auto;
-	padding: 0 20px;
+	/*padding: 0 20px;*/
 }
 .intopic-block .table-cell .table-cell {
 	width: 33.3%;

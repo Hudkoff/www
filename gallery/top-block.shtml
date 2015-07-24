@@ -2,10 +2,10 @@
 <div class="table-cell column-central">
 
 	<div class="table">
-		<div class="table-cell double">
+		<div class="table-cell">
 			<!--#include virtual="../breadcrumbs/photo.shtml"-->
  
-			<h2>Фото</h2>
+			<h1>Фото</h1>
 
 			<div class="photo-of-day">
 				<div class="photoCountInfo">
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 
-		<div class="table-cell">
+		<div class="table-cell lenta-column">
 			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
 				<!--#include virtual="../lenta/index-01.shtml?f8f8f8"-->
 				<!--#include virtual="../lenta/index-02.shtml?ededed"-->
@@ -99,19 +99,13 @@
 			</div>
 		</div>
 
-		<div class="photoBlock">
-			<div class="image folder" title="В израиле">
-				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-1.jpg" alt="В израиле"/>
+		<div class="photoBlock photo">
+			<div class="image">
+				<a href="/images/photo-2-big.jpg"  title="Выставка народного творчества <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+					<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
 				</a>
-				<div class="overlay">
-					<h3>В израиле</h3>
-					<div class="photoCount">
-						91
-					</div>
-				</div>
 			</div>
-			<div class="underlines"></div>
+			<h6>Выставка народного творчества</h6>
 			<div class="info">
 				28 марта, <b>Рав Моше Пантелят</b>
 			</div>

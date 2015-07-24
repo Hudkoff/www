@@ -5,7 +5,7 @@
 
     <div class="banner-aside">
         <a href="#" title="">
-            <img src="images/banner_1.jpg" alt="Где учиьть ТОРУ?"/>
+            <img src="images/banner_1.jpg" style="width: 100%" alt="Где учиьть ТОРУ?"/>
         </a>
     </div>
 

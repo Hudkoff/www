@@ -3,7 +3,7 @@
 
 	<!--#include virtual="../breadcrumbs/photo.shtml"-->
 
-	<h2>Фото</h2>
+	<h1>Фото</h1>
 
 	<section class="search">
 		<form>

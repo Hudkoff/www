@@ -1,9 +1,9 @@
 
 <aside class="table-cell column-right">
 
-	<!--div class="banner-aside">
+	<div class="banner-aside">
 		<a href="#" title="">
-			<img src="images/banner_2.jpg" alt="Шавуот. Как купить подарок?"/>
+			<img src="images/banner_2.jpg" style="width:100%" alt="Шавуот. Как купить подарок?"/>
 		</a>
 	</div>
 
@@ -31,18 +31,18 @@
 	</section>
 
 	<section>
-		<h3 class="color-b38d39">
+		<h3 class="color-3792aa">
 			<a href="#" title="">
 				Блоги
 				<b class="arrow right">&#9670;</b>
 			</a>
 		</h3>
-		<!--#include virtual="../article/index-31.shtml"-->
-		<!--#include virtual="../article/index-32.shtml"-->
-		<!--#include virtual="../article/index-33.shtml"-->
-		<!--#include virtual="../article/index-32.shtml"-->
-		<!--#include virtual="../article/index-33.shtml"-->
-	</section-->
+		<!--#include virtual="../article-link/index-31.shtml"-->
+		<!--#include virtual="../article-link/index-32.shtml"-->
+		<!--#include virtual="../article-link/index-33.shtml"-->
+		<!--#include virtual="../article-link/index-32.shtml"-->
+		<!--#include virtual="../article-link/index-33.shtml"-->
+	</section>
 
 	<section class="askQuestion">
 		<h3 class="color-b38d39">

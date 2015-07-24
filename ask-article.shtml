@@ -21,7 +21,7 @@
 
 					<!--#include virtual="breadcrumbs/ask.shtml"-->
 
-					<h1>
+					<h1 class="clearfix">
 						Спросить раввина
 						<a href="#" class="askLink" title="">Спросить семейного консультанта</a>
 						<a href="popup_ask-rav.shtml" class="askQuestionButton p_ask-rav" title="Задать Вопрос">Задать Вопрос</a>
