@@ -60,7 +60,9 @@
 .main-menu .section:hover .submenu {
 	padding-top: 27px;
 }
-
+.main-menu .wrapper {
+	padding: 0 12px;
+}
 
 
 .main-menu .no-in-menu {
