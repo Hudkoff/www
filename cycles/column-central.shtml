@@ -1,0 +1,29 @@
+
+<div class="table-cell column-central">
+
+	<!--#include virtual="../breadcrumbs/photo.shtml"-->
+
+	<h1>Циклы</h1>
+
+	<section class="search">
+		<form>
+			<input type="text" placeholder="Поиск по материалам">
+		</form>
+		<div class="icon icon-search"></div>
+		<div class="tags-button">
+			<span class="showTags">&#8595; Показать теги</span>
+			<span class="hideTags">&#8593; Скрыть теги</span>
+		</div>
+	</section>
+
+	<div class="tags-hidden all-tags-available">
+		<!--#include virtual="../tag-cloud/index.shtml"-->
+	</div>
+
+
+
+	<!--#include virtual="../catalog-pagination/index.shtml"-->
+
+
+
+</div>

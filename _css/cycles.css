@@ -1,0 +1,106 @@
+/* стили для страницы циклов */
+@import "_tests.css";
+@import "_catalog-pagination.css";
+@import "_daytopic-title.css";
+@import "_daytopic-article.css";
+@import "_daytopic.css";
+@import "_intopic.css";
+
+
+.page_cycles .column-left {
+    width: 20%;
+}
+
+.page_cycles .column-right {
+    width: 20%;
+}
+
+.page_cycles .column-central {
+    width: auto;
+}
+
+/* ============================================================================== */
+
+.page_cycles .catalog-pagination li.selected a {
+    background-color: #b20e89;
+}
+.page_cycles .tag-cloud a:hover {
+    color: #b20e89;
+}
+
+.page_cycles .photoCountInfo span {
+    color: #b20e89;
+    font-weight: bold;
+}
+
+.page_cycles .column-central h1 {
+    color: #b20e89;
+}
+
+
+.page_cycles .search {
+    position: relative;
+    float: none;
+    width: 100%;
+    margin: 7px auto 40px;
+}
+
+.page_cycles .search input{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #e1e1e1;
+    padding: 15px;
+    padding-left: 40px;
+    position: relative;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.page_cycles .search .icon-search {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 21px;
+    left: 15px;
+    background: url(../images/icon-search.png) no-repeat center center;
+}
+
+.page_cycles .search .tags-button {
+    position: absolute;
+    right: 0;
+    background-color: #ebebeb;
+    color: #676767;
+    padding: 3px 10px;
+    border: 1px solid #d4d4d4;
+    border-top: 0;
+    cursor: pointer;
+
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+
+.page_cycles .search .tags-button .hideTags,
+.page_cycles .tag-cloud {
+    /*display: none;*/
+}
+
+.cycleAuthors h3 {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #e5e5e5;
+}
+.cycleAuthors ul {
+    list-style: disc;
+    padding: 10px 0 0 20px;
+    color: #2f63b7;
+}
+.cycleAuthors li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    color: #2f63b7;
+}
