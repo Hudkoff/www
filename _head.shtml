@@ -10,7 +10,7 @@
 
 
 	<meta itemprop="url" property="og:url" content="http://toldot.ru/" /><!-- Канонический путь к странице -->
-	<meta itemprop="image" property="og:image" content="logo/images/og-logo.png" /><!-- Картинка для отображения -->
+	<meta itemprop="image" property="og:image" content="images/og-logo.png" /><!-- Картинка для отображения -->
 
 	<title>Иудаизм и евреи — Judaism and Jews</title>
 	<meta property="og:title" content="Иудаизм и евреи — Judaism and Jews" /><!-- Название страницы -->
