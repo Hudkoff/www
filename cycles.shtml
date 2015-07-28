@@ -8,9 +8,11 @@
 </head>
 <body>
 
-	<!--#include virtual="_header.shtml"-->
+<!--#include virtual="_header.shtml"-->
 
-	<div class="page_cycles wrapper">
+<div class="page_cycles">
+
+	<div class="top-block wrapper">
 		<div class="table">
 
 			<!--#include virtual="column-left/column-left-cycles.shtml"-->
@@ -22,9 +24,17 @@
 		</div>
 	</div>
 
-	<!--#include virtual="_footer.shtml"-->
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
 
-	<script src="_js/js.js" type="text/javascript"></script>
+	<!--#include virtual="_daytopic-title.shtml"-->
+
+	<!--#include virtual="_daytopic-cycles.shtml"-->
+
+</div>
+
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
 
 </body>
 </html>

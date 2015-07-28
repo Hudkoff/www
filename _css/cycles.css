@@ -104,3 +104,23 @@
     line-height: 25px;
     color: #2f63b7;
 }
+
+.page_cycles .daytopic-content .column-central {
+    padding: 0;
+}
+.page_cycles .daytopic-content .summary {
+    padding: 20px;
+}
+.page_cycles .daytopic-content .catalogHeading {
+    color: #b20e89;
+    padding: 0 20px 10px;
+}
+.page_cycles .daytopic-content .bg1 {
+    background-image: url("../images/content-bg_01_small.jpg");
+    background-position: 10% 94%;
+}
+
+.page_cycles .daytopic-content .bg2 {
+    background-image: url("../images/content-bg_02_small.jpg");
+    background-position: 93% 10%;
+}
