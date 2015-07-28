@@ -54,45 +54,4 @@
 		</ul>
 	</section>
 
-	<section>
-		<h3 class="color-3792aa">
-			<a href="#" title="">
-				Блоги
-				<b class="arrow right">&#9670;</b>
-			</a>
-		</h3>
-		<!--#include virtual="../article-link/index-31.shtml"-->
-		<!--#include virtual="../article-link/index-32.shtml"-->
-		<!--#include virtual="../article-link/index-33.shtml"-->
-		<!--#include virtual="../article-link/index-32.shtml"-->
-		<!--#include virtual="../article-link/index-33.shtml"-->
-	</section>
-
-	<section class="askQuestion">
-		<h3 class="color-b38d39">
-			<a href="#" title="">
-				Вопросы раввину
-				<b class="arrow right">&#9670;</b>
-			</a>
-		</h3>
-		<a class="question" title="" href="#">Можно ли делать временные татуировки?</a>
-		<a class="question" title="" href="#">Наша вера основана на свидетельстве шестисот тысяч человек? Или на доверии лично Моше?</a>
-		<a class="question" title="" href="#">Как объяснить парикмахеру, как надо стричь, не сбривая пейсы?</a>
-		<a class="button color-b38d39 askQuestionButton" title="Спросить раввина">Спросить раввина</a>
-	</section>
-
-	<section class="familyQuestion">
-		<h3 class="color-d55940">
-			<a href="#" title="">
-				Семья
-				<b class="arrow right">&#9670;</b>
-			</a>
-		</h3>
-		<a class="question" title="" href="#">Муж очень привязан к своей маме. К счастью, она живет в другой стране. Недавно она...</a>
-		<a class="question" title="" href="#">Супруга очень ленится...</a>
-		<a class="question" title="" href="#">Что делать, если у нас с мужем разные мнения практически по всем вопросам?</a>
-		<a class="button color-d55940 askQuestionButton" title="Спросить семейного консультанта">Спросить семейного консультанта</a>
-	</section>
-
-
 </aside>
