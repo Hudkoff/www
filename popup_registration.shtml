@@ -1,4 +1,4 @@
-<h3 class="color-0e53b2">
+<h3 class="color-TOLDOT bordered">
 	Регистрация 
 	<a class="tablink" href="#" onclick="$.colorbox.prev(); return false">Вход</a>
 </h3>

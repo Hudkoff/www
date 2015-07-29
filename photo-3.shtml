@@ -15,10 +15,15 @@
 		<div class="top-block wrapper">
 			<div class="table">
 
-				<!--#include virtual="column-left/column-left-gallery.shtml"-->
-
-				<!--#include virtual="gallery/top-block.shtml"-->
-
+				<aside class="table-cell column-left">
+					<!--#include virtual="sidemenu/sidemenu-gallery.shtml"-->
+					<!--#include virtual="_banner-tora.shtml"-->
+					<!--#include virtual="recommendation-link/index.shtml"-->
+					<!--#include virtual="shop-item/index.shtml"-->
+				</aside>
+				<div class="table-cell column-central">				
+					<!--#include virtual="gallery/top-block.shtml"-->
+				</div>
 			</div>
 		</div>
 

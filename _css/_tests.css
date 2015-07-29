@@ -43,3 +43,6 @@
 .tests:hover .description {
 	text-decoration: underline;
 }
+.testLight {
+	margin-bottom: 20px;
+}

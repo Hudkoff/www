@@ -11,10 +11,10 @@
 			</div>
 			<div class="table">
 				<section class="table-cell questions-box">
-					<h3 class="color-b38d39">
+					<h3 class="color-ASK arrowed bordered">
 						<a href="#" title="">
 							Вопросы раввину
-							<b class="arrow right">&#9670;</b>
+							<b>&#9670;</b>
 						</a>
 					</h3>
 					<div>
@@ -24,10 +24,10 @@
 					</div>
 				</section>
 				<section class="table-cell questions-box">
-					<h3 class="color-d55940">
+					<h3 class="color-FAMILY arrowed bordered">
 						<a href="#" title="">
 							Семья
-							<b class="arrow right">&#9670;</b>
+							<b>&#9670;</b>
 						</a>
 					</h3>
 					<div>

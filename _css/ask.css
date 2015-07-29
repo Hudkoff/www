@@ -81,7 +81,7 @@
 }
 .ask-main .column-left {
 	width: 20%;
-	padding: 0 20px 0 0;
+	padding-right: 20px;
 }
 .ask-main .column-right {
 	width: 25.45%;

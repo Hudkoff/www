@@ -13,8 +13,12 @@
 	<div class="page_gallery wrapper">
 		<div class="table">
 
-			<!--#include virtual="column-left/column-left-gallery.shtml"-->
-
+			<aside class="table-cell column-left">
+				<!--#include virtual="sidemenu/sidemenu-gallery.shtml"-->
+				<!--#include virtual="_banner-tora.shtml"-->
+				<!--#include virtual="recommendation-link/index.shtml"-->
+				<!--#include virtual="shop-item/index.shtml"-->
+			</aside>
 			<!--#include virtual="gallery/column-central.shtml"-->
 
 			<!--#include virtual="gallery/column-right.shtml"-->

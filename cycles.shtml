@@ -15,8 +15,13 @@
 	<div class="top-block wrapper">
 		<div class="table">
 
-			<!--#include virtual="column-left/column-left-cycles.shtml"-->
-
+			<aside class="table-cell column-left">
+				<!--#include virtual="sidemenu/sidemenu-cycles.shtml"-->
+				<!--#include virtual="_banner-tora.shtml"-->
+				<!--#include virtual="recommendation-link/index.shtml"-->
+				<!--#include virtual="shop-item/index.shtml"-->
+			</aside>
+			
 			<!--#include virtual="cycles/column-central.shtml"-->
 
 			<!--#include virtual="cycles/column-right.shtml"-->

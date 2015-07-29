@@ -10,9 +10,9 @@
 
 	<!--#include virtual="_header.shtml"-->
 
-	<!--#include virtual="block-a/index.shtml"-->
+	<!--#include virtual="home/block-a.shtml"-->
 
-	<!--#include virtual="block-b/index.shtml"-->
+	<!--#include virtual="home/block-b.shtml"-->
 
 	<!--#include virtual="_banner-wide-toldot.shtml"-->
 

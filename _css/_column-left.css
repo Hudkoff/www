@@ -7,61 +7,20 @@
   margin-bottom: 30px;
 }
 
-
-/* цвета */
-.sidemenu h3 a {
-    color: inherit;
-}
-.page_gallery .sidemenu h3 {
-    color: #9c5630;
-}
-.page_ask .sidemenu h3,
-.page_ask-article .sidemenu h3 {
-    color: #b38d39;
-}
-.audio-main .sidemenu h3 {
-    color: #8db20e;
-}
-
-
-
-
-/* структура */
-.sidemenu h3 {
-    font-size: 18px;
-}
-.sidemenu h3 a {
-    display: block;
-    height: 100%;
-    padding: 0;
-    border: none;
-    text-decoration: none;
-}
-.sidemenu h3 a:hover {
-    text-decoration: underline;
-}
-.sidemenu .first-level-nav > li {
-    padding: 19px 0 19px 0;
-    border-top: 1px solid #eef6e7;
-}
-.sidemenu .second-level-nav > li:before{
-    color: #000;
+.family-article-link {
+      text-decoration: underline;
+  color: #0e53b2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-bottom: 20px;
     display: inline-block;
-    content: "\2022";
-    padding-right: 7px;
 }
-.sidemenu .first-level-nav > li:first-child {
-    padding-top: 5px;
-    border-top: none;
+.family-article-link:first-child {
+    margin-top: 20px
 }
-.sidemenu .second-level-nav {
-    padding: 13px 0 7px 0;
-    font: bold 1.3rem/2.2rem 'Open Sans', sans-serif;
-}
-.sidemenu .second-level-nav > li a {
-    color: #000;
+.family-article-link:hover {
     text-decoration: none;
 }
-.sidemenu .second-level-nav > li a:hover {
-    text-decoration: underline;
-}
+
+
+

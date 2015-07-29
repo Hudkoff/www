@@ -13,23 +13,44 @@
 .socials-share-block .b-share-icon_vkontakte{
     background-position: -24px 0;
 }
+.socials-share-block .b-share-icon_vkontakte:hover{
+    background-position: -24px -24px;
+}
 .socials-share-block .b-share-icon_facebook {
     background-position: 0 0;
+}
+.socials-share-block .b-share-icon_facebook:hover {
+    background-position: 0 -24px;
 }
 .socials-share-block .b-share-icon_twitter {
     background-position: -48px 0;
 }
+.socials-share-block .b-share-icon_twitter:hover {
+    background-position: -48px -24px;
+}
 .socials-share-block .b-share-icon_odnoklassniki{
     background-position: -144px 0;
+}    
+.socials-share-block .b-share-icon_odnoklassniki:hover{
+    background-position: -144px -24px;
 }    
 .socials-share-block .b-share-icon_lj{
     background-position: -72px 0;
 }    
+.socials-share-block .b-share-icon_lj:hover{
+    background-position: -72px -24px;
+}    
 .socials-share-block .b-share-icon_gplus {
   background-position: -96px 0;
 }
+.socials-share-block .b-share-icon_gplus:hover {
+  background-position: -96px -24px;
+}
 .socials-share-block .b-share-icon_t{
     background-position: -120px 0;
+}    
+.socials-share-block .b-share-icon_t:hover{
+    background-position: -120px -24px;
 }    
 .socials-share-block .b-share-icon{
     width: 24px;
@@ -42,10 +63,16 @@
    padding: 0 !important;
     float: left;
 }
-
+.socials-share-block .b-share {
+    padding: 0 !important;
+}
 /* для страниц */
-.page_ask-article .socials-share-block,
 .page_ask-article .socials-like-block {
     width: 50%;
+    float: left;
+}
+.page_ask-article .socials-share-block {
+    width: 49%;
+    margin-left: 1%;
     float: left;
 }

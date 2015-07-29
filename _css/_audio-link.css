@@ -31,7 +31,7 @@
 }
 .audio-link .header {
 	display: table;
-	min-height: 128px;
+	height: 128px;
 	margin-left: 150px;
 }
 .audio-link .header .center {

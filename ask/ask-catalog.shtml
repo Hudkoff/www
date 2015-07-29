@@ -1,8 +1,15 @@
 ﻿<div class="audio-catalog wrapper">
 	<div class="table">
 
-		<!--#include virtual="../column-left/column-left-ask.shtml"-->
+		<aside class="table-cell column-left">
 
+
+			<!--#include virtual="../_family-questions.shtml"-->
+			<!--#include virtual="../recommendation-link/index.shtml"-->
+			<!--#include virtual="../shop-item/index.shtml"-->
+
+		</aside>
+		
 		<div class="table-cell column-central">
 
 			<section class="search">
@@ -35,17 +42,17 @@
 			</div>
 		</div>
 
-		<div class="table-cell column-right">
+		<aside class="table-cell column-right">
 			<section class="clearfix">
-				<h4 class="color-b38d39">
+				<h3 class="color-ASK arrowed bordered">
 					<a href="#" title="">
 						Раввины
-						<b class="arrow right">&#9670;</b>
+						<b>&#9670;</b>
 					</a>
-				</h4>
+				</h3>
 				<!--#include virtual="../people-list/index-2.shtml"-->
 				<a href="#" class="more">Все раввины</a>
 			</section>
-		</div>
+		</aside>
 	</div>
 </div>

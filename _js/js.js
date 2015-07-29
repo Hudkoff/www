@@ -292,7 +292,7 @@ if (galleryPhoto.length != 0) { // если элемент есть на стр�
 	galleryPhoto.colorbox({
 		rel:'gal', // uncomment to turn the group photo gallery on / включает группирование фоток в галерее
 		fixed: true,
-		className: 'colorbox-gallery border-9c5630',
+		className: 'colorbox-gallery border-PHOTO',
 		current: "{current} из {total}"
 	});
 }

@@ -1,8 +1,10 @@
 ﻿<div class="audio-catalog wrapper">
 	<div class="table">
 
-		<!--#include virtual="../column-left/column-left-audio.shtml"-->
-
+		<aside class="table-cell column-left">
+			<!--#include virtual="../column-left/column-left-audio.shtml"-->
+		</aside>
+		
 		<div class="table-cell column-central">
 			<div class="tag-search-wrapper">
 				<section class="tag-search">
@@ -40,10 +42,10 @@
 
 		<div class="table-cell column-right">
 			<section>
-				<h4 class="color-8db20e">
+				<h4 class="color-AUDIO arrowed bordered">
 					<a href="#" title="">
 						Авторы
-						<b class="arrow right">&#9670;</b>
+						<b>&#9670;</b>
 					</a>
 				</h4>
 				<!--#include virtual="../people-list/index-1.shtml"-->

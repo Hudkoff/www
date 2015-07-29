@@ -11,9 +11,13 @@
 	<!--#include virtual="_header.shtml"-->
 
 	<div class="page_ask-article wrapper">
+
 		<div class="table">
 
-			<!--#include virtual="column-left/column-left-article.shtml"-->
+			<div class="table-cell column-left">
+		    	<!--#include virtual="sidemenu/sidemenu-ask.shtml"-->
+		    	<!--#include virtual="_banner-tora.shtml"-->
+		    </div>
 
 			<div class="table-cell column-central">
 
@@ -42,7 +46,6 @@
 					<p>
 						Добрый день! В недельной главе Бешалах 13:18 сказано, что сыны Израиля вышли вооруженными из страны Египетской. РАШИ разъясняет: חמושים означает именно «вооруженными», «подпоясанными оружием». В связи с этим возникает вопрос — ведь евреи находились в Египте на положении рабов, а рабы, как правило, не имеют право носить оружия. Т.е. получается, что евреи обрели оружие непосредственно перед Исходом? Или они получили оружие каким-то другим способом? Заранее благодарю за ответ!
 					</p>
-
 				</div>
 
 				<div class="article-content">
@@ -60,48 +63,6 @@
 						<!--#include virtual="_socials-share.shtml"-->
 					</div>
 				</div>
-
-
-				<div class="intopic-block table">
-					<div class="table-cell">
-						<h3 class="intopic">В тему</h3>
-						<div class="table">
-							<div class="table-cell">
-								<!--#include virtual="daytopic-article/index-01.shtml"-->
-								<!--#include virtual="daytopic-article/index-02.shtml"-->
-								<!--#include virtual="daytopic-article/index-03.shtml"-->
-								<!--#include virtual="daytopic-article/index-04.shtml"-->
-							</div>
-							<div class="table-cell">
-								<!--#include virtual="daytopic-article/index-05.shtml"-->
-								<!--#include virtual="daytopic-article/index-06.shtml"-->
-								<!--#include virtual="daytopic-article/index-07.shtml"-->
-								<!--#include virtual="daytopic-article/index-08.shtml"-->
-							</div>
-							<div class="table-cell">
-								<!--#include virtual="daytopic-article/index-09.shtml"-->
-								<!--#include virtual="daytopic-article/index-10.shtml"-->
-								<!--#include virtual="daytopic-article/index-11.shtml"-->
-							</div>
-						</div>
-					</div>
-					<div class="table-cell">
-						<h3 class="color-d55940">
-							<a href="#" title="">
-								Семья
-								<b class="arrow right">◆</b>
-							</a>
-						</h3>
-						<div>
-							<a class="family-article-link" href="#" title="">Муж очень привязан к своей маме. К счастью, она живет в другой стране. Недавно она...</a>
-							<a class="family-article-link" href="#" title="">Супруга очень ленится...</a>
-							<a class="family-article-link" href="#" title="">Что делать, если у нас с мужем разные мнения практически по всем вопросам?</a>
-							<a class="family-article-link" href="#" title="">Между мужем и женой не должно быть никаких тайн?</a>
-							<a class="family-article-link" href="#" title="">Мы уже в браке несколько лет, но муж продолжает встречаться с...</a>
-						</div>
-					</div>
-				</div>
-
 			</div>
 
 			<aside class="table-cell column-right">
@@ -119,6 +80,45 @@
 			</aside>
 
 		</div>
+
+		<div class="intopic-block table">
+		
+			<aside class="table-cell column-left">
+				<!--#include virtual="recommendation-link/index.shtml"-->
+				<!--#include virtual="shop-item/index.shtml"-->
+			</aside>
+
+			<div class="table-cell column-central">
+				<h3 class="color-INTOPIC bordered">В тему</h3>
+				<div class="table">
+					<div class="table-cell">
+						<!--#include virtual="daytopic-article/index-01.shtml"-->
+						<!--#include virtual="daytopic-article/index-02.shtml"-->
+						<!--#include virtual="daytopic-article/index-03.shtml"-->
+						<!--#include virtual="daytopic-article/index-04.shtml"-->
+					</div>
+					<div class="table-cell">
+						<!--#include virtual="daytopic-article/index-05.shtml"-->
+						<!--#include virtual="daytopic-article/index-06.shtml"-->
+						<!--#include virtual="daytopic-article/index-07.shtml"-->
+						<!--#include virtual="daytopic-article/index-08.shtml"-->
+					</div>
+					<div class="table-cell">
+						<!--#include virtual="daytopic-article/index-09.shtml"-->
+						<!--#include virtual="daytopic-article/index-10.shtml"-->
+						<!--#include virtual="daytopic-article/index-11.shtml"-->
+					</div>
+				</div>
+			</div>
+
+			<aside class="table-cell column-right">
+
+				<!--#include virtual="_family-questions.shtml"-->
+
+			</aside>
+
+		</div>
+
 	</div>
 
 	<!--#include virtual="_footer.shtml"-->

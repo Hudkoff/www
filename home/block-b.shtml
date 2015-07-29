@@ -2,10 +2,10 @@
 	<div class="table ">
 		<section class="table-cell double">
 			<div>
-				<h3 class="color-727272">
+				<h3 class="color-ARTICLES arrowed bordered">
 					<a href="#" title="">
 						Статьи
-						<b class="arrow right">&#9670;</b>
+						<b>&#9670;</b>
 					</a>
 				</h3>
 			</div>
@@ -37,10 +37,10 @@
 		<div class="table-cell">
 			<div class="table">
 				<section class="table-cell">
-					<h3 class="color-3792aa">
+					<h3 class="color-BLOG arrowed bordered">
 						<a href="#" title="">
 							Блоги
-							<b class="arrow right">&#9670;</b>
+							<b>&#9670;</b>
 						</a>
 					</h3>
 					<div>
@@ -52,10 +52,10 @@
 					</div>
 				</section>
 				<section class="table-cell">
-					<h3 class="color-7247ba">
+					<h3 class="color-LEARNING arrowed bordered">
 						<a href="#" title="">
 							Тесты
-							<b class="arrow right">&#9670;</b>
+							<b>&#9670;</b>
 						</a>
 					</h3>
 					<div>
@@ -72,10 +72,10 @@
 <div class="block-b wrapper">
 	<div class="table ">
 		<section class="table-cell">
-			<h3 class="color-8db20e">
+			<h3 class="color-AUDIO arrowed bordered">
 				<a href="#" title="">
 					Аудио
-					<b class="arrow right">&#9670;</b>
+					<b>&#9670;</b>
 				</a>
 			</h3>
 			<div>
@@ -87,10 +87,10 @@
 			</div>
 		</section>
 		<section class="table-cell">
-			<h3 class="color-43ac69">
+			<h3 class="color-VIDEO arrowed bordered">
 				<a href="#" title="">
 					Видео
-					<b class="arrow right">&#9670;</b>
+					<b>&#9670;</b>
 				</a>
 			</h3>
 			<div>
@@ -102,10 +102,10 @@
 		<div class="table-cell">
 			<div class="table">
 				<section class="table-cell">
-					<h3 class="color-b20e89">
+					<h3 class="color-CYCLES arrowed bordered">
 						<a href="#" title="">
 							В Толдоте
-							<b class="arrow right">&#9670;</b>
+							<b>&#9670;</b>
 						</a>
 					</h3>
 					<div>					
@@ -114,15 +114,8 @@
 						<!--#include virtual="../intoldot/index-03.shtml"-->
 					</div>
 				</section>
-				<section class="table-cell">
-					<h3 class="color-1259a8">
-						<a href="#" title="">
-							Магазин
-							<b class="arrow right">&#9670;</b>
-						</a>
-					</h3>					
-					<!--#include virtual="../shop-item/index.shtml"-->
-				</section>
+				
+			   <!--#include virtual="../shop-item/index.shtml"-->
 			</div>
 		</div>
 	</div>
