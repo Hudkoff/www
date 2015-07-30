@@ -465,4 +465,15 @@ allTagsButton.on('click', function(){
 });
 
 
+$(function() {
+	var availableTags = [];
+	$(".tag-cloud li a").each(function(){
+		availableTags.push( $(this).text());
+	});
+
+	$( "#tagsSearch" ).autocomplete({
+		source: availableTags
+	});
+});
+
 

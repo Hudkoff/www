@@ -317,3 +317,33 @@ label.radioWrap {
 }
 
 
+
+/* AUTOCOMPLETE */
+
+.ui-helper-hidden-accessible {
+	display: none;
+}
+.ui-menu-item {
+	display: block;
+	background-color: #fff;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	padding: 0 40px;
+	width: 300px;
+	cursor: pointer;
+
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	border: 1px solid #e1e1e1;
+	border-top: 0;
+}
+
+.ui-menu-item a {
+	color: #3f3f3f;
+	text-decoration: none;
+}
+.ui-menu-item:nth-child(n+6) {
+	display: none;
+}

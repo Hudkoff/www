@@ -7,7 +7,7 @@
 
 	<section class="search">
 		<form>
-			<input type="text" placeholder="Поиск по материалам">
+			<input id="tagsSearch" type="text" placeholder="Поиск по материалам">
 		</form>
 		<div class="icon icon-search"></div>
 		<div class="tags-button">
