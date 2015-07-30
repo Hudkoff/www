@@ -1,390 +1,382 @@
+<h1>Фото</h1>
 
-<div class="table-cell column-central">
-
-	<!--#include virtual="../breadcrumbs/photo.shtml"-->
-
-	<h1>Фото</h1>
-
-	<section class="search">
-		<form>
-			<input type="text" placeholder="Поиск фото">
-		</form>
-		<div class="icon icon-search"></div>
-		<div class="tags-button">
-			<span class="showTags">&#8595; Показать теги</span>
-			<span class="hideTags">&#8593; Скрыть теги</span>
-		</div>
-	</section>
-
-	<div class="tags-hidden all-tags-available">
-		<!--#include virtual="../tag-cloud/index.shtml"-->
+<section class="search">
+	<form>
+		<input type="text" placeholder="Поиск фото">
+	</form>
+	<div class="icon icon-search"></div>
+	<div class="tags-button">
+		<span class="showTags">&#8595; Показать теги</span>
+		<span class="hideTags">&#8593; Скрыть теги</span>
 	</div>
-	<!--#include virtual="../catalog-pagination/index.shtml"-->
+</section>
 
-	<div class="galleryBlock">
+<div class="tags-hidden all-tags-available">
+	<!--#include virtual="../tag-cloud/index.shtml"-->
+</div>
+<!--#include virtual="../catalog-pagination/index.shtml"-->
 
-		<div class="photoBlock">
-			<div class="image folder">
-				<a href="#" title="В израиле">
-					<img src="images/photo-1.jpg" alt="В израиле" />
-				</a>
-				<div class="overlay">
-					<h3>В израиле</h3>
-					<div class="photoCount">
-						91
-					</div>
+<div class="galleryBlock">
+
+	<div class="photoBlock">
+		<div class="image folder">
+			<a href="#" title="В израиле">
+				<img src="images/photo-1.jpg" alt="В израиле" />
+			</a>
+			<div class="overlay">
+				<h3>В израиле</h3>
+				<div class="photoCount">
+					91
 				</div>
 			</div>
-			<div class="underlines"></div>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
 		</div>
-
-		<div class="photoBlock photo">
-			<div class="image">
-				<a href="/images/photo-2-big.jpg"  title="Выставка народного творчества <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
-				</a>
-			</div>
-			<h6>Выставка народного творчества</h6>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
+		<div class="underlines"></div>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
 		</div>
-
-		<div class="photoBlock">
-			<div class="image folder">
-				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-3.jpg" alt="В израиле"/>
-				</a>
-				<div class="overlay">
-					<h3>Встреча с раввином</h3>
-					<div class="photoCount">
-						591
-					</div>
-				</div>
-			</div>
-			<div class="underlines"></div>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock">
-			<div class="image folder" title="В израиле">
-				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-1.jpg" alt="В израиле"/>
-				</a>
-				<div class="overlay">
-					<h3>В израиле</h3>
-					<div class="photoCount">
-						91
-					</div>
-				</div>
-			</div>
-			<div class="underlines"></div>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock photo">
-			<div class="image">
-				<a href="/images/photo-1-big.jpg"  title="Весенний пикник <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-4.jpg" alt="Весенний пикник"/>
-				</a>
-			</div>
-			<h6>Весенний пикник</h6>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock photo">
-			<div class="image">
-				<a href="/images/photo-2-big.jpg"  title="Беседа с раввином <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
-				</a>
-			</div>
-			<h6>Беседа с раввином</h6>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock">
-			<div class="image folder">
-				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-1.jpg" alt="В израиле" />
-				</a>
-				<div class="overlay">
-					<h3>В израиле</h3>
-					<div class="photoCount">
-						91
-					</div>
-				</div>
-			</div>
-			<div class="underlines"></div>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock photo">
-			<div class="image">
-				<a href="/images/photo-4-big.jpg"  title="Выставка народного творчества <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
-				</a>
-			</div>
-			<h6>Выставка народного творчества</h6>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock">
-			<div class="image folder">
-				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-3.jpg" alt="В израиле"/>
-				</a>
-				<div class="overlay">
-					<h3>Встреча с раввином</h3>
-					<div class="photoCount">
-						591
-					</div>
-				</div>
-			</div>
-			<div class="underlines"></div>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock">
-			<div class="image folder" title="В израиле">
-				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-1.jpg" alt="В израиле"/>
-				</a>
-				<div class="overlay">
-					<h3>В израиле</h3>
-					<div class="photoCount">
-						91
-					</div>
-				</div>
-			</div>
-			<div class="underlines"></div>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock photo">
-			<div class="image">
-				<a href="/images/photo-3-big.jpg"  title="Весенний пикник <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-4.jpg" alt="Весенний пикник"/>
-				</a>
-			</div>
-			<h6>Весенний пикник</h6>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock photo">
-			<div class="image">
-				<a href="/images/photo-4-big.jpg"  title="Беседа с раввином <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
-				</a>
-			</div>
-			<h6>Беседа с раввином</h6>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock">
-			<div class="image folder">
-				<a href="#" title="В израиле">
-					<img src="images/photo-1.jpg" alt="В израиле" />
-				</a>
-				<div class="overlay">
-					<h3>В израиле</h3>
-					<div class="photoCount">
-						91
-					</div>
-				</div>
-			</div>
-			<div class="underlines"></div>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock photo">
-			<div class="image">
-				<a href="/images/photo-2-big.jpg"  title="Выставка народного творчества <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
-				</a>
-			</div>
-			<h6>Выставка народного творчества</h6>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock">
-			<div class="image folder">
-				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-3.jpg" alt="В израиле"/>
-				</a>
-				<div class="overlay">
-					<h3>Встреча с раввином</h3>
-					<div class="photoCount">
-						591
-					</div>
-				</div>
-			</div>
-			<div class="underlines"></div>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock">
-			<div class="image folder" title="В израиле">
-				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-1.jpg" alt="В израиле"/>
-				</a>
-				<div class="overlay">
-					<h3>В израиле</h3>
-					<div class="photoCount">
-						91
-					</div>
-				</div>
-			</div>
-			<div class="underlines"></div>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock photo">
-			<div class="image">
-				<a href="/images/photo-1-big.jpg"  title="Весенний пикник <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-4.jpg" alt="Весенний пикник"/>
-				</a>
-			</div>
-			<h6>Весенний пикник</h6>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock photo">
-			<div class="image">
-				<a href="/images/photo-2-big.jpg"  title="Беседа с раввином <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
-				</a>
-			</div>
-			<h6>Беседа с раввином</h6>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock">
-			<div class="image folder">
-				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-1.jpg" alt="В израиле" />
-				</a>
-				<div class="overlay">
-					<h3>В израиле</h3>
-					<div class="photoCount">
-						91
-					</div>
-				</div>
-			</div>
-			<div class="underlines"></div>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock photo">
-			<div class="image">
-				<a href="/images/photo-4-big.jpg"  title="Выставка народного творчества <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
-				</a>
-			</div>
-			<h6>Выставка народного творчества</h6>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock">
-			<div class="image folder">
-				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-3.jpg" alt="В израиле"/>
-				</a>
-				<div class="overlay">
-					<h3>Встреча с раввином</h3>
-					<div class="photoCount">
-						591
-					</div>
-				</div>
-			</div>
-			<div class="underlines"></div>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock">
-			<div class="image folder" title="В израиле">
-				<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-1.jpg" alt="В израиле"/>
-				</a>
-				<div class="overlay">
-					<h3>В израиле</h3>
-					<div class="photoCount">
-						91
-					</div>
-				</div>
-			</div>
-			<div class="underlines"></div>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock photo">
-			<div class="image">
-				<a href="/images/photo-3-big.jpg"  title="Весенний пикник <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-4.jpg" alt="Весенний пикник"/>
-				</a>
-			</div>
-			<h6>Весенний пикник</h6>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
-		<div class="photoBlock photo">
-			<div class="image">
-				<a href="/images/photo-4-big.jpg"  title="Беседа с раввином <span>28 марта, <b>Рав Моше Пантелят</b></span>">
-					<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
-				</a>
-			</div>
-			<h6>Беседа с раввином</h6>
-			<div class="info">
-				28 марта, <b>Рав Моше Пантелят</b>
-			</div>
-		</div>
-
 	</div>
 
-	<!--#include virtual="../catalog-pagination/index.shtml"-->
+	<div class="photoBlock photo">
+		<div class="image">
+			<a href="/images/photo-2-big.jpg"  title="Выставка народного творчества <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
+			</a>
+		</div>
+		<h6>Выставка народного творчества</h6>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock">
+		<div class="image folder">
+			<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-3.jpg" alt="В израиле"/>
+			</a>
+			<div class="overlay">
+				<h3>Встреча с раввином</h3>
+				<div class="photoCount">
+					591
+				</div>
+			</div>
+		</div>
+		<div class="underlines"></div>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock">
+		<div class="image folder" title="В израиле">
+			<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-1.jpg" alt="В израиле"/>
+			</a>
+			<div class="overlay">
+				<h3>В израиле</h3>
+				<div class="photoCount">
+					91
+				</div>
+			</div>
+		</div>
+		<div class="underlines"></div>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock photo">
+		<div class="image">
+			<a href="/images/photo-1-big.jpg"  title="Весенний пикник <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-4.jpg" alt="Весенний пикник"/>
+			</a>
+		</div>
+		<h6>Весенний пикник</h6>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock photo">
+		<div class="image">
+			<a href="/images/photo-2-big.jpg"  title="Беседа с раввином <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
+			</a>
+		</div>
+		<h6>Беседа с раввином</h6>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock">
+		<div class="image folder">
+			<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-1.jpg" alt="В израиле" />
+			</a>
+			<div class="overlay">
+				<h3>В израиле</h3>
+				<div class="photoCount">
+					91
+				</div>
+			</div>
+		</div>
+		<div class="underlines"></div>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock photo">
+		<div class="image">
+			<a href="/images/photo-4-big.jpg"  title="Выставка народного творчества <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
+			</a>
+		</div>
+		<h6>Выставка народного творчества</h6>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock">
+		<div class="image folder">
+			<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-3.jpg" alt="В израиле"/>
+			</a>
+			<div class="overlay">
+				<h3>Встреча с раввином</h3>
+				<div class="photoCount">
+					591
+				</div>
+			</div>
+		</div>
+		<div class="underlines"></div>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock">
+		<div class="image folder" title="В израиле">
+			<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-1.jpg" alt="В израиле"/>
+			</a>
+			<div class="overlay">
+				<h3>В израиле</h3>
+				<div class="photoCount">
+					91
+				</div>
+			</div>
+		</div>
+		<div class="underlines"></div>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock photo">
+		<div class="image">
+			<a href="/images/photo-3-big.jpg"  title="Весенний пикник <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-4.jpg" alt="Весенний пикник"/>
+			</a>
+		</div>
+		<h6>Весенний пикник</h6>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock photo">
+		<div class="image">
+			<a href="/images/photo-4-big.jpg"  title="Беседа с раввином <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
+			</a>
+		</div>
+		<h6>Беседа с раввином</h6>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock">
+		<div class="image folder">
+			<a href="#" title="В израиле">
+				<img src="images/photo-1.jpg" alt="В израиле" />
+			</a>
+			<div class="overlay">
+				<h3>В израиле</h3>
+				<div class="photoCount">
+					91
+				</div>
+			</div>
+		</div>
+		<div class="underlines"></div>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock photo">
+		<div class="image">
+			<a href="/images/photo-2-big.jpg"  title="Выставка народного творчества <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
+			</a>
+		</div>
+		<h6>Выставка народного творчества</h6>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock">
+		<div class="image folder">
+			<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-3.jpg" alt="В израиле"/>
+			</a>
+			<div class="overlay">
+				<h3>Встреча с раввином</h3>
+				<div class="photoCount">
+					591
+				</div>
+			</div>
+		</div>
+		<div class="underlines"></div>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock">
+		<div class="image folder" title="В израиле">
+			<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-1.jpg" alt="В израиле"/>
+			</a>
+			<div class="overlay">
+				<h3>В израиле</h3>
+				<div class="photoCount">
+					91
+				</div>
+			</div>
+		</div>
+		<div class="underlines"></div>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock photo">
+		<div class="image">
+			<a href="/images/photo-1-big.jpg"  title="Весенний пикник <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-4.jpg" alt="Весенний пикник"/>
+			</a>
+		</div>
+		<h6>Весенний пикник</h6>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock photo">
+		<div class="image">
+			<a href="/images/photo-2-big.jpg"  title="Беседа с раввином <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
+			</a>
+		</div>
+		<h6>Беседа с раввином</h6>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock">
+		<div class="image folder">
+			<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-1.jpg" alt="В израиле" />
+			</a>
+			<div class="overlay">
+				<h3>В израиле</h3>
+				<div class="photoCount">
+					91
+				</div>
+			</div>
+		</div>
+		<div class="underlines"></div>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock photo">
+		<div class="image">
+			<a href="/images/photo-4-big.jpg"  title="Выставка народного творчества <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
+			</a>
+		</div>
+		<h6>Выставка народного творчества</h6>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock">
+		<div class="image folder">
+			<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-3.jpg" alt="В израиле"/>
+			</a>
+			<div class="overlay">
+				<h3>Встреча с раввином</h3>
+				<div class="photoCount">
+					591
+				</div>
+			</div>
+		</div>
+		<div class="underlines"></div>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock">
+		<div class="image folder" title="В израиле">
+			<a href="#"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-1.jpg" alt="В израиле"/>
+			</a>
+			<div class="overlay">
+				<h3>В израиле</h3>
+				<div class="photoCount">
+					91
+				</div>
+			</div>
+		</div>
+		<div class="underlines"></div>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock photo">
+		<div class="image">
+			<a href="/images/photo-3-big.jpg"  title="Весенний пикник <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-4.jpg" alt="Весенний пикник"/>
+			</a>
+		</div>
+		<h6>Весенний пикник</h6>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
+
+	<div class="photoBlock photo">
+		<div class="image">
+			<a href="/images/photo-4-big.jpg"  title="Беседа с раввином <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+				<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
+			</a>
+		</div>
+		<h6>Беседа с раввином</h6>
+		<div class="info">
+			28 марта, <b>Рав Моше Пантелят</b>
+		</div>
+	</div>
 
 </div>
+

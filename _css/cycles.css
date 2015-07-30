@@ -91,21 +91,7 @@
     /*display: none;*/
 }
 
-.cycleAuthors h3 {
-    padding-bottom: 5px;
-    border-bottom: 2px solid #e5e5e5;
-}
-.cycleAuthors ul {
-    list-style: disc;
-    padding: 10px 0 0 20px;
-    color: #2f63b7;
-}
-.cycleAuthors li {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-    line-height: 25px;
-    color: #2f63b7;
-}
+
 
 .page_cycles .daytopic-content .column-central {
     padding: 0;

@@ -19,10 +19,16 @@
 				<!--#include virtual="recommendation-link/index.shtml"-->
 				<!--#include virtual="shop-item/index.shtml"-->
 			</aside>
-			<!--#include virtual="gallery/column-central.shtml"-->
 
-			<!--#include virtual="gallery/column-right.shtml"-->
-
+			<div class="table-cell column-central">
+				<!--#include virtual="breadcrumbs/photo.shtml"-->
+				<!--#include virtual="gallery/column-central.shtml"-->
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+			</div>
+			<aside class="table-cell column-right">
+				<!--#include virtual="_banner-shavuot.shtml"-->
+				<!--#include virtual="gallery/column-right.shtml"-->
+			</aside>
 		</div>
 	</div>
 

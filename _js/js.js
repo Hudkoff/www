@@ -275,6 +275,7 @@ $(document).ready(function(){
 
 // перенос скроллинга с окна на попап и назад
 function cboxPageScrollingAdjust() {
+	// var offset = window.pageYOffset;
 	$("html, body").addClass("cboxOn");
 	var H = Math.max($("#colorbox").outerHeight(), $(window).height()); // если попап больше окна, то скролла нет, т.к. переполнение = высоте окна
 	$("body").height(H);

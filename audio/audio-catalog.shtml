@@ -40,7 +40,7 @@
 			</div>
 		</div>
 
-		<div class="table-cell column-right">
+		<aside class="table-cell column-right">
 			<section>
 				<h4 class="color-AUDIO arrowed bordered">
 					<a href="#" title="">
@@ -50,7 +50,7 @@
 				</h4>
 				<!--#include virtual="../people-list/index-1.shtml"-->
 			</section>
-		</div>
+		</aside>
 		
 	</div>
 </div>

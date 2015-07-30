@@ -1,9 +1,9 @@
 <div class="audio-main wrapper">
 	<div class="table">
 
-		<div class="table-cell column-left">
+		<aside class="table-cell column-left">
 			<!--#include virtual="../sidemenu/sidemenu-audio.shtml"-->
-		</div>
+		</aside>
 
 		<div class="table-cell column-central">
 			<!--#include virtual="../breadcrumbs/audio.shtml"-->
