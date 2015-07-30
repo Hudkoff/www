@@ -6,6 +6,7 @@
 @import "_daytopic.css";
 @import "_intopic.css";
 @import "_catalog.css";
+@import "_authors-list.css";
 
 .page_cycles .column-left {
     width: 20%;

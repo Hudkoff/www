@@ -22,10 +22,14 @@
 					<!--#include virtual="shop-item/index.shtml"-->
 				</aside>
 				
-				<!--#include virtual="cycles/column-central.shtml"-->
-
-				<!--#include virtual="cycles/column-right.shtml"-->
-
+				<div class="table-cell column-central">
+					<!--#include virtual="breadcrumbs/cycles.shtml"-->
+					<!--#include virtual="cycles/column-central.shtml"-->
+				</div>
+				
+				<aside class="table-cell column-right">
+					<!--#include virtual="_authors-list.shtml"-->
+				</aside>
 			</div>
 		</div>
 
