@@ -43,10 +43,10 @@
 	width: 32px;
 	height: 33px;
 	margin-top: -17px;
-	background: url("../images/icon-arrowed bordered-green.png") bottom no-repeat;
+	background: url("../images/icon-arrow-green.png") bottom no-repeat;
 }
 .radio-toldot .audio-icon.gray {
-	background: url("../images/icon-arrowed bordered-gray.png") bottom no-repeat;
+	background: url("../images/icon-arrow-gray.png") bottom no-repeat;
 }
 .radio-toldot .audio-description {
 	margin-left: 42px;

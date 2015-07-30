@@ -12,11 +12,15 @@
 				<a class="more" href="" title="">Читать дальше</a>
 			</section>
 
-			<h2 class="galleryHeading">
-				Фото: Рош аШана
-			</h2>
 
-			<div class="galleryBlock">
+			<div class="galleryBlock content">
+			
+				<h3 class="color-INTOPIC bordered">
+					Фото: Рош аШана
+				</h3>
+				
+			</div>
+			<div class="galleryBlock content">
 
 				<div class="photoBlock">
 					<div class="image folder">

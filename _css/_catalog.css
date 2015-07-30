@@ -41,7 +41,7 @@
 }
 .catalog-filters span {
 	padding-right: 15px;
-	background: url("../images/icon-arrowed bordered.png") 100% 7px no-repeat;
+	background: url("../images/icon-arrow.png") 100% 7px no-repeat;
 	border-bottom: 1px dotted #000;
 	color: #0a3674;
 	cursor: pointer;

@@ -12,11 +12,11 @@
 				<a class="more" href="" title="">Читать дальше</a>
 			</section>
 
-			<h2 class="catalogHeading">
-				Циклы по теме
-			</h2>
-
 			<div class="catalog">
+			
+				<h3 class="color-CYCLES content">
+					Циклы по теме
+				</h3>
 
 				<!--#include virtual="catalog-link/index-11.shtml"-->
 				<!--#include virtual="catalog-link/index-12.shtml"-->

@@ -3,7 +3,6 @@
 
 		<aside class="table-cell column-left">
 
-
 			<!--#include virtual="../_family-questions.shtml"-->
 			<!--#include virtual="../recommendation-link/index.shtml"-->
 			<!--#include virtual="../shop-item/index.shtml"-->

@@ -11,7 +11,7 @@
 				</p>
 				<a class="more" href="" title="">Читать дальше</a>
 			</section>
-			<div class="table">
+			<div class="table content">
 				<div class="table-cell">
 					<!--#include virtual="daytopic-article/index-01.shtml"-->
 					<!--#include virtual="daytopic-article/index-02.shtml"-->
