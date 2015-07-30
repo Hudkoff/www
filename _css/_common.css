@@ -323,6 +323,9 @@ label.radioWrap {
 .ui-helper-hidden-accessible {
 	display: none;
 }
+.ui-autocomplete {
+	width: 380px !important;
+}
 .ui-menu-item {
 	display: block;
 	background-color: #fff;
