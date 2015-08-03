@@ -1,0 +1,14 @@
+#trBody .ui-slider-handle {
+    background: #0f0;
+    top: 0;
+    right: 0;
+    height: 7px;
+    margin: 0;
+    width: auto;
+}
+#trBody .ui-slider-handle:focus {
+	outline: none;
+}
+#trMsBrd {
+	display: none;
+}
