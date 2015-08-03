@@ -1,5 +1,5 @@
 <section class="recommendations">
-    <h4 class="color-RECOMEND bordered">Рекомендуем:</h4>
+    <h4 class="color-GRAY bordered">Рекомендуем:</h4>
     <div>
         <!--#include virtual="index-01.shtml"-->
         <!--#include virtual="index-02.shtml"-->

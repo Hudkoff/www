@@ -11,7 +11,7 @@
 				</p>
 			</section>
 			<div class="content">
-				<h3>Вопросы: Рош аШана</h3>
+				<h3 class="color-LIGHTGRAY bordered">Вопросы: Рош аШана</h3>
 				<div class="table ">
 					<div class="table-cell column-left">
 						<!--#include virtual="audio-link/index-51.shtml"-->
@@ -25,11 +25,13 @@
 				</div>
 			</div>
 		</div>
+
 		<aside class="table-cell column-right">
 			<a class="banner" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
 			    <img src="images/banner-03.jpg" style="width: 100%" alt="">
 			</a>
 		</aside>
+		
 	</div>
 
 </div>

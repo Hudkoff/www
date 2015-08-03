@@ -9,10 +9,65 @@
 <body>
 
 	<!--#include virtual="_header.shtml"-->
+	<div class="audio-main wrapper">
+		<div class="table">
+			<aside class="table-cell column-left">
+				<!--#include virtual="sidemenu/sidemenu-audio.shtml"-->
+			</aside>
 
-	<!--#include virtual="audio/audio-main.shtml"-->
+			<div class="table-cell column-central">
+				<!--#include virtual="breadcrumbs/audio.shtml"-->
+				<!--#include virtual="audio/audio-main.shtml"-->
+			</div>
 
-	<!--#include virtual="audio/audio-catalog.shtml"-->
+			<aside class="table-cell column-right">
+				<!--#include virtual="radio-toldot/index.shtml"-->
+				
+				<div class="lenta-box">
+					<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+					<!--#include virtual="lenta/index-02.shtml?ededed"-->
+					<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+					<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+					<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+					<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+					<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+					<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+					<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+				</div>
+
+			</aside>
+		</div>
+	</div>
+
+	<div class="audio-catalog wrapper">
+		<div class="table">
+
+			<aside class="table-cell column-left">
+
+				<!--#include virtual="_banner-tora.shtml"-->
+				<!--#include virtual="recommendation-link/index.shtml"-->
+				<!--#include virtual="shop-item/index.shtml"-->
+
+			</aside>
+
+			<div class="table-cell column-central">
+				<!--#include virtual="audio/audio-catalog.shtml"-->
+			</div>
+
+			<aside class="table-cell column-right">
+				<section>
+					<h4 class="color-AUDIO arrowed bordered">
+						<a href="#" title="">
+							Авторы
+							<b>&#9670;</b>
+						</a>
+					</h4>
+					<!--#include virtual="people-list/index-1.shtml"-->
+				</section>
+			</aside>
+
+		</div>
+	</div>
 
 	<!--#include virtual="_banner-wide-toldot.shtml"-->
 

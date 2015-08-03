@@ -11,25 +11,29 @@
 				</p>
 				<a class="more" href="" title="">Читать дальше</a>
 			</section>
-			<div class="summary separate">
-				<h3>Аудиоуроки: Рош аШана</h3>
-			</div>
-			<div class="table content">
-				<div class="table-cell column-left">
-					<!--#include virtual="audio-link/index-31.shtml"-->
-					<!--#include virtual="audio-link/index-32.shtml"-->
-				</div>
-				<div class="table-cell column-right">
-					<!--#include virtual="article/index-51.shtml"-->
-					<!--#include virtual="article/index-52.shtml"-->
-					<!--#include virtual="article/index-51.shtml"-->
-					<a href="#" class="more" title="">Далее</a>
+			<div class="content">
+				<h3 class="color-LIGHTGRAY bordered">Аудиоуроки: Рош аШана</h3>
+				<div class="table">
+					<div class="table-cell column-left">
+						<!--#include virtual="audio-link/index-31.shtml"-->
+						<!--#include virtual="audio-link/index-32.shtml"-->
+					</div>
+					<div class="table-cell column-right">
+						<!--#include virtual="article-link/index-51.shtml"-->
+						<!--#include virtual="article-link/index-52.shtml"-->
+						<!--#include virtual="article-link/index-51.shtml"-->
+						<a href="#" class="more" title="">Далее</a>
+					</div>
 				</div>
 			</div>
 		</div>
+
 		<aside class="table-cell column-right">
-			бла бла баннер внизу добавить
+			<a class="banner" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
+			    <img src="images/banner-03.jpg" style="width: 100%" alt="">
+			</a>
 		</aside>
+		
 	</div>
 
 </div>

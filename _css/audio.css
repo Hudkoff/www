@@ -9,7 +9,6 @@
 
 @import "_audio-link.css";
 @import "_audio-catalog.css";
-@import "_audio-authors.css";
 @import "_catalog-pagination.css";
 @import "_radio-toldot.css";
 
@@ -30,6 +29,7 @@
 }
 .audio-main .column-central .column-left {
 	width: 57%;
+	padding: 0;
 }
 .audio-main .lenta-box {
 	border: 2px solid #ddd;

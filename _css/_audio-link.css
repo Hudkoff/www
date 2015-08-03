@@ -11,6 +11,7 @@
 	float: left;
 	width: 128px;
 	height: 128px;
+	margin-right: 20px;
 	border-radius: 4px;
 	background-size: cover; /* масштабируем фон на всякий случай */
 }
@@ -32,7 +33,7 @@
 .audio-link .header {
 	display: table;
 	height: 128px;
-	margin-left: 150px;
+	/*margin-left: 150px;*/
 }
 .audio-link .header .center {
 	display: table-cell;
@@ -103,10 +104,10 @@
 	background: url('../images/icon-itunes.png') 0 0 no-repeat;
 }
 .audio-link.in-catalog {
-	border-bottom: 1px solid #e5e5e5;
+	/*border-bottom: 1px solid #e5e5e5;*/
 }
 .audio-link.in-catalog:first-child {
-	border-top: 1px solid #e5e5e5;
+	/*border-top: 1px solid #e5e5e5;*/
 }
 .audio-link.in-catalog .author-photo {
 	width: 64px;
@@ -119,6 +120,7 @@
 .audio-link.in-catalog .header {
 	min-height: 0;
 	margin-left: 0;
+	height: auto;
 }
 .audio-link.in-catalog .audio-info-container {
 	margin: 0 84px;

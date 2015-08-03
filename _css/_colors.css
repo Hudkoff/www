@@ -61,11 +61,11 @@ h4[class ^= color] {
 	border-bottom: 0px solid #727272;
 }
 /* не относящиеся к разделам */
-.color-RECOMEND {
+.color-GRAY {
 	color: #000;
 	border-bottom: 0px solid #989898;
 }
-.color-INTOPIC {
+.color-LIGHTGRAY {
 	color: #000;
 	border-bottom: 0px solid #e5e5e5;
 }

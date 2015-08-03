@@ -1,58 +1,31 @@
-<div class="audio-main wrapper">
-	<div class="table">
-
-		<aside class="table-cell column-left">
-			<!--#include virtual="../sidemenu/sidemenu-audio.shtml"-->
-		</aside>
-
-		<div class="table-cell column-central">
-			<!--#include virtual="../breadcrumbs/audio.shtml"-->
-
-			<div class="table">
-				<div class="table-cell column-left">
-					<div class="audiolessons">
-						<h1>Аудиоуроки</h1>
-						<div class="audio-lessons-summary">
-							<p><span>20 567</span> аудиоуроков, <span>358</span> авторов</p>
-						</div>
-						<div class="audiolessons-list">
-							<!--#include virtual="../audio-link/index-11.shtml"-->
-							<!--#include virtual="../audio-link/index-12.shtml"-->
-						</div>
-					</div>
-				</div>
-				<div class="table-cell column-right clearfix">
-					<h3 class="different-font-size">Циклы</h3>
-					<div>
-						<!--#include virtual="../article/index-51.shtml"-->
-						<!--#include virtual="../article/index-52.shtml"-->
-						<!--#include virtual="../article/index-51.shtml"-->
-						<!--#include virtual="../article/index-52.shtml"-->
-						<!--#include virtual="../article/index-51.shtml"-->
-						<!--#include virtual="../article/index-52.shtml"-->
-					</div>
-					<a href="#" class="more" title="">Далее</a>
-				</div>
+<div class="table">
+	<div class="table-cell column-left">
+		<div class="audiolessons">
+			<h1>Аудиоуроки</h1>
+			<div class="audio-lessons-summary">
+				<p><span>20 567</span> аудиоуроков, <span>358</span> авторов</p>
 			</div>
-			<a href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
-				<img src="images/banner_01.jpg" alt="">
-			</a>
-		</div>
-		<div class="table-cell column-right">
-			<!--#include virtual="../radio-toldot/index.shtml"-->
-			
-			<div class="lenta-box">
-				<!--#include virtual="../lenta/index-01.shtml?f8f8f8"-->
-				<!--#include virtual="../lenta/index-02.shtml?ededed"-->
-				<!--#include virtual="../lenta/index-03.shtml?e5edf6"-->
-				<!--#include virtual="../lenta/index-04.shtml?fbf0ee"-->
-				<!--#include virtual="../lenta/index-05.shtml?fbe9f6"-->
-				<!--#include virtual="../lenta/index-06.shtml?e1f5fa"-->
-				<!--#include virtual="../lenta/index-07.shtml?e5edf6"-->
-				<!--#include virtual="../lenta/index-08.shtml?d3f1de"-->
-				<!--#include virtual="../lenta/index-09.shtml?e1f5fa"-->
+			<div class="audiolessons-list">
+				<!--#include virtual="../audio-link/index-11.shtml"-->
+				<!--#include virtual="../audio-link/index-12.shtml"-->
 			</div>
-
 		</div>
 	</div>
+	<div class="table-cell column-right clearfix">
+		<h3 class="different-font-size">Циклы</h3>
+		<div>
+			<!--#include virtual="../article-link/index-51.shtml"-->
+			<!--#include virtual="../article-link/index-52.shtml"-->
+			<!--#include virtual="../article-link/index-51.shtml"-->
+			<!--#include virtual="../article-link/index-52.shtml"-->
+			<!--#include virtual="../article-link/index-51.shtml"-->
+			<!--#include virtual="../article-link/index-52.shtml"-->
+		</div>
+		<a href="#" class="more" title="">Далее</a>
+	</div>
 </div>
+<a href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
+	<img src="images/banner_01.jpg" alt="">
+</a>
+
+

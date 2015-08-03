@@ -89,7 +89,7 @@
 			</aside>
 
 			<div class="table-cell column-central">
-				<h3 class="color-INTOPIC bordered">В тему</h3>
+				<h3 class="color-LIGHTGRAY bordered">В тему</h3>
 				<div class="table">
 					<div class="table-cell">
 						<!--#include virtual="daytopic-article/index-01.shtml"-->
