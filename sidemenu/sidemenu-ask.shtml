@@ -1,7 +1,7 @@
 <section class="sidemenu">
     <ul class="first-level-nav">
         <li>
-            <h3>Спросить</h3>
+            <h4>Спросить</h4>
             <ul class="second-level-nav">
                 <li><a href="#" title="Тора">Тора</a></li>
                 <li><a href="#" title="Еврейский закон">Еврейский закон</a></li>
@@ -16,10 +16,10 @@
            </ul>
         </li>
         <li>
-            <h3><a href="#" title="Чат">Чат</a></h3>
+            <h4><a href="#" title="Чат">Чат</a></h4>
         </li>
         <li>
-            <h3><a href="#" title="Встреча с раввином">Встреча с раввином</a></h3>
+            <h4><a href="#" title="Встреча с раввином">Встреча с раввином</a></h4>
         </li>
     </ul>
 </section>

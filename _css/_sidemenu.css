@@ -1,17 +1,17 @@
 
 
 /* цвета */
-.sidemenu h3 a {
+.sidemenu h4 a {
     color: inherit;
 }
-.page_gallery .sidemenu h3 {
+.page_gallery .sidemenu h4 {
     color: #9c5630;
 }
-.page_ask .sidemenu h3,
-.page_ask-article .sidemenu h3 {
+.page_ask .sidemenu h4,
+.page_ask-article .sidemenu h4 {
     color: #b38d39;
 }
-.audio-main .sidemenu h3 {
+.audio-main .sidemenu h4 {
     color: #8db20e;
 }
 
@@ -19,19 +19,17 @@
 
 
 /* структура */
-.sidemenu h3 {
-    font-size: 18px;
-}
-.sidemenu h3 a {
+.sidemenu h4 a {
     display: block;
     height: 100%;
     padding: 0;
     border: none;
     text-decoration: none;
 }
-.sidemenu h3 a:hover {
+.sidemenu h4 a:hover {
     text-decoration: underline;
 }
+
 .sidemenu .first-level-nav > li {
     padding: 19px 0 19px 0;
     border-top: 1px solid #eef6e7;

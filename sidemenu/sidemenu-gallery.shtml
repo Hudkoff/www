@@ -1,7 +1,7 @@
 <section class="sidemenu">
     <ul class="first-level-nav">
         <li>
-            <h3>Фото</h3>
+            <h4>Фото</h4>
             <ul class="second-level-nav">
                 <li><a href="#" title="Праздники">Праздники</a></li>
                 <li><a href="#" title="Путешествия">Путешествия</a></li>
