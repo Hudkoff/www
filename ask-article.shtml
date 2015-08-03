@@ -73,7 +73,7 @@
 				<div>
 					<!--#include virtual="article-link/column-right-01.shtml"-->
 					<!--#include virtual="article-link/column-right-02.shtml"-->
-					<!--#include virtual="article-link/column-right-03.shtml"-->
+					<!-- #include virtual="article-link/column-right-03.shtml" -->
 				</div>
 				
 
