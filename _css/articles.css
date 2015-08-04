@@ -9,7 +9,9 @@
 @import "_authors-list.css";
 @import "_audio-link.css";
 
-
+.page_articles {
+    margin-bottom: 20px;
+}
 .page_articles .cycleAuthors h3,
 .page_articles .first-level-nav h3 {
     color: #545454;
@@ -21,20 +23,15 @@
     color: #545454;
 }
 
-.page_articles .daytopic-content .bg1 {
+.page-articles.daytopic-content .bg1 {
     background-image: url("../images/content-bg_01_small.jpg");
     background-position: 10% 94%;
 }
 
-.page_articles .daytopic-content .bg2 {
+.page-articles.daytopic-content .bg2 {
     background-image: url("../images/content-bg_02_small.jpg");
     background-position: 93% 10%;
 }
-
-.page_articles .daytopic-content .galleryHeading {
-    color: #000;
-}
-
 
 .page_articles .column-left {
     width: 20%;
@@ -183,10 +180,20 @@
     border-bottom: 1px solid #e5e5e5;
 }
 
-@media screen and (min-width: 1400px){
-
+.page-articles.daytopic-content .column-central .column-right {
+    width: 15%;
 }
-
-@media screen and (max-width: 1024px){
-
+.page-articles-daytopic {
+    border-top: 2px solid #e5e5e5;
+}
+.page-articles-daytopic .article-link img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.page-articles-daytopic .description {
+    clear: both;
+}
+.page-articles.daytopic-content .column-central .column-right .article-link img {
+    float: none;
+    margin-bottom: 10px;
 }

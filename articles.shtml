@@ -22,7 +22,7 @@
 
 	<!--#include virtual="_daytopic-title.shtml"-->
 
-	<!--#include virtual="_daytopic-cycles.shtml"-->
+	<!--#include virtual="_daytopic-articles.shtml"-->
 
 	<!--#include virtual="_footer.shtml"-->
 

@@ -471,7 +471,7 @@ $(function() {
 		availableTags.push( $(this).text());
 	});
 
-	$( "#tagsSearch" ).autocomplete({
+	$( ".search input" ).autocomplete({
 		source: availableTags
 	});
 });
