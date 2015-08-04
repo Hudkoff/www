@@ -464,7 +464,7 @@ allTagsButton.on('click', function(){
 	allTagsTextToggle.toggle();
 });
 
-
+// Автоподстановка тегов
 $(function() {
 	var availableTags = [];
 	$(".tag-cloud li a").each(function(){

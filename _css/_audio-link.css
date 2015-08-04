@@ -81,6 +81,7 @@
 	text-decoration: none;
 }
 .audio-link .button.set-aside:hover,
+.audio-link .button.all-cycle:hover,
 .audio-link .button.subscribe:hover {
 	background-color: #f2f2f2;
 }
@@ -89,6 +90,9 @@
 }
 .audio-link .button.subscribe {
 	background: #ebebeb url('../images/icon-plus.png') 7px 5px no-repeat;
+}
+.audio-link .button.all-cycle {
+	background: #ebebeb url('../images/icon-stack.png') 7px 3px no-repeat;
 }
 .audio-link .button.true {
 	background: #d4e6c5 url('../images/icon-tick.png') 7px 5px no-repeat;	
