@@ -17,6 +17,24 @@
 
 			<!--#include virtual="../tag-cloud/index.shtml"-->
 
+			<section class="articles-catalog-wrapper">
+
+				<!--#include virtual="../catalog-pagination/index.shtml"-->
+
+				<div>
+					<!--#include virtual="../articles-link/index-12.shtml"-->
+					<!--#include virtual="../articles-link/index-13.shtml"-->
+					<!--#include virtual="../articles-link/index-12.shtml"-->
+					<!--#include virtual="../articles-link/index-13.shtml"-->
+					<!--#include virtual="../articles-link/index-12.shtml"-->
+					<!--#include virtual="../articles-link/index-13.shtml"-->
+					<!--#include virtual="../articles-link/index-12.shtml"-->
+					<!--#include virtual="../articles-link/index-13.shtml"-->
+				</div>
+
+				<!--#include virtual="../catalog-pagination/index.shtml"-->
+			</section>
+
 		</div>
 
 		<aside class="table-cell column-right">

@@ -10,6 +10,10 @@
 @import "_audio-link.css";
 
 
+.page_articles .cycleAuthors h3,
+.page_articles .first-level-nav h3 {
+    color: #545454;
+}
 .page_articles .catalog-pagination li.selected a {
     background-color: #727272;
 }
@@ -158,6 +162,25 @@
     padding: 0;
     opacity: .8;
     cursor: pointer;
+}
+
+.page_articles .articles-catalog-wrapper {
+    padding-top: 10px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f8f8f8;
+}
+.page_articles .articles-catalog-wrapper .catalog-pagination {
+    margin: 10px auto;
+}
+.page_articles .articles-catalog-wrapper .article-link {
+    padding: 20px;
+}
+.page_articles .articles-catalog-wrapper .article-link:first-child {
+    border-top: 1px solid #e5e5e5;
+}
+.page_articles .articles-catalog-wrapper .article-link:last-child {
+    border-bottom: 1px solid #e5e5e5;
 }
 
 @media screen and (min-width: 1400px){

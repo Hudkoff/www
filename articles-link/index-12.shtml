@@ -1,0 +1,23 @@
+<div class="article-link audio-link">
+	<a href="" title="">
+		<img src="images/article-01.jpg" alt=""/>
+		<h4>
+			Рассказ о выходе из Египта и другие заповеди Седера
+		</h4>
+	</a>
+
+	<p class="details">
+		10 апреля, <b> Рав Моше Пантелят </b>
+	</p>
+
+	<p class="description">
+		Урок рава Бенциона Зильбера в ешиве Толдот Йешурун. О подробностях исполнения заповедей
+		Пасхального вечера.
+		<a href="#" class="more">Далее</a>
+	</p>
+
+	<div class="buttons">
+		<a href="#" class="button set-aside">Отложить</a>
+		<a href="#" class="button subscribe">Подписаться</a>
+	</div>
+</div>
