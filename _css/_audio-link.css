@@ -84,6 +84,7 @@
 .audio-link .button.all-cycle:hover,
 .audio-link .button.subscribe:hover {
 	background-color: #f2f2f2;
+	text-decoration: none;
 }
 .audio-link .button.set-aside {
 	background: #ebebeb url('../images/icon-time.png') 5px 3px no-repeat;
@@ -107,12 +108,7 @@
 	height: 24px;
 	background: url('../images/icon-itunes.png') 0 0 no-repeat;
 }
-.audio-link.in-catalog {
-	/*border-bottom: 1px solid #e5e5e5;*/
-}
-.audio-link.in-catalog:first-child {
-	/*border-top: 1px solid #e5e5e5;*/
-}
+
 .audio-link.in-catalog .author-photo {
 	width: 64px;
 	height: 64px;

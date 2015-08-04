@@ -10,79 +10,75 @@
 
 	<!--#include virtual="_header.shtml"-->
 
-	<div class="page_gallery">
+	<div class="page_gallery wrapper">
 
-		<div class="top-block wrapper">
-			<div class="table">
+		<div class="top-block table">
 
-				<aside class="table-cell column-left">
+			<aside class="table-cell column-left">
 
-					<!--#include virtual="sidemenu/sidemenu-gallery.shtml"-->
-					<!--#include virtual="_banner-tora.shtml"-->
+				<!--#include virtual="sidemenu/sidemenu-gallery.shtml"-->
+				<!--#include virtual="_banner-tora.shtml"-->
 
-				</aside>
-				<div class="table-cell column-central">	
+			</aside>
 
-					<div class="table">
-						<div class="table-cell">
-							<!--#include virtual="breadcrumbs/photo.shtml"-->
+			<div class="table-cell column-central">	
 
-							<h1>Фото</h1>
+				<!--#include virtual="breadcrumbs/photo.shtml"-->
 
-							<div class="photo-of-day">
-								<div class="topPageInfo">
-									<span>20 567</span>
-									фотографий,
-									<span>358</span>
-									авторов
-								</div>
-								<div class="image-container">
-									<img src="images/photo-of-the-day.jpg" alt="Фото дня"/>
-									<div class="image-overlay">
-										<h6>Фото дня</h6>
-										<h1>Прекрасный Иерусалим</h1>
-										<div class="author">
-											Автор: Натан Агрес
-											<a href="#" title="">См. все его фото</a>
-										</div>
-									</div>
-								</div>
-								<a href="#" title="" class="send-photo-button">
-									Прислать фото
-								</a>
+				<h1>Фото</h1>
+
+				<div class="photo-of-day">
+					<div class="topPageInfo">
+						<span>20 567</span>
+						фотографий,
+						<span>358</span>
+						авторов
+					</div>
+					<div class="image-container">
+						<img src="images/photo-of-the-day.jpg" alt="Фото дня"/>
+						<div class="image-overlay">
+							<h6>Фото дня</h6>
+							<h1>Прекрасный Иерусалим</h1>
+							<div class="author">
+								Автор: Натан Агрес
+								<a href="#" title="">См. все его фото</a>
 							</div>
 						</div>
-
-						<div class="table-cell lenta-column">
-							<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
-								<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
-								<!--#include virtual="lenta/index-02.shtml?ededed"-->
-								<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
-								<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
-								<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
-								<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
-								<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
-								<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
-								<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
-							</section>
-						</div>
 					</div>
-
+					<a href="#" title="" class="send-photo-button">
+						Прислать фото
+					</a>
 				</div>
+
 			</div>
+
+			<aside class="table-cell column-right">
+
+				<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+					<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+					<!--#include virtual="lenta/index-02.shtml?ededed"-->
+					<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+					<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+					<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+					<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+					<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+					<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+					<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+				</section>
+
+			</aside>
+
 		</div>
 
-		<div class="top-block wrapper">
-			<div class="table">
+		<div class="table">
 
-				<aside class="table-cell column-left">
-					<!--#include virtual="recommendation-link/index.shtml"-->
-					<!--#include virtual="shop-item/index.shtml"-->
-				</aside>
-				<div class="table-cell column-central">				
-					<!--#include virtual="gallery/top-block.shtml"-->
-				</div>
-
+			<aside class="table-cell column-left">
+				<!--#include virtual="recommendation-link/index.shtml"-->
+				<!--#include virtual="shop-item/index.shtml"-->
+			</aside>
+			
+			<div class="table-cell column-central">				
+				<!--#include virtual="gallery/top-block.shtml"-->
 			</div>
 
 		</div>

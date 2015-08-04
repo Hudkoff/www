@@ -1,48 +1,45 @@
-<div class="articles-catalog wrapper">
-	<div class="table">
 
-		<aside class="table-cell column-left">
-			<!--#include virtual="../recommendation-link/index.shtml"-->
-			<!--#include virtual="../shop-item/index.shtml"-->
-		</aside>
+<aside class="table-cell column-left">
+	<!--#include virtual="../recommendation-link/index.shtml"-->
+	<!--#include virtual="../shop-item/index.shtml"-->
+</aside>
 
-		<div class="table-cell column-central">
+<div class="table-cell column-central">
 
-			<section class="search">
-				<form>
-					<input type="text" placeholder="Поиск по тегам">
-				</form>
-				<div class="icon icon-search"></div>
-			</section>
+	<section class="search">
+		<form>
+			<input type="text" placeholder="Поиск по тегам">
+		</form>
+		<div class="icon icon-search"></div>
+	</section>
 
-			<!--#include virtual="../tag-cloud/index.shtml"-->
+	<!--#include virtual="../tag-cloud/index.shtml"-->
 
-			<section class="articles-catalog-wrapper">
+	<section class="articles-catalog-wrapper">
 
-				<!--#include virtual="../catalog-pagination/index.shtml"-->
+		<!--#include virtual="../catalog-pagination/index.shtml"-->
 
-				<div>
-					<!--#include virtual="../articles-link/index-12.shtml"-->
-					<!--#include virtual="../articles-link/index-13.shtml"-->
-					<!--#include virtual="../articles-link/index-12.shtml"-->
-					<!--#include virtual="../articles-link/index-13.shtml"-->
-					<!--#include virtual="../articles-link/index-12.shtml"-->
-					<!--#include virtual="../articles-link/index-13.shtml"-->
-					<!--#include virtual="../articles-link/index-12.shtml"-->
-					<!--#include virtual="../articles-link/index-13.shtml"-->
-				</div>
-
-				<!--#include virtual="../catalog-pagination/index.shtml"-->
-			</section>
-
+		<div>
+			<!--#include virtual="../articles-link/index-12.shtml"-->
+			<!--#include virtual="../articles-link/index-13.shtml"-->
+			<!--#include virtual="../articles-link/index-12.shtml"-->
+			<!--#include virtual="../articles-link/index-13.shtml"-->
+			<!--#include virtual="../articles-link/index-12.shtml"-->
+			<!--#include virtual="../articles-link/index-13.shtml"-->
+			<!--#include virtual="../articles-link/index-12.shtml"-->
+			<!--#include virtual="../articles-link/index-13.shtml"-->
 		</div>
 
-		<aside class="table-cell column-right">
-			<!--#include virtual="../_authors-list.shtml"-->
-		</aside>
+		<!--#include virtual="../catalog-pagination/index.shtml"-->
+	</section>
 
-	</div>
 </div>
+
+<aside class="table-cell column-right">
+	<!--#include virtual="../_authors-list.shtml"-->
+</aside>
+
+
 
 
 

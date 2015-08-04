@@ -209,7 +209,6 @@
 }
 
 .article-header img {
-    display: block;
     float: left;
     margin: 0 20px 20px 0;
 }
@@ -217,13 +216,13 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #6c6c6c;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .article-header .authorBlock {
-    width: 300px;
-    float: right;
+    width: 33%;
+/*    float: right;
     text-align: left;
-    margin: 30px 0 0 30px;
+    margin: 30px 0 0 30px;*/
 }
 .article-header .authorBlock img {
     margin-bottom: 5px;
@@ -315,16 +314,13 @@
     margin-top: 25px;
 }
 
-.articles-main .related .heading{
-    margin: 15px 0;
-}
-.articles-main .related .article-link:first-child {
-    border-top: 2px solid #989898;
+
+
+.page_articles  .related .article-link:first-child {
     padding-top: 20px;
 }
 
-
-.articles-main .cycles {
+.page_articles .cycles {
     margin-top: 10px;
 }
 

@@ -10,11 +10,19 @@
 
 	<!--#include virtual="_header.shtml"-->
 
-	<div class="page_articles">
+	<div class="page_articles wrapper">
 
-		<!--#include virtual="articles/articles-main.shtml"-->
+		<div class="articles-main table">
 
-		<!--#include virtual="articles/articles-catalog.shtml"-->
+			<!--#include virtual="articles/articles-main.shtml"-->
+
+		</div>
+
+		<div class="articles-catalog table">
+
+			<!--#include virtual="articles/articles-catalog.shtml"-->
+
+		</div>
 
 	</div>
 

@@ -8,7 +8,7 @@
 	padding: 0 0 10px 0;
 	margin-bottom: 10px;
   	border-bottom: 1px solid #e5e5e5;
-  	font-family: 'Noto Serif', sans-serif;
+  	font-family: 'Noto Serif', serif;
   	font-size: 20px;
   	font-weight: bold;
   	color: #b38d39;
@@ -45,8 +45,11 @@
 	border-bottom: 1px dotted #000;
 	color: #0a3674;
 	cursor: pointer;
+    font-family: 'Noto Serif', serif;
 }
-
+.catalog-filters span:hover {
+    border: none;
+}
 .catalog-item {
     display: block;
     padding: 20px;
