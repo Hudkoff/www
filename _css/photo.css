@@ -9,10 +9,7 @@
 
 
 
-.page_gallery .photoCountInfo {
-    font-family: 'Open Sans', sans-serif;
-font-size: 14px;
-}
+
 .page_gallery .catalog-pagination li.selected a {
     background-color: #9c5630;
 }
@@ -20,9 +17,8 @@ font-size: 14px;
     color: #9c5630;
 }
 
-.page_gallery .photoCountInfo span {
+.page_gallery .topPageInfo span {
     color: #9c5630;
-    font-weight: bold;
 }
 
 .page_gallery .daytopic-content .bg1 {
@@ -359,16 +355,10 @@ font-size: 14px;
     border: 2px solid #e1e1e1;
 }
 
-.photo-of-day {
-    margin-top: 15px;
-    padding-top: 10px;
-    border-top: 2px solid #e5e5e5;
-}
-
 .photo-of-day img{
     display: block;
     width: 100%;
-    margin: 15px 0 20px;
+    margin: 0 0 20px;
 }
 
 .image-container {

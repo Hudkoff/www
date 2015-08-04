@@ -1,0 +1,30 @@
+<div class="articles-catalog wrapper">
+	<div class="table">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="../recommendation-link/index.shtml"-->
+			<!--#include virtual="../shop-item/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central">
+
+			<section class="search">
+				<form>
+					<input type="text" placeholder="Поиск по тегам">
+				</form>
+				<div class="icon icon-search"></div>
+			</section>
+
+			<!--#include virtual="../tag-cloud/index.shtml"-->
+
+		</div>
+
+		<aside class="table-cell column-right">
+			<!--#include virtual="../_authors-list.shtml"-->
+		</aside>
+
+	</div>
+</div>
+
+
+

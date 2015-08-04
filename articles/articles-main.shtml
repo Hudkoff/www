@@ -1,0 +1,120 @@
+<div class="articles-main wrapper">
+	<div class="table">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="../sidemenu/sidemenu-articles.shtml"-->
+			<!--#include virtual="../_banner-tora.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central articles-column">
+
+
+			<!--#include virtual="../breadcrumbs/articles.shtml"-->
+
+			<h1>Статьи</h1>
+
+			<div class="article-of-day">
+				<div class="topPageInfo">
+					<span>20 567</span>
+					статей,
+					<span>358</span>
+					авторов
+				</div>
+
+				<section>
+					<div class="article-link big-picture audio-link">
+						<a href="" title="">
+							<img src="images/article.jpg" alt=""/>
+							<h4>
+								Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов
+							</h4>
+						</a>
+
+						<p class="details">
+							10 апреля, <b>Рав Йеошуа Ишайя Нойвирт</b>
+						</p>
+
+						<p class="description">
+							Любой плод запрещено выжимать в пустой сосуд или в напиток, как используя для выжимания
+							инструмент, так и выжимая рукой Часть 5. Законы выжимания (סְחִיטָה — сехита) плодов в
+							Шаббат и Йом тов 5.1. Выжимание плодов для получения напитка запрещено...
+							<a href="#" class="more">Далее</a>
+						</p>
+
+						<div class="buttons">
+							<a href="#" class="button set-aside">Отложить</a>
+							<a href="#" class="button subscribe">Подписаться</a>
+						</div>
+					</div>
+
+					<div class="article-link audio-link">
+						<a href="" title="">
+							<img src="images/article-01.jpg" alt=""/>
+							<h4>
+								Рассказ о выходе из Египта и другие заповеди Седера
+							</h4>
+						</a>
+
+						<p class="details">
+							10 апреля, <b> Рав Моше Пантелят </b>
+						</p>
+
+						<p class="description">
+							Урок рава Бенциона Зильбера в ешиве Толдот Йешурун. О подробностях исполнения заповедей
+							Пасхального вечера.
+							<a href="#" class="more">Далее</a>
+						</p>
+
+						<div class="buttons">
+							<a href="#" class="button set-aside">Отложить</a>
+							<a href="#" class="button subscribe">Подписаться</a>
+						</div>
+					</div>
+
+					<div class="article-link audio-link">
+						<a href="" title="">
+							<img src="images/article-02.jpg" alt=""/>
+							<h4>
+								Наш наследный удел 2. Паломник семнадцатого века
+							</h4>
+						</a>
+
+						<p class="details">
+							10 апреля, <b>Рав Моше Пантелят</b> из цикла «Наш наследный удел»
+						</p>
+
+						<p class="description">
+							Книга Давида Россофа, раскрывающая ценность земли Израиля для каждого еврея. О великой
+							привилегии, но и не менее великой ответственности жить в стране Израиля.
+							<a href="#" class="more">Далее</a>
+						</p>
+
+						<div class="buttons">
+							<a href="#" class="button set-aside">Отложить</a>
+							<a href="#" class="button subscribe">Подписаться</a>
+						</div>
+					</div>
+				</section>
+
+
+			</div>
+		</div>
+
+		<div class="column-right table-cell lenta-column">
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+				<!--#include virtual="../lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="../lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="../lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="../lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="../lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="../lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="../lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="../lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="../lenta/index-09.shtml?e1f5fa"-->
+			</section>
+		</div>
+	</div>
+</div>
+
+
+

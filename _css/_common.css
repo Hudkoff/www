@@ -110,7 +110,10 @@ a {
 a:hover {
 	text-decoration: none;
 }
-
+.more {
+	color: #0e53b2!important;
+	margin-left: 5px;
+}
 .more:after {
 	display: inline-block;
 	content: "\2192";
@@ -317,7 +320,18 @@ label.radioWrap {
 }
 
 
+.topPageInfo {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	border-top: 2px solid #e5e5e5;
+}
 
+.topPageInfo span {
+	font-weight: bold;
+}
 
 
 
