@@ -24,6 +24,9 @@
 				
 				<div class="table-cell column-central">
 					<!--#include virtual="breadcrumbs/cycles.shtml"-->
+
+					<h1>Циклы</h1>
+					<!--#include virtual="tag-cloud/index-all-01.shtml"-->
 					<!--#include virtual="cycles/column-central.shtml"-->
 				</div>
 				

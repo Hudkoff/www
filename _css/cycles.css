@@ -36,57 +36,6 @@
 }
 
 
-.page_cycles .search {
-    position: relative;
-    float: none;
-    width: 100%;
-    margin: 7px auto 40px;
-}
-
-.page_cycles .search input{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 100%;
-    height: 50px;
-    border: 2px solid #e1e1e1;
-    padding: 15px;
-    padding-left: 40px;
-    position: relative;
-
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-}
-
-.page_cycles .search .icon-search {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 21px;
-    left: 15px;
-    background: url(../images/icon-search.png) no-repeat center center;
-}
-
-.page_cycles .search .tags-button {
-    position: absolute;
-    right: 0;
-    background-color: #ebebeb;
-    color: #676767;
-    padding: 3px 10px;
-    border: 1px solid #d4d4d4;
-    border-top: 0;
-    cursor: pointer;
-
-    -webkit-border-radius: 0 0 3px 3px;
-    -moz-border-radius: 0 0 3px 3px;
-    border-radius: 0 0 3px 3px;
-}
-
-.page_cycles .search .tags-button .hideTags,
-.page_cycles .tag-cloud {
-    /*display: none;*/
-}
-
 
 
 .page_cycles .daytopic-content .column-central {

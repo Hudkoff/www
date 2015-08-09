@@ -77,8 +77,14 @@
 				<!--#include virtual="shop-item/index.shtml"-->
 			</aside>
 			
-			<div class="table-cell column-central">				
+			<div class="table-cell column-central">		
+
 				<!--#include virtual="gallery/top-block.shtml"-->
+
+				<div class="column-central-fake">
+					<!--#include virtual="tag-cloud/index-short.shtml"-->
+				</div>
+
 			</div>
 
 		</div>

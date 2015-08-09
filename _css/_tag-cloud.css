@@ -1,63 +1,57 @@
 .tag-cloud {
-	padding: 0 12px;
 	text-align: center;
-	font-size: 0;
-}
-.tag-cloud li {
-	display: inline;
 	padding: 0 8px;
 }
+.tag-cloud:first-child {
+	padding-top: 30px;
+}
 .tag-cloud a {
-	font: normal 1.2rem 'Open Sans', sans-serif;
+	padding: 0 8px;
+	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
 	color: #717171;
+	line-height: 34px;
 }
 .tag-cloud a:hover {
 	text-decoration: underline;
 }
-.tag-cloud .weight1 a {
-	line-height: 3.4rem;
+.tag-cloud .weight1 {
+	font-size: 12px;
 }
-.tag-cloud .weight2 a {
-	font-size: 1.4rem;
+.tag-cloud .weight2 {
+	font-size: 14px;
 }
-.tag-cloud .weight3 a {
-	font-size: 2rem;
+.tag-cloud .weight3 {
+	font-size: 20px;
 }
-.tag-cloud .weight4 a {
-	font-size: 2.2rem;
+.tag-cloud .weight4 {
+	font-size: 22px;
 }
-.tag-cloud .weight5 a {
-	font-size: 2.4rem;
+.tag-cloud .weight5 {
+	font-size: 24px;
 }
-.tag-cloud .weight6 a {
-	font-size: 2.8rem;
+.tag-cloud .weight6 {
+	font-size: 28px;
 }
-.tag-cloud .weight7 a {
-	font-size: 3.2rem;
+.tag-cloud .weight7 {
+	font-size: 32px;
 }
-.tag-cloud .weight8 a {
-	font-size: 3.2rem;
-}
-
-.tag-cloud-wrapper {
-	margin-bottom: 40px;
+.tag-cloud .weight8 {
+	font-size: 33px;
 }
 
-.all-tags,
-.hideTags,
-.tags-hidden .tag-cloud-wrapper,
-.hide-all-tags-text,
-.show-all-tags {
+.tags-hidden,
+.tags-hidden .tag-cloud_additional {
 	display: none;
 }
 
-.all-tags-available .show-all-tags {
+.show-all-tags-button {
 	display: block;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	color: #0e53b2;
-	margin: 13px auto 0;
+	margin: 0 auto;
+	padding: 10px 0;
 	cursor: pointer;
 	font-size: 13px;
 	font-weight: 600;
@@ -67,6 +61,33 @@
 	border-bottom: 1px dotted #000;
 }
 
-.show-all-tags {
-	margin-top: 10px;
+
+
+
+.tag-search {
+    position: relative;
+    float: none;
+    width: 100%;
+    margin: 10px auto 40px;
+}
+
+
+.tag-search .tags-button {
+    position: absolute;
+    right: 0;
+    background-color: #ebebeb;
+    color: #676767;
+    padding: 3px 10px;
+    border: 1px solid #d4d4d4;
+    border-top: 0;
+    cursor: pointer;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+	font-size: 13px;
+
+
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
 }

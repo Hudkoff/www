@@ -6,14 +6,7 @@
 
 <div class="table-cell column-central">
 
-	<section class="search">
-		<form>
-			<input type="text" placeholder="Поиск по тегам">
-		</form>
-		<div class="icon icon-search"></div>
-	</section>
-
-	<!--#include virtual="../tag-cloud/index.shtml"-->
+	<!--#include virtual="../tag-cloud/index-short.shtml"-->
 
 	<section class="articles-catalog-wrapper">
 
@@ -29,8 +22,8 @@
 			<!--#include virtual="../articles-link/index-12.shtml"-->
 			<!--#include virtual="../articles-link/index-13.shtml"-->
 		</div>
-
-		<!--#include virtual="../catalog-pagination/index.shtml"-->
+ \
+		<!--#include virtual="../catalog-pagination/index.shtml"--> 
 	</section>
 
 </div>

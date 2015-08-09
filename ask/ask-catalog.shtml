@@ -11,14 +11,7 @@
 		
 		<div class="table-cell column-central">
 
-			<section class="search">
-				<form>
-					<input type="text" placeholder="Поиск по тегам">
-				</form>
-				<div class="icon icon-search"></div>
-			</section>
-
-			<!--#include virtual="../tag-cloud/index.shtml"-->
+			<!--#include virtual="../tag-cloud/index-short.shtml"-->
 
 			<div class="audio-list-wrapper">
 				<p class="block-title">Вопросы Раввину</p>
@@ -48,7 +41,7 @@
 						Раввины
 						<b>&#9670;</b>
 					</a>
-				</h3>
+				</h3> 
 				<!--#include virtual="../people-list/index-2.shtml"-->
 				<a href="#" class="more">Все раввины</a>
 			</section>

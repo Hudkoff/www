@@ -1,17 +1,4 @@
 ﻿
-
-<div class="column-central-fake">
-	<section class="search">
-		<form>
-			<input type="text" placeholder="Поиск по тегам">
-		</form>
-		<div class="icon icon-search"></div>
-	</section>
-
-	<!--#include virtual="../tag-cloud/index.shtml"-->
-
-</div>
-
 <div class="audio-list-wrapper">
 	<ul class="audio-filters">
 		<li class="author"><span>Автор</span></li>

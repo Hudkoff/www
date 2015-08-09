@@ -22,6 +22,9 @@
 
 			<div class="table-cell column-central">
 				<!--#include virtual="breadcrumbs/photo.shtml"-->
+				<h1>Фото</h1>
+				<!--#include virtual="tag-cloud/index-all-02.shtml"-->
+				<!--#include virtual="catalog-pagination/index.shtml"-->
 				<!--#include virtual="gallery/column-central.shtml"-->
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 			</div>

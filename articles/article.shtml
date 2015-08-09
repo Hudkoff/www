@@ -1,5 +1,3 @@
-
-
 <div class="article-header audio-link clearfix">
 
 	<!--#include virtual="../breadcrumbs/article.shtml"-->
@@ -22,18 +20,20 @@
 		</div>
 
 		<div class="table-cell authorBlock">
-			<img src="images/avatar-11.jpg" alt=""/>
 
-			<div class="heading">
-				Автор
-				<span>Рав Симха Коэн</span>
+			<img src="images/avatar-40.jpg" alt=""/>
+
+			<div class="heading clearfix">
+				Автор <span>Рав Симха Коэн</span>
 			</div>
-			<ul class="links">
+
+			<ul class="links ">
 				<li class="about"><a href="">О раве</a></li>
 				<li class="all-cycles"><a href="">Все циклы уроков рава</a></li>
 				<li class="answers"><a href="">Ответы в разделе «Вопросы раввину»</a></li>
 				<li class="audios"><a href="">Аудиолекции и книги рава в магазине</a></li>
 			</ul>	
+
 			<!--#include virtual="../_socials-share.shtml"-->
 
 

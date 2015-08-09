@@ -9,9 +9,9 @@
 			<a class="blogs" href="#" itemprop="text">Блоги</a>
 		</menu>
 
-		<section class="search">
+		<section class="globalSearch">
 			<form>
-				<input type="text" class="globalSearch" placeholder="Поиск">
+				<input type="text" placeholder="Поиск">
 				<input type="submit" value="&nbsp;">
 			</form>
 		</section>

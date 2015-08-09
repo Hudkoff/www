@@ -441,23 +441,23 @@ $(document).ready(function() {
 
 
 
-
 //////////////////////////////////////////////
 // Показать-Скрыть тэги
 //////////////////////////////////////////////
 
 var tagsButton = $(".tags-button"),
-	tagsTextToggle = $(".showTags, .hideTags"),
-	tagsCloud = $(".tag-cloud-wrapper");
+	tagsTextToggle = $(".showTags-text, .hideTags-text"),
+	tagsCloud = $(".tags-hidden");
 
 tagsButton.on('click', function(){
 	tagsTextToggle.toggle();
 	tagsCloud.slideToggle();
 });
 
-var allTagsTextToggle = $(".show-all-tags-text, .hide-all-tags-text"),
-	allTags = $(".all-tags"),
-	allTagsButton = $(".show-all-tags");
+
+var allTagsTextToggle = $(".showAllTags-text, .hideAllTags-text"),
+	allTags = $(".tag-cloud_additional"),
+	allTagsButton = $(".show-all-tags-button");
 
 allTagsButton.on('click', function(){
 	allTags.slideToggle();
@@ -471,7 +471,7 @@ $(function() {
 		availableTags.push( $(this).text());
 	});
 
-	$( ".search input" ).autocomplete({
+	$(".tag-search input[type='text']").autocomplete({
 		source: availableTags
 	});
 });

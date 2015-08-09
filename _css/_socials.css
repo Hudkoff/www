@@ -55,7 +55,7 @@
 .socials-share-block .b-share-icon{
     width: 24px;
     height: 24px;
-    background-image: url("/images/socials.png");
+    background-image: url("../images/socials.png");
 }
 .socials-share-block .b-share__link{
     margin: 8px 10px 3px 0;

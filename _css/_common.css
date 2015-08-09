@@ -218,7 +218,7 @@ input[type="tel"]:focus:-ms-input-placeholder,
 input[type="url"]:focus:-ms-input-placeholder      {opacity: 0;}
 
 
-
+/* регулярные формы - попапы и проч */
 
 input[type="email"], 
 input[type="number"], 
@@ -233,9 +233,10 @@ input[type="text"] {
 	padding: 8px 8px 7px;
 	width: 100%;
 	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 	margin-bottom: 14px;
 }
-
 input[type="submit"] {
 	width: 220px;
 	border: 0;
@@ -254,6 +255,48 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	opacity: .85;
 }
+
+
+
+
+/* поиск по тэгам */
+
+.tag-search input[type="text"] {
+    border: 2px solid #e1e1e1;
+    padding: 15px;
+    padding-left: 40px;
+    margin: 0;
+    position: relative;
+    font-size: 13px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.tag-search .icon-search {
+    position: absolute;
+    width: 30px;
+    height: 46px;
+    top: 3px;
+    left: 7px;
+    background: url(../images/icon-search.png) no-repeat center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* капча */
 .captcha {

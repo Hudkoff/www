@@ -65,22 +65,23 @@
 
 
 
-/* форма */
-.search {
+
+/* на синей полосе вверху */
+.globalSearch {
 	float: left;
 	width: 24.5%;
 	padding: 4px 0;
 	margin-right: 0.5%;
 	position: relative;
 }
-.search input[type="text"] {
+.globalSearch input[type="text"] {
 	padding: 5px 5%;
-	font-size: 1.3rem;
+	font-size: 13px;
 	width: 100%;
 	border: 0;
 	margin: 0;
 }
-.search input[type="submit"] {
+.globalSearch input[type="submit"] {
 	position: absolute;
 	border: 0;
 	background: url('../images/icon_search.png') no-repeat center;
@@ -92,7 +93,7 @@
 	opacity: .8;
 	cursor: pointer;
 }
-.search input[type="submit"]:hover {
+.globalSearch input[type="submit"]:hover {
 	opacity: 1;
 }
 
