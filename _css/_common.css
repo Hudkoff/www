@@ -496,16 +496,23 @@ label.radioWrap {
 	background: #ebebeb url('../images/icon-plus.png') 7px 5px no-repeat;
 }
 .buttonGRAY.all-cycle,
-.buttonGRAY.all-cycle.true,
-.buttonGRAY.all-cycle.true:hover {
+.buttonGRAY.all-cycle.true {
 	background: #ebebeb url('../images/icon-stack.png') 7px 3px no-repeat;
+}
+.buttonGRAY.all-cycle.true:hover {
+	background-color: #f2f2f2;
+}
+.buttonGRAY.itunes,
+.buttonGRAY.itunes.true {
+	background: #ebebeb url('../images/icon-apple.png') 7px 3px no-repeat;
+}
+.buttonGRAY.itunes.true:hover {
+	background-color: #f2f2f2;
 }
 
 .buttonGRAY.true {
 	background: #d4e6c5 url('../images/icon-tick.png') 7px 5px no-repeat;	
 }
-
-
 .buttonGRAY.true:hover {
 	background-color: #dff2d0;
 }
