@@ -1,0 +1,49 @@
+<div class="radio-toldot">
+	<ul>
+
+		<li class="current-audio"><a href="#" title="">
+			<i class="audio-icon"></i>
+			<div class="audio-description">
+				<span class="label audio">В эфире:</span>
+				<div class="audio-info">
+					<span class="audio-title">Хава Куперман — Недельная </span>
+					<span class="audio-time">20:10 - 21:00</span>
+				</div>
+			</div>
+		</a></li>
+		
+		<li class="next-audio"><a href="#" title="">
+			<i class="audio-icon gray"></i>
+			<div class="audio-description">
+				<span class="label-0">Далее:</span>
+				<div class="audio-info">
+					<span class="audio-title">Неизвестные исполнители — Мелодии Мерона</span>
+					<span class="audio-time">21:00 - 22:05</span>
+				</div>
+			</div>
+		</a></li>
+		
+		<li class="next-audio"><a href="#" title="">
+			<i class="audio-icon gray"></i>
+			<div class="audio-description">
+				<span class="label-0">Затем:</span>
+				<div class="audio-info">
+					<span class="audio-title">Хава Куперман — Недельная глава Ки теце</span>
+					<span class="audio-time">21:00 - 22:05</span>
+				</div>
+			</div>
+		</a></li>
+		
+		<li class="next-audio"><a href="#" title="">
+			<i class="audio-icon gray"></i>
+			<div class="audio-description">
+				<span class="label-0">Далее:</span>
+				<div class="audio-info">
+					<span class="audio-title">Неизвестные исполнители — Мелодии Мерона</span>
+					<span class="audio-time">21:00 - 22:05</span>
+				</div>
+			</div>
+		</a></li>
+		     
+	</ul>
+</div>
