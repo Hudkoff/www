@@ -10,6 +10,7 @@
 @import "_audio-link.css";
 @import "_catalog-pagination.css";
 @import "_radio-toldot.css";
+@import "_audio-navigation.css";
 
 .audio-main {
 	margin-bottom: 25px;
@@ -186,6 +187,9 @@
     line-height: 1.4;
 }
 
+.page_audio .audio-bar {
+	margin-bottom: 25px;
+}
 
 .page_audio .page-header .audio-navigation {
 	background: #f1f0dc;

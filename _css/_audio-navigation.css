@@ -1,0 +1,55 @@
+.audio-navigation {
+	padding: 15px 0;
+}
+.audio-navigation .left {
+	text-align: left;
+}
+}
+.audio-navigation .right {
+	text-align: right;
+}
+.audio-navigation a {
+	display: inline-block;
+	text-decoration: none;
+	font: normal 1.2rem 'Open Sans', sans-serif;
+	color: #595959;
+}
+.audio-navigation .link-title {
+	margin-bottom: 5px;
+	font-size: 1.1rem;
+	color: #949494;
+}
+.audio-navigation .left .link-title:before,
+.audio-navigation .right .link-title:after {
+	content: '';
+	display: inline-block;
+	height: 7px;
+	width: 5px;
+}
+.audio-navigation .left .link-title:before {
+	margin-right: 5px;
+	background: url('../images/icon-bracket-left.png');
+}
+.audio-navigation .right .link-title:after {
+	margin-left: 5px;
+	background: url('../images/icon-bracket-right.png');
+}
+.audio-navigation .link-title.first:before,
+.audio-navigation .link-title.last:after {
+	width: 10px;
+}
+.audio-navigation .link-title.next {
+	position: relative;
+}
+.audio-navigation .link-title.next:before {
+	content: '|';
+	position: absolute;
+	top: 0;
+	left: -13px;
+}
+.audio-navigation .audio-title {
+	text-decoration: underline;
+}
+.audio-navigation a:hover .audio-title {
+	text-decoration: none;
+}

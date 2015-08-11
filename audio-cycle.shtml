@@ -41,29 +41,14 @@
 
 					<img class="audioplayer" src="images/audioplayer-placeholder.png" alt="" style="margin-bottom: 16px;">
 
-					<div class="audio-title">
+					<div class="audio-bar">
 						<!--#include virtual="buttons/later.shtml?"-->
 						<!--#include virtual="buttons/subscribe.shtml?"-->
 						<a href="#" class="buttonGRAY all-cycle">Весь цикл</a>
 						<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
 					</div>
-
-					<div class="audio-navigation">
-						<div class="table">
-							<div class="table-cell left">
-								dfsfs
-							</div>
-							<div class="table-cell left cental">
-								dfsfs
-							</div>
-							<div class="table-cell right cental">
-								dfsfs
-							</div>
-							<div class="table-cell right">
-								dfsfs
-							</div>
-						</div>
-					</div>
+					<!--#include virtual="_audio-navigation.shtml"-->	
+					
 
 					<div class="">
 <!-- 						<div class="audiolessons">
