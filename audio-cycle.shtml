@@ -41,12 +41,14 @@
 
 					<img class="audioplayer" src="images/audioplayer-placeholder.png" alt="" style="margin-bottom: 16px;">
 
-					<div class="audio-bar">
+					<div class="audio-bar clearfix">
+						<!--#include virtual="_download.shtml"-->
 						<!--#include virtual="buttons/later.shtml?"-->
 						<!--#include virtual="buttons/subscribe.shtml?"-->
 						<a href="#" class="buttonGRAY all-cycle">Весь цикл</a>
 						<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
 					</div>
+
 					<!--#include virtual="_audio-navigation.shtml"-->	
 					
 

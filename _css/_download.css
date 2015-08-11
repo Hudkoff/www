@@ -1,0 +1,36 @@
+.download {
+	float: right;
+	font: normal 1.3rem/2.3rem 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #9d9d9d;
+}
+.download li {
+	display: inline-block;
+}
+.download li:first-child:before {
+	content: '';
+}
+.download li:before {
+	content: 'I';
+	display: inline-block;
+	margin: 0 8px;
+}
+.download li a {
+	color: #797979;
+	text-decoration: none;
+}
+.download li a:before {
+	content: '';
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	margin-right: 5px;
+	vertical-align: middle;
+	background: url('../images/icon-download.png');
+}
+.download li a .decoration {
+	border-bottom: 1px dashed #797979;
+}
+.download li a:hover .decoration {
+	border: none;
+}

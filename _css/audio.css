@@ -12,6 +12,7 @@
 @import "_catalog-pagination.css";
 @import "_radio-toldot.css";
 @import "_audio-navigation.css";
+@import "_download.css";
 
 .audio-main {
 	margin-bottom: 25px;
