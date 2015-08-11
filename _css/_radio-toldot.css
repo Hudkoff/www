@@ -1,12 +1,12 @@
 .radio-toldot {
-	border: 2px solid #a8c447;
+	border: 2px solid #c4af23;
 	font: bold 1.2rem 'Open Sans', sans-serif;
 	margin-bottom: 15px;
 }
 .radio-toldot h3 {
 	padding: 6px 0 7px 12px;
-	background: #eef6e7;
-	color: #a8c447;
+	background: #fbfae9;
+	color: #c4af23;
 	text-transform: uppercase;
 	font: bold 1.2rem 'Open Sans', sans-serif;
 }
@@ -29,7 +29,7 @@
 	color: #000;
 	text-decoration: none;
 }
-.radio-toldot li a:hover {
+.radio-toldot li a:hover .audio-title {
 	text-decoration: underline;
 }
 .radio-toldot li.next-audio a {
@@ -43,7 +43,7 @@
 	width: 32px;
 	height: 33px;
 	margin-top: -17px;
-	background: url("../images/icon-arrow-green.png") bottom no-repeat;
+	background: url("../images/icon-arrow-play.png") bottom no-repeat;
 }
 .radio-toldot .audio-icon.gray {
 	background: url("../images/icon-arrow-gray.png") bottom no-repeat;
@@ -51,15 +51,9 @@
 .radio-toldot .audio-description {
 	margin-left: 42px;
 }
-.radio-toldot .label {
+.radio-toldot .label-0 {
 	display: inline-block;
 	padding: 0 3px 0 0;
-}
-.radio-toldot .current-audio .label {
-	padding-left: 3px;
-	margin-bottom: 3px;
-	color: #fff;
-	background: #a8c447;
 }
 .radio-toldot .audio-info {
 	font-size: 0;

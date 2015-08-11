@@ -12,9 +12,8 @@
 		<p class="description">
 			Шалом. Я знаю, что в холь-амоэд («праздничные будни» — те дни праздников Песах и Суккот... <a href="#" class="more">Читать дальше</a>
 		</p>
-		<div class="buttons">
-			<a href="#" class="button set-aside">Отложить</a>
-			<a href="#" class="button subscribe">Подписаться</a>
-		</div>
+		<!--#include virtual="../buttons/later.shtml?"-->
+		<!--#include virtual="../buttons/subscribe.shtml?"-->
+
 	</div>
 </div>

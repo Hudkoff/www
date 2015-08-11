@@ -1,0 +1,4 @@
+<a href="#" class="buttonGRAY later <!--#echo var='QUERY_STRING' -->">
+	<span class="null">Отложить</span>
+	<span class="ontrue">Отложено</span>
+</a>

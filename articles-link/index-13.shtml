@@ -16,8 +16,7 @@
 		<a href="#" class="more">Далее</a>
 	</p>
 
-	<div class="buttons">
-		<a href="#" class="button set-aside">Отложить</a>
-		<a href="#" class="button subscribe">Подписаться</a>
-	</div>
+	<!--#include virtual="../buttons/later.shtml?true"-->
+	<!--#include virtual="../buttons/subscribe.shtml?"-->
+
 </div>

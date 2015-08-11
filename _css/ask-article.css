@@ -189,22 +189,7 @@
 
 
 
-.intopic-block {
-	margin-bottom: 40px;
-}
-.intopic-block .column-left,
-.intopic-block .column-right {
-	width: 20%;
-}
-.intopic-block .column-central {
-	width: 60%;
-}
-.intopic-block .table-cell .table-cell {
-	width: 33.3%;
-}
-.intopic-block .table-cell .table-cell:first-child {
-	width: 33.4%;
-}
+
 
 
 

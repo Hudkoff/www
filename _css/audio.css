@@ -8,7 +8,6 @@
 
 
 @import "_audio-link.css";
-@import "_audio-catalog.css";
 @import "_catalog-pagination.css";
 @import "_radio-toldot.css";
 
@@ -25,7 +24,7 @@
 .audio-main .column-central {
 	padding: 20px;
 	width: auto;
-	background: #eef6e7;
+	background: #faf9e6;
 }
 .audio-main .column-central .column-left {
 	width: 57%;
@@ -35,10 +34,8 @@
 	border: 2px solid #ddd;
 	margin-bottom: 20px;
 }
-.audio-main .column-central h1,
-.audio-main .column-central h3 {
-	padding-bottom: 10px;
-	border-bottom: 2px solid #d6ddcf;
+.page_audio h1 {
+	color: #c4af23;
 }
 .audio-main .column-central h3 {
   	padding: 10px 0 12px 0;
@@ -49,7 +46,7 @@
 }
 .audio-lessons-summary span {
 	font-weight: bold;
-	color: #8db20e;
+	color: #c4af23;
 }
 .audio-main .column-central .more {
 	float: right;
@@ -58,3 +55,155 @@
 	color: #4a7ec0;
 }
 
+
+
+
+
+
+.audio-catalog .catalog-pagination li.selected a {
+	background-color: #c4af23;
+}
+.audio-catalog .tag-cloud a:hover {
+	color: #c4af23;
+}
+
+
+.audio-catalog .column-left {
+	width: 20%;
+	padding: 0 20px 0 0;
+}
+.audio-catalog .column-right {
+	width: 20%;
+}
+.audio-catalog .column-central {
+	width: auto;
+	padding: 0;
+}
+
+.audio-catalog .column-right .more {
+	float: right;
+	font: normal 13px 'Noto Serif', serif;
+}
+.audio-catalog .column-left section {
+	margin-top: 13px;
+}
+
+.audio-catalog .banner {
+	display: block;
+	margin-bottom: 20px;
+}
+.audio-catalog .audio-list-wrapper {
+	margin-bottom: 20px;
+	padding: 20px;
+	background: #faf9e6;
+}
+
+.audio-catalog .audio-list-wrapper .block-title {
+	padding: 0 0 10px 0;
+	margin-bottom: 10px;
+  	border-bottom: 1px solid #e5e5e5;
+  	font-family: 'Noto Serif', serif;
+  	font-size: 20px;
+  	font-weight: bold;
+  	color: #b38d39;
+}
+
+.audio-catalog .audio-list {
+	margin-bottom: 25px;
+  	border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+
+.audio-filters {
+	padding-bottom: 10px;
+	font-family: 'Noto Serif', serif;
+  	border-bottom: 1px solid #e5e5e5;
+	font-size: 12px;	
+}
+.audio-filters .author {
+	float: left;
+	width: 64px;
+}
+.audio-filters .date {
+	float: right;
+	width: 64px;
+}
+.audio-filters .title {
+	margin: 0 84px;
+}
+.audio-filters span {
+	padding-right: 15px;
+	background: url(../images/icon-arrow.png) 100% 7px no-repeat;
+	border-bottom: 1px dotted #000;
+	color: #0a3674;
+	cursor: pointer;
+}
+.audio-filters span:hover {
+	border: none;
+}
+.familyQuestion .question {
+    display: block;
+    margin: 15px 39px 0 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #0a3674;
+}
+
+
+
+.page_audio .page-header {
+	background: #faf9e6;
+	padding: 20px;
+}
+.page_audio .audio-name {
+	margin-bottom: 20px;
+}
+.page_audio .audio-name .author-photo {
+    float: left;
+    width: 128px;
+    height: 128px;
+    border-radius: 4px;
+    background-size: cover;
+}
+.page_audio .audio-name .audio-info-container {
+    margin-left: 148px;
+}
+.page_audio .audio-name .audio-info-container .details {
+   	font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #6c6c6c;
+    line-height: 1.5;
+    margin-bottom: 15px
+}
+.page_audio .audio-name .audio-info-container .details a {
+    color: #6c6c6c;
+}
+.page_audio .audio-name .audio-info-container .description {
+    font-family: 'Noto Serif', serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+.page_audio .page-header .audio-navigation {
+	background: #f1f0dc;
+	margin: 0 -20px;
+}
+.page_audio .page-header .audio-navigation .table-cell {
+	width: 25%;
+	padding: 0 20px;
+}
+.page_audio .page-header .audio-navigation .left {
+	text-align: right;
+}
+.page_audio .page-header .audio-navigation .cental.left {
+	padding-right: 10px;
+}
+.page_audio .page-header .audio-navigation .cental.right {
+	padding-left: 10px;
+}
+.author-cycles {
+	margin-bottom: 20px;
+}

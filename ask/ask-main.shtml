@@ -26,7 +26,7 @@
 				</div>
 
 				<div class="table-cell column-right clearfix">
-					<h3 class="different-font-size">Популярное</h3>
+					<h3 class="color-LIGHTGRAY bordered">Популярное</h3>
 					<div>
 						<!--#include virtual="../article-link/index-61.shtml"-->
 						<!--#include virtual="../article-link/index-62.shtml"-->

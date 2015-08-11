@@ -4,7 +4,7 @@
 		<li class="current-audio"><a href="#" title="">
 			<i class="audio-icon"></i>
 			<div class="audio-description">
-				<span class="label">В эфире:</span>
+				<span class="label audio">В эфире:</span>
 				<div class="audio-info">
 					<span class="audio-title">Законы седьмого года 10</span>
 					<span class="audio-time">20:10 - 21:00</span>
@@ -14,7 +14,7 @@
 		<li class="next-audio"><a href="#" title="">
 			<i class="audio-icon gray"></i>
 			<div class="audio-description">
-				<span class="label">Далее:</span>
+				<span class="label-0">Далее:</span>
 				<div class="audio-info">
 					<span class="audio-title">Законы седьмого года 11</span>
 					<span class="audio-time">21:00 - 22:05</span>

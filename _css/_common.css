@@ -69,6 +69,33 @@ body {
 	width: 66.7%;
 }
 
+.intopic-block {
+	margin-bottom: 40px;
+}
+.intopic-block .column-left,
+.intopic-block .column-right {
+	width: 20%;
+}
+.intopic-block .column-central {
+	width: 60%;
+}
+.intopic-block .table-cell .table-cell {
+	width: 33.3%;
+}
+.intopic-block .table-cell .table-cell:first-child {
+	width: 33.4%;
+}
+
+.audio-catalog .intopic-block .table-cell {
+	width: 33.3%;
+}
+.audio-catalog .intopic-block .table-cell:first-child {
+	width: 33.4%;
+}
+
+
+
+
 b {
 	font-weight: bold;
 }
@@ -134,7 +161,7 @@ a:hover {
 	background: #46aac4;
 }
 .label.audio {
-	background: #8db20e;
+	background: #c4af23;
 }
 
 
@@ -419,3 +446,71 @@ label.radioWrap {
 .ui-menu-item:nth-child(n+6) {
 	display: none;
 }
+
+
+
+
+
+
+
+
+/* серые кнопки на блоках статей */
+.itunes-button {
+	display: inline-block;
+	width: 65px;
+	height: 24px;
+	background: url('../images/icon-itunes.png') 0 0 no-repeat;
+}
+
+.buttonGRAY {
+	display: inline-block;
+	margin: 0 7px 0 0;
+	padding: 1px 18px 2px 26px;
+	font: normal 1.3rem 'Open Sans', sans-serif;
+	color: #676767;
+	border: 1px solid #d4d4d4;
+	border-radius: 2px;
+	vertical-align: top;
+	text-decoration: none;
+}
+
+
+.buttonGRAY .null {
+	display: inline-block;
+}
+.buttonGRAY .ontrue {
+	display: none;
+}
+.buttonGRAY.true .null {
+	display: none;
+}
+.buttonGRAY.true .ontrue {
+	display: inline-block;
+}
+
+
+.buttonGRAY.later {
+	background: #ebebeb url('../images/icon-time.png') 5px 3px no-repeat;
+}
+.buttonGRAY.subscribe {
+	background: #ebebeb url('../images/icon-plus.png') 7px 5px no-repeat;
+}
+.buttonGRAY.all-cycle,
+.buttonGRAY.all-cycle.true,
+.buttonGRAY.all-cycle.true:hover {
+	background: #ebebeb url('../images/icon-stack.png') 7px 3px no-repeat;
+}
+
+.buttonGRAY.true {
+	background: #d4e6c5 url('../images/icon-tick.png') 7px 5px no-repeat;	
+}
+
+
+.buttonGRAY.true:hover {
+	background-color: #dff2d0;
+}
+.buttonGRAY:hover {
+	background-color: #f2f2f2;
+	text-decoration: none;
+}
+

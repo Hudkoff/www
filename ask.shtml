@@ -6,22 +6,18 @@
 	<link href="_css/ask.css" rel="stylesheet" type="text/css">
 
 </head>
-<body>
-		<!--#include virtual="_header.shtml"-->
+<body class="page_ask">
+	<!--#include virtual="_header.shtml"-->
 
-	<div class="page_ask">
-	
-		<!--#include virtual="ask/ask-main.shtml"-->
+	<!--#include virtual="ask/ask-main.shtml"-->
 
-		<!--#include virtual="ask/ask-catalog.shtml"-->
+	<!--#include virtual="ask/ask-catalog.shtml"-->
 
-		<!--#include virtual="_banner-wide-toldot.shtml"-->
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
 
-		<!--#include virtual="_daytopic-title.shtml"-->	
+	<!--#include virtual="_daytopic-title.shtml"-->	
 
-		<!--#include virtual="_daytopic-ask.shtml"-->		
-		
-	</div>	
+	<!--#include virtual="_daytopic-ask.shtml"-->		
 
 	<!--#include virtual="_footer.shtml"-->
 

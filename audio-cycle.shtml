@@ -1,0 +1,166 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebSite" prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/audio.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_audio">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="audio-catalog wrapper">
+		<div class="table">
+
+			<aside class="table-cell column-left">
+				<!--#include virtual="sidemenu/sidemenu-audio.shtml"-->
+				<!--#include virtual="_help.shtml"-->
+				<!--#include virtual="recommendation-link/index.shtml"-->
+			</aside>
+
+			<div class="table-cell column-central">
+
+				<div class="page-header">
+					<!--#include virtual="breadcrumbs/audio-cycle.shtml"-->
+
+					<h1 class="color-LIGHTGRAY">Пути исправления качеств характера 2</h1>
+
+					<div class="audio-name clearfix">
+						<div class="author-photo" style="background-image: url('images/picture_01.jpg')"></div>
+						<div class="audio-info-container">
+							<p class="details">
+								28 марта, <b>Рав Носон Шерман</b> из цикла «Уроки Пятикнижия»<br>
+								<a href="#" title="">Еврейский закон</a>, <a href="#" title="">Как себя вести</a>, <a href="#" title="">Быт</a>
+							</p>
+							<p class="description">
+								Домашний комитет решает пригласить садовника вопреки мнению религиозного жителя. Имеет ли право человек не платить домкому?
+							</p>
+						</div>
+					</div>
+
+					<img class="audioplayer" src="images/audioplayer-placeholder.png" alt="" style="margin-bottom: 16px;">
+
+					<div class="audio-title">
+						<!--#include virtual="buttons/later.shtml?"-->
+						<!--#include virtual="buttons/subscribe.shtml?"-->
+						<a href="#" class="buttonGRAY all-cycle">Весь цикл</a>
+						<a href="#" class="itunes-button"></a>
+					</div>
+
+					<div class="audio-navigation">
+						<div class="table">
+							<div class="table-cell left">
+								dfsfs
+							</div>
+							<div class="table-cell left cental">
+								dfsfs
+							</div>
+							<div class="table-cell right cental">
+								dfsfs
+							</div>
+							<div class="table-cell right">
+								dfsfs
+							</div>
+						</div>
+					</div>
+
+					<div class="">
+<!-- 						<div class="audiolessons">
+							<div class="audio-lessons-summary">
+								<p><span>20 567</span> аудиоуроков, <span>358</span> авторов</p>
+							</div>
+							<div class="audiolessons-list">
+							</div>
+						</div> -->
+					</div>
+
+				</div>
+
+				<div class="clearfix">
+					<!--#include virtual="_socials-like.shtml"-->					
+					<!--#include virtual="_socials-share.shtml"-->
+				</div>
+
+				<h3 class="color-LIGHTGRAY bordered">В тему</h3>
+				<div class="table intopic-block">
+					<div class="table-cell">
+						<!--#include virtual="daytopic-article/index-01.shtml"-->
+						<!--#include virtual="daytopic-article/index-02.shtml"-->
+						<!--#include virtual="daytopic-article/index-03.shtml"-->
+						<!--#include virtual="daytopic-article/index-04.shtml"-->
+					</div>
+					<div class="table-cell">
+						<!--#include virtual="daytopic-article/index-05.shtml"-->
+						<!--#include virtual="daytopic-article/index-06.shtml"-->
+						<!--#include virtual="daytopic-article/index-07.shtml"-->
+						<!--#include virtual="daytopic-article/index-08.shtml"-->
+					</div>
+					<div class="table-cell">
+						<!--#include virtual="daytopic-article/index-09.shtml"-->
+						<!--#include virtual="daytopic-article/index-10.shtml"-->
+						<!--#include virtual="daytopic-article/index-11.shtml"-->
+					</div>
+				</div>
+
+
+			</div>
+
+			<aside class="table-cell column-right">
+
+				<!--#include virtual="radio-toldot/index.shtml"-->
+
+				<section class="author-cycles clearfix">
+					<h3 class="color-LIGHTGRAY bordered">Циклы автора</h3>
+					<div>
+						<a href="#" class="article-link" title="">
+							<h6>Законы седьмого <br>года 10 <span class="label" style="background: #43ac69">Видео</span></h6>
+							<p class="details">
+								28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»
+							</p>
+						</a>
+						<a href="#" class="article-link" title="">
+							<h6>Книга Иова 43 <span class="label" style="background: #8db20e">Аудио</span></h6>
+							<p class="details">
+								28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»
+							</p>
+						</a>
+						<a href="#" class="article-link" title="">
+							<h6>Законы седьмого <br>года 10 <span class="label" style="background: #a7a7a7">Статья</span></h6>
+							<p class="details">
+								28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»
+							</p>
+						</a>
+					</div>
+
+					<a href="#" class="more" title="">Далее</a>
+				</section>
+
+				<section>
+					<h4 class="color-AUDIO arrowed bordered">
+						<a href="#" title="">
+							Авторы
+							<b>&#9670;</b>
+						</a>
+					</h4>
+					<!--#include virtual="people-list/index-1.shtml"-->
+				</section>
+			</aside>
+
+		</div>
+	</div>
+
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+	<!--#include virtual="_daytopic-title.shtml"-->
+
+	<!--#include virtual="_daytopic.shtml"-->
+
+	<!--#include virtual="_block-seo.shtml"-->			
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

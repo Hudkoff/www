@@ -84,9 +84,16 @@ $(document).ready(function() {
 
 
 
+//////////////////////////////////////////////
+// имитация работы серых кнопок
+//////////////////////////////////////////////
 
-
-
+	$(".buttonGRAY").each(function(){
+		$(this).on('click', function(){
+			$(this).toggleClass("true");
+			return false;
+		});
+	});
 
 });
 
@@ -467,8 +474,8 @@ allTagsButton.on('click', function(){
 // Автоподстановка тегов
 $(function() {
 	var availableTags = [];
-	$(".tag-cloud li a").each(function(){
-		availableTags.push( $(this).text());
+	$(".tag-cloud a").each(function(){
+		availableTags.push( $(this).text() );
 	});
 
 	$(".tag-search input[type='text']").autocomplete({

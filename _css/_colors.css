@@ -1,5 +1,7 @@
 /* цветные заголовки */
-h3[class ^= color] {
+h3[class ^= color],
+h2[class ^= color],
+h1[class ^= color] {
 	padding-bottom: 10px;
 }
 h4[class ^= color] {

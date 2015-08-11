@@ -24,6 +24,7 @@
 .article-link h5,
 .article-link h4 {
 	margin-bottom: 5px;
+	/*display: inline;*/
 }
 .article-link a {
 	text-decoration: none;

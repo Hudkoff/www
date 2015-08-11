@@ -22,7 +22,7 @@
 			<!--#include virtual="../articles-link/index-12.shtml"-->
 			<!--#include virtual="../articles-link/index-13.shtml"-->
 		</div>
- \
+ 
 		<!--#include virtual="../catalog-pagination/index.shtml"--> 
 	</section>
 

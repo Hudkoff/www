@@ -6,7 +6,7 @@
 	<link href="_css/audio.css" rel="stylesheet" type="text/css">
 
 </head>
-<body>
+<body class="page_audio">
 
 	<!--#include virtual="_header.shtml"-->
 	<div class="audio-main wrapper">
@@ -17,7 +17,37 @@
 
 			<div class="table-cell column-central">
 				<!--#include virtual="breadcrumbs/audio.shtml"-->
-				<!--#include virtual="audio/audio-main.shtml"-->
+				<div class="table">
+					<div class="table-cell column-left">
+						<div class="audiolessons">
+							<h1 class="color-LIGHTGRAY bordered">Аудиоуроки</h1>
+							<div class="audio-lessons-summary">
+								<p><span>20 567</span> аудиоуроков, <span>358</span> авторов</p>
+							</div>
+							<div class="audiolessons-list">
+								<!--#include virtual="audio-link/index-11.shtml"-->
+								<!--#include virtual="audio-link/index-12.shtml"-->
+							</div>
+						</div>
+					</div>
+					<div class="table-cell column-right clearfix">
+						<h3 class="color-LIGHTGRAY bordered">Циклы</h3>
+						<div>
+							<!--#include virtual="article-link/index-51.shtml"-->
+							<!--#include virtual="article-link/index-52.shtml"-->
+							<!--#include virtual="article-link/index-51.shtml"-->
+							<!--#include virtual="article-link/index-52.shtml"-->
+							<!--#include virtual="article-link/index-51.shtml"-->
+							<!--#include virtual="article-link/index-52.shtml"-->
+						</div>
+						<a href="#" class="more" title="">Далее</a>
+					</div>
+				</div>
+
+				<a href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
+					<img src="images/banner_01.jpg" alt="">
+				</a>
+
 			</div>
 
 			<aside class="table-cell column-right">
@@ -50,7 +80,29 @@
 
 			<div class="table-cell column-central">
 				<!--#include virtual="tag-cloud/index-short.shtml"-->
-				<!--#include virtual="audio/audio-catalog.shtml"-->
+
+				<div class="audio-list-wrapper">
+					<ul class="audio-filters">
+						<li class="author"><span>Автор</span></li>
+						<li class="date"><span>Дата</span></li>
+						<li class="title"><span>Название</span></li>
+					</ul>
+					<div class="audio-list">
+						<!--#include virtual="audio-link/index-21.shtml"-->
+						<!--#include virtual="audio-link/index-22.shtml"-->
+						<!--#include virtual="audio-link/index-23.shtml"-->
+						<!--#include virtual="audio-link/index-24.shtml"-->
+						<!--#include virtual="audio-link/index-25.shtml"-->
+						<!--#include virtual="audio-link/index-24.shtml"-->
+						<!--#include virtual="audio-link/index-25.shtml"-->
+						<!--#include virtual="audio-link/index-26.shtml"-->
+						<!--#include virtual="audio-link/index-25.shtml"-->
+						<!--#include virtual="audio-link/index-26.shtml"-->
+						<!--#include virtual="audio-link/index-25.shtml"-->
+					</div>
+					<!--#include virtual="catalog-pagination/index.shtml"-->
+				</div>
+
 			</div>
 
 			<aside class="table-cell column-right">
