@@ -39,7 +39,7 @@
 						</div>
 					</div>
 
-					<img class="audioplayer" src="images/audioplayer-placeholder.png" alt="" style="margin-bottom: 16px;">
+					<div style="margin-bottom: 16px; background: url(images/audioplayer-placeholder.png) no-repeat; height: 34px"></div>
 
 					<div class="audio-bar clearfix">
 						<!--#include virtual="_download.shtml"-->
@@ -67,7 +67,7 @@
 
 				</div>
 
-				<div class="clearfix">
+				<div class="clearfix" style="margin-bottom: 40px;">
 					<!--#include virtual="_socials-like.shtml"-->					
 					<!--#include virtual="_socials-share.shtml"-->
 				</div>

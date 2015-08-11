@@ -45,7 +45,7 @@
 }
 .audio-lessons-summary {
 	margin-top: 10px;
-	font: normal 1.4rem 'Open Sans', sans-serif;
+	font: normal 14px 'Open Sans', sans-serif;
 }
 .audio-lessons-summary span {
 	font-weight: bold;
@@ -54,11 +54,15 @@
 .audio-main .column-central .more {
 	float: right;
 	margin-top:13px;
-	font: normal 1.3rem 'Open Sans', sans-serif;
+	font: normal 13px 'Open Sans', sans-serif;
 	color: #4a7ec0;
 }
 
-
+.audio-main .column-central p.txt {
+	color: #777777;
+	font: normal 13px 'Open Sans', sans-serif;
+	margin-bottom: 10px;
+}
 
 
 
