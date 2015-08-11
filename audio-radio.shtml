@@ -62,10 +62,20 @@
 				<h3 class="color-LIGHTGRAY bordered">
 					Расписание вещания
 				</h3>
-				<!--#include virtual="audio-list/index-01.shtml"-->
-				<!--#include virtual="audio-list/index-02.shtml"-->
-				<!--#include virtual="audio-list/index-03.shtml"-->
-
+				<div class="radio-list">
+					<!--#include virtual="audio-list/index-01.shtml"-->
+					<!--#include virtual="audio-list/index-02.shtml"-->
+					<!--#include virtual="audio-list/index-03.shtml"-->
+					<!--#include virtual="audio-list/index-01.shtml"-->
+					<!--#include virtual="audio-list/index-02.shtml"-->
+					<!--#include virtual="audio-list/index-03.shtml"-->
+					<!--#include virtual="audio-list/index-01.shtml"-->
+					<!--#include virtual="audio-list/index-02.shtml"-->
+					<!--#include virtual="audio-list/index-03.shtml"-->
+					<!--#include virtual="audio-list/index-01.shtml"-->
+					<!--#include virtual="audio-list/index-02.shtml"-->
+					<!--#include virtual="audio-list/index-03.shtml"-->
+				</div>
 			</div>
 
 			<aside class="table-cell column-right">

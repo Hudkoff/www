@@ -87,3 +87,32 @@
 	font-weight: normal;
 	vertical-align: 4px;
 }
+
+
+.radio-list a {
+	display: table;
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #e5e5e5;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    font-size: 14px;
+    color: #000;
+}
+.radio-list img {
+	width: 45px;
+	height: 45px;
+}
+.radio-list .title {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding-left: 20px;
+}
+.radio-list a:hover .title {
+	text-decoration: underline;
+}
+.radio-list .time {
+    display: table-cell;
+    vertical-align: middle;
+}
