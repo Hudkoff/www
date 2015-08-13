@@ -1,1 +1,33 @@
-.tabs {}
+.tabs .tabs-list {
+	font-family: 'Open Sans', sans-serif;
+}
+.tabs .tabs-list li {
+	float: left;
+	margin-left: 13px;
+}
+.tabs .tabs-list li a {
+	display: inline-block;
+	padding: 10px 13px;
+	border-radius: 3px;
+	color: #0a3674;
+	font-size: 1.4rem;
+	text-decoration: none;
+}
+.tabs .tabs-list li.ui-tabs-active a {
+	background: #ffeeea;
+	color: #000;
+	font-weight: 600;
+}
+.tabs .tabs-list li a span {
+	border-bottom: 1px dotted #0a3674;
+}
+.tabs .tabs-list li.ui-tabs-active a span {
+	border: none;
+}
+.tabs .tabs-list li a:hover span {
+	border: none;
+}
+.tabs .tab-panel {
+	padding: 15px;
+	border: 3px solid #ffeeea;
+}
