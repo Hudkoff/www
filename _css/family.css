@@ -287,6 +287,13 @@
     margin-top: 10px;
 }
 
+.page_family .video-live {
+    border: 2px solid #4fc77a;
+}
+.page_family .video-live .title {
+    color: #4bbb73;
+}
+
 .cycles .cycles-item {
     display: block;
     color: #000;
