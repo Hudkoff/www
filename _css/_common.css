@@ -138,6 +138,9 @@ body {
 .page_articles .page-header {
     background: #f7f7f7;
 }
+.page_family .page-header {
+	background: #ffeeea;
+}
 
 
 
@@ -207,6 +210,12 @@ a:hover {
 }
 .label.audio {
 	background: #c4af23;
+}
+.label.question {
+	background: #d55940;
+}
+.label.article {
+	background: #6a6a6a;
 }
 
 

@@ -22,20 +22,23 @@
 			<div class="page-header">
 				<!--#include virtual="breadcrumbs/family.shtml"-->
 
-				<h1>Семья</h1>
+				<h1 class="clearfix">
+					Семья
+					<a href="#" class="askLink" title="Спросить раввина">Спросить раввина</a>
+					<a href="#" class="askQuestionButton p_ask-rav" title="Спросить семейного консультанта">Спросить семейного консультанта</a>
+				</h1>
 
 				<div class="article-of-day">
 					<div class="topPageInfo">
 						<span>20 567</span>
-						статей,
+						вопросов,
 						<span>358</span>
-						авторов
+						консультантов отвечают
 					</div>
 
 					<section>
-						<!--#include virtual="articles-link/index-11.shtml"-->
-						<!--#include virtual="articles-link/index-12.shtml"-->
-						<!--#include virtual="articles-link/index-13.shtml"-->
+						<!--#include virtual="articles-link/index-31.shtml"-->
+						<!--#include virtual="articles-link/index-32.shtml"-->
 					</section>
 
 				</div>
@@ -43,6 +46,7 @@
 		</div>
 
 		<div class="column-right table-cell lenta-column">
+			<!--#include virtual="video-live/index.shtml"-->
 			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
 				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
 				<!--#include virtual="lenta/index-02.shtml?ededed"-->

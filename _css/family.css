@@ -9,6 +9,7 @@
 @import "_authors-list.css";
 @import "_audio-link.css";
 @import "_tabs.css";
+@import "_video-live.css";
 
 .page_family {
     margin-bottom: 20px;
@@ -46,7 +47,7 @@
 
 
 .page_family h1 {
-    color: #727272;
+    color: #d55940;
 }
 
 .page_family .search {
@@ -71,7 +72,7 @@
 }
 .page_family .article-link img {
     float: left;
-    margin: 0 20px 20px 0;
+    margin: 0 20px 10px 0;
 }
 .page_family .article-link.big-picture .description,
 .page_family .article-link.big-picture .buttons {
@@ -79,7 +80,6 @@
     clear: both;
 }
 
-.page_family .article-link .description,
 .page_family .article-link .buttons {
     margin-left: 134px;
 }
@@ -178,6 +178,37 @@
 .page-header .authorBlock .links .all-cycles a {color: #792fb7}
 .page-header .authorBlock .links .answers a {color: #b7792f}
 .page-header .authorBlock .links .audios a {color: #719826}
+
+.page-header .askQuestionButton {
+    float: right;
+    color: #fff;
+     padding: 10px 13px 8px 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    background: #d55940;
+}
+.page-header .askQuestionButton:hover {
+    opacity: .8;
+}
+
+.page-header .askLink {
+    color: #d55940;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    float: right;
+     margin: 9px 0 0 20px;
+}
+.page-header .askLink:hover {
+    text-decoration: none;
+}
 
 .article-body {
     padding: 15px;
