@@ -46,11 +46,12 @@ body {
 	display: table;
 	width: 100%;
 	position: relative;
-	/*box-sizing: border-box;*/
+	box-sizing: border-box;
 }
 .table-cell {
 	display: table-cell;
 	vertical-align: top;
+	box-sizing: border-box;
 }
 .table-cell {
 	padding-left: 20px;
@@ -60,6 +61,37 @@ body {
 	padding-left: 0;
 	width: 33.4%;
 }
+
+/* колонки 20-auto-20 */
+.table.COL-sym > .table-cell.column-left {
+	width: 20%;
+	padding-right: 20px;
+}
+.table.COL-sym > .table-cell.column-right {
+	width: 20%;
+	padding-left: 20px;
+}
+.table.COL-sym > .table-cell.column-central {
+	padding: 0;
+	width: auto;
+}
+
+/* колонки 20-auto-24,45 */
+.table.COL-asym > .table-cell.column-left {
+	width: 20%;
+	padding-right: 20px;
+}
+.table.COL-asym > .table-cell.column-right {
+	width: 25.45%;
+	padding-left: 20px;
+}
+.table.COL-asym > .table-cell.column-central {
+	padding: 0;
+	width: auto;
+}
+
+
+
 
 .table-cell .table-cell {
 	width: 50%; /* перебивает ширину - при вложнности в двойную ячейку */
@@ -72,13 +104,8 @@ body {
 .intopic-block {
 	margin-bottom: 40px;
 }
-.intopic-block .column-left,
-.intopic-block .column-right {
-	width: 20%;
-}
-.intopic-block .column-central {
-	width: 60%;
-}
+
+
 .intopic-block .table-cell .table-cell {
 	width: 33.3%;
 }
@@ -93,6 +120,24 @@ body {
 	width: 33.4%;
 }
 
+
+.page_gallery .top-block .table-cell .table-cell {
+    width: auto;
+}
+
+
+.page-header {
+	padding: 20px;
+}
+.page_audio .page-header {
+	background: #faf9e6;
+}
+.page_ask .page-header {
+	background: #f7f2e7;
+}
+.page_articles .page-header {
+    background: #f7f7f7;
+}
 
 
 

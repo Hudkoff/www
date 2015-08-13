@@ -18,7 +18,7 @@
 
 	<!--#include virtual="_daytopic-title.shtml"-->
 
-	<!--#include virtual="_daytopic.shtml"-->
+	<!--#include virtual="_daytopic-.shtml"-->
 
 	<!--#include virtual="_block-seo.shtml"-->			
 

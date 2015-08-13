@@ -1,50 +1,3 @@
-<div class="article-header audio-link clearfix">
-
-	<!--#include virtual="../breadcrumbs/article.shtml"-->
-
-	<div class="table">
-
-		<div class="table-cell column-central">
-			<img src="images/article-big.jpg" alt=""/>
-
-			<h2>Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов</h2>
-
-			<div class="details"><b>из цикла «Уроки Пятикнижия»</b> 10 апреля 2015</div>
-
-			<div class="clearfix">
-				<!--#include virtual="../buttons/later.shtml?true"-->
-				<!--#include virtual="../buttons/subscribe.shtml?"-->
-				<a href="#" class="buttonGRAY all-cycle">Весь цикл</a>
-			</div>
-
-			<!--#include virtual="../_socials-like.shtml"-->
-		</div>
-
-		<div class="table-cell authorBlock">
-
-			<img src="images/avatar-40.jpg" alt=""/>
-
-			<div class="heading clearfix">
-				Автор <span>Рав Симха Коэн</span>
-			</div>
-
-			<ul class="links ">
-				<li class="about"><a href="">О раве</a></li>
-				<li class="all-cycles"><a href="">Все циклы уроков рава</a></li>
-				<li class="answers"><a href="">Ответы в разделе «Вопросы раввину»</a></li>
-				<li class="audios"><a href="">Аудиолекции и книги рава в магазине</a></li>
-			</ul>	
-
-			<!--#include virtual="../_socials-share.shtml"-->
-
-
-		</div>
-
-	</div>
-
-
-</div>
-
 <div class="article-body">
 	<div class="top-quote">Вопросы - стимул для дальнейшего изучения,а не повод к отчаянию и к отречению от
 		веры. А вот отсутствие всяких вопросов было бы, действительно, тревожным симптомом.
@@ -198,16 +151,7 @@
 </div>
 
 
-<section class="related">
 
-	<h4 class="color-GRAY bordered">Читайте также</h4>
-
-	<div>
-		<!--#include virtual="../articles-link/index-12.shtml"-->
-
-		<!--#include virtual="../articles-link/index-13.shtml"-->
-	</div>
-</section>
 
 
 

@@ -6,33 +6,33 @@
 	<link href="_css/photo.css" rel="stylesheet" type="text/css">
 
 </head>
-<body>
+<body class="page_gallery" itemscope itemtype="http://schema.org/WebPage">
 
 	<!--#include virtual="_header.shtml"-->
 
-	<div class="page_gallery wrapper">
-		<div class="table">
+	<div class="table COL-sym wrapper">
 
-			<aside class="table-cell column-left">
-				<!--#include virtual="sidemenu/sidemenu-gallery.shtml"-->
-				<!--#include virtual="_banner-tora.shtml"-->
-				<!--#include virtual="recommendation-link/index.shtml"-->
-				<!--#include virtual="shop-item/index.shtml"-->
-			</aside>
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-gallery.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
 
-			<div class="table-cell column-central">
-				<!--#include virtual="breadcrumbs/photo.shtml"-->
-				<h1>Фото</h1>
-				<!--#include virtual="tag-cloud/index-all-02.shtml"-->
-				<!--#include virtual="catalog-pagination/index.shtml"-->
-				<!--#include virtual="gallery/column-central.shtml"-->
-				<!--#include virtual="catalog-pagination/index.shtml"-->
-			</div>
-			<aside class="table-cell column-right">
-				<!--#include virtual="_banner-shavuot.shtml"-->
-				<!--#include virtual="gallery/column-right.shtml"-->
-			</aside>
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+			<!--#include virtual="breadcrumbs/photo.shtml"-->
+			<h1>Фото</h1>
+			<!--#include virtual="tag-cloud/index-all-02.shtml"-->
+			<!--#include virtual="catalog-pagination/index.shtml"-->
+			<!--#include virtual="gallery/column-central.shtml"-->
+			<!--#include virtual="catalog-pagination/index.shtml"-->
 		</div>
+
+		<aside class="table-cell column-right">
+			<!--#include virtual="_banner-shavuot.shtml"-->
+			<!--#include virtual="gallery/column-right.shtml"-->
+		</aside>
+		
 	</div>
 
 	<!--#include virtual="_footer.shtml"-->

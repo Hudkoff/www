@@ -6,109 +6,158 @@
 	<link href="_css/articles.css" rel="stylesheet" type="text/css">
 
 </head>
-<body>
+<body class="page_articles" itemscope itemtype="http://schema.org/WebPage">
 
 	<!--#include virtual="_header.shtml"-->
 
-	<div class="page_articles wrapper">
+	<div class="table COL-sym wrapper">
 
-		<div class="table">
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-articles.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
 
-			<aside class="table-cell column-left">
-				<!--#include virtual="sidemenu/sidemenu-articles.shtml"-->
-				<!--#include virtual="_banner-tora.shtml"-->
-				<!--#include virtual="recommendation-link/index.shtml"-->
-				<!--#include virtual="shop-item/index.shtml"-->
-			</aside>
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="table-cell column-central">
-				<!--#include virtual="articles/article.shtml"-->
+			<!--#include virtual="breadcrumbs/article.shtml"-->
+
+			<div class="table page-header">
+
+				<div class="table-cell column-central">
+					<img src="images/article-big.jpg" alt=""/>
+
+					<h2>Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов</h2>
+
+					<p class="details"><b>из цикла «Уроки Пятикнижия»</b> 10 апреля 2015</p>
+
+					<div class="clearfix">
+						<!--#include virtual="buttons/later.shtml?true"-->
+						<!--#include virtual="buttons/subscribe.shtml?"-->
+						<a href="#" class="buttonGRAY all-cycle">Весь цикл</a>
+					</div>
+
+					<!--#include virtual="_socials-like.shtml"-->
+				</div>
+
+				<div class="table-cell authorBlock">
+
+					<img src="images/avatar-40.jpg" alt=""/>
+
+					<div class="heading clearfix">
+						Автор <span>Рав Симха Коэн</span>
+					</div>
+
+					<ul class="links ">
+						<li class="about"><a href="">О раве</a></li>
+						<li class="all-cycles"><a href="">Все циклы уроков рава</a></li>
+						<li class="answers"><a href="">Ответы в разделе «Вопросы раввину»</a></li>
+						<li class="audios"><a href="">Аудиолекции и книги рава в магазине</a></li>
+					</ul>	
+
+					<!--#include virtual="_socials-share.shtml"-->
+
+				</div>
+
 			</div>
 
-			<div class="column-right table-cell">
+			<!--#include virtual="articles/article.shtml"-->
 
-				<h4>Циклы</h4>
-				<section class="cycles">
+			<section class="related">
+				<h4 class="color-GRAY bordered">Читайте также</h4>
+				<div>
+					<!--#include virtual="articles-link/index-12.shtml"-->
 
-					<a href="" title="" class="cycles-item cycles-item-audio">
-						<h6>Почитание родителей. Викка 33</h6>
-						<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
-						<div class="cycle-type">аудио</div>
-					</a>
+					<!--#include virtual="articles-link/index-13.shtml"-->
+				</div>
+			</section>
 
-					<a href="" title="" class="cycles-item cycles-item-blogs">
-						<h6>Законы седьмого года 10</h6>
-						<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
-						<div class="cycle-type">блоги</div>
-					</a>
-
-					<a href="" title="" class="cycles-item cycles-item-audio">
-						<h6>Почитание родителей. Викка 33</h6>
-						<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
-						<div class="cycle-type">аудио</div>
-					</a>
-
-					<a href="" title="" class="cycles-item cycles-item-video">
-						<img src="images/video-02.jpg" alt=""/>
-						<h6>Почитание родителей. Викка 33</h6>
-						<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
-						<div class="cycle-type">видео</div>
-					</a>
-
-					<a href="" title="" class="cycles-item cycles-item-audio">
-						<h6>Почитание родителей. Викка 33</h6>
-						<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
-						<div class="cycle-type">аудио</div>
-					</a>
-
-					<a href="" title="" class="cycles-item cycles-item-blogs">
-						<h6>Законы седьмого года 10</h6>
-						<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
-						<div class="cycle-type">блоги</div>
-					</a>
-
-					<a href="" title="" class="cycles-item cycles-item-audio">
-						<h6>Почитание родителей. Викка 33</h6>
-						<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
-						<div class="cycle-type">аудио</div>
-					</a>
-
-					<a href="" title="" class="cycles-item cycles-item-video">
-						<img src="images/video-02.jpg" alt=""/>
-						<h6>Почитание родителей. Викка 33</h6>
-						<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
-						<div class="cycle-type">видео</div>
-					</a>
-
-					<a href="" title="" class="cycles-item cycles-item-audio">
-						<h6>Почитание родителей. Викка 33</h6>
-						<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
-						<div class="cycle-type">аудио</div>
-					</a>
-
-					<a href="" title="" class="cycles-item cycles-item-blogs">
-						<h6>Законы седьмого года 10</h6>
-						<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
-						<div class="cycle-type">блоги</div>
-					</a>
-
-					<a href="" title="" class="cycles-item cycles-item-audio">
-						<h6>Почитание родителей. Викка 33</h6>
-						<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
-						<div class="cycle-type">аудио</div>
-					</a>
-
-					<a href="" title="" class="cycles-item cycles-item-video">
-						<img src="images/video-02.jpg" alt=""/>
-						<h6>Почитание родителей. Викка 33</h6>
-						<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
-						<div class="cycle-type">видео</div>
-					</a>
-
-				</section>
-			</div>
 		</div>
 
+		<aside class="column-right table-cell">
+
+			<h4>Циклы</h4>
+			<section class="cycles">
+
+				<a href="" title="" class="cycles-item cycles-item-audio">
+					<h6>Почитание родителей. Викка 33</h6>
+					<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
+					<div class="cycle-type">аудио</div>
+				</a>
+
+				<a href="" title="" class="cycles-item cycles-item-blogs">
+					<h6>Законы седьмого года 10</h6>
+					<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
+					<div class="cycle-type">блоги</div>
+				</a>
+
+				<a href="" title="" class="cycles-item cycles-item-audio">
+					<h6>Почитание родителей. Викка 33</h6>
+					<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
+					<div class="cycle-type">аудио</div>
+				</a>
+
+				<a href="" title="" class="cycles-item cycles-item-video">
+					<img src="images/video-02.jpg" alt=""/>
+					<h6>Почитание родителей. Викка 33</h6>
+					<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
+					<div class="cycle-type">видео</div>
+				</a>
+
+				<a href="" title="" class="cycles-item cycles-item-audio">
+					<h6>Почитание родителей. Викка 33</h6>
+					<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
+					<div class="cycle-type">аудио</div>
+				</a>
+
+				<a href="" title="" class="cycles-item cycles-item-blogs">
+					<h6>Законы седьмого года 10</h6>
+					<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
+					<div class="cycle-type">блоги</div>
+				</a>
+
+				<a href="" title="" class="cycles-item cycles-item-audio">
+					<h6>Почитание родителей. Викка 33</h6>
+					<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
+					<div class="cycle-type">аудио</div>
+				</a>
+
+				<a href="" title="" class="cycles-item cycles-item-video">
+					<img src="images/video-02.jpg" alt=""/>
+					<h6>Почитание родителей. Викка 33</h6>
+					<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
+					<div class="cycle-type">видео</div>
+				</a>
+
+				<a href="" title="" class="cycles-item cycles-item-audio">
+					<h6>Почитание родителей. Викка 33</h6>
+					<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
+					<div class="cycle-type">аудио</div>
+				</a>
+
+				<a href="" title="" class="cycles-item cycles-item-blogs">
+					<h6>Законы седьмого года 10</h6>
+					<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
+					<div class="cycle-type">блоги</div>
+				</a>
+
+				<a href="" title="" class="cycles-item cycles-item-audio">
+					<h6>Почитание родителей. Викка 33</h6>
+					<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
+					<div class="cycle-type">аудио</div>
+				</a>
+
+				<a href="" title="" class="cycles-item cycles-item-video">
+					<img src="images/video-02.jpg" alt=""/>
+					<h6>Почитание родителей. Викка 33</h6>
+					<div class="details">28 марта, <b>Рав Носон Шерман</b>, из цикла «Уроки Пятикнижия»</div>
+					<div class="cycle-type">видео</div>
+				</a>
+
+			</section>
+
+		</aside>
 
 	</div>
 

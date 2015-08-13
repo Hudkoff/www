@@ -1,122 +1,125 @@
-<div class="block-b wrapper" itemprop="mainContentOfPage">
-	<div class="table ">
-		<section class="table-cell double">
-			<div>
-				<h3 class="color-ARTICLES arrowed bordered">
+<div class="table block-b wrapper" itemprop="mainContentOfPage">
+
+	<section class="table-cell double">
+
+		<h3 class="color-ARTICLES arrowed bordered">
+			<a href="#" title="">
+				Статьи
+				<b>&#9670;</b>
+			</a>
+		</h3>
+
+		<div class="table">
+			<div class="table-cell column-left">
+				<section class="article-link favourite">
+					<a href="" title="">
+						<img src="images/article.jpg" alt="" />
+						<br><br>
+						<h4>
+							Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов
+						</h4>
+					</a>
+					<p class="details">
+						10 апреля, <b>Рав Йеошуа Ишайя Нойвирт</b>
+					</p>
+					<p class="description">
+					Любой плод запрещено выжимать в пустой сосуд или в напиток, как используя для выжимания инструмент, так и выжимая рукой Часть 5. Законы выжимания (סְחִיטָה — сехита) плодов в Шаббат и Йом тов 5.1. Выжимание плодов для получения напитка запрещено в Шаббат и Йом тов, и есть для этого различные законы, как будет объяснено далее.
+					</p>
+				</section>
+			</div>
+			<section class="table-cell">
+				<!--#include virtual="../article-link/index-21.shtml"-->
+				<!--#include virtual="../article-link/index-22.shtml"-->
+				<!--#include virtual="../article-link/index-23.shtml"-->
+			</section>
+		</div>
+	</section>
+
+	<section class="table-cell">
+		<div class="table">
+			<section class="table-cell">
+				<h3 class="color-BLOG arrowed bordered">
 					<a href="#" title="">
-						Статьи
+						Блоги
 						<b>&#9670;</b>
 					</a>
 				</h3>
-			</div>
-			<div class="table">
-				<div class="table-cell column-left">
-					<section class="article-link favourite">
-						<a href="" title="">
-							<img src="images/article.jpg" alt="" />
-							<br><br>
-							<h4>
-								Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов
-							</h4>
-						</a>
-						<p class="details">
-							10 апреля, <b>Рав Йеошуа Ишайя Нойвирт</b>
-						</p>
-						<p class="description">
-						Любой плод запрещено выжимать в пустой сосуд или в напиток, как используя для выжимания инструмент, так и выжимая рукой Часть 5. Законы выжимания (סְחִיטָה — сехита) плодов в Шаббат и Йом тов 5.1. Выжимание плодов для получения напитка запрещено в Шаббат и Йом тов, и есть для этого различные законы, как будет объяснено далее.
-						</p>
-					</section>
+				<div>
+					<!--#include virtual="../article-link/index-31.shtml"-->
+					<!--#include virtual="../article-link/index-32.shtml"-->
+					<!--#include virtual="../article-link/index-33.shtml"-->
+					<!--#include virtual="../article-link/index-32.shtml"-->
+					<!--#include virtual="../article-link/index-33.shtml"-->
 				</div>
-				<div class="table-cell">
-					<!--#include virtual="../article-link/index-21.shtml"-->
-					<!--#include virtual="../article-link/index-22.shtml"-->
-					<!--#include virtual="../article-link/index-23.shtml"-->
+			</section>
+			<section class="table-cell">
+				<h3 class="color-LEARNING arrowed bordered">
+					<a href="#" title="">
+						Тесты
+						<b>&#9670;</b>
+					</a>
+				</h3>
+				<div>
+					<!--#include virtual="../tests/index-01.shtml"-->
+					<!--#include virtual="../tests/index-02.shtml"-->
+					<!--#include virtual="../tests/index-03.shtml"-->
 				</div>
-			</div>
-		</section>
-		<div class="table-cell">
-			<div class="table">
-				<section class="table-cell">
-					<h3 class="color-BLOG arrowed bordered">
-						<a href="#" title="">
-							Блоги
-							<b>&#9670;</b>
-						</a>
-					</h3>
-					<div>
-						<!--#include virtual="../article-link/index-31.shtml"-->
-						<!--#include virtual="../article-link/index-32.shtml"-->
-						<!--#include virtual="../article-link/index-33.shtml"-->
-						<!--#include virtual="../article-link/index-32.shtml"-->
-						<!--#include virtual="../article-link/index-33.shtml"-->
-					</div>
-				</section>
-				<section class="table-cell">
-					<h3 class="color-LEARNING arrowed bordered">
-						<a href="#" title="">
-							Тесты
-							<b>&#9670;</b>
-						</a>
-					</h3>
-					<div>
-						<!--#include virtual="../tests/index-01.shtml"-->
-						<!--#include virtual="../tests/index-02.shtml"-->
-						<!--#include virtual="../tests/index-03.shtml"-->
-					</div>
-				</section>
-			</div>
+			</section>
 		</div>
-	</div>
+	</section>
+
 </div>
 
-<div class="block-b wrapper">
-	<div class="table ">
-		<section class="table-cell">
-			<h3 class="color-AUDIO arrowed bordered">
-				<a href="#" title="">
-					Аудио
-					<b>&#9670;</b>
-				</a>
-			</h3>
-			<div>
-				<!--#include virtual="../article-link/index-41.shtml"-->
-				<!--#include virtual="../article-link/index-42.shtml"-->
-				<!--#include virtual="../article-link/index-41.shtml"-->
-				<!--#include virtual="../article-link/index-42.shtml"-->
-				<!--#include virtual="../article-link/index-41.shtml"-->
-			</div>
-		</section>
-		<section class="table-cell">
-			<h3 class="color-VIDEO arrowed bordered">
-				<a href="#" title="">
-					Видео
-					<b>&#9670;</b>
-				</a>
-			</h3>
-			<div>
-				<!--#include virtual="../video-link/index-01.shtml?block"-->
-				<!--#include virtual="../video-link/index-02.shtml?none"-->
-				<!--#include virtual="../video-link/index-03.shtml?none"-->
-			</div>
-		</section>
-		<div class="table-cell">
-			<div class="table">
-				<section class="table-cell">
-					<h3 class="color-CYCLES arrowed bordered">
-						<a href="#" title="">
-							В Толдоте
-							<b>&#9670;</b>
-						</a>
-					</h3>
-					<div>					
-						<!--#include virtual="../intoldot/index-01.shtml"-->
-						<!--#include virtual="../intoldot/index-02.shtml"-->
-						<!--#include virtual="../intoldot/index-03.shtml"-->
-					</div>
-				</section>
-				
-			   <!--#include virtual="../shop-item/index.shtml"-->
-			</div>
+<div class="table block-b wrapper">
+
+	<section class="table-cell">
+		<h3 class="color-AUDIO arrowed bordered">
+			<a href="#" title="">
+				Аудио
+				<b>&#9670;</b>
+			</a>
+		</h3>
+		<div>
+			<!--#include virtual="../article-link/index-41.shtml"-->
+			<!--#include virtual="../article-link/index-42.shtml"-->
+			<!--#include virtual="../article-link/index-41.shtml"-->
+			<!--#include virtual="../article-link/index-42.shtml"-->
+			<!--#include virtual="../article-link/index-41.shtml"-->
+		</div>
+	</section>
+
+	<section class="table-cell">
+		<h3 class="color-VIDEO arrowed bordered">
+			<a href="#" title="">
+				Видео
+				<b>&#9670;</b>
+			</a>
+		</h3>
+		<div>
+			<!--#include virtual="../video-link/index-01.shtml?block"-->
+			<!--#include virtual="../video-link/index-02.shtml?none"-->
+			<!--#include virtual="../video-link/index-03.shtml?none"-->
+		</div>
+	</section>
+
+	<div class="table-cell">
+		<div class="table">
+			<section class="table-cell">
+				<h3 class="color-CYCLES arrowed bordered">
+					<a href="#" title="">
+						В Толдоте
+						<b>&#9670;</b>
+					</a>
+				</h3>
+				<div>					
+					<!--#include virtual="../intoldot/index-01.shtml"-->
+					<!--#include virtual="../intoldot/index-02.shtml"-->
+					<!--#include virtual="../intoldot/index-03.shtml"-->
+				</div>
+			</section>
+			
+		   <!--#include virtual="../shop-item/index.shtml"-->
 		</div>
 	</div>
+
 </div>

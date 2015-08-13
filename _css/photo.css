@@ -36,25 +36,8 @@
 }
 
 
-.page_gallery .column-left {
-    width: 20%;
-    padding-right: 20px;
-}
-
-
-.page_gallery .column-right {
-    width: 24.45%;
-}
-
-.page_gallery .column-central {
-    width: auto;
-    padding: 0;
-}
 
 /* ======== Central column ======== */
-.page_gallery .top-block .table-cell .table-cell {
-    width: auto;
-}
 
 
 

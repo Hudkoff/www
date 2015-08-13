@@ -6,17 +6,18 @@
 	<link href="_css/audio.css" rel="stylesheet" type="text/css">
 
 </head>
-<body class="page_audio">
+<body class="page_audio" itemscope itemtype="http://schema.org/WebPage">
 
 	<!--#include virtual="_header.shtml"-->
-	<div class="audio-main wrapper">
-		<div class="table">
-			<aside class="table-cell column-left">
-				<!--#include virtual="sidemenu/sidemenu-audio.shtml"-->
-			</aside>
+	<div class="table COL-asym audio-main wrapper">
 
-			<div class="table-cell column-central">
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-audio.shtml"-->
+		</aside>
 
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<div class="page-header">
 				<!--#include virtual="breadcrumbs/audio-radio.shtml"-->
 				<h1>Радио Толдот</h1>
 				<br>
@@ -28,111 +29,108 @@
 					<!--#include virtual="_socials-like.shtml"-->					
 					<!--#include virtual="_socials-share.shtml"-->
 				</div>
-
-
 			</div>
 
-			<aside class="table-cell column-right">
-				
-				<div class="lenta-box">
-					<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
-					<!--#include virtual="lenta/index-02.shtml?ededed"-->
-					<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
-					<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
-					<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
-					<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
-					<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
-					<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
-					<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
-				</div>
-
-			</aside>
 		</div>
+
+		<aside class="table-cell column-right">
+			
+			<div class="lenta-box">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</div>
+
+		</aside>
+
 	</div>
 
-	<div class="audio-catalog wrapper">
-		<div class="table">
+	<div class="audio-catalog table COL-sym wrapper">
 
-			<aside class="table-cell column-left">
-				<!--#include virtual="_banner-tora.shtml"-->
-				<!--#include virtual="recommendation-link/index.shtml"-->
-			</aside>
+		<aside class="table-cell column-left">
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+		</aside>
 
-			<div class="table-cell column-central">
-				<h3 class="color-LIGHTGRAY bordered">
-					Расписание вещания
-				</h3>
-				<div class="radio-list">
-					<!--#include virtual="audio-list/index-01.shtml"-->
-					<!--#include virtual="audio-list/index-02.shtml"-->
-					<!--#include virtual="audio-list/index-03.shtml"-->
-					<!--#include virtual="audio-list/index-01.shtml"-->
-					<!--#include virtual="audio-list/index-02.shtml"-->
-					<!--#include virtual="audio-list/index-03.shtml"-->
-					<!--#include virtual="audio-list/index-01.shtml"-->
-					<!--#include virtual="audio-list/index-02.shtml"-->
-					<!--#include virtual="audio-list/index-03.shtml"-->
-					<!--#include virtual="audio-list/index-01.shtml"-->
-					<!--#include virtual="audio-list/index-02.shtml"-->
-					<!--#include virtual="audio-list/index-03.shtml"-->
-				</div>
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+			<h3 class="color-LIGHTGRAY bordered">
+				Расписание вещания
+			</h3>
+			<div class="radio-list">
+				<!--#include virtual="audio-list/index-01.shtml"-->
+				<!--#include virtual="audio-list/index-02.shtml"-->
+				<!--#include virtual="audio-list/index-03.shtml"-->
+				<!--#include virtual="audio-list/index-01.shtml"-->
+				<!--#include virtual="audio-list/index-02.shtml"-->
+				<!--#include virtual="audio-list/index-03.shtml"-->
+				<!--#include virtual="audio-list/index-01.shtml"-->
+				<!--#include virtual="audio-list/index-02.shtml"-->
+				<!--#include virtual="audio-list/index-03.shtml"-->
+				<!--#include virtual="audio-list/index-01.shtml"-->
+				<!--#include virtual="audio-list/index-02.shtml"-->
+				<!--#include virtual="audio-list/index-03.shtml"-->
 			</div>
-
-			<aside class="table-cell column-right">
-
-				<section class="testLight">
-					<h3 class="color-PHOTO arrowed bordered">
-						<a href="#" title="">
-							Фото
-							<b>&#9670;</b>
-						</a>
-					</h3>
-					<div>
-
-						<div class="photoLink">
-							<div class="image">
-								<a href="#" title="">
-									<img src="images/photo-1.jpg" alt="В Израиле 2014">
-								</a>
-							</div>
-							<h6>В Израиле 2014</h6>
-							<div class="info">
-								28 марта, <b>Рав Моше Пантелят</b>
-							</div>
-						</div>
-						<div class="photoLink">
-							<div class="image">
-								<a href="#" title="">
-									<img src="images/photo-2.jpg" alt="Выставка народного творчества">
-								</a>
-							</div>
-							<h6>Выставка народного творчества</h6>
-							<div class="info">
-								28 марта, <b>Рав Моше Пантелят</b>
-							</div>
-						</div>
-
-
-					</div>
-				</section>
-
-				<section>
-					<h3 class="color-LEARNING arrowed bordered">
-						<a href="#" title="">
-							Тесты
-							<b>&#9670;</b>
-						</a>
-					</h3>
-					<div>
-						<!--#include virtual="tests/index-01.shtml"-->
-						<!--#include virtual="tests/index-02.shtml"-->
-					</div>
-				</section>
-
-
-			</aside>
-
 		</div>
+
+		<aside class="table-cell column-right">
+
+			<section class="testLight">
+				<h3 class="color-PHOTO arrowed bordered">
+					<a href="#" title="">
+						Фото
+						<b>&#9670;</b>
+					</a>
+				</h3>
+				<div>
+
+					<div class="photoLink">
+						<div class="image">
+							<a href="#" title="">
+								<img src="images/photo-1.jpg" alt="В Израиле 2014">
+							</a>
+						</div>
+						<h6>В Израиле 2014</h6>
+						<div class="info">
+							28 марта, <b>Рав Моше Пантелят</b>
+						</div>
+					</div>
+					<div class="photoLink">
+						<div class="image">
+							<a href="#" title="">
+								<img src="images/photo-2.jpg" alt="Выставка народного творчества">
+							</a>
+						</div>
+						<h6>Выставка народного творчества</h6>
+						<div class="info">
+							28 марта, <b>Рав Моше Пантелят</b>
+						</div>
+					</div>
+
+
+				</div>
+			</section>
+
+			<section>
+				<h3 class="color-LEARNING arrowed bordered">
+					<a href="#" title="">
+						Тесты
+						<b>&#9670;</b>
+					</a>
+				</h3>
+				<div>
+					<!--#include virtual="tests/index-01.shtml"-->
+					<!--#include virtual="tests/index-02.shtml"-->
+				</div>
+			</section>
+
+		</aside>
+
 	</div>
 
 	<!--#include virtual="_banner-wide-toldot.shtml"-->

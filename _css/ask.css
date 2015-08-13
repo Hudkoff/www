@@ -16,13 +16,7 @@
 .page_ask .ask-main h3 {
 	color: #b38d39;
 }
-.page_ask .ask-main .column-central {
-	background: #f7f2e7;
-	border-color: #e5e5e5;
-}
-.page_ask .audio-catalog .audio-list-wrapper {
-	background: #f7f2e7;
-}
+
 .page_ask .ask-main .column-central h3 {
 	color: #000;
 }
@@ -40,17 +34,7 @@
 .ask-main {
 	margin-bottom: 25px;
 }
-.ask-main .column-left {
-	width: 20%;
-	padding-right: 20px;
-}
-.ask-main .column-right {
-	width: 25.45%;
-}
-.ask-main .column-central {
-	padding: 20px;
-	width: auto;
-}
+
 .ask-main .column-central .column-left {
 	width: 57%;
 	padding: 0;

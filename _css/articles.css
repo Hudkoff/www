@@ -33,23 +33,7 @@
     background-position: 93% 10%;
 }
 
-.page_articles .column-left {
-    width: 20%;
-    padding-right: 20px;
-}
 
-
-.page_articles .column-right {
-    width: 20%;
-}
-.page_articles .articles-main .column-right {
-    width: 25.45%;
-}
-
-.page_articles .column-central {
-    width: auto;
-    padding: 0;
-}
 
 /* ======== Central column ======== */
 .page_articles .articles-main .table-cell .table-cell {
@@ -76,10 +60,7 @@
     color: #727272;
 }
 
-.articles-column {
-    padding: 20px !important;
-    background-color: #f7f7f7;
-}
+
 .page_articles .article-link {
     padding: 20px 0;
 }
@@ -155,53 +136,47 @@
     margin-bottom: 10px;
 }
 
-.article-header {
-    background-color: #f7f7f7;
-    padding: 15px 20px;
-}
-
-.article-header h2 {
-    color: #000;
+.page-header h2 {
     margin-bottom: 7px;
 }
 
-.article-header img {
+.page-header img {
     float: left;
     margin: 0 20px 5px 0;
 }
-.article-header .details {
+.page-header .details {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #6c6c6c;
     margin-bottom: 5px;
 }
-.article-header .authorBlock {
+.page-header .authorBlock {
     width: 33%;
 }
-.article-header .authorBlock img {
+.page-header .authorBlock img {
     margin-bottom: 5px;
 }
-.article-header .authorBlock .heading {
+.page-header .authorBlock .heading {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #6c6c6c;
 }
-.article-header .authorBlock .heading span {
+.page-header .authorBlock .heading span {
     display: block;
     font-family: 'Noto Serif', serif;
     font-size: 14px;
     font-weight: bold;
     color: #000;
 }
-.article-header .authorBlock .links {
+.page-header .authorBlock .links {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 1.4;
 }
-.article-header .authorBlock .links .about a {color: #333333}
-.article-header .authorBlock .links .all-cycles a {color: #792fb7}
-.article-header .authorBlock .links .answers a {color: #b7792f}
-.article-header .authorBlock .links .audios a {color: #719826}
+.page-header .authorBlock .links .about a {color: #333333}
+.page-header .authorBlock .links .all-cycles a {color: #792fb7}
+.page-header .authorBlock .links .answers a {color: #b7792f}
+.page-header .authorBlock .links .audios a {color: #719826}
 
 .article-body {
     padding: 15px;

@@ -6,12 +6,121 @@
 	<link href="_css/ask.css" rel="stylesheet" type="text/css">
 
 </head>
-<body class="page_ask">
+<body class="page_ask" itemscope itemtype="http://schema.org/WebPage">
+
 	<!--#include virtual="_header.shtml"-->
 
-	<!--#include virtual="ask/ask-main.shtml"-->
+	<div class="table COL-asym ask-main wrapper">
 
-	<!--#include virtual="ask/ask-catalog.shtml"-->
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-ask.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<div class="page-header">
+				<!--#include virtual="breadcrumbs/ask.shtml"-->
+
+				<div class="table">
+
+					<div class="table-cell column-left">
+						<div class="audiolessons">
+							<h1>Спросить раввина</h1>
+							<div class="audio-lessons-summary">
+								<p><span>20 567</span> вопросов, <span>358</span> раввинов отвечают</p>
+							</div>
+							<!--#include virtual="ask/ask-buttons.shtml"-->
+							<div class="audiolessons-list">
+								<!--#include virtual="audio-link/index-61.shtml"-->
+								<!--#include virtual="audio-link/index-62.shtml"-->
+							</div>
+						</div>
+					</div>
+
+					<div class="table-cell column-right">
+						<h3 class="color-LIGHTGRAY bordered">Популярное</h3>
+						<div>
+							<!--#include virtual="article-link/index-61.shtml"-->
+							<!--#include virtual="article-link/index-62.shtml"-->
+							<!--#include virtual="article-link/index-63.shtml"-->
+							<!--#include virtual="article-link/index-61.shtml"-->
+							<!--#include virtual="article-link/index-63.shtml"-->
+						</div>
+					</div>
+
+				</div>
+			</div>	
+			
+		</div>
+
+		<aside class="table-cell column-right">
+			<!--#include virtual="video-live/index.shtml"-->
+			
+			<div class="lenta-box">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</div>
+		</aside>
+
+	</div>
+
+
+	<div class="table COL-sym audio-catalog wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="_family-questions.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
+		
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<!--#include virtual="tag-cloud/index-short.shtml"-->
+
+			<div class="audio-list-wrapper page-header">
+				<h3 class="color-ASK bordered">Вопросы Раввину</h3>
+				<ul class="audio-filters">
+					<li class="author"><span>Автор</span></li>
+					<li class="date"><span>Дата</span></li>
+					<li class="title"><span>Название</span></li>
+				</ul>
+				<div class="audio-list">
+					<!--#include virtual="audio-link/index-41.shtml"-->
+					<!--#include virtual="audio-link/index-42.shtml"-->
+					<!--#include virtual="audio-link/index-43.shtml"-->
+					<!--#include virtual="audio-link/index-44.shtml"-->
+					<!--#include virtual="audio-link/index-45.shtml"-->
+					<!--#include virtual="audio-link/index-46.shtml"-->
+					<!--#include virtual="audio-link/index-47.shtml"-->
+					<!--#include virtual="audio-link/index-48.shtml"-->
+				</div>
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+			</div>
+
+		</div>
+
+		<aside class="table-cell column-right">
+			<section class="clearfix">
+				<h3 class="color-ASK arrowed bordered">
+					<a href="#" title="">
+						Раввины
+						<b>&#9670;</b>
+					</a>
+				</h3> 
+				<!--#include virtual="people-list/index-2.shtml"-->
+				<a href="#" class="more">Все раввины</a>
+			</section>
+		</aside>
+
+	</div>
 
 	<!--#include virtual="_banner-wide-toldot.shtml"-->
 

@@ -17,18 +17,7 @@
 .audio-main {
 	margin-bottom: 25px;
 }
-.audio-main .column-left {
-	width: 20%;
-	padding-right: 20px;
-}
-.audio-main .column-right {
-	width: 25.45%;
-}
-.audio-main .column-central {
-	padding: 20px;
-	width: auto;
-	background: #faf9e6;
-}
+
 .audio-main .column-central .column-left {
 	width: 57%;
 	padding: 0;
@@ -75,17 +64,6 @@
 }
 
 
-.audio-catalog .column-left {
-	width: 20%;
-	padding: 0 20px 0 0;
-}
-.audio-catalog .column-right {
-	width: 20%;
-}
-.audio-catalog .column-central {
-	width: auto;
-	padding: 0;
-}
 
 .audio-catalog .column-right .more {
 	float: right;
@@ -160,10 +138,7 @@
 
 
 
-.page_audio .page-header {
-	background: #faf9e6;
-	padding: 20px;
-}
+
 .page_audio .audio-name {
 	margin-bottom: 20px;
 }

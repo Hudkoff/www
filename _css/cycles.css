@@ -8,19 +8,6 @@
 @import "_catalog.css";
 @import "_authors-list.css";
 
-.page_cycles .column-left {
-    width: 20%;
-    padding-right: 20px;
-}
-
-.page_cycles .column-right {
-    width: 20%;
-}
-
-.page_cycles .column-central {
-    width: auto;
-    padding: 0;
-}
 
 /* ============================================================================== */
 
