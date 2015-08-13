@@ -68,7 +68,7 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<!--#include virtual="tag-cloud/index-short.shtml"-->
+			<!--#include virtual="tabs/family.shtml"-->
 
 			<section class="articles-catalog-wrapper">
 

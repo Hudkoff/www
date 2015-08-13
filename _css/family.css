@@ -8,6 +8,7 @@
 @import "_lenta.css";
 @import "_authors-list.css";
 @import "_audio-link.css";
+@import "_tabs.css";
 
 .page_family {
     margin-bottom: 20px;
