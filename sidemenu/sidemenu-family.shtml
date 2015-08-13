@@ -1,0 +1,18 @@
+<section class="sidemenu">
+    <ul class="first-level-nav">
+        <li>
+            <h3>Статьи</h3>
+            <ul class="second-level-nav">
+                <li><a href="#" title="Недельные главы Торы">Еврейский закон</a></li>
+                <li><a href="#" title="Пятикнижие Торы">Устная Тора</a></li>
+                <li><a href="#" title="Пророки">Тайная Тора</a></li>
+                <li><a href="#" title="Писания">613 заповедей</a></li>
+                <li><a href="#" title="Талмуд">Рав Ицхак Зильбер</a></li>
+                <li><a href="#" title="Законы">Еврейский календарь</a></li>
+                <li><a href="#" title="Мусар">Ешива и синагога</a></li>
+                <li><a href="#" title="Мировоззрение">Религия — Иудаизм</a></li>
+                <li><a href="#" title="Каббала">Недельная глава</a></li>
+            </ul>
+        </li>
+    </ul>
+</section>

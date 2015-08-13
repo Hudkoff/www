@@ -1,0 +1,110 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/family.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_family" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="articles-main table COL-asym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-family.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<div class="page-header">
+				<!--#include virtual="breadcrumbs/family.shtml"-->
+
+				<h1>Семья</h1>
+
+				<div class="article-of-day">
+					<div class="topPageInfo">
+						<span>20 567</span>
+						статей,
+						<span>358</span>
+						авторов
+					</div>
+
+					<section>
+						<!--#include virtual="articles-link/index-11.shtml"-->
+						<!--#include virtual="articles-link/index-12.shtml"-->
+						<!--#include virtual="articles-link/index-13.shtml"-->
+					</section>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="column-right table-cell lenta-column">
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</section>
+		</div>
+
+	</div>
+
+
+	<div class="articles-catalog table COL-sym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="recommendation-link/index.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<!--#include virtual="tag-cloud/index-short.shtml"-->
+
+			<section class="articles-catalog-wrapper">
+
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+
+				<div>
+					<!--#include virtual="articles-link/index-12.shtml"-->
+					<!--#include virtual="articles-link/index-13.shtml"-->
+					<!--#include virtual="articles-link/index-12.shtml"-->
+					<!--#include virtual="articles-link/index-13.shtml"-->
+					<!--#include virtual="articles-link/index-12.shtml"-->
+					<!--#include virtual="articles-link/index-13.shtml"-->
+					<!--#include virtual="articles-link/index-12.shtml"-->
+					<!--#include virtual="articles-link/index-13.shtml"-->
+				</div>
+		 
+				<!--#include virtual="catalog-pagination/index.shtml"--> 
+			</section>
+
+		</div>
+
+		<aside class="table-cell column-right">
+			<!--#include virtual="_authors-list.shtml"-->
+		</aside>
+
+	</div>
+
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+	<!--#include virtual="_daytopic-title.shtml"-->
+
+	<!--#include virtual="_daytopic-family.shtml"-->
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>
