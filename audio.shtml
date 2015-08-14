@@ -83,11 +83,8 @@
 			<!--#include virtual="tag-cloud/index-short.shtml"-->
 
 			<div class="audio-list-wrapper">
-				<ul class="audio-filters">
-					<li class="author"><span>Автор</span></li>
-					<li class="date"><span>Дата</span></li>
-					<li class="title"><span>Название</span></li>
-				</ul>
+				<!--#include virtual="catalog-filters/audio.shtml"-->
+
 				<div class="audio-list">
 					<!--#include virtual="audio-link/index-21.shtml"-->
 					<!--#include virtual="audio-link/index-22.shtml"-->

@@ -10,16 +10,18 @@
 @import "_audio-link.css";
 @import "_tabs.css";
 @import "_video-live.css";
+@import "_catalog-filters.css";
 
 .page_family {
     margin-bottom: 20px;
 }
+.page_family .table.COL-sym > .table-cell.column-left,
+.page_family .table.COL-sym > .table-cell.column-right {
+    width: 17%;
+}
 .page_family .cycleAuthors h3,
 .page_family .first-level-nav h3 {
     color: #545454;
-}
-.page_family .catalog-pagination li.selected a {
-    background-color: #727272;
 }
 .page_family .tag-cloud a:hover {
     color: #545454;
@@ -38,6 +40,9 @@
 
 
 /* ======== Central column ======== */
+.page_family .articles-main {
+    margin-bottom: 20px;
+}
 .page_family .articles-main .table-cell .table-cell {
     width: auto;
 }
@@ -101,10 +106,12 @@
 }
 
 .page_family .articles-catalog-wrapper {
-    padding-top: 10px;
-    border-top: 1px solid #e5e5e5;
-    border-bottom: 1px solid #e5e5e5;
-    background-color: #f8f8f8;
+    padding: 20px;
+    background-color: #ffeeea;
+}
+.page_family .articles-catalog-wrapper h4 {
+    margin: 0 0 10px 0;
+    color: #d55940;
 }
 .page_family .articles-catalog-wrapper .catalog-pagination {
     margin: 10px auto;

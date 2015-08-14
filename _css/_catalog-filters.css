@@ -1,0 +1,32 @@
+.catalog-filters {
+	padding: 14px 0 19px;
+	font-family: 'Noto Serif', serif;
+  	border-bottom: 1px solid #e5e5e5;
+	font-size: 12px;	
+}
+.catalog-filters li {
+	margin: 0 16px;
+}
+.catalog-filters li:first-child {
+	margin-left: 0;
+}
+.catalog-filters .right {
+	float: right;
+}
+.catalog-filters .left {
+	float: left;
+}
+.catalog-filters span {
+	padding-right: 15px;
+	background: url(../images/icon-arrow.png) 100% 7px no-repeat;
+	border-bottom: 1px dotted #000;
+	color: #0a3674;
+	cursor: pointer;
+}
+.catalog-filters span:hover {
+	border: none;
+}
+
+.page_family .catalog-filters {
+	border-top: 1px solid #e5e5e5;
+}

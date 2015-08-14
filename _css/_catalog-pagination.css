@@ -60,3 +60,11 @@
 .catalog-pagination .left-button:hover {
 	background-color: #ddd;
 }
+
+
+.page_family .catalog-pagination li.selected a {
+	background: #d55940;
+}
+.page_family .catalog-pagination {
+	margin-top: 20px;
+}

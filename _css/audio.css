@@ -13,6 +13,7 @@
 @import "_radio-toldot.css";
 @import "_audio-navigation.css";
 @import "_download.css";
+@import "_catalog-filters.css";
 
 .audio-main {
 	margin-bottom: 25px;
@@ -101,33 +102,6 @@
 
 
 
-.audio-filters {
-	padding-bottom: 10px;
-	font-family: 'Noto Serif', serif;
-  	border-bottom: 1px solid #e5e5e5;
-	font-size: 12px;	
-}
-.audio-filters .author {
-	float: left;
-	width: 64px;
-}
-.audio-filters .date {
-	float: right;
-	width: 64px;
-}
-.audio-filters .title {
-	margin: 0 84px;
-}
-.audio-filters span {
-	padding-right: 15px;
-	background: url(../images/icon-arrow.png) 100% 7px no-repeat;
-	border-bottom: 1px dotted #000;
-	color: #0a3674;
-	cursor: pointer;
-}
-.audio-filters span:hover {
-	border: none;
-}
 .familyQuestion .question {
     display: block;
     margin: 15px 39px 0 0;

@@ -20,21 +20,18 @@
 			</section>
 
 			<div class="catalog">
-
-				<h3 class="content">
-					Статьи: Рош аШана
-				</h3>
-
 				<div class="content">
-					<div class="table page-articles-daytopic">
+					<div class="table">
 						<div class="table-cell">
-							<!--#include virtual="/articles-link/index-11.shtml"-->
-							<!--#include virtual="/articles-link/index-11.shtml"-->
+							<h3 class="color-ARTICLES bordered">Статьи</h3>
+							<!--#include virtual="audio-link/family-16.shtml"-->
+							<!--#include virtual="audio-link/family-17.shtml"-->
 						</div>
 						<div class="table-cell column-right">
-							<!--#include virtual="/articles-link/index-21.shtml"-->
-							<!--#include virtual="/articles-link/index-22.shtml"-->
-							<!--#include virtual="/articles-link/index-21.shtml"-->
+							<h3 class="color-FAMILY bordered">Вопросы</h3>
+							<!--#include virtual="article-link/index-81.shtml"-->
+							<!--#include virtual="article-link/index-82.shtml"-->
+							<!--#include virtual="article-link/index-83.shtml"-->
 						</div>
 					</div>
 				</div>

@@ -75,23 +75,21 @@
 			<!--#include virtual="tabs/family.shtml"-->
 
 			<section class="articles-catalog-wrapper">
-
-				<!--#include virtual="catalog-pagination/index.shtml"-->
-
+				<h4>Материалы раздела Семья</h4>
+				<!--#include virtual="catalog-filters/family.shtml"-->
 				<div>
-					<!--#include virtual="articles-link/index-12.shtml"-->
-					<!--#include virtual="articles-link/index-13.shtml"-->
-					<!--#include virtual="articles-link/index-12.shtml"-->
-					<!--#include virtual="articles-link/index-13.shtml"-->
-					<!--#include virtual="articles-link/index-12.shtml"-->
-					<!--#include virtual="articles-link/index-13.shtml"-->
-					<!--#include virtual="articles-link/index-12.shtml"-->
-					<!--#include virtual="articles-link/index-13.shtml"-->
+					<!--#include virtual="audio-link/family-11.shtml"-->
+					<!--#include virtual="audio-link/family-12.shtml"-->
+					<!--#include virtual="audio-link/family-13.shtml"-->
+					<!--#include virtual="audio-link/family-14.shtml"-->
+					<!--#include virtual="audio-link/family-11.shtml"-->
+					<!--#include virtual="audio-link/family-12.shtml"-->
+					<!--#include virtual="audio-link/family-13.shtml"-->
+					<!--#include virtual="audio-link/family-15.shtml"-->
 				</div>
-		 
-				<!--#include virtual="catalog-pagination/index.shtml"--> 
 			</section>
 
+			<!--#include virtual="catalog-pagination/index.shtml"--> 
 		</div>
 
 		<aside class="table-cell column-right">
