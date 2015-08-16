@@ -19,9 +19,9 @@
 				<a class="more" href="" title="">Читать дальше</a>
 			</section>
 
-			<div class="catalog">
+			<div class="wrapper">
 
-				<h3 class="content">
+				<h3 class="color-LIGHTGRAY bordered">
 					Статьи: Рош аШана
 				</h3>
 

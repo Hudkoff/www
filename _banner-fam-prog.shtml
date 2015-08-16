@@ -1,5 +1,5 @@
-<div class="banner-aside">
+<section>
 	<a class="banner" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
 	    <img src="images/banner-fp.jpg" style="width: 100%" alt="">
 	</a>
-</div>
+</section>

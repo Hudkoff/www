@@ -1,5 +1,5 @@
 <section class="cycleAuthors">
-	<h3>Авторы</h3>
+	<h3 class="color-LIGHTGRAY bordered">Авторы</h3>
 	<ul>
 		<li><a href="#" title="">Бурштейн Хаим</a></li>
 		<li><a href="#" title="">Вассерман Цви</a></li>

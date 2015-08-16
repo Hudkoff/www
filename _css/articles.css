@@ -12,23 +12,11 @@
 .page_articles {
     margin-bottom: 20px;
 }
-.page_articles .cycleAuthors h3,
 .page_articles .first-level-nav h3 {
     color: #545454;
 }
 .page_articles .catalog-pagination li.selected a {
     background-color: #727272;
-}
-
-
-.page-articles.daytopic-content .bg1 {
-    background-image: url("../images/content-bg_01_small.jpg");
-    background-position: 10% 94%;
-}
-
-.page-articles.daytopic-content .bg2 {
-    background-image: url("../images/content-bg_02_small.jpg");
-    background-position: 93% 10%;
 }
 
 
@@ -116,9 +104,7 @@
 .page-articles.daytopic-content .column-central .column-right {
     width: 15%;
 }
-.page-articles-daytopic {
-    border-top: 2px solid #e5e5e5;
-}
+
 .page-articles-daytopic .article-link img {
     float: left;
     margin: 0 20px 20px 0;
@@ -182,9 +168,6 @@
     padding-top: 20px;
 }
 
-.page_articles .cycles {
-    margin-top: 10px;
-}
 
 .cycles .cycles-item {
     display: block;
@@ -193,9 +176,7 @@
     padding: 15px 0;
     border-bottom: 1px solid #e5e5e5;
 }
-.cycles .cycles-item:first-child{
-    border-top: 2px solid #e5e5e5;
-}
+
 .cycles .cycles-item .details {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;

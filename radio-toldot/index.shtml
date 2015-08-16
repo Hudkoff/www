@@ -1,4 +1,4 @@
-<div class="radio-toldot">
+<section class="radio-toldot">
 	<h3>Радио Толдот</h3>
 	<ul>
 		<li class="current-audio"><a href="#" title="">
@@ -23,4 +23,4 @@
 		</a></li>
 		     
 	</ul>
-</div>
+</section>

@@ -16,14 +16,14 @@
 				<a class="more" href="" title="">Читать дальше</a>
 			</section>
 
-			<div class="galleryBlock content">
+			<div class="galleryBlock wrapper">
 			
 				<h3 class="color-LIGHTGRAY bordered">
 					Фото: Рош аШана
 				</h3>
-				
+
 			</div>
-			<div class="galleryBlock content">
+			<div class="galleryBlock wrapper">
 
 				<div class="photoBlock">
 					<div class="image folder">

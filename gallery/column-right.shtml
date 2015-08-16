@@ -26,11 +26,13 @@
 			<b>&#9670;</b>
 		</a>
 	</h3>
-	<!--#include virtual="../article-link/index-31.shtml"-->
-	<!--#include virtual="../article-link/index-32.shtml"-->
-	<!--#include virtual="../article-link/index-33.shtml"-->
-	<!--#include virtual="../article-link/index-32.shtml"-->
-	<!--#include virtual="../article-link/index-33.shtml"-->
+	<div>
+		<!--#include virtual="../article-link/index-31.shtml"-->
+		<!--#include virtual="../article-link/index-32.shtml"-->
+		<!--#include virtual="../article-link/index-33.shtml"-->
+		<!--#include virtual="../article-link/index-32.shtml"-->
+		<!--#include virtual="../article-link/index-33.shtml"-->
+	</div>
 </section>
 
 <section class="askQuestion">

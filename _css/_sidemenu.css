@@ -14,11 +14,12 @@
 .page_audio .sidemenu h4 {
     color: #c4af23;
 }
-
 .page_family .sidemenu h4 {
     color: #d55940;
 }
-
+.page_cycles .sidemenu h4 {
+    color: #b20e89;
+}
 
 
 /* структура */
