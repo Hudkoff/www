@@ -19,10 +19,10 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="page-header">
+			<div class="content_colored">
 				<!--#include virtual="breadcrumbs/articles.shtml"-->
 
-				<h1>Статьи</h1>
+				<h1 class="color-LIGHTGRAY bordered">Статьи</h1>
 
 				<div class="article-of-day">
 					<div class="topPageInfo">

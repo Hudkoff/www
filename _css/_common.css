@@ -93,6 +93,13 @@ body {
 
 
 
+
+
+
+
+
+
+
 .table-cell .table-cell {
 	width: 50%; /* перебивает ширину - при вложнности в двойную ячейку */
 }
@@ -126,21 +133,21 @@ body {
 }
 
 
-.page-header {
-	padding: 20px;
-}
-.page_audio .page-header {
-	background: #faf9e6;
-}
-.page_ask .page-header {
-	background: #f7f2e7;
-}
-.page_articles .page-header {
-    background: #f7f7f7;
-}
-.page_family .page-header {
-	background: #ffeeea;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -196,6 +203,13 @@ a:hover {
 }
 
 
+
+
+
+
+
+
+
 /* лэйблы-ленты в блоках статей: "фото", "видео" и т.д. */
 .label {
 	padding: 0 3px;
@@ -242,6 +256,11 @@ a:hover {
   margin: 0 auto;
   max-width: 1223px;
 }
+
+
+
+
+
 
 
 
@@ -337,11 +356,7 @@ input[type="submit"]:hover {
 	opacity: .85;
 }
 
-
-
-
 /* поиск по тэгам */
-
 .tag-search input[type="text"] {
     border: 2px solid #e1e1e1;
     padding: 15px;
@@ -399,6 +414,13 @@ input[type="submit"]:hover {
 	text-decoration: underline;
 }
 
+
+
+
+
+
+
+
 /* лэйблы, чекбоксы, радиобатоны */
 label {
 	color: #747474;
@@ -444,18 +466,9 @@ label.radioWrap {
 }
 
 
-.topPageInfo {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding-top: 10px;
-	border-top: 2px solid #e5e5e5;
-}
 
-.topPageInfo span {
-	font-weight: bold;
-}
+
+
 
 
 
@@ -463,7 +476,6 @@ label.radioWrap {
 
 
 /* AUTOCOMPLETE */
-
 .ui-helper-hidden-accessible {
 	display: none;
 }
@@ -500,6 +512,8 @@ label.radioWrap {
 .ui-menu-item:nth-child(n+6) {
 	display: none;
 }
+
+
 
 
 
@@ -575,3 +589,82 @@ label.radioWrap {
 	text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article-body .top-quote {
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    color: #676767;
+    font-size: 14px;
+}
+.article-body p {
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.article-body ul {
+    list-style: decimal outside;
+    margin-left: 30px;
+}
+.article-body li {
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.article-body h4 {
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.article-body img {
+    display: block;
+    margin-bottom: 20px;
+}
+.article-body .quote {
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    vertical-align: middle;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.article-body .quote span {
+    color: #1159a9;
+    font-size: 36px;
+    line-height: 28px;
+    vertical-align: bottom;
+}
+.article-body .openQuote {
+    color: #1159a9;
+    font-family: 'Noto Serif', serif;
+    font-size: 36px;
+    line-height: 20px;
+    margin-top: 20px;
+    vertical-align: bottom;
+    float: left;
+}
+.article-body .tags {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #717171;
+    margin-top: 25px;
+}

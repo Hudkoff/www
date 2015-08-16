@@ -15,10 +15,6 @@
 .page_family {
     margin-bottom: 20px;
 }
-.page_family .table.COL-sym > .table-cell.column-left,
-.page_family .table.COL-sym > .table-cell.column-right {
-    width: 17%;
-}
 .page_family .cycleAuthors h3,
 .page_family .first-level-nav h3 {
     color: #545454;
@@ -51,9 +47,7 @@
 }
 
 
-.page_family h1 {
-    color: #d55940;
-}
+
 
 .page_family .search {
     position: relative;
@@ -63,9 +57,17 @@
 }
 
 
-.page_family .topPageInfo span {
+.page_family .topPageInfo b {
     color: #727272;
 }
+.topPageInfo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
 
 
 .page_family .article-link {
@@ -144,49 +146,49 @@
     margin-bottom: 10px;
 }
 
-.page-header h2 {
+.content_colored h2 {
     margin-bottom: 7px;
 }
 
-.page-header img {
+.content_colored img {
     float: left;
     margin: 0 20px 5px 0;
 }
-.page-header .details {
+.content_colored .details {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #6c6c6c;
     margin-bottom: 5px;
 }
-.page-header .authorBlock {
+.content_colored .authorBlock {
     width: 33%;
 }
-.page-header .authorBlock img {
+.content_colored .authorBlock img {
     margin-bottom: 5px;
 }
-.page-header .authorBlock .heading {
+.content_colored .authorBlock .heading {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #6c6c6c;
 }
-.page-header .authorBlock .heading span {
+.content_colored .authorBlock .heading span {
     display: block;
     font-family: 'Noto Serif', serif;
     font-size: 14px;
     font-weight: bold;
     color: #000;
 }
-.page-header .authorBlock .links {
+.content_colored .authorBlock .links {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 1.4;
 }
-.page-header .authorBlock .links .about a {color: #333333}
-.page-header .authorBlock .links .all-cycles a {color: #792fb7}
-.page-header .authorBlock .links .answers a {color: #b7792f}
-.page-header .authorBlock .links .audios a {color: #719826}
+.content_colored .authorBlock .links .about a {color: #333333}
+.content_colored .authorBlock .links .all-cycles a {color: #792fb7}
+.content_colored .authorBlock .links .answers a {color: #b7792f}
+.content_colored .authorBlock .links .audios a {color: #719826}
 
-.page-header .askQuestionButton {
+.content_colored .askQuestionButton {
     float: right;
     color: #fff;
      padding: 10px 13px 8px 13px;
@@ -199,11 +201,11 @@
     cursor: pointer;
     background: #d55940;
 }
-.page-header .askQuestionButton:hover {
+.content_colored .askQuestionButton:hover {
     opacity: .8;
 }
 
-.page-header .askLink {
+.content_colored .askLink {
     color: #d55940;
     text-decoration: underline;
     text-transform: uppercase;
@@ -213,76 +215,21 @@
     float: right;
      margin: 9px 0 0 20px;
 }
-.page-header .askLink:hover {
+.content_colored .askLink:hover {
     text-decoration: none;
 }
 
-.article-body {
-    padding: 15px;
-    border: 3px solid #f8f8f8;
-    margin-bottom: 20px;
-}
-.article-body .top-quote {
-    font-family: 'Noto Serif', serif;
-    font-style: italic;
-    color: #676767;
-    font-size: 14px;
-}
-.article-body p {
-    font-family: 'Noto Serif', serif;
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 20px;
-}
-.article-body ul {
-    list-style: decimal outside;
-    margin-left: 30px;
-}
-.article-body li {
-    font-family: 'Noto Serif', serif;
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 20px;
-}
-.article-body h4 {
-    font-family: 'Noto Serif', serif;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    line-height: 20px;
-}
-.article-body img {
-    display: block;
-    margin-bottom: 20px;
-}
-.article-body .quote {
-    margin-left: 30px;
-    font-size: 18px;
-    line-height: 25px;
-    vertical-align: middle;
-    margin-bottom: 50px;
-    margin-top: 30px;
-}
-.article-body .quote span {
-    color: #1159a9;
-    font-size: 36px;
-    line-height: 28px;
-    vertical-align: bottom;
-}
-.article-body .openQuote {
-    color: #1159a9;
-    font-family: 'Noto Serif', serif;
-    font-size: 36px;
-    line-height: 20px;
-    margin-top: 20px;
-    vertical-align: bottom;
-    float: left;
-}
-.article-body .tags {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    color: #717171;
-    margin-top: 25px;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

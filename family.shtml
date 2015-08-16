@@ -19,10 +19,10 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="page-header">
+			<div class="content_colored">
 				<!--#include virtual="breadcrumbs/family.shtml"-->
 
-				<h1 class="clearfix">
+				<h1 class="color-LIGHTGRAY bordered clearfix">
 					Семья
 					<a href="#" class="askLink" title="Спросить раввина">Спросить раввина</a>
 					<a href="#" class="askQuestionButton p_ask-rav" title="Спросить семейного консультанта">Спросить семейного консультанта</a>
@@ -43,6 +43,7 @@
 
 				</div>
 			</div>
+			
 		</div>
 
 		<div class="column-right table-cell lenta-column">

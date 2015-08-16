@@ -7,15 +7,10 @@
 @import "_video-live.css";
 
 @import "_audio-link.css";
-@import "_audio-catalog.css";
 @import "_catalog-pagination.css";
 
 @import "_ask-buttons.css";
 
-.page_ask .ask-main h1,
-.page_ask .ask-main h3 {
-	color: #b38d39;
-}
 
 .page_ask .ask-main .column-central h3 {
 	color: #000;
@@ -42,11 +37,6 @@
 .ask-main .lenta-box {
 	border: 2px solid #ddd;
 	margin-bottom: 20px;
-}
-.ask-main .column-central h1,
-.ask-main .column-central h3 {
-	padding-bottom: 10px;
-	border-bottom: 2px solid #d6ddcf;
 }
 .ask-main .column-central h3 {
   	padding: 10px 0 12px 0;

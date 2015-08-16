@@ -19,16 +19,17 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="article-header">
+			<div class="content_colored">
 
 				<!--#include virtual="breadcrumbs/ask.shtml"-->
 
-				<h1 class="clearfix">
+				<h1 class="color-LIGHTGRAY clearfix bordered">
 					Спросить раввина
 					<a href="#" class="askLink" title="">Спросить семейного консультанта</a>
 					<a href="popup_ask-rav.shtml" class="askQuestionButton p_ask-rav" title="Задать Вопрос">Задать Вопрос</a>
 				</h1>
-
+				<br>
+				
 				<h4>Евреи вышли из Египта вооруженными. Откуда оружие у вчерашних рабов?</h4>
 				<p class="details">
 					10 апреля 2015, 15:29
@@ -45,7 +46,7 @@
 				</p>
 			</div>
 
-			<div class="article-content">
+			<div class="content_bordered">
 				<h6>Отвечает Рав Ашер Кушнир</h6>
 				<img class="avatar" src="images/avatar-11.jpg" alt="" />
 				<p>Уважаемый И.,

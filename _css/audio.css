@@ -27,9 +27,7 @@
 	border: 2px solid #ddd;
 	margin-bottom: 20px;
 }
-.page_audio h1 {
-	color: #c4af23;
-}
+
 .audio-main .column-central h3 {
   	padding: 10px 0 12px 0;
 }
@@ -146,24 +144,26 @@
 	margin-bottom: 25px;
 }
 
-.page_audio .page-header .audio-navigation {
+.page_audio .content_colored .audio-navigation {
 	background: #f1f0dc;
 	margin-right: -20px;
 	margin-left: -20px;
 }
-.page_audio .page-header .audio-navigation .table-cell {
+.page_audio .content_colored .audio-navigation .table-cell {
 	width: 25%;
 	padding: 0 20px;
 }
-.page_audio .page-header .audio-navigation .left {
+.page_audio .content_colored .audio-navigation .left {
 	text-align: right;
 }
-.page_audio .page-header .audio-navigation .cental.left {
+.page_audio .content_colored .audio-navigation .cental.left {
 	padding-right: 10px;
 }
-.page_audio .page-header .audio-navigation .cental.right {
+.page_audio .content_colored .audio-navigation .cental.right {
 	padding-left: 10px;
 }
+
+
 .audio-useful-links {
 	font: normal 1.3rem 'Open Sans', sans-serif;
 	color: #797979;

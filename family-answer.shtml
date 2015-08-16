@@ -21,10 +21,10 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="page-header">
+			<div class="content_colored">
 				<!--#include virtual="breadcrumbs/family.shtml"-->
 
-				<h1 class="clearfix">
+				<h1 class="color-LIGHTGRAY bordered clearfix">
 					Семья
 					<a href="#" class="askLink" title="Спросить раввина">Спросить раввина</a>
 					<a href="#" class="askQuestionButton p_ask-rav" title="Спросить семейного консультанта">Спросить семейного консультанта</a>
@@ -46,7 +46,7 @@
 
 			</div>
 
-			<div class="article-content">
+			<div class="content_bordered">
 				<h6>Отвечает Рав Ашер Кушнир</h6>
 				<img class="avatar" src="images/avatar-11.jpg" alt="" />
 				<p>Уважаемый И.,

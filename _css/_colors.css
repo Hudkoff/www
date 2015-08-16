@@ -114,3 +114,89 @@ h4[class ^= color] {
 	margin-left: 4px;
 	margin-right: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+.content_colored {
+	padding: 20px;
+}
+/* цвета */
+.page_audio .content_colored {
+	background: #faf9e6;
+}
+.page_ask .content_colored {
+	background: #f7f2e7;
+}
+.page_ask-article .content_colored {
+	background: #f7f2e7;
+}
+.page_articles .content_colored {
+    background: #f7f7f7;
+}
+.page_family .content_colored {
+	background: #ffeeea;
+}
+
+
+
+.content_bordered {
+	font-family: 'Noto Serif', serif;
+	border-width: 3px;
+	border-style: solid;
+	padding: 17px;
+}
+/* цвета */
+.page_ask-article .content_bordered {
+	border-color: #f7f2e7;
+}
+.page_articles .content_bordered {
+    border-color: #f7f7f7;
+}
+.page_family .content_bordered {
+	border-color: #ffeeea;
+}
+
+
+
+
+
+
+
+
+.page_ask-article h1 {
+	color: #b38d39;
+}
+.page_family h1 {
+    color: #d55940;
+}
+.page_articles h1 {
+    color: #727272;
+}
+.page_audio h1 {
+	color: #c4af23;
+}
+.page_ask h1 {
+	color: #b38d39;
+}
+.page_cycles h1 {
+    color: #b20e89;
+}
+.page_gallery h1 {
+    color: #9c5630;
+}
+
+
+
+
+
+.page_family li.ui-tabs-active a {
+	background: #ffeeea;
+}

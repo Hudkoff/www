@@ -19,14 +19,14 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="page-header">
+			<div class="content_colored">
 				<!--#include virtual="breadcrumbs/ask.shtml"-->
 
 				<div class="table">
 
 					<div class="table-cell column-left">
 						<div class="audiolessons">
-							<h1>Спросить раввина</h1>
+							<h1 class="color-LIGHTGRAY bordered">Спросить раввина</h1>
 							<div class="audio-lessons-summary">
 								<p><span>20 567</span> вопросов, <span>358</span> раввинов отвечают</p>
 							</div>
@@ -85,7 +85,7 @@
 
 			<!--#include virtual="tag-cloud/index-short.shtml"-->
 
-			<div class="audio-list-wrapper page-header">
+			<div class="audio-list-wrapper content_colored">
 				<h3 class="color-ASK bordered">Вопросы Раввину</h3>
 				<ul class="audio-filters">
 					<li class="author"><span>Автор</span></li>

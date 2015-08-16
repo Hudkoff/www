@@ -40,7 +40,7 @@
 	font-size: 33px;
 }
 
-.tags-hidden,
+/*.tags-hidden,*/
 .tags-hidden .tag-cloud_additional {
 	display: none;
 }

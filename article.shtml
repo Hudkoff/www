@@ -23,7 +23,7 @@
 
 			<!--#include virtual="breadcrumbs/article.shtml"-->
 
-			<div class="table page-header">
+			<div class="table content_colored">
 
 				<div class="table-cell column-central">
 					<img src="images/article-big.jpg" alt=""/>
@@ -62,8 +62,11 @@
 
 			</div>
 
-			<!--#include virtual="articles/article.shtml"-->
-
+			<div class="content_bordered">
+				<!--#include virtual="articles/article.shtml"-->
+			</div>
+			<br>
+			
 			<section class="related">
 				<h4 class="color-GRAY bordered">Читайте также</h4>
 				<div>

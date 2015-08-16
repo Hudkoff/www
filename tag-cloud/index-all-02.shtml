@@ -6,8 +6,8 @@
 	</form>
 
 	<div class="tags-button">
-		<span class="showTags-text">&#8595; Показать теги</span>
-		<span class="hideTags-text" style="display: none;">&#8593; Скрыть теги</span>
+		<span class="showTags-text" style="display: none;">&#8595; Показать теги</span>
+		<span class="hideTags-text">&#8593; Скрыть теги</span>
 	</div>	
 
 	<div class="tags-hidden">

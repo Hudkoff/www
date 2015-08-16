@@ -6,21 +6,21 @@
     <li><a href="#tabs-4"><span>Женщина</span></a></li>
     <li><a href="#tabs-5"><span>Знакомства</span></a></li>
   </ul>
-  <div id="tabs-1" class="tab-panel">
+  <div id="tabs-1" class="tab-panel content_bordered">
     <!--#include virtual="../tag-cloud/index-all-family.shtml"-->
   </div>
-  <div id="tabs-2" class="tab-panel">
+  <div id="tabs-2" class="tab-panel content_bordered">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem urna, sollicitudin vel diam vitae, rutrum efficitur urna. Curabitur faucibus magna a feugiat molestie. Ut eu euismod erat. Sed commodo eget mauris eget lacinia. Maecenas eu facilisis justo. Cras dolor metus, consectetur ut magna in, bibendum pretium quam. Aenean tristique erat ac posuere sollicitudin. Praesent dui elit, vulputate sit amet dignissim ac, ornare sit amet leo. Proin elementum nisi efficitur, suscipit nibh nec, pulvinar orci. Suspendisse aliquam quam magna, id gravida eros interdum in. Vivamus consectetur elementum sapien eget semper. Nunc nec ipsum congue, finibus purus sodales, finibus felis. Vestibulum odio ipsum, condimentum sed lacinia ut, cursus sed risus. Sed vulputate efficitur volutpat. Nullam imperdiet, ligula sit amet scelerisque condimentum, nibh eros lobortis leo, sollicitudin auctor turpis velit in orci. Aenean iaculis, dui in laoreet finibus, lectus augue rutrum arcu, sit amet lobortis lacus turpis id justo.</p>
   </div>
-  <div id="tabs-3" class="tab-panel">
+  <div id="tabs-3" class="tab-panel content_bordered">
     <p>Phasellus tempor sem arcu, vitae placerat libero lacinia nec. Etiam efficitur rutrum mauris in scelerisque. Suspendisse iaculis nisl eget augue tempus, id porttitor lacus lobortis. Ut feugiat nunc eros, at semper orci laoreet at. Nunc sed massa facilisis, convallis arcu at, vestibulum odio. Pellentesque nulla mi, porta pellentesque semper at, interdum nec magna. Praesent sed lectus eget nisi consectetur tempor.</p>
   </div>
-   <div id="tabs-4" class="tab-panel">
+   <div id="tabs-4" class="tab-panel content_bordered">
     <p>Nunc mattis turpis quis arcu euismod iaculis. Sed non consequat ligula. Aenean molestie sagittis turpis, ut vehicula augue feugiat a. Suspendisse potenti. Vivamus tempor lacus non arcu condimentum, at hendrerit metus vehicula. Nam bibendum arcu quis congue mattis. Pellentesque aliquam est quis velit auctor, non fringilla diam imperdiet.</p>
 
     <p>Proin sem tellus, pulvinar sed diam eget, finibus rutrum risus. Vivamus auctor non metus a aliquam. Etiam lorem neque, blandit et lectus vel, faucibus venenatis orci. Etiam et condimentum nisl. Sed feugiat id ipsum sollicitudin vestibulum. Vestibulum lobortis facilisis lacus et auctor. Proin fringilla accumsan est, in mattis risus commodo sed. Suspendisse nec lobortis quam, eu porta urna. Sed tincidunt mi at lorem dictum feugiat.</p>
   </div>
-  <div id="tabs-5" class="tab-panel">
+  <div id="tabs-5" class="tab-panel content_bordered">
     <p>In hac habitasse platea dictumst. Ut tempus elit id augue commodo, id pretium risus aliquet. Morbi nec erat condimentum, scelerisque ligula vel, sagittis erat. Vestibulum malesuada sapien sed magna viverra fermentum. Maecenas rhoncus cursus felis at gravida. Morbi venenatis molestie orci, et viverra nisl aliquam sit amet. Nam tempus ante eget eros mattis fermentum. Mauris dolor nisi, sodales ut nunc et, auctor ornare sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus ipsum nisl, tempor nec rutrum sit amet, eleifend ut velit. Integer tempus ante at lacus blandit rhoncus. Donec semper, metus id faucibus ultrices, tellus magna rutrum orci, ut tempor dolor odio in lacus. Mauris nisi est, mattis et purus quis, suscipit vulputate eros.</p>
   </div>
 </div>

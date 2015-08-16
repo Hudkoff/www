@@ -44,9 +44,6 @@
 }
 
 
-.page_articles h1 {
-    color: #727272;
-}
 
 .page_articles .search {
     position: relative;
@@ -136,114 +133,50 @@
     margin-bottom: 10px;
 }
 
-.page-header h2 {
+.content_colored h2 {
     margin-bottom: 7px;
 }
 
-.page-header img {
+.content_colored img {
     float: left;
     margin: 0 20px 5px 0;
 }
-.page-header .details {
+.content_colored .details {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #6c6c6c;
     margin-bottom: 5px;
 }
-.page-header .authorBlock {
+.content_colored .authorBlock {
     width: 33%;
 }
-.page-header .authorBlock img {
+.content_colored .authorBlock img {
     margin-bottom: 5px;
 }
-.page-header .authorBlock .heading {
+.content_colored .authorBlock .heading {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #6c6c6c;
 }
-.page-header .authorBlock .heading span {
+.content_colored .authorBlock .heading span {
     display: block;
     font-family: 'Noto Serif', serif;
     font-size: 14px;
     font-weight: bold;
     color: #000;
 }
-.page-header .authorBlock .links {
+.content_colored .authorBlock .links {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 1.4;
 }
-.page-header .authorBlock .links .about a {color: #333333}
-.page-header .authorBlock .links .all-cycles a {color: #792fb7}
-.page-header .authorBlock .links .answers a {color: #b7792f}
-.page-header .authorBlock .links .audios a {color: #719826}
+.content_colored .authorBlock .links .about a {color: #333333}
+.content_colored .authorBlock .links .all-cycles a {color: #792fb7}
+.content_colored .authorBlock .links .answers a {color: #b7792f}
+.content_colored .authorBlock .links .audios a {color: #719826}
 
-.article-body {
-    padding: 15px;
-    border: 3px solid #f8f8f8;
-    margin-bottom: 20px;
-}
-.article-body .top-quote {
-    font-family: 'Noto Serif', serif;
-    font-style: italic;
-    color: #676767;
-    font-size: 14px;
-}
-.article-body p {
-    font-family: 'Noto Serif', serif;
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 20px;
-}
-.article-body ul {
-    list-style: decimal outside;
-    margin-left: 30px;
-}
-.article-body li {
-    font-family: 'Noto Serif', serif;
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 20px;
-}
-.article-body h4 {
-    font-family: 'Noto Serif', serif;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    line-height: 20px;
-}
-.article-body img {
-    display: block;
-    margin-bottom: 20px;
-}
-.article-body .quote {
-    margin-left: 30px;
-    font-size: 18px;
-    line-height: 25px;
-    vertical-align: middle;
-    margin-bottom: 50px;
-    margin-top: 30px;
-}
-.article-body .quote span {
-    color: #1159a9;
-    font-size: 36px;
-    line-height: 28px;
-    vertical-align: bottom;
-}
-.article-body .openQuote {
-    color: #1159a9;
-    font-family: 'Noto Serif', serif;
-    font-size: 36px;
-    line-height: 20px;
-    margin-top: 20px;
-    vertical-align: bottom;
-    float: left;
-}
-.article-body .tags {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    color: #717171;
-    margin-top: 25px;
-}
+
+
 
 
 

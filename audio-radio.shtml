@@ -17,7 +17,7 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="page-header">
+			<div class="content_colored">
 				<!--#include virtual="breadcrumbs/audio-radio.shtml"-->
 				<h1>Радио Толдот</h1>
 				<br>

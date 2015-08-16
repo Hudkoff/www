@@ -55,13 +55,10 @@
 
 
 
-.article-header {
-	padding: 20px 20px 23px;
-}
-.article-header .askQuestionButton {
+.content_colored .askQuestionButton {
 	float: right;
 	color: #fff;
- 	 padding: 10px 13px 8px 13px;
+ 	padding: 10px 13px 8px 13px;
   	text-transform: uppercase;
 	text-decoration: none;
 	border-radius: 3px;
@@ -71,10 +68,10 @@
 	cursor: pointer;
 	background: #b38d39;
 }
-.article-header .askQuestionButton:hover {
+.content_colored .askQuestionButton:hover {
 	opacity: .8;
 }
-.article-header .askLink {
+.content_colored .askLink {
 	color: #b38d39;
 	text-decoration: underline;
   	text-transform: uppercase;
@@ -84,24 +81,19 @@
 	float: right;
 	 margin: 9px 0 0 20px;
 }
-.article-header .askLink:hover {
+.content_colored .askLink:hover {
 	text-decoration: none;
 }
-.article-header h1 {
-	padding-bottom: 12px;
-	border-bottom: 2px solid #e5e5e5;
-	  margin-bottom: 12px;
-}
-.article-header h4 {
+.content_colored h4 {
 	margin-bottom: 4px;
 }
-.article-header .details {
+.content_colored .details {
 	  font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
   color: #6c6c6c;
 	margin-bottom: 10px;
 }
-.article-header p {
+.content_colored p {
 	font-family: 'Noto Serif', serif;	
 	font-size: 14px;
 	line-height: 1.4;
@@ -114,27 +106,20 @@
 
 
 
-.article-content {
-	border-width: 2px;
-	border-style: solid;
-	border-top: none;
-	padding: 18px;
-	font-family: 'Noto Serif', serif;
-	margin-bottom: 30px;	
-}
-.article-content p {
+
+.content_bordered p {
 	font-size: 14px;
 	line-height: 1.4;
 	padding-bottom: 5px;
 }
-.article-content p.signature {
+.content_bordered p.signature {
 	font-style: italic; 
 }
-.article-content .avatar {
+.content_bordered .avatar {
 	float: left;
 	padding: 4px 15px 10px 0;
 }
-.article-content h6 {
+.content_bordered h6 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 12px;
@@ -150,16 +135,6 @@
 
 
 
-/* colors */
-.page_ask-article .article-header {
-	background: #f7f2e7;
-}
-.page_ask-article .article-content {
-	border-color: #f7f2e7;
-}
-.page_ask-article h1 {
-	color: #b38d39;
-}
 
 
 

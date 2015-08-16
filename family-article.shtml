@@ -23,10 +23,10 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="page-header">
+			<div class="content_colored">
 				<!--#include virtual="breadcrumbs/family.shtml"-->
 
-				<h1 class="clearfix">
+				<h1 class="color-LIGHTGRAY bordered clearfix">
 					Семья
 					<a href="#" class="askLink" title="Спросить раввина">Спросить раввина</a>
 					<a href="#" class="askQuestionButton p_ask-rav" title="Спросить семейного консультанта">Спросить семейного консультанта</a>
@@ -34,9 +34,9 @@
 
 				<div class="article-of-day">
 					<div class="topPageInfo">
-						<span>20 567</span>
+						<b>20 567</b>
 						вопросов,
-						<span>358</span>
+						<b>358</b>
 						консультантов отвечают
 					</div>
 
@@ -53,9 +53,11 @@
 				
 			</div>
 
-			<!--#include virtual="articles/article.shtml"-->
+			<div class="content_bordered">
 
+				<!--#include virtual="articles/article.shtml"-->
 
+			</div>
 
 			<h3 class="color-LIGHTGRAY bordered">В тему</h3>
 			<div class="table">
