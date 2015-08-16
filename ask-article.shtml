@@ -46,6 +46,7 @@
 				</p>
 			</div>
 
+
 			<div class="content_bordered">
 				<h6>Отвечает Рав Ашер Кушнир</h6>
 				<img class="avatar" src="images/avatar-11.jpg" alt="" />
@@ -61,6 +62,7 @@
 					<!--#include virtual="_socials-share.shtml"-->
 				</div>
 			</div>
+			<br>
 		</div>
 
 		<aside class="table-cell column-right">

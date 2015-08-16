@@ -91,3 +91,22 @@
     -moz-border-radius: 0 0 3px 3px;
     border-radius: 0 0 3px 3px;
 }
+
+.page_cycles .tag-cloud a:hover {
+    color: #b20e89;
+}
+.page_articles .tag-cloud a:hover {
+    color: #545454;
+}
+.page_ask .tag-cloud a:hover {
+	color: #b38d39;
+}
+.audio-catalog .tag-cloud a:hover {
+	color: #c4af23;
+}
+.page_family .tag-cloud a:hover {
+    color: #545454;
+}
+.page_gallery .tag-cloud a:hover {
+    color: #9c5630;
+}

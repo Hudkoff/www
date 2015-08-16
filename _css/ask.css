@@ -15,9 +15,7 @@
 .page_ask .ask-main .column-central h3 {
 	color: #000;
 }
-.page_ask .tag-cloud a:hover {
-	color: #b38d39;
-}
+
 .page_ask .catalog-pagination li.selected a {
 	background: #b38d39;
 }

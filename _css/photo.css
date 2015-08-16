@@ -13,9 +13,7 @@
 .page_gallery .catalog-pagination li.selected a {
     background-color: #9c5630;
 }
-.page_gallery .tag-cloud a:hover {
-    color: #9c5630;
-}
+
 
 .page_gallery .topPageInfo span {
     color: #9c5630;

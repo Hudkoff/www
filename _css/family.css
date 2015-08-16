@@ -19,19 +19,7 @@
 .page_family .first-level-nav h3 {
     color: #545454;
 }
-.page_family .tag-cloud a:hover {
-    color: #545454;
-}
 
-.page-family.daytopic-content .bg1 {
-    background-image: url("../images/content-bg_01_small.jpg");
-    background-position: 10% 94%;
-}
-
-.page-family.daytopic-content .bg2 {
-    background-image: url("../images/content-bg_02_small.jpg");
-    background-position: 93% 10%;
-}
 
 
 

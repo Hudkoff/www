@@ -19,9 +19,7 @@
 .page_articles .catalog-pagination li.selected a {
     background-color: #727272;
 }
-.page_articles .tag-cloud a:hover {
-    color: #545454;
-}
+
 
 .page-articles.daytopic-content .bg1 {
     background-image: url("../images/content-bg_01_small.jpg");

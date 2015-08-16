@@ -3,7 +3,7 @@
 	<div class="bg1"></div>
 	<div class="bg2"></div>
 
-	<div class="table">
+	<div class="table COL-sym">
 
 		<aside class="table-cell column-left">
 			<!--#include virtual="intopic/index.shtml"-->

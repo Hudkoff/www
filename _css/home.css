@@ -14,12 +14,12 @@
 	margin-bottom: 20px;
 }
 /* перебиваем ширины универсальной табличной модели */
-.block-a .column-left {
+/*.block-a .column-left {
 	width: auto;
-}
-.block-a .column-right {
+}*/
+/*.block-a .column-right {
 	width: 25.45%;
-}
+}*/
 .block-a .slider-box {
 	width: auto;
 }

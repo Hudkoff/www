@@ -58,9 +58,7 @@
 .audio-catalog .catalog-pagination li.selected a {
 	background-color: #c4af23;
 }
-.audio-catalog .tag-cloud a:hover {
-	color: #c4af23;
-}
+
 
 
 
@@ -165,7 +163,7 @@
 
 
 .audio-useful-links {
-	font: normal 1.3rem 'Open Sans', sans-serif;
+	font: normal 13px 'Open Sans', sans-serif;
 	color: #797979;
 }
 .audio-useful-links .right {

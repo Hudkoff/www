@@ -1,9 +1,9 @@
-<div class="daytopic-content wrapper page-family">
+<div class="daytopic-content wrapper">
 
 	<div class="bg1"></div>
 	<div class="bg2"></div>
 
-	<div class="table">
+	<div class="table COL-sym">
 
 		<aside class="table-cell column-left">
 			<!--#include virtual="intopic/index.shtml"-->
@@ -20,12 +20,13 @@
 			</section>
 
 			<div class="catalog">
-				<div class="content">
-					<div class="table">
+					<div class="table wrapper">
 						<div class="table-cell">
 							<h3 class="color-ARTICLES bordered">Статьи</h3>
-							<!--#include virtual="audio-link/family-16.shtml"-->
-							<!--#include virtual="audio-link/family-17.shtml"-->
+							<div>
+								<!--#include virtual="audio-link/family-16.shtml"-->
+								<!--#include virtual="audio-link/family-17.shtml"-->
+							</div>
 						</div>
 						<div class="table-cell column-right">
 							<h3 class="color-FAMILY bordered">Вопросы</h3>
@@ -34,7 +35,6 @@
 							<!--#include virtual="article-link/index-83.shtml"-->
 						</div>
 					</div>
-				</div>
 			</div>
 
 		</div>

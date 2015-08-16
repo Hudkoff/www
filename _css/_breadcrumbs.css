@@ -5,7 +5,7 @@
 }
 .bread-crumbs li {
 	display: inline-block;
-	font: normal 1.3rem 'Open Sans', sans-serif;
+	font: normal 13px 'Open Sans', sans-serif;
 }
 .bread-crumbs li a {
 	color: #8f9398;
