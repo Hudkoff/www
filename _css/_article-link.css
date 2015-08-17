@@ -54,6 +54,12 @@
 	font-size: 14px;
 	line-height: 1.4;
 }
+.article-link .content {
+	font-size: 1.3rem;
+}
+.article-link .content .more {
+	margin-left: 0;
+}
 
 .favourite .description {
 	line-height: 1.6;
