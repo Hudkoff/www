@@ -1,0 +1,11 @@
+<div class="contacts-list">
+	<h3>Подготовка к свадьбе</h3>
+	<div class="content_colored">
+		<h3 class="color-FAMILY bordered clearfix">Женщины</h3>
+		<ul>
+			<!--#include virtual="../contact-item/index-04.shtml"-->
+			<!--#include virtual="../contact-item/index-05.shtml"-->
+			<!--#include virtual="../contact-item/index-06.shtml"-->
+		</ul>
+	</div>	
+</div>

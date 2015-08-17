@@ -1,0 +1,16 @@
+<div class="contact-item">
+	<div class="photo" style="background-image: url('images/avatar-51.jpg')">
+		<a href="#"></a>
+	</div>
+	<div class="info-container clearfix">
+		<p class="contact-city">Модиин Илит</p>
+		<h4>Мириам (Маша) Яглом</h4>
+		<p class="contacts">
+			<a class="tel" href="tel:052-768-14-88">052-768-14-88</a>,
+			<a href="mailto:zvikaplan@gmail.com">zvikaplan@gmail.com</a>
+		</p>
+		<div class="description">
+			<p>Опыт работы психотерапевтом в Америке с 1992 года: с детьми, подростками, взрослыми, пожилыми людьми, супружескими парами, и семьями. Место основной работы — амбулаторная психиатрическая клиника для взрослых при Монтефиоре Медицинском Центре (Montefiore Medical Center in the Bronx); частная практика — в Вудмере (Woodmere, Five Towns).</p>
+		</div>
+	</div>
+</div>
