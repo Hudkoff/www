@@ -58,6 +58,7 @@
 				<!--#include virtual="articles/article.shtml"-->
 
 			</div>
+			<br>
 
 			<h3 class="color-LIGHTGRAY bordered">В тему</h3>
 			<div class="table">
@@ -83,7 +84,20 @@
 		</div>
 
 		<div class="column-right table-cell lenta-column">
-			<!--#include virtual="_family-questions.shtml"-->
+
+		 	<!--#include virtual="reminder/family-consult.shtml"-->
+			<!--#include virtual="_banner-fam-prog.shtml"-->
+			<!--#include virtual="_banner-fam-cons.shtml"-->
+
+			<section>
+				<h4 class="color-FAMILY bordered">Семья</h4>
+				<div>
+					<!--#include virtual="article-link/family-consult-11.shtml"-->
+					<!--#include virtual="article-link/family-consult-11.shtml"-->
+					<!--#include virtual="article-link/family-consult-11.shtml"-->
+				</div>
+			</section>
+
 		</div>
 
 	</div>

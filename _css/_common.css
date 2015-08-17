@@ -162,7 +162,49 @@ body {
 
 
 
+.topPageInfo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.page_family .topPageInfo b {
+    color: #d55940;
+}
+.page_ask .topPageInfo b {
+    color: #b38d39;
+}
+.page_audio .topPageInfo b {
+    color: #c4af23;
+}
+.page_gallery .topPageInfo b {
+    color: #9c5630;
+}
+.page_articles .topPageInfo b {
+    color: #727272;
+}
 
+
+.content_bordered p {
+	font-size: 14px;
+	line-height: 1.4;
+	padding-bottom: 5px;
+}
+.content_bordered p.signature {
+	font-style: italic; 
+}
+.content_bordered .avatar {
+	float: left;
+	padding: 4px 15px 10px 0;
+}
+.content_bordered h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #6c6c6c;
+	margin-bottom: 5px;
+
+}
 
 
 

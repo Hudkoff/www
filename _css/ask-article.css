@@ -107,26 +107,7 @@
 
 
 
-.content_bordered p {
-	font-size: 14px;
-	line-height: 1.4;
-	padding-bottom: 5px;
-}
-.content_bordered p.signature {
-	font-style: italic; 
-}
-.content_bordered .avatar {
-	float: left;
-	padding: 4px 15px 10px 0;
-}
-.content_bordered h6 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	font-size: 12px;
-	color: #6c6c6c;
-	margin-bottom: 5px;
 
-}
 
 
 

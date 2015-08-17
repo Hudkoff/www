@@ -48,15 +48,6 @@
 }
 
 
-.page_family .topPageInfo b {
-    color: #727272;
-}
-.topPageInfo {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
 
 
 
@@ -66,7 +57,6 @@
 }
 .page_family .article-link:first-child {
     border: none;
-    padding-top: 0;
 }
 .page_family .article-link.big-picture .description,
 .page_family .article-link.big-picture .buttons {

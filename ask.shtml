@@ -27,8 +27,8 @@
 					<div class="table-cell column-left">
 						<div class="audiolessons">
 							<h1 class="color-LIGHTGRAY bordered">Спросить раввина</h1>
-							<div class="audio-lessons-summary">
-								<p><span>20 567</span> вопросов, <span>358</span> раввинов отвечают</p>
+							<div class="topPageInfo">
+								<b>20 567</b> вопросов, <b>358</b> консультантов отвечают
 							</div>
 							<!--#include virtual="ask/ask-buttons.shtml"-->
 							<div class="audiolessons-list">

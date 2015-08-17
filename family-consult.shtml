@@ -33,13 +33,20 @@
 		</div>
 
 		<div class="column-right table-cell lenta-column">
+
 		 	<!--#include virtual="reminder/family-consult.shtml"-->
 			<!--#include virtual="_banner-fam-prog.shtml"-->
 			<!--#include virtual="_banner-fam-cons.shtml"-->
-			<h4 class="color-FAMILY bordered">Семья</h4>
-			<!--#include virtual="article-link/family-consult-11.shtml"-->
-			<!--#include virtual="article-link/family-consult-11.shtml"-->
-			<!--#include virtual="article-link/family-consult-11.shtml"-->
+
+			<section>
+				<h4 class="color-FAMILY bordered">Семья</h4>
+				<div>
+					<!--#include virtual="article-link/family-consult-11.shtml"-->
+					<!--#include virtual="article-link/family-consult-11.shtml"-->
+					<!--#include virtual="article-link/family-consult-11.shtml"-->
+				</div>
+			</section>
+			
 		</div>
 
 	</div>
