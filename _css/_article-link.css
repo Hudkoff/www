@@ -31,9 +31,9 @@
  	color: #000;
 }
 .article-link a:hover,
-.article-link:hover h6,
-.article-link:hover h5,
-.article-link:hover h4 {
+a.article-link:hover h6,
+a.article-link:hover h5,
+a.article-link:hover h4 {
 	text-decoration: underline;
 }
 
@@ -49,6 +49,9 @@
 	font-size: 12px;
 	color: #6c6c6c;
 }
+.article-link .details.part {
+	margin-bottom: 10px;
+}
 .article-link .description {
 	margin-top: 10px;
 	font-size: 14px;
@@ -59,6 +62,10 @@
 }
 .article-link .content .more {
 	margin-left: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.article-link .content h6 {
+	font-family: 'Open Sans', sans-serif;
 }
 
 .favourite .description {

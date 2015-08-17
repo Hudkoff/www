@@ -13,6 +13,7 @@
 @import "_catalog-filters.css";
 @import "_contacts-list.css";
 @import "_contact-item.css";
+@import "_reminder.css";
 
 .page_family {
     margin-bottom: 20px;
@@ -66,10 +67,6 @@
 .page_family .article-link:first-child {
     border: none;
     padding-top: 0;
-}
-.page_family .article-link img {
-    float: left;
-    margin: 0 20px 10px 0;
 }
 .page_family .article-link.big-picture .description,
 .page_family .article-link.big-picture .buttons {
