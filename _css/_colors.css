@@ -200,3 +200,11 @@ h4[class ^= color] {
 .page_family li.ui-tabs-active a {
 	background: #ffeeea;
 }
+
+
+
+
+.attention {
+	font-weight: 700;
+	color: #e70000;
+}
