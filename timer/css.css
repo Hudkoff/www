@@ -17,6 +17,9 @@ body {
 	background: #e3c535;
 }
 .ahtung {
+	background: #c00c36;
+}
+.flicker {
 	animation: flicker 0.8s infinite;
 	-webkit-animation: flicker 0.8s infinite;
 }
@@ -49,7 +52,7 @@ a {
 	margin: 1px 11px;
 	color: inherit;
 	text-decoration: none;
-	width: 100px;
+	width: 140px;
 }
 a:hover {
 	border: 2px solid #fff;

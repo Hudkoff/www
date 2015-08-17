@@ -27,6 +27,7 @@ $(document).ready(function(){
 
 		var start = _this.attr("data-start");
 		var alert = _this.attr("data-alert");
+		var ahtung = _this.attr("data-ahtung");
 
 
 		if (!_this.hasClass("active")) {
@@ -34,7 +35,7 @@ $(document).ready(function(){
 			clearInterval(slidertimer);
 			display.text( format(start) );
 			$(".active").removeClass("active paused");
-			$("body").removeClass("alert ahtung");
+			$("body").removeClass("alert ahtung flicker");
 
 			_this.addClass("active");
 
@@ -46,9 +47,12 @@ $(document).ready(function(){
 				if (i <= alert) {
 					$("body").addClass("alert");
 				}
+				if (i <= ahtung) {
+					$("body").addClass("ahtung");
+				}
 				if (i == 0) {
 					clearInterval(slidertimer);
-					$("body").addClass("ahtung");
+					$("body").addClass("flicker");
 				}
 				display.text( format(i) );
 			}, 1000);
@@ -63,9 +67,12 @@ $(document).ready(function(){
 					if (i <= alert) {
 						$("body").addClass("alert");
 					}
+					if (i <= ahtung) {
+						$("body").addClass("ahtung");
+					}
 					if (i == 0) {
 						clearInterval(slidertimer);
-						$("body").addClass("ahtung");
+						$("body").addClass("flicker");
 					}
 					display.text( format(i) );
 				}, 1000);
