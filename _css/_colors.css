@@ -148,6 +148,9 @@ h4[class ^= color] {
 .page_family .content_colored {
 	background: #ffeeea;
 }
+.page_video .content_colored {
+	background: #eaf8f0;
+}
 
 
 

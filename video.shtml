@@ -1,0 +1,59 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/video.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_video" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="articles-main table COL-sym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-family-consult.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<!--#include virtual="breadcrumbs/family-consult.shtml"-->
+
+			<h1>
+				Еврейские семейные консультанты
+			</h1>
+			<br>
+
+			<!--#include virtual="tabs/family-consult.shtml"-->
+
+		</div>
+
+		<div class="column-right table-cell lenta-column">
+
+		 	<!--#include virtual="reminder/family-consult.shtml"-->
+			<!--#include virtual="_banner-fam-prog.shtml"-->
+			<!--#include virtual="_banner-fam-cons.shtml"-->
+
+			<section>
+				<h4 class="color-FAMILY bordered">Семья</h4>
+				<div>
+					<!--#include virtual="article-link/family-consult-11.shtml"-->
+					<!--#include virtual="article-link/family-consult-11.shtml"-->
+					<!--#include virtual="article-link/family-consult-11.shtml"-->
+				</div>
+			</section>
+			
+		</div>
+
+	</div>
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>
