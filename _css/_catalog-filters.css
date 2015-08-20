@@ -1,20 +1,33 @@
 .catalog-filters {
-	padding: 14px 0 19px;
+	display: table;
+	width: 100%;
+	padding: 10px 0;
 	font-family: 'Noto Serif', serif;
   	border-bottom: 1px solid #e5e5e5;
 	font-size: 12px;	
 }
-.catalog-filters li {
-	margin: 0 16px;
+.catalog-filters > li {
+	display: table-cell;
+	padding: 0 10px;
 }
-.catalog-filters li:first-child {
-	margin-left: 0;
+.catalog-filters > li:first-child {
+	width: 64px;
+	padding-left: 0;
 }
-.catalog-filters .right {
-	float: right;
+.catalog-filters > li:last-child {
+	width: 64px;
+	padding-right: 0;
 }
-.catalog-filters .left {
-	float: left;
+
+.catalog-filters ul {
+	display: table;
+	width: 100%;
+}
+.catalog-filters ul li {
+	display: table-cell;
+}
+.catalog-filters ul li:nth-child(2){
+	width: 100px;
 }
 .catalog-filters span {
 	padding-right: 15px;
@@ -22,10 +35,17 @@
 	border-bottom: 1px dotted #000;
 	color: #0a3674;
 	cursor: pointer;
+	-webkit-transition: all 0.1s ease-out;
+	-moz-transition: all 0.1s ease-out;
+	-o-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
 }
 .catalog-filters span:hover {
-	border: none;
+	background-image: url(../images/icon-arrows.png);
+	background-position: 100% 3px;
 }
+
+
 
 .page_family .catalog-filters {
 	border-top: 1px solid #e5e5e5;

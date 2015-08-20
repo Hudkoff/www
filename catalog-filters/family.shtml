@@ -1,6 +1,9 @@
-<ul class="catalog-filters clearfix">
-	<li class="left"><span>Консультант</span></li>
-	<li class="left"><span>Подрубрика</span></li>
-	<li class="right"><span>Дата</span></li>
-	<li class="right"><span>Тип материала</span></li>
+<ul class="catalog-filters">
+	<li><span>Консультант</span></li>
+	<li>
+		<ul>
+			<li><span>Название</span></li>
+			<li><span>Тип материала</span></li>
+		</ul>
+	<li><span>Дата</span></li>
 </ul>
