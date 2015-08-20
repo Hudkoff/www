@@ -1,9 +1,9 @@
-.cycleAuthors ul {
+.authors-list ul {
     list-style: disc;
     padding: 10px 0 0 20px;
     color: #2f63b7;
 }
-.cycleAuthors li {
+.authors-list li {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 25px;

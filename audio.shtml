@@ -114,7 +114,7 @@
 						<b>&#9670;</b>
 					</a>
 				</h4>
-				<!--#include virtual="people-list/index-1.shtml"-->
+				<!--#include virtual="_authors-list.shtml"-->
 			</section>
 
 		</aside>

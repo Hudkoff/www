@@ -183,6 +183,9 @@ body {
 .page_articles .topPageInfo b {
     color: #727272;
 }
+.page_video .topPageInfo b {
+    color: #4fc77a;
+}
 
 
 .content_bordered p {

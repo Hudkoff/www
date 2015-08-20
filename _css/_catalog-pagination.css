@@ -68,3 +68,7 @@
 .page_family .catalog-pagination {
 	margin-top: 20px;
 }
+.page_video .catalog-pagination li.selected a {
+    background-color: #4fc77a;
+}
+

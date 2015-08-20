@@ -13,7 +13,7 @@
 	<div class="articles-main table COL-sym wrapper">
 
 		<aside class="table-cell column-left">
-			<!--#include virtual="sidemenu/sidemenu-family-consult.shtml"-->
+			<!--#include virtual="sidemenu/sidemenu-video.shtml"-->
 			<!--#include virtual="_banner-tora.shtml"-->
 			<!--#include virtual="recommendation-link/index.shtml"-->
 			<!--#include virtual="shop-item/index.shtml"-->
@@ -21,31 +21,60 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<!--#include virtual="breadcrumbs/family-consult.shtml"-->
+			<!--#include virtual="breadcrumbs/video.shtml"-->
 
-			<h1>
-				Еврейские семейные консультанты
+			<h1 class="color-LIGHTGRAY bordered">
+				Видеоуроки
 			</h1>
-			<br>
+			<div class="topPageInfo">
+				<b>20 567</b> видеоуроков, <b>358</b> авторов
+			</div>
 
-			<!--#include virtual="tabs/family-consult.shtml"-->
+			<!--#include virtual="tag-cloud/index-short-video.shtml"-->
+
+			<section class="content_colored articles-catalog-wrapper">
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+				<!--#include virtual="catalog-filters/video.shtml"-->
+				<div class="video-list">
+					<!--#include virtual="audio-link/family-11.shtml"-->
+					<!--#include virtual="audio-link/family-12.shtml"-->
+					<!--#include virtual="audio-link/family-13.shtml"-->
+					<!--#include virtual="audio-link/family-14.shtml"-->
+					<!--#include virtual="audio-link/family-11.shtml"-->
+					<!--#include virtual="audio-link/family-12.shtml"-->
+					<!--#include virtual="audio-link/family-13.shtml"-->
+					<!--#include virtual="audio-link/family-15.shtml"-->
+				</div>
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+			</section>
 
 		</div>
 
 		<div class="column-right table-cell lenta-column">
 
-		 	<!--#include virtual="reminder/family-consult.shtml"-->
-			<!--#include virtual="_banner-fam-prog.shtml"-->
-			<!--#include virtual="_banner-fam-cons.shtml"-->
-
+			<h3 class="color-VIDEO arrowed bordered">
+				<a href="#" title="">
+					Циклы
+					<b>&#9670;</b>
+				</a>
+			</h3>
 			<section>
-				<h4 class="color-FAMILY bordered">Семья</h4>
-				<div>
-					<!--#include virtual="article-link/family-consult-11.shtml"-->
-					<!--#include virtual="article-link/family-consult-11.shtml"-->
-					<!--#include virtual="article-link/family-consult-11.shtml"-->
-				</div>
+				<!--#include virtual="article-link/index-51.shtml"-->
+				<!--#include virtual="article-link/index-52.shtml"-->
+				<!--#include virtual="article-link/index-51.shtml"-->
+				<!--#include virtual="article-link/index-52.shtml"-->
+				<!--#include virtual="article-link/index-51.shtml"-->
+				<!--#include virtual="article-link/index-52.shtml"-->
+				<!--#include virtual="article-link/index-51.shtml"-->
 			</section>
+
+			<h3 class="color-VIDEO arrowed bordered">
+				<a href="#" title="">
+					Авторы
+					<b>&#9670;</b>
+				</a>
+			</h3>
+		 	<!--#include virtual="_authors-list.shtml"-->
 			
 		</div>
 

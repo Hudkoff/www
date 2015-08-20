@@ -1,0 +1,6 @@
+<ul class="catalog-filters clearfix">
+	<li class="left"><span>Автор</span></li>
+	<li class="left"><span>Название</span></li>
+	<li class="right"><span>Все разделы</span></li>
+	<li class="right"><span>Дата</span></li>
+</ul>

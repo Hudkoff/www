@@ -35,8 +35,8 @@ h4[class ^= color] {
 	border-bottom: 0px solid #c4af23;
 }
 .color-VIDEO {
-	color: #2c9451;
-	border-bottom: 0px solid #2c9451;
+	color: #4fc77a;
+	border-bottom: 0px solid #4fc77a;
 }
 .color-BLOG {
 	color: #3792aa;
@@ -198,6 +198,9 @@ h4[class ^= color] {
 }
 .page_gallery h1 {
     color: #9c5630;
+}
+.page_video h1 {
+    color: #4fc77a;
 }
 
 

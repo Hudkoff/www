@@ -1,0 +1,24 @@
+<section class="sidemenu">
+    <ul class="first-level-nav">
+        <li>
+            <h4><a href="#" title="Видеоуроки">Видеоуроки</a></h4>
+            <ul class="second-level-nav">
+                <li><a href="#" title="Мораль иудаизма">Мораль иудаизма</a></li>
+                <li><a href="#" title="Танах">Танах</a></li>
+                <li><a href="#" title="Суббота">Суббота</a></li>
+                <li><a href="#" title="Еврейские праздники">Еврейские праздники</a></li>
+                <li><a href="#" title="Еврейские законы">Еврейские законы</a></li>
+                <li><a href="#" title="Талмуд на грузинском">Талмуд на грузинском</a></li>
+                <li><a href="#" title="Талмуж на иврите">Талмуж на иврите</a></li>
+                <li><a href="#" title="Вебинары">Вебинары</a></li>
+                <li><a href="#" title="Только для женщин">Только для женщин</a></li>
+            </ul>
+        </li>
+        <li>
+            <h4><a href="#" title="Фильм на минутку">Фильм на минутку</a></h4>
+        </li>
+        <li>
+            <h4><a href="#" title="Видеоклипы">Видеоклипы</a></h4>
+        </li>
+    </ul>
+</section>
