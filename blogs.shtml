@@ -180,7 +180,7 @@
 				</div>
 			</section>
 
-			<!--#include virtual="photo/index.shtml"-->
+			<!--#include virtual="photos/index.shtml"-->
 		</aside>
 
 	</div>
