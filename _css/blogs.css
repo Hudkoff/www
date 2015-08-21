@@ -15,10 +15,12 @@
     color: #3792aa;
     border-bottom: 2px solid #3792aa;
 }
-.blogsLink {
+
+.page_blogs .blogsLink {
     padding: 20px 0 10px;
 }
-.blogsLink .info {
+
+.page_blogs .blogsLink .info {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #717171;
@@ -60,17 +62,30 @@
 
 .page_blogs .authors-block {
     float: right;
-    margin-left: 45px;
-    margin-bottom: 20px;
+    margin: 0 40px 20px 45px;
+    width: 75%;
+    overflow: hidden;
+    height: 40px;
+}
+
+.page_blogs .authors-expanded {
+    height: auto;
 }
 
 .page_blogs .authors-block img {
     width: 40px;
     height: 40px;
     margin-right: 20px;
+    margin-bottom: 20px;
+    display: block;
+    float: left;
 }
-
+.blogs-authors-block {
+    position: relative;
+}
 .toggle-authors {
+    position: absolute;
+    right: 0;
     display: inline-block;
     width: 40px;
     height: 40px;

@@ -438,6 +438,18 @@ $(document).ready(function() {
 
 
 
+//////////////////////////////////////////////
+// Показать-Скрыть авторов блогов
+//////////////////////////////////////////////
+
+
+$(document).ready(function() {
+	$(".toggle-authors").on('click', function () {
+		$(".authors-block").toggleClass('authors-expanded');
+	})
+});
+
+
 
 
 
