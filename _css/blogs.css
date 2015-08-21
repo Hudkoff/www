@@ -1,0 +1,121 @@
+/* стили для страницы циклов */
+@import "_tests.css";
+@import "_catalog-pagination.css";
+@import "_daytopic-title.css";
+@import "_daytopic-article.css";
+@import "_daytopic.css";
+@import "_intopic.css";
+@import "_catalog.css";
+@import "_authors-list.css";
+@import "_audio-link.css";
+
+
+/* ============================================================================== */
+
+.page_blogs .catalog-pagination li.selected a {
+    background-color: #3792aa;
+}
+
+.page_blogs .content_colored {
+    background-color: #f0f7f9;
+    padding: 0 0 1px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.page_blogs .buttonGRAY.comments {
+    background: #ebebeb url('../images/icon-comment.png') 6px 3px no-repeat;
+    cursor: pointer;
+}
+
+.page_blogs .catalog-item .catalog-info-container {
+    margin-right: 0;
+}
+
+.page_blogs .color-PHOTO {
+    color: #c50825;
+    border-bottom: 2px solid #c50825;
+}
+
+.page_blogs .top-block .column-central {
+    width: auto;
+}
+
+.page_blogs .blogs-heading-block {
+    float: left;
+}
+
+.page_blogs .authors-block {
+    float: right;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+.page_blogs .authors-block img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.toggle-authors {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(../images/icon-arrow-down.png) center center no-repeat, #f0f7f9;
+
+    cursor: pointer;
+}
+
+.recent-articles {
+    background-color: #f0f7f9;
+    padding: 20px;
+}
+
+.page_blogs h1,
+.page_blogs .recent-articles h2,
+.page_blogs .recent-articles h4 {
+    color: #3792aa;
+}
+
+.articles-block {
+    margin-top: 15px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.articles-block .table-cell {
+    width: 33.3%;
+}
+
+
+.articles-block img {
+    display: block;
+    float: left;
+    margin: 0 10px 20px 0;
+}
+
+.articles-block .article {
+    padding-right: 20px;
+}
+.articles-block .article:last-child {
+    padding-right: 0;
+}
+
+.articles-block .author {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #717171;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.article-text {
+    clear: both;
+    font-family: 'Noto Serif', serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.catalog-item:last-child {
+    border-bottom: 1px solid #e5e5e5;
+}

@@ -1,0 +1,13 @@
+<div class="catalog-wrapper content_colored">
+	<div class="catalog-list">
+
+		<!--#include virtual="../catalog-link/index-21.shtml"-->
+		<!--#include virtual="../catalog-link/index-21.shtml"-->
+		<!--#include virtual="../catalog-link/index-21.shtml"-->
+		<!--#include virtual="../catalog-link/index-21.shtml"-->
+
+	</div>
+	<!--#include virtual="../catalog-pagination/index.shtml"-->
+</div>
+
+

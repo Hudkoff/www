@@ -1,0 +1,141 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/blogs.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_blogs" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="table COL-sym top-block wrapper">
+
+		<div class="table-cell column-central">
+
+			<div class="blogs-authors-block clearfix">
+
+				<!--#include virtual="breadcrumbs/blogs.shtml"-->
+
+				<div class="blogs-heading-block">
+					<h1>Блоги</h1>
+				</div>
+
+				<div class="authors-block">
+					<img src="images/avatar-11.jpg" alt=""/>
+					<img src="images/avatar-12.jpg" alt=""/>
+					<img src="images/avatar-13.jpg" alt=""/>
+					<img src="images/avatar-21.jpg" alt=""/>
+					<img src="images/avatar-22.jpg" alt=""/>
+					<img src="images/avatar-31.jpg" alt=""/>
+					<img src="images/avatar-32.jpg" alt=""/>
+					<img src="images/avatar-33.jpg" alt=""/>
+					<img src="images/avatar-40.jpg" alt=""/>
+					<img src="images/avatar-11.jpg" alt=""/>
+					<img src="images/avatar-12.jpg" alt=""/>
+					<img src="images/avatar-13.jpg" alt=""/>
+					<div class="toggle-authors"></div>
+				</div>
+
+			</div>
+
+			<div class="recent-articles">
+				<h2>Последние записи в блогах</h2>
+
+				<div class="articles-block table">
+
+					<div class="article table-cell">
+						<img src="images/avatar-61.jpg" alt=""/>
+						<h4>Еврейский мужчина на кухне</h4>
+						<div class="author">Рав Носон Шерман</div>
+
+						<div class="article-text">
+							Знаете ли вы, что красить скорлупу яиц — вполне себе еврейский обычай? Я до недавнего времени не знал, а вот сосед, родители которого прибыли в Страну Израиля из Афганистана, рассказал. Афганские евреи используют...
+							«гримировал» куриные яйца, раскрашивая их то под помидоры, то под яблоки, то под другие фрукты и овощи...
+							<a href="#" class="more">Далее</a>
+						</div>
+						<div class="buttonGRAY comments">
+							13 Комментариев
+						</div>
+					</div>
+
+					<div class="article table-cell">
+						<img src="images/avatar-62.jpg" alt=""/>
+						<h4>Блогер-Ша. Между белым и черным</h4>
+						<div class="author">Броха Губерман</div>
+
+						<div class="article-text">
+							Торжественное открытие: «Тиш в музыкальном сопровождении» — йом ришон 10.05.2015 в 20:00 в От а-МуцарОрганизатор выставки: Ноа Лея КоэнPR: Михаль СаданДэрех Хеврон 12, ИерусалимВыставка основана на книге...
+							<a href="#" class="more">Далее</a>
+						</div>
+						<div class="buttonGRAY comments">
+							10 Комментариев
+						</div>
+					</div>
+
+					<div class="article table-cell">
+						<img src="images/avatar-63.jpg" alt=""/>
+						<h4>Коротко и ясно</h4>
+						<div class="author">Рав Мендель Агранович</div>
+
+						<div class="article-text">
+							В прошлой статье мы разбирали всякий ломдус о том, что делать в случае сафек лифнэй ивер. А теперь перейдем к практике. История, которую я слышал от одного моего американского друга: О ПОЛЯКАХ- ВОДОПРОВОДЧИКАХ...
+							<a href="#" class="more">Далее</a>
+						</div>
+						<div class="buttonGRAY comments">
+							10 Комментариев
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<aside class="table-cell column-right">
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</section>
+		</aside>
+	</div>
+
+	<div class="table COL-sym wrapper block">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+			<!--#include virtual="tag-cloud/index-all-blogs.shtml"-->
+			<!--#include virtual="blogs/column-central.shtml"-->
+		</div>
+
+		<aside class="table-cell column-right">
+			<!--#include virtual="photo/index.shtml"-->
+		</aside>
+
+	</div>
+
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+	<!--#include virtual="_daytopic-title.shtml"-->
+
+	<!--#include virtual="_daytopic-cycles.shtml"-->
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

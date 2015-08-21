@@ -81,41 +81,7 @@
 
 		<aside class="table-cell column-right">
 
-			<section class="testLight">
-				<h3 class="color-PHOTO arrowed bordered">
-					<a href="#" title="">
-						Фото
-						<b>&#9670;</b>
-					</a>
-				</h3>
-				<div>
-
-					<div class="photoLink">
-						<div class="image">
-							<a href="#" title="">
-								<img src="images/photo-1.jpg" alt="В Израиле 2014">
-							</a>
-						</div>
-						<h6>В Израиле 2014</h6>
-						<div class="info">
-							28 марта, <b>Рав Моше Пантелят</b>
-						</div>
-					</div>
-					<div class="photoLink">
-						<div class="image">
-							<a href="#" title="">
-								<img src="images/photo-2.jpg" alt="Выставка народного творчества">
-							</a>
-						</div>
-						<h6>Выставка народного творчества</h6>
-						<div class="info">
-							28 марта, <b>Рав Моше Пантелят</b>
-						</div>
-					</div>
-
-
-				</div>
-			</section>
+			<!--#include virtual="photo/index.shtml"-->
 
 			<section>
 				<h3 class="color-LEARNING arrowed bordered">
