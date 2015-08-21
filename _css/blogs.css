@@ -11,6 +11,20 @@
 
 
 /* ============================================================================== */
+.color-BLOGS {
+    color: #3792aa;
+    border-bottom: 2px solid #3792aa;
+}
+.blogsLink {
+    padding: 20px 0 10px;
+}
+.blogsLink .info {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #717171;
+    text-align: left;
+    margin: 5px 0 10px;
+}
 
 .page_blogs .catalog-pagination li.selected a {
     background-color: #3792aa;

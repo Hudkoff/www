@@ -93,11 +93,13 @@
 .page_ask .daytopic-content .column-central .column-left {
 	width: 70%;
 }
-.daytopic-content.audio-page .column-central .column-left {
+.daytopic-content.audio-page .column-central .column-left,
+.daytopic-content.blogs-page .column-central .column-left {
 	width: 69%;
 }
 
-.daytopic-content.audio-page .content .more {
+.daytopic-content.audio-page .content .more,
+.daytopic-content.blogs-page .content .more {
 	float: right;
 	margin-top:13px;
 	font: normal 13px 'Open Sans', sans-serif;

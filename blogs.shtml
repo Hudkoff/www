@@ -122,6 +122,64 @@
 		</div>
 
 		<aside class="table-cell column-right">
+
+			<section class="testLight">
+				<h3 class="color-BLOGS arrowed bordered">
+					<a href="#" title="">
+						Популярное
+						<b>&#9670;</b>
+					</a>
+				</h3>
+				<div class="blogsLink">
+					<h6>Законы седьмого года 10</h6>
+					<div class="info">
+						<b>Рав Носон Шерман</b> <br/>
+						из цикла «Уроки Пятикнижия»
+					</div>
+					<div class="buttonGRAY comments">
+						10 Комментариев
+					</div>
+				</div>
+			</section>
+
+			<section class="testLight">
+				<h3 class="color-BLOGS arrowed bordered">
+					<a href="#" title="">
+						Обсуждаемое
+						<b>&#9670;</b>
+					</a>
+				</h3>
+				<div class="blogsLink">
+					<h6>Книга Иова 43</h6>
+					<div class="info">
+						<b>Рав Носон Шерман</b> <br/>
+						из цикла «Уроки Пятикнижия»
+					</div>
+					<div class="buttonGRAY comments">
+						13 Комментариев
+					</div>
+				</div>
+			</section>
+
+			<section class="testLight">
+				<h3 class="color-BLOGS arrowed bordered">
+					<a href="#" title="">
+						Год назад
+						<b>&#9670;</b>
+					</a>
+				</h3>
+				<div class="blogsLink">
+					<h6>Книга Иова 43</h6>
+					<div class="info">
+						<b>Рав Носон Шерман</b> <br/>
+						из цикла «Уроки Пятикнижия»
+					</div>
+					<div class="buttonGRAY comments">
+						13 Комментариев
+					</div>
+				</div>
+			</section>
+
 			<!--#include virtual="photo/index.shtml"-->
 		</aside>
 
@@ -131,7 +189,7 @@
 
 	<!--#include virtual="_daytopic-title.shtml"-->
 
-	<!--#include virtual="_daytopic-cycles.shtml"-->
+	<!--#include virtual="_daytopic-blogs.shtml"-->
 
 	<!--#include virtual="_footer.shtml"-->
 
