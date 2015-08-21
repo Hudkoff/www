@@ -445,6 +445,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$(".toggle-authors").on('click', function () {
+		$(this).toggleClass('flipped');
 		$(".authors-block").toggleClass('authors-expanded');
 	})
 });

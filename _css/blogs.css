@@ -63,7 +63,7 @@
 .page_blogs .authors-block {
     float: right;
     margin: 0 40px 20px 45px;
-    width: 75%;
+    width: 72%;
     overflow: hidden;
     height: 40px;
 }
@@ -81,17 +81,22 @@
     float: left;
 }
 .blogs-authors-block {
+    padding: 20px;
     position: relative;
 }
 .toggle-authors {
     position: absolute;
-    right: 0;
+    right: 20px;
     display: inline-block;
     width: 40px;
     height: 40px;
     background: url(../images/icon-arrow-down.png) center center no-repeat, #f0f7f9;
 
     cursor: pointer;
+}
+
+.toggle-authors.flipped {
+    background: url(../images/icon-arrow-up.png) center center no-repeat, #f0f7f9;
 }
 
 .recent-articles {
