@@ -41,9 +41,11 @@
 }
 
 /*.tags-hidden,*/
-.tags-hidden .tag-cloud_additional {
+.tags-hidden .tag-cloud_additional,
+.tags-hidden .tag-cloud_aside_full {
 	display: none;
 }
+
 
 .show-all-tags-button {
 	display: block;
@@ -109,4 +111,19 @@
 }
 .page_gallery .tag-cloud a:hover {
     color: #9c5630;
+}
+.tag-cloud.tag-cloud_aside_short,
+.tag-cloud.tag-cloud_aside_full{
+	padding-top: 20px;
+}
+.asideTagsExpanded {
+	position: absolute;
+	left: 0;
+	width: 900px;
+	padding: 20px;
+	background: #fff;
+	z-index: 10;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }

@@ -681,6 +681,10 @@ label.radioWrap {
     background: #ebebeb url('../images/icon-comment.png') 6px 3px no-repeat;
 }
 
+.buttonGRAY.comment {
+	background: #ebebeb url('../images/icon-comment-1.png') 6px 9px no-repeat;
+}
+
 .buttonGRAY.true {
 	background: #d4e6c5 url('../images/icon-tick.png') 7px 5px no-repeat;	
 }

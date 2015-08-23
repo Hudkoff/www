@@ -202,6 +202,13 @@
 			</section>
 
 			<!--#include virtual="photos/index.shtml"-->
+
+			<section>
+				<a class="banner" href="">
+					<img src="images/banner-04.jpg" style="width: 100%" alt=""/>
+				</a>
+			</section>
+
 		</aside>
 
 	</div>

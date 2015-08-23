@@ -1,0 +1,20 @@
+<div class="catalog-item catalog-item-blog">
+	<div class="item-cell">
+		<div class="photo" style="background-image: url('images/avatar-13.jpg')">
+			<a href="#"></a>
+		</div>
+	</div>
+	<div class="item-table">
+		<div class="item-cell">
+			<h4><a href="#">Ароматный луковый хлеб</a></h4>
+			<p class="details">14 мая 2015, 14:02</p>
+			<p class="description">
+				<img src="/images/video-01.jpg" alt=""/>
+				<a href="#" class="more">Далее</a>
+			</p>
+			<div class="buttons">
+				<a href="#" class="buttonGRAY comments">13 Комментариев</a>
+			</div>
+		</div>
+	</div>
+</div>

@@ -477,11 +477,18 @@ tagsButton.on('click', function(){
 
 var allTagsTextToggle = $(".showAllTags-text, .hideAllTags-text"),
 	allTags = $(".tag-cloud_additional"),
-	allTagsButton = $(".show-all-tags-button");
+	allTagsButton = $(".show-all-tags-button"),
+	asideAllTagsButton = $(".tags-aside").find(".show-all-tags-button");
 
 allTagsButton.on('click', function(){
 	allTags.slideToggle();
 	allTagsTextToggle.toggle();
+});
+
+asideAllTagsButton.on('click', function() {
+	$(".tags-aside").toggleClass("asideTagsExpanded");
+	$(".tag-cloud_aside_short").toggle();
+	$(".tag-cloud_aside_full").toggle();
 });
 
 // Автоподстановка тегов
@@ -498,8 +505,12 @@ $(function() {
 
 
 
-
-
+$(".calendar").datepicker( {
+	dateFormat: "dd-mm-yy",
+	firstDay: 1,
+	monthNames: [ "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь" ],
+	dayNamesMin : [ "Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб" ]
+} );
 
 
 

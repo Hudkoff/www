@@ -1,0 +1,18 @@
+<section class="tag-search tags-aside">
+
+	<h3 class="color-BLOG arrowed bordered">
+		<a href="#" title="">
+			Теги
+			<b>&#9670;</b>
+		</a>
+	</h3>
+
+	<div class="tags-hidden">
+		<!--#include virtual="aside-short.shtml"-->
+		<!--#include virtual="aside-full.shtml"-->
+		<div class="show-all-tags-button">
+			<span class="showAllTags-text"><span class="dotted">Показать все теги</span> &#8594; </span>
+			<span class="hideAllTags-text" style="display:none;">&#8592; <span class="dotted">Свернуть все теги</span></span>
+		</div>
+	</div>
+</section>
