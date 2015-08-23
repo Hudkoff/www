@@ -16,10 +16,6 @@
     background-color: #b20e89;
 }
 
-.catalog-wrapper {
-	margin-bottom: 20px;
-}
-
 .block-title {
 	padding: 0 0 10px 0;
 	margin-bottom: 10px;
@@ -28,8 +24,4 @@
   	font-size: 20px;
   	font-weight: bold;
   	color: #b38d39;
-}
-
-.catalog-list {
-	margin-bottom: 25px;
 }
