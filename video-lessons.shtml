@@ -1,0 +1,147 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/video.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_video" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="table COL-asym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-video.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+		</aside>
+
+
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+			<div class="content_colored">
+				<!--#include virtual="breadcrumbs/video-lessons.shtml"-->
+
+				<div class="table">
+					<div class="table-cell double column-left">
+						<h1 class="color-LIGHTGRAY bordered">
+							Видеоуроки
+						</h1>
+						<div class="topPageInfo">
+							<b>20 567</b> видеоуроков, <b>358</b> авторов
+						</div>
+						<!--#include virtual="video-link/video-lessons-11.shtml"-->
+						<!--#include virtual="video-link/video-lessons-12.shtml"-->
+					</div>
+					<div class="table-cell column-right clearfix">
+						<section>
+							<h3 class="color-LIGHTGRAY bordered">Вебинары</h3>
+							<!--#include virtual="article-link/webinars-11.shtml"-->
+							<!--#include virtual="article-link/webinars-12.shtml"-->
+							<!--#include virtual="article-link/webinars-13.shtml"-->
+						</section>
+						<section>
+							<h3 class="color-LIGHTGRAY bordered">Циклы</h3>
+							<!--#include virtual="article-link/index-52.shtml"-->
+							<!--#include virtual="article-link/index-51.shtml"-->
+							<!--#include virtual="article-link/index-52.shtml"-->
+							<!--#include virtual="article-link/index-51.shtml"-->
+							<a href="#" class="more right" title="">Далее</a>
+						</section>
+					</div>
+				</div>
+			</div>
+
+			<div class="column-double">
+				<h3 class="color-LIGHTGRAY bordered">Фильм на минуту</h3>
+				<div class="table">
+					<div class="table-cell">
+						<!--#include virtual="video-link/video-lessons-15.shtml"-->
+					</div>
+					<div class="table-cell">
+						<!--#include virtual="video-link/video-lessons-16.shtml"-->
+					</div>
+					<div class="table-cell">
+						<!--#include virtual="video-link/video-lessons-17.shtml"-->
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="column-right table-cell lenta-column">
+			<!--#include virtual="video-live/video.shtml"-->
+
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</section>			
+		</div>
+
+	</div>
+	<div class="table COL-sym wrapper">
+		<aside class="table-cell column-left">
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+			<!--#include virtual="tag-cloud/index-short.shtml"-->
+
+			<section class="content_colored">
+
+				<!--#include virtual="catalog-filters/index.shtml"-->
+
+				<!--#include virtual="catalog-item/video-les-11.shtml"-->
+				<!--#include virtual="catalog-item/video-les-12.shtml"-->
+				<!--#include virtual="catalog-item/video-les-13.shtml"-->
+				<!--#include virtual="catalog-item/video-les-14.shtml"-->
+				<!--#include virtual="catalog-item/video-les-15.shtml"-->
+				<!--#include virtual="catalog-item/video-les-14.shtml"-->
+				<!--#include virtual="catalog-item/video-les-15.shtml"-->
+				<!--#include virtual="catalog-item/video-les-12.shtml"-->
+				<!--#include virtual="catalog-item/video-les-15.shtml"-->
+				<!--#include virtual="catalog-item/video-les-12.shtml"-->
+				<hr />
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+			</section>
+
+		</div>
+
+		<aside class="table-cell column-right">
+
+			<section>
+				<h4 class="color-VIDEO arrowed bordered">
+					<a href="#" title="">
+						Авторы
+						<b>&#9670;</b>
+					</a>
+				</h4>
+			 	<!--#include virtual="_authors-list.shtml"-->
+			</section>
+			<!--#include virtual="_banner-learn-tb.shtml"-->
+			<!--#include virtual="_banner-learn-tm.shtml"-->
+
+		</aside>
+	</div>
+
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+	<!--#include virtual="_daytopic-title.shtml"-->
+
+	<!--#include virtual="_daytopic-video.shtml"-->
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

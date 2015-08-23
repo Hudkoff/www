@@ -36,17 +36,6 @@
 	font-size: 1.2rem;
 	opacity: .8;
 }
-.video-link .label {
-	color: #fff;
-	position: absolute;
-	font-weight: bold;
-	left: 0px;
-	top: 0px;
-	font-size: 1.2rem;
-	background: #4fc77a;
-	padding: 5px 10px 4px;
-	display: none;
-}
 .video-link:hover .date {
 	opacity: 1;
 }
@@ -58,16 +47,60 @@
 	min-height: 86px;
 	padding: 10px;
 }
-.video-link  h6 {
+.video-link h6,
+.video-link h4 {
 	color: #000;
 	margin-bottom: 5px;
 }
-.video-link:hover  h6 {
+.video-link:hover h6,
+.video-link:hover h4 {
 	text-decoration: underline;
 }
 .video-link .details {
+	margin-bottom: 5px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.2rem;
 	color: #6c6c6c;
+}
 
+.video-link.no-border {
+	border: 0;
+}
+.video-link.big {
+	border: 0;
+}
+.video-link.big .screenshot {
+	float: none;
+	width: auto;
+	height: 265px;
+	margin: 0 0 15px 0;
+	border-radius: 4px;
+}
+.video-link.big .screenshot .icon {
+	top: 50%;
+	left: 50%;
+	width: 60px;
+	height: 63px;
+	margin: -31px 0 0 -30px;
+	background: url("../images/icon-video-big.png") bottom no-repeat;
+}
+.video-link.big .description {
+	margin: 0;
+	padding: 0;
+	min-height: 0;
+}
+
+
+.column-double .video-link.big .screenshot {
+	height: 185px;
+}
+.column-double .video-link.big .screenshot .icon {
+	background: url("../images/icon-video.png") bottom no-repeat;
+	width: 32px;
+	height: 33px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	top: auto;
+	left: auto;
 }

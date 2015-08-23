@@ -6,3 +6,9 @@
 @import "_authors-list.css";
 @import "_catalog-filters.css";
 @import "_catalog-item.css";
+@import "_video-live.css";
+@import "_video-link.css";
+
+.page_video .column-central h3 {
+  	padding: 10px 0 12px 0;
+}

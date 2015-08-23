@@ -30,14 +30,6 @@
 .page_family .articles-main {
     margin-bottom: 20px;
 }
-.page_family .articles-main .table-cell .table-cell {
-    width: auto;
-}
-.page_family .articles-main .table-cell .table-cell.lenta-column {
-    width: 32.5%;
-}
-
-
 
 
 .page_family .search {
@@ -216,13 +208,6 @@
 
 .page_family .cycles {
     margin-top: 10px;
-}
-
-.page_family .video-live {
-    border: 2px solid #4fc77a;
-}
-.page_family .video-live .title {
-    color: #4bbb73;
 }
 
 .cycles .cycles-item {

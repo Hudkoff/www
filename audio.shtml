@@ -22,15 +22,13 @@
 				<!--#include virtual="breadcrumbs/audio.shtml"-->
 				<div class="table">
 					<div class="table-cell column-left">
-						<div class="audiolessons">
-							<h1 class="color-LIGHTGRAY bordered">Аудиоуроки</h1>
-							<div class="topPageInfo">
-								<b>20 567</b> вопросов, <b>358</b> консультантов отвечают
-							</div>
-							<div class="audiolessons-list">
-								<!--#include virtual="audio-link/index-11.shtml"-->
-								<!--#include virtual="audio-link/index-12.shtml"-->
-							</div>
+						<h1 class="color-LIGHTGRAY bordered">Аудиоуроки</h1>
+						<div class="topPageInfo">
+							<b>20 567</b> вопросов, <b>358</b> консультантов отвечают
+						</div>
+						<div class="audiolessons-list">
+							<!--#include virtual="audio-link/index-11.shtml"-->
+							<!--#include virtual="audio-link/index-12.shtml"-->
 						</div>
 					</div>
 					<div class="table-cell column-right clearfix">
