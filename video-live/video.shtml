@@ -1,0 +1,12 @@
+<div class="video-live">
+	<p class="title">Вебинар</p>
+	<a href="#" class="screenshot" style="background-image: url('images/screen_02.jpg')">
+		<div class="fader">
+			<div class="icon"></div>	
+		</div> 
+	</a>
+	<div class="description">
+		<h6>Почитание родителей 2. Ваикра 33</h6>
+		<p class="details"><b>Рав Моше Пантелят</b></p>
+	</div>
+</div>

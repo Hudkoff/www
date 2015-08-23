@@ -1,19 +1,23 @@
 <div class="catalog-item">
 	<div class="item-cell">
-		<div class="photo" style="background-image: url('images/picture_03.jpg')">
+		<div class="photo" style="background-image: url('images/picture_04.jpg')">
 			<a href="#"></a>
 		</div>
 	</div>
 	<div class="item-table">
 		<div class="item-cell">
-			<h4><a href="#">Рассказ о выходе из Египта и другие заповеди Седера</a></h4>
+			<h4><a href="#">Законы седьмого года 10</a></h4>
 			<p class="details"><b>Рав Моше Пантелят</b> из цикла «Уроки Пятикнижия»</p>
 			<p class="description">
 				Урок рава Бенциона Зильбера в ешиве Толдот Йешурун. О подробностях исполнения заповедей Пасхального вечера
 				<a href="#" class="more">Далее</a>
 			</p>
+			<div class="buttons">
+				<!--#include virtual="../buttons/later.shtml?"-->
+				<!--#include virtual="../buttons/subscribe.shtml?"-->
+				<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
+			</div>
 		</div>
-		<div class="item-cell"><span class="label video">Видео</span></div>
 	</div>
 	<div class="item-cell date">10 апреля</div>
 </div>

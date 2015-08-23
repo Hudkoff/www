@@ -35,19 +35,19 @@
 			<section class="content_colored articles-catalog-wrapper">
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 				<!--#include virtual="catalog-filters/video.shtml"-->
-				<div class="video-list">
-					<!--#include virtual="catalog-item/video-11.shtml"-->
-					<!--#include virtual="catalog-item/video-12.shtml"-->
-					<!--#include virtual="catalog-item/video-11.shtml"-->
-					<!--#include virtual="catalog-item/video-12.shtml"-->
-					<!--#include virtual="catalog-item/video-11.shtml"-->
-					<!--#include virtual="catalog-item/video-12.shtml"-->
-					<!--#include virtual="catalog-item/video-11.shtml"-->
-					<!--#include virtual="catalog-item/video-12.shtml"-->
-					<!--#include virtual="catalog-item/video-11.shtml"-->
-					<!--#include virtual="catalog-item/video-12.shtml"-->
-					<!--#include virtual="catalog-item/video-12.shtml"-->
-				</div>
+				
+				<!--#include virtual="catalog-item/video-11.shtml"-->
+				<!--#include virtual="catalog-item/video-12.shtml"-->
+				<!--#include virtual="catalog-item/video-11.shtml"-->
+				<!--#include virtual="catalog-item/video-12.shtml"-->
+				<!--#include virtual="catalog-item/video-11.shtml"-->
+				<!--#include virtual="catalog-item/video-12.shtml"-->
+				<!--#include virtual="catalog-item/video-11.shtml"-->
+				<!--#include virtual="catalog-item/video-12.shtml"-->
+				<!--#include virtual="catalog-item/video-11.shtml"-->
+				<!--#include virtual="catalog-item/video-12.shtml"-->
+				<!--#include virtual="catalog-item/video-12.shtml"-->
+				
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 			</section>
 

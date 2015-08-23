@@ -13,6 +13,7 @@
 	font: bold 1.2rem/3rem 'Open Sans', sans-serif;
 }
 .video-live .screenshot {
+	display: block;
 	font-family: 'Open Sans', sans-serif;
 	width: 190px;
 	height: 108px;
@@ -33,4 +34,29 @@
 	position: absolute;
 	right: 10px;
 	bottom: 10px;
+}
+.video-live .description {
+	padding: 10px;
+	background: #fff;
+}
+.video-live .description .details {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+
+
+
+.page_family .video-live {
+    border-color: #4fc77a;
+}
+.page_family .video-live .title {
+    color: #4bbb73;
+}
+.page_video .video-live {
+    border-color: #7247ba;
+}
+.page_video .video-live .title {
+    color: #7247ba;
+    background: #efefef;
 }
