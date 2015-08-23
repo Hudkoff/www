@@ -36,14 +36,7 @@
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 				<!--#include virtual="catalog-filters/video.shtml"-->
 				<div class="video-list">
-					<!--#include virtual="audio-link/family-11.shtml"-->
-					<!--#include virtual="audio-link/family-12.shtml"-->
-					<!--#include virtual="audio-link/family-13.shtml"-->
-					<!--#include virtual="audio-link/family-14.shtml"-->
-					<!--#include virtual="audio-link/family-11.shtml"-->
-					<!--#include virtual="audio-link/family-12.shtml"-->
-					<!--#include virtual="audio-link/family-13.shtml"-->
-					<!--#include virtual="audio-link/family-15.shtml"-->
+					<!--#include virtual="catalog-item/video-11.shtml"-->
 				</div>
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 			</section>
