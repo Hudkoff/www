@@ -103,14 +103,14 @@ body {
 .table.COL-double .column-double {
 	margin: 10px 0 0 0;
 }
-.table.COL-double .column-double .three-columns .table-cell {
+.table.COL-double .three-columns .table-cell {
 	width: 33.3%;
 }
-.table.COL-double > .table-cell .column-left {
+.table.COL-double > .table-cell > .column-left {
 	padding-left: 0;
 	width: auto;
 }
-.table.COL-double > .table-cell .column-right {
+.table.COL-double > .table-cell > .column-right {
 	padding-left: 20px;
 	width: 25%;
 }
@@ -786,4 +786,10 @@ label.radioWrap {
     font-size: 12px;
     color: #717171;
     margin-top: 25px;
+}
+
+
+
+.banner-without-padding {
+	margin-left: -20px;
 }

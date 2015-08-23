@@ -13,7 +13,8 @@
 	<div class="table COL-double wrapper">
 
 		<aside class="table-cell column-left">
-			<!--#include virtual="sidemenu/sidemenu-video.shtml"-->
+			<!--#include virtual="sidemenu/sidemenu-video-lesson.shtml"-->
+			<!--#include virtual="_banner-hesed.shtml"-->
 			<!--#include virtual="_banner-tora.shtml"-->
 			<!--#include virtual="recommendation-link/index.shtml"-->
 		</aside>
@@ -23,7 +24,7 @@
 			<div class="column-double" itemprop="mainContentOfPage">
 
 				<div class="content_colored">
-					<!--#include virtual="breadcrumbs/video-lessons.shtml"-->
+					<!--#include virtual="breadcrumbs/video-lesson.shtml"-->
 
 					<div class="table">
 						<div class="table-cell double column-left">
@@ -67,23 +68,42 @@
 			</div>
 
 			<div class="table-cell column-left" itemprop="mainContentOfPage">
-				kkkk
+				<div class="wrapper">
+					<h3 class="color-GRAY bordered">Материалы по теме</h3>
+					<div class="table three-columns">
+						<div class="table-cell">
+							<!--#include virtual="daytopic-article/index-01.shtml"-->
+							<!--#include virtual="daytopic-article/index-02.shtml"-->
+							<!--#include virtual="daytopic-article/index-03.shtml"-->
+							<!--#include virtual="daytopic-article/index-07.shtml"-->
+							<!--#include virtual="daytopic-article/index-12.shtml"-->
+						</div>
+						<div class="table-cell">
+							<!--#include virtual="daytopic-article/index-05.shtml"-->
+							<!--#include virtual="daytopic-article/index-13.shtml"-->
+							<!--#include virtual="daytopic-article/index-07.shtml"-->
+							<!--#include virtual="daytopic-article/index-08.shtml"-->
+						</div>
+						<div class="table-cell">
+							<!--#include virtual="daytopic-article/index-15.shtml"-->
+							<!--#include virtual="daytopic-article/index-10.shtml"-->
+							<!--#include virtual="daytopic-article/index-14.shtml"-->
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<aside class="table-cell column-right">
 
 				<section>
-					<h4 class="color-VIDEO arrowed bordered">
+					<h3 class="color-VIDEO arrowed bordered">
 						<a href="#" title="">
 							Авторы
 							<b>&#9670;</b>
 						</a>
-					</h4>
+					</h3>
 				 	<!--#include virtual="_authors-list.shtml"-->
 				</section>
-				<!--#include virtual="_banner-learn-tb.shtml"-->
-				<!--#include virtual="_banner-learn-tm.shtml"-->
-
 			</aside>
 
 		</div>
@@ -94,7 +114,7 @@
 
 	<!--#include virtual="_daytopic-title.shtml"-->
 
-	<!--#include virtual="_daytopic-video.shtml"-->
+	<!--#include virtual="_daytopic-video-lesson.shtml"-->
 
 	<!--#include virtual="_footer.shtml"-->
 
