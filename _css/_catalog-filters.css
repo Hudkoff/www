@@ -50,3 +50,8 @@
 .page_family .catalog-filters {
 	border-top: 1px solid #e5e5e5;
 }
+.page_cycles .catalog-filters {
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+}

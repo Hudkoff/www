@@ -130,13 +130,22 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 			<!--#include virtual="tag-cloud/index-all-blogs.shtml"-->
-			<!--#include virtual="blogs/column-central.shtml"-->
+			
+			<div class="content_colored">
+				<div class="catalog-items-list">
+					<!--#include virtual="catalog-item/blogs-11.shtml"-->
+					<!--#include virtual="catalog-item/blogs-11.shtml"-->
+					<!--#include virtual="catalog-item/blogs-11.shtml"-->
+					<!--#include virtual="catalog-item/blogs-11.shtml"-->
+				</div>
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+			</div>
 		</div>
 
 		<aside class="table-cell column-right">
 
 			<section class="testLight">
-				<h3 class="color-BLOGS arrowed bordered">
+				<h3 class="color-BLOG arrowed bordered">
 					<a href="#" title="">
 						Популярное
 						<b>&#9670;</b>
@@ -155,7 +164,7 @@
 			</section>
 
 			<section class="testLight">
-				<h3 class="color-BLOGS arrowed bordered">
+				<h3 class="color-BLOG arrowed bordered">
 					<a href="#" title="">
 						Обсуждаемое
 						<b>&#9670;</b>
@@ -174,7 +183,7 @@
 			</section>
 
 			<section class="testLight">
-				<h3 class="color-BLOGS arrowed bordered">
+				<h3 class="color-BLOG arrowed bordered">
 					<a href="#" title="">
 						Год назад
 						<b>&#9670;</b>

@@ -24,7 +24,22 @@
 
 			<h1>Циклы</h1>
 			<!--#include virtual="tag-cloud/index-all-01.shtml"-->
-			<!--#include virtual="cycles/column-central.shtml"-->
+			
+			<!--#include virtual="catalog-filters/cycles.shtml"-->
+			<div class="catalog-items-list">
+				<!--#include virtual="catalog-item/cycles-11.shtml"-->
+				<!--#include virtual="catalog-item/cycles-12.shtml"-->
+				<!--#include virtual="catalog-item/cycles-13.shtml"-->
+				<!--#include virtual="catalog-item/cycles-14.shtml"-->
+				<!--#include virtual="catalog-item/cycles-15.shtml"-->
+
+				<!--#include virtual="catalog-item/cycles-11.shtml"-->
+				<!--#include virtual="catalog-item/cycles-12.shtml"-->
+				<!--#include virtual="catalog-item/cycles-13.shtml"-->
+				<!--#include virtual="catalog-item/cycles-14.shtml"-->
+				<!--#include virtual="catalog-item/cycles-15.shtml"-->
+			</div>
+			<!--#include virtual="catalog-pagination/index.shtml"-->
 		</div>
 		
 		<aside class="table-cell column-right">

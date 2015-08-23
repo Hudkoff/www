@@ -32,7 +32,9 @@ body {
 	margin: 0 auto;
 	padding: 0 20px;
 }
-
+.page_video .wrapper {
+	margin-bottom: 30px;
+}
 
 
 
@@ -294,7 +296,12 @@ a:hover {
 .label.article {
 	background: #6a6a6a;
 }
-
+.label.video {
+	background: #4fc77a;
+}
+.label.cycle {
+	background: #b20e89;
+}
 
 
 
@@ -639,6 +646,10 @@ label.radioWrap {
 }
 .buttonGRAY.itunes.true:hover {
 	background-color: #f2f2f2;
+}
+
+.buttonGRAY.comments {
+    background: #ebebeb url('../images/icon-comment.png') 6px 3px no-repeat;
 }
 
 .buttonGRAY.true {

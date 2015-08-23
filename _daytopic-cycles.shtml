@@ -21,10 +21,11 @@
 				<h3 class="color-CYCLES wrapper">
 					Циклы по теме
 				</h3>
-
-				<!--#include virtual="catalog-link/index-11.shtml"-->
-				<!--#include virtual="catalog-link/index-12.shtml"-->
-				<!--#include virtual="catalog-link/index-13.shtml"-->
+				<div class="catalog-list">
+					<!--#include virtual="catalog-item/cycles-11.shtml"-->
+					<!--#include virtual="catalog-item/cycles-12.shtml"-->
+					<!--#include virtual="catalog-item/cycles-13.shtml"-->
+				</div>
 
 			</div>
 
