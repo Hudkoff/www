@@ -24,21 +24,20 @@
 
 			<h1>Циклы</h1>
 			<!--#include virtual="tag-cloud/index-all-01.shtml"-->
-			<div class="catalog-wrapper">
-				<!--#include virtual="catalog-filters/cycles.shtml"-->
-				<div class="catalog-list">
-					<!--#include virtual="catalog-link/index-11.shtml"-->
-					<!--#include virtual="catalog-link/index-12.shtml"-->
-					<!--#include virtual="catalog-link/index-13.shtml"-->
-					<!--#include virtual="catalog-link/index-14.shtml"-->
-					<!--#include virtual="catalog-link/index-15.shtml"-->
+			
+			<!--#include virtual="catalog-filters/cycles.shtml"-->
+			<div class="catalog-list">
+					<!--#include virtual="catalog-item/cycles-11.shtml"-->
+					<!--#include virtual="catalog-item/cycles-12.shtml"-->
+					<!--#include virtual="catalog-item/cycles-13.shtml"-->
+					<!--#include virtual="catalog-item/cycles-14.shtml"-->
+					<!--#include virtual="catalog-item/cycles-15.shtml"-->
 
-					<!--#include virtual="catalog-link/index-11.shtml"-->
-					<!--#include virtual="catalog-link/index-12.shtml"-->
-					<!--#include virtual="catalog-link/index-13.shtml"-->
-					<!--#include virtual="catalog-link/index-14.shtml"-->
-					<!--#include virtual="catalog-link/index-15.shtml"-->
-				</div>
+					<!--#include virtual="catalog-item/cycles-11.shtml"-->
+					<!--#include virtual="catalog-item/cycles-12.shtml"-->
+					<!--#include virtual="catalog-item/cycles-13.shtml"-->
+					<!--#include virtual="catalog-item/cycles-14.shtml"-->
+					<!--#include virtual="catalog-item/cycles-15.shtml"-->
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 			</div>
 		</div>

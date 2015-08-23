@@ -130,7 +130,16 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 			<!--#include virtual="tag-cloud/index-all-blogs.shtml"-->
-			<!--#include virtual="blogs/column-central.shtml"-->
+			
+			<div class="catalog-wrapper content_colored">
+				<div class="catalog-list">
+					<!--#include virtual="catalog-item/blogs-11.shtml"-->
+					<!--#include virtual="catalog-item/blogs-11.shtml"-->
+					<!--#include virtual="catalog-item/blogs-11.shtml"-->
+					<!--#include virtual="catalog-item/blogs-11.shtml"-->
+				</div>
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+			</div>
 		</div>
 
 		<aside class="table-cell column-right">

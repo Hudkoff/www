@@ -1,4 +1,4 @@
-.catalog-wrapper .catalog-item {
+.catalog-list .catalog-item {
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
@@ -62,7 +62,7 @@
     color: #6c6c6c;
 }
 .catalog-item .description {
-    margin: 12px 0 17px 0;
+    margin: 12px 0 0 0;
     text-decoration: none;
     font-family: 'Noto Serif', serif;
     font-size: 14px;
@@ -71,13 +71,14 @@
 .catalog-item .description .more {
     font-family: inherit;
 }
-
 .catalog-item .date {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #6c6c6c;
 }
-
+.catalog-item .buttons {
+    margin: 15px 0 0 0;
+}
 
 .catalog-item-video {
     background-color: #eaf8f0;
