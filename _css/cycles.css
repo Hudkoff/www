@@ -5,7 +5,8 @@
 @import "_daytopic-article.css";
 @import "_daytopic.css";
 @import "_intopic.css";
-@import "_catalog.css";
+@import "_catalog-item.css";
+@import "_catalog-filters.css";
 @import "_authors-list.css";
 
 
@@ -15,3 +16,20 @@
     background-color: #b20e89;
 }
 
+.catalog-wrapper {
+	margin-bottom: 20px;
+}
+
+.block-title {
+	padding: 0 0 10px 0;
+	margin-bottom: 10px;
+  	border-bottom: 1px solid #e5e5e5;
+  	font-family: 'Noto Serif', serif;
+  	font-size: 20px;
+  	font-weight: bold;
+  	color: #b38d39;
+}
+
+.catalog-list {
+	margin-bottom: 25px;
+}

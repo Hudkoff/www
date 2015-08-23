@@ -294,7 +294,12 @@ a:hover {
 .label.article {
 	background: #6a6a6a;
 }
-
+.label.video {
+	background: #4fc77a;
+}
+.label.cycle {
+	background: #b20e89;
+}
 
 
 
