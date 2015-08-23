@@ -9,6 +9,6 @@
 @import "_video-live.css";
 @import "_video-link.css";
 
-.page_video .column-central h3 {
+h3.equal-height {
   	padding: 10px 0 12px 0;
 }
