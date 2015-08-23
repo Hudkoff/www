@@ -10,7 +10,7 @@
 
 	<!--#include virtual="_header.shtml"-->
 
-	<div class="articles-main table COL-sym wrapper">
+	<div class="table COL-sym wrapper">
 
 		<aside class="table-cell column-left">
 			<!--#include virtual="sidemenu/sidemenu-video.shtml"-->
@@ -37,6 +37,16 @@
 				<!--#include virtual="catalog-filters/video.shtml"-->
 				<div class="video-list">
 					<!--#include virtual="catalog-item/video-11.shtml"-->
+					<!--#include virtual="catalog-item/video-12.shtml"-->
+					<!--#include virtual="catalog-item/video-11.shtml"-->
+					<!--#include virtual="catalog-item/video-12.shtml"-->
+					<!--#include virtual="catalog-item/video-11.shtml"-->
+					<!--#include virtual="catalog-item/video-12.shtml"-->
+					<!--#include virtual="catalog-item/video-11.shtml"-->
+					<!--#include virtual="catalog-item/video-12.shtml"-->
+					<!--#include virtual="catalog-item/video-11.shtml"-->
+					<!--#include virtual="catalog-item/video-12.shtml"-->
+					<!--#include virtual="catalog-item/video-12.shtml"-->
 				</div>
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 			</section>
