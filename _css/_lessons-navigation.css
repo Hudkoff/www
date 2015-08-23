@@ -1,0 +1,79 @@
+.lessons-navigation {
+	padding: 15px 0;
+	margin-bottom: 20px;
+}
+.lessons-navigation {
+	margin-right: -20px;
+	margin-left: -20px;
+}
+.lessons-navigation .table-cell {
+	width: 25%;
+	padding: 0 20px;
+}
+.lessons-navigation .left {
+	text-align: right;
+}
+.lessons-navigation .right {
+	text-align: left;
+}
+.lessons-navigation .cental.left {
+	padding-right: 10px;
+}
+.lessons-navigation .cental.right {
+	padding-left: 10px;
+}
+.lessons-navigation a {
+	display: inline-block;
+	text-decoration: none;
+	font: normal 12px 'Open Sans', sans-serif;
+	color: #595959;
+}
+.lessons-navigation .link-title {
+	margin-bottom: 5px;
+	font-size: 11px;
+	color: #949494;
+}
+.lessons-navigation .left .link-title:before,
+.lessons-navigation .right .link-title:after {
+	content: '';
+	display: inline-block;
+	height: 7px;
+	width: 5px;
+}
+.lessons-navigation .left .link-title:before {
+	margin-right: 5px;
+	background: url('../images/icon-bracket-left.png');
+}
+.lessons-navigation .right .link-title:after {
+	margin-left: 5px;
+	background: url('../images/icon-bracket-right.png');
+}
+.lessons-navigation .link-title.first:before,
+.lessons-navigation .link-title.last:after {
+	width: 10px;
+}
+.lessons-navigation .link-title.next {
+	position: relative;
+}
+.lessons-navigation .link-title.next:before {
+	content: '|';
+	position: absolute;
+	top: 0;
+	left: -13px;
+}
+.lessons-navigation .lesson-title {
+	text-decoration: underline;
+}
+.lessons-navigation a:hover .lesson-title {
+	text-decoration: none;
+}
+
+
+
+
+.page_audio .lessons-navigation {
+	background: #f1f0dc;	
+}
+.page_video .lessons-navigation {
+	background: #e8f3ec;	
+}

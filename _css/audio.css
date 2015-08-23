@@ -11,9 +11,10 @@
 @import "_audio-link.css";
 @import "_catalog-pagination.css";
 @import "_radio-toldot.css";
-@import "_audio-navigation.css";
+@import "_lessons-navigation.css";
 @import "_download.css";
 @import "_catalog-filters.css";
+@import "_useful-links.css";
 
 .audio-main {
 	margin-bottom: 25px;
@@ -134,58 +135,7 @@
 	margin-bottom: 25px;
 }
 
-.page_audio .content_colored .audio-navigation {
-	background: #f1f0dc;
-	margin-right: -20px;
-	margin-left: -20px;
-}
-.page_audio .content_colored .audio-navigation .table-cell {
-	width: 25%;
-	padding: 0 20px;
-}
-.page_audio .content_colored .audio-navigation .left {
-	text-align: right;
-}
-.page_audio .content_colored .audio-navigation .cental.left {
-	padding-right: 10px;
-}
-.page_audio .content_colored .audio-navigation .cental.right {
-	padding-left: 10px;
-}
 
-
-.audio-useful-links {
-	font: normal 13px 'Open Sans', sans-serif;
-	color: #797979;
-}
-.audio-useful-links .right {
-	text-align: right;
-}
-.audio-useful-links a {
-	color: #797979;
-}
-.audio-useful-links a:hover {
-	text-decoration: none;
-}
-.audio-useful-links a.video {
-	text-decoration: none;	
-}
-.audio-useful-links a.video:before {
-	content: '';
-	display: inline-block;
-	width: 0;
-	height: 0;
-	margin: 0 5px 0 0;
-	border-style: solid;
-	border-width: 4px 0 4px 8px;
-	border-color: transparent transparent transparent #797979;
-}
-.audio-useful-links a.video span {
-	text-decoration: underline;
-}
-.audio-useful-links a.video:hover span {
-	text-decoration: none;
-}
 .author-cycles {
 	margin-bottom: 20px;
 }

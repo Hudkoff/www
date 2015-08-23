@@ -78,3 +78,10 @@
     margin-left: 1%;
     float: left;
 }
+.page_video .socials-like-block {
+    float: left;
+}
+.page_video .socials-share-block {
+    margin-left: 1%;
+    float: right;
+}

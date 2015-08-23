@@ -1,0 +1,104 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/video.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_video" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="table COL-double wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-video.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-right">
+
+			<div class="column-double" itemprop="mainContentOfPage">
+
+				<div class="content_colored">
+					<!--#include virtual="breadcrumbs/video-lessons.shtml"-->
+
+					<div class="table">
+						<div class="table-cell double column-left">
+							<h1 class="color-LIGHTGRAY bordered">
+								Учим иврит 11. Есть вопросы? Вопросительные слова
+							</h1>
+							<div class="video-player">
+								<img src="images/screen_06.jpg" alt="" />
+								<div class="fader-big">
+									<img src="images/video-bar.png" alt="" />
+								</div> 
+							</div>
+							<div class="table video-bar">
+								<div class="table-cell">
+									<p class="details">28 марта, <b>Рав Носон Шерман</b> из цикла «Уроки Пятикнижия»</p>
+									<p class="description">Отличия реконструированного иврита от святого языка, на котором разговаривали праотцы. Духовные и практические аспекты.</p>
+								</div>
+								<div class="table-cell right">
+									<div class="buttons clearfix">
+										<!--#include virtual="buttons/later.shtml?"-->
+										<!--#include virtual="buttons/subscribe.shtml?"-->
+										<a href="#" class="buttonGRAY all-cycle">Весь цикл</a>
+										<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
+									</div>
+								</div>
+							</div>
+
+							
+
+							<!--#include virtual="lessons-navigation/video-lesson.shtml"-->	
+
+							<!--#include virtual="useful-links/video-lesson.shtml"-->
+						</div>
+					</div>					
+				</div>
+				<div class="wrapper margin-bottom clearfix">
+					<!--#include virtual="_socials-share.shtml"-->
+					<!--#include virtual="_socials-like.shtml"-->	
+				</div>
+				
+			</div>
+
+			<div class="table-cell column-left" itemprop="mainContentOfPage">
+				kkkk
+			</div>
+
+			<aside class="table-cell column-right">
+
+				<section>
+					<h4 class="color-VIDEO arrowed bordered">
+						<a href="#" title="">
+							Авторы
+							<b>&#9670;</b>
+						</a>
+					</h4>
+				 	<!--#include virtual="_authors-list.shtml"-->
+				</section>
+				<!--#include virtual="_banner-learn-tb.shtml"-->
+				<!--#include virtual="_banner-learn-tm.shtml"-->
+
+			</aside>
+
+		</div>
+
+	</div>
+
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+	<!--#include virtual="_daytopic-title.shtml"-->
+
+	<!--#include virtual="_daytopic-video.shtml"-->
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

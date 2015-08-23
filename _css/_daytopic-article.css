@@ -120,7 +120,7 @@
 .daytopic-article .fader {
 	width: 100%;
 	height: 100%;
-	background: url("../images/fader.png") bottom no-repeat;
+	background: url("../images/fader.png") bottom repeat-x;
 }
 .daytopic-article .icon {
 	background: url("../images/icon-video.png") bottom no-repeat;

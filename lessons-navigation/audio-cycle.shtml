@@ -1,27 +1,27 @@
-<section class="audio-navigation">
+<section class="lessons-navigation">
 	<div class="table">
 		<div class="table-cell left">
 			<a href="#">
 				<p class="link-title first">Первый материал цикла</p>
-				<p class="audio-title">Лестница Яакова. Урок 1. Соблюдай дистанцию.</p>
+				<p class="lesson-title">Лестница Яакова. Урок 1. Соблюдай дистанцию.</p>
 			</a>
 		</div>
 		<div class="table-cell left cental">
 			<a href="#">
 				<p class="link-title previous">Предыдущий материал цикла</p>
-				<p class="audio-title">Лестница Яакова. Урок 27. Соблюдай дистанцию.</p>
+				<p class="lesson-title">Лестница Яакова. Урок 27. Соблюдай дистанцию.</p>
 			</a>
 		</div>
 		<div class="table-cell right cental">
 			<a href="#">
 				<p class="link-title next">Предыдущий материал цикла</p>
-				<p class="audio-title">Лестница Яакова. Урок 29.<br />Мы не рабы?</p>
+				<p class="lesson-title">Лестница Яакова. Урок 29.<br />Мы не рабы?</p>
 			</a>
 		</div>
 		<div class="table-cell right">
 			<a href="#">
 				<p class="link-title last">Последний материал цикла</p>
-				<p class="audio-title">Лестница Яакова. Урок 46.<br />Око за око?</p>
+				<p class="lesson-title">Лестница Яакова. Урок 46.<br />Око за око?</p>
 			</a>
 		</div>
 	</div>

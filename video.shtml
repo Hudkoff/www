@@ -32,7 +32,7 @@
 
 			<!--#include virtual="tag-cloud/index-short-video.shtml"-->
 
-			<section class="content_colored articles-catalog-wrapper">
+			<section class="content_colored margin-bottom">
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 				<!--#include virtual="catalog-filters/video.shtml"-->
 				

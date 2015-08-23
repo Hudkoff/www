@@ -48,20 +48,9 @@
 					<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
 				</div>
 
-				<!--#include virtual="_audio-navigation.shtml"-->	
+				<!--#include virtual="lessons-navigation/audio-cycle.shtml"-->	
 				
-				<div class="audio-useful-links">
-					<div class="table">
-						<div class="table-cell left">
-							<p>Книги по теме <a href="#">можно купить</a> в <a href="#">Магазине</a></p>
-							<p><a href="#">Пройдите тест</a> по этой теме в разделе <a href="#">Еврейские тесты!</a></p>
-						</div>			
-						<div class="table-cell right">
-							<p>Данная аудиозапись имеет видеоряд.</p> 
-							<a href="#" class="video"><span>Смотреть видео</span></a>
-						</div>
-					</div>			
-				</div>
+				<!--#include virtual="useful-links/audio-cycle.shtml"-->	
 
 			</div>
 
