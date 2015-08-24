@@ -88,7 +88,7 @@ $(document).ready(function() {
 // имитация работы серых кнопок
 //////////////////////////////////////////////
 
-	$(".buttonGRAY").each(function(){
+	$("a.buttonGRAY").each(function(){
 		$(this).on('click', function(){
 			$(this).toggleClass("true");
 			return false;

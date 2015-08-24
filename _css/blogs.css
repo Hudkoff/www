@@ -285,39 +285,39 @@
     padding: 8px 25px;
 }
 
-.comments {
+.comments-block {
     margin: 25px 0;
 }
-.comments h4 {
+.comments-block h4 {
     padding-bottom: 12px;
 }
 
-.comment {
+.comments-block .comment {
     padding: 20px 0;
     border-bottom: 1px solid #e5e5e5;
 }
-.comment:last-child {
+.comments-block .comment:last-child {
     border: none;
 }
-.comment img {
+.comments-block .comment img {
     width: 24px;
     height: 24px;
     float: left;
     margin: 0 15px 10px 0;
 }
-.comment .info {
+.comments-block .comment .info {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     line-height: 24px;
     vertical-align: middle;
     color: #717171;
 }
-.comment .answer {
+.comments-block .comment .answer {
     background-color: #ebebeb;
     padding: 4px 9px;
     margin-top: 5px;
 }
-.comment p {
+.comments-block .comment p {
     clear: both;
     font-family: 'Noto Serif', serif;
     font-size: 14px;
@@ -325,9 +325,9 @@
     margin-bottom: 10px;
 }
 
-.comment.shifted-1 {
+.comments-block .comment.shifted-1 {
     margin-left: 100px;
 }
-.comment.shifted-2 {
+.comments-block .comment.shifted-2 {
     margin-left: 200px;
 }

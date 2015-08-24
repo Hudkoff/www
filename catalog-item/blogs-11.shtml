@@ -13,7 +13,7 @@
 				<a href="#" class="more">Далее</a>
 			</p>
 			<div class="buttons">
-				<a href="#" class="buttonGRAY comments">13 Комментариев</a>
+				<div href="#" class="buttonGRAY comments">13 Комментариев</div>
 			</div>
 		</div>
 	</div>
