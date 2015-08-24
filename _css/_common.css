@@ -698,14 +698,18 @@ label.radioWrap {
 .buttonGRAY.comment {
 	background: #ebebeb url('../images/icon-comment-1.png') 6px 9px no-repeat;
 }
-
+.buttonGRAY.answer,
+.buttonGRAY.answer.true{
+	background: #ebebeb;
+}
 .buttonGRAY.true {
 	background: #d4e6c5 url('../images/icon-tick.png') 7px 5px no-repeat;	
 }
 .buttonGRAY.true:hover {
 	background-color: #dff2d0;
 }
-.buttonGRAY:hover {
+.buttonGRAY:hover,
+.buttonGRAY.answer.true:hover{
 	background-color: #f2f2f2;
 	text-decoration: none;
 }

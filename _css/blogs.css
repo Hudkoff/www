@@ -223,10 +223,13 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 12px;
+	padding-left: 8px;
 }
-.page_blogs .all-authors-button b{
-    color: #3792aa;
-    text-decoration: none;
+.page_blogs .all-authors-button .icon-arrow-right{
+	background: url(/images/icon-arrow-right.png) no-repeat;
+	height: 13px;
+	width: 8px;
+	margin: 8px 0;
 }
 .page_blogs .all-authors-button a{
     color: #000;
@@ -261,21 +264,27 @@
 }
 
 .related-articles {
+	font-family: 'Open Sans', sans-serif;
     padding: 25px 20px;
     background-color: #e2eff3;
     color: #676767;
 }
 .related-articles a{
     text-decoration: none;
+	font-size: 13px;
 }
 
 .related-articles .heading{
+	font-size: 13px;
     margin-bottom: 20px;
 }
 
 .related-article {
     display: inline-block;
     width: 24%;
+}
+.related-article .date {
+	font-size: 12px;
 }
 .current-article a{
     color: #000;
@@ -328,7 +337,7 @@
     color: #717171;
 }
 .comments-block .comment .answer {
-    background-color: #ebebeb;
+
     padding: 4px 9px;
     margin-top: 5px;
 }

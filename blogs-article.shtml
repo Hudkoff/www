@@ -34,10 +34,9 @@
 						<img src="/images/avatar-21.jpg" alt=""/>
 						<img src="/images/avatar-22.jpg" alt=""/>
 
-						<div class="all-authors-button arrowed">
+						<div class="all-authors-button">
 							<a href="" title="">
-								<b>&#9670;</b>
-
+								<div class="icon-arrow-right"></div>
 								<p>Все авторы</p>
 							</a>
 						</div>
@@ -158,7 +157,7 @@
 				<img src="images/avatar-12.jpg" alt=""/>
 				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
 				<p>Приукрасить действительность, это вполне по нашему!</p>
-				<div class="buttonGRAY answer">Ответить</div>
+				<a class="buttonGRAY answer">Ответить</a>
 			</div>
 
 			<div class="comment">
@@ -166,28 +165,28 @@
 				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
 				<p>Красота, спасибо!</p>
 				<p>Старожилы вспоминают что-то похожее, но о-о-очень калорийное. Называлось "Черепаха": внизу консервированный лосось, потом где-то было еще замороженное и натертое стружкой сливочное масло, белки-желтки были, лук тоже, а поверх лука - тертые яблоки. А чтобы была "черепаха", сверху украшали оливками: голова, хвост и четыре лапки. Вот такое ретро. Кажется, оно еще настаиваться должно было два часа.</p>
-				<div class="buttonGRAY answer">Ответить</div>
+				<a class="buttonGRAY answer">Ответить</a>
 			</div>
 
 			<div class="comment shifted-1">
 				<img src="images/avatar-12.jpg" alt=""/>
 				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
 				<p>Приукрасить действительность, это вполне по нашему!</p>
-				<div class="buttonGRAY answer">Ответить</div>
+				<a class="buttonGRAY answer">Ответить</a>
 			</div>
 
 			<div class="comment shifted-2">
 				<img src="images/avatar-12.jpg" alt=""/>
 				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
 				<p>Приукрасить действительность, это вполне по нашему!</p>
-				<div class="buttonGRAY answer">Ответить</div>
+				<a class="buttonGRAY answer">Ответить</a>
 			</div>
 
 			<div class="comment">
 				<img src="images/avatar-12.jpg" alt=""/>
 				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
 				<p>Приукрасить действительность, это вполне по нашему!</p>
-				<div class="buttonGRAY answer">Ответить</div>
+				<a class="buttonGRAY answer">Ответить</a>
 			</div>
 
 		</div>
