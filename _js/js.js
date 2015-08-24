@@ -478,7 +478,9 @@ tagsButton.on('click', function(){
 var allTagsTextToggle = $(".showAllTags-text, .hideAllTags-text"),
 	allTags = $(".tag-cloud_additional"),
 	allTagsButton = $(".show-all-tags-button"),
-	asideAllTagsButton = $(".tags-aside").find(".show-all-tags-button");
+	asideTags = $(".tags-aside"),
+	asideAllTagsButton = asideTags.find(".show-all-tags-button");
+
 
 allTagsButton.on('click', function(){
 	allTags.slideToggle();
@@ -486,7 +488,14 @@ allTagsButton.on('click', function(){
 });
 
 asideAllTagsButton.on('click', function() {
-	$(".tags-aside").toggleClass("asideTagsExpanded");
+	var tagsHight = asideTags.outerHeight(true) - 10;
+	if (asideTags.hasClass("asideTagsExpanded")) {
+		$(".tags-placeholder").css('height',0);
+	} else {
+		$(".tags-placeholder").css('height',tagsHight);
+	}
+	asideTags.toggleClass("asideTagsExpanded");
+
 	$(".tag-cloud_aside_short").toggle();
 	$(".tag-cloud_aside_full").toggle();
 });

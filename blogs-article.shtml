@@ -10,7 +10,7 @@
 
 <!--#include virtual="_header.shtml"-->
 
-<div class="table COL-sym top-block wrapper">
+<div class="table COL-sym top-block wrapper clearfix">
 
 	<div class="table-cell column-left">
 		<div class="calendar"></div>
