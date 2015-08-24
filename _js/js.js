@@ -444,9 +444,28 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
+
+	var authorsBlock = $(".authors-block"),
+		placeholder = $(".authors-block-placeholder"),
+		wrapper = $(".blogs-authors-block");
+	var height = 0,
+		width = 0;
+
 	$(".toggle-authors").on('click', function () {
+
+		height = wrapper.height();
+		width = wrapper.width();
+
+		if (wrapper.hasClass("authors-block-expanded") ) {
+			wrapper.css("width",'auto');
+		} else {
+			wrapper.css("width",width);
+		}
+
+		placeholder.toggle();
 		$(this).toggleClass('flipped');
-		$(".authors-block").toggleClass('authors-expanded');
+		authorsBlock.toggleClass('authors-expanded');
+		wrapper.toggleClass('authors-block-expanded');
 	})
 });
 

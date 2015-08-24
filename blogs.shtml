@@ -51,6 +51,7 @@
 				<div class="toggle-authors"></div>
 
 			</div>
+			<div class="authors-block-placeholder"></div>
 
 			<div class="recent-articles">
 				<h2>Последние записи в блогах</h2>

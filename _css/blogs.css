@@ -60,6 +60,21 @@
     height: 40px;
 }
 
+.page_blogs .authors-block-expanded {
+	z-index: 10;
+    position: absolute;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.authors-block-placeholder {
+	display: none;
+	height: 128px;
+	width: 100%;
+}
+
 .page_blogs .authors-expanded {
     height: auto;
 }
