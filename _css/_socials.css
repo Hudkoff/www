@@ -68,12 +68,14 @@
 }
 /* для страниц */
 .page_audio .socials-like-block,
-.page_ask-article .socials-like-block {
+.page_ask-article .socials-like-block,
+.page_blogs .socials-like-block {
     width: 50%;
     float: left;
 }
 .page_audio .socials-share-block,
-.page_ask-article .socials-share-block {
+.page_ask-article .socials-share-block,
+.page_blogs .socials-share-block {
     width: 49%;
     margin-left: 1%;
     float: left;

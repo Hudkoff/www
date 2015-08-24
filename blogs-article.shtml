@@ -1,0 +1,204 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/blogs.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_blogs" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="table COL-sym top-block wrapper">
+
+	<div class="table-cell column-left">
+		<div class="calendar"></div>
+		<!--#include virtual="tag-cloud/aside.shtml"-->
+		<!--#include virtual="recommendation-link/index.shtml"-->
+		<!--#include virtual="_banner-tora.shtml"-->
+	</div>
+
+	<div class="table-cell column-central ">
+		<div class="content_colored color-BLOGS blogs-topic clearfix">
+
+			<div class="blogs-topic-top-block">
+
+				<!--#include virtual="breadcrumbs/blogs-topic.shtml"-->
+
+				<div>
+					<div class="all-authors">
+						<img src="/images/avatar-11.jpg" alt=""/>
+						<img src="/images/avatar-12.jpg" alt=""/>
+						<img src="/images/avatar-13.jpg" alt=""/>
+						<img src="/images/avatar-21.jpg" alt=""/>
+						<img src="/images/avatar-22.jpg" alt=""/>
+
+						<div class="all-authors-button arrowed">
+							<a href="" title="">
+								<b>&#9670;</b>
+
+								<p>Все авторы</p>
+							</a>
+						</div>
+					</div>
+
+					<img src="images/avatar-61.jpg" alt=""/>
+
+					<div class="author-name">Барух Фельдман</div>
+					<h1>Еврейский мужчина на кухне</h1>
+
+					<div class="description">
+						<p>События еврейской жизни в Израиле и не только</p>
+						<a class="more" href="#">Все записи автора списком</a>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="content">
+				<h2>Салат "Мимоза"</h2>
+
+				<div class="date">14 мая 2015, 14:03</div>
+				<p>Знаете ли вы, что красить скорлупу яиц — вполне себе еврейский обычай? Я до недавнего времени не
+					знал, а вот сосед, родители которого прибыли в Страну Израиля из Афганистана, рассказал. Афганские
+					евреи используют крашеные яйца в Пурим. Среди них ходит легенда о том, как Аман хотел максимально
+					навредить Мордехаю и его родне: увидев, что евреи к субботе покупают яйца, запретил это делать.</p>
+
+				<p>Евреи огорчились, но один купец нашел выход. Всю ночь он «гримировал» куриные яйца, раскрашивая их то
+					под помидоры, то под яблоки, то под другие фрукты и овощи. Утром Аман лично явился на рынок, чтобы
+					проверить, следуют ли евреи запрету. Вместо грустных людей он увидел вполне довольных жизнью
+					обладателей несметного количества помидоров, яблок и т. п.</p>
+
+				<p>***</p>
+
+				<p>Есть у меня знакомый, которому страшно повезло — он терпеть не может сладкого. Вообще. Когда знакомый
+					был пятилетним мальчиком, он чем-то долго и тяжело болел, исхудал, и врачи порекомендовали родителям
+					некоторое время закармливать малыша сладким. Чтобы набрал вес на ватрушках, вафлях и шоколаде.
+					Знакомый по сей день худой, как жердь, а благодаря родительским усилиям еще и сладкое
+					возненавидел.</p>
+				<img src="images/img-05.jpg" alt=""/>
+
+				<p>Поэтому к его приходу я готовлю салат в виде торта под кодовым названием «Мимоза». Берем банку любых
+					рыбных консервов, 3 картофелины, 2 морковки, 6 яиц, 1 луковицу. Всё, кроме луковицы и консервов,
+					варим. Луковицу мелко режем, заливаем кипятком, через минуту кипяток сливаем, чтобы нейтрализовать
+					горечь.</p>
+
+				<p>Консервы тщательно разминаем. В форму для будущей мимозы, желательно, прозрачную, для красивости,
+					выкладываем рыбный слой. Сверху смазываем майонезом. Картофель натираем на крупной терке, солим,
+					выкладываем, смазываем майонезом. Лук солим, перчим, выкладываем сверху, смазываем майонезом. Таким
+					же образом выкладываем белки яиц, смазываем майонезом, а затем завершаем будущую «Мимозу» слоем
+					желтков.</p>
+
+				<p>Варианты: без лука, но с зеленым луком поверх желтков, без картофеля, но со свеклой. Приятного
+					аппетита!</p>
+
+				<div class="date"><b>Теги:</b> салат, свекла, свч, суп, торт, хала, хлеб, яблоки, яичница, яйца</div>
+
+				<div class="clearfix">
+					<!--#include virtual="_socials-like.shtml"-->
+					<!--#include virtual="_socials-share.shtml"-->
+				</div>
+			</div>
+
+		</div>
+
+		<div class="related-articles">
+			<div class="heading">
+				Читайте другие посты блога “<a href="" title=""><b>Еврейский мужчина на кухне</b></a>”
+			</div>
+
+			<div class="related-article">
+				<div class="date">16 мая</div>
+				<a href="" title="">
+					Лестница Яакова. Урок 27.<br>
+					Соблюдай дистанцию.
+				</a>
+			</div>
+
+			<div class="related-article">
+				<div class="date">19 мая</div>
+				<a href="" title="">
+					Лестница Яакова. Урок 27.<br>
+					Соблюдай дистанцию.
+				</a>
+			</div>
+
+			<div class="related-article">
+				<div class="date">23 мая</div>
+				<a href="" title="">
+					Лестница Яакова. Урок 27.<br>
+					Соблюдай дистанцию.
+				</a>
+			</div>
+
+			<div class="related-article current-article">
+				<div class="date">28 мая</div>
+				<a href="" title="">
+					Салат "Мимоза"
+					<br/>
+					&nbsp;
+				</a>
+			</div>
+
+		</div>
+
+		<div class="leave-a-comment">
+			<h4>Оставить комментарий</h4>
+			<form>
+				<textarea placeholder="Ваш комментарий"></textarea>
+				<button class="buttonGRAY" type="submit" value="Отправить">Отправить</button>
+			</form>
+		</div>
+
+		<div class="comments">
+			<h4 class="bordered color-GRAY">Комментарии</h4>
+
+			<div class="comment">
+				<img src="images/avatar-12.jpg" alt=""/>
+				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
+				<p>Приукрасить действительность, это вполне по нашему!</p>
+				<div class="buttonGRAY answer">Ответить</div>
+			</div>
+
+			<div class="comment">
+				<img src="images/avatar-12.jpg" alt=""/>
+				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
+				<p>Красота, спасибо!</p>
+				<p>Старожилы вспоминают что-то похожее, но о-о-очень калорийное. Называлось "Черепаха": внизу консервированный лосось, потом где-то было еще замороженное и натертое стружкой сливочное масло, белки-желтки были, лук тоже, а поверх лука - тертые яблоки. А чтобы была "черепаха", сверху украшали оливками: голова, хвост и четыре лапки. Вот такое ретро. Кажется, оно еще настаиваться должно было два часа.</p>
+				<div class="buttonGRAY answer">Ответить</div>
+			</div>
+
+			<div class="comment shifted-1">
+				<img src="images/avatar-12.jpg" alt=""/>
+				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
+				<p>Приукрасить действительность, это вполне по нашему!</p>
+				<div class="buttonGRAY answer">Ответить</div>
+			</div>
+
+			<div class="comment shifted-2">
+				<img src="images/avatar-12.jpg" alt=""/>
+				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
+				<p>Приукрасить действительность, это вполне по нашему!</p>
+				<div class="buttonGRAY answer">Ответить</div>
+			</div>
+
+			<div class="comment">
+				<img src="images/avatar-12.jpg" alt=""/>
+				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
+				<p>Приукрасить действительность, это вполне по нашему!</p>
+				<div class="buttonGRAY answer">Ответить</div>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

@@ -651,6 +651,8 @@ label.radioWrap {
 	border-radius: 2px;
 	vertical-align: top;
 	text-decoration: none;
+
+	cursor: pointer;
 }
 
 
