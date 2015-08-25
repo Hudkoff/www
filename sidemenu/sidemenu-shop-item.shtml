@@ -1,0 +1,103 @@
+<section class="sidemenu">
+    <ul class="first-level-nav">
+        <li>
+            <h4>
+                <a href="" title="">Хесед</a>
+            </h4>
+        </li>
+        <li>
+            <h4>Магазин</h4>
+            <ul class="second-level-nav">
+                <li class="selected"><a href="#" title="Недельные главы Торы">Книги</a></li>
+                <li class="dotless">
+                    <ul class="third-level-nav">
+                        <li><a href="#" title="Книги">Книги</a></li>
+                        <li><a href="#" title="Тора">Тора,Пророки, Писания</a></li>
+                        <li><a href="#" title="">Устная тора</a></li>
+                        <li><a href="#" title="">Сборники молитв</a></li>
+                        <li><a href="#" title="">Еврейский закон</a></li>
+                        <li><a href="#" title="">Основы иудаизма</a></li>
+                        <li><a href="#" title="">Еврейская семья</a></li>
+                        <li><a href="#" title="">Каббала </a></li>
+                        <li><a href="#" title="">Хасидут </a></li>
+                        <li><a href="#" title="">Евреи и еврейство </a></li>
+                        <li><a href="#" title="">Книги для детей </a></li>
+                        <li><a href="#" title="">Книги Гади Поллака </a></li>
+                        <li><a href="#" title="">Изучение иврита </a></li>
+                        <li><a href="#" title="">Книги рава Зильбера </a></li>
+                        <li><a href="#" title="">Об иудаизме</a></li>
+                        <li><a href="#" title="">Разное</a></li>
+                    </ul>
+                </li>
+	            <li><a href="#" title="Недельные главы Торы">Аудио</a></li>
+	            <li class="dotless">
+		            <ul class="third-level-nav">
+			            <li><a href="#" title="Книги">Лекции рава Кушнира</a></li>
+			            <li><a href="#" title="Тора">Уроки рава Зильберта</a></li>
+			            <li><a href="#" title="">Уроки других лекторов</a></li>
+			            <li><a href="#" title="">Разное</a></li>
+			            <li><a href="#" title="">Некондиция</a></li>
+		            </ul>
+	            </li>
+	            <li><a href="#" title="Недельные главы Торы">Видео</a></li>
+	            <li class="dotless">
+		            <ul class="third-level-nav">
+			            <li><a href="#" title="Книги">Уроки рава Зильберта</a></li>
+			            <li><a href="#" title="Тора">Уроки других лекторов</a></li>
+ 			            <li><a href="#" title="">Разное</a></li>
+		            </ul>
+	            </li>
+	            <li><a href="#" title="Недельные главы Торы">Атрибутика</a></li>
+	            <li class="dotless">
+		            <ul class="third-level-nav">
+			            <li><a href="#" title="Книги">Тфиллин</a></li>
+			            <li><a href="#" title="Тора">Мезузы</a></li>
+			            <li><a href="#" title="">Талиты (Гадоль и Катан)</a></li>
+			            <li><a href="#" title="">Для субботы и праздников</a></li>
+			            <li><a href="#" title="">Кипы</a></li>
+			            <li><a href="#" title="">Разное</a></li>
+		            </ul>
+	            </li>
+	            <li><a href="#" title="Недельные главы Торы">Сувениры</a></li>
+	            <li class="dotless">
+		            <ul class="third-level-nav">
+			            <li><a href="#" title="Книги">Фото</a></li>
+			            <li><a href="#" title="">Разное</a></li>
+		            </ul>
+	            </li>
+	            <li><a href="#" title="Недельные главы Торы">Галерея</a></li>
+	            <li class="dotless">
+		            <ul class="third-level-nav">
+			            <li><a href="#" title="Книги">Работы Леи Манелис</a></li>
+			            <li><a href="#" title="Тора">Картины Максима</a></li>
+		            </ul>
+	            </li>
+            </ul>
+        </li>
+        <li>
+            <h4>
+                <a href="" title="">Раздача дисков</a>
+            </h4>
+        </li>
+        <li>
+            <h4>
+                <a href="" title="">Память</a>
+            </h4>
+        </li>
+	    <li>
+		    <h4>
+			    <a href="" title="">Помочь нам</a>
+		    </h4>
+	    </li>
+	    <li>
+		    <h4>
+			    <a href="" title="">Мой сайт</a>
+		    </h4>
+	    </li>
+	    <li>
+		    <h4>
+			    <a href="" title="">Проекты</a>
+		    </h4>
+	    </li>
+    </ul>
+</section>

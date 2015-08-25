@@ -46,21 +46,7 @@
 
 	<div class="table-cell column-right">
 
-		<section class="shopping-cart">
-			<div class="heading">
-				Корзина
-			</div>
-			<div class="shopping-cart-content">
-				<div class="shopping-cart-empty">
-					<span class="icon-cart"></span>
-					Корзина пуста
-				</div>
-				<div class="user-info">
-					Вы не авторизованы. <br/>
-					<a href="" title="">Войти</a>
-				</div>
-			</div>
-		</section>
+		<!--#include virtual="shopping-cart/cart-logged-off.shtml"-->
 
 		<section class="sale-block">
 			<!--#include virtual="shop-item/index-11.shtml"-->

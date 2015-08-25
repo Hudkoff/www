@@ -1,0 +1,16 @@
+<section class="shopping-cart">
+	<div class="heading">
+		Корзина
+	</div>
+	<div class="shopping-cart-content">
+
+		<div class="shopping-cart-empty">
+			<span class="icon-cart"></span>
+			Корзина пуста
+		</div>
+		<div class="user-login">
+			Вы не авторизованы. <br/>
+			<a href="" title="">Войти</a>
+		</div>
+	</div>
+</section>
