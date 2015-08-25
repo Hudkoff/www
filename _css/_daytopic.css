@@ -2,10 +2,6 @@
 	margin-bottom: 20px;
 	position: relative;
 }
-/*.daytopic-content .column-left, 
-.daytopic-content .column-right {
-	width: 20%;
-}*/
 .daytopic-content > .table > .column-right {
 	vertical-align: bottom;
 }
@@ -44,10 +40,6 @@
 	padding: 0 0 30px;
 
 }
-/*.daytopic-content .column-central .content {
-	padding: 0 20px 20px;
-	box-sizing: border-box;
-}*/
 .daytopic-content .column-central .summary.separate {
 	border-bottom: 1px solid #e5e5e5;
 }

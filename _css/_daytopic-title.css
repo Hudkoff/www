@@ -19,15 +19,25 @@
 	display: inline-block;
 	padding: 12px 12px 14px 0;
 }
+
 .daytopic-title .daytopic-menu a:hover {
 	text-decoration: underline;
+}
+
+.page_topic .daytopic-title .daytopic-menu a {
+    font-size: 14px;
+}
+
+
+.daytopic-title .bottom-text {
+	bottom: 10px;
+	position: absolute;
 }
 .page_home .daytopic-title .bottom-text {
 	margin-left: 20%;
 	padding-left: 20px;
-	bottom: 10px;
-	position: absolute;
 }
+
 .daytopic-title .bottom-text .definition {
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;

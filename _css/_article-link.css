@@ -58,7 +58,8 @@ a.article-link:hover h4 {
 	line-height: 1.4;
 }
 .article-link .content {
-	font-size: 1.3rem;
+	font-size: 13px;
+	margin-left: 79px;
 }
 .article-link .content .more {
 	margin-left: 0;

@@ -18,7 +18,14 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-				<!--#include virtual="breadcrumbs/topic.shtml"-->
+			<!--#include virtual="breadcrumbs/topic.shtml"-->
+			<!--#include virtual="_daytopic-title.shtml"-->
+			<div class="content_bordered">
+				<p>В этом году праздник еврейского Нового года, Рош-Ашана, наступает вечером в пятницу 18 сентября. Праздничными являются оба первых дня месяца тишрей, поэтому праздник кончится с появлением на небе первых звезд вечером 20 сентября. Все это время нельзя делать никакой работы, кроме приготовления пищи непосредственно для нужд праздника. 
+				<p>В канун Рош аШана встают до наступления утра для чтения Слихот и покаянных молитв, стараясь завершить тшуву, ибо это последний находящийся в нашем распоряжении день перед Днем Суда, когда все создания проходят перед Творцом как скот перед хозяином. В этот день мы более, чем когда-либо, остерегаемся обидеть другого человека или иначе согрешить перед ним, и стараемся, чтобы ничто не отвлекало нас от процесса тшувы.
+				<p>Вдумаемся: ведь человек, который должен предстать перед судом земного, смертного царя, непременно испытывает смятение и страх, и ему не придет в голову заниматься посторонними делами — он всецело поглощен подготовкой к суду и думает о том, как ему снискать царскую милость и умолить царя о прощении. 
+			</div>
+			<br>
 
 		</div>
 
@@ -63,9 +70,9 @@
 					</div>
 				</section>
 				<section class="table-cell questions-box">
-					<h3 class="color-FAMILY arrowed bordered">
+					<h3 class="color-ARTICLES arrowed bordered">
 						<a href="#" title="">
-							Семья
+							Статьи
 							<b>&#9670;</b>
 						</a>
 					</h3>
@@ -82,44 +89,44 @@
 				<div class="table-cell">
 					<div class="table">
 						<section class="table-cell questions-box">
-							<h3 class="color-ASK arrowed bordered">
+							<h3 class="color-AUDIO arrowed bordered">
 								<a href="#" title="">
-									Вопросы раввину
+									Аудио
 									<b>&#9670;</b>
 								</a>
 							</h3>
 							<div>
-								<!--#include virtual="article-link/index-11.shtml"-->
-								<!--#include virtual="article-link/index-12.shtml"-->
-								<!--#include virtual="article-link/index-13.shtml"-->
+								<!--#include virtual="article-link/index-41.shtml"-->
+								<!--#include virtual="article-link/index-42.shtml"-->
+								<!--#include virtual="article-link/index-41.shtml"-->
 							</div>
 						</section>
 						<section class="table-cell questions-box">
-							<h3 class="color-ASK arrowed bordered">
+							<h3 class="color-LEARNING arrowed bordered">
 								<a href="#" title="">
-									Вопросы раввину
+									Тесты
 									<b>&#9670;</b>
 								</a>
 							</h3>
 							<div>
-								<!--#include virtual="article-link/index-11.shtml"-->
-								<!--#include virtual="article-link/index-12.shtml"-->
-								<!--#include virtual="article-link/index-13.shtml"-->
+								<!--#include virtual="tests/index-01.shtml"-->
+								<!--#include virtual="tests/index-02.shtml"-->
+								<!--#include virtual="tests/index-03.shtml"-->
 							</div>
 						</section>						
 					</div>	
 				</div>
 				<section class="table-cell questions-box">
-					<h3 class="color-FAMILY arrowed bordered">
+					<h3 class="color-VIDEO arrowed bordered">
 						<a href="#" title="">
-							Семья
+							Видео
 							<b>&#9670;</b>
 						</a>
 					</h3>
 					<div>
-						<!--#include virtual="article-link/index-11.shtml"-->
-						<!--#include virtual="article-link/index-12.shtml"-->
-						<!--#include virtual="article-link/index-13.shtml"-->
+						<!--#include virtual="video-link/index-01.shtml?block"-->
+						<!--#include virtual="video-link/index-02.shtml?none"-->
+						<!--#include virtual="video-link/index-03.shtml?none"-->
 					</div>
 				</section>
 			</div>
@@ -127,16 +134,17 @@
 
 			<div class="table">
 				<section class="table-cell questions-box">
-					<h3 class="color-ASK arrowed bordered">
+					<h3 class="color-BLOG arrowed bordered">
 						<a href="#" title="">
-							Вопросы раввину
+							Блоги
 							<b>&#9670;</b>
 						</a>
 					</h3>
 					<div>
-						<!--#include virtual="article-link/index-11.shtml"-->
-						<!--#include virtual="article-link/index-12.shtml"-->
-						<!--#include virtual="article-link/index-13.shtml"-->
+						<!--#include virtual="article-link/index-31.shtml"-->
+						<!--#include virtual="article-link/index-32.shtml"-->
+						<!--#include virtual="article-link/index-33.shtml"-->
+						<!--#include virtual="article-link/index-32.shtml"-->
 					</div>
 				</section>
 				<section class="table-cell questions-box">
