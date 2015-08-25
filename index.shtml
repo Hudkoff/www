@@ -6,7 +6,7 @@
 	<link href="_css/home.css" rel="stylesheet" type="text/css">
 
 </head>
-<body itemscope itemtype="http://schema.org/WebPage">
+<body class="page_home" itemscope itemtype="http://schema.org/WebPage">
 
 	<!--#include virtual="_header.shtml"-->
 
