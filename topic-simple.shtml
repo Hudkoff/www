@@ -1,0 +1,181 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/topic.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_topic" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="articles-main table COL-asym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="intopic/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+				<!--#include virtual="breadcrumbs/topic.shtml"-->
+
+		</div>
+
+		<div class="column-right table-cell lenta-column">
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</section>
+		</div>
+
+	</div>
+
+
+	<div class="articles-catalog table COL-sym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<div class="table">
+				<section class="table-cell questions-box">
+					<h3 class="color-ASK arrowed bordered">
+						<a href="#" title="">
+							Вопросы раввину
+							<b>&#9670;</b>
+						</a>
+					</h3>
+					<div>
+						<!--#include virtual="article-link/index-11.shtml"-->
+						<!--#include virtual="article-link/index-12.shtml"-->
+						<!--#include virtual="article-link/index-13.shtml"-->
+					</div>
+				</section>
+				<section class="table-cell questions-box">
+					<h3 class="color-FAMILY arrowed bordered">
+						<a href="#" title="">
+							Семья
+							<b>&#9670;</b>
+						</a>
+					</h3>
+					<div>
+						<!--#include virtual="article-link/index-11.shtml"-->
+						<!--#include virtual="article-link/index-12.shtml"-->
+						<!--#include virtual="article-link/index-13.shtml"-->
+					</div>
+				</section>
+			</div>
+			<br>
+
+			<div class="table">
+				<div class="table-cell">
+					<div class="table">
+						<section class="table-cell questions-box">
+							<h3 class="color-ASK arrowed bordered">
+								<a href="#" title="">
+									Вопросы раввину
+									<b>&#9670;</b>
+								</a>
+							</h3>
+							<div>
+								<!--#include virtual="article-link/index-11.shtml"-->
+								<!--#include virtual="article-link/index-12.shtml"-->
+								<!--#include virtual="article-link/index-13.shtml"-->
+							</div>
+						</section>
+						<section class="table-cell questions-box">
+							<h3 class="color-ASK arrowed bordered">
+								<a href="#" title="">
+									Вопросы раввину
+									<b>&#9670;</b>
+								</a>
+							</h3>
+							<div>
+								<!--#include virtual="article-link/index-11.shtml"-->
+								<!--#include virtual="article-link/index-12.shtml"-->
+								<!--#include virtual="article-link/index-13.shtml"-->
+							</div>
+						</section>						
+					</div>	
+				</div>
+				<section class="table-cell questions-box">
+					<h3 class="color-FAMILY arrowed bordered">
+						<a href="#" title="">
+							Семья
+							<b>&#9670;</b>
+						</a>
+					</h3>
+					<div>
+						<!--#include virtual="article-link/index-11.shtml"-->
+						<!--#include virtual="article-link/index-12.shtml"-->
+						<!--#include virtual="article-link/index-13.shtml"-->
+					</div>
+				</section>
+			</div>
+			<br>
+
+			<div class="table">
+				<section class="table-cell questions-box">
+					<h3 class="color-ASK arrowed bordered">
+						<a href="#" title="">
+							Вопросы раввину
+							<b>&#9670;</b>
+						</a>
+					</h3>
+					<div>
+						<!--#include virtual="article-link/index-11.shtml"-->
+						<!--#include virtual="article-link/index-12.shtml"-->
+						<!--#include virtual="article-link/index-13.shtml"-->
+					</div>
+				</section>
+				<section class="table-cell questions-box">
+					<h3 class="color-FAMILY arrowed bordered">
+						<a href="#" title="">
+							Семья
+							<b>&#9670;</b>
+						</a>
+					</h3>
+					<div>
+						<!--#include virtual="article-link/index-11.shtml"-->
+						<!--#include virtual="article-link/index-12.shtml"-->
+						<!--#include virtual="article-link/index-13.shtml"-->
+					</div>
+				</section>
+			</div>
+
+
+
+
+
+
+
+
+		</div>
+
+		<aside class="table-cell column-right">
+			фотки
+		</aside>
+
+	</div>
+
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+	<!--#include virtual="_block-seo.shtml"-->			
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>
