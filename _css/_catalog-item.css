@@ -1,12 +1,8 @@
-.catalog-items-list .catalog-item {
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-}
 .catalog-item {
+    box-sizing: border-box;
     display: table;
     width: 100%;
-    padding: 20px 0;
+    padding: 20px;
     border-top: 1px solid #e5e5e5;
 }
 .catalog-item .item-cell {
