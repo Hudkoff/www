@@ -1,0 +1,151 @@
+/* стили для страницы магазина */
+@import "_catalog-pagination.css";
+@import "_slider.css";
+
+/* ============================================================================== */
+
+.page_store .catalog-pagination {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.page_store .catalog-pagination li.selected a {
+	background-color: #1159a9;
+}
+
+.page_store .slider-box {
+	margin-top: 30px;
+}
+
+.page_store .shop-item {
+	float: left;
+	width: 20%;
+	padding: 0;
+	margin-right: 6.66%;
+	margin-bottom: 20px;
+}
+.page_store .shop-item .table {
+	height: 190px;
+}
+.page_store .shop-item .image-container {
+
+	overflow: hidden;
+	vertical-align: bottom;
+	display: table-cell;
+}
+
+.page_store .shop-item .image-container img {
+	max-width: 100%;
+}
+
+.shopping-cart {
+	border: 2px solid #56a5d2;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.shopping-cart .heading {
+	font-weight: bold;
+	font-size: 12px;
+	color: #56a5d2;
+	background-color: #e7eef6;
+	text-transform: uppercase;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	padding: 0 10px;
+}
+
+.shopping-cart .shopping-cart-content {
+	padding: 10px;
+}
+.shopping-cart .shopping-cart-empty {
+	font-weight: bold;
+	line-height: 25px;
+	height: 25px;
+	font-size: 12px;
+	margin-bottom: 13px;
+}
+
+.icon-cart {
+	display: block;
+	float: left;
+	background-image: url("/images/icon-cart.png");
+	width: 25px;
+	height: 23px;
+	margin-right: 12px;
+}
+
+.shopping-cart .user-info {
+	border-top: 1px solid #e5e5e5;
+	padding-top: 6px;
+	font-size: 12px;
+}
+
+.page_store .sale-block {
+	border: 1px solid #bdbdbd;
+	padding: 20px;
+}
+
+.page_store .sale-block .shop-item {
+	width: 100%;
+	float: none;
+}
+
+.page_store .discount {
+	background-image: url("/images/sale-bg.png");
+	width: 107px;
+	height: 37px;
+	line-height: 37px;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: 900;
+	position: relative;
+	top: -3px;
+	left: 50%;
+	margin-left: -53px;
+	color: #000;
+}
+
+.page_store .visas {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.page_store .visas img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.page_store .bank-info-block a {
+	clear: both;
+	display: block;
+}
+.page_store .bank-info-block a.bank-link{
+	margin-bottom: 15px;
+}
+
+.page_store .currency-block {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	margin-top: 10px;
+}
+.currency-block li {
+	line-height: 20px;
+}
+
+
+@media screen and (min-width: 1290px) {
+	.page_store .shop-item:nth-child(4n) {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 1290px){
+	.page_store .shop-item {
+		width: 30%;
+		margin-right: 5%;
+	}
+	.page_store .shop-item:nth-child(3n) {
+		margin-right: 0;
+	}
+
+}

@@ -1,0 +1,21 @@
+<a href="#" class="shop-item clearfix" title="">
+	<div class="image">
+		<div class="table">
+			<div class="image-container">
+				<img src="images/shop-03.jpg" alt=""/>v
+			</div>
+		</div>
+		<div class="price">₪<b>20.00</b> / $5.08</div>
+		<div class="discount">
+			скидка 10%
+		</div>
+	</div>
+	<p class="title">Спасение Торы из огня катастрофы</p>
+
+	<p class="author">Рав Ехеззкель Ляйтнер</p>
+</a>
+
+
+
+
+

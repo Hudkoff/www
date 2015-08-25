@@ -1,0 +1,137 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/store.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_store" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="table COL-sym top-block wrapper clearfix">
+
+	<div class="table-cell column-left">
+		<!--#include virtual="sidemenu/sidemenu-shop.shtml"-->
+	</div>
+
+	<div class="table-cell column-central">
+		<!--#include virtual="breadcrumbs/store.shtml"-->
+		<h1 class="color-MONEY">Магазин</h1>
+
+		<div class="slider-box">
+			<!--#include virtual="_slider.shtml"-->
+		</div>
+
+		<div class="content">
+			<div class="clearfix">
+				<!--#include virtual="shop-item/index-01.shtml"-->
+				<!--#include virtual="shop-item/index-02.shtml"-->
+				<!--#include virtual="shop-item/index-03.shtml"-->
+				<!--#include virtual="shop-item/index-04.shtml"-->
+				<!--#include virtual="shop-item/index-03.shtml"-->
+				<!--#include virtual="shop-item/index-04.shtml"-->
+				<!--#include virtual="shop-item/index-01.shtml"-->
+				<!--#include virtual="shop-item/index-02.shtml"-->
+				<!--#include virtual="shop-item/index-04.shtml"-->
+				<!--#include virtual="shop-item/index-01.shtml"-->
+				<!--#include virtual="shop-item/index-02.shtml"-->
+				<!--#include virtual="shop-item/index-03.shtml"-->
+			</div>
+			<!--#include virtual="catalog-pagination/index.shtml"-->
+		</div>
+
+	</div>
+
+	<div class="table-cell column-right">
+
+		<section class="shopping-cart">
+			<div class="heading">
+				Корзина
+			</div>
+			<div class="shopping-cart-content">
+				<div class="shopping-cart-empty">
+					<span class="icon-cart"></span>
+					Корзина пуста
+				</div>
+				<div class="user-info">
+					Вы не авторизованы. <br/>
+					<a href="" title="">Войти</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="sale-block">
+			<!--#include virtual="shop-item/index-11.shtml"-->
+			<!--#include virtual="shop-item/index-12.shtml"-->
+			<!--#include virtual="shop-item/index-13.shtml"-->
+		</section>
+
+		<section class="bank-info-block">
+			<h3 class="color-GRAY bordered">
+				<a href="" title="">Принимаем</a>
+			</h3>
+
+			<div class="visas clearfix">
+				<img src="images/icon-visa.png" alt=""/>
+				<img src="images/icon-visa-1.png" alt=""/>
+				<img src="images/icon-visa-2.png" alt=""/>
+				<img src="images/icon-visa-3.png" alt=""/>
+				<img src="images/icon-visa-4.png" alt=""/>
+				<img src="images/icon-visa-5.png" alt=""/>
+				<img src="images/icon-visa-6.png" alt=""/>
+				<img src="images/icon-visa-7.png" alt=""/>
+			</div>
+
+			<a class="bank-link" href="" title="">Номера наших банковских счетов</a>
+
+			<a href="" title="">Наш аттестат WebMoney</a>
+			<a href="" title="">Мы в каталоге WebMoney</a>
+			<a href="" title="">Уведомление WebMoney</a>
+
+		</section>
+
+		<section>
+			<h3 class="color-GRAY bordered">
+				<a href="" title="">Валюты</a>
+			</h3>
+
+			<ul class="currency-block">
+				<li>
+					<b>NIS</b> — Израильский шекель
+				</li>
+				<li>
+					<b>USD</b> — Американский доллар
+				</li>
+				<li>
+					<b>RUR</b> — Российский рубль
+				</li>
+				<li>
+					<b>EUR</b> — Евро
+				</li>
+				<li>
+					<b>GBP</b> — Фунт стерлингов
+				</li>
+				<li>
+					<b>JPY</b> — Японская йена
+				</li>
+				<li>
+					<b>AUD</b> — Австралийский доллар
+				</li>
+				<li>
+					<b>CAD</b> — Канадский доллар
+				</li>
+			</ul>
+		</section>
+
+	</div>
+
+</div>
+
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

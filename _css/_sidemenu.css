@@ -21,6 +21,9 @@
 .page_video .sidemenu h4 {
     color: #4fc77a;
 }
+.page_store .sidemenu h4 {
+    color: #56a5d2;
+}
 
 .sidemenu .second-level-nav li.selected {
     color: inherit;
@@ -44,6 +47,10 @@
 .page_video .sidemenu .second-level-nav li.selected a {
     color: #4fc77a;
 }
+.page_store .sidemenu .second-level-nav li.selected a {
+    color: #56a5d2;
+}
+
 .page_gallery .sidemenu .sidemenu .second-level-nav > li.selected:before {
     color: #9c5630;
 }
@@ -62,6 +69,9 @@
 }
 .page_video .sidemenu .second-level-nav > li.selected:before {
     color: #4fc77a;
+}
+.page_store .sidemenu .second-level-nav > li.selected:before {
+    color: #56a5d2;
 }
 
 
@@ -86,6 +96,9 @@
     content: "\2022";
     padding-right: 7px;
 }
+.sidemenu .second-level-nav > li.dotless:before{
+    display: none;
+}
 .sidemenu .first-level-nav > li:first-child {
     padding-top: 5px;
     border-top: none;
@@ -106,4 +119,22 @@
     background: #f4fbf6;
     margin-left: -8px;
     padding-left: 8px;
+}
+.page_store .sidemenu .second-level-nav li.selected {
+	background: #e7eef6;
+}
+
+.sidemenu .third-level-nav li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.sidemenu .third-level-nav > li:before{
+    color: #000;
+    display: inline-block;
+    content: "\2022";
+    font-size: 12px;
+    padding-left: 12px;
+    padding-right: 7px;
 }
