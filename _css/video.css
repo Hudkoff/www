@@ -21,6 +21,7 @@
 }
 .video-player .fader-big {
 	position: absolute;
+	overflow: hidden;
 	bottom: 0;
 	left: 0;
 	width: 100%;
