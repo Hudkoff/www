@@ -1,0 +1,113 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/store.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_store" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="table COL-sym top-block wrapper clearfix">
+
+	<div class="table-cell column-left">
+		<!--#include virtual="sidemenu/sidemenu-shop-item.shtml"-->
+	</div>
+
+	<div class="table-cell column-central">
+		<div class="shopping-cart-wrapper">
+			<form>
+				<!--#include virtual="breadcrumbs/store-cart.shtml"-->
+				<h1 class="color-MONEY">Моя корзина</h1>
+
+				<div class="column-labels">
+					<div class="item-price-label">Стоимость:</div>
+					<div class="item-quantity-label">Кол-во:</div>
+					<div class="item-weight-label">Вес:</div>
+					<div class="item-name-label">Наименование товара:</div>
+				</div>
+
+				<div class="cart-item">
+					<a href="" title="" class="delete-item">Удалить</a>
+
+					<div class="item-price-block">
+						<div class="item-price">$ 5.08</div>
+					</div>
+					<div class="item-quantity">
+						<input type="text" value="1"/> шт.
+					</div>
+					<div class="item-weight">700 г.</div>
+					<div class="item-image">
+						<img src="images/cart-item-1.jpg" alt=""/>
+					</div>
+					<div class="item-name">
+						<h4>Тора и Гафтарот. Подарочное издание (натуральная кожа)</h4>
+
+						<div class="info"><b>Издательство:</b> FREE, <b>Перевод:</b> Давид Сафронов</div>
+					</div>
+				</div>
+
+				<div class="cart-item">
+					<a href="" title="" class="delete-item">Удалить</a>
+
+					<div class="item-price-block">
+						<div class="item-price">$ 5.08</div>
+					</div>
+					<div class="item-quantity">
+						<input type="text" value="1"/> шт.
+					</div>
+					<div class="item-weight">700 г.</div>
+					<div class="item-image">
+						<img src="images/cart-item-1.jpg" alt=""/>
+					</div>
+					<div class="item-name">
+						<h4>Тора и Гафтарот. Подарочное издание (натуральная кожа)</h4>
+
+						<div class="info"><b>Издательство:</b> FREE, <b>Перевод:</b> Давид Сафронов</div>
+					</div>
+				</div>
+			</form>
+		</div>
+
+
+		<h3 class="color-GRAY bordered">
+			<a href="" title="">Рекомендуем также</a>
+		</h3>
+
+		<div class="clearfix">
+			<!--#include virtual="shop-item/index-01.shtml"-->
+			<!--#include virtual="shop-item/index-02.shtml"-->
+			<!--#include virtual="shop-item/index-03.shtml"-->
+			<!--#include virtual="shop-item/index-04.shtml"-->
+			<!--#include virtual="shop-item/index-03.shtml"-->
+			<!--#include virtual="shop-item/index-04.shtml"-->
+			<!--#include virtual="shop-item/index-01.shtml"-->
+			<!--#include virtual="shop-item/index-02.shtml"-->
+			<!--#include virtual="shop-item/index-04.shtml"-->
+			<!--#include virtual="shop-item/index-01.shtml"-->
+			<!--#include virtual="shop-item/index-02.shtml"-->
+			<!--#include virtual="shop-item/index-03.shtml"-->
+		</div>
+
+	</div>
+
+	<div class="table-cell column-right">
+
+		<section class="sale-block">
+			<!--#include virtual="shop-item/index-11.shtml"-->
+			<!--#include virtual="shop-item/index-12.shtml"-->
+			<!--#include virtual="shop-item/index-13.shtml"-->
+		</section>
+
+	</div>
+
+</div>
+
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

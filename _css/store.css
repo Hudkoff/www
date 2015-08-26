@@ -287,6 +287,116 @@
 	margin-bottom: 20px ;
 }
 
+
+.page_store .shopping-cart-wrapper {
+	border: 2px solid #56a5d2;
+	padding: 20px;
+	margin-bottom: 35px;
+}
+
+.cart-item {
+	padding: 20px;
+	background-color: #e7eef6;
+	margin-bottom: 15px;
+}
+
+.cart-item .delete-item {
+	font-family: 'Open Sans', sans-serif;
+	float: right;
+	width: 70px;
+	font-size: 12px;
+	margin-left: 10px;
+	margin-top: 10px
+}
+.cart-item .delete-item:before {
+	content: "";
+	display: inline-block;
+	background-image: url("/images/icon-cross.png");
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+}
+.cart-item .item-price-block {
+	float: right;
+	width: 110px;
+	margin-left: 10px;
+}
+.cart-item .item-price {
+	background-color: #1159a9;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 6px 10px;
+	display: inline-block;
+}
+.cart-item .item-quantity {
+	float: right;
+	width: 90px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #717171;
+	margin-top: 8px
+}
+.cart-item .item-quantity input{
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #d4d4d4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.cart-item .item-weight {
+	float: right;
+	width: 70px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #717171;
+	margin-top: 12px
+}
+.item-image {
+	float: left;
+	width: 70px;
+}
+.cart-item .item-name {
+	margin-left: 75px;
+	margin-right: 370px;
+}
+
+.cart-item .item-name .info {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #717171;
+	margin: 5px 0;
+}
+
+.column-labels {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	color: #222325;
+	margin-bottom: 10px;
+}
+.column-labels .item-price-label {
+	float: right;
+	width: 210px;
+}
+.column-labels .item-quantity-label {
+	float: right;
+	width: 100px;
+}
+.column-labels .item-weight-label {
+	float: right;
+	width: 70px;
+}
+
+
 @media screen and (min-width: 1290px) {
 	.page_store .shop-item:nth-child(4n) {
 		margin-right: 0;
