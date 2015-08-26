@@ -1,0 +1,62 @@
+<ul class="navigation-list clearfix">
+	<li>
+		<a href="#">Тора (Пятикнижие, Хумаш)</a>
+		<span class="number-label">14</span>
+	</li>
+	<li>
+		<a href="#">Пророки (Невиим)</a>
+		<span class="number-label">23</span>
+	</li>
+	<li>
+		<a href="#">Писания (Кетувим)</a>
+		<span class="number-label">15</span>
+	</li>
+	<li>
+		<a href="#">Мишна</a>
+		<span class="number-label">32</span>
+	</li>
+	<li>
+		<a href="#">Недельная Глава</a>
+		<span class="number-label">44</span>
+	</li>
+	<li>
+		<a href="#">Еврейские молитвы</a>
+		<span class="number-label">11</span>
+	</li>
+	<li>
+		<a href="#">Еврейский закон (Алаха)</a>
+		<span class="number-label">98</span>
+	</li>
+	<li>
+		<a href="#">Кашрут</a>
+		<span class="number-label">27</span>
+	</li>
+	<li>
+		<a href="#">Классика еврейской мысли</a>
+		<span class="number-label">8</span>
+	</li>
+	<li>
+		<a href="#">Еврейское мировоззрение (Мусар)</a>
+		<span class="number-label">19</span>
+	</li>
+	<li>
+		<a href="#">Каббала</a>
+		<span class="number-label">34</span>
+	</li>
+	<li>
+		<a href="#">Еврейская история</a>
+		<span class="number-label">22</span>
+	</li>
+	<li>
+		<a href="#">Семья и воспитание детей</a>
+		<span class="number-label">12</span>
+	</li>
+	<li>
+		<a href="#">Разное</a>
+		<span class="number-label">9</span>
+	</li>
+	<li>
+		<a href="#">Периодические издания</a>
+		<span class="number-label">4</span>
+	</li>
+</ul>

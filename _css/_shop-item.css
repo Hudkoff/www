@@ -30,3 +30,17 @@
 .shop-item:hover .author {
 	text-decoration: underline;
 }
+.shop-item .discount {
+	background-image: url("/images/sale-bg.png");
+	width: 107px;
+	height: 37px;
+	line-height: 37px;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: 900;
+	position: relative;
+	top: -3px;
+	left: 50%;
+	margin-left: -53px;
+	color: #000;
+}

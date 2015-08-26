@@ -1,0 +1,41 @@
+.library-item {
+	text-align: center;
+}
+.library-item .library-item-link {
+	display: block;
+	padding: 20px 20px 0;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.library-item .image {
+	text-align: center;
+	font-size: 0;
+	margin-bottom: 5px;
+}
+.library-item .title {
+	margin-bottom: 15px;
+	color: #000;
+}
+.library-item:hover .title {
+	text-decoration: underline;
+}
+.library-item .buttons {
+	margin-bottom: 10px;
+	font-size: 0;
+}
+.library-item .buttonGRAY {
+	margin: 0;
+	padding-right: 10px;
+	border-radius: 0;
+}
+.library-item .buttonGRAY:first-child {
+	border-radius: 2px 0 0 2px;
+}
+.library-item .buttonGRAY:last-child {
+	border-radius: 0 2px 2px 0;
+}
+.library-item .more {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4rem;
+}

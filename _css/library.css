@@ -1,0 +1,7 @@
+@import "_catalog-pagination.css";
+@import "_navigation-list.css";
+@import "_library-item.css";
+
+.page_library h3.color-LIGHTGRAY {
+    color: #7247ba;
+}

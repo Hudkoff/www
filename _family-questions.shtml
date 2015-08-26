@@ -1,4 +1,3 @@
-
 <section>
 	<h4 class="color-FAMILY arrowed bordered">
 		<a href="#" title="">
@@ -13,4 +12,5 @@
 		<a class="family-article-link" href="#" title="">Между мужем и женой не должно быть никаких тайн?</a>
 		<a class="family-article-link" href="#" title="">Мы уже в браке несколько лет, но муж продолжает встречаться с...</a>
 	</div>
+	<a href="#" class="ask-button family" title="Спросить семейного консультанта">Спросить консультанта</a>
 </section>

@@ -170,7 +170,10 @@ h4[class ^= color] {
 .page_family .content_bordered {
 	border-color: #ffeeea;
 }
-
+.content_narrow_bordered {
+	border: 1px solid #bdbdbd;
+    padding: 20px;
+}
 
 
 
@@ -201,6 +204,9 @@ h4[class ^= color] {
 }
 .page_video h1 {
     color: #4fc77a;
+}
+.page_library h1 {
+    color: #7247ba;
 }
 
 

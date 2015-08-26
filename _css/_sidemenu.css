@@ -24,6 +24,10 @@
 .page_store .sidemenu h4 {
     color: #56a5d2;
 }
+.page_library .sidemenu h4 {
+    color: #7247ba;
+}
+
 
 .sidemenu .second-level-nav li.selected {
     color: inherit;
@@ -90,13 +94,16 @@
     padding: 19px 0 19px 0;
     border-top: 1px solid #eef6e7;
 }
+.sidemenu .first-level-nav > li.selected h4 {
+    color: #000;
+}
 .sidemenu .second-level-nav > li:before{
     color: #000;
     display: inline-block;
     content: "\2022";
     padding-right: 7px;
 }
-.sidemenu .second-level-nav > li.dotless:before{
+.sidemenu .second-level-nav > li.dotless:before {
     display: none;
 }
 .sidemenu .first-level-nav > li:first-child {

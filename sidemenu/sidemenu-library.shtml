@@ -1,0 +1,19 @@
+<section class="sidemenu">
+    <ul class="first-level-nav">
+        <li>
+            <h4><a href="#" title="Учеба">Учеба</a></h4>
+        </li>
+        <li>
+            <h4><a href="#" title="Вебинары">Вебинары</a></h4>
+        </li>
+        <li>
+            <h4><a href="#" title="Тесты">Тесты</a></h4>
+        </li>
+        <li class="selected">
+            <h4>Библиотека</h4>
+        </li>
+        <li>
+            <h4><a href="#" title="Где учить Тору?">Где учить Тору?</a></h4>
+        </li>
+    </ul>
+</section>
