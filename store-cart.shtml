@@ -17,7 +17,7 @@
 	</div>
 
 	<div class="table-cell column-central">
-		<div class="shopping-cart-wrapper">
+		<div class="shopping-cart-wrapper clearfix">
 			<form>
 				<!--#include virtual="breadcrumbs/store-cart.shtml"-->
 				<h1 class="color-MONEY">Моя корзина</h1>
@@ -67,6 +67,60 @@
 
 						<div class="info"><b>Издательство:</b> FREE, <b>Перевод:</b> Давид Сафронов</div>
 					</div>
+				</div>
+
+				<div class="order-summary clearfix">
+					<div class="sum-price">
+						Стоимость товаров:
+						<div class="price-block">
+							10.16
+							<select>
+								<option>USD</option>
+								<option>RUB</option>
+								<option>BYR</option>
+							</select>
+						</div>
+						<a class="purchase-button" href="" title="">
+							Оформить заказ
+						</a>
+					</div>
+					<div class="sum-quantity">
+						<span class="icon-cart">
+							<div class="quantity">2</div>
+						</span>
+					</div>
+					<div class="sum-weight">
+						Общий вес:
+						<div class="weight-block">1400 г.</div>
+					</div>
+				</div>
+
+				<div class="order-info-block">
+
+					<a class="delivery-link" href="#" title="">
+						Прикинуть стоимость доставки
+					</a>
+
+					<div class="delivery-block clearfix">
+						<div class="delivery-price">
+							Заказной бандеролью - <b>$5.44</b> <br/>
+							Быстрой международной почтой ЕМS - <b>$31.88</b>
+						</div>
+						Страна назначения:
+						<select>
+							<option>Россия</option>
+							<option>Америка</option>
+							<option>Германия</option>
+							<option>Франиция</option>
+						</select>
+					</div>
+					<p>Если суммарный вес книг вместе с ориентировочным весом упаковки превышает 5 кг, для использования
+						более дешевого варианта пересылки — бандероли — разбейте заказ на два или более, так, чтобы вес
+						каждого из них не превышал 5 кг.</p>
+
+					<p>Если суммарный вес заказанных вами книг и других товаров превышает 19 кг (максимальный вес
+						посылки), просьба оформить заказ, но не оплачивать его. Свяжитесь с нами, и мы разобьем ваш
+						заказ вручную на несколько посылок.</p>
 				</div>
 			</form>
 		</div>
