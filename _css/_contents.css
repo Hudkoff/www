@@ -1,0 +1,19 @@
+.contents {
+	margin: 20px 0;
+}
+.contents h4 {
+	float: left;
+}
+.contents ul {
+	margin-left: 145px;
+}
+.contents li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+} 
+.contents .date {  	
+    font-size: 12px;
+    color: #6c6c6c;
+    line-height: 1.5;
+    margin: 0 0 20px 10px;
+}

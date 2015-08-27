@@ -1,7 +1,78 @@
 @import "_catalog-pagination.css";
 @import "_navigation-list.css";
 @import "_library-item.css";
+@import "_foreword.css";
+@import "_contents.css";
+@import "_article-link.css";
+@import "_learn-item.css";
+
 
 .page_library h3.color-LIGHTGRAY {
     color: #7247ba;
+}
+
+.page_library .book-name {
+	padding-bottom: 20px;
+}
+.page_library .book-name .author-photo {
+    float: left;
+    width: 119px;
+    height: 185px;
+    background-size: cover;
+}
+.page_library .book-name .book-info-container {
+    margin-left: 148px;
+}
+.page_library .book-name .book-info-container h4 {
+	margin-bottom: 10px;
+}
+.page_library .book-name .book-info-container .details {
+   	font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #6c6c6c;
+    line-height: 1.5;
+    margin-bottom: 15px
+}
+.page_library .book-name .book-info-container .details a {
+    color: #6c6c6c;
+}
+.page_library .book-name .book-info-container .description {
+    font-family: 'Noto Serif', serif;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.page_library .column-central .table {
+	margin-top: 30px;
+}
+
+.page_library .column-central .content_colored h1 {
+	color: #c50825;
+}
+
+.page_library .content_colored .author .heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+.page_library .content_colored .author .heading span {
+    display: block;
+    font-family: 'Noto Serif', serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+.page_library .content_colored .author img {
+    float: left;
+    margin: 0 20px 5px 0;
+}
+.page_library .content_colored .author h6 {
+    margin:15px 0;
+}
+.page_library .content_colored .author .item-list li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #2f63b7;
 }

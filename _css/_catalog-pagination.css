@@ -71,4 +71,7 @@
 .page_video .catalog-pagination li.selected a {
     background-color: #4fc77a;
 }
+.page_library .catalog-pagination li.selected a {
+	background-color: #9c5630;
+}
 

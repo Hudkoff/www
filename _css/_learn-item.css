@@ -1,0 +1,19 @@
+.learn-item .learn-item-link {
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	border-top: 1px solid #e5e5e5;
+}
+.learn-item .image {
+	font-size: 0;
+	margin-bottom: 5px;
+}
+.learn-item .title {
+	font-size: 13px;
+	color: #000;
+	font-weight: 700;
+}
+.learn-item:hover .title {
+	text-decoration: underline;
+}
