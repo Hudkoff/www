@@ -1,0 +1,12 @@
+<div class="library-item">
+	<a href="#" class="library-item-link" title="">
+		<div class="image table">
+			<img src="images/book-5.jpg" alt=""/>
+		</div>
+		<h4 class="title">Писания (Ктувим)</h4>
+	</a>
+	<div class="buttons">
+		<a href="#" class="buttonGRAY download">Скачать</a>
+		<a href="#" class="buttonGRAY all-cycle">Цикл</a>
+	</div>
+</div>

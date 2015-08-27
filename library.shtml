@@ -33,6 +33,31 @@
 				<div class="table-cell"><!--#include virtual="library-item/index-01.shtml"--></div>
 				<div class="table-cell"><!--#include virtual="library-item/index-01.shtml"--></div>
 				<div class="table-cell"><!--#include virtual="library-item/index-01.shtml"--></div>
+				<a href="#" class="more">Посмотреть все книги</a>
+			</div>
+
+			<h3 class="color-LIGHTGRAY bordered">Мишна <span class="number">(82)</span></h3>
+			<div class="table">
+				<div class="table-cell"><!--#include virtual="library-item/index-04.shtml"--></div>
+				<div class="table-cell"><!--#include virtual="library-item/index-05.shtml"--></div>
+				<div class="table-cell"><!--#include virtual="library-item/index-06.shtml"--></div>
+				<a href="#" class="more">Посмотреть все книги</a>
+			</div>
+			
+			<h3 class="color-LIGHTGRAY bordered">Недельная Глава <span class="number">(23)</span></h3>
+			<div class="table">
+				<div class="table-cell"><!--#include virtual="library-item/index-07.shtml"--></div>
+				<div class="table-cell"><!--#include virtual="library-item/index-08.shtml"--></div>
+				<div class="table-cell"><!--#include virtual="library-item/index-09.shtml"--></div>
+				<a href="#" class="more">Посмотреть все книги</a>
+			</div>
+			
+			<h3 class="color-LIGHTGRAY bordered">Еврейские молитвы <span class="number">(65)</span></h3>
+			<div class="table">
+				<div class="table-cell"><!--#include virtual="library-item/index-10.shtml"--></div>
+				<div class="table-cell"><!--#include virtual="library-item/index-11.shtml"--></div>
+				<div class="table-cell"><!--#include virtual="library-item/index-12.shtml"--></div>
+				<a href="#" class="more">Посмотреть все книги</a>
 			</div>
 			
 
