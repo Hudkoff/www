@@ -184,7 +184,17 @@
 	display: block;
 }
 .page_store .bank-info-block a.bank-link{
-	margin-bottom: 15px;
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	display: inline;
+}
+.page_store .bank-info-block .webmoney-links {
+	margin-top: 15px;
+}
+.page_store .bank-info-block a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
 }
 
 .page_store .currency-block {
@@ -197,10 +207,15 @@
 }
 
 .shop-item-block .image-container {
+	width: 40%;
 	border: 3px solid #e7eef6;
 	float: left;
 	padding: 20px;
 	margin: 0 20px 20px 0;
+}
+
+.shop-item-block .image-container img{
+	width: 100%;
 }
 
 .shop-item-block .heading {
@@ -252,6 +267,7 @@
 	vertical-align: middle;
 	padding: 0 25px;
 	text-align: right;
+	word-break: keep-all;
 }
 
 .add-to-cart a {
@@ -307,7 +323,12 @@
 	width: 70px;
 	font-size: 12px;
 	margin-left: 10px;
-	margin-top: 10px
+	margin-top: 10px;
+	font-weight: 500;
+	text-decoration: none;
+}
+.shopping-cart-wrapper .cart-item .delete-item span{
+	border-bottom: 1px dotted;
 }
 .shopping-cart-wrapper .cart-item .delete-item:before {
 	content: "";
@@ -484,7 +505,7 @@
 	float: right;
 	margin-top: 5px;
 }
-.order-info-block .order-info-block p {
+.order-info-block p {
 	margin-top: 15px;
 }
 

@@ -30,7 +30,9 @@
 				</div>
 
 				<div class="cart-item">
-					<a href="" title="" class="delete-item">Удалить</a>
+					<a href="" title="" class="delete-item">
+						<span>Удалить</span>
+					</a>
 
 					<div class="item-price-block">
 						<div class="item-price">$ 5.08</div>
@@ -50,7 +52,9 @@
 				</div>
 
 				<div class="cart-item">
-					<a href="" title="" class="delete-item">Удалить</a>
+					<a href="" title="" class="delete-item">
+						<span>Удалить</span>
+					</a>
 
 					<div class="item-price-block">
 						<div class="item-price">$ 5.08</div>

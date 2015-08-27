@@ -121,9 +121,11 @@
 
 			<a class="bank-link" href="" title="">Номера наших банковских счетов</a>
 
-			<a href="" title="">Наш аттестат WebMoney</a>
-			<a href="" title="">Мы в каталоге WebMoney</a>
-			<a href="" title="">Уведомление WebMoney</a>
+			<div class="webmoney-links">
+				<a href="" title="">Наш аттестат WebMoney</a>
+				<a href="" title="">Мы в каталоге WebMoney</a>
+				<a href="" title="">Уведомление WebMoney</a>
+			</div>
 
 		</section>
 
