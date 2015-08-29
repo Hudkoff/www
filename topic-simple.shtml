@@ -10,6 +10,10 @@
 
 	<!--#include virtual="_header.shtml"-->
 
+	<div style="background: url(images/bg-1.jpg) 96% 90% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>
+	<div style="background: url(images/bg-2.jpg) 10% 90% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>
+	<div style="background: url(images/bg-3.jpg) 10% 90% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>
+
 	<div class="articles-main table COL-asym wrapper">
 
 		<aside class="table-cell column-left">
