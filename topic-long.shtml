@@ -1,0 +1,137 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/topic.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_topic" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div style="background: url(images/bg-1.jpg) 96% 75% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>
+	<div style="background: url(images/bg-2.jpg) 8% 52% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>
+	<div style="background: url(images/bg-3.jpg) 90% 94% no-repeat; position: absolute; left: 0; right: 0; height: 150%;"></div>
+
+	<div class="articles-main table COL-asym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="intopic/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<!--#include virtual="breadcrumbs/topic.shtml"-->
+			<!--#include virtual="_daytopic-title.shtml"-->
+			<div class="content_transparent main_content">
+				<h4>Оглавление</h4>
+				<br>
+				<ul class="ogl">
+					<li><a href="#" title="">Праздник Шавуот</a></li>
+					<li><a href="#" title="">Законы и обычаи праздника Шавуот</a>
+						<ul>
+							<li><a href="#" title="">«Акдамот»</a></li>
+							<li><a href="#" title="">Краткое содержание «Акдамот»</a></li>
+							<li><a href="#" title="">История «Акдамот»</a></li>
+							<li><a href="#" title="">«Азгарот»</a></li>
+							<li><a href="#" title="">«Ктуба»</a></li>
+							<li><a href="#" title="">Чтение Торы в Шавуот</a></li>
+							<li><a href="#" title="">Верхний и нижний мелодические ряды</a></li>
+							<li><a href="#" title="">Жертвоприношения Мусаф в Шавуот</a></li>
+							<li><a href="#" title="">Обычай есть в Шавуот молочные блюда</a></li>
+							<li><a href="#" title="">Происхождение этого обычая</a></li>
+							<li><a href="#" title="">Цветы и травы в Шавуот</a></li>
+							<li><a href="#" title="">Старинные обычаи</a></li>
+						</ul>
+					</li>
+					<li><a href="#" title="">Вкус молока и меда</a></li>
+					<li><a href="#" title="">Обычаи передачи Торы</a></li>
+					<li><a href="#" title="">Бдение в ночь праздника Шавуот</a></li>
+					<li><a href="#" title="">Слова книги Зогар</a></li>
+				</ul>
+				<p><h2>Праздник Рош аШана</h2></p>
+				<p>В этом году праздник еврейского Нового года, Рош-Ашана, наступает вечером в пятницу 18 сентября. Праздничными являются оба первых дня месяца тишрей, поэтому праздник кончится с появлением на небе первых звезд вечером 20 сентября. Все это время нельзя делать никакой работы, кроме приготовления пищи непосредственно для нужд праздника. 
+				<p>В канун Рош аШана встают до наступления утра для чтения Слихот и покаянных молитв, стараясь завершить тшуву, ибо это последний находящийся в нашем распоряжении день перед Днем Суда, когда все создания проходят перед Творцом как скот перед хозяином. В этот день мы более, чем когда-либо, остерегаемся обидеть другого человека или иначе согрешить перед ним, и стараемся, чтобы ничто не отвлекало нас от процесса тшувы.
+				<p>Вдумаемся: ведь человек, который должен предстать перед судом земного, смертного царя, непременно испытывает смятение и страх, и ему не придет в голову заниматься посторонними делами — он всецело поглощен подготовкой к суду и думает о том, как ему снискать царскую милость и умолить царя о прощении.
+				<p><h2>Законы и обычаи праздника Рош аШана </h2></p>
+				<p>Праздником бикурим («первинок») он называется потому, что когда евреи приходили в Храм, они приносили с собой «первинки урожая своей земли» — как выражение своей благодарности Вс-вышнему, Который дал им во владение эту землю и насыщает их ее плодами. Бикурим приносили только из семи видов плодов, которыми славится Страна Израиля, — пшеницы, ячменя, винограда, инжира, гранатов, олив и фиников. Церемония принесения бикурим была весьма торжественной, и проходила она при большом стечении народа. Ремесленники Иерусалима прерывали работу, когда мимо проходила процессия людей, несущих бикурим, и вставали ей навстречу. А войдя во двор Храма, паломники отдавали бикурим коенам, читая при этом отрывок из Торы, который говорит об этой заповеди и о событиях, происшедших с народом Израиля, пока он не вступил во владение обещанной ему страной. Это чтение заканчивалось декларацией: «А теперь — вот, я принес первинки урожая земли, которую Ты дал мне, Г-сподь!»
+				<p>В Талмуде Шавуот называется, как правило, словом Ацерет. Это название отражает ту идею, что Шавуот является завершением праздника Песах — его восьмым днем, отстоящим от него на семь недель (подобно тому, как Шмини-Ацерет завершает праздник Суккот).
+				<p>Последнее, четвертое имя, «Праздник дарования Торы», связано с той же идеей и подчеркивает, что исход из Египта, который мы празднуем в Песах, был не самоцелью, но лишь подготовкой к получению Торы.
+			</div>
+			<br>
+
+		</div>
+
+		<div class="column-right table-cell lenta-column">
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</section>
+		</div>
+
+	</div>
+
+
+	<div class="articles-catalog table COL-sym wrapper content_transparent">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="daytopic-article/index-07.shtml"-->
+			<!--#include virtual="daytopic-article/index-06.shtml"-->
+			<!--#include virtual="daytopic-article/index-09.shtml"-->
+			<!--#include virtual="daytopic-article/index-05.shtml"-->
+		</aside>
+
+		<div class="table-cell COL-three column-central" itemprop="mainContentOfPage">
+
+
+			<div class="table ">
+				<div class="table-cell">
+					<!--#include virtual="daytopic-article/index-01.shtml"-->
+					<!--#include virtual="daytopic-article/index-02.shtml"-->
+					<!--#include virtual="daytopic-article/index-03.shtml"-->
+					<!--#include virtual="daytopic-article/index-04.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="daytopic-article/index-05.shtml"-->
+					<!--#include virtual="daytopic-article/index-06.shtml"-->
+					<!--#include virtual="daytopic-article/index-07.shtml"-->
+					<!--#include virtual="daytopic-article/index-08.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="daytopic-article/index-09.shtml"-->
+					<!--#include virtual="daytopic-article/index-10.shtml"-->
+					<!--#include virtual="daytopic-article/index-11.shtml"-->
+				</div>
+			</div>
+
+
+
+		</div>
+
+		<aside class="table-cell column-right">
+			<!--#include virtual="daytopic-article/index-03.shtml"-->
+			<!--#include virtual="daytopic-article/index-01.shtml"-->
+			<!--#include virtual="daytopic-article/index-02.shtml"-->
+			<!--#include virtual="daytopic-article/index-03.shtml"-->
+		</aside>
+
+	</div>
+
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+	<!--#include virtual="_block-seo.shtml"-->			
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>
