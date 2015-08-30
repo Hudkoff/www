@@ -145,7 +145,7 @@
 
 		<aside class="table-cell column-right">
 
-			<section class="testLight">
+			<section>
 				<h3 class="color-BLOG arrowed bordered">
 					<a href="#" title="">
 						Популярное
@@ -156,7 +156,7 @@
 					<h6>Законы седьмого года 10</h6>
 					<div class="info">
 						<b>Рав Носон Шерман</b> <br/>
-						из цикла «Уроки Пятикнижия»
+						из цикла «Уроки Пятикнижия»
 					</div>
 					<div class="buttonGRAY comments">
 						10 Комментариев
@@ -164,7 +164,7 @@
 				</div>
 			</section>
 
-			<section class="testLight">
+			<section>
 				<h3 class="color-BLOG arrowed bordered">
 					<a href="#" title="">
 						Обсуждаемое
@@ -175,7 +175,7 @@
 					<h6>Книга Иова 43</h6>
 					<div class="info">
 						<b>Рав Носон Шерман</b> <br/>
-						из цикла «Уроки Пятикнижия»
+						из цикла «Уроки Пятикнижия»
 					</div>
 					<div class="buttonGRAY comments">
 						13 Комментариев
@@ -183,7 +183,7 @@
 				</div>
 			</section>
 
-			<section class="testLight">
+			<section>
 				<h3 class="color-BLOG arrowed bordered">
 					<a href="#" title="">
 						Год назад
@@ -194,7 +194,7 @@
 					<h6>Книга Иова 43</h6>
 					<div class="info">
 						<b>Рав Носон Шерман</b> <br/>
-						из цикла «Уроки Пятикнижия»
+						из цикла «Уроки Пятикнижия»
 					</div>
 					<div class="buttonGRAY comments">
 						13 Комментариев
@@ -202,7 +202,20 @@
 				</div>
 			</section>
 
-			<!--#include virtual="photos/index.shtml"-->
+			<section>
+				<h3 class="color-PHOTO arrowed bordered">
+					<a href="#" title="">
+						Фото
+						<b>&#9670;</b>
+					</a>
+				</h3>
+
+				<div>
+					<!--#include virtual="photos/index-01.shtml"-->
+					<!--#include virtual="photos/index-02.shtml"-->
+				</div>
+			</section>
+			
 
 			<section>
 				<a class="banner" href="">
