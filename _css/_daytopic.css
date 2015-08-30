@@ -5,22 +5,7 @@
 .daytopic-content > .table > .column-right {
 	vertical-align: bottom;
 }
-.daytopic-content .bg1,
-.daytopic-content .bg2 {
-	background-repeat: no-repeat;
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 100%;
-}
-.daytopic-content .bg1 {
-	background-image: url("../images/content-bg_01.jpg");
-	background-position: 10% 94%;
-}
-.daytopic-content .bg2 {
-	background-image: url("../images/content-bg_02.jpg");
-	background-position: 96% 90%;
-}
+
 
 
 

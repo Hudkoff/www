@@ -1,7 +1,7 @@
 <div class="daytopic-content wrapper">
 
-	<div style="background: url(content-bg_01.jpg) 10% 94% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>
-	<div style="background: url(content-bg_03.jpg) 96% 90% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>	<div class="table COL-sym">
+	<div style="background: url(images/content-bg_01.jpg) 10% 94% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>
+	<div style="background: url(images/content-bg_02.jpg) 96% 90% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>	<div class="table COL-sym">
 
 		<aside class="table-cell column-left">
 			<!--#include virtual="intopic/index.shtml"-->
