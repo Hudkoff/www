@@ -22,9 +22,9 @@
 			<div class="content_colored">
 				<!--#include virtual="breadcrumbs/ask.shtml"-->
 
-				<div class="table">
+				<div class="table COL-three">
 
-					<div class="table-cell column-left">
+					<div class="table-cell double">
 						<div class="audiolessons">
 							<h1 class="color-LIGHTGRAY bordered">Спросить раввина</h1>
 							<div class="topPageInfo">
@@ -38,7 +38,7 @@
 						</div>
 					</div>
 
-					<div class="table-cell column-right">
+					<div class="table-cell">
 						<h3 class="color-LIGHTGRAY bordered">Популярное</h3>
 						<div>
 							<!--#include virtual="article-link/index-61.shtml"-->

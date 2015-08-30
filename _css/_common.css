@@ -55,11 +55,11 @@ body {
 	box-sizing: border-box;
 }
 .table-cell {
-	/*padding-left: 20px;*/
+	padding-left: 20px;
 	/*width: 33.3%;*/
 }
 .table-cell:first-child {
-	/*padding-left: 0;*/
+	padding-left: 0;
 	/*width: 33.4%;*/
 }
 
@@ -92,62 +92,71 @@ body {
 }
 
 /* правая колонка шириной на две */
-.table.COL-double > .table-cell.column-left {
+/*.table.COL-double > .table-cell.column-left {
 	width: 20%;
 	padding-right: 20px;
 }
 .table.COL-double > .table-cell.column-right {
 	padding: 0;
 	width: auto;
-}
-.table.COL-double .column-double {
+}*/
+
+/*.table.COL-double .column-double {
 	margin: 10px 0 0 0;
-}
-.table.COL-double .three-columns .table-cell {
+}*/
+/*.table.COL-double .three-columns .table-cell {
 	width: 33.3%;
-}
-.table.COL-double > .table-cell > .column-left {
+}*/
+/*.table.COL-double > .table-cell > .column-left {
 	padding-left: 0;
 	width: auto;
 }
 .table.COL-double > .table-cell > .column-right {
 	padding-left: 20px;
 	width: 25%;
+}*/
+
+
+
+.table.COL-three > .table-cell {
+	width: 33.3%;
+}
+.table.COL-three > .table-cell.double {
+	width: 66.7%;
+}
+
+
+.table.COL-two > .table-cell {
+	width: 50%;
 }
 
 
 
 
 
-
-
-
-
-
-
-.table-cell .table-cell {
+/*.table-cell .table-cell {*/
 	/*width: 50%;  перебивает ширину - при вложнности в двойную ячейку */
-}
+/*}*/
 
-.table-cell.double { /* перебивает ширину */
-	/*width: 66.7%;*/
-}
-
-
+/*.table-cell.double {  перебивает ширину */
+	/**/
+/*}*/
 
 
 
-.intopic-block {
+
+
+/*.intopic-block {
 	margin-bottom: 40px;
 }
+*/
 
-
-.intopic-block .table-cell .table-cell {
+/*.intopic-block .table-cell .table-cell {
 	width: 33.3%;
 }
 .intopic-block .table-cell .table-cell:first-child {
 	width: 33.4%;
-}
+}*/
 
 .audio-catalog .intopic-block .table-cell {
 	width: 33.3%;
@@ -313,11 +322,17 @@ a:hover {
 }
 .more.right {
 	float: right;
-	margin-top:13px;
+	margin-top: 13px;
 	font: normal 13px 'Open Sans', sans-serif;
 }
 
-
+.daytopic-content.audio-page .content .more,
+.daytopic-content.blogs-page .content .more {
+	float: right;
+	margin-top: 13px;
+	font: normal 13px 'Open Sans', sans-serif;
+	color: #4a7ec0;
+}
 
 
 

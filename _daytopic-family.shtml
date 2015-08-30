@@ -20,8 +20,8 @@
 			</section>
 
 			<div class="catalog">
-					<div class="table wrapper">
-						<div class="table-cell">
+					<div class="table COL-three wrapper">
+						<div class="table-cell double">
 							<h3 class="color-ARTICLES bordered">Статьи</h3>
 							<div>
 								<!--#include virtual="audio-link/family-16.shtml"-->

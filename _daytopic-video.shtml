@@ -3,7 +3,7 @@
 	<div class="bg1"></div>
 	<div class="bg2"></div>
 
-	<div class=" table COL-sym">
+	<div class="table COL-sym">
 
 		<aside class="table-cell column-left">
 			<!--#include virtual="intopic/index.shtml"-->
@@ -17,7 +17,7 @@
 			</section>
 			<div class="wrapper">
 				<h3 class="color-LIGHTGRAY bordered">Видеоуроки: Рош аШана</h3>
-				<div class="table">
+				<div class="table COL-two">
 					<div class="table-cell">
 						<!--#include virtual="video-link/video-lessons-13.shtml"-->
 						<!--#include virtual="video-link/video-lessons-14.shtml"-->

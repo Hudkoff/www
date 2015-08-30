@@ -13,7 +13,7 @@
 				</p>
 				<a class="more" href="" title="">Читать дальше</a>
 			</section>
-			<div class="table wrapper">
+			<div class="table COL-three wrapper">
 				<div class="table-cell">
 					<!--#include virtual="daytopic-article/index-01.shtml"-->
 					<!--#include virtual="daytopic-article/index-02.shtml"-->

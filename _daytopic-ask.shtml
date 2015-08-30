@@ -16,12 +16,12 @@
 			</section>
 			<div class="wrapper">
 				<h3 class="color-LIGHTGRAY bordered">Вопросы: Рош аШана</h3>
-				<div class="table ">
-					<div class="table-cell column-left">
+				<div class="table COL-three">
+					<div class="table-cell double">
 						<!--#include virtual="audio-link/index-51.shtml"-->
 						<!--#include virtual="audio-link/index-52.shtml"-->
 					</div>
-					<div class="table-cell column-right">
+					<div class="table-cell">
 						<!--#include virtual="article-link/index-71.shtml"-->
 						<!--#include virtual="article-link/index-72.shtml"-->
 						<!--#include virtual="article-link/index-73.shtml"-->

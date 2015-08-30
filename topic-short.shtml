@@ -10,9 +10,8 @@
 
 	<!--#include virtual="_header.shtml"-->
 
-	<div style="background: url(images/bg-5.jpg) 96% 75% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>
-	<div style="background: url(images/bg-4.jpg) 8% 52% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>
-	<div style="background: url(images/bg-6.jpg) 90% 94% no-repeat; position: absolute; left: 0; right: 0; height: 200%;"></div>
+	<div style="background: url(images/content-bg_01.jpg) 10% 94% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>
+	<div style="background: url(images/content-bg_02.jpg) 96% 90% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>	<div class="table COL-sym">
 
 	<div class="articles-main table COL-asym wrapper">
 
@@ -23,7 +22,7 @@
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
 			<!--#include virtual="breadcrumbs/topic.shtml"-->
-			<!--#include virtual="_daytopic-title-1.shtml"-->
+			<!--#include virtual="_daytopic-title-3.shtml"-->
 			<div class="content_transparent main_content">
 				<p>В этом году праздник еврейского Нового года, Рош-Ашана, наступает вечером в пятницу 18 сентября. Праздничными являются оба первых дня месяца тишрей, поэтому праздник кончится с появлением на небе первых звезд вечером 20 сентября. Все это время нельзя делать никакой работы, кроме приготовления пищи непосредственно для нужд праздника. 
 				<p>В канун Рош аШана встают до наступления утра для чтения Слихот и покаянных молитв, стараясь завершить тшуву, ибо это последний находящийся в нашем распоряжении день перед Днем Суда, когда все создания проходят перед Творцом как скот перед хозяином. В этот день мы более, чем когда-либо, остерегаемся обидеть другого человека или иначе согрешить перед ним, и стараемся, чтобы ничто не отвлекало нас от процесса тшувы.
@@ -57,136 +56,34 @@
 			<!--#include virtual="shop-item/index.shtml"-->
 		</aside>
 
-		<div class="table-cell column-central" itemprop="mainContentOfPage">
+		<div class="table-cell COL-three column-central" itemprop="mainContentOfPage">
 
-			<div class="table COL-two">
-				<section class="table-cell">
-					<h3 class="color-ASK arrowed bordered">
-						<a href="#" title="">
-							Вопросы раввину
-							<b>&#9670;</b>
-						</a>
-					</h3>
-					<div>
-						<!--#include virtual="article-link/index-11.shtml"-->
-						<!--#include virtual="article-link/index-12.shtml"-->
-						<!--#include virtual="article-link/index-13.shtml"-->
-					</div>
-				</section>
-				<section class="table-cell">
-					<h3 class="color-ARTICLES arrowed bordered">
-						<a href="#" title="">
-							Статьи
-							<b>&#9670;</b>
-						</a>
-					</h3>
-					<div>
-						<!--#include virtual="article-link/index-11.shtml"-->
-						<!--#include virtual="article-link/index-12.shtml"-->
-						<!--#include virtual="article-link/index-13.shtml"-->
-					</div>
-				</section>
-			</div>
-			<br>
 
-			<div class="table COL-two">
+			<div class="table wrapper">
 				<div class="table-cell">
-					<div class="table COL-two">
-						<section class="table-cell">
-							<h3 class="color-AUDIO arrowed bordered">
-								<a href="#" title="">
-									Аудио
-									<b>&#9670;</b>
-								</a>
-							</h3>
-							<div>
-								<!--#include virtual="article-link/index-41.shtml"-->
-								<!--#include virtual="article-link/index-42.shtml"-->
-								<!--#include virtual="article-link/index-41.shtml"-->
-							</div>
-						</section>
-						<section class="table-cell">
-							<h3 class="color-LEARNING arrowed bordered">
-								<a href="#" title="">
-									Тесты
-									<b>&#9670;</b>
-								</a>
-							</h3>
-							<div>
-								<!--#include virtual="tests/index-01.shtml"-->
-								<!--#include virtual="tests/index-02.shtml"-->
-								<!--#include virtual="tests/index-03.shtml"-->
-							</div>
-						</section>						
-					</div>	
+					<!--#include virtual="daytopic-article/index-01.shtml"-->
+					<!--#include virtual="daytopic-article/index-02.shtml"-->
+					<!--#include virtual="daytopic-article/index-03.shtml"-->
+					<!--#include virtual="daytopic-article/index-04.shtml"-->
 				</div>
-				<section class="table-cell">
-					<h3 class="color-VIDEO arrowed bordered">
-						<a href="#" title="">
-							Видео
-							<b>&#9670;</b>
-						</a>
-					</h3>
-					<div>
-						<!--#include virtual="video-link/index-01.shtml?block"-->
-						<!--#include virtual="video-link/index-02.shtml?none"-->
-						<!--#include virtual="video-link/index-03.shtml?none"-->
-					</div>
-				</section>
+				<div class="table-cell">
+					<!--#include virtual="daytopic-article/index-05.shtml"-->
+					<!--#include virtual="daytopic-article/index-06.shtml"-->
+					<!--#include virtual="daytopic-article/index-07.shtml"-->
+					<!--#include virtual="daytopic-article/index-08.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="daytopic-article/index-09.shtml"-->
+					<!--#include virtual="daytopic-article/index-10.shtml"-->
+					<!--#include virtual="daytopic-article/index-11.shtml"-->
+				</div>
 			</div>
-			<br>
-
-			<div class="table COL-two">
-				<section class="table-cell">
-					<h3 class="color-BLOG arrowed bordered">
-						<a href="#" title="">
-							Блоги
-							<b>&#9670;</b>
-						</a>
-					</h3>
-					<div>
-						<!--#include virtual="article-link/index-31.shtml"-->
-						<!--#include virtual="article-link/index-32.shtml"-->
-						<!--#include virtual="article-link/index-33.shtml"-->
-						<!--#include virtual="article-link/index-32.shtml"-->
-					</div>
-				</section>
-				<section class="table-cell">
-					<h3 class="color-FAMILY arrowed bordered">
-						<a href="#" title="">
-							Семья
-							<b>&#9670;</b>
-						</a>
-					</h3>
-					<div>
-						<!--#include virtual="article-link/index-11.shtml"-->
-						<!--#include virtual="article-link/index-12.shtml"-->
-						<!--#include virtual="article-link/index-13.shtml"-->
-					</div>
-				</section>
-			</div>
-
 
 
 
 		</div>
 
 		<aside class="table-cell column-right">
-
-			<section>
-				<h3 class="color-PHOTO arrowed bordered">
-					<a href="#" title="">
-						Фото
-						<b>&#9670;</b>
-					</a>
-				</h3>
-
-				<div>
-					<!--#include virtual="photos/index-03.shtml"-->
-					<!--#include virtual="photos/index-04.shtml"-->
-					<!--#include virtual="photos/index-05.shtml"-->
-				</div>
-			</section>
 
 		</aside>
 

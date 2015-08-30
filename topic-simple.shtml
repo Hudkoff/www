@@ -59,8 +59,8 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="table">
-				<section class="table-cell questions-box">
+			<div class="table COL-two">
+				<section class="table-cell">
 					<h3 class="color-ASK arrowed bordered">
 						<a href="#" title="">
 							Вопросы раввину
@@ -73,7 +73,7 @@
 						<!--#include virtual="article-link/index-13.shtml"-->
 					</div>
 				</section>
-				<section class="table-cell questions-box">
+				<section class="table-cell">
 					<h3 class="color-ARTICLES arrowed bordered">
 						<a href="#" title="">
 							Статьи
@@ -89,10 +89,10 @@
 			</div>
 			<br>
 
-			<div class="table">
+			<div class="table COL-two">
 				<div class="table-cell">
-					<div class="table">
-						<section class="table-cell questions-box">
+					<div class="table COL-two">
+						<section class="table-cell">
 							<h3 class="color-AUDIO arrowed bordered">
 								<a href="#" title="">
 									Аудио
@@ -105,7 +105,7 @@
 								<!--#include virtual="article-link/index-41.shtml"-->
 							</div>
 						</section>
-						<section class="table-cell questions-box">
+						<section class="table-cell">
 							<h3 class="color-LEARNING arrowed bordered">
 								<a href="#" title="">
 									Тесты
@@ -120,7 +120,7 @@
 						</section>						
 					</div>	
 				</div>
-				<section class="table-cell questions-box">
+				<section class="table-cell">
 					<h3 class="color-VIDEO arrowed bordered">
 						<a href="#" title="">
 							Видео
@@ -136,8 +136,8 @@
 			</div>
 			<br>
 
-			<div class="table">
-				<section class="table-cell questions-box">
+			<div class="table COL-two">
+				<section class="table-cell">
 					<h3 class="color-BLOG arrowed bordered">
 						<a href="#" title="">
 							Блоги
@@ -151,7 +151,7 @@
 						<!--#include virtual="article-link/index-32.shtml"-->
 					</div>
 				</section>
-				<section class="table-cell questions-box">
+				<section class="table-cell">
 					<h3 class="color-FAMILY arrowed bordered">
 						<a href="#" title="">
 							Семья

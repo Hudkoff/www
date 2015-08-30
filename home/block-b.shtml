@@ -1,4 +1,4 @@
-<div class="table block-b wrapper" itemprop="mainContentOfPage">
+<div class="table COL-three block-b wrapper" itemprop="mainContentOfPage">
 
 	<section class="table-cell double">
 
@@ -9,8 +9,8 @@
 			</a>
 		</h3>
 
-		<div class="table">
-			<div class="table-cell column-left">
+		<div class="table COL-two">
+			<div class="table-cell">
 				<section class="article-link favourite">
 					<a href="" title="">
 						<img src="images/article.jpg" alt="" />
@@ -36,7 +36,7 @@
 	</section>
 
 	<section class="table-cell">
-		<div class="table">
+		<div class="table COL-two">
 			<section class="table-cell">
 				<h3 class="color-BLOG arrowed bordered">
 					<a href="#" title="">
@@ -70,7 +70,7 @@
 
 </div>
 
-<div class="table block-b wrapper">
+<div class="table COL-three block-b wrapper">
 
 	<section class="table-cell">
 		<h3 class="color-AUDIO arrowed bordered">

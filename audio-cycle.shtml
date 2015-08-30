@@ -60,7 +60,7 @@
 			</div>
 
 			<h3 class="color-LIGHTGRAY bordered">В тему</h3>
-			<div class="table intopic-block">
+			<div class="table COL-three">
 				<div class="table-cell">
 					<!--#include virtual="daytopic-article/index-01.shtml"-->
 					<!--#include virtual="daytopic-article/index-02.shtml"-->
@@ -79,6 +79,7 @@
 					<!--#include virtual="daytopic-article/index-11.shtml"-->
 				</div>
 			</div>
+			<br>
 
 		</div>
 

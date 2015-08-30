@@ -14,9 +14,9 @@
 			
 		</section>
 
-		<div class="table">
+		<div class="table COL-two">
 
-			<section class="table-cell questions-box">
+			<section class="table-cell">
 				<h3 class="color-ASK arrowed bordered">
 					<a href="#" title="">
 						Вопросы раввину
@@ -30,7 +30,7 @@
 				</div>
 			</section>
 
-			<section class="table-cell questions-box">
+			<section class="table-cell">
 				<h3 class="color-FAMILY arrowed bordered">
 					<a href="#" title="">
 						Семья
