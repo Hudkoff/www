@@ -2,5 +2,18 @@
 @import "_intopic.css";
 @import "_block-seo.css";
 @import "_daytopic-title.css";
+@import "_daytopic-article.css";
 @import "_video-link.css";
 @import "_tests.css";
+@import "_audio-link.css";
+
+
+.page_topic .main_content {
+	font-family: 'Noto Serif', serif;
+	font-size: 16px;
+	padding: 20px;
+	line-height: 1.4;
+} 
+.page_topic .main_content p {
+	padding-bottom: 15px;
+}

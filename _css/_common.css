@@ -55,12 +55,12 @@ body {
 	box-sizing: border-box;
 }
 .table-cell {
-	padding-left: 20px;
-	width: 33.3%;
+	/*padding-left: 20px;*/
+	/*width: 33.3%;*/
 }
 .table-cell:first-child {
-	padding-left: 0;
-	width: 33.4%;
+	/*padding-left: 0;*/
+	/*width: 33.4%;*/
 }
 
 /* колонки 20-auto-20 */
@@ -126,12 +126,16 @@ body {
 
 
 .table-cell .table-cell {
-	width: 50%; /* перебивает ширину - при вложнности в двойную ячейку */
+	/*width: 50%;  перебивает ширину - при вложнности в двойную ячейку */
 }
 
 .table-cell.double { /* перебивает ширину */
-	width: 66.7%;
+	/*width: 66.7%;*/
 }
+
+
+
+
 
 .intopic-block {
 	margin-bottom: 40px;
@@ -156,6 +160,15 @@ body {
 .page_gallery .top-block .table-cell .table-cell {
     width: auto;
 }
+
+
+
+
+
+
+
+
+
 
 
 

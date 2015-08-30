@@ -2,7 +2,6 @@
 	display: block;
 	text-decoration: none;
 	margin-top: 27px;
-	border: 1px solid #e5e5e5;
 }
 .video-link:first-child {
 	margin-top: 20px;
@@ -63,9 +62,9 @@
 	color: #6c6c6c;
 }
 
-.video-link.no-border {
+/*.video-link.no-border {
 	border: 0;
-}
+}*/
 .video-link.big {
 	border: 0;
 }
