@@ -568,37 +568,43 @@ $( "#tabs" ).tabs({active: 0});
 //////////////////////////////////////////////
 $(function() {
 
-	function carouselKill() {
-		$(".carousel-block").css('width', 'auto');
-		$(".carousel-block").find('ul').css('width', 'auto');
-		$('.button-next').off('click');
-		$('.button-prev').off('click');
+	if ($(".carousel-block").length != 0) {
+
+		function carouselKill() {
+			$(".carousel-block").css('width', 'auto');
+			$(".carousel-block").find('ul').css('width', 'auto');
+			$('.button-next').off('click');
+			$('.button-prev').off('click');
+		}
+
+		function carouselInit() {
+			var maxWidth = $(".daytopic-menu").width() - 70;
+			var count = maxWidth / 75;
+
+			$(".carousel-block").jCarouselLite({
+				btnNext: ".button-next",
+				btnPrev: ".button-prev",
+				visible: count,
+				scroll: 5,
+				circular: false
+			});
+		}
+
+		carouselInit();
+
+		$(window).on('resize', function() {
+			carouselKill();
+			carouselInit();
+		})	
+
 	}
-
-	function carouselInit() {
-		var maxWidth = $(".daytopic-menu").width() - 70;
-		var count = maxWidth / 75;
-
-		$(".carousel-block").jCarouselLite({
-			btnNext: ".button-next",
-			btnPrev: ".button-prev",
-			visible: count,
-			scroll: 5,
-			circular: false
-		});
-	}
-
-	carouselInit();
 
 	$('.daytopic-wiki').find("a").tipsy({
 		gravity: 's',
 		offset: 4
 	});
 
-	$(window).on('resize', function() {
-		carouselKill();
-		carouselInit();
-	})
+
 });
 
 
