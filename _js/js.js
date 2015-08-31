@@ -567,17 +567,38 @@ $( "#tabs" ).tabs({active: 0});
 // Энциклопедия
 //////////////////////////////////////////////
 $(function() {
+
+	function carouselKill() {
+		$(".carousel-block").css('width', 'auto');
+		$(".carousel-block").find('ul').css('width', 'auto');
+		$('.button-next').off('click');
+		$('.button-prev').off('click');
+	}
+
+	function carouselInit() {
+		var maxWidth = $(".daytopic-menu").width() - 70;
+		var count = maxWidth / 75;
+
+		$(".carousel-block").jCarouselLite({
+			btnNext: ".button-next",
+			btnPrev: ".button-prev",
+			visible: count,
+			scroll: 5,
+			circular: false
+		});
+	}
+
+	carouselInit();
+
 	$('.daytopic-wiki').find("a").tipsy({
 		gravity: 's',
 		offset: 4
 	});
 
-	$(".carousel-block").jCarouselLite({
-		btnNext: ".button-next",
-		btnPrev: ".button-prev",
-		visible: 9,
-		scroll: 7
-	});
+	$(window).on('resize', function() {
+		carouselKill();
+		carouselInit();
+	})
 });
 
 
