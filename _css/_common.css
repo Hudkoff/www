@@ -331,11 +331,18 @@ a:hover {
 	float: right;
 	margin-top: 13px;
 	font: normal 13px 'Open Sans', sans-serif;
-	color: #4a7ec0;
+	/*color: #4a7ec0;*/
 }
-
-
-
+.page_library h3 .more {
+	font: 600 13px 'Open Sans', sans-serif;
+	/*color: #4a7ec0;*/
+	text-decoration: underline;
+	float: right;
+    margin-top: 5px;
+}
+.page_library h3 .more:hover {
+	text-decoration: none;
+}
 
 
 

@@ -1,0 +1,128 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/library.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_library" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="table COL-sym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-library.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<!--#include virtual="breadcrumbs/library-m.shtml"-->
+
+			<h1 class="color-LIGHTGRAY bordered">
+				Мишна
+			</h1>
+
+			<!--#include virtual="navigation-list/library.shtml"-->
+
+			<!--#include virtual="catalog-pagination/index.shtml"-->
+
+			<div class="table COL-three">
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-04.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-05.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-06.shtml"-->
+				</div>	
+			</div>
+
+			<div class="table COL-three">
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-04.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-05.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-06.shtml"-->
+				</div>	
+			</div>
+
+			<div class="table COL-three">
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-04.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-05.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-06.shtml"-->
+				</div>	
+			</div>
+
+			<div class="table COL-three">
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-04.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-05.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-06.shtml"-->
+				</div>	
+			</div>
+
+			<div class="table COL-three">
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-04.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-05.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-06.shtml"-->
+				</div>	
+			</div>
+
+			<div class="table COL-three">
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-04.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-05.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-06.shtml"-->
+				</div>	
+			</div>
+
+			<!--#include virtual="catalog-pagination/index.shtml"-->
+
+		</div>
+
+		<div class="column-right table-cell lenta-column">
+
+			<!--#include virtual="_ask-questions.shtml"-->
+			<!--#include virtual="_family-questions.shtml"-->
+			<section class="sale-block content_narrow_bordered">
+				<!--#include virtual="shop-item/index-13.shtml"-->
+				<!--#include virtual="shop-item/index-12.shtml"-->
+				<!--#include virtual="shop-item/index-11.shtml"-->
+			</section>
+
+		</div>
+
+	</div>
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

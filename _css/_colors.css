@@ -179,8 +179,8 @@ h4[class ^= color] {
 }
 .content_narrow_bordered {
 	border: 1px solid #bdbdbd;
-    padding: 20px;
-}
+/*    padding: 20px;
+*/}
 
 
 .content_transparent {

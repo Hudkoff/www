@@ -1,9 +1,10 @@
 .library-item {
 	text-align: center;
+	/*height: 450px;*/
 }
 .library-item .library-item-link {
 	display: block;
-	padding: 20px 20px 0;
+	padding: 20px 1% 0;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
 	
@@ -12,6 +13,10 @@
 	text-align: center;
 	font-size: 0;
 	margin-bottom: 5px;
+}
+.library-item .image img {
+	width: 100%;
+	max-width: 200px;
 }
 .library-item .title {
 	margin-bottom: 15px;
