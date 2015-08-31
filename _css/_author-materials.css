@@ -1,0 +1,33 @@
+.author-materials .content_colored{
+	padding: 15px 0;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.author-materials .materials-list {
+	margin-bottom: 10px;
+}
+
+.author-materials .material-link {
+	padding: 15px;
+	border-top: 1px solid #efefef;
+}
+.author-materials .material-link:last-child {
+	border-bottom: 1px solid #efefef;
+}
+
+.author-materials .material-link img {
+	float: left;
+	margin-right: 15px;
+	width: 45px;
+}
+.author-materials .material-link .description {
+	display: table-cell;
+	vertical-align: middle;
+	height: 45px;
+}
+.author-materials .material-link .a {
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+
+}
