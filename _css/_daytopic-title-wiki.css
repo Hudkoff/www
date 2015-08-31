@@ -40,7 +40,7 @@
 }
 
 .daytopic-wiki .daytopic-menu .button-next {
-	z-index: 1000;
+	z-index: 900;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -50,7 +50,7 @@
 
 }
 .daytopic-wiki .daytopic-menu .button-prev {
-	z-index: 1000;
+	z-index: 900;
 	position: absolute;
 	left: 0;
 	top: 0;
