@@ -57,28 +57,13 @@
 			<!--#include virtual="shop-item/index.shtml"-->
 		</aside>
 
-		<div class="table-cell content_transparent column-central" itemprop="mainContentOfPage">
+		<div class="table-cell content_transparent COL-three column-central" itemprop="mainContentOfPage">
 
 
-			<div class="table COL-three wrapper">
-				<div class="table-cell">
-					<!--#include virtual="daytopic-article/index-01.shtml"-->
-					<!--#include virtual="daytopic-article/index-02.shtml"-->
-					<!--#include virtual="daytopic-article/index-03.shtml"-->
-					<!--#include virtual="daytopic-article/index-04.shtml"-->
-				</div>
-				<div class="table-cell">
-					<!--#include virtual="daytopic-article/index-05.shtml"-->
-					<!--#include virtual="daytopic-article/index-06.shtml"-->
-					<!--#include virtual="daytopic-article/index-07.shtml"-->
-					<!--#include virtual="daytopic-article/index-08.shtml"-->
-				</div>
-				<div class="table-cell">
-					<!--#include virtual="daytopic-article/index-09.shtml"-->
-					<!--#include virtual="daytopic-article/index-10.shtml"-->
-					<!--#include virtual="daytopic-article/index-11.shtml"-->
-				</div>
-			</div>
+				<!--#include virtual="catalog-item/cycles-11.shtml"-->
+				<!--#include virtual="catalog-item/cycles-12.shtml"-->
+				<!--#include virtual="catalog-item/cycles-13.shtml"-->
+				<!--#include virtual="catalog-item/cycles-14.shtml"-->
 
 
 
