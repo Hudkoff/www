@@ -6,7 +6,6 @@
 	<link href="_css/topic.css" rel="stylesheet" type="text/css">
 
 	<script src="_js/jquery.jcarousellite.min.js"></script>
-	<script src="_js/jquery.tipsy.js"></script>
 </head>
 <body class="page_topic" itemscope itemtype="http://schema.org/WebPage">
 
