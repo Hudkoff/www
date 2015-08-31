@@ -559,3 +559,21 @@ $(".calendar").datepicker( {
 
 $( "#tabs" ).tabs({active: 0});
 
+
+
+
+
+//////////////////////////////////////////////
+// Энциклопедия
+//////////////////////////////////////////////
+$(document).ready(function() {
+	$('.daytopic-wiki').find("a").tipsy({
+		gravity: 's',
+		offset: 4
+	});
+});
+
+
+
+
+

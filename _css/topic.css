@@ -11,6 +11,7 @@
 @import "_catalog-pagination.css";
 @import "_author-materials.css";
 @import "_intoldot.css";
+@import "tipsy.css";
 
 .page_topic .main_content {
 	font-family: 'Noto Serif', serif;
