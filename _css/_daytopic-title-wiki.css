@@ -1,21 +1,28 @@
 .daytopic-wiki .daytopic-menu {
 	margin: 20px 0;
+	position: relative;
 }
 
 .daytopic-wiki .daytopic-menu a {
 	display: block;
-	width: 8.63%;
-	margin-right: 0.5%;
 	float: left;
+	width: 70px;
+	height: 70px;
+	margin-right: 5px;
 }
 
 .daytopic-wiki .daytopic-menu a img {
 	width: 100%;
 }
-.daytopic-wiki .daytopic-menu a:hover {
+
+.carousel-block {
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.daytopic-wiki .daytopic-menu .jcarousel-item:hover {
 	margin-bottom: -4px;
 }
-.daytopic-wiki .daytopic-menu a:hover img {
+.daytopic-wiki .daytopic-menu .jcarousel-item:hover img {
 	position: relative;
 	top: -4px;
 	left: -4px;
@@ -30,6 +37,22 @@
 	box-shadow: 0 5px 10px #999;
 }
 
-.daytopic-wiki .daytopic-menu .more-topics {
-	margin-right: 0;
+.daytopic-wiki .daytopic-menu .button-next {
+	z-index: 1000;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 0;
+	width: 70px;
+	height: 70px;
+
+}
+.daytopic-wiki .daytopic-menu .button-prev {
+	z-index: 1000;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	width: 70px;
+	height: 70px;
 }

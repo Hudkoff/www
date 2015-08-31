@@ -566,14 +566,19 @@ $( "#tabs" ).tabs({active: 0});
 //////////////////////////////////////////////
 // Энциклопедия
 //////////////////////////////////////////////
-$(document).ready(function() {
+$(function() {
 	$('.daytopic-wiki').find("a").tipsy({
 		gravity: 's',
 		offset: 4
 	});
+
+	$(".carousel-block").jCarouselLite({
+		btnNext: ".button-next",
+		btnPrev: ".button-prev",
+		visible: 9,
+		scroll: 7
+	});
 });
-
-
 
 
 
