@@ -57,7 +57,7 @@ $(document).ready(function() {
 	});
 
 	// назначем высоту подложки и блокам подменю
-	$(menu).hover(function(){
+	$(section).hover(function(){
 		if (!done) {
 			$(bg).height(height[0]);
 			$(submenu).height(height[0]);
