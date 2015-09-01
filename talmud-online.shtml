@@ -1,0 +1,90 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/talmud.css" rel="stylesheet" type="text/css">
+
+	<script src="_js/jquery.jcarousellite.min.js"></script>
+</head>
+<body class="page_talmud" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="articles-main table COL-sym wrapper">
+
+	<aside class="table-cell column-left">
+		<!--#include virtual="sidemenu/sidemenu-talmud.shtml"-->
+	</aside>
+
+	<div class="table-cell column-central" itemprop="mainContentOfPage">
+		<div class="content_colored top-block">
+			<!--#include virtual="breadcrumbs/talmud-online.shtml"-->
+			<div class="table">
+				<div class="table-cell column-left">
+
+					<h1 class="color-LEARNING bordered">Талмуд онлайн</h1>
+
+					<div class="description">
+						<p>Талмуд! Кто из нас, учивших в школе Пушкина наизусть, знает, что такое Талмуд? Читал Талмуд? Открывал Талмуд? Хотя бы раз в жизни держал в руках Талмуд?</p>
+						<p>В переводе с иврита «талмуд» означает «учеба», или «изучение Торы». <a href="#" title=""> Что такое Талмуд?</a></p>
+						<p><b>Программа «Талмуд онлайн» — организация БЕСПЛАТНЫХ ИНДИВИДУАЛЬНЫХ занятий</b> Торой через Скайп или по телефону с раввинами и преподавателями иудаизма на русском языке. <a href="#" title="">Как это работает?</a></p>
+					</div>
+
+					<div class="buttons">
+						<a class="button button-green" href="#" title="">
+							заявка на учебу
+						</a>
+						<a class="button button-blue" href="#" title="">
+							заявка на преподавание
+						</a>
+					</div>
+
+					<!--#include virtual="_socials-like.shtml"-->
+
+				</div>
+
+				<div class="table-cell column-right">
+
+					<h3 class="bordered">
+						<span class="color-LEARNING">404</span> занятия в месяц
+					</h3>
+
+					<div class="stats">
+						<p><b>Сегодня на сайте посещены:</b></p>
+						<p><b class="color-LEARNING">889</b> видеоуроков,</p>
+						<p><b class="color-LEARNING">1204</b> аудиолекций,</p>
+						<p><b class="color-LEARNING">8567</b> материалов.</p>
+						<p>Многие из этих людей хотят изучать Тору всерьез. Мы ищем тех, кто может им в этом помочь.</p>
+						<a class="help-link color-LEARNING" href="#" title="">
+							помочь другим учиться в программе
+						</a>
+					</div>
+
+					<!--#include virtual="_socials-share.shtml"-->
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+</div>
+
+<div class="table COL-sym wrapper">
+	<aside class="table-cell column-left">
+		<!--#include virtual="_banner-tora.shtml"-->
+		<!--#include virtual="recommendation-link/index.shtml"-->
+		<!--#include virtual="shop-item/index.shtml"-->
+	</aside>
+	<div class="table-cell column-central">
+		Lorem ipsum goes here
+	</div>
+
+</div>
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>
