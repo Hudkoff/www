@@ -1,0 +1,15 @@
+.map-container {
+	display: block;
+	height: 600px;
+	margin-top: -70px;
+	margin-bottom: -40px;
+	background: url("../images/map.jpg") center no-repeat;
+	background-size: cover;
+}
+
+@media screen and (min-width: 1500px){
+
+	.map-container {
+		height: 700px;
+	}
+}
