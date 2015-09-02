@@ -1,0 +1,51 @@
+<div class="talmud-students-box talmidimBox infoBox tp-caption sfl start">
+	<span class="counter"><b>192</b> ученика</span>
+
+	<p class="online-label">Сегодня онлайн:</p>
+
+	<div class="sutoUsers">
+		<div class="sutoUserPlashka"><span><b>Дмитрий</b>, Клайпеда</span></div>
+		<div class="sutoUserPlashka"><span><b>Амира</b>, Одесса</span></div>
+		<div class="sutoUserPlashka"><span><b>Александр</b>, Штутгарт</span></div>
+		<div class="sutoUserPlashka"><span><b>Юрий</b>, Рамат Ган</span></div>
+		<div class="sutoUserPlashka"><span><b>Мирьям</b>, Кишинев</span></div>
+		<div class="sutoUserPlashka"><span><b>Дина</b>, Нетания</span></div>
+		<div class="sutoUserPlashka"><span><b>Дмитрий</b>, Нюрнберг</span></div>
+		<div class="sutoUserPlashka"><span><b>Хая</b>, Юрмала</span></div>
+		<div class="sutoUserPlashka"><span><b>Гедалья</b>, Вильнюс</span></div>
+		<div class="sutoUserPlashka"><span><b>Лада</b>, Магдебург</span></div>
+		<div class="sutoUserPlashka"><span><b>Геннадий</b>, Бостон</span></div>
+		<div class="sutoUserPlashka"><span><b>Геннадий</b>, Хмельницкий</span></div>
+		<div class="sutoUserPlashka"><span><b>Йонатан</b>, Хайфа</span></div>
+		<div class="sutoUserPlashka"><span><b>Юрий</b>, Лос Анжелес</span></div>
+		<div class="sutoUserPlashka"><span><b>Михаил</b>, Хьюстон</span></div>
+		<div class="sutoUserPlashka"><span><b>Хавива</b>, Судак</span></div>
+		<div class="sutoUserPlashka"><span><b>Марина</b>, Челябинск</span></div>
+		<div class="sutoUserPlashka"><span><b>Малка</b>, Иерусалим</span></div>
+		<div class="sutoUserPlashka"><span><b>Александра</b>, Канн</span></div>
+		<div class="sutoUserPlashka"><span><b>Елена</b>, Кишинев</span></div>
+		<div class="sutoUserPlashka"><span><b>Татьяна</b>, Кармиэль</span></div>
+		<div class="sutoUserPlashka"><span><b>Виталий</b>, Ашдод</span></div>
+		<div class="sutoUserPlashka"><span><b>Кристина</b></span></div>
+		<div class="sutoUserPlashka"><span><b>Михаил</b>, Кишинев</span></div>
+		<div class="sutoUserPlashka"><span><b>Андрей</b>, Донецк</span></div>
+		<div class="sutoUserPlashka"><span><b>Лея</b>, Днепропетровск</span></div>
+		<div class="sutoUserPlashka"><span><b>Биньямин</b>, Иерусалим</span></div>
+		<div class="sutoUserPlashka"><span><b>Виктор</b>, Бат Ям</span></div>
+		<div class="sutoUserPlashka"><span><b>Михаэль</b>, Нетания</span></div>
+		<div class="sutoUserPlashka"><span><b>Идан-Давид</b>, Баку</span></div>
+		<div class="sutoUserPlashka"><span><b>Анаэль</b>, Баку</span></div>
+		<div class="sutoUserPlashka"><span><b>Леонид</b>, Москва</span></div>
+		<div class="sutoUserPlashka"><span><b>Шломо</b>, Москва</span></div>
+		<div class="sutoUserPlashka"><span><b>Йона</b>, Иерусалим</span></div>
+		<div class="sutoUserPlashka"><span><b>Лев</b>, Кишинев</span></div>
+		<div class="sutoUserPlashka"><span><b>Алон</b>, Вильнюс</span></div>
+		<div class="sutoUserPlashka"><span><b>Татьяна</b>, Петах Тиква</span></div>
+		<div class="sutoUserPlashka"><span><b>Ципора</b>, Кривой Рог</span></div>
+		<div class="sutoUserPlashka"><span><b>Давид</b>, Краснодар</span></div>
+	</div>
+	<div class="wantToPart clearfix">
+		<a class="all-students" href="#" title="">Все ученики</a>
+		<a class="register" href="#" title="">Подать заявку на учебу</a>
+	</div>
+</div>

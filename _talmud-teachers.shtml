@@ -1,0 +1,40 @@
+<div class="talmud-teachers-box melamdimBox infoBox tp-caption sfb start">
+	<span class="counter"><b>64</b> учителя</span>
+
+	<p class="online-label">Сегодня онлайн:</p>
+
+	<div class="sutoUsers">
+		<div class="sutoUserPlashka"><span>Агранович Мендель</span></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_25952.html">Бройтман Шимон</a></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_25874.html">Вольпе Йонатан</a></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_26895.html">Гурвич Элияhу</a></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_26084.html">деБрессер Мириам</a></div>
+		<div class="sutoUserPlashka"><span>Залазник Нохум</span></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_23520.html">Каминский Михоэль</a></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_23527.html">Кацмазовский Даниэль</a></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_25841.html">Кобелев Йосеф</a></div>
+		<div class="sutoUserPlashka"><span>Лагрански Лилах-Лея</span></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_23620.html">Лагранский Элиша</a></div>
+		<div class="sutoUserPlashka"><span>Лихтенштейн Даниэль</span></div>
+		<div class="sutoUserPlashka"><span>Ман Сара</span></div>
+		<div class="sutoUserPlashka"><span>Маршальский Даниэль</span></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_24232.html">Мишель Барух</a></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_25843.html">Паз Майя</a></div>
+		<div class="sutoUserPlashka"><span>Пастанович Михаль</span></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_26086.html">Рапопорт Злата</a></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_24181.html">Рахлис Давид</a></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_26085.html">Романов Хава</a></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_26082.html">Трейгер Авиталь</a></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_23619.html">Уманский Авраам</a></div>
+		<div class="sutoUserPlashka"><span>Урман Зеев</span></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_23523.html">Файнблут Гидон</a></div>
+		<div class="sutoUserPlashka"><span>Шейнин Барух</span></div>
+		<div class="sutoUserPlashka"><span>Шепляков Элиягу</span></div>
+		<div class="sutoUserPlashka"><span>Шнайдман Браха-Мирьям</span></div>
+		<div class="sutoUserPlashka"><a href="/limud/talmud/talmud_23621.html">Шнайдман Исраэль</a></div>
+	</div>
+	<div class="wantToPart clearfix">
+		<a class="all-teachers" href="#" title="">Все учителя</a>
+		<a class="register" href="#" title="">Подать заявку на преподавателя</a>
+	</div>
+</div>

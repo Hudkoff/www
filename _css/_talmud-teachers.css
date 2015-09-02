@@ -1,0 +1,49 @@
+.talmud-teachers-box {
+	background-color: #fff;
+	border: 2px solid #1286c8;
+	padding: 15px;
+	color: #1286c8;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+.talmud-teachers-box .counter {
+	font-size: 14px;
+}
+
+.talmud-teachers-box .online-label {
+	color: #6c6c6c;
+	font-size: 12px;
+}
+
+.talmud-teachers-box .sutoUsers {
+	margin: 15px 0;
+	background-color: #f3f3f3;
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+	height: 180px;
+	overflow: auto;
+	font-size: 14px;
+}
+
+.talmud-teachers-box .sutoUserPlashka {
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.talmud-teachers-box .sutoUserPlashka a {
+	color: #1286c8;
+}
+.talmud-teachers-box .wantToPart {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+.talmud-teachers-box .wantToPart .all-teachers {
+	color: #1286c8;
+	float: left;
+}
+.talmud-teachers-box .wantToPart .register {
+	float: right;
+	color: #1286c8;
+	text-decoration: none;
+	border-bottom: 1px dotted;
+}

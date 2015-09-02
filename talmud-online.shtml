@@ -26,9 +26,16 @@
 					<h1 class="color-LEARNING bordered">Талмуд онлайн</h1>
 
 					<div class="description">
-						<p>Талмуд! Кто из нас, учивших в школе Пушкина наизусть, знает, что такое Талмуд? Читал Талмуд? Открывал Талмуд? Хотя бы раз в жизни держал в руках Талмуд?</p>
-						<p>В переводе с иврита «талмуд» означает «учеба», или «изучение Торы». <a href="#" title=""> Что такое Талмуд?</a></p>
-						<p><b>Программа «Талмуд онлайн» — организация БЕСПЛАТНЫХ ИНДИВИДУАЛЬНЫХ занятий</b> Торой через Скайп или по телефону с раввинами и преподавателями иудаизма на русском языке. <a href="#" title="">Как это работает?</a></p>
+						<p>Талмуд! Кто из нас, учивших в школе Пушкина наизусть, знает, что такое Талмуд? Читал Талмуд?
+							Открывал Талмуд? Хотя бы раз в жизни держал в руках Талмуд?</p>
+
+						<p>В переводе с иврита «талмуд» означает «учеба», или «изучение Торы». <a href="#" title=""> Что
+							такое Талмуд?</a></p>
+
+						<p><b>Программа «Талмуд онлайн» — организация БЕСПЛАТНЫХ ИНДИВИДУАЛЬНЫХ занятий</b> Торой через
+							Скайп или по телефону с раввинами и преподавателями иудаизма на русском языке. <a href="#"
+							                                                                                  title="">Как
+								это работает?</a></p>
 					</div>
 
 					<div class="buttons">
@@ -52,9 +59,13 @@
 
 					<div class="stats">
 						<p><b>Сегодня на сайте посещены:</b></p>
+
 						<p><b class="color-LEARNING">889</b> видеоуроков,</p>
+
 						<p><b class="color-LEARNING">1204</b> аудиолекций,</p>
+
 						<p><b class="color-LEARNING">8567</b> материалов.</p>
+
 						<p>Многие из этих людей хотят изучать Тору всерьез. Мы ищем тех, кто может им в этом помочь.</p>
 						<a class="help-link color-LEARNING" href="#" title="">
 							помочь другим учиться в программе
@@ -83,9 +94,24 @@
 	</aside>
 
 	<div class="table-cell column-central">
+
+		<div class="table COL-two">
+			<div class="table-cell">
+
+				<!--#include virtual="_talmud-students.shtml"-->
+
+			</div>
+
+			<div class="table-cell">
+
+				<!--#include virtual="_talmud-teachers.shtml"-->
+
+			</div>
+		</div>
+
 		<!--#include virtual="_daytopic-title-simple.shtml"-->
 
-		<div class="table COL-three wrapper">
+		<div class="table COL-four wrapper">
 			<div class="table-cell">
 				<!--#include virtual="daytopic-article/index-01.shtml"-->
 				<!--#include virtual="daytopic-article/index-02.shtml"-->
@@ -102,6 +128,12 @@
 				<!--#include virtual="daytopic-article/index-09.shtml"-->
 				<!--#include virtual="daytopic-article/index-10.shtml"-->
 				<!--#include virtual="daytopic-article/index-11.shtml"-->
+			</div>
+			<div class="table-cell">
+				<!--#include virtual="daytopic-article/index-01.shtml"-->
+				<!--#include virtual="daytopic-article/index-02.shtml"-->
+				<!--#include virtual="daytopic-article/index-03.shtml"-->
+				<!--#include virtual="daytopic-article/index-04.shtml"-->
 			</div>
 		</div>
 	</div>

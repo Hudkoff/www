@@ -117,7 +117,9 @@ body {
 }*/
 
 
-
+.table.COL-four > .table-cell {
+	width: 25%;
+}
 .table.COL-three > .table-cell {
 	width: 33.3%;
 }
