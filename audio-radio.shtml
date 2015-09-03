@@ -81,8 +81,20 @@
 
 		<aside class="table-cell column-right">
 
-			<!--#include virtual="photo/index.shtml"-->
+			<section>
+				<h3 class="color-PHOTO arrowed bordered">
+					<a href="#" title="">
+						Фото
+						<b>&#9670;</b>
+					</a>
+				</h3>
 
+				<div>
+					<!--#include virtual="photos/index-01.shtml"-->
+					<!--#include virtual="photos/index-02.shtml"-->
+				</div>
+			</section>
+			
 			<section>
 				<h3 class="color-LEARNING arrowed bordered">
 					<a href="#" title="">
