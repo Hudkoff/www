@@ -1,6 +1,6 @@
 .people-list {
 	padding: 6px 0 7px 0;
-	font: normal 1.3rem/2.4rem 'Open Sans', sans-serif;
+	font: normal 13px/24px 'Open Sans', sans-serif;
 }
 .people-list:not('.with-picture') > li:before {
 	content: "\2022";
@@ -31,7 +31,7 @@
 }
 .people-list.with-picture a {
 	display: table;
-	font: bold 1.4rem 'Open Sans', sans-serif;
+	font: bold 14px 'Open Sans', sans-serif;
 	color: #000;
 	text-decoration: none;
 }

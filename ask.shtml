@@ -87,11 +87,9 @@
 
 			<div class="audio-list-wrapper content_colored">
 				<h3 class="color-ASK bordered">Вопросы Раввину</h3>
-				<ul class="audio-filters">
-					<li class="author"><span>Автор</span></li>
-					<li class="date"><span>Дата</span></li>
-					<li class="title"><span>Название</span></li>
-				</ul>
+				
+				<!--#include virtual="catalog-filters/index.shtml"-->
+
 				<div class="audio-list">
 					<!--#include virtual="audio-link/index-41.shtml"-->
 					<!--#include virtual="audio-link/index-42.shtml"-->

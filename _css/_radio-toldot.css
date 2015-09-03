@@ -1,6 +1,6 @@
 .radio-toldot {
 	border: 2px solid #c4af23;
-	font: bold 1.2rem 'Open Sans', sans-serif;
+	font: bold 12px 'Open Sans', sans-serif;
 	background: #fff;
 }
 .radio-toldot h3 {
@@ -8,7 +8,7 @@
 	background: #fbfae9;
 	color: #c4af23;
 	text-transform: uppercase;
-	font: bold 1.2rem 'Open Sans', sans-serif;
+	font: bold 12px 'Open Sans', sans-serif;
 }
 .radio-toldot ul {
 	padding: 0 10px;
@@ -66,7 +66,7 @@
 	margin-right: 5px;
 	padding: 0;
 	white-space: nowrap;
-	font-size: 1.3rem;
+	font-size: 13px;
 }
 .radio-toldot .audio-info .audio-title:after {
 	content: '';
@@ -82,7 +82,7 @@
 	display: inline-block;
 	width: 72px;
 	padding: 0;
-	font-size: 1.2rem;
+	font-size: 12px;
 	font-weight: normal;
 	vertical-align: 4px;
 }

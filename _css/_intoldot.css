@@ -9,12 +9,12 @@
 }
 .intoldot .date {
 	color: #b3b2b2;
-	font-size: 1.2rem;
+	font-size: 12px;
 	font-weight: bold;
 	margin-bottom: 8px;
 }
 .intoldot .description {
-	font-size: 1.3rem;
+	font-size: 13px;
 	color: #000;
 	line-height: 1.5;
 	text-decoration: none;

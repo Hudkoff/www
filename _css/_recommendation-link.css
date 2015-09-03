@@ -18,17 +18,17 @@
 
 .recommendation-link .details {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #6c6c6c;
 }
 .recommendation-link .description {
 	margin-top: 10px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	line-height: 1.4;
 }
 .recommendation-link .title {
 	margin-bottom: 7px;
-	font-size: 1.3rem;
+	font-size: 13px;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;	
 }

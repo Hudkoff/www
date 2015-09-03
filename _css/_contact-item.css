@@ -22,11 +22,11 @@
 }
 .contact-item .contact-city {
 	float: right;
-	font: 700 1.2rem 'Open Sans', sans-serif;
+	font: 700 12px 'Open Sans', sans-serif;
 	color: #6c6c6c;
 }
 .contact-item .contacts {
-	font: normal 1.2rem 'Open Sans', sans-serif;
+	font: normal 12px 'Open Sans', sans-serif;
 	color: #6c6c6c;
 	margin-bottom: 10px;
 }
@@ -38,7 +38,7 @@
 	text-decoration: underline;
 }
 .contact-item .description {
-	font: normal 1.4rem/1.9rem 'Noto Serif', sans-serif;
+	font: normal 14px/19px 'Noto Serif', sans-serif;
 }
 .contact-item .description p {
 	margin-bottom: 5px;

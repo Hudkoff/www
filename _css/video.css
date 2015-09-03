@@ -49,10 +49,10 @@
 .video-bar .details {
 	margin-bottom: 10px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
+    font-size: 12px;
     line-height: 23px;
     color: #6c6c6c;
 }
 .video-bar .description {
-	font: normal 1.4rem 'Noto Serif', serif;
+	font: normal 14px 'Noto Serif', serif;
 }

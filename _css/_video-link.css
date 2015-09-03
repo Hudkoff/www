@@ -32,7 +32,7 @@
 	position: absolute;
 	left: 10px;
 	bottom: 5px;
-	font-size: 1.2rem;
+	font-size: 12px;
 	opacity: .8;
 }
 .video-link:hover .date {
@@ -58,7 +58,7 @@
 .video-link .details {
 	margin-bottom: 5px;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #6c6c6c;
 }
 

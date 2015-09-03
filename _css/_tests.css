@@ -21,7 +21,7 @@
 }
 .tests div span {
 	color: #845fc4;
-	font-size: 2.4rem;
+	font-size: 24px;
 	float: right;
 	width: 53px;
 	height: 54px;
@@ -31,11 +31,11 @@
 }
 .tests div span b {
 	color: #a2a2a2;
-	font-size: 1.2rem;
+	font-size: 12px;
 	display: block;
 }
 .tests .description {
-	font-size: 1.4rem;
+	font-size: 14px;
 	font-weight: bold;
 	text-decoration: none;
 	color: #000;
