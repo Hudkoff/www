@@ -56,3 +56,6 @@
 .block-b .table-cell .table-cell {
 	width: 50%;
 }
+.block-b .table-cell.double {
+	width: 66.7%;
+}
