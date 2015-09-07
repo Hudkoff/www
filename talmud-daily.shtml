@@ -18,17 +18,19 @@
 		<!--#include virtual="recommendation-link/index.shtml"-->
 	</aside>
 
-	<div class="table-cell top-block column-central" itemprop="mainContentOfPage">
+	<div class="table-cell top-block column-central daily-learning-block" itemprop="mainContentOfPage">
 		<!--#include virtual="breadcrumbs/talmud-daily.shtml"-->
 		<h1 class="color-LEARNING bordered">Учеба</h1>
 
-		<h4>Ежедневная учеба</h4>
+		<h4 class="color-LEARNING">Ежедневная учеба</h4>
 
 		<div class="daily-learning">
 			<!--#include virtual="catalog-item/talmud-11.shtml"-->
 			<!--#include virtual="catalog-item/talmud-12.shtml"-->
 			<!--#include virtual="catalog-item/talmud-13.shtml"-->
 		</div>
+
+		<!--#include virtual="tabs/talmud.shtml"-->
 
 	</div>
 
@@ -45,7 +47,12 @@
 			<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
 			<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
 		</section>
+
+		<!--#include virtual="_webinar.shtml"-->
+
 	</aside>
+
+
 
 </div>
 

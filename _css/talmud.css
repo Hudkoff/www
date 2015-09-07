@@ -5,6 +5,8 @@
 @import "_talmud-students.css";
 @import "_talmud-teachers.css";
 @import "_catalog-item.css";
+@import "_tabs.css";
+@import "_webinar.css";
 
 /* ============================================================================== */
 
@@ -19,3 +21,32 @@
 .page_talmud .daytopic-title {
 	background-image: url('/images/header-bg-4.jpg') ;
 }
+
+.page_talmud .tabs {
+	margin: 20px 0;
+}
+.page_talmud .daily-learning-block h4 {
+	margin: 10px 0 5px;
+}
+
+.page_talmud .tabs-list {
+	border-bottom: 2px solid #7247ba;
+
+}
+
+.page_talmud .tabs-list .ui-state-active {
+	background-color: #7247ba;
+	border-radius: 2px;
+}
+.page_talmud .tabs-list .ui-state-active a {
+	color: #0a3674;
+}
+
+.page_talmud .tabs-list .ui-state-active a span{
+	color: #fff;
+}
+
+.page_talmud .tab-panel {
+	padding: 30px 15px 15px;
+}
+

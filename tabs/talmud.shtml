@@ -1,0 +1,49 @@
+<div id="tabs" class="tabs talmud-tabs">
+	<ul class="tabs-list clearfix">
+		<li><a href="#tabs-1"><span>Ежедневная рассылка</span></a></li>
+		<li><a href="#tabs-2"><span>Еженедельная рассылка</span></a></li>
+	</ul>
+	<div class="tabs-content">
+		<div id="tabs-1" class="tab-panel clearfix ">
+
+			<div class="tabs-calendar-block">
+				<div class="prev"></div>
+				<div class="next"></div>
+				<div class="tabs-calendar">
+					<h3>22 ияра 5775</h3>
+
+					<div class="date">11 мая 2015</div>
+					<div class="week-day">понедельник</div>
+				</div>
+				<h6>Сегодняшний номер</h6>
+			</div>
+
+			<div class="tab-panel-content">
+				<h2>Ни дня без Торы</h2>
+				<h6>Сегодняшний номер</h6>
+
+				<p>В 1944 году нацисты начали депортировать венгерских евреев в концлагеря. Это должно было стать
+					финальной
+					трагедией Холокоста — 400 000 венгерских евреев были доставлены в газовые камеры в течение
+					нескольких
+					недель.
+					<a href="" title="" class="more">Далее</a>
+				</p>
+				<!--#include virtual="../buttons/later.shtml"-->
+				<!--#include virtual="../buttons/subscribe.shtml?"-->
+			</div>
+		</div>
+		<div id="tabs-2" class="tab-panel clearfix ">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem urna, sollicitudin vel diam vitae,
+				rutrum efficitur urna. Curabitur faucibus magna a feugiat molestie. Ut eu euismod erat. Sed commodo eget
+				mauris eget lacinia. Maecenas eu facilisis justo. Cras dolor metus, consectetur ut magna in, bibendum
+				pretium quam. Aenean tristique erat ac posuere sollicitudin. Praesent dui elit, vulputate sit amet
+				dignissim ac, ornare sit amet leo. Proin elementum nisi efficitur, suscipit nibh nec, pulvinar orci.
+				Suspendisse aliquam quam magna, id gravida eros interdum in. Vivamus consectetur elementum sapien eget
+				semper. Nunc nec ipsum congue, finibus purus sodales, finibus felis. Vestibulum odio ipsum, condimentum
+				sed lacinia ut, cursus sed risus. Sed vulputate efficitur volutpat. Nullam imperdiet, ligula sit amet
+				scelerisque condimentum, nibh eros lobortis leo, sollicitudin auctor turpis velit in orci. Aenean
+				iaculis, dui in laoreet finibus, lectus augue rutrum arcu, sit amet lobortis lacus turpis id justo.</p>
+		</div>
+	</div>
+</div>

@@ -12,10 +12,19 @@
 	margin-top: 12px;
 }
 
+.page_talmud .daily-learning .catalog-item h4 {
+	margin-top: 0;
+}
+
+.page_talmud .catalog-item .item-table .item-cell:nth-child(2) {
+	width: 70px;
+}
+
 .page_talmud .top-block .description {
-	margin-top: 15px;
+	margin-top: 10px;
 	font-family: 'Noto Serif', serif;
 	font-size: 14px;
+	margin-bottom: 8px;
 }
 .page_talmud .top-block .description p {
 	margin-bottom: 10px;
