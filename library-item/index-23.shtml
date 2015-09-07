@@ -1,0 +1,16 @@
+<div class="library-item clearfix">
+	<a href="#" class="library-item-link" title="">
+		<div class="image">
+			<img src="/images/library-06.jpg" alt=""/>
+		</div>
+		<h4 class="title">Завет мой — мир</h4>
+	</a>
+	<div class="description">
+
+		"Цель этой книги - научить настоящей достойной жизни. С Божьей помощью Благодаря этой книге Всевышний дарукт вам долгие и счастливые годы, радость жизни, подлинное семейное счастье, достойный запрботок без лишних хлопот, праведных и добродетельных детей." Шалом Аруш
+	</div>
+	<div class="buttons">
+		<a href="#" class="buttonGRAY download">Скачать</a>
+		<a href="#" class="buttonGRAY buy">Купить</a>
+	</div>
+</div>

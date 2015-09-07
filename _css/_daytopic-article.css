@@ -201,6 +201,15 @@ section.daytopic-article {
 	font-weight: bold;
 	padding: 1px 3px 1px;
 }
+.daytopic-article .test-easy .num b {
+	background-color: #8db20e;
+}
+.daytopic-article .test-medium .num b {
+	background-color: #ff9e06;
+}
+.daytopic-article .test-hard .num b {
+	background-color: #e10a0a;
+}
 
 
 

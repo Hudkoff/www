@@ -7,6 +7,16 @@
 	margin-bottom: 20px;
 }
 
+.talmud-teachers-box-light {
+	width: 300px;
+	display: inline-block;
+	text-align: left;
+}
+
+.talmud-teachers-box-light .online-label {
+	margin-bottom: 20px;
+}
+
 .talmud-teachers-box .counter {
 	font-size: 14px;
 }
@@ -46,4 +56,7 @@
 	color: #1286c8;
 	text-decoration: none;
 	border-bottom: 1px dotted;
+}
+.talmud-teachers-box-light .wantToPart .register {
+	float: none;
 }

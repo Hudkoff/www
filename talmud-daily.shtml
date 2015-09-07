@@ -53,66 +53,104 @@
 	</aside>
 
 
-
 </div>
 
 <div class="map-container">
 
+	<div class="map-top-block">
+		<div><a href="" title="">Заявка на учебу</a></div>
+		<div><a href="" title="">Заявка на преподавание</a></div>
+		<div><a href="" title="">Помощь в учебе</a></div>
+	</div>
+
+	<div class="map-bottom-block">
+		<!--#include virtual="_talmud-students-light.shtml"-->
+		<!--#include virtual="_talmud-teachers-light.shtml"-->
+		<!--#include virtual="_talmud-lessons-light.shtml"-->
+	</div>
 </div>
 
 <div class="table COL-sym wrapper">
 	<aside class="table-cell column-left">
-		<!--#include virtual="_banner-tora.shtml"-->
 
 		<!--#include virtual="shop-item/index.shtml"-->
+
+		<section>
+			<h3 class="color-CYCLES arrowed bordered">
+				<a href="#" title="">
+					В Толдоте
+					<b>&#9670;</b>
+				</a>
+			</h3>
+
+			<div>
+				<!--#include virtual="intoldot/index-01.shtml"-->
+				<!--#include virtual="intoldot/index-02.shtml"-->
+				<!--#include virtual="intoldot/index-03.shtml"-->
+			</div>
+		</section>
+
 	</aside>
 
 	<div class="table-cell column-central">
 
-		<div class="table COL-two">
-			<div class="table-cell">
+		<section>
+			<h3 class="color-LEARNING arrowed bordered">
+				<a href="#" title="">
+					Еврейские тесты
+					<b>&#9670;</b>
+				</a>
+			</h3>
 
-				<!--#include virtual="_talmud-students.shtml"-->
+			<div class="table COL-three ">
+				<div class="table-cell">
+					<!--#include virtual="tests/index-11.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="tests/index-12.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="tests/index-13.shtml"-->
+				</div>
+			</div>
+		</section>
 
+		<section>
+			<h3 class="color-GRAY arrowed bordered">
+				<a href="#" title="">
+					Библиотека
+					<b>&#9670;</b>
+				</a>
+			</h3>
+
+			<div class="table COL-two">
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-21.shtml"-->
+					<!--#include virtual="library-item/index-22.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="library-item/index-23.shtml"-->
+					<!--#include virtual="library-item/index-21.shtml"-->
+				</div>
 			</div>
 
-			<div class="table-cell">
+		</section>
 
-				<!--#include virtual="_talmud-teachers.shtml"-->
+	</div>
 
-			</div>
-		</div>
-
-		<!--#include virtual="_daytopic-title-simple.shtml"-->
-
-		<div class="table COL-four wrapper">
-			<div class="table-cell">
-				<!--#include virtual="daytopic-article/index-01.shtml"-->
-				<!--#include virtual="daytopic-article/index-02.shtml"-->
-				<!--#include virtual="daytopic-article/index-03.shtml"-->
-				<!--#include virtual="daytopic-article/index-04.shtml"-->
-			</div>
-			<div class="table-cell">
-				<!--#include virtual="daytopic-article/index-05.shtml"-->
-				<!--#include virtual="daytopic-article/index-06.shtml"-->
-				<!--#include virtual="daytopic-article/index-07.shtml"-->
-				<!--#include virtual="daytopic-article/index-08.shtml"-->
-			</div>
-			<div class="table-cell">
-				<!--#include virtual="daytopic-article/index-09.shtml"-->
-				<!--#include virtual="daytopic-article/index-10.shtml"-->
-				<!--#include virtual="daytopic-article/index-11.shtml"-->
-			</div>
-			<div class="table-cell">
-				<!--#include virtual="daytopic-article/index-01.shtml"-->
-				<!--#include virtual="daytopic-article/index-02.shtml"-->
-				<!--#include virtual="daytopic-article/index-03.shtml"-->
-				<!--#include virtual="daytopic-article/index-04.shtml"-->
-			</div>
-		</div>
+	<div class="table-cell column-right">
+		<!--#include virtual="_ask-questions.shtml"-->
+		<!--#include virtual="_family-questions.shtml"-->
 	</div>
 
 </div>
+
+<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+<!--#include virtual="_daytopic-title.shtml"-->
+
+<!--#include virtual="_daytopic-home.shtml"-->
+
 <!--#include virtual="_footer.shtml"-->
 
 <script src="_js/js.js" type="text/javascript"></script>

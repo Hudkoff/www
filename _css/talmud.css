@@ -1,12 +1,18 @@
 @import "_talmud-top-block.css";
 @import "_map.css";
+@import "_daytopic.css";
 @import "_daytopic-title.css";
 @import "_daytopic-article.css";
 @import "_talmud-students.css";
 @import "_talmud-teachers.css";
+@import "_talmud-lessons.css";
 @import "_catalog-item.css";
 @import "_tabs.css";
 @import "_webinar.css";
+@import "_tests.css";
+@import "_intoldot.css";
+@import "_library-item.css";
+@import "_intopic.css";
 
 /* ============================================================================== */
 
@@ -18,7 +24,7 @@
 	background-color: rgba(233,233,233,0.85);
 }
 
-.page_talmud .daytopic-title {
+.page_talmud .daytopic-title-simple {
 	background-image: url('/images/header-bg-4.jpg') ;
 }
 
@@ -49,4 +55,10 @@
 .page_talmud .tab-panel {
 	padding: 30px 15px 15px;
 }
+
+.page_talmud .map-bottom-block > div {
+
+}
+
+
 

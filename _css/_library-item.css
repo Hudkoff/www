@@ -44,3 +44,22 @@
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 }
+
+.page_talmud .library-item {
+	text-align: left;
+}
+.page_talmud .library-item .image {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+.page_talmud .library-item .description {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #717171;
+	margin-bottom: 15px;
+}
+
+.page_talmud .library-item .buttons a{
+	margin-right: 15px;
+}

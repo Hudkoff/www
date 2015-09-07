@@ -1,0 +1,9 @@
+<div class="talmud-teachers-box talmud-teachers-box-light melamdimBox infoBox tp-caption sfb start">
+	<span class="counter"><b>64</b> учителя</span>
+
+	<p class="online-label">Сегодня онлайн</p>
+
+	<div class="wantToPart clearfix">
+		<a class="register" href="#" title="">Подать заявку на преподавателя</a>
+	</div>
+</div>

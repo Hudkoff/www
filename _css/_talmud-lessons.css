@@ -1,0 +1,63 @@
+.talmud-lessons-box {
+	background-color: #fff;
+	border: 2px solid #ff3369;
+	padding: 15px;
+	color: #ff3369;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+.talmud-lessons-box-light {
+	width: 300px;
+	float: right;
+	text-align: left;
+}
+
+.talmud-lessons-box-light .online-label {
+	margin-bottom: 20px;
+}
+
+.talmud-lessons-box .counter {
+	font-size: 14px;
+}
+
+.talmud-lessons-box .online-label {
+	color: #6c6c6c;
+	font-size: 12px;
+}
+
+.talmud-lessons-box .sutoUsers {
+	margin: 15px 0;
+	background-color: #f3f3f3;
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+	height: 180px;
+	overflow: auto;
+	font-size: 14px;
+}
+
+.talmud-lessons-box .sutoUserPlashka {
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.talmud-lessons-box .sutoUserPlashka a {
+	color: #ff3369;
+}
+.talmud-lessons-box .wantToPart {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+.talmud-lessons-box .wantToPart .all-teachers {
+	color: #ff3369;
+	float: left;
+}
+.talmud-lessons-box .wantToPart .register {
+	float: right;
+	color: #ff3369;
+	text-decoration: none;
+	border-bottom: 1px dotted;
+}
+
+.talmud-lessons-box-light .wantToPart .register {
+	float: none;
+}

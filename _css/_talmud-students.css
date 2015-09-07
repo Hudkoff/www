@@ -7,6 +7,17 @@
 	margin-bottom: 20px;
 }
 
+.talmud-students-box-light {
+	width: 300px;
+	float: left;
+	text-align: left;
+}
+
+
+.talmud-students-box-light .online-label {
+	margin-bottom: 20px;
+}
+
 .talmud-students-box .counter {
 	font-size: 14px;
 }
@@ -42,4 +53,8 @@
 	color: #109346;
 	text-decoration: none;
 	border-bottom: 1px dotted;
+}
+
+.talmud-students-box-light .wantToPart .register {
+	float: none;
 }

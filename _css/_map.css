@@ -5,6 +5,41 @@
 	margin-bottom: -40px;
 	background: url("../images/map.jpg") center no-repeat;
 	background-size: cover;
+	text-align: center;
+	position: relative;
+	z-index: -1;
+}
+
+.map-container .map-top-block {
+	border: 2px solid #ff8a00;
+	padding: 8px;
+	display: inline-block;
+	margin: 70px auto 0;
+	background-color: #fff;
+}
+.map-container .map-top-block div {
+	padding: 5px 20px;
+	border-right: 1px solid #ff8a00;
+	display: inline-block;
+}
+.map-container .map-top-block div:last-child {
+	border: 0;
+}
+.map-container .map-top-block  a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #ff8a00;	
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 1px dotted;
+
+}
+
+.map-container .map-bottom-block {
+	position: absolute;
+	bottom: 70px;
+	left: 50px;
+	right: 50px;
 }
 
 @media screen and (min-width: 1500px){

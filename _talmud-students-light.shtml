@@ -1,0 +1,9 @@
+<div class="talmud-students-box talmud-students-box-light talmidimBox infoBox tp-caption sfl start">
+	<span class="counter"><b>192</b> ученика</span>
+
+	<p class="online-label">Сегодня онлайн</p>
+
+	<div class="wantToPart clearfix">
+		<a class="register" href="#" title="">Подать заявку на учебу</a>
+	</div>
+</div>
