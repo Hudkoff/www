@@ -1,0 +1,94 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/learning.css" rel="stylesheet" type="text/css">
+
+	<script src="_js/jquery.jcarousellite.min.js"></script>
+</head>
+<body class="page_learning" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="articles-main table COL-asym wrapper">
+
+	<aside class="table-cell column-left">
+		<!--#include virtual="sidemenu/sidemenu-tests.shtml"-->
+		<!--#include virtual="_banner-tora.shtml"-->
+
+	</aside>
+
+	<div class="table-cell column-central" itemprop="mainContentOfPage">
+		<div class="content_bordered color-LEARNING clearfix">
+
+			<!--#include virtual="breadcrumbs/learning-tests.shtml"-->
+
+			<h1 class="color-LEARNING bordered">Учеба</h1>
+
+			<p class="main-description">
+				Раздел «Еврейские викторины и тесты» предназначен для тех, кто серьезно изучает Тору на основе
+				материалов нашего сайта, а также, для желающих просто проверить свои знания по тем или иным разделам
+				Иудаизма.
+			</p>
+
+			<!--#include virtual="_socials-like.shtml"-->
+
+			<!--#include virtual="_socials-share.shtml"-->
+
+		</div>
+
+	</div>
+
+
+	<aside class="table-cell column-right">
+		Посмотреть мои результаты
+	</aside>
+
+
+</div>
+
+<div class="table COL-sym wrapper">
+	<aside class="table-cell column-left">
+
+		<!--#include virtual="recommendation-link/index.shtml"-->
+		<!--#include virtual="shop-item/index.shtml"-->
+
+	</aside>
+
+	<div class="table-cell column-central">
+
+		<section>
+			<h3 class="color-LEARNING arrowed bordered">
+				<a href="#" title="">
+					Еврейские тесты
+					<b>&#9670;</b>
+				</a>
+			</h3>
+
+			<div class="table COL-four ">
+				<div class="table-cell">
+					<!--#include virtual="tests/index-11.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="tests/index-12.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="tests/index-13.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="tests/index-11.shtml"-->
+				</div>
+			</div>
+		</section>
+
+	</div>
+</div>
+
+
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>
