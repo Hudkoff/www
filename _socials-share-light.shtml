@@ -1,0 +1,28 @@
+<script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
+
+<div class="socials-share-block">
+	<span class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,lj,gplus">
+	</span>
+</div>
+
+<script>
+$(window).load(function() {
+
+	function createSocialNode() {
+		var newIco = document.createElement('a');
+		newIco.className = 'b-share__link';
+		newIco.setAttribute("href", "#");
+		newIco.setAttribute("title", "Тамблер");
+		var attr = 'window.open("http://tumblr.com/widgets/share/tool?canonicalUrl=' + window.location.toString() + '", "hello", "width=540,height=600");return false';
+		newIco.setAttribute("onclick", attr);
+
+		var newImg = document.createElement("span");
+		newImg.className = "b-share-icon b-share-icon_t";
+
+		newIco.appendChild(newImg);
+		return newIco;
+	}
+
+	$(".yashare-auto-init .b-share").append(createSocialNode);
+});
+</script>

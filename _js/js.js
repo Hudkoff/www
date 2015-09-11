@@ -609,3 +609,18 @@ $(function() {
 
 
 
+
+//////////////////////////////////////////////
+// Тесты
+//////////////////////////////////////////////
+$(function() {
+	var wrapper = $(".test-result-block"),
+		progressbar = wrapper.find(".progressbar"),
+		worm = wrapper.find(".worm"),
+		score = wrapper.find(".score").text(),
+		maxScore = wrapper.find(".maximum-score").text();
+
+	var width = score * 100 / maxScore;
+	worm.css('width', width + '%');
+
+});

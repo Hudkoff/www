@@ -35,16 +35,49 @@
 			</div>
 
 			<div class="test-wrapper">
-				<!--#include virtual="tests/index-21.shtml"-->
+				<!--#include virtual="tests/index-22.shtml"-->
 			</div>
 
-			<div class="content_colored test-info-block">
-				<div class="test-info-item"><b>152</b> попыток пройти тест</div>
-				<div class="test-info-item"><b>265</b> пользователей</div>
-				<div class="test-info-item"><b>874</b> максимальный балл</div>
+			<div class="content_colored test-question-block">
+				Результат теста:
+			</div>
 
-				<div class="user-info">
-					<b>Для того, чтобы увидеть свои данные по прохождению теста - авторизуйтесь</b>
+			<div class="test-result-block">
+				<div class="heading">Поздравляем!</div>
+				<div class="subheading">Вы ответили верно на <b>5</b> вопросов из  <b>12</b>.</div>
+
+				<div class="results-share">
+					<div class="heading content_colored">
+						Ваша оценка
+					</div>
+					<div class="mark">
+						<span class="color-GREEN score">41</span> /
+						<span class="color-LEARNING maximum-score">100</span>
+						<div class="progressbar">
+							<div class="worm"></div>
+						</div>
+					</div>
+					<div class="share-block">
+						Поделиться результатом:
+						<!--#include virtual="_socials-share-light.shtml"-->
+					</div>
+				</div>
+			</div>
+
+			<div class="content_colored test-navigation-block">
+				<div class="test-stats">
+					<div class="test-stats-item">
+						прохождения
+						<b>41 / 125</b>
+					</div>
+					<div class="test-stats-item">
+						оценка
+						<b>41 / 138</b>
+					</div>
+					<div class="test-stats-item">
+						ваше место
+						<b>115 / 139</b>
+					</div>
 				</div>
 			</div>
 
@@ -52,10 +85,9 @@
 				<div class="heading">
 					<b>Лучшие в этом тесте:</b>
 				</div>
-				<div class="users-info-item"><b>По баллу</b>  - Avigar</div>
-				<div class="users-info-item"><b>По скорости</b>  - boss555</div>
-				<div class="users-info-item"><b>По колtичеству</b>  - Sara89</div>
-
+				<div class="users-info-item"><b>По баллу</b> - Avigar</div>
+				<div class="users-info-item"><b>По скорости</b> - boss555</div>
+				<div class="users-info-item"><b>По колtичеству</b> - Sara89</div>
 			</div>
 
 		</div>
@@ -107,6 +139,7 @@
 					<b>&#9670;</b>
 				</a>
 			</h3>
+
 			<div class="table COL-three wrapper">
 				<div class="table-cell">
 					<!--#include virtual="daytopic-article/index-01.shtml"-->

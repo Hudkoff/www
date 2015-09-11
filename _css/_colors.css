@@ -82,6 +82,9 @@ h4[class ^= color] {
 .color-RED {
 	color: #f00;
 }
+.color-GREEN {
+	color: #008000;
+}
 
 
 /* цветные кнопки */

@@ -232,3 +232,68 @@
 	display: inline-block;
 	margin: 0 30px;
 }
+.test-result-block {
+	color: #000;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.test-result-block .heading{
+	font-size: 20px;
+}
+.test-result-block .subheading{
+	font-size: 13px;
+}
+
+.results-share {
+	font-family: 'Open Sans', sans-serif;
+	border: 2px solid #7247ba;
+	display: inline-block;
+	margin-top: 5px;
+}
+.results-share .heading {
+	text-align: center;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 900;
+	padding: 10px 0;
+}
+.results-share .mark {
+	font-size: 36px;
+	color: #858585;
+	margin: 10px auto 10px;
+	position: relative;
+	display: inline-block;
+}
+.results-share .mark span {
+	font-weight: bold;
+}
+.results-share .progressbar {
+	position: relative;
+	display: block;
+	height: 6px;
+	background-color: #7247ba;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin: 5px 0;
+	overflow: hidden;
+}
+.results-share .worm{
+	display: block;
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	background-color: #008000;
+}
+.results-share .share-block {
+	border-top: 2px solid #7247ba;
+	background-color: #ececec;
+	padding: 5px;
+	font-size: 13px;
+	color: #7247ba;
+}
+.results-share .socials-share-block {
+	float: none;
+}
