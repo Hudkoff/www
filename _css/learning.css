@@ -1,11 +1,25 @@
 @import "_daytopic-article.css";
 @import "_tests.css";
 @import "_tests-right-block.css";
+@import "_tabs.css";
 
 /* ============================================================================== */
 
+.page_learning .tabs-list .ui-state-active {
+	background-color: #7247ba;
+	border-radius: 2px;
+}
+.page_learning .tabs-list .ui-state-active a span {
+	color: #fff;
+}
+.page_learning .tabs-list {
+	border-bottom: 2px solid #7247ba;
+}
 .page_learning h1 {
 	border-color: #e5e5e5;
+}
+.page_learning .socials-block {
+	margin-bottom: 20px;
 }
 
 .page_learning .tests-main-block {
@@ -71,3 +85,81 @@
 	color: #000;
 
 }
+
+.tests-main-block .content_colored {
+	background-color: #7247ba;
+	color: #fff !important;
+}
+.tests-main-block .content_colored * {
+	color: #fff;
+}
+
+.tests-main-block.test-active {
+	padding: 0;
+}
+.tests-main-block.test-active > div {
+	padding: 15px;
+}
+.tests-main-block.test-active .socials-like-block,
+.tests-main-block.test-active .socials-share-block {
+	margin-top: 0;
+}
+
+.test-wrapper .test {
+	float: left;
+	width: 240px;
+	margin: 0 20px 20px 0;
+}
+.test-wrapper .description,
+.test-wrapper .description p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #000;
+}
+.test-wrapper .description ul{
+	list-style: inside decimal;
+}
+.test-wrapper .description a{
+	display: inline;
+	color: #0e53b2;
+}
+.test-wrapper .button-test-start {
+	text-align: center;
+	margin-top: 25px;
+}
+.test-wrapper .button-test-start a{
+	color: #fff;
+	background-color: #54b631;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 10px 40px;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.test-info-block {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	border-bottom: 1px solid #b9a3dd;
+}
+.test-info-block .test-info-item,
+.users-info-block .users-info-item {
+	display: inline-block;
+	margin: 10px 20px;
+}
+.users-info-block {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.users-info-block .heading {
+	text-transform: uppercase;
+}
+

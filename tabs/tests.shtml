@@ -1,0 +1,84 @@
+<div id="tabs" class="tabs tests-tabs">
+	<ul class="tabs-list clearfix">
+		<li><a href="#tabs-1"><span>Последние тесты</span></a></li>
+		<li><a href="#tabs-2"><span>Тесты по дате</span></a></li>
+		<li><a href="#tabs-3"><span>Тесты по популярности</span></a></li>
+		<li><a href="#tabs-4"><span>Все тесты</span></a></li>
+	</ul>
+	<div class="tabs-content">
+		<div id="tabs-1" class="tab-panel clearfix ">
+
+			<div class="table COL-four ">
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-11.shtml"-->
+					<!--#include virtual="../tests/index-12.shtml"-->
+					<!--#include virtual="../tests/index-13.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-12.shtml"-->
+					<!--#include virtual="../tests/index-13.shtml"-->
+					<!--#include virtual="../tests/index-11.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-13.shtml"-->
+					<!--#include virtual="../tests/index-11.shtml"-->
+					<!--#include virtual="../tests/index-12.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-11.shtml"-->
+					<!--#include virtual="../tests/index-12.shtml"-->
+					<!--#include virtual="../tests/index-13.shtml"-->
+				</div>
+			</div>
+
+		</div>
+		<div id="tabs-2" class="tab-panel clearfix ">
+			<div class="table COL-four ">
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-11.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-12.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-13.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-11.shtml"-->
+				</div>
+			</div>
+		</div>
+		<div id="tabs-3" class="tab-panel clearfix ">
+			<div class="table COL-four ">
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-12.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-13.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-11.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-12.shtml"-->
+				</div>
+			</div>
+		</div>
+		<div id="tabs-4" class="tab-panel clearfix ">
+			<div class="table COL-four ">
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-13.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-11.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-12.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="../tests/index-11.shtml"-->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

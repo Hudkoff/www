@@ -20,7 +20,7 @@
 	</aside>
 
 	<div class="table-cell column-central" itemprop="mainContentOfPage">
-		<div class="tests-main-block content_bordered color-LEARNING clearfix ">
+		<div class="tests-main-block content_bordered color-LEARNING clearfix">
 
 			<!--#include virtual="breadcrumbs/learning-tests.shtml"-->
 
@@ -42,9 +42,7 @@
 			</div>
 
 
-			<!--#include virtual="_socials-like.shtml"-->
 
-			<!--#include virtual="_socials-share.shtml"-->
 
 		</div>
 

@@ -79,6 +79,9 @@ h4[class ^= color] {
 	color: #000;
 	border-bottom: 0px solid #ffeeea;
 }
+.color-RED {
+	color: #f00;
+}
 
 
 /* цветные кнопки */
