@@ -20,7 +20,7 @@
 	</aside>
 
 	<div class="table-cell column-central" itemprop="mainContentOfPage">
-		<div class="content_bordered color-LEARNING clearfix">
+		<div class="tests-main-block content_bordered color-LEARNING clearfix ">
 
 			<!--#include virtual="breadcrumbs/learning-tests.shtml"-->
 
@@ -32,17 +32,68 @@
 				Иудаизма.
 			</p>
 
+			<div class="table COL-two ">
+				<div class="table-cell label-fresh">
+					<!--#include virtual="tests/index-13.shtml"-->
+				</div>
+				<div class="table-cell label-interesting">
+					<!--#include virtual="tests/index-12.shtml"-->
+				</div>
+			</div>
+
+
 			<!--#include virtual="_socials-like.shtml"-->
 
 			<!--#include virtual="_socials-share.shtml"-->
 
 		</div>
 
+		<section class="thematic-block">
+			<h3 class="color-GRAY bordered">
+				<a href="#" title="">
+					Тематические публикаци
+				</a>
+			</h3>
+
+			<div class="table COL-three">
+
+				<div class="table-cell thematic-item">
+					<a href="" title="">
+						<img src="images/article-01.jpg" alt=""/>
+						<div class="heading">
+							Подробне о разделе и тестах
+						</div>
+					</a>
+				</div>
+
+				<div class="table-cell thematic-item">
+					<a href="" title="">
+						<img src="images/article-02.jpg" alt=""/>
+						<div class="heading">
+							Какие рейтинги есть в разделе
+						</div>
+					</a>
+				</div>
+
+				<div class="table-cell thematic-item">
+					<a href="" title="">
+						<img src="images/article-01.jpg" alt=""/>
+						<div class="heading">
+							Награждаем за пройденные тесты
+						</div>
+					</a>
+				</div>
+			</div>
+
+		</section>
+
 	</div>
 
 
 	<aside class="table-cell column-right">
-		Посмотреть мои результаты
+
+		<!--#include virtual="_tests-right-block.shtml"-->
+
 	</aside>
 
 
@@ -69,15 +120,23 @@
 			<div class="table COL-four ">
 				<div class="table-cell">
 					<!--#include virtual="tests/index-11.shtml"-->
-				</div>
-				<div class="table-cell">
 					<!--#include virtual="tests/index-12.shtml"-->
-				</div>
-				<div class="table-cell">
 					<!--#include virtual="tests/index-13.shtml"-->
 				</div>
 				<div class="table-cell">
+					<!--#include virtual="tests/index-12.shtml"-->
+					<!--#include virtual="tests/index-13.shtml"-->
 					<!--#include virtual="tests/index-11.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="tests/index-13.shtml"-->
+					<!--#include virtual="tests/index-11.shtml"-->
+					<!--#include virtual="tests/index-12.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="tests/index-11.shtml"-->
+					<!--#include virtual="tests/index-12.shtml"-->
+					<!--#include virtual="tests/index-13.shtml"-->
 				</div>
 			</div>
 		</section>

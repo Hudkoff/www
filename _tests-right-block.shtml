@@ -1,0 +1,84 @@
+<a class="my-results" href="" title=""> Посмотреть мои результаты</a>
+
+<section class="thematic-tests">
+	<h4 class="color-LEARNING bordered">
+		<a href="#" title="">
+			Тесты по тематике
+		</a>
+	</h4>
+	<ul>
+		<li><a href="#" title="">Еврейский календарь</a></li>
+		<li><a href="#" title="">Мусар</a></li>
+		<li><a href="#" title="">Разное</a></li>
+		<li><a href="#" title="">Талмуд</a></li>
+	</ul>
+</section>
+
+<section class="rating-block">
+	<h4 class="color-LEARNING bordered">
+		<a href="#" title="">
+			Рейтинг за 7 дней
+		</a>
+	</h4>
+
+	<div class="average">
+		<div class="heading">По среднему баллу</div>
+		<ul>
+			<li>Avigar</li>
+			<li>boss876</li>
+			<li>Sara89</li>
+		</ul>
+	</div>
+	<div class="speed">
+		<div class="heading">По скорости</div>
+		<ul>
+			<li>Avigar</li>
+			<li>boss876</li>
+			<li>Sara89</li>
+		</ul>
+	</div>
+	<div class="quantity">
+		<div class="heading">По количеству</div>
+		<ul>
+			<li>Avigar</li>
+			<li>boss876</li>
+			<li>Sara89</li>
+		</ul>
+	</div>
+	<a class="rating-calculate" href="" title="">
+		Как составляется рейтинг?
+	</a>
+</section>
+
+<section class="recent-completed">
+	<h4 class="color-LEARNING bordered">
+		<a href="#" title="">
+			Последние прохождения
+		</a>
+	</h4>
+
+	<div class="recent-completed-item">
+		<div class="heading">
+			Законы шмидта
+		</div>
+		<div class="info">
+			Сегодня в 17:00, <b>Golds334</b> - 66 баллов
+		</div>
+	</div>
+	<div class="recent-completed-item">
+		<div class="heading">
+			Законы шмидта
+		</div>
+		<div class="info">
+			Сегодня в 17:00, <b>Golds334</b> - 66 баллов
+		</div>
+	</div>
+	<div class="recent-completed-item">
+		<div class="heading">
+			Законы шмидта
+		</div>
+		<div class="info">
+			Сегодня в 17:00, <b>Golds334</b> - 66 баллов
+		</div>
+	</div>
+</section>

@@ -1,9 +1,15 @@
+@import "_daytopic-article.css";
 @import "_tests.css";
+@import "_tests-right-block.css";
 
 /* ============================================================================== */
 
 .page_learning h1 {
 	border-color: #e5e5e5;
+}
+
+.page_learning .tests-main-block {
+	margin-bottom: 20px;
 }
 
 .page_learning .main-description {
@@ -18,4 +24,50 @@
 }
 .page_learning .socials-share-block {
 	float: right;
+}
+
+.page_learning .label-fresh,
+.page_learning .label-interesting {
+	position: relative;
+	color: #000;
+}
+.page_learning .label-fresh:before,
+.page_learning .label-interesting:before {
+	 display: block;
+	 content: "Свежее";
+	 position: absolute;
+	 top: 20px;
+	 left: 0;
+	 background-color: #7247ba;
+	 z-index: 1;
+	 padding: 10px;
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 12px;
+	 font-weight: bold;
+	 color: #fff;
+	 text-transform: uppercase;
+ }
+.page_learning .label-interesting:before {
+	content: "Интересное";
+	left: 20px;
+}
+
+/*----------------------------------*/
+.page_learning .thematic-block {
+	margin-bottom: 20px;
+}
+.page_learning .thematic-block .thematic-item a {
+	text-decoration: none;
+}
+.page_learning .thematic-block .thematic-item img {
+	display: block;
+	margin: 15px 0;
+}
+
+.page_learning .thematic-block .thematic-item .heading {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #000;
+
 }
