@@ -706,7 +706,24 @@ label.radioWrap {
 	display: inline-block;
 }
 
-
+.buttonGRAY.question-prev,
+.buttonGRAY.question-prev.true {
+	padding: 1px 18px 2px 18px;
+	color: #676767;
+	background: #ebebeb;
+}
+.buttonGRAY.question-next,
+.buttonGRAY.question-next.true {
+	padding: 1px 18px 2px 18px;
+	color: #676767;
+	background: #ebebeb;
+}
+.buttonGRAY.test-finish,
+.buttonGRAY.test-finish.true {
+	padding: 1px 18px 2px 18px;
+	color: #676767;
+	background: #ebebeb;
+}
 .buttonGRAY.later {
 	background: #ebebeb url('../images/icon-time.png') 5px 3px no-repeat;
 }
@@ -717,9 +734,7 @@ label.radioWrap {
 .buttonGRAY.all-cycle.true {
 	background: #ebebeb url('../images/icon-stack.png') 7px 3px no-repeat;
 }
-.buttonGRAY.all-cycle.true:hover {
-	background-color: #f2f2f2;
-}
+
 .buttonGRAY.itunes,
 .buttonGRAY.itunes.true {
 	background: #ebebeb url('../images/icon-apple.png') 7px 3px no-repeat;
@@ -765,7 +780,12 @@ label.radioWrap {
 	text-decoration: none;
 }
 
-
+.buttonGRAY.all-cycle.true:hover,
+.buttonGRAY.question-prev.true:hover,
+.buttonGRAY.question-next.true:hover,
+.buttonGRAY.test-finish.true {
+	background-color: #f2f2f2;
+}
 
 
 .ask-button {

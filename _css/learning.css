@@ -104,11 +104,25 @@
 .tests-main-block.test-active .socials-share-block {
 	margin-top: 0;
 }
-
+.test-wrapper .daytopic-article {
+	padding: 0;
+}
 .test-wrapper .test {
 	float: left;
 	width: 240px;
 	margin: 0 20px 20px 0;
+}
+.test-wrapper .countdown {
+	margin-top: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.test-wrapper .countdown .time-left {
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	top: -10px;
 }
 .test-wrapper .description,
 .test-wrapper .description p {
@@ -163,3 +177,58 @@
 	text-transform: uppercase;
 }
 
+.page_learning .test-question-block {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+}
+.page_learning .test-answer-item,
+.page_learning .test-answer-item input {
+	cursor: pointer;
+}
+.page_learning .test-answer-item label {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	color: #000;
+	cursor: pointer;
+}
+/* ----------------------------- */
+.page_learning  .test-navigation-block {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 13px;
+	border-bottom: 1px solid #b9a3dd;
+}
+.page_learning .test-navigation-block li {
+	float: left;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+.page_learning .test-navigation-block li a{
+	text-decoration: none;
+}
+.page_learning .test-navigation-block .active {
+	background-color: #fff;
+}
+.page_learning .test-navigation-block .active a {
+	color: #7247ba;
+}
+.page_learning .buttons {
+	margin: 10px 0;
+}
+.page_learning .buttons a {
+	color: #676767;
+}
+/*--------------------------------------*/
+.test-stats .test-stats-item {
+	display: inline-block;
+	margin: 0 30px;
+}
