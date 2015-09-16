@@ -28,17 +28,61 @@
 
 				<div>
 					<div class="all-authors">
-						<img src="/images/avatar-11.jpg" alt=""/>
-						<img src="/images/avatar-12.jpg" alt=""/>
-						<img src="/images/avatar-13.jpg" alt=""/>
-						<img src="/images/avatar-21.jpg" alt=""/>
-						<img src="/images/avatar-22.jpg" alt=""/>
+						<div class="all-authors-short">
+							<img src="/images/avatar-11.jpg" alt=""/>
+							<img src="/images/avatar-12.jpg" alt=""/>
+							<img src="/images/avatar-13.jpg" alt=""/>
+							<img src="/images/avatar-21.jpg" alt=""/>
+							<img src="/images/avatar-22.jpg" alt=""/>
 
-						<div class="all-authors-button">
-							<a href="" title="">
-								<div class="icon-arrow-right"></div>
-								<p>Все авторы</p>
-							</a>
+							<div class="all-authors-button">
+								<a href="" title="">
+									<div class="icon-arrow-right"></div>
+									<p>Все авторы</p>
+								</a>
+							</div>
+						</div>
+						<div class="all-authors-full">
+							<a href="" title=""><img src="/images/avatar-11.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-12.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-13.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-21.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-22.jpg" alt=""/></a>
+
+							<a href="" title=""><img src="/images/avatar-12.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-11.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-22.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-13.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-21.jpg" alt=""/></a>
+
+
+							<a href="" title=""><img src="/images/avatar-11.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-22.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-13.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-21.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-12.jpg" alt=""/></a>
+
+
+							<a href="" title=""><img src="/images/avatar-12.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-13.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-11.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-21.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-22.jpg" alt=""/></a>
+
+							<a href="" title=""><img src="/images/avatar-13.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-21.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-11.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-12.jpg" alt=""/></a>
+							<a href="" title=""><img src="/images/avatar-22.jpg" alt=""/></a>
+
+							<a href="" title=""><img src="/images/avatar-11.jpg" alt=""/></a>
+
+							<div class="all-authors-button">
+								<a href="" title="">
+									<div class="icon-arrow-left"></div>
+									<p>Свернуть</p>
+								</a>
+							</div>
 						</div>
 					</div>
 
@@ -144,6 +188,7 @@
 
 		<div class="leave-a-comment">
 			<h4>Оставить комментарий</h4>
+
 			<form>
 				<textarea placeholder="Ваш комментарий"></textarea>
 				<button class="buttonGRAY" type="submit" value="Отправить">Отправить</button>
@@ -155,6 +200,7 @@
 
 			<div class="comment">
 				<img src="images/avatar-12.jpg" alt=""/>
+
 				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
 				<p>Приукрасить действительность, это вполне по нашему!</p>
 				<a class="buttonGRAY answer">Ответить</a>
@@ -162,14 +208,21 @@
 
 			<div class="comment">
 				<img src="images/avatar-12.jpg" alt=""/>
+
 				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
 				<p>Красота, спасибо!</p>
-				<p>Старожилы вспоминают что-то похожее, но о-о-очень калорийное. Называлось "Черепаха": внизу консервированный лосось, потом где-то было еще замороженное и натертое стружкой сливочное масло, белки-желтки были, лук тоже, а поверх лука - тертые яблоки. А чтобы была "черепаха", сверху украшали оливками: голова, хвост и четыре лапки. Вот такое ретро. Кажется, оно еще настаиваться должно было два часа.</p>
+
+				<p>Старожилы вспоминают что-то похожее, но о-о-очень калорийное. Называлось "Черепаха": внизу
+					консервированный лосось, потом где-то было еще замороженное и натертое стружкой сливочное масло,
+					белки-желтки были, лук тоже, а поверх лука - тертые яблоки. А чтобы была "черепаха", сверху украшали
+					оливками: голова, хвост и четыре лапки. Вот такое ретро. Кажется, оно еще настаиваться должно было
+					два часа.</p>
 				<a class="buttonGRAY answer">Ответить</a>
 			</div>
 
 			<div class="comment shifted-1">
 				<img src="images/avatar-12.jpg" alt=""/>
+
 				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
 				<p>Приукрасить действительность, это вполне по нашему!</p>
 				<a class="buttonGRAY answer">Ответить</a>
@@ -177,6 +230,7 @@
 
 			<div class="comment shifted-2">
 				<img src="images/avatar-12.jpg" alt=""/>
+
 				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
 				<p>Приукрасить действительность, это вполне по нашему!</p>
 				<a class="buttonGRAY answer">Ответить</a>
@@ -184,6 +238,7 @@
 
 			<div class="comment">
 				<img src="images/avatar-12.jpg" alt=""/>
+
 				<div class="info"><b>Барух Фельдман,</b> 14 мая 2015, 14:02</div>
 				<p>Приукрасить действительность, это вполне по нашему!</p>
 				<a class="buttonGRAY answer">Ответить</a>

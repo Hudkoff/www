@@ -207,6 +207,7 @@
     display: block;
 }
 
+
 .page_blogs .all-authors {
     float: right;
     width: 220px;
@@ -231,12 +232,37 @@
 	width: 8px;
 	margin: 8px 0;
 }
+.page_blogs .all-authors-button .icon-arrow-left{
+    background: url(/images/icon-arrow-left.png) no-repeat;
+    height: 13px;
+    width: 8px;
+    margin: 8px 0;
+}
 .page_blogs .all-authors-button a{
     color: #000;
     text-decoration: none;
 }
 .page_blogs .all-authors img:nth-child(3n) {
     margin-right: 0;
+}
+
+.page_blogs .all-authors-expanded {
+    position: absolute;
+    right: 20px;
+    width: 740px;
+    padding: 20px;
+    margin-top: -20px;
+    background: #fff;
+    z-index: 10;
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+.page_blogs .all-authors-expanded img:nth-child(3n)  {
+    margin-right: 10px;
+}
+.page_blogs .all-authors-full {
+    display: none;
 }
 
 .blogs-topic .content {

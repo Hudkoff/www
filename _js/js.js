@@ -550,6 +550,23 @@ $(".calendar").datepicker( {
 
 
 
+//////////////////////////////////////////////
+// Список авторов
+//////////////////////////////////////////////
+
+$(function() {
+	var authorsButton = $(".all-authors-button"),
+		authorsShort = $(".all-authors-short"),
+		authorsFull = $(".all-authors-full"),
+		allAuthors = $(".all-authors");
+
+	authorsButton.on('click',function(e){
+		e.preventDefault();
+		authorsShort.toggle();
+		authorsFull.toggle();
+		allAuthors.toggleClass("all-authors-expanded");
+	});
+});
 
 
 
