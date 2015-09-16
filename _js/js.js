@@ -120,80 +120,82 @@ $(document).ready(function() {
 // Чекбоксы & Радиобатоны
 //////////////////////////////////////////////
 
-function changeCheck(el) {
-	// обрабатываем клик по обертке
-    var el = el,
-        input = el.find("input").eq(0);
-   	if (input.attr("checked")) {
-		el.removeClass("checked");	
-		input.attr("checked", false);
-	} else {
-		el.addClass("checked");	
-		input.attr("checked", true);
-	}
-    return true;
-}
+// function changeCheck(el) {
+// 	// обрабатываем клик по обертке
+//     var el = el,
+//         input = el.find("input").eq(0);
+//    	if (input.attr("checked")) {
+// 		el.removeClass("checked");	
+// 		input.attr("checked", false);
+// 	} else {
+// 		el.addClass("checked");	
+// 		input.attr("checked", true);
+// 	}
+//     return true;
+// }
 
-function changeRadio(el) {
-	// обрабатываем клик по обертке
-	var el = el,
-		input = el.find("input").eq(0);
-	var nm = input.attr("name");
+// function changeRadio(el) {
+// 	// обрабатываем клик по обертке
+// 	var el = el,
+// 		input = el.find("input").eq(0);
+// 	var nm = input.attr("name");
 		
-	$(".radioWrap input").each(function() {
-		if ($(this).attr("name") == nm) {
-			$(this).parent().removeClass("checked");
-		}		   
-	});					  	
-	if (el.attr("class").indexOf("niceRadioDisabled") == -1) {	
-		el.addClass("checked");
-		input.attr("checked", true);
-	}	
-    return true;
-}
+// 	$(".radioWrap input").each(function() {
+// 		if ($(this).attr("name") == nm) {
+// 			$(this).parent().removeClass("checked");
+// 		}		   
+// 	});					  	
+// 	if (el.attr("class").indexOf("niceRadioDisabled") == -1) {	
+// 		el.addClass("checked");
+// 		input.attr("checked", true);
+// 	}	
+//     return true;
+// }
 
 
-function changeCheckStart(el) {
-	// 	если установлен атрибут checked, меняем вид чекбокса 
-	var el = el,
-	input = el.find("input").eq(0);
-    if(input.attr("checked")) {
-		el.addClass("checked");	
-	}
-    return true;
-}
-function changeRadioStart(el) {
-	// 	если установлен атрибут checked, меняем вид чекбокса 
-	var el = el,
-	input = el.find("input").eq(0);
-    if(input.attr("checked")) {
-		el.addClass("checked");	
-	}
-    return true;
-}
+// function changeCheckStart(el) {
+// 	// 	если установлен атрибут checked, меняем вид чекбокса 
+// 	var el = el,
+// 	input = el.find("input").eq(0);
+//     if(input.attr("checked")) {
+// 		el.addClass("checked");	
+// 	}
+//     return true;
+// }
+// function changeRadioStart(el) {
+// 	// 	если установлен атрибут checked, меняем вид чекбокса 
+// 	var el = el,
+// 	input = el.find("input").eq(0);
+//     if(input.attr("checked")) {
+// 		el.addClass("checked");	
+// 	}
+//     return true;
+// }
 
-function bindControls() {
-	// 	 при загрузке страницы
-	$(".checkboxWrap").each(function() {
-	    changeCheckStart($(this));
-	});
-	$(".radioWrap").each(function() {
-	     changeRadioStart($(this));
-	});
-	// при клике
-	$(".checkboxWrap").on("mouseup", function() {
-	    changeCheck($(this)); 
-	});
-	$(".radioWrap").on("mouseup", function() {
-	    changeRadio($(this)); 
-	});
-}
+// function bindControls() {
+// 	// 	 при загрузке страницы
+// 	$(".checkboxWrap").each(function() {
+// 	    changeCheckStart($(this));
+// 	});
+// 	$(".radioWrap").each(function() {
+// 	     changeRadioStart($(this));
+// 	});
+// 	// при клике
+// 	$(".checkboxWrap").on("mouseup", function() {
+// 	    changeCheck($(this)); 
+// 	});
+// 	$(".radioWrap").on("mouseup", function() {
+// 	    changeRadio($(this)); 
+// 	});
+// }
 
 
 
-$(document).ready(function(){
-	bindControls();
-});
+// $(document).ready(function(){
+// 	bindControls();
+// });
+
+
 
 
 // function changeVisualRadio(input) {
@@ -288,7 +290,7 @@ function cboxPageScrollingAdjust() {
 	$("body").height(H);
 
 	// обрабатываем чекбоксы на попапе - т.к. в момент привязки событий к чекбоксам попапа не существует
-	bindControls();
+	// bindControls();
 }
 function cboxPageScrollingReturn() {
 	$("html, body").removeClass("cboxOn");

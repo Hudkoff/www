@@ -577,7 +577,7 @@ label {
 	margin-bottom: 7px;
 	display: inline-block;
 }
-label.checkboxWrap,
+/*label.checkboxWrap,
 label.radioWrap {
 	color: #000;
 	cursor: pointer;
@@ -611,7 +611,7 @@ label.radioWrap {
 }
 .radioWrap.checked:before {
 	background-position: 14px -14px;
-}
+}*/
 
 
 
