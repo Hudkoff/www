@@ -21,9 +21,13 @@ $(window).load(function() {
 		newImg.className = "b-share-icon b-share-icon_t";
 
 		newIco.appendChild(newImg);
+
 		return newIco;
 	}
-
-	$(".yashare-auto-init .b-share").append(createSocialNode);
+	
+	if (tmblrset != true) {
+		$(".yashare-auto-init .b-share").append(createSocialNode);
+		var tmblrset == true; // для того, чтоб иконка добавилась единожды
+	}	
 });
 </script>
