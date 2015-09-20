@@ -2,9 +2,12 @@
 @import "_tests.css";
 @import "_tests-right-block.css";
 @import "_tabs.css";
+@import "_newsletter.css";
 
 /* ============================================================================== */
-
+.margin-b20 {
+	margin-bottom: 20px;
+}
 .page_learning .tabs-list .ui-state-active {
 	background-color: #7247ba;
 	border-radius: 2px;
