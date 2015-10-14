@@ -334,9 +334,9 @@ if (loginButton.length != 0) { // если элемент есть на стра
 	});
 }
 
-var loginButton = $(".p_ask-rav");
-if (loginButton.length != 0) { // если элемент есть на странице
-	loginButton.colorbox({
+var askrav = $(".p_ask-rav");
+if (askrav.length != 0) { // если элемент есть на странице
+	askrav.colorbox({
 		scrolling: false,
 		opacity: 0.5,
 		width: "526px",
