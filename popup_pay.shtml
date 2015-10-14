@@ -1,0 +1,24 @@
+<h3 class="color-TOLDOT bordered">
+	Способ оплаты
+	<a class="tablink" href="#" onclick="$.colorbox.next(); return false">Платежные данные</a>
+</h3>
+
+<form>
+
+	<div class="login-form">
+		<label>Логин:</label>
+		<input type="text" class="" placeholder="ivan-ivanov">
+		<label>Пароль:</label>
+		<input type="password" class="" placeholder="******">
+		<label class="checkboxWrap section">
+			<input type="checkbox">Запомнить меня
+		</label>
+		<input class="section" type="submit" value="ВОЙТИ">
+		<center>
+			<a href="#" title="">Я забыл пароль</a><br>
+			<a href="#" title="">Сообщить об ошибке</a>
+		</center>
+	</div>
+</form>
+
+
