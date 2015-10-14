@@ -307,10 +307,10 @@ if (galleryPhoto.length != 0) { // если элемент есть на стр�
 	});
 }
 
-var globalSearch = $(".globalSearch");
-if (globalSearch.length != 0) { // если элемент есть на странице
-	globalSearch.colorbox({
-		href: "_block-seo.shtml", // надо перебить т.к. поле ввода не имеет ссылки
+var p_globalSearch = $(".globalSearch");
+if (p_globalSearch.length != 0) { // если элемент есть на странице
+	p_globalSearch.colorbox({
+		href: "_block-seo.shtml", // надо присвоить href т.к. поле ввода не имеет ссылки
 		opacity: 0.5,
 		scrolling: false,
 		width: "80%",
@@ -322,9 +322,9 @@ if (globalSearch.length != 0) { // если элемент есть на стр�
 	});
 }
 
-var loginButton = $(".login a");
-if (loginButton.length != 0) { // если элемент есть на странице
-	loginButton.colorbox({
+var p_loginButton = $(".login a");
+if (p_loginButton.length != 0) { // если элемент есть на странице
+	p_loginButton.colorbox({
 		rel: "login",
 		scrolling: false,
 		opacity: 0.5,
@@ -334,9 +334,9 @@ if (loginButton.length != 0) { // если элемент есть на стра
 	});
 }
 
-var askrav = $(".p_ask-rav");
-if (askrav.length != 0) { // если элемент есть на странице
-	askrav.colorbox({
+var p_askrav = $(".p_ask-rav");
+if (p_askrav.length != 0) { // если элемент есть на странице
+	p_askrav.colorbox({
 		scrolling: false,
 		opacity: 0.5,
 		width: "526px",
@@ -346,10 +346,110 @@ if (askrav.length != 0) { // если элемент есть на страни�
 	});
 }
 
+// заготовка
+var p_error = $(".p_error");
+if (p_error.length != 0) { // если элемент есть на странице
+	p_error.colorbox({
+		scrolling: false,
+		opacity: 0.5,
+		width: "526px",
+		onComplete: cboxPageScrollingAdjust,
+		onCleanup: cboxPageScrollingReturn,
+		className: "popup popup_error",
+	});
+}
 
+// заготовка
+var p_family = $(".p_family");
+if (p_family.length != 0) { // если элемент есть на странице
+	p_family.colorbox({
+		scrolling: false,
+		opacity: 0.5,
+		width: "526px",
+		onComplete: cboxPageScrollingAdjust,
+		onCleanup: cboxPageScrollingReturn,
+		className: "popup popup_family",
+	});
+}
 
+// заготовка
+var p_follow-rss = $(".p_follow-rss");
+if (p_follow-rss.length != 0) { // если элемент есть на странице
+	p_follow-rss.colorbox({
+		scrolling: false,
+		opacity: 0.5,
+		width: "526px",
+		onComplete: cboxPageScrollingAdjust,
+		onCleanup: cboxPageScrollingReturn,
+		className: "popup popup_follow-rss",
+	});
+}
 
+// заготовка
+var p_follow-webinar = $(".p_follow-webinar");
+if (p_follow-webinar.length != 0) { // если элемент есть на странице
+	p_follow-webinar.colorbox({
+		scrolling: false,
+		opacity: 0.5,
+		width: "526px",
+		onComplete: cboxPageScrollingAdjust,
+		onCleanup: cboxPageScrollingReturn,
+		className: "popup popup_follow-webinar",
+	});
+}
 
+// заготовка
+var p_funer = $(".p_funer");
+if (p_funer.length != 0) { // если элемент есть на странице
+	p_funer.colorbox({
+		scrolling: false,
+		opacity: 0.5,
+		width: "526px",
+		onComplete: cboxPageScrollingAdjust,
+		onCleanup: cboxPageScrollingReturn,
+		className: "popup popup_funer",
+	});
+}
+
+// заготовка
+var p_request-edu = $(".p_request-edu");
+if (p_request-edu.length != 0) { // если элемент есть на странице
+	p_request-edu.colorbox({
+		scrolling: false,
+		opacity: 0.5,
+		width: "526px",
+		onComplete: cboxPageScrollingAdjust,
+		onCleanup: cboxPageScrollingReturn,
+		className: "popup popup_request-edu",
+	});
+}
+
+// заготовка
+var p_request-study = $(".p_request-study");
+if (p_request-study.length != 0) { // если элемент есть на странице
+	p_request-study.colorbox({
+		scrolling: false,
+		opacity: 0.5,
+		width: "526px",
+		onComplete: cboxPageScrollingAdjust,
+		onCleanup: cboxPageScrollingReturn,
+		className: "popup popup_request-study",
+	});
+}
+
+// заготовка
+var p_pay = $(".p_pay");
+if (p_pay.length != 0) { // если элемент есть на странице
+	p_pay.colorbox({
+		scrolling: false,
+		opacity: 0.5,
+		width: "526px",
+		onComplete: cboxPageScrollingAdjust,
+		onCleanup: cboxPageScrollingReturn,
+		className: "popup popup_pay",
+	});
+}
+// 2-я страница p_pay-settings
 
 
 
