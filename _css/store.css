@@ -1,6 +1,8 @@
 /* стили для страницы магазина */
 @import "_catalog-pagination.css";
 @import "_slider.css";
+@import "_currency-block.css";
+@import "_bank-info-block.css";
 
 /* ============================================================================== */
 
@@ -169,42 +171,7 @@
 	color: #000;
 }
 
-.page_store .visas {
-	margin-top: 20px;
-	margin-bottom: 10px;
-	font-size: 14px;
-}
-.page_store .visas img {
-	float: left;
-	margin-right: 10px;
-	margin-bottom: 15px;
-}
-.page_store .bank-info-block a {
-	clear: both;
-	display: block;
-}
-.page_store .bank-info-block a.bank-link{
-	text-decoration: none;
-	border-bottom: 1px dotted;
-	display: inline;
-}
-.page_store .bank-info-block .webmoney-links {
-	margin-top: 15px;
-}
-.page_store .bank-info-block a {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	line-height: 18px;
-}
 
-.page_store .currency-block {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
-	margin-top: 10px;
-}
-.currency-block li {
-	line-height: 20px;
-}
 
 .shop-item-block .image-container {
 	width: 40%;

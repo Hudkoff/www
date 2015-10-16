@@ -1,0 +1,32 @@
+<section>
+	<h3 class="color-GRAY bordered">
+		<a href="" title="">Валюты</a>
+	</h3>
+
+	<ul class="currency-block">
+		<li>
+			<b>NIS</b> — Израильский шекель
+		</li>
+		<li>
+			<b>USD</b> — Американский доллар
+		</li>
+		<li>
+			<b>RUR</b> — Российский рубль
+		</li>
+		<li>
+			<b>EUR</b> — Евро
+		</li>
+		<li>
+			<b>GBP</b> — Фунт стерлингов
+		</li>
+		<li>
+			<b>JPY</b> — Японская йена
+		</li>
+		<li>
+			<b>AUD</b> — Австралийский доллар
+		</li>
+		<li>
+			<b>CAD</b> — Канадский доллар
+		</li>
+	</ul>
+</section>

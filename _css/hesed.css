@@ -1,0 +1,186 @@
+@import "_currency-block.css";
+@import "_bank-info-block.css";
+
+/* ============================================================================== */
+
+.page_hesed .content-colored {
+	background-color: #e8eff7;
+	padding: 20px;
+}
+
+.page_hesed .content-colored .description {
+	margin-top: 12px;
+	font-family: 'Open Sans', sans-serif;
+	color: #222325;
+	font-size: 13px;
+
+}
+
+.page_hesed .content-colored .description a {
+	display: inline-block;
+	margin-right: 35px;
+	margin-top: 18px;
+	border-bottom: 1px dotted;
+	text-decoration: none;
+}
+
+.hesed-list {
+	margin: 30px 0;
+}
+.hesed-list .heading {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	color: #222325;
+	padding: 0 10px 8px;
+	border-bottom: 1px solid #d3d8df;
+}
+
+.hesed-list .need {
+	float: right;
+	width: 100px;
+}
+.hesed-list .pledged {
+	float: right;
+	width: 120px;
+}
+.hesed-list .donate {
+	float: right;
+	width: 170px;
+}
+.hesed-list .name {
+	width: 100%;
+	padding-right: 400px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.hesed-item {
+	padding: 10px 10px 15px;
+	border-top: 1px solid #e5e5e5;
+}
+
+
+.hesed-item .name {
+	font-family: 'Noto Serif', serif;
+	font-weight: bold;
+	color: #000;
+	font-size: 14px;
+}
+.hesed-item .name .info {
+	margin-bottom: 7px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #6c6c6c;
+}
+
+
+.hesed-item .need,
+.hesed-item .pledged,
+.hesed-item .donate {
+	margin-top: 8px;
+}
+.hesed-item .need .sum{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #e60000;
+}
+.hesed-item .need .currency{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #6c6c6c;
+}
+.hesed-item .need .info{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+
+
+.hesed-item .pledged .sum{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #6da420;
+}
+.hesed-item .pledged .currency{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #6c6c6c;
+}
+
+.hesed-list .donation-flag {
+	float: left;
+	margin-right: 10px;
+}
+.hesed-item .donation-block {
+	display: none;
+}
+.hesed-item.active {
+	background-color: #e8eff7;
+}
+.hesed-item.active .donation-block {
+	display: block;
+}
+.hesed-item .donation-block .donation-sum{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	padding: 6px;
+	width: 60px;
+	height: 21px;
+	line-height: 20px;
+	vertical-align: middle;
+	border: 1px solid #d4d4d4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+}
+
+.hesed-item .donation-block .donation-currency {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	position: relative;
+	top: -7px;
+	width: 60px;
+	height: 21px;
+	line-height: 20px;
+	vertical-align: middle;
+	border: 1px solid #d4d4d4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.hesed-item .donation-block .donation-type {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+.hesed-item .donation-block .donation-type .radio-item {
+	margin-bottom: 5px;
+}
+.hesed-item .donation-block .donation-type input[type="radio"]{
+	float: left;
+	position: relative;
+	top: -3px;
+}
+.hesed-item .donation-block .donation-type .donation-period {
+	width: 30px;
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	border: 1px solid #d4d4d4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+	padding: 0;
+	position: relative;
+	top: 5px;
+}
