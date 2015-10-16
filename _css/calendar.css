@@ -1,5 +1,12 @@
-@import "_tests.css";
+@import "_calendar.css";
 @import "_lenta.css";
+@import "_tests.css";
+@import "_tag-cloud.css";
+@import "_intopic.css";
+@import "_daytopic.css";
+@import "_daytopic-article.css";
+@import "_daytopic-title.css";
+
 
 /* ============================================================================== */
 
@@ -7,344 +14,96 @@
 	border-color: #e5e5e5;
 }
 
-
-#jdYear {
-	position: relative;
-	text-align: center;
-	background-color: #f7f2e7;
-	margin-top: 13px;
-}
-.jdymn {
-	display: inline-block;
-	padding: 0 6px;
-	font: 8pt arial;
-	cursor: pointer;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-.jdthy0 {
-	border: 3px solid #b38d39;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;	
-}
-.jdym {
-	width: 42px;
-	height: 30px;
-}
-.jdymd {
+.page_calendar .tests .image-block {
+	width: 155px;
 	float: left;
-	width: 4px;
-	height: 3px;
-	border: 1px solid #f7f2e7;
+	margin-right: 15px;
 }
-.jdymdgr {
-	background: #dcdcdc;
-}
-.jdymdrd {
-	background: #FF7E7E;
-}
-.jdymdbl {
-	background: #636363;
+.page_calendar .tests .description {
+	margin-top: 15px;
+	max-width: none;
+	height: initial;
 }
 
-.jdhBlock {
-	display: none;
-}
-.jdchc {
-	border-bottom: 1px solid #e5e5e5;
-	padding: 10px;
-}
-.jdchc span {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
-	color: #1259a8;
-	display: inline-block;
-	cursor: pointer;
-}
-.jdchc .jdchc0 {
-	background-color: #ece0c5;
-	padding: 10px 8px 8px;
-	font-weight: bold;
-	color: #000;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
-.dot-bordered {
-	border-bottom: 1px dotted #393A40;
-}
-.jdchc1 {
-	border-bottom: 1px dotted #393A40;
-	cursor: pointer;;
-}
-.jdconv {
-	position: absolute;
-	top: -144px;
-	right: 0;
-}
-.jdconv span {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
-	color: #fff;
-	font-size: 12px;
-	text-transform: uppercase;
-	padding: 11px 14px;
-	background-color: #b38d39;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
-
-.jdsmn2 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
-	color: #717171;
-	margin-bottom: 5px;
-}
-.jdbigdate,
-.jdcy {
-	font-size: 0;
-	float: left;
-}
-.jdb {
-	display: inline-block;
-	position: relative;
-}
-.jdr1 {
-	background-image: url(/images/calendar_date_left_1.png);
-	width: 32px;
-	height: 65px;
-}
-.jdr8 {
-	width: 43px;
-	height: 65px;
-	background-image: url(/images/calendar_date_right_8.png);
-}
-
-.jdmonthbl {
-	float: left;
-}
-.jdcm5 {
-	background-image: url(/images/calendar_month_5.png);
-	width: 47px;
-	height: 15px;
-	position: relative;
-	top: 10px;
-	left: 10px;
-}
-.jdcy {
-	float: left;
-	position: relative;
-	top: 18px;
-	left: 10px;
-}
-.jdbckg1.jdc {
-	width: 12px;
-	height: 19px;
-	display: inline-block;
-}
-.jdbc0 {
-	background-image: url(/images/calendar_year_blue_0.png);
-}
-.jdbc1 {
-	background-image: url(/images/calendar_year_blue_1.png);
-}
-.jdbc2 {
-	background-image: url(/images/calendar_year_blue_2.png);
-}
-.jdbc5 {
-	background-image: url(/images/calendar_year_blue_5.png);
-}
-
-.todayBlock {
-	width: 100%;
-	position: relative;
-}
-.jdhy {
-	font-size: 0;
-	margin-top: 3px;
-}
-.todayBlock > div + div + div {
-	/* Год 5775  + месяц */
-	position: relative;
-	float: right;
-	right: 0px;
-	top: 9px;
-}
-.todayBlock > div + div + div + div {
-	/* дата */
-	position: relative;
-	float: right;
-	right: 10px;
-	top: 0;
-	font-size: 0;
-}
-.todayBlock > div + div + div .jdbckg1.jdc {
-	display: inline-block;
-	background-repeat: no-repeat;
-	width: 14px;
-	height: 19px;
-
-}
-.todayBlock > div + div + div .jdhm1 {
-	background-image: url("/images/calendar_month_red_5.png");
-	width: 59px;
-	height: 20px;
-}
-.todayBlock > div + div + div .jdbc5 {
-	background-image: url("/images/calendar_year_red_5.png");
-}
-.todayBlock > div + div + div .jdbc7 {
-	background-image: url("/images/calendar_year_red_7.png");
-}
-.todayBlock > div + div + div + div .jdbckg1.jdb{
-	display: inline-block;
-}
-.todayBlock > div + div + div + div .jdb2{
-	width: 37px;
-	height: 65px;
-	background: url("/images/calendar_date_red_left_2.png");
-}
-.todayBlock > div + div + div + div .jdb9 {
-	width: 38px;
-	height: 65px;
-	background: url("/images/calendar_date_red_right_9.png");
-}
-
-.jdyy {
-	position: absolute;
-	left: 20px;
-	top: 12px;
-	font-size: 0;
-}
-.jdbckg1.jdlea {
-	background: url("/images/calendar_arrow_left.png");
-	width: 24px;
-	height: 24px;
-	display: inline-block;
-	position: relative;
-	top: 2px;
-	margin-right: 7px;
-	cursor: pointer;
-}
-.jdbckg1.jdria {
-	background: url("/images/calendar_arrow_right.png");
-	width: 24px;
-	height: 24px;
-	display: inline-block;
-	position: relative;
-	top: 2px;
-	margin-left: 7px;
-	cursor: pointer;
-}
-.jdyy .jdbckg1.jdc {
-	width: 10px;
-	height: 16px;
-}
-.jdyy .jdbc0{
-	background: url("/images/calendar_year_0.png");
-}
-.jdyy .jdbc1{
-	background: url("/images/calendar_year_1.png");
-}
-.jdyy .jdbc2{
-	background: url("/images/calendar_year_2.png");
-}
-.jdyy .jdbc5{
-	background: url("/images/calendar_year_5.png");
-}
-
-#jdbCalend {
-	margin-top: 10px;
-}
-#jdbCalend table {
-	width: 100%;
-}
-#jdbCalend td>div {
-	position: relative;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-#jdbCalend .jdd td {
-	width: 14%;
-	padding: 1px;
-
-}
-#jdbCalend .jdd td div {
-	background-color: #c6c9ce;
-	padding: 11px;
-	font-family: 'Open Sans', sans-serif;
+.holidays-announce {
+	margin: 15px 0;
+	font-family: 'Noto Serif', serif;
 	font-weight: bold;
 	font-size: 14px;
-	color: #fff;
+	line-height: 24px;
 }
-#jdbCalend .jdd td.jdsb div {
-	background-color: #ea8b65;
+.holidays-announce ul {
+	list-style: disc inside;
 }
-
-#jdbCalend td .jd {
-	padding: 7px 5px 7px 7px;
-	height: 100px;
-	/*overflow: hidden;*/
-	background-color: #e3e8ef;
-	margin: 1px;
-}
-#jdbCalend .jd.jdsbb {
-	background-color: #ffeae0 ;
+.holidays-announce ul li {
+	line-height: 24px;
 }
 
-#jdbCalend .jd .jdbd0 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
-	line-height: 20px;
-	color: #0e53b2;
-	float: left;
+.holidays-annual {
+	padding-top: 25px;
+	padding-bottom: 10px;
+
 }
-#jdbCalend .jd .jdsd1 {
+.holidays-annual .holiday-item{
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 25px;
+}
+.holidays-annual .holiday-item a{
+	margin-top: 7px;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 11px;
-	line-height: 20px;
-	color: #e00000;
+	font-size: 12px;
+	display: block;
+	text-decoration: none;
+}
+
+.calendar-right-block .tag-search {
+	margin-bottom: 15px;
+}
+.calendar-right-block .tag-search input[type="text"] {
+	padding: 12px;
+	padding-left: 40px;
+}
+.calendar-right-block .tag-search .icon-search {
+	top: 0;
+}
+.calendar-right-block ul {
+	padding: 0 15px;
+	list-style: disc inside;
+	color: #2f63b7;
+}
+.calendar-right-block ul li {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 24px;
+}
+.calendar-right-block ul li .time-stamp{
 	float: right;
+	line-height: 24px;
+	color: #828282;
 }
-#jdbCalend .jd .jdcdn {
-	position: absolute;
-	top: 30px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 11px;
-	color: #000;
-	width: 80%;
-	left: 5%;
-	padding: 4px 5px;
-	overflow: hidden;
+.calendar-right-block ul li a{
+	text-decoration: none;
 }
-#jdbCalend .jd.jdtd {
-	border: 3px solid #ea8b65;
-	background-color: #fff;
-}
-#jdbCalend .jd.jdtd .jdbd0,
-#jdbCalend .jd.jdtd .jdcdn {
+
+.shabbat-block {
+	margin: 10px 0 20px;
+	padding: 15px;
+	border: 2px dotted #b69140;
 	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.shabbat-block .heading {
+	margin-bottom: 10px;
+}
+.shabbat-block ul {
+	padding: 0;
+}
+.shabbat-block ul li {
 	color: #000;
-}
-#jdbCalend .jdbckg2 {
-	background: url(/images/calendar_gradient.png) top repeat-x, url(/images/calendar_01.jpg) center no-repeat;
-}
-#jdbCalend .jd.jdbckg2 .jdcdn{
-	background-color: rgb(255,255,255);
-	background-color: rgba(255,255,255,0.8);
-
+	font-weight: bold;
 }
 
-#jdbCalend .jdm5 {
-	background: url(/images/calendar_gradient.png) top repeat-x, url(/images/calendar_01.jpg) center no-repeat;
-}
-#jdbCalend .jdrh1 {
-	background: url(/images/calendar_gradient.png) top repeat-x, url(/images/calendar_02.jpg) center no-repeat;
-}
