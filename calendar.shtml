@@ -26,6 +26,8 @@
 				Еврейский календарь
 			</h1>
 
+			<!--#include virtual="_calendar.shtml"-->
+
 		</div>
 
 		<div class="column-right table-cell lenta-column">
