@@ -1,6 +1,6 @@
 <section>
-	<h3 class="color-GRAY bordered">
-		<a href="" title="">Валюты</a>
+	<h3 class="color-LIGHTGRAY bordered">
+		Валюты
 	</h3>
 
 	<ul class="currency-block">
