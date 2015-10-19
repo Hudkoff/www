@@ -729,6 +729,14 @@ $(function() {
 
 $(function() {
 
+	var currency = $('.donation-currency'),
+		submitCurrency = $('.submit-block .currency');
+
+	currency.on('change', function(){
+		$('.donation-currency').val(this.value);
+		submitCurrency.html(this.value);
+	});
+
 	$('.donation-flag').on('click', function(){
 		$(this).closest(".hesed-item").toggleClass('active').find('.donation-block').slideToggle(200);
 	});
