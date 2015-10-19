@@ -1,0 +1,190 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+    <!--#include virtual="_head.shtml"-->
+    <link href="_css/cemetery.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_cemetery" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="table COL-asym wrapper">
+
+    <aside class="table-cell column-left">
+        <!--#include virtual="sidemenu/sidemenu-cemetery.shtml"-->
+        <!--#include virtual="_banner-tora.shtml"-->
+        <!--#include virtual="recommendation-link/index.shtml"-->
+    </aside>
+
+    <div class="table-cell column-central" itemprop="mainContentOfPage">
+
+        <div class="content-colored">
+            <!--#include virtual="breadcrumbs/cemetery.shtml"-->
+
+            <h1 class="color-LIFE bordered">
+                Кладбища
+            </h1>
+
+            <div class="cemetery-description">
+                <p><b>Представляем вашему вниманию сервис поиска захоронений на еврейских участках кладбищ на территории
+                    России и Украины. На данный момент в базе данных имеется информация о 110071 захоронении, база
+                    постоянно обновляется.</b></p>
+
+                <p>При поиске захоронений пытайтесь вводить разные варианты фамилий, не вводя при этом в первоначальном
+                    запросе никаких иных сведений, так как большое количество захоронений сейчас в ненадлежащем виде,
+                    из-за чего часть информации о захоронении может быть недоступна (такая информация представлена в
+                    системе в виде вопросительных знаков).</p>
+
+                <p>В системе есть возможность заказа удаленного обслуживания того или иного захоронения.</p>
+            </div>
+
+            <div class="grave-search">
+                <form>
+                    <label for="grave-surname">Я ищу:</label>
+                    <input type="text" id="grave-surname" placeholder="Введите имя и фамилию"/>
+
+                    <div class="table">
+                        <div class="table-cell">
+                            <label for="grave-country">Страна:</label>
+                            <input type="text" id="grave-country" placeholder="Введите страну"/>
+                        </div>
+                        <div class="table-cell">
+                            <label for="grave-city">Город:</label>
+                            <input type="text" id="grave-city" placeholder="Введите город"/>
+                        </div>
+                    </div>
+                    <input type="submit" value="Найти"/>
+                </form>
+            </div>
+
+            <div class="grave-list table">
+                <div class="table-cell">
+                    <div class="grave-list-item">
+                        <a href="" title="">
+                            <img src="images/grave-01.jpg" alt=""/>
+                            <h5>Анбрейт Полина Лазаревна</h5>
+                            <div class="grave-location">Тихвинское кладбище</div>
+                            <div class="grave-years">1909—1971</div>
+                        </a>
+                    </div>
+                    <div class="grave-list-item">
+                        <a href="" title="">
+                            <img src="images/grave-02.jpg" alt=""/>
+                            <h5>Анбрейт Полина Лазаревна</h5>
+                            <div class="grave-location">Тихвинское кладбище</div>
+                            <div class="grave-years">1909—1971</div>
+                        </a>
+                    </div>
+                    <div class="grave-list-item">
+                        <a href="" title="">
+                            <img src="images/grave-01.jpg" alt=""/>
+                            <h5>Анбрейт Полина Лазаревна</h5>
+                            <div class="grave-location">Тихвинское кладбище</div>
+                            <div class="grave-years">1909—1971</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="table-cell">
+                    <div class="grave-list-item">
+                        <a href="" title="">
+                            <img src="images/grave-02.jpg" alt=""/>
+                            <h5>Анбрейт Полина Лазаревна</h5>
+                            <div class="grave-location">Тихвинское кладбище</div>
+                            <div class="grave-years">1909—1971</div>
+                        </a>
+                    </div>
+                    <div class="grave-list-item">
+                        <a href="" title="">
+                            <img src="images/grave-01.jpg" alt=""/>
+                            <h5>Анбрейт Полина Лазаревна</h5>
+                            <div class="grave-location">Тихвинское кладбище</div>
+                            <div class="grave-years">1909—1971</div>
+                        </a>
+                    </div>
+                    <div class="grave-list-item">
+                        <a href="" title="">
+                            <img src="images/grave-02.jpg" alt=""/>
+                            <h5>Анбрейт Полина Лазаревна</h5>
+                            <div class="grave-location">Тихвинское кладбище</div>
+                            <div class="grave-years">1909—1971</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="cemetery-banner">
+            <a title="" href="">
+                <h2>Еврейские похороны и траур</h2>
+            </a>
+        </div>
+
+        <div class="table COL-three wrapper">
+            <div class="table-cell">
+                <!--#include virtual="daytopic-article/index-01.shtml"-->
+                <!--#include virtual="daytopic-article/index-02.shtml"-->
+                <!--#include virtual="daytopic-article/index-03.shtml"-->
+                <!--#include virtual="daytopic-article/index-04.shtml"-->
+            </div>
+            <div class="table-cell">
+                <!--#include virtual="daytopic-article/index-05.shtml"-->
+                <!--#include virtual="daytopic-article/index-06.shtml"-->
+                <!--#include virtual="daytopic-article/index-07.shtml"-->
+                <!--#include virtual="daytopic-article/index-08.shtml"-->
+            </div>
+            <div class="table-cell">
+                <!--#include virtual="daytopic-article/index-09.shtml"-->
+                <!--#include virtual="daytopic-article/index-10.shtml"-->
+                <!--#include virtual="daytopic-article/index-11.shtml"-->
+            </div>
+        </div>
+
+    </div>
+
+    <div class="column-right table-cell lenta-column">
+
+        <section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+            <!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+            <!--#include virtual="lenta/index-02.shtml?ededed"-->
+            <!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+            <!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+            <!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+            <!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+            <!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+            <!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+            <!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+        </section>
+
+        <!--#include virtual="_cemetery-list.shtml"-->
+
+        <!--#include virtual="_ask-questions.shtml"-->
+
+        <!--#include virtual="_family-questions.shtml"-->
+
+        <section>
+            <h3 class="color-LEARNING arrowed bordered">
+                <a href="#" title="">
+                    Тесты
+                    <b>&#9670;</b>
+                </a>
+            </h3>
+
+            <div>
+                <!--#include virtual="tests/index-31.shtml"-->
+            </div>
+        </section>
+
+    </div>
+
+</div>
+
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>
