@@ -40,24 +40,7 @@
                 <p>В системе есть возможность заказа удаленного обслуживания того или иного захоронения.</p>
             </div>
 
-            <div class="grave-search">
-                <form>
-                    <label for="grave-surname">Я ищу:</label>
-                    <input type="text" id="grave-surname" placeholder="Введите имя и фамилию"/>
-
-                    <div class="table">
-                        <div class="table-cell">
-                            <label for="grave-country">Страна:</label>
-                            <input type="text" id="grave-country" placeholder="Введите страну"/>
-                        </div>
-                        <div class="table-cell">
-                            <label for="grave-city">Город:</label>
-                            <input type="text" id="grave-city" placeholder="Введите город"/>
-                        </div>
-                    </div>
-                    <input type="submit" value="Найти"/>
-                </form>
-            </div>
+            <!--#include virtual="_grave-search.shtml"-->
 
             <div class="grave-list table">
                 <div class="table-cell">

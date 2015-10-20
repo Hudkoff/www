@@ -307,6 +307,16 @@ if (galleryPhoto.length != 0) { // если элемент есть на стр�
 	});
 }
 
+var graveGallery = $(".page_cemetery .grave-photo");
+if (graveGallery.length != 0) { // если элемент есть на странице
+	graveGallery.colorbox({
+		//rel:'gal', // uncomment to turn the group photo gallery on / включает группирование фоток в галерее
+		fixed: true,
+		className: 'colorbox-gallery border-LIFE',
+		current: "{current} из {total}"
+	});
+}
+
 var p_globalSearch = $(".globalSearch");
 if (p_globalSearch.length != 0) { // если элемент есть на странице
 	p_globalSearch.colorbox({

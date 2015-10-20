@@ -17,6 +17,82 @@
 	padding: 20px 20px 10px;
 	margin-bottom: 25px;
 }
+.page_cemetery .content-colored.grave-block {
+	padding: 20px;
+	margin-bottom: 0;
+}
+
+.grave-english-name {
+	color: #656565;
+	margin: 10px 0 15px;
+}
+
+.grave-description-block {}
+.grave-description-block img {
+	display: block;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.grave-years {
+	margin-bottom: 25px;
+}
+.grave-description .heading {
+	margin-bottom: 3px;
+	font-family: 'Noto Serif', serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	color: #656565;
+}
+.grave-description .info {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #656565;
+}
+
+.grave-place a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	display: inline-block;
+	margin: 7px 0 20px;
+	text-decoration: none;
+	border-bottom: 1px dotted;
+}
+
+.grave-buttons a {
+	text-decoration: none;
+	display: block;
+}
+.grave-buttons .button {
+	display: inline-block;
+	margin-bottom: 15px;
+	background-color: #d2d0cf;
+	color: #515151;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 6px 13px 6px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.grave-buttons .button.highlighted {
+	background-color: #f69227;
+	color: #fff;
+}
+.grave-together,
+.grave-neighbors {
+	margin-bottom: 20px;
+}
+.grave-together a,
+.grave-neighbors a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+}
 
 .page_cemetery .cemetery-description {
 	font-family: 'Noto Serif', serif;
@@ -33,10 +109,7 @@
 	margin-bottom: 40px;
 }
 .grave-search input {
-	font-weight: normal;
-}
-.grave-search input {
-	font-weight: normal;
+	font-weight: bold;
 }
 .grave-search input::-webkit-input-placeholder {
 	font-weight: normal;
@@ -104,6 +177,26 @@
 	font-size: 14px;
 }
 
+
+.grave-search-color-block {
+	background-color: #f5e7d7;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.grave-search-color-block .grave-search {
+	margin-bottom: 10px;
+}
+.grave-search-color-block h3 {
+	color: #656565;
+	margin-bottom: 10px;
+}
+.grave-search-color-block p {
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000;
+	margin-bottom: 10px;
+}
 
 
 .cemetery-banner {
