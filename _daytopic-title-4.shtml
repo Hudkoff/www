@@ -1,0 +1,9 @@
+<div class="daytopic-title" style="background: url(images/header-bg-5.jpg) repeat-x">
+	<!-- минимальная ширина 950, максимальная - 1920, картинка фона .daytopic-title должа быть не менее 1920, в любом случае желательно её слияние краями сама с собой либо с цветом фона -->
+	<div class="wrapper">
+		<div class="bottom-text">
+			<h1>Шавуот — праздник дарования </h1>
+		</div>
+	</div>
+
+</div>

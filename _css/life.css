@@ -1,6 +1,8 @@
 @import "_tests.css";
 @import "_weddings.css";
-
+@import "_daytopic-title.css";
+@import "_daytopic-article.css";
+@import "_daytopic.css";
 
 
 .page_life .tests .image-block {
