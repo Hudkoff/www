@@ -167,6 +167,9 @@ h4[class ^= color] {
 .page_topic .content_colored {
 	background-color: #f6f6f6;
 }
+.page_life .content_colored.dating {
+	background: #f8f0e9 url('../images/page-dating-colored-bg.png') 0 0 repeat;
+}
 
 
 

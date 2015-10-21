@@ -1,0 +1,13 @@
+.weddings {
+	margin-top: 20px;
+}
+.weddings li {
+	margin-bottom: 20px;
+}
+.weddings h5 {
+	margin-bottom: 5px;
+}
+.weddings .date {
+	color: #717171;
+	font: normal 12px 'Open Sans', sans-serif;
+}
