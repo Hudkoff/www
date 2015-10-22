@@ -173,6 +173,9 @@ h4[class ^= color] {
 .page_life .content_colored.dating {
 	background: #f8f0e9 url('../images/page-dating-colored-bg.png') 0 0 repeat;
 }
+.page_learning .content_colored {
+	background: #efefef;
+}
 
 
 

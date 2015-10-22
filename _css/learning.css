@@ -3,10 +3,15 @@
 @import "_tests-right-block.css";
 @import "_tabs.css";
 @import "_newsletter.css";
+@import "_authors-list.css";
+@import "_catalog-item.css";
 
 /* ============================================================================== */
 .margin-b20 {
 	margin-bottom: 20px;
+}
+.margin-b25 {
+	margin-bottom: 25px;
 }
 .page_learning .tabs-list .ui-state-active {
 	background-color: #7247ba;
@@ -229,6 +234,17 @@
 }
 .page_learning .buttons a {
 	color: #676767;
+}
+/*--------------------------------------*/
+.page_learning .column-central .about-vebinars {
+	margin-bottom: 50px;
+}
+.page_learning .column-central .about-vebinars ul li {
+	display: inline-block;
+	margin-right: 80px;
+}
+.page_learning .column-central .about-vebinars ul li:last-child {
+	margin-right:0px;
 }
 /*--------------------------------------*/
 .test-stats .test-stats-item {

@@ -1,0 +1,113 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/learning.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_learning" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="table COL-sym wrapper">
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-learning-vebinars.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+			<div class="content_colored">
+				<!--#include virtual="breadcrumbs/learning-vebinars.shtml"-->
+
+				<h1 class="color-LEARNING bordered">
+					Вебинары
+				</h1>
+			</div>
+			<div class="table COL-asym">
+
+			<div class="table-cell column-central" itemprop="mainContentOfPage">
+				<section class="about-vebinars">
+					<h3 class="color-LEARNING arrowed bordered margin-b25 ">
+						<a href="#" title="">
+							О Вебинарах
+						</a>
+					</h3>
+					<ul>
+						<li>
+							<a href="">
+								<div>
+									<img src="images/vebinars-1.jpg">
+									<p>Как работает<br> система вебинаров</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div>
+									<img src="images/vebinars-2.jpg">
+									<p>Регистрация в Вебексе <br>добавляет функциональности</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<div>
+									<img src="images/vebinars-3.jpg">
+									<p>Организация вебинаров для <br>общин и групп</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h4 class="color-LEARNING arrowed bordered margin-b25 ">
+						<a href="#" title="">
+							Последние вебинары
+							<b>&#9670;</b>
+						</a>
+					</h4>
+					<div class="content_colored">
+						<!--#include virtual="catalog-item/video-les-11.shtml"-->
+						<!--#include virtual="catalog-item/video-les-12.shtml"-->
+						<!--#include virtual="catalog-item/video-les-13.shtml"-->
+						<!--#include virtual="catalog-item/video-les-14.shtml"-->
+						<!--#include virtual="catalog-item/video-les-15.shtml"-->
+						<!--#include virtual="catalog-item/video-les-14.shtml"-->
+						<!--#include virtual="catalog-item/video-les-15.shtml"-->
+						<!--#include virtual="catalog-item/video-les-16.shtml"-->
+						<!--#include virtual="catalog-item/video-les-15.shtml"-->
+						<!--#include virtual="catalog-item/video-les-16.shtml"-->
+					</div>
+				</section>
+			</div>
+
+			<div class="column-right table-cell lenta-column">
+				<section>
+					<h3 class="color-LEARNING arrowed bordered">
+						<a href="#" title="">
+							Авторы
+							<b>&#9670;</b>
+						</a>
+					</h3>
+				 	<!--#include virtual="_authors-list.shtml"-->
+				</section>
+				<!--#include virtual="_banner-learn-tb.shtml"-->
+				<!--#include virtual="_banner-learn-tm.shtml"-->
+			</div>
+
+		</div>
+		</div>
+		
+	</div>
+
+	<br>
+	
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>
