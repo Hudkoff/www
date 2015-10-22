@@ -40,10 +40,12 @@
             </div>
             <!--#include virtual="_names.shtml"-->
         </div>
-        <div class="clearfix">
+        <div class="clearfix margin-bottom">
             <!--#include virtual="_socials-share.shtml"-->
             <!--#include virtual="_socials-like.shtml"-->   
         </div>
+        <!--#include virtual="_banner-names.shtml"-->
+        <!--#include virtual="_daytopic-names.shtml"-->
 
     </div>
 
@@ -82,9 +84,6 @@
 
 </div>
 
-<!--#include virtual="_daytopic-title-4.shtml"-->
-<br>
-<!--#include virtual="_daytopic-wide.shtml"-->
 <br>
 <!--#include virtual="_footer.shtml"-->
 
