@@ -28,7 +28,7 @@
                 Знакомства
             </h1>
 
-            <form name="shahdanSearch" class="shahdan-search-form">
+            <form name="shahdanSearch" class="dating-form">
                 <h3 class="color-LIFE">Поиск шадхана</h3>
                 <div class="table COL-two">
                     <div class="table-cell">
@@ -69,7 +69,7 @@
             
             <hr />
 
-            <form name="partnerSearch" class="partner-search-form">
+            <form name="partnerSearch"  class="dating-form">
                 <h3 class="color-LIFE">Поиск женихов и невест</h3>
                 <div class="table COL-two">
                     <div class="table-cell">

@@ -1,0 +1,135 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+    <!--#include virtual="_head.shtml"-->
+    <link href="_css/life.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_life" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="table COL-asym wrapper">
+
+    <aside class="table-cell column-left">
+        <!--#include virtual="sidemenu/sidemenu-life.shtml"-->
+        <!--#include virtual="_banner-tora.shtml"-->
+        <!--#include virtual="shop-item/index.shtml"-->
+        <!--#include virtual="recommendation-link/index.shtml"-->
+    </aside>
+
+    <div class="table-cell column-central" itemprop="mainContentOfPage">
+        <!--#include virtual="breadcrumbs/life-surnames.shtml"-->
+
+        <h1 class="color-LIFE">Еврейские фамилии</h1>
+
+        <!--#include virtual="tag-cloud/index-short-life.shtml"-->
+
+        <div class="table COL-two">
+            <div class="table-cell">
+                <h3 class="color-LIFE bordered margin-bottom-10">Фамилия дня</h3>
+                <section class="daily-surname">
+                    <h3>Аарон</h3>
+                    <p>Фамилия <b>Аарон</b> произошла от еврейского мужского имени <b>Аарон</b>. Аарон был братом Моше рабейну и первым коэном (священником). Он был известен тем, что любил мир и наводил мир между людьми. Скорее всего, это сефардская фамилия.</p>
+                    <p><b>Аарон</b> был братом Моше рабейну и первым коэном (священником). Он был известен тем, что любил мир и наводил мир между людьми. Скорее всего, это сефардская фамилия.</p>
+                </section>
+            </div>
+            <div class="table-cell">
+                <h3 class="color-LIFE bordered margin-bottom-10">Популярные фамилии</h3>
+                <section class="popular-surnames table COL-two">
+                    <div class="table-cell">
+                        <ul>
+                            <li><a href="#" title="">Комский</a></li>
+                            <li><a href="#" title="">Коэн</a></li>
+                            <li><a href="#" title="">Крелин</a></li>
+                            <li><a href="#" title="">Ксидо</a></li>
+                            <li><a href="#" title="">Куклин</a></li>
+                            <li><a href="#" title="">Куперман</a></li>
+                            <li><a href="#" title="">Кушнир</a></li>
+                            <li><a href="#" title="">Комский</a></li>
+                            <li><a href="#" title="">Коэн</a></li> 
+                            <li><a href="#" title="">Крелин</a></li> 
+                            <li><a href="#" title="">Ксидо</a></li> 
+                            <li><a href="#" title="">Куклин</a></li> 
+                            <li><a href="#" title="">Куперман</a></li>
+                            <li><a href="#" title="">Кушнир</a></li>
+                        </ul>
+                    </div>
+                    <div class="table-cell">
+                        <ul>
+                            <li><a href="#" title="">Куклин</a></li> 
+                            <li><a href="#" title="">Куперман</a></li>
+                            <li><a href="#" title="">Кушнир</a></li> 
+                            <li><a href="#" title="">Левин</a></li>
+                            <li><a href="#" title="">Маршальский</a></li>
+                            <li><a href="#" title="">Матитьяу</a></li>
+                            <li><a href="#" title="">Нездатный</a></li>
+                            <li><a href="#" title="">Комский</a></li> 
+                            <li><a href="#" title="">Коэн</a></li> 
+                            <li><a href="#" title="">Крелин</a></li> 
+                            <li><a href="#" title="">Ксидо</a></li> 
+                            <li><a href="#" title="">Куклин</a></li> 
+                            <li><a href="#" title="">Куперман</a></li>
+                            <li><a href="#" title="">Кушнир</a></li> 
+                        </ul>
+                    </div>
+                </section>
+                <a class="more right" href="" title="">Далее</a>
+            </div>
+        </div>
+
+        <div>
+            <h3 class="color-GRAY bordered">Поиск по алфавиту</h3>
+        </div>
+        <!--#include virtual="_alphabet.shtml"-->
+
+    </div>
+
+    <div class="column-right table-cell lenta-column">
+
+        <section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+            <!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+            <!--#include virtual="lenta/index-02.shtml?ededed"-->
+            <!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+            <!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+            <!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+            <!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+            <!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+            <!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+            <!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+        </section>
+
+        <!--#include virtual="_ask-questions.shtml"-->
+
+        <!--#include virtual="_family-questions.shtml"-->
+
+        <section>
+            <h3 class="color-LEARNING arrowed bordered">
+                <a href="#" title="">
+                    Тесты
+                    <b>&#9670;</b>
+                </a>
+            </h3>
+
+            <div>
+                <!--#include virtual="tests/index-31.shtml"-->
+            </div>
+        </section>
+
+        <!--#include virtual="_burial-places-search.shtml"-->
+
+    </div>
+
+</div>
+
+<!--#include virtual="_daytopic-title-4.shtml"-->
+<br>
+<!--#include virtual="_daytopic-wide.shtml"-->
+<br>
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

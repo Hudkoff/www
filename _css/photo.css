@@ -6,6 +6,7 @@
 @import "_daytopic.css";
 @import "_intopic.css";
 @import "_lenta.css";
+@import "_burial-places-search.css";
 
 
 
@@ -223,44 +224,6 @@
     font-weight: bold;
     font-size: 11px;
     cursor: pointer;
-}
-
-.burialPlacesSearch {
-    background-color: #ededed;
-    padding: 15px 10px;
-    margin-bottom: 20px;
-}
-
-.burialPlacesSearch .heading {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.burialPlacesSearch input[type="submit"] {
-    width: 28%;
-
-    background-color: #f69227;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 13px;
-    float: right;
-    border: none;
-    padding: 10px 0;
-    cursor: pointer;
-}
-
-.burialPlacesSearch input[type="text"] {
-    width: 70%;
-
-    padding: 9px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    color: #000;
-    border: 2px solid #e1e1e1;
 }
 
 .photo-of-day img{
