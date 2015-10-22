@@ -1,0 +1,8 @@
+<section class="tag-search">
+
+	<form>
+		<input type="text" placeholder="Поиск по имени">
+		<input type="submit" class="icon-search" value="&nbsp;">
+	</form>
+
+</section>

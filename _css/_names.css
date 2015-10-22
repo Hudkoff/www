@@ -1,0 +1,12 @@
+.name_meaning {
+	border-bottom: 1px solid #d0d0d0;
+	margin-bottom: 15px;
+}
+.name_meaning:last-child {
+	border-bottom: none;
+	margin-bottom: 0px;
+}
+.name_meaning .name_description {
+	font: normal 1.4rem 'Noto Serif', serif;
+	padding-bottom: 20px;
+}
