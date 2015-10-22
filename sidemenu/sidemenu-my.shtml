@@ -1,0 +1,18 @@
+<section class="sidemenu">
+    <div class="content_colored">
+        <h4>Моё</h4>
+    </div>
+    <ul class="second-level-nav">
+        <li><a href="#" title="Отложенное">Отложенное</a></li>
+        <li><a href="#" title="Избранное">Избранное</a></li>
+        <li><a href="#" title="Настройки">Настройки</a></li>
+        <li><a href="#" title="Подписки">Подписки <span class="notification">45</span></a></li>
+        <li><a href="#" title="Деньги">Деньги</a></li>
+        <li><a href="#" title="Магазин">Магазин</a></li>
+        <li><a href="#" title="Вопросы раввину">Вопросы раввину <span class="notification">2</span></a></li>
+        <li><a href="#" title="Вопросы в "Семье"">Вопросы в "Семье"</a></li>
+        <li><a href="#" title="Комментарии" >Комментарии <span class="notification">29</span></a></li>
+        <li><a href="#" title="Тесты">Тесты</a></li>
+        <li><a href="#" title="Шадханам">Шадханам</a></li>
+    </ul>
+</section>

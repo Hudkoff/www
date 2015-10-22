@@ -1,0 +1,15 @@
+<div class="article-link all-bordered clearfix">
+	<div class="icon" style="display:none;">
+		<img src="images/avatar-31.jpg" alt="" />
+	</div>
+	<div class="">
+		<a href="" title="">
+			<p class="answer-status">Еженедельная <br>	рассылка:</p>
+			<h5>Ни дня без Торы</h5>
+		</a>
+		<a href="#" class="buttonGRAY subscribe">
+			<span class="null">Подписаться</span>
+			<span class="ontrue">Вы подписаны</span>
+		</a>
+	</div>
+</div>

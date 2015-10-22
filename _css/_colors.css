@@ -164,6 +164,10 @@ h4[class ^= color] {
 .page_topic .content_colored {
 	background-color: #f6f6f6;
 }
+.page_my .content_colored {
+	background-color: #e5f1ff;
+}
+
 
 
 
@@ -223,6 +227,9 @@ h4[class ^= color] {
 }
 .page_library h1 {
     color: #7247ba;
+}
+.page_my h1 {
+	color: #1159a9;
 }
 
 

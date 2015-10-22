@@ -76,3 +76,22 @@ a.article-link:hover h4 {
 	padding-bottom: 10px;
 	border-bottom: 1px solid #e5e5e5;
 }
+.article-link .answer-status {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+.article-link .answered {
+	background: #d4e6c5;
+    padding: 0px 5px;
+}
+.article-link .not-answered {
+	background: #ebebeb;
+    padding: 0px 5px;
+}
+.all-bordered {
+	padding: 15px;
+	margin-top: -1px;
+	border: 1px solid #e5e5e5;
+}

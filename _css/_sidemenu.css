@@ -30,6 +30,15 @@
 .page_learning .sidemenu h4 {
     color: #7247ba;
 }
+.page_my .sidemenu h4 {
+    color: #1159a9;
+}
+
+
+.page_my .notification {
+    background: #0e53b2;
+}
+
 
 
 .sidemenu .second-level-nav li.selected {
