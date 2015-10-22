@@ -1,0 +1,44 @@
+<div class="articles-catalog table COL-sym wrapper wrapper">
+
+	<aside class="table-cell column-left">
+		<!--#include virtual="daytopic-article/index-07.shtml"-->
+		<!--#include virtual="daytopic-article/index-06.shtml"-->
+		<!--#include virtual="daytopic-article/index-09.shtml"-->
+		<!--#include virtual="daytopic-article/index-05.shtml"-->
+	</aside>
+
+	<div class="table-cell COL-three column-central" itemprop="mainContentOfPage">
+
+
+		<div class="table ">
+			<div class="table-cell">
+				<!--#include virtual="daytopic-article/index-01.shtml"-->
+				<!--#include virtual="daytopic-article/index-02.shtml"-->
+				<!--#include virtual="daytopic-article/index-03.shtml"-->
+				<!--#include virtual="daytopic-article/index-04.shtml"-->
+			</div>
+			<div class="table-cell">
+				<!--#include virtual="daytopic-article/index-05.shtml"-->
+				<!--#include virtual="daytopic-article/index-06.shtml"-->
+				<!--#include virtual="daytopic-article/index-07.shtml"-->
+				<!--#include virtual="daytopic-article/index-08.shtml"-->
+			</div>
+			<div class="table-cell">
+				<!--#include virtual="daytopic-article/index-09.shtml"-->
+				<!--#include virtual="daytopic-article/index-10.shtml"-->
+				<!--#include virtual="daytopic-article/index-11.shtml"-->
+			</div>
+		</div>
+
+
+
+	</div>
+
+	<aside class="table-cell column-right">
+		<!--#include virtual="daytopic-article/index-03.shtml"-->
+		<!--#include virtual="daytopic-article/index-01.shtml"-->
+		<!--#include virtual="daytopic-article/index-02.shtml"-->
+		<!--#include virtual="daytopic-article/index-03.shtml"-->
+	</aside>
+
+</div>

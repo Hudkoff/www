@@ -1,0 +1,80 @@
+@import "_lenta.css";
+@import "_intoldot.css";
+
+/* ============================================================================== */
+
+.page_rabbis .intoldot {
+	margin-bottom: 0;
+}
+.page_rabbis .content-colored {
+	padding: 20px;
+	background-color: #f9f3ec;
+}
+.rabbis-description {
+	position: relative;
+	padding: 0 50px;
+}
+.rabbis-description h4 {
+	margin: 5px 0 10px;
+}
+.rabbis-description p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+}
+.rabbis-arrow {
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 23px;
+	height: 39px;
+	background: url("/images/rabbis-arrows-sprite.png") no-repeat;
+	cursor: pointer;
+}
+.rabbis-arrow.arrow-left {
+	left: 0;
+	background-position: 0 0;
+}
+.rabbis-arrow.arrow-right {
+	right: 0;
+	background-position: -25px 0;
+}
+
+.rabbis-list {
+	margin-top: 35px;
+}
+.rabbis-list-info {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #8f9398;
+	margin-bottom: 15px;
+}
+.rabbis-list-item {
+	width: 32%;
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+	padding-right: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.rabbis-list-item img {
+	display: block;
+	float: left;
+	margin-right: 14px;
+}
+.rabbis-list-item .rabbi-name {
+	margin-top: 7px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+.rabbis-list-item .rabbi-years {
+	margin-top: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #878787;
+}

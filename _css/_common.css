@@ -811,6 +811,24 @@ label.radioWrap {
 	background: #b38d39;
 }
 
+.ask-button.life {
+	background: #f69227;
+}
+
+
+
+
+.ask-link {
+    margin: 9px 0 0 20px;
+	text-decoration: underline;
+    text-transform: uppercase;
+    font: bold 1.2rem 'Open Sans', sans-serif;
+}
+.ask-link.life {
+	color: #f69227;
+}
+
+
 
 
 

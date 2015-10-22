@@ -1,0 +1,36 @@
+<section class="sidemenu color-LIFE">
+    <ul class="first-level-nav">
+        <li>
+            <h3>Жизнь</h3>
+        </li>
+        <li>
+            <h3>Места</h3>
+        </li>
+        <li>
+            <h3>Раввины</h3>
+        </li>
+        <li>
+            <h3>Кладбища</h3>
+            <ul class="second-level-nav">
+                <li><a href="#" title="Недельные главы Торы"> О проекте</a></li>
+                <li><a href="#" title="Пятикнижие Торы">От первого лица</a></li>
+                <li><a href="#" title="Пророки">Этические вопросы</a></li>
+                <li><a href="#" title="Писания">613 заповедей</a></li>
+                <li><a href="#" title="Талмуд">Услуги по уходу за    захоронениями</a></li>
+                <li><a href="#" title="Законы">Сотрудничество    с общинами</a></li>
+                <li><a href="#" title="Мусар">Помочь проекту</a></li>
+                <li><a href="#" title="Мировоззрение">Контакты</a></li>
+            </ul>
+        </li>
+        <li>
+            <h3>Знакомства</h3>
+        </li>
+        <li>
+            <h3>Фамилия</h3>
+        </li>
+        <li>
+            <h3>Имена</h3>
+        </li>
+
+    </ul>
+</section>

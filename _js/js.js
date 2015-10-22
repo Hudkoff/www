@@ -307,6 +307,16 @@ if (galleryPhoto.length != 0) { // если элемент есть на стр�
 	});
 }
 
+var graveGallery = $(".page_cemetery .grave-photo");
+if (graveGallery.length != 0) { // если элемент есть на странице
+	graveGallery.colorbox({
+		//rel:'gal', // uncomment to turn the group photo gallery on / включает группирование фоток в галерее
+		fixed: true,
+		className: 'colorbox-gallery border-LIFE',
+		current: "{current} из {total}"
+	});
+}
+
 var p_globalSearch = $(".globalSearch");
 if (p_globalSearch.length != 0) { // если элемент есть на странице
 	p_globalSearch.colorbox({
@@ -373,9 +383,9 @@ if (p_family.length != 0) { // если элемент есть на стран�
 }
 
 // заготовка
-var p_follow-rss = $(".p_follow-rss");
-if (p_follow-rss.length != 0) { // если элемент есть на странице
-	p_follow-rss.colorbox({
+var p_follow_rss = $(".p_follow-rss");
+if (p_follow_rss.length != 0) { // если элемент есть на странице
+	p_follow_rss.colorbox({
 		scrolling: false,
 		opacity: 0.5,
 		width: "526px",
@@ -386,9 +396,9 @@ if (p_follow-rss.length != 0) { // если элемент есть на стр�
 }
 
 // заготовка
-var p_follow-webinar = $(".p_follow-webinar");
-if (p_follow-webinar.length != 0) { // если элемент есть на странице
-	p_follow-webinar.colorbox({
+var p_follow_webinar = $(".p_follow-webinar");
+if (p_follow_webinar.length != 0) { // если элемент есть на странице
+	p_follow_webinar.colorbox({
 		scrolling: false,
 		opacity: 0.5,
 		width: "526px",
@@ -412,9 +422,9 @@ if (p_funer.length != 0) { // если элемент есть на страни
 }
 
 // заготовка
-var p_request-edu = $(".p_request-edu");
-if (p_request-edu.length != 0) { // если элемент есть на странице
-	p_request-edu.colorbox({
+var p_request_edu = $(".p_request-edu");
+if (p_request_edu.length != 0) { // если элемент есть на странице
+	p_request_edu.colorbox({
 		scrolling: false,
 		opacity: 0.5,
 		width: "526px",
@@ -425,9 +435,9 @@ if (p_request-edu.length != 0) { // если элемент есть на стр
 }
 
 // заготовка
-var p_request-study = $(".p_request-study");
-if (p_request-study.length != 0) { // если элемент есть на странице
-	p_request-study.colorbox({
+var p_request_study = $(".p_request-study");
+if (p_request_study.length != 0) { // если элемент есть на странице
+	p_request_study.colorbox({
 		scrolling: false,
 		opacity: 0.5,
 		width: "526px",
@@ -726,6 +736,49 @@ $(function() {
 
 });
 
+
+$(function() {
+
+	var currency = $('.donation-currency'),
+		submitCurrency = $('.submit-block .currency');
+
+	currency.on('change', function(){
+		$('.donation-currency').val(this.value);
+		submitCurrency.html(this.value);
+	});
+
+	$('.donation-flag').on('click', function(){
+		$(this).closest(".hesed-item").toggleClass('active').find('.donation-block').slideToggle(200);
+	});
+
+	var total = 0,
+		e_val = $(".donation-sum"),
+		e_total = $('.submit-block .total-sum .sum'),
+		submit = $('.submit-block input[type="submit"]');
+
+	function donationValidator() {
+		var e_active_val = $('.hesed-item.active .donation-sum'),
+			total = 0;
+
+		e_active_val.each(function(){
+			total += parseFloat(this.value);
+		});
+
+		if(total > 0) {
+			submit.prop('disabled', false);
+		} else {
+			submit.prop('disabled', true);
+		}
+		return total;
+	}
+
+	donationValidator();
+
+	e_val.on('keyup',function(){
+		total = donationValidator();
+		e_total.html(total);
+	})
+});
 
 
 

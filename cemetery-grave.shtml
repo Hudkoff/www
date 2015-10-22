@@ -1,0 +1,172 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+    <!--#include virtual="_head.shtml"-->
+    <link href="_css/cemetery.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_cemetery" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="table COL-asym wrapper">
+
+    <aside class="table-cell column-left">
+        <!--#include virtual="sidemenu/sidemenu-cem etery.shtml"-->
+        <!--#include virtual="_banner-tora.shtml"-->
+        <!--#include virtual="recommendation-link/index.shtml"-->
+    </aside>
+
+    <div class="table-cell column-central" itemprop="mainContentOfPage">
+
+        <div class="content-colored grave-block">
+            <!--#include virtual="breadcrumbs/cemetery-grave.shtml"-->
+
+            <h1 class="color-LIFE bordered">
+                Рабинович Берта Ефимовна
+            </h1>
+
+            <h4 class="grave-english-name">
+                Rabinovich Berta Efimovna
+            </h4>
+
+            <div class="grave-description-block clearfix">
+                <a class="grave-photo" href="images/grave-big-01.jpg"  title="<b>Рабинович Берта Ефимовна</b> (1896—1968гг)<span> - Востряковское кладбище</span>">
+                    <img src="images/grave-big.jpg" alt=""/>
+                </a>
+
+                <div class="grave-description">
+                    <div class="grave-years">
+                        <div class="heading">
+                            Годы жизни:
+                        </div>
+                        <div class="info">
+                            1896—1968гг
+                        </div>
+                    </div>
+                    <div class="grave-place">
+                        <div class="heading">
+                            Место захоронения:
+                        </div>
+                        <div class="info">
+                            Москва, Востряковское кладбище
+                            Квадрат 39-5, ряд 1, участок 46
+                        </div>
+                        <a href="" title="">Карта кладбища</a>
+                    </div>
+                    <div class="grave-buttons">
+                        <a href="" title="">
+                            <div class="button highlighted">заказать услуги по уходу за могилой</div>
+                        </a>
+                        <a href="" title="">
+                            <div class="button">сообщить об ошибке</div>
+                        </a>
+                        <a href="" title="">
+                            <div class="button">задать вопрос</div>
+                        </a>
+                    </div>
+                    <div class="grave-together">
+                        <div class="heading">
+                            Захоронены вместе:
+                        </div>
+                        <div class="info">
+                            <a href="" title="">Рабинович Владимир Фабич </a>
+                        </div>
+                    </div>
+                    <div class="grave-neighbors">
+                        <div class="heading">
+                            Соседние захоронения:
+                        </div>
+                        <div class="info">
+                            <div><a href="" title="">Державец Евгения Яковлевна</a></div>
+                            <div><a href="" title="">Динерштейн Рива Яковлевна</a></div>
+                            <div><a href="" title="">Костелянец Яков Иосифович</a></div>
+                            <div><a href="" title="">Костелянец Полина Михайловна</a></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="grave-search-color-block">
+            <h3>Поиск</h3>
+            <p>
+                Вы можете уточнить свой текущий поиск, введя в форму ниже больше значений или же осуществить новый поиск.
+            </p>
+            <!--#include virtual="_grave-search.shtml"-->
+        </div>
+
+        <div class="cemetery-banner">
+            <a title="" href="">
+                <h2>Еврейские похороны и траур</h2>
+            </a>
+        </div>
+
+        <div class="table COL-three wrapper">
+            <div class="table-cell">
+                <!--#include virtual="daytopic-article/index-01.shtml"-->
+                <!--#include virtual="daytopic-article/index-02.shtml"-->
+                <!--#include virtual="daytopic-article/index-03.shtml"-->
+                <!--#include virtual="daytopic-article/index-04.shtml"-->
+            </div>
+            <div class="table-cell">
+                <!--#include virtual="daytopic-article/index-05.shtml"-->
+                <!--#include virtual="daytopic-article/index-06.shtml"-->
+                <!--#include virtual="daytopic-article/index-07.shtml"-->
+                <!--#include virtual="daytopic-article/index-08.shtml"-->
+            </div>
+            <div class="table-cell">
+                <!--#include virtual="daytopic-article/index-09.shtml"-->
+                <!--#include virtual="daytopic-article/index-10.shtml"-->
+                <!--#include virtual="daytopic-article/index-11.shtml"-->
+            </div>
+        </div>
+
+    </div>
+
+    <div class="column-right table-cell lenta-column">
+
+        <section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+            <!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+            <!--#include virtual="lenta/index-02.shtml?ededed"-->
+            <!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+            <!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+            <!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+            <!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+            <!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+            <!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+            <!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+        </section>
+
+        <!--#include virtual="_cemetery-list.shtml"-->
+
+        <!--#include virtual="_ask-questions.shtml"-->
+
+        <!--#include virtual="_family-questions.shtml"-->
+
+        <section>
+            <h3 class="color-LEARNING arrowed bordered">
+                <a href="#" title="">
+                    Тесты
+                    <b>&#9670;</b>
+                </a>
+            </h3>
+
+            <div>
+                <!--#include virtual="tests/index-31.shtml"-->
+            </div>
+        </section>
+
+    </div>
+
+</div>
+
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

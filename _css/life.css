@@ -1,0 +1,104 @@
+@import "_tests.css";
+@import "_weddings.css";
+@import "_daytopic-title.css";
+@import "_daytopic-article.css";
+@import "_daytopic.css";
+
+
+.page_life .tests .image-block {
+    width: 155px;
+    float: left;
+    margin-right: 15px;
+}
+
+.page_life .tests .description {
+    margin-top: 15px;
+    max-width: none;
+    height: initial;
+}
+
+.page_life h1 {
+	margin-bottom: 20px;
+}
+
+
+/* ----- FORM ----- */
+.page_life select {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    border: 2px solid #e1e1e1;
+    font-weight: bold;
+    padding: 8px 8px 7px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 14px;
+	background: #fff url('../images/icon-arrow-down-gray.png') right 10px center no-repeat;
+    border-radius: 0;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+.page_life select option[default] {
+	display: none;
+	font-size: 0px;
+	color: transparent;
+}
+.page_life select:required:invalid {
+	color: #ccc;
+}
+.page_life input[type="submit"] {
+	width: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 14px;
+}
+label.radio {
+	margin-bottom: 14px;
+	color: #000;
+	font-size: 1.4rem;
+	line-height: 36px;
+}
+input[type="radio"] {
+	vertical-align: text-top;
+}
+.form-line {
+
+}
+.form-line label {
+	display: inline-block;
+	white-space: nowrap;
+
+}
+.form-line input {
+	display: inline-block;
+	width: 120px;
+	margin: 0 15px 14px 10px;
+}
+.shahdan-search-form .note {
+	font: normal 1.2rem/1.8rem 'Open Sans', sans-serif;
+
+}
+.shahdan-search-form .note hr {
+	width: 75px;
+	margin: 10px 0 10px;
+	border-color: #bebebe;
+}
+.shahdan-search-form .form-description {
+	margin-top: 22px;
+	font: normal 1.2rem/1.8rem 'Open Sans', sans-serif;
+}
+.shahdan-search-form .form-description b {
+	font-size: 1.1rem;
+	line-height: 1.7rem;
+}
+.shahdan-search-form .form-description p {
+	margin-bottom: 5px;
+}
+.shahdan-search-form .form-description li:before {
+	content: '— ';
+}
+.page_life hr {
+	margin: 20px 0;
+}
