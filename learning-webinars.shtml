@@ -12,55 +12,68 @@
 
 	<div class="table COL-sym wrapper">
 		<aside class="table-cell column-left">
-			<!--#include virtual="sidemenu/sidemenu-learning-vebinars.shtml"-->
+			<!--#include virtual="sidemenu/sidemenu-learning-webinars.shtml"-->
 			<!--#include virtual="_banner-tora.shtml"-->
 			<!--#include virtual="recommendation-link/index.shtml"-->
 			<!--#include virtual="shop-item/index.shtml"-->
 		</aside>
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
-			<div class="content_colored">
-				<!--#include virtual="breadcrumbs/learning-vebinars.shtml"-->
+			<div class="content_colored margin-b20">
+				<!--#include virtual="breadcrumbs/learning-webinars.shtml"-->
 
-				<h1 class="color-LEARNING bordered">
+				<h1 class="color-LEARNING bordered margin-b20">
 					Вебинары
 				</h1>
+
+				<div class="webinars clearfix">
+					<div class="big">
+						<a class="subscribe" href="" title="">Подписаться</a>
+						<img src="images/banner-webinar-1.png">
+					</div>
+					<div class="middle">
+						<a class="subscribe" href="" title="">Подписаться</a>
+						<img src="images/banner-webinar-2.png">
+					</div>
+					<div class="small">
+						<a class="subscribe" href="" title="">Подписаться</a>
+						<img src="images/banner-webinar-3.png">
+					</div>
+				</div>
+				<div class="wrapper clearfix">
+					<!--#include virtual="_socials-share.shtml"-->
+					<!--#include virtual="_socials-like.shtml"-->	
+				</div>
 			</div>
 			<div class="table COL-asym">
 
 			<div class="table-cell column-central" itemprop="mainContentOfPage">
-				<section class="about-vebinars">
-					<h3 class="color-LEARNING arrowed bordered margin-b25 ">
+				<section class="about-webinars">
+					<h3 class="color-LEARNING arrowed bordered margin-b25">
 						<a href="#" title="">
 							О Вебинарах
 						</a>
 					</h3>
-					<ul>
-						<li>
+					<div class="table COL-three">
+						<div class="table-cell">
 							<a href="">
-								<div>
-									<img src="images/vebinars-1.jpg">
-									<p>Как работает<br> система вебинаров</p>
-								</div>
+								<img src="images/webinars-1.jpg">
+								<p class="webinar-description">Как работает<br> система вебинаров</p>
 							</a>
-						</li>
-						<li>
+						</div>
+						<div class="table-cell">
 							<a href="">
-								<div>
-									<img src="images/vebinars-2.jpg">
-									<p>Регистрация в Вебексе <br>добавляет функциональности</p>
-								</div>
+								<img src="images/webinars-2.jpg">
+								<p class="webinar-description">Регистрация в Вебексе <br>добавляет функциональности</p>
 							</a>
-						</li>
-						<li>
+						</div>
+						<div class="table-cell">
 							<a href="">
-								<div>
-									<img src="images/vebinars-3.jpg">
-									<p>Организация вебинаров для <br>общин и групп</p>
-								</div>
+								<img src="images/webinars-3.jpg">
+								<p class="webinar-description">Организация вебинаров для <br>общин и групп</p>
 							</a>
-						</li>
-					</ul>
+						</div>
+					</div>
 				</section>
 				<section>
 					<h4 class="color-LEARNING arrowed bordered margin-b25 ">

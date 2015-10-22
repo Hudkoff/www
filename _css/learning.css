@@ -236,15 +236,62 @@
 	color: #676767;
 }
 /*--------------------------------------*/
-.page_learning .column-central .about-vebinars {
+.page_learning .webinars {
+	font-size: 0;
+}
+.page_learning .webinars div {
+	position: relative;
+	float: left;
+}
+.page_learning .webinars img {
+	width: 100%;
+}
+.page_learning .webinars .subscribe {
+	position: absolute;
+    top: -9px;
+    right: -5px;
+    padding: 5px;
+    background-color: #8627a7;
+    color: #fff;
+    font: bold 0.9rem 'Open Sans', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.page_learning .webinars .big {
+	float: left;
+    width: 62%;
+}
+.page_learning .webinars .middle {
+	width: 38%;
+    padding: 0 0 15px 12px;
+    box-sizing: border-box;
+}
+.page_learning .webinars .small {
+	width: 23%;
+    padding: 0 0 0 12px;
+    box-sizing: border-box;
+}
+.page_learning .column-central .about-webinars {
 	margin-bottom: 50px;
 }
-.page_learning .column-central .about-vebinars ul li {
+.page_learning .column-central .about-webinars ul li {
 	display: inline-block;
 	margin-right: 80px;
 }
-.page_learning .column-central .about-vebinars ul li:last-child {
+.page_learning .column-central .about-webinars ul li:last-child {
 	margin-right:0px;
+}
+.page_learning .column-central .about-webinars .table .table-cell img {
+	margin-bottom: 10px;
+}
+.page_learning .column-central .about-webinars .table .table-cell a {
+	text-decoration: none;
+	color: #000;
+}
+.page_learning .column-central .webinar-description {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 700;	
 }
 /*--------------------------------------*/
 .test-stats .test-stats-item {
