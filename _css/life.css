@@ -5,6 +5,7 @@
 @import "_daytopic.css";
 @import "_burial-places-search.css";
 @import "_alphabet.css";
+@import "_surnames.css";
 
 
 .page_life .tests .image-block {
@@ -128,4 +129,14 @@
 }
 .page_life .daily-surname p {
 	margin-bottom: 10px;
+}
+.alphabet-saerch h3 {
+	margin-bottom: 15px;
+}
+
+
+
+/* ----- LIFE -> NAMES ----- */
+.page_life .names-title {
+	font: bold 1.2rem 'Open Sans', sans-serif;;
 }

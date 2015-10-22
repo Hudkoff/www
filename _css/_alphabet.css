@@ -1,14 +1,11 @@
 .alphabet {
-	padding: 15px 20px;
 	text-align: center;
-	background: #f6ece2;
 }
 .alphabet ol {
 	display: inline-block;
 }
 .alphabet li {
 	display: inline-block;
-	margin-left: 2px;
 }
 .alphabet li:first-child {
 	margin: 0;

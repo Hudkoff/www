@@ -1,0 +1,24 @@
+.surnames {
+	margin-bottom: 20px;
+	font: normal 1.4rem/2.3rem 'Open Sans', sans-serif;
+	color: #0e53b2;
+}
+.surnames li {
+	display: inline-block;
+}
+.surnames li:after {
+	content: ',';
+}
+.surnames li:last-child:after {
+	content: '';
+}
+.surnames li.active a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+	pointer-events: none;
+	cursor: default;
+}
+.surnames li.active a:hover {
+	text-decoration: none;
+}
