@@ -106,7 +106,12 @@
 .page_life hr {
 	margin: 20px 0;
 }
-
+.page_life article h3 {
+	margin-bottom: 20px;
+}
+.page_life article p {
+	margin-bottom: 15px;
+}
 
 
 /* ----- LIFE -> SURNAMES ----- */
