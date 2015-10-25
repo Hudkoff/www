@@ -25,9 +25,10 @@ $(window).load(function() {
 		return newIco;
 	}
 	
+	var tmblrset;
 	if (tmblrset != true) {
 		$(".yashare-auto-init .b-share").append(createSocialNode);
-		var tmblrset == true; // для того, чтоб иконка добавилась единожды
+		tmblrset == true; // для того, чтоб иконка добавилась единожды
 	}	
 });
 </script>
