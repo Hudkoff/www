@@ -100,6 +100,12 @@ $(document).ready(function() {
 		});
 	});
 
+	$("body:not(.subscribe-with-popup)").on('click', function (e) {
+		if(!e.target.closest(".subscribe-popup")) {
+			$(".subscribe-popup").hide();
+		}
+	});
+
 	$(".subscribe-popup .icon-close").on("click", function(e){
 		e.preventDefault();
 		$(this).closest(".subscribe-popup").hide();
