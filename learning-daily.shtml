@@ -35,7 +35,9 @@
 			<h4>Ежедневная рассылка с сайта Толдот.ру — Иудаизм и евреи</h4>
 			
 			<!--#include virtual="_newsletter.shtml"-->
-			<div class="margin-b20 clearfix">
+
+			<br>
+			<div class="clearfix">
 				<!--#include virtual="_socials-like.shtml"-->
 				<!--#include virtual="_socials-share.shtml"-->
 			</div>

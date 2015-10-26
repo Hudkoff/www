@@ -27,23 +27,27 @@
         <!--#include virtual="tag-cloud/index-short-life-name.shtml"-->
 
         <div>
-            <h3 class="color-GRAY bordered margin-bottom-15">Поиск по алфавиту</h3>
+            <h3 class="color-GRAY bordered">Поиск по алфавиту</h3>
         </div>
+        <br>
         <div class="content_colored">
-            <p class="names-title margin-bottom-10">Мужские имена</p>
-            <div class="margin-bottom-15">
-                <!--#include virtual="_alphabet.shtml"-->
-            </div>
-            <p class="names-title margin-bottom-10">Женские имена</p>
-            <div class="margin-bottom">
-                <!--#include virtual="_alphabet.shtml"-->
-            </div>
+            <p class="names-title">Мужские имена</p>
+            <!--#include virtual="_alphabet.shtml"-->
+            <br>
+
+            <p class="names-title">Женские имена</p>
+            <!--#include virtual="_alphabet.shtml"-->
+            <br>
+            <br>
+
             <!--#include virtual="_names.shtml"-->
         </div>
-        <div class="clearfix margin-bottom">
+        <br>
+        <div class="clearfix">
             <!--#include virtual="_socials-share.shtml"-->
             <!--#include virtual="_socials-like.shtml"-->   
         </div>
+        <br>
         <!--#include virtual="_banner-names.shtml"-->
         <!--#include virtual="_daytopic-names.shtml"-->
 

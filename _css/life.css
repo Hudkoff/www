@@ -129,6 +129,7 @@
 
 .page_life .surname {
 	font: normal 1.4rem/2.3rem 'Noto Serif', sans-serif;
+	margin-top: 10px;
 }
 .page_life .surname h3 {
 	margin-bottom: 15px;
@@ -144,11 +145,10 @@
 
 /* ----- LIFE -> NAMES ----- */
 .page_life .names-title {
-	font: bold 1.2rem 'Open Sans', sans-serif;;
+	font: bold 1.2rem 'Open Sans', sans-serif;
+	margin-bottom: 10px;
 }
-.page_life .socials-like-block {
-	float: left;
-}
-.page_life .socials-share-block {
-	float: right;
+
+.name_meaning h3 {
+	margin-bottom: 10px;
 }

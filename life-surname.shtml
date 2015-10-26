@@ -41,10 +41,12 @@
                     <p><b>Аарон</b> был братом Моше рабейну и первым коэном (священником). Он был известен тем, что любил мир и наводил мир между людьми. Скорее всего, это сефардская фамилия.</p>
                 </section>
             </div>
-            <div class="clearfix margin-bottom-15">
+            <br>
+            <div class="clearfix">
                 <!--#include virtual="_socials-share.shtml"-->
                 <!--#include virtual="_socials-like.shtml"-->   
             </div>
+            <br>
             <!--#include virtual="_banner-names.shtml"-->
         </div>
 

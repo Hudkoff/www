@@ -49,21 +49,19 @@
 								</div>
 							</div>
 						</div>
-
-						
-
+\
 						<!--#include virtual="lessons-navigation/video-lesson.shtml"-->	
 
 						<!--#include virtual="useful-links/video-lesson.shtml"-->
 					</div>
 				</div>					
 			</div>
-
+			<br>
 			<div class="wrapper margin-bottom clearfix">
 				<!--#include virtual="_socials-share.shtml"-->
 				<!--#include virtual="_socials-like.shtml"-->	
 			</div>
-
+			<br>
 			<div class="table COL-asym">
 
 				<div class="table-cell column-central">

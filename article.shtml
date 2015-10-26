@@ -40,7 +40,6 @@
 							<a href="#" class="buttonGRAY all-cycle">Весь цикл</a>
 						</div>
 
-						<!--#include virtual="_socials-like.shtml"-->
 					</div>
 
 					<div class="table-cell authorBlock">
@@ -58,13 +57,16 @@
 							<li class="audios"><a href="">Аудиолекции и книги рава в магазине</a></li>
 						</ul>	
 
-						<!--#include virtual="_socials-share.shtml"-->
-
 					</div>
 				</div>
 			</div>
 
 			<div class="content_bordered">
+				<div class="clearfix">
+					<!--#include virtual="_socials-like.shtml"-->					
+					<!--#include virtual="_socials-share.shtml"-->
+				</div>
+				<br>
 				<!--#include virtual="articles/article.shtml"-->
 			</div>
 			<br>

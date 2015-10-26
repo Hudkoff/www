@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
 
-
 //////////////////////////////////////////////
 // lenta
 //////////////////////////////////////////////
@@ -812,4 +811,29 @@ $(function() {
 	var width = score * 100 / maxScore;
 	worm.css('width', width + '%');
 
+});
+
+
+
+//////////////////////////////////////////////
+// Иконка тамблера - т.к. ее нет в базовой поставке
+//////////////////////////////////////////////
+$(window).load(function() {
+	function createSocialNode() {
+		var newIco = document.createElement('a');
+		newIco.className = 'b-share__link';
+		newIco.setAttribute("href", "#");
+		newIco.setAttribute("title", "Тамблер");
+		var attr = 'window.open("http://tumblr.com/widgets/share/tool?canonicalUrl=' + window.location.toString() + '", "hello", "width=540,height=600");return false';
+		newIco.setAttribute("onclick", attr);
+
+		var newImg = document.createElement("span");
+		newImg.className = "b-share-icon b-share-icon_t";
+
+		newIco.appendChild(newImg);
+
+		return newIco;
+	}
+	
+	$(".yashare-auto-init .b-share").append(createSocialNode);
 });

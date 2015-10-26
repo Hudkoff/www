@@ -40,7 +40,8 @@
 						<img src="images/banner-webinar-3.png">
 					</div>
 				</div>
-				<div class="wrapper clearfix">
+				<br>
+				<div class="clearfix">
 					<!--#include virtual="_socials-share.shtml"-->
 					<!--#include virtual="_socials-like.shtml"-->	
 				</div>

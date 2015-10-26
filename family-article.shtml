@@ -45,16 +45,15 @@
 					</section>
 
 				</div>
-
-				<div class="clearfix">
-					<!--#include virtual="_socials-like.shtml"-->					
-					<!--#include virtual="_socials-share.shtml"-->
-				</div>
 				
 			</div>
 
 			<div class="content_bordered">
-
+				<div class="clearfix">
+					<!--#include virtual="_socials-like.shtml"-->					
+					<!--#include virtual="_socials-share.shtml"-->
+				</div>
+				<br>
 				<!--#include virtual="articles/article.shtml"-->
 
 			</div>

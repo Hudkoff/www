@@ -28,7 +28,7 @@
 
         <div class="table COL-two">
             <div class="table-cell">
-                <h3 class="color-LIFE bordered margin-bottom-10">Фамилия дня</h3>
+                <h3 class="color-LIFE bordered">Фамилия дня</h3>
                 <section class="surname">
                     <h3>Аарон</h3>
                     <p>Фамилия <b>Аарон</b> произошла от еврейского мужского имени <b>Аарон</b>. Аарон был братом Моше рабейну и первым коэном (священником). Он был известен тем, что любил мир и наводил мир между людьми. Скорее всего, это сефардская фамилия.</p>
@@ -36,8 +36,8 @@
                 </section>
             </div>
             <div class="table-cell">
-                <h3 class="color-LIFE bordered margin-bottom-10">Популярные фамилии</h3>
-                <section class="popular-surnames table COL-two">
+                <h3 class="color-LIFE bordered">Популярные фамилии</h3>
+                <section class="popular-surnames table COL-two" style="margin-top: 10px">
                     <div class="table-cell">
                         <ul>
                             <li><a href="#" title="">Комский</a></li>
@@ -81,9 +81,10 @@
 
         <div class="alphabet-saerch">
             <h3 class="color-GRAY bordered">Поиск по алфавиту</h3>
-            <div class="content_colored margin-bottom-15">
+            <div class="content_colored">
                 <!--#include virtual="_alphabet.shtml"-->
             </div>
+            <br>
             <!--#include virtual="_surnames.shtml"-->
             <!--#include virtual="_banner-names.shtml"-->
         </div>

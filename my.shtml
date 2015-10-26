@@ -121,7 +121,8 @@
 						<!--#include virtual="article-link/index-97.shtml"-->
 						<!--#include virtual="article-link/index-98.shtml"-->
 					</div>
-					<a class="ask-button ask margin-bottom-10" title="Спросить раввина">Спросить раввина</a><br>
+					<a class="ask-button ask" title="Спросить раввина">Спросить раввина</a>
+					<br><br>
 					<a href="#" class="more" title="">Перейти к Вопросам раввину</a>
 				</section>
 				<section class="table-cell">
@@ -136,7 +137,8 @@
 						<!--#include virtual="article-link/index-97.shtml"-->
 						<!--#include virtual="article-link/index-98.shtml"-->
 					</div>
-					<a class="ask-button family margin-bottom-10" title="Спросить семейного консультанта">Спросить семейного конcультанта</a><br>
+					<a class="ask-button family" title="Спросить семейного консультанта">Спросить семейного конcультанта</a>
+					<br><br>
 					<a href="#" class="more" title="">Перейти к Вопросам раввину</a>
 				</section>
 			</section>
