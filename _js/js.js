@@ -92,7 +92,9 @@ $(document).ready(function() {
 		$(this).on('click', function(){
 			$(this).toggleClass("true");
 			if($(this).hasClass("true")) {
-				$(this).closest('.subscribe-with-popup').find('.subscribe-popup').toggle();
+				$(this).closest('.subscribe-with-popup').find('.subscribe-popup').show();
+			} else {
+				$(this).closest('.subscribe-with-popup').find('.subscribe-popup').hide();
 			}
 			return false;
 		});
