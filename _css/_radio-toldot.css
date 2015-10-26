@@ -141,7 +141,7 @@
 }
 #trVlR {
 	position: relative;
-	top: 16px;
+	top: 6px;
 	width: 60px;
 	height: 4px;
 	display: block;
@@ -151,6 +151,8 @@
 	margin-left: 8px;
 	overflow: hidden;
 	cursor: pointer;
+	border-top: 10px solid #fff;
+	border-bottom: 10px solid #fff;
 }
 
 #trVlR .ui-slider-handle {
