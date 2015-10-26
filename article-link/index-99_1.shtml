@@ -7,9 +7,6 @@
 			<p class="answer-status">Еженедельная <br>рассылка:</p>
 			<h5>Недельная глава</h5>
 		</a>
-		<a href="#" class="buttonGRAY subscribe true">
-			<span class="null">Подписаться</span>
-			<span class="ontrue">Вы подписаны</span>
-		</a>
+		<!--#include virtual="/buttons/subscribe-with-popup.shtml?"-->
 	</div>
 </div>

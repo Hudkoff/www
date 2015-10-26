@@ -43,7 +43,7 @@
 				<div class="audio-bar clearfix">
 					<!--#include virtual="_download.shtml"-->
 					<!--#include virtual="buttons/later.shtml?"-->
-					<!--#include virtual="buttons/subscribe.shtml?"-->
+					<!--#include virtual="buttons/subscribe-with-popup.shtml?"-->
 					<a href="#" class="buttonGRAY all-cycle">Весь цикл</a>
 					<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
 				</div>

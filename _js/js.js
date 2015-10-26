@@ -92,15 +92,16 @@ $(document).ready(function() {
 		$(this).on('click', function(){
 			$(this).toggleClass("true");
 			if($(this).hasClass("true")) {
+				$('.subscribe-popup').hide();
 				$(this).closest('.subscribe-with-popup').find('.subscribe-popup').show();
 			} else {
-				$(this).closest('.subscribe-with-popup').find('.subscribe-popup').hide();
+				$('.subscribe-popup').hide();
 			}
 			return false;
 		});
 	});
 
-	$("body:not(.subscribe-with-popup)").on('click', function (e) {
+	$("body").on('click', function (e) {
 		if(!e.target.closest(".subscribe-popup")) {
 			$(".subscribe-popup").hide();
 		}

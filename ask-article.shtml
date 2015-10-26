@@ -38,7 +38,7 @@
 				</p>
 
 				<!--#include virtual="buttons/later.shtml?true"-->
-				<!--#include virtual="buttons/subscribe.shtml?"-->
+				<!--#include virtual="buttons/subscribe-with-popup.shtml?"-->
 				<br><br>
 								
 				<p>

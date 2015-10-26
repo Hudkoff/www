@@ -13,7 +13,7 @@
 			Шалом. Я знаю, что в холь-амоэд («праздничные будни» — те дни праздников Песах и Суккот, которые не имеют статуса<a href="#" title="" class="more">Читать дальше</a>
 		</p>
 		<!--#include virtual="../buttons/later.shtml?"-->
-		<!--#include virtual="../buttons/subscribe.shtml?true"-->
+		<!--#include virtual="../buttons/subscribe-with-popup.shtml?true"-->
 
 	</div>
 </div>

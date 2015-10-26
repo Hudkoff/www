@@ -17,7 +17,7 @@
 			<a href="#" class="more">Читать дальше</a>
 		</p>
 		<!--#include virtual="../buttons/later.shtml?"-->
-		<!--#include virtual="../buttons/subscribe.shtml?true"-->
+		<!--#include virtual="../buttons/subscribe-with-popup.shtml?true"-->
 
 	</div>
 </div>

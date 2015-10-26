@@ -14,7 +14,7 @@
 			</p>
 			<div class="buttons">
 				<!--#include virtual="../buttons/later.shtml?"-->
-				<!--#include virtual="../buttons/subscribe.shtml?true"-->
+				<!--#include virtual="../buttons/subscribe-with-popup.shtml?true"-->
 				<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
 			</div>
 		</div>

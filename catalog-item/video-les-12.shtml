@@ -14,7 +14,7 @@
 			</p>
 			<div class="buttons">
 				<!--#include virtual="../buttons/later.shtml?true"-->
-				<!--#include virtual="../buttons/subscribe.shtml?"-->
+				<!--#include virtual="../buttons/subscribe-with-popup.shtml?"-->
 			</div>
 		</div>
 	</div>

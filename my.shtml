@@ -91,10 +91,7 @@
 								10 апреля, <b>Рав Йеошуа Ишайя Нойвирт</b>
 							</p>
 							<div class="buttons">
-								<a href="#" class="buttonGRAY subscribe true">
-									<span class="null">Подписаться</span>
-									<span class="ontrue">Вы подписаны</span>
-								</a>
+								<!--#include virtual="/buttons/subscribe-with-popup.shtml?"-->
 								<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
 							</div>
 							<p class="description">

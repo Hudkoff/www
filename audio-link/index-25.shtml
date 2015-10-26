@@ -15,7 +15,7 @@
 			Урок рава Бенциона Зильбера в ешиве Толдот Йешурун. О подробностях исполнения заповедей Пасхального вечера <a href="#" class="more">Далее</a>
 		</p>
 		<!--#include virtual="../buttons/later.shtml?"-->
-		<!--#include virtual="../buttons/subscribe.shtml?"-->
+		<!--#include virtual="../buttons/subscribe-with-popup.shtml?"-->
 
 	</div>
 </div>

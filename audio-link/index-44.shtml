@@ -15,7 +15,7 @@
 			Обязательно ли к Песаху застилать кухонные столы фольгой, если они хорошо вымыты с моющим средством, облиты кипятком и прокашерованы утюгом? <a href="#" class="more">Читать дальше</a>
 		</p>
 		<!--#include virtual="../buttons/later.shtml?true"-->
-		<!--#include virtual="../buttons/subscribe.shtml?"-->
+		<!--#include virtual="../buttons/subscribe-with-popup.shtml?"-->
 
 	</div>
 </div>
