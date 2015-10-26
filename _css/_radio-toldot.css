@@ -136,28 +136,31 @@
 	background: url("../images/radio-controls-sprite.png") -40px 0 no-repeat;
 	cursor: pointer;
 }
-
+#trMsB {
+	display: none;
+}
 #trVlR {
 	position: relative;
 	top: 16px;
 	width: 60px;
 	height: 4px;
 	display: block;
-	background-color: #797979;
+	background-color: #c4af23;
 	float: right;
 	margin-right: 10px;
 	margin-left: 8px;
 	overflow: hidden;
+	cursor: pointer;
 }
 
 #trVlR .ui-slider-handle {
 	position: absolute;
 	left: 50%;
-	width: 60px;
+	right: 0;
+	width: auto;
 	height: 4px;
-	margin-left: -60px;
 	cursor: pointer;
-	background-color: #c4af23;
+	background-color: #797979;
 }
 #trMtB {
 	position: relative;

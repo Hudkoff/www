@@ -2,13 +2,17 @@
 	<ul>
 
 		<li id="trBody" class="current-audio controls-block clearfix">
+
+			<div id="trPlB" title="Запустить вещание"></div>
+			<div id="trStB" title="Остановить вещание"></div>
 			<div id="trVlR" title="Изменить громкость" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
 				<span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 50%;"></span>
 			</div>
 			<div id="trMtB" title="Выключить звук" class="trMtBOn"></div>
-			<div id="trPlB" title="Запустить вещание"></div>
-			<div id="trStB" title="Остановить вещание"></div>
-
+			<div id="trMsB">
+				<span id="trMsStat" title="Статус вещания"></span>
+				<span id="trMsBrd" title="Сообщение плеера"></span>
+			</div>
 		</li>
 		<li class="current-audio"><a href="#" title="">
 			<div class="audio-description">

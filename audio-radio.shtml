@@ -123,6 +123,7 @@
 	<!--#include virtual="_footer.shtml"-->
 
 	<script src="_js/js.js" type="text/javascript"></script>
+	<script type="text/javascript" src="//toldot.ru/images/js/radioPlayer.js"></script>
 
 </body>
 </html>

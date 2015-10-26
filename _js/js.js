@@ -91,9 +91,16 @@ $(document).ready(function() {
 	$("a.buttonGRAY").each(function(){
 		$(this).on('click', function(){
 			$(this).toggleClass("true");
-			$(this).closest('.subscribe-with-popup').find('.subscribe-popup').toggle();
+			if($(this).hasClass("true")) {
+				$(this).closest('.subscribe-with-popup').find('.subscribe-popup').toggle();
+			}
 			return false;
 		});
+	});
+
+	$(".subscribe-popup .icon-close").on("click", function(e){
+		e.preventDefault();
+		$(this).closest(".subscribe-popup").hide();
 	});
 
 });
