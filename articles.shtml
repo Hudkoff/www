@@ -30,9 +30,9 @@
 					</div>
 
 					<section>
-						<!--#include virtual="articles-link/index-11.shtml"-->
-						<!--#include virtual="articles-link/index-12.shtml"-->
-						<!--#include virtual="articles-link/index-13.shtml"-->
+						<!--#include virtual="articles-link/index-41.shtml"-->
+						<!--#include virtual="articles-link/index-42.shtml"-->
+						<!--#include virtual="articles-link/index-43.shtml"-->
 					</section>
 
 				</div>
@@ -72,14 +72,14 @@
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 
 				<div>
-					<!--#include virtual="articles-link/index-12.shtml"-->
-					<!--#include virtual="articles-link/index-13.shtml"-->
-					<!--#include virtual="articles-link/index-12.shtml"-->
-					<!--#include virtual="articles-link/index-13.shtml"-->
-					<!--#include virtual="articles-link/index-12.shtml"-->
-					<!--#include virtual="articles-link/index-13.shtml"-->
-					<!--#include virtual="articles-link/index-12.shtml"-->
-					<!--#include virtual="articles-link/index-13.shtml"-->
+					<!--#include virtual="articles-link/index-42.shtml"-->
+					<!--#include virtual="articles-link/index-43.shtml"-->
+					<!--#include virtual="articles-link/index-42.shtml"-->
+					<!--#include virtual="articles-link/index-43.shtml"-->
+					<!--#include virtual="articles-link/index-42.shtml"-->
+					<!--#include virtual="articles-link/index-43.shtml"-->
+					<!--#include virtual="articles-link/index-42.shtml"-->
+					<!--#include virtual="articles-link/index-43.shtml"-->
 				</div>
 		 
 				<!--#include virtual="catalog-pagination/index.shtml"--> 

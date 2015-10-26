@@ -1,0 +1,28 @@
+<span class="subscribe-with-popup">
+    <a href="#" class="buttonGRAY subscribe <!--#echo var='QUERY_STRING' -->">
+        <span class="null">Подписаться</span>
+        <span class="ontrue">Вы подписаны</span>
+    </a>
+    <div class="subscribe-popup">
+        <a title="" href="">
+            <div class="icon-close"></div>
+        </a>
+        <div class="popup-text">
+            <p>
+                Вы нажали на кнопку <b>"Подписаться"</b> - это добавило выбранный вами цикл в
+                <a href="" title="">список подписок</a> в <a href="" title="">личном кабинете</a>.
+            </p>
+            <ul>
+                <li>Чтобы посмотреть на что вы подписаны перейдите в раздел <a href="" title="">Моё</a></li>
+                <li>Чтобы отписаться нижмите копку <b>"Отписаться"</b></li>
+            </ul>
+            <p>
+                <b>Показывать это сообщение в дальнейшем?</b>
+            </p>
+            <div class="popup-buttons clearfix">
+                <a class="popup-button" href="" title="">Да</a>
+                <a class="popup-button" href="" title="">Нет</a>
+            </div>
+        </div>
+    </div>
+</span>
