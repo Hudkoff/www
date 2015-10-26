@@ -1,46 +1,50 @@
 <section class="radio-toldot">
 	<ul>
 
+		<li id="trBody" class="current-audio controls-block clearfix">
+			<div id="trVlR" title="Изменить громкость" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+				<span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 50%;"></span>
+			</div>
+			<div id="trMtB" title="Выключить звук" class="trMtBOn"></div>
+			<div id="trPlB" title="Запустить вещание"></div>
+			<div id="trStB" title="Остановить вещание"></div>
+
+		</li>
 		<li class="current-audio"><a href="#" title="">
-			<i class="audio-icon"></i>
 			<div class="audio-description">
 				<span class="label audio">В эфире:</span>
 				<div class="audio-info">
 					<span class="audio-title">Хава Куперман — Недельная </span>
-					<span class="audio-time">20:10 - 21:00</span>
 				</div>
 			</div>
 		</a></li>
 		
 		<li class="next-audio"><a href="#" title="">
-			<i class="audio-icon gray"></i>
 			<div class="audio-description">
 				<span class="label-0">Далее:</span>
 				<div class="audio-info">
 					<span class="audio-title">Неизвестные исполнители — Мелодии Мерона</span>
-					<span class="audio-time">21:00 - 22:05</span>
+					<span class="audio-time">21:00</span>
 				</div>
 			</div>
 		</a></li>
 		
 		<li class="next-audio"><a href="#" title="">
-			<i class="audio-icon gray"></i>
 			<div class="audio-description">
 				<span class="label-0">Затем:</span>
 				<div class="audio-info">
 					<span class="audio-title">Хава Куперман — Недельная глава Ки теце</span>
-					<span class="audio-time">21:00 - 22:05</span>
+					<span class="audio-time">22:05</span>
 				</div>
 			</div>
 		</a></li>
 		
 		<li class="next-audio"><a href="#" title="">
-			<i class="audio-icon gray"></i>
 			<div class="audio-description">
 				<span class="label-0">Далее:</span>
 				<div class="audio-info">
 					<span class="audio-title">Неизвестные исполнители — Мелодии Мерона</span>
-					<span class="audio-time">21:00 - 22:05</span>
+					<span class="audio-time">22:55</span>
 				</div>
 			</div>
 		</a></li>
