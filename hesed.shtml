@@ -304,7 +304,10 @@
                             <span class="sum">0</span>
                             <span class="currency">USD</span>
                         </div>
-                        <input type="submit" disabled="disabled" value="Пожертвовать"/>
+                        <span class="p_pay">
+                            <a class="submit" href="popup_pay.shtml">Пожертвовать</a>
+                            <a href="popup_pay-settings.shtml" style="display: none;">Платежные данные</a>    
+                        </span>
                         <a class="note" href="" title="">Примечание к платежу</a>
                     </div>
                 </div>

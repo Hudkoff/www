@@ -56,10 +56,10 @@
                         <a href="" title="">Карта кладбища</a>
                     </div>
                     <div class="grave-buttons">
-                        <a href="" title="">
+                        <a href="popup_funer.shtml" title="" class="p_funer">
                             <div class="button highlighted">заказать услуги по уходу за могилой</div>
                         </a>
-                        <a href="" title="">
+                        <a href="popup_error.shtml" title="" class="p_error">
                             <div class="button">сообщить об ошибке</div>
                         </a>
                         <a href="" title="">

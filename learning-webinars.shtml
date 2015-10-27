@@ -28,15 +28,15 @@
 
 				<div class="webinars clearfix">
 					<div class="big">
-						<a class="subscribe" href="" title="">Подписаться</a>
+						<a class="subscribe p_follow-webinar"href="popup_follow-webinar.shtml" title="">Подписаться</a>
 						<img src="images/banner-webinar-1.png">
 					</div>
 					<div class="middle">
-						<a class="subscribe" href="" title="">Подписаться</a>
+						<a class="subscribe p_follow-webinar" href="popup_follow-webinar.shtml" title="">Подписаться</a>
 						<img src="images/banner-webinar-2.png">
 					</div>
 					<div class="small">
-						<a class="subscribe" href="" title="">Подписаться</a>
+						<a class="subscribe p_follow-webinar" href="popup_follow-webinar.shtml" title="">Подписаться</a>
 						<img src="images/banner-webinar-3.png">
 					</div>
 				</div>

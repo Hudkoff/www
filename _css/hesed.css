@@ -232,7 +232,7 @@
 	font-size: 14px;
 	color: #6c6c6c;
 }
-.submit-block input[type="submit"] {
+.submit-block  a.submit {
 	display: inline-block;
 	height: 32px;
 	width: auto;
@@ -251,6 +251,8 @@
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+	color: #fff;
+	text-decoration: none;	
 }
 .submit-block .note {
 	text-decoration: none;

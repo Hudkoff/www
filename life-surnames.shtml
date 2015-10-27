@@ -22,7 +22,9 @@
     <div class="table-cell column-central" itemprop="mainContentOfPage">
         <!--#include virtual="breadcrumbs/life-surnames.shtml"-->
 
-        <h1 class="color-LIFE">Еврейские фамилии</h1>
+        <h1 class="color-LIFE">Еврейские фамилии
+        </h1>
+        <a href="popup_family.shtml" class="ask-button life p_ask-rav p_ask-rav" title="Что означает моя еврейская фамилия?">Что означает моя еврейская фамилия?</a>
 
         <!--#include virtual="tag-cloud/index-short-life.shtml"-->
 

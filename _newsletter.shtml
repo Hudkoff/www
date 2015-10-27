@@ -38,6 +38,6 @@
 	</div>
 	<div class="subscribe-block">
 		<h6>Хотите получать этот листок на имейл ежедневно?</h6>
-		<a href="#" class="subscribe-button">Подписаться на рассылку</a>
+		<a href="popup_follow-rss.shtml" class="subscribe-button p_follow-rss">Подписаться на рассылку</a>
 	</div>
 </div>

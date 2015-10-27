@@ -464,15 +464,16 @@ if (p_request_study.length != 0) { // если элемент есть на ст
 }
 
 // заготовка
-var p_pay = $(".p_pay");
+var p_pay = $(".p_pay a");
 if (p_pay.length != 0) { // если элемент есть на странице
 	p_pay.colorbox({
+		rel: "pay",
 		scrolling: false,
 		opacity: 0.5,
 		width: "526px",
 		onComplete: cboxPageScrollingAdjust,
 		onCleanup: cboxPageScrollingReturn,
-		className: "popup popup_pay",
+		className: "popup popup_pay-reg",
 	});
 }
 // 2-я страница p_pay-settings

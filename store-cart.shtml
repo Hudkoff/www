@@ -84,9 +84,12 @@
 								<option>BYR</option>
 							</select>
 						</div>
-						<a class="purchase-button" href="" title="">
-							Оформить заказ
-						</a>
+						<span class="p_pay">
+							<a class="purchase-button" href="popup_pay.shtml" title="">
+								Оформить заказ
+							</a>
+							<a href="popup_pay-settings.shtml" style="display: none;">Платежные данные</a>
+						</span>
 					</div>
 					<div class="sum-quantity">
 						<span class="icon-cart">

@@ -36,10 +36,10 @@
 					</div>
 
 					<div class="buttons">
-						<a class="button button-green" href="#" title="">
+						<a class="button button-green p_request-study" href="popup_request-study.shtml" title="">
 							заявка на учебу
 						</a>
-						<a class="button button-blue" href="#" title="">
+						<a class="button button-blue p_request-edu" href="popup_request-edu.shtml" title="">
 							заявка на преподавание
 						</a>
 					</div>
