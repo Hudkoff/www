@@ -4,8 +4,9 @@
 @import "_daytopic-title.css";
 @import "_daytopic-article.css";
 @import "_daytopic.css";
-@import "_intopic.css";
 @import "_lenta.css";
+
+
 @import "_burial-places-search.css";
 
 
@@ -14,13 +15,6 @@
 .page_gallery .catalog-pagination li.selected a {
     background-color: #9c5630;
 }
-
-
-
-
-
-
-
 
 /* ======== Central column ======== */
 

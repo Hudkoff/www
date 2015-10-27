@@ -1,10 +1,11 @@
 /* стили для страницы магазина */
 @import "_catalog-pagination.css";
-@import "_slider.css";
 @import "_currency-block.css";
 @import "_bank-info-block.css";
 
-/* ============================================================================== */
+@import "_slider.css";
+
+
 
 .page_store .catalog-pagination {
 	margin-top: 30px;
@@ -13,10 +14,6 @@
 .page_store .catalog-pagination li.selected a {
 	background-color: #1159a9;
 }
-
-/*.page_store .slider-box {
-	margin-top: 30px;
-}*/
 
 .page_store .shop-item {
 	float: left;

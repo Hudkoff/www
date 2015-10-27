@@ -16,4 +16,8 @@
 @import "_socials.css";
 @import "_sidemenu.css";
 
-@import "_help.css"
+@import "_help.css";
+
+@import "_intopic.css";
+
+@import "tipsy.css";
