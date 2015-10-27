@@ -765,6 +765,14 @@ label.radioWrap {
 	height: 8px;
 	background: url("../images/popup-arrow-down.png") 0 0 no-repeat;
 }
+.column-right .subscribe-popup {
+	right: 0;
+	left: inherit;
+}
+.column-right .subscribe-popup:before {
+	left: inherit;
+	right: 40px;
+}
 .subscribe-popup .icon-close {
 	display: block;
 	position: absolute;

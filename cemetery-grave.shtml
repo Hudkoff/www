@@ -13,7 +13,7 @@
 <div class="table COL-asym wrapper">
 
     <aside class="table-cell column-left">
-        <!--#include virtual="sidemenu/sidemenu-cem etery.shtml"-->
+        <!--#include virtual="sidemenu/sidemenu-cemetery.shtml"-->
         <!--#include virtual="_banner-tora.shtml"-->
         <!--#include virtual="recommendation-link/index.shtml"-->
     </aside>
