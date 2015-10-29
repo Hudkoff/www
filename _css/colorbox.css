@@ -205,3 +205,38 @@ body.cboxOn {overflow: hidden;}
  .popup_ask-rav input[type="submit"] {
 	float: right;
  }
+ .popup_error input[type="submit"] {
+	width: 203px;
+}
+.popup .details {
+	font: bold 1.2rem 'Open Sans', sans-serif;
+    color: #6c6c6c;
+} 
+.popup .margin-b10 {
+	margin-bottom: 10px;
+}
+.popup .margin-b5 {
+	margin-bottom: 5px;
+}
+.popup .description {
+	font: normal 1.4rem 'Noto Serif', serif;
+}
+.popup .bordered {
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid #e5e5e5;	
+}
+.popup .middle-text {
+	vertical-align: middle;
+}
+.popup .option input[type="checkbox"] {
+	float: left;
+}
+.popup .option .option-description {
+	color: #000;
+	margin-left: 30px;
+}
+.popup .option .in-html {
+	font: normal 1.3rem 'Noto Serif', serif;	
+	margin-left: 30px;
+	color: #000;
+}

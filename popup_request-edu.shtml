@@ -3,31 +3,48 @@
 </h3>
 
 <form>
-	<div class="table">
+	<div class="table section">
+		<p class="text">Для подачи заявки на регистрацию в программе необходимо заполнить анкету. Введенные данные будут сохранены в Вашем аккаунте и посланы на рассмотрение модератору программы. По рассмотрении заявки модератор свяжется с Вами через имейл, по телефону или через Скайп для уточнения всех необходимых деталей.</p>
+	</div>
+	<div class="table COL-three bordered section">
 		<div class="table-cell">
 			<label>Имя:</label>
-			<input type="text" class="" placeholder="Иван">
-		</div>
-		<div class="table-cell">
-			<label>Email:</label>
+			<input type="text" class="" placeholder="Имя">
+			<label>Email для связи:</label>
 			<input type="text" class="" placeholder="mail@mail.ru">
 		</div>
+		<div class="table-cell">
+			<label>Фамилия:</label>
+			<input type="text" class="" placeholder="Фамилия">
+			<label>Контактный телефон:</label>
+			<input type="text" class="" placeholder="телефон">
+		</div>
+		<div class="table-cell">
+			<label>Отчество:</label>
+			<input type="text" class="" placeholder="Иванович">
+			<label>Имя в Skype:</label>
+			<input type="text" class="" placeholder="skypeusername">
+		</div>
 	</div>
-	<div class="section">
-		<label>Вопрос:</label>
-		<input type="text" class="" placeholder="Что вас интересует?">
-		Можно ли публиковать ответ:
-		<label class="radioWrap">
-			<input type="radio" name="publ">Да
-		</label>
-		<label class="radioWrap">
-			<input type="radio" name="publ" checked="checked">Анонимно
-		</label>
-		<label class="radioWrap">
-			<input type="radio" name="publ">Нет
-		</label>
+	<div class="table COL-three bordered">
+		<div class="table-cell">
+			<label>Страна:</label>
+			<select class="custom-select">
+                <option selected>Россия</option>
+                <option>Америка</option>
+                <option>Германия</option>
+                <option>Франиция</option>
+            </select>
+		</div>
+		<div class="table-cell">
+			<label>Населенный пункт:</label>
+			<input type="text" class="" placeholder="Москва">
+		</div>
+		<div class="table-cell">
+			<label>Улица, номер дома:</label>
+			<input type="text" class="" placeholder="не обязательно">
+		</div>
 	</div>
-	<input type="submit" value="ДАЛЕЕ">
 </form>
 
 

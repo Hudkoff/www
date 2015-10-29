@@ -2,32 +2,34 @@
 	Сообщить об ошибке
 </h3>
 
-<form>
-	<div class="table">
+<form class="popup_error">
+	<div class="table COL-two">
 		<div class="table-cell">
-			<label>Имя:</label>
-			<input type="text" class="" placeholder="Иван">
+			<label>Ваше имя:</label>
+			<input type="text" class="" placeholder="Максим">
 		</div>
 		<div class="table-cell">
-			<label>Email:</label>
-			<input type="text" class="" placeholder="mail@mail.ru">
+			<label>Email для уточнений:</label>
+			<input type="text" class="" placeholder="max@mail.ru">
 		</div>
 	</div>
-	<div class="section">
-		<label>Вопрос:</label>
-		<input type="text" class="" placeholder="Что вас интересует?">
-		Можно ли публиковать ответ:
-		<label class="radioWrap">
-			<input type="radio" name="publ">Да
-		</label>
-		<label class="radioWrap">
-			<input type="radio" name="publ" checked="checked">Анонимно
-		</label>
-		<label class="radioWrap">
-			<input type="radio" name="publ">Нет
-		</label>
+	<div>
+		<label>Опишите проблему:</label>
+		<input type="text" class="" placeholder="Расскажите, что случилось">
+		<label>Введите код с картинки:</label>
 	</div>
-	<input type="submit" value="ДАЛЕЕ">
+	<div class="table COL-two section">
+		<div class="table-cell">
+			<div class="captcha">
+				<input type="text" maxlength="5" class="" placeholder="AAAAA">
+				<img class="captcha-img" src="images/captcha.png" alt="">
+				<a class="reload" href="#" title="">Заменить картинку</a>
+			</div>
+		</div>
+		<div class="table-cell">
+			<input type="submit" value="ОТПРАВИТЬ">
+		</div>
+	</div>
 </form>
 
 

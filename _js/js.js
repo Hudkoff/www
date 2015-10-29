@@ -417,7 +417,7 @@ if (p_follow_webinar.length != 0) { // если элемент есть на с�
 	p_follow_webinar.colorbox({
 		scrolling: false,
 		opacity: 0.5,
-		width: "526px",
+		width: "528px",
 		onComplete: cboxPageScrollingAdjust,
 		onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_follow-webinar",
@@ -443,7 +443,7 @@ if (p_request_edu.length != 0) { // если элемент есть на стр
 	p_request_edu.colorbox({
 		scrolling: false,
 		opacity: 0.5,
-		width: "526px",
+		width: "760px",
 		onComplete: cboxPageScrollingAdjust,
 		onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_request-edu",

@@ -1000,3 +1000,21 @@ ul.ogl ul {
 .banner-without-padding {
 	margin-left: -20px;
 }
+
+.custom-select {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    border: 2px solid #e1e1e1;
+    font-weight: bold;
+    padding: 8px 8px 7px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 14px;
+	background: #fff url('../images/icon-arrow-down-gray.png') right 10px center no-repeat;
+    border-radius: 0;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
