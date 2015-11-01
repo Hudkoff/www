@@ -8,6 +8,13 @@
 </head>
 <body class="page_family" itemscope itemtype="http://schema.org/WebPage">
 
+	<div class="popup popup_login-reg">
+		<div class="window_container">
+			<a href="#" onclick="toldot.closePopup(event); cboxPageScrollingReturn();">&times;</a>
+			<!--#include virtual="articles-link/index-31.shtml"-->		
+		</div>
+	</div>
+
 	<!--#include virtual="_header.shtml"-->
 
 	<div class="articles-main table COL-asym wrapper">
@@ -24,8 +31,9 @@
 
 				<h1 class="color-LIGHTGRAY bordered clearfix">
 					Семья
-					<a href="#" class="askLink" title="Спросить раввина">Спросить раввина</a>
+					<a href="#" class="askLink" title="Спросить раввина" onclick="toldot.showPopup(event,this,'popup popup_login-reg',false); cboxPageScrollingAdjust();">Спросить раввина</a>
 					<a href="#" class="askQuestionButton p_ask-rav" title="Спросить семейного консультанта">Спросить семейного консультанта</a>
+
 				</h1>
 
 				<div class="article-of-day">
