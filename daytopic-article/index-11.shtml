@@ -1,9 +1,7 @@
-<link href="daytopic-article/css/css.css" rel="stylesheet" type="text/css" />
-
 <section class="daytopic-article clearfix">
 	<a href="" title="">
 		<h4>Читайте также тему:</h4>		
-		<div class="img description" style="background-image: url('daytopic-article/images/img-03.jpg')">
+		<div class="img description" style="background-image: url('images/img-03.jpg')">
 			<b>Гематрия и нумерология</b>
 		</div>
 	</a>

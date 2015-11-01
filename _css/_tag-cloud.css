@@ -1,0 +1,135 @@
+.tag-cloud {
+	text-align: center;
+	padding: 0 8px;
+}
+.tag-cloud:first-child {
+	padding-top: 30px;
+}
+.tag-cloud a {
+	padding: 0 8px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: #717171;
+	line-height: 34px;
+}
+.tag-cloud a:hover {
+	text-decoration: underline;
+}
+.tag-cloud .weight1 {
+	font-size: 12px;
+}
+.tag-cloud .weight2 {
+	font-size: 14px;
+}
+.tag-cloud .weight3 {
+	font-size: 20px;
+}
+.tag-cloud .weight4 {
+	font-size: 22px;
+}
+.tag-cloud .weight5 {
+	font-size: 24px;
+}
+.tag-cloud .weight6 {
+	font-size: 28px;
+}
+.tag-cloud .weight7 {
+	font-size: 32px;
+}
+.tag-cloud .weight8 {
+	font-size: 33px;
+}
+
+/*.tags-hidden,*/
+.tags-hidden .tag-cloud_additional,
+.tags-hidden .tag-cloud_aside_full {
+	display: none;
+}
+
+
+.show-all-tags-button {
+	display: block;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #0e53b2;
+	margin: 0 auto;
+	padding: 10px 0;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.dotted {
+	border-bottom: 1px dotted #000;
+}
+
+
+
+
+.tag-search {
+    position: relative;
+    float: none;
+    width: 100%;
+    margin: 10px auto 40px;
+}
+
+
+.tag-search .tags-button {
+    position: absolute;
+    right: 0;
+    background-color: #ebebeb;
+    color: #676767;
+    padding: 3px 10px;
+    border: 1px solid #d4d4d4;
+    border-top: 0;
+    cursor: pointer;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+	font-size: 13px;
+
+
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+
+.page_cycles .tag-cloud a:hover {
+    color: #b20e89;
+}
+.page_articles .tag-cloud a:hover {
+    color: #545454;
+}
+.page_ask .tag-cloud a:hover {
+	color: #b38d39;
+}
+.audio-catalog .tag-cloud a:hover {
+	color: #c4af23;
+}
+.page_family .tag-cloud a:hover {
+    color: #545454;
+}
+.page_gallery .tag-cloud a:hover {
+    color: #9c5630;
+}
+.tag-cloud.tag-cloud_aside_short,
+.tag-cloud.tag-cloud_aside_full{
+	padding-top: 20px;
+}
+.asideTagsExpanded {
+	margin-top: -20px;
+	position: absolute;
+	left: 0;
+	width: 900px;
+	padding: 20px;
+	background: #fff;
+	z-index: 10;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+.tags-placeholder {
+	display: block;
+	width: 100%;
+	height: 0px;
+}

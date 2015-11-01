@@ -1,0 +1,19 @@
+<section class="sidemenu">
+    <ul class="first-level-nav">
+        <li>
+            <h4><a href="#" title="Муж и жена">Муж и жена</a></h4>
+        </li>
+        <li>
+            <h4><a href="#" title="Воспитание детей">Воспитание детей</a></h4>
+        </li>
+        <li>
+            <h4><a href="#" title="Наши родители">Наши родители</a></h4>
+        </li>
+        <li>
+            <h4><a href="#" title="Женщина">Женщина</a></h4>
+        </li>
+        <li>
+            <h4><a href="#" title="Знакомства">Знакомства</a></h4>
+        </li>
+    </ul>
+</section>

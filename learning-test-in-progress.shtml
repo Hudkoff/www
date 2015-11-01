@@ -1,0 +1,207 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/learning.css" rel="stylesheet" type="text/css">
+
+	<script src="_js/jquery.jcarousellite.min.js"></script>
+</head>
+<body class="page_learning" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="articles-main table COL-asym wrapper">
+
+	<aside class="table-cell column-left">
+		<!--#include virtual="sidemenu/sidemenu-tests.shtml"-->
+		<!--#include virtual="_banner-tora.shtml"-->
+
+	</aside>
+
+	<div class="table-cell column-central" itemprop="mainContentOfPage">
+		<div class="tests-main-block test-active content_bordered color-LEARNING clearfix ">
+
+			<div class="content_colored">
+
+				<!--#include virtual="breadcrumbs/learning-test.shtml"-->
+
+				<h1 class="">Готовы ли вы к Шавуоту</h1>
+
+				<p class="main-description">
+					Этот тест прошли 234 раза <br/>
+					Проверьте свои знания по разделам традиции и законов, связанным с праздником Шавуот
+				</p>
+			</div>
+
+			<div class="test-wrapper">
+				<!--#include virtual="tests/index-22.shtml"-->
+			</div>
+
+			<div class="content_colored test-question-block">
+				Перекупщик взял товар у продавца, чтобы отвезти его на ярмарку и там продать. После продажи он вернет
+				деньги продавцу. Является ли он должником (шоэль)
+				по дороге туда (куда он везет товар) и обратно (если товар продать не удалось)?
+			</div>
+
+			<div class="test-answers-block">
+				<form>
+					<div class="test-answer-item">
+						<input name="test-answer-group" type="radio" id="radio01"/>
+						<label for="radio01">
+							Да
+						</label>
+					</div>
+					<div class="test-answer-item">
+						<input name="test-answer-group" type="radio" id="radio02"/>
+						<label for="radio02">
+							По дороге туда — да, по дороге обратно — нет.
+						</label>
+					</div>
+				</form>
+			</div>
+
+			<div class="content_colored test-navigation-block">
+				<p>На вопросы можно отвечать в любом порядке:</p>
+				<ul class="clearfix">
+					<li><a href="" title="">1</a></li>
+					<li><a href="" title="">2</a></li>
+					<li class="active"><a href="" title="">3</a></li>
+					<li><a href="" title="">4</a></li>
+					<li><a href="" title="">5</a></li>
+					<li><a href="" title="">6</a></li>
+					<li><a href="" title="">7</a></li>
+					<li><a href="" title="">8</a></li>
+					<li><a href="" title="">9</a></li>
+					<li><a href="" title="">10</a></li>
+					<li><a href="" title="">11</a></li>
+					<li><a href="" title="">12</a></li>
+					<li><a href="" title="">13</a></li>
+					<li><a href="" title="">14</a></li>
+					<li><a href="" title="">15</a></li>
+					<li><a href="" title="">16</a></li>
+					<li><a href="" title="">17</a></li>
+					<li><a href="" title="">18</a></li>
+					<li><a href="" title="">19</a></li>
+					<li><a href="" title="">20</a></li>
+					<li><a href="" title="">21</a></li>
+					<li><a href="" title="">22</a></li>
+					<li><a href="" title="">23</a></li>
+					<li><a href="" title="">24</a></li>
+					<li><a href="" title="">25</a></li>
+				</ul>
+				<div class="buttons">
+					<a class="buttonGRAY question-prev">←  Предыдущий вопрос</a>
+					<a class="buttonGRAY test-finish">Закончить тест</a>
+					<a class="buttonGRAY question-next">Следующий вопрос →</a>
+				</div>
+				<div class="test-stats">
+					<div class="test-stats-item">
+						прохождения
+						<b>0 / 125</b>
+					</div>
+					<div class="test-stats-item">
+						оценка
+						<b>0 / 138</b>
+					</div>
+					<div class="test-stats-item">
+						ваше место
+						<b>0 / 100</b>
+					</div>
+				</div>
+			</div>
+
+			<div class="content_colored users-info-block">
+				<div class="heading">
+					<b>Лучшие в этом тесте:</b>
+				</div>
+				<div class="users-info-item"><b>По баллу</b> - Avigar</div>
+				<div class="users-info-item"><b>По скорости</b> - boss555</div>
+				<div class="users-info-item"><b>По колtичеству</b> - Sara89</div>
+			</div>
+
+		</div>
+
+		<div class="socials-block clearfix">
+			<!--#include virtual="_socials-like.shtml"-->
+			<!--#include virtual="_socials-share.shtml"-->
+		</div>
+
+	</div>
+
+
+	<aside class="table-cell column-right">
+
+		<!--#include virtual="_tests-right-block.shtml"-->
+
+	</aside>
+
+
+</div>
+
+<div class="table COL-sym wrapper">
+	<aside class="table-cell column-left">
+
+		<!--#include virtual="recommendation-link/index.shtml"-->
+
+	</aside>
+
+	<div class="table-cell column-central">
+
+		<section>
+			<!--#include virtual="tabs/tests.shtml"-->
+		</section>
+
+	</div>
+</div>
+
+<div class="table COL-sym wrapper">
+	<aside class="table-cell column-left">
+		&nbsp;
+	</aside>
+
+	<div class="table-cell column-central">
+
+		<section>
+			<h3 class="color-GRAY arrowed bordered">
+				<a href="#" title="">
+					Материалы по теме
+					<b>&#9670;</b>
+				</a>
+			</h3>
+
+			<div class="table COL-three wrapper">
+				<div class="table-cell">
+					<!--#include virtual="daytopic-article/index-01.shtml"-->
+					<!--#include virtual="daytopic-article/index-02.shtml"-->
+					<!--#include virtual="daytopic-article/index-03.shtml"-->
+					<!--#include virtual="daytopic-article/index-04.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="daytopic-article/index-05.shtml"-->
+					<!--#include virtual="daytopic-article/index-06.shtml"-->
+					<!--#include virtual="daytopic-article/index-07.shtml"-->
+					<!--#include virtual="daytopic-article/index-08.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="daytopic-article/index-09.shtml"-->
+					<!--#include virtual="daytopic-article/index-10.shtml"-->
+					<!--#include virtual="daytopic-article/index-11.shtml"-->
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<aside class="table-cell column-right">
+		&nbsp;
+	</aside>
+</div>
+
+
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

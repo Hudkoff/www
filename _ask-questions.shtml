@@ -1,0 +1,14 @@
+<section>
+	<h4 class="color-ASK arrowed bordered">
+		<a href="#" title="">
+			Вопросы раввину
+			<b>◆</b>
+		</a>
+	</h4>
+	<div>
+		<a class="family-article-link" href="#" title="">Можно ли делать временные татуировки?</a>
+		<a class="family-article-link" href="#" title="">Наша вера основана на свидетельстве шестисот тысяч человек? Или на доверии лично Моше?</a>
+		<a class="family-article-link" href="#" title="">Как объяснить парикмахеру, как надо стричь, не сбривая пейсы?</a>
+	</div>
+	<a href="#" class="ask-button ask" title="Спросить семейного консультанта">Спросить раввина</a>
+</section>

@@ -1,0 +1,171 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/topic.css" rel="stylesheet" type="text/css">
+
+	<script src="_js/jquery.jcarousellite.min.js"></script>
+</head>
+<body class="page_topic" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="articles-main table COL-sym wrapper">
+
+	<aside class="table-cell column-left">
+		<!--#include virtual="_banner-tora.shtml"-->
+		<!--#include virtual="recommendation-link/index.shtml"-->
+		<!--#include virtual="shop-item/index.shtml"-->
+	</aside>
+
+	<div class="table-cell column-central" itemprop="mainContentOfPage">
+		<!--#include virtual="breadcrumbs/topic-wiki.shtml"-->
+
+		<h1 class="color-WIKI bordered">Еврейская энциклопедия</h1>
+
+		<!--#include virtual="_daytopic-title-wiki.shtml"-->
+		<div class="content_transparent main_content">
+			Песах 2016: праздник Песах начинается с заходом солнца 22 апреля. Квасное запрещено есть с четвертого
+			солнечного часа 22 апреля. В этом году, чтобы было разрешено готовить в Седьмой день Песаха на следующий за
+			ним Шаббат, необходимо сделать до праздника эрув тавшилин.
+			<a href="#" class="more">Далее</a>
+		</div>
+
+		<div class="themes-block">
+			<div class="themes-header clearfix">
+				<a class="top-left" href="#" title="">
+					<span class="title">Авторы</span>
+					<span class="count">89</span>
+				</a>
+				<a class="top-right" href="#" title="">
+					<span class="title">Еврейские темы</span>
+					<span class="count">48</span>
+				</a>
+
+				<div class="middle-container">
+					<a class="middle" href="#" title="">
+						<span class="title">Все темы облаком</span>
+						<span class="count">1784</span>
+					</a>
+				</div>
+
+				<a class="bottom-left" href="#" title="">
+					<span class="title">Общечеловеческие темы</span>
+					<span class="count">134</span>
+				</a>
+				<a class="bottom-right" href="#" title="">
+					<span class="title">Недельные главы</span>
+					<span class="count">52</span>
+				</a>
+			</div>
+
+			<div class="themes-cloud">
+				<!--#include virtual="tag-cloud/themes-cloud.shtml"-->
+			</div>
+		</div>
+
+		<div class="author-materials">
+			<h2 class="color-WIKI">Материалы по автору: Рав Ашер Кушнир</h2>
+
+			<div class="content_colored clearfix">
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+				<div class="materials-list">
+
+					<div class="material-link clearfix">
+						<img src="images/avatar-12.jpg" alt=""/>
+						<div class="description">
+							<a href="" title="">21 мая. Вебинар только для женщин: рав Ашер Кушнира: Как не повторять ошибок наших
+								родителей?</a>
+						</div>
+					</div>
+
+					<div class="material-link clearfix">
+						<img src="images/icon-radio-noava.png" alt=""/>
+						<div class="description">
+							<a href="" title="">21 мая. Вебинар только для женщин</a>
+						</div>
+					</div>
+
+					<div class="material-link clearfix">
+						<img src="images/avatar-12.jpg" alt=""/>
+						<div class="description">
+							<a href="" title="">21 мая. Вебинар только для женщин: рав Ашер Кушнира: Как не повторять ошибок наших
+								родителей?</a>
+						</div>
+					</div>
+
+					<div class="material-link clearfix">
+						<img src="images/avatar-12.jpg" alt=""/>
+						<div class="description">
+							<a href="" title="">21 мая. Вебинар только для женщин: рав Ашер Кушнира: Как не повторять ошибок наших
+								родителей?</a>
+						</div>
+					</div>
+
+					<div class="material-link clearfix">
+						<img src="images/icon-radio-noava.png" alt=""/>
+						<div class="description">
+							<a href="" title="">21 мая. Вебинар только для женщин</a>
+						</div>
+					</div>
+
+					<div class="material-link clearfix">
+						<img src="images/avatar-12.jpg" alt=""/>
+						<div class="description">
+							<a href="" title="">21 мая. Вебинар только для женщин: рав Ашер Кушнира: Как не повторять ошибок наших
+								родителей?</a>
+						</div>
+					</div>
+
+					<div class="material-link clearfix">
+						<img src="images/icon-radio-noava.png" alt=""/>
+						<div class="description">
+							<a href="" title="">21 мая. Вебинар только для женщин</a>
+						</div>
+					</div>
+
+					<div class="material-link clearfix">
+						<img src="images/icon-radio-noava.png" alt=""/>
+						<div class="description">
+							<a href="" title="">21 мая. Вебинар только для женщин</a>
+						</div>
+					</div>
+				</div>
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+			</div>
+		</div>
+
+
+	</div>
+
+	<div class="column-right table-cell">
+		<section>
+			<a class="banner" href="#" title="">
+				<img src="images/banner-04.jpg" style="width: 100%" alt=""/>
+			</a>
+		</section>
+
+		<section>
+			<h3 class="color-CYCLES arrowed bordered">
+				<a href="#" title="">
+					В Толдоте
+					<b>&#9670;</b>
+				</a>
+			</h3>
+			<div>
+				<!--#include virtual="intoldot/index-01.shtml"-->
+				<!--#include virtual="intoldot/index-02.shtml"-->
+				<!--#include virtual="intoldot/index-03.shtml"-->
+			</div>
+		</section>
+	</div>
+
+</div>
+
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

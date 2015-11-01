@@ -1,0 +1,31 @@
+@import "_block-seo.css";
+@import "_daytopic-title.css";
+@import "_daytopic-title-wiki.css";
+@import "_daytopic-article.css";
+@import "_video-link.css";
+@import "_tests.css";
+@import "_audio-link.css";
+@import "_themes-cloud.css";
+@import "_catalog-pagination.css";
+@import "_author-materials.css";
+@import "_intoldot.css";
+@import "_catalog-item.css";
+
+.page_topic .main_content {
+	font-family: 'Noto Serif', serif;
+	font-size: 16px;
+	padding: 20px;
+	line-height: 1.4;
+	margin-bottom: 20px;
+} 
+.page_topic .main_content p {
+	padding-bottom: 15px;
+}
+
+.page_topic .catalog-pagination {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.page_topic .catalog-pagination .selected a {
+	background-color: #0e53b2;
+}

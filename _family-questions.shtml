@@ -1,0 +1,16 @@
+<section>
+	<h4 class="color-FAMILY arrowed bordered">
+		<a href="#" title="">
+			Семья
+			<b>◆</b>
+		</a>
+	</h4>
+	<div>
+		<a class="family-article-link" href="#" title="">Муж очень привязан к своей маме. К счастью, она живет в другой стране. Недавно она...</a>
+		<a class="family-article-link" href="#" title="">Супруга очень ленится...</a>
+		<a class="family-article-link" href="#" title="">Что делать, если у нас с мужем разные мнения практически по всем вопросам?</a>
+		<a class="family-article-link" href="#" title="">Между мужем и женой не должно быть никаких тайн?</a>
+		<a class="family-article-link" href="#" title="">Мы уже в браке несколько лет, но муж продолжает встречаться с...</a>
+	</div>
+	<a href="#" class="ask-button family" title="Спросить семейного консультанта">Спросить консультанта</a>
+</section>

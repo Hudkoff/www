@@ -1,0 +1,130 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/library.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_library" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="table COL-sym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-book.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+
+			<div class="content_colored">
+
+				<!--#include virtual="breadcrumbs/book.shtml"-->
+				<h1 class="color-LIGHTGRAY bordered">
+					Книга Берешит
+				</h1>
+
+				<div class="table COL-asym">
+					<div class="table-cell column-central">
+						<div class="book-name bordered color-LIGHTGRAY clearfix">
+							<div class="author-photo" style="background-image: url('images/book-1.jpg')"></div>
+							<div class="book-info-container">
+								<h4>Ам Исраэль хай — история евреев современной эпохи</h4>
+								<p class="details">
+									31.10.2014, <b>Публикация продолжается</b>
+								</p>
+								<p class="description">
+									Цикл глав из одноименной книги рава Берла Вайна
+									рекомендаций. Святая книга «Томер Двора» известна как «лестница, стоящая на земле, а верх ее достигает неба» («Берешит», 28:12), и все кто ищет Творца, исполняют с ее помощью написанное в «Песни песней»: «Прильнула к нему и не отпускала» (3:4). Моше Шапиро Иудаизма
+								</p>
+								<a href="#" class="buttonGRAY download">Скачать</a>
+								<a href="#" class="buttonGRAY all-cycle">Цикл</a>
+							</div>
+						</div>
+						<!--#include virtual="contents/index.shtml"-->
+					</div>
+
+					<div class="table-cell column-right">
+
+						<div class="author">
+							<img src="images/avatar-40.jpg" alt=""/>
+
+							<div class="heading clearfix">
+								Автор <span>Рав Ашер Кушнир</span>
+							</div>
+
+							<ul class="item-list">
+								<li><a href="#">О раве</a></li>
+								<li><a href="#">Все циклы уроков рава</a></li>
+								<li><a href="#">Ответы в разделе «Вопросы раввину»</a></li>
+								<li><a href="#">Kниги рава в магазине</a></li>
+							</ul>
+
+							<h6>Аудиоуроки автора</h6>	
+
+							<ul class="item-list">
+								<li><a href="#">Гроздья винограда</a></li>
+								<li><a href="#">Поток</a></li>
+								<li><a href="#">Когда Израиль из Египта выходил...</a></li>
+								<li><a href="#">Алейну</a></li>
+								<li><a href="#">Благословите Творца!</a></li>
+								<li><a href="#">Марш баалей тшува</a></li>
+								<li><a href="#">Ангел</a></li>
+								<li><a href="#">Колыбельная</a></li>
+								<li><a href="#">Творящему песнь</a></li>
+								<li><a href="#">Баллада о семейном счастье</a></li>
+							</ul>
+							
+							<h6>Товары в магазине</h6>
+
+							<ul class="item-list">
+								<li><a href="#">Марш баалей тшува</a></li>
+								<li><a href="#">Ангел</a></li>
+								<li><a href="#">Колыбельная</a></li>
+							</ul>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!--#include virtual="foreword/foreword-book.shtml"-->
+			<!--#include virtual="catalog-pagination/index.shtml"-->
+
+		</div>
+
+		<aside class="table-cell column-right">
+			<section>
+				<h4 class="color-LIGHTGRAY bordered">Ежедневная учеба</h4>
+				<div>
+					<!--#include virtual="learn-item/index-01.shtml"-->
+					<!--#include virtual="learn-item/index-02.shtml"-->
+					<!--#include virtual="learn-item/index-03.shtml"-->
+					<!--#include virtual="learn-item/index-01.shtml"-->
+					<!--#include virtual="learn-item/index-02.shtml"-->
+				</div>
+			</section>
+			<section>
+				<h4 class="color-ASK bordered">Вопрос дня</h4>
+				<div>
+					<!--#include virtual="article-link/book-consult-11.shtml"-->
+				</div>
+			</section>
+		<!--#include virtual="_family-questions.shtml"-->
+
+		</aside>
+
+	</div>
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

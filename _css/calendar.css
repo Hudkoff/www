@@ -1,0 +1,109 @@
+@import "_calendar.css";
+@import "_lenta.css";
+@import "_tests.css";
+@import "_tag-cloud.css";
+
+@import "_daytopic.css";
+@import "_daytopic-article.css";
+@import "_daytopic-title.css";
+
+
+/* ============================================================================== */
+
+.page_calendar h1 {
+	border-color: #e5e5e5;
+}
+
+.page_calendar .tests .image-block {
+	width: 155px;
+	float: left;
+	margin-right: 15px;
+}
+.page_calendar .tests .description {
+	margin-top: 15px;
+	max-width: none;
+	height: initial;
+}
+
+.holidays-announce {
+	margin: 15px 0;
+	font-family: 'Noto Serif', serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+}
+.holidays-announce ul {
+	list-style: disc inside;
+}
+.holidays-announce ul li {
+	line-height: 24px;
+}
+
+.holidays-annual {
+	padding-top: 25px;
+	padding-bottom: 10px;
+
+}
+.holidays-annual .holiday-item{
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 25px;
+}
+.holidays-annual .holiday-item a{
+	margin-top: 7px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	display: block;
+	text-decoration: none;
+}
+
+.calendar-right-block .tag-search {
+	margin-bottom: 15px;
+}
+.calendar-right-block .tag-search input[type="text"] {
+	padding: 12px;
+	padding-left: 40px;
+}
+.calendar-right-block .tag-search .icon-search {
+	top: 0;
+}
+.calendar-right-block ul {
+	padding: 0 15px;
+	list-style: disc inside;
+	color: #2f63b7;
+}
+.calendar-right-block ul li {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 24px;
+}
+.calendar-right-block ul li .time-stamp{
+	float: right;
+	line-height: 24px;
+	color: #828282;
+}
+.calendar-right-block ul li a{
+	text-decoration: none;
+}
+
+.shabbat-block {
+	margin: 10px 0 20px;
+	padding: 15px;
+	border: 2px dotted #b69140;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.shabbat-block .heading {
+	margin-bottom: 10px;
+}
+.shabbat-block ul {
+	padding: 0;
+}
+.shabbat-block ul li {
+	color: #000;
+	font-weight: bold;
+}
+

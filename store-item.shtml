@@ -1,0 +1,174 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/store.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_store" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="table COL-sym top-block wrapper clearfix">
+
+	<div class="table-cell column-left">
+		<!--#include virtual="sidemenu/sidemenu-shop-item.shtml"-->
+	</div>
+
+	<div class="table-cell column-central">
+		<!--#include virtual="breadcrumbs/store-item.shtml"-->
+		<h1 class="color-MONEY">Книги</h1>
+
+		<div class="shop-item-block">
+			<div class="image-container">
+				<img src="images/shop-item.jpg" alt=""/>
+			</div>
+			<div class="heading">
+				<h2>Тора и Гафтарот. Подарочное издание (натуральная кожа)</h2>
+
+				<div class="info"><b>Издательство:</b> FREE, <b>Перевод:</b> Давид Сафронов</div>
+				<div class="price-block">
+					<div class="price">₪<b>20.00</b> / $5.08</div>
+					<div class="discount">
+						новинка!
+					</div>
+				</div>
+				<div class="add-to-cart">
+					<a href="" title="">
+						В корзину
+						<span class="icon-cart-white"></span>
+					</a>
+				</div>
+			</div>
+			<div class="info">
+				<b>Год издания:</b> 2011,
+				<b>Cтраниц:</b> 1294,
+				<b>Язык:</b> русский, иврит,
+				<b>Обложка:</b> твердая,
+				<b>Формат:</b> 17x6x25
+			</div>
+			<div class="description">
+				<p>Подарочное издание в обложке из НАТУРАЛЬНОЙ КОЖИ Настоящее издание включает как новый перевод
+					Пятикнижия Моисеева, так и Ѓафтарот — фрагменты из книг Пророков, завершающие чтение недельного
+					раздела Торы в синагоге и тематически связанные с этим разделом. Цель нового перевода – предложить
+					читателю литературный русский текст
+
+					Подарочное издание в обложке из НАТУРАЛЬНОЙ КОЖИ Настоящее издание включает как новый перевод
+					Пятикнижия Моисеева, так и Ѓафтарот — фрагменты из книг Пророков, завершающие чтение недельного
+					раздела Торы в синагоге и тематически связанные с этим разделом. Цель нового перевода – предложить
+					читателю литературный русский текст Библии, в смысловом отношении максимально приближенный к
+					древнееврейскому оригиналу.</p>
+
+				<p>Перевод находится в русле иудейской традиции, ориентируясь не на библеистику и гебраистику, а на
+					еврейскую экзегезу, прежде всего — на классический средневековый комментарий Раши. Предлагаемый
+					вашему вниманию новый перевод Торы на русский язык уникален. Бережно сохраняя текст оригинала и его
+					понимание еврейской традицией, переводчики, тем не менее, отказались от неоправданного использования
+					архаизмов, от буквалистской передачи ивритских идиом и чуждых современному русскому языку
+					грамматических конструкций. Впервые русскоязычному читателю дана возможность прочесть текст
+					Пятикнижия на современном литературном русском языке.</p>
+			</div>
+
+		</div>
+
+
+		<h3 class="color-GRAY bordered">
+			<a href="" title="">Рекомендуем также</a>
+		</h3>
+
+		<div class="clearfix">
+			<!--#include virtual="shop-item/index-01.shtml"-->
+			<!--#include virtual="shop-item/index-02.shtml"-->
+			<!--#include virtual="shop-item/index-03.shtml"-->
+			<!--#include virtual="shop-item/index-04.shtml"-->
+			<!--#include virtual="shop-item/index-03.shtml"-->
+			<!--#include virtual="shop-item/index-04.shtml"-->
+			<!--#include virtual="shop-item/index-01.shtml"-->
+			<!--#include virtual="shop-item/index-02.shtml"-->
+			<!--#include virtual="shop-item/index-04.shtml"-->
+			<!--#include virtual="shop-item/index-01.shtml"-->
+			<!--#include virtual="shop-item/index-02.shtml"-->
+			<!--#include virtual="shop-item/index-03.shtml"-->
+		</div>
+
+	</div>
+
+	<div class="table-cell column-right">
+
+		<!--#include virtual="shopping-cart/cart-logged-in.shtml"-->
+
+		<section class="sale-block">
+			<!--#include virtual="shop-item/index-11.shtml"-->
+			<!--#include virtual="shop-item/index-12.shtml"-->
+			<!--#include virtual="shop-item/index-13.shtml"-->
+		</section>
+
+		<section class="bank-info-block">
+			<h3 class="color-GRAY bordered">
+				<a href="" title="">Принимаем</a>
+			</h3>
+
+			<div class="visas clearfix">
+				<img src="images/icon-visa.png" alt=""/>
+				<img src="images/icon-visa-1.png" alt=""/>
+				<img src="images/icon-visa-2.png" alt=""/>
+				<img src="images/icon-visa-3.png" alt=""/>
+				<img src="images/icon-visa-4.png" alt=""/>
+				<img src="images/icon-visa-5.png" alt=""/>
+				<img src="images/icon-visa-6.png" alt=""/>
+				<img src="images/icon-visa-7.png" alt=""/>
+			</div>
+
+			<a class="bank-link" href="" title="">Номера наших банковских счетов</a>
+
+			<div class="webmoney-links">
+				<a href="" title="">Наш аттестат WebMoney</a>
+				<a href="" title="">Мы в каталоге WebMoney</a>
+				<a href="" title="">Уведомление WebMoney</a>
+			</div>
+
+		</section>
+
+		<section>
+			<h3 class="color-GRAY bordered">
+				<a href="" title="">Валюты</a>
+			</h3>
+
+			<ul class="currency-block">
+				<li>
+					<b>NIS</b> — Израильский шекель
+				</li>
+				<li>
+					<b>USD</b> — Американский доллар
+				</li>
+				<li>
+					<b>RUR</b> — Российский рубль
+				</li>
+				<li>
+					<b>EUR</b> — Евро
+				</li>
+				<li>
+					<b>GBP</b> — Фунт стерлингов
+				</li>
+				<li>
+					<b>JPY</b> — Японская йена
+				</li>
+				<li>
+					<b>AUD</b> — Австралийский доллар
+				</li>
+				<li>
+					<b>CAD</b> — Канадский доллар
+				</li>
+			</ul>
+		</section>
+
+	</div>
+
+</div>
+
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

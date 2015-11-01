@@ -1,0 +1,27 @@
+/* стили для страницы циклов */
+@import "_tests.css";
+@import "_catalog-pagination.css";
+@import "_daytopic-title.css";
+@import "_daytopic-article.css";
+@import "_daytopic.css";
+
+@import "_catalog-item.css";
+@import "_catalog-filters.css";
+@import "_authors-list.css";
+
+
+/* ============================================================================== */
+
+.page_cycles .catalog-pagination li.selected a {
+    background-color: #b20e89;
+}
+
+.block-title {
+	padding: 0 0 10px 0;
+	margin-bottom: 10px;
+  	border-bottom: 1px solid #e5e5e5;
+  	font-family: 'Noto Serif', serif;
+  	font-size: 20px;
+  	font-weight: bold;
+  	color: #b38d39;
+}

@@ -1,0 +1,19 @@
+<div class="contact-item">
+	<div class="photo" style="background-image: url('images/avatar-41.jpg')">
+		<a href="#"></a>
+	</div>
+	<div class="info-container clearfix">
+		<p class="contact-city">Модиин Илит</p>
+		<h4>Зоара Лея (Елена) Бялик</h4>
+		<p class="contacts">
+			<a class="tel" href="tel:02-582-77-30">02-582-77-30</a>, 
+			<a class="tel" href="tel:02-582-77-30">052-768-14-88</a>, 
+			<a href="mailto:zvikaplan@gmail.com">zvikaplan@gmail.com</a>
+		</p>
+		<div class="description">
+			<p>Индивидуальная и семейная психотерапия, группы для родителей: проблемы отношений и воспитания детей в семье.</p>
+			<p>С 2000г по настоящее время работаю психотерапевтом в Interborough Developmental and Consultation Center.</p>
+			<p>В 1993—2000гг работала школьным психологом в Киеве.</p>
+		</div>
+	</div>
+</div>

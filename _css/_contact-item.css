@@ -1,0 +1,45 @@
+.contact-item {
+	padding: 20px 0;
+	border-top: 1px solid #e5e5e5;
+}
+.contact-item:first-child {
+	border-top: none;
+}
+.contact-item .photo {
+	position: relative;
+	float: left;
+	width: 64px;
+	height: 64px;
+	margin-right: 20px;
+	border-radius: 4px;
+	background-size: cover;
+}
+.contact-item .info-container {
+	margin: 0 0 0 84px;
+}
+.contact-item h4 {
+	margin-bottom: 3px;
+}
+.contact-item .contact-city {
+	float: right;
+	font: 700 12px 'Open Sans', sans-serif;
+	color: #6c6c6c;
+}
+.contact-item .contacts {
+	font: normal 12px 'Open Sans', sans-serif;
+	color: #6c6c6c;
+	margin-bottom: 10px;
+}
+.contact-item .contacts .tel {
+	color: #6c6c6c;
+	text-decoration: none;
+}
+.contact-item .contacts .tel:hover {
+	text-decoration: underline;
+}
+.contact-item .description {
+	font: normal 14px/19px 'Noto Serif', sans-serif;
+}
+.contact-item .description p {
+	margin-bottom: 5px;
+}

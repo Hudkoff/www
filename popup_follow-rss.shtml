@@ -1,0 +1,37 @@
+<h3 class="color-TOLDOT bordered">
+	Подписаться на рассылку
+</h3>
+
+<form>
+	<div class="table">
+		<p class="text section">Галочками в списке отмечены рассылки, на которые вы уже подписаны. Чтобы отменить подписку, снимите соответствующую галочку, а чтобы подписаться — поставьте. Затем нажмите кнопку «сохранить». Для подписки будет использован адрес, введенный при регистрации: max@gmail.ru</p>
+		<label class="checkboxWrap option bordered section">
+			<input type="checkbox">
+			<div class="option-description">
+				<h5 class="margin-b10">Недельная глава</h5>
+				<p class="description">Еженедельно по средам. Статья рава Бенциона Зильбера по недельной главе, ссылки на избранные материалы сайта за неделю.</p>
+			</div>
+		</label>
+		<label class="checkboxWrap option bordered section">
+			<input type="checkbox">
+			<div class="option-description">
+				<h5 class="margin-b10">«Ни дня без Торы» ежедневная</h5>
+				<p class="description">Ежедневно. Тематическая алаха, дневная алаха, этот день в еврейской истории, центральный материал, зависящий от темы дня.</p>
+			</div>
+		</label>
+		<label class="checkboxWrap option section">
+			<input type="checkbox">
+			<p class="in-html">получать рассылки в текстовом виде (без HTML)</p>
+		</label>
+	</div>
+	<div class="table COL-two">
+		<div class="table-cell middle-text">
+			<a href="#" title="">Сообщить об ошибке</a>	
+		</div>
+		<div class="table-cell">
+			<input type="submit" value="СОХРАНИТЬ">	
+		</div>
+	</div>
+</form>
+
+

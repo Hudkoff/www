@@ -1,0 +1,43 @@
+<div class="newsletter">
+	<div class="newsletter-description newsletter-section">
+		<div class="calendar-block">
+			<div class="prev"></div>
+			<div class="next"></div>
+			<div class="news-calendar">
+				<h3>22 ияра 5775</h3>
+
+				<div class="date">11 мая 2015</div>
+				<div class="week-day">понедельник</div>
+			</div>
+			<h6>Сегодняшний номер</h6>
+		</div>
+		<div class="content">
+			<h2>Ни дня без Торы</h2>
+			<h6>Сегодняшний номер</h6>
+
+			<p>В 1944 году нацисты начали депортировать венгерских евреев в концлагеря. Это должно было стать финальной трагедией Холокоста — 400 000 венгерских евреев были доставлены в газовые камеры в течение нескольких недель. Кроме того, десятки тысяч погибли на «маршах смерти» из Будапешта в Австрию, расстреляны и брошены в реку Дунай. В это время Рауль Валленберг, шведский дипломат, находившийся в Будапеште, тысячами выдавал шведские удостоверения личности, чтобы защитить евреев от депортации;
+				<a href="" title="" class="more">Далее</a>
+			</p>
+			<!--#include virtual="buttons/later.shtml"-->
+			<!--#include virtual="buttons/subscribe-with-popup.shtml?"-->
+		</div>
+	</div>
+	<div class="table COL-three newsletter-section">
+		<div class="table-cell">
+			<!--#include virtual="article-link/newsletter-11.shtml"-->
+		</div>
+		<div class="table-cell double">
+			<!--#include virtual="article-link/newsletter-12.shtml"-->
+		</div>
+	</div>
+	<div class="newsletter-section">
+		<!--#include virtual="article-link/newsletter-13.shtml"-->
+	</div>
+	<div>
+		<!--#include virtual="article-link/newsletter-13.shtml"-->
+	</div>
+	<div class="subscribe-block">
+		<h6>Хотите получать этот листок на имейл ежедневно?</h6>
+		<a href="popup_follow-rss.shtml" class="subscribe-button p_follow-rss">Подписаться на рассылку</a>
+	</div>
+</div>

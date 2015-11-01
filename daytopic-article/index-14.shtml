@@ -1,0 +1,14 @@
+<section class="daytopic-article clearfix">
+	<a href="" title="">
+		<div class="shop" style="background-image: url('images/shop-01.jpg')">
+			<div class="price">₪<b>90.00</b> / $22.94</div>
+		</div>
+		<h4>Учим иврит</h4>		
+	</a>
+	<p class="details">
+		<b>Рав Носон Шерман</b>
+	</p>
+	<p class="description">
+		<span class="label" style="background: #1159a9">Магазин</span>
+	</p>
+</section>

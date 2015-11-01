@@ -1,0 +1,13 @@
+<div class="library-item">
+	<a href="#" class="library-item-link" title="">
+		<div class="image">
+			<img src="images/library-01.jpg" alt=""/>
+		</div>
+		<h4 class="title">Тора (Пятикнижие, Хумаш)</h4>
+	</a>
+	<div class="buttons">
+		<a href="#" class="buttonGRAY download">Скачать</a>
+		<a href="#" class="buttonGRAY buy">Купить</a>
+	</div>
+	<a href="#" class="more">Далее</a>
+</div>

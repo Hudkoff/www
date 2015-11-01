@@ -1,0 +1,8 @@
+.currency-block {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	margin-top: 10px;
+}
+.currency-block li {
+	line-height: 20px;
+}

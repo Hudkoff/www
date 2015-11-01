@@ -1,0 +1,5 @@
+<section class="webinar">
+	<h4 class="color-LEARNING">Вебинар</h4>
+	<a class="subscribe p_follow-webinar" href="popup_follow-webinar.shtml" title="">Подписаться</a>
+	<img src="images/banner-06.jpg" alt=""/>
+</section>

@@ -1,0 +1,12 @@
+<a href="#" class="tests all-bordered" title="">
+	<div style="background-image: url('images/test-02.jpg')">
+		<span>
+			30
+			<b>мин</b>
+		</span> 
+	</div>
+	<h6 class="description indent">Вавилонский <br>Талмуд. Трактат <br>Брахот</h6>
+	<p class="details">прохождения <b>41 / 100</b></p>
+	<p class="details">оценка <b>41 / 100</b></p>
+	<p class="details">ваше место <b>115 / 139</b></p>
+</a>

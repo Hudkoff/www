@@ -1,0 +1,35 @@
+<h3 class="color-TOLDOT bordered">
+	Сообщить об ошибке
+</h3>
+
+<form class="popup_error">
+	<div class="table COL-two">
+		<div class="table-cell">
+			<label>Ваше имя:</label>
+			<input type="text" class="" placeholder="Максим">
+		</div>
+		<div class="table-cell">
+			<label>Email для уточнений:</label>
+			<input type="text" class="" placeholder="max@mail.ru">
+		</div>
+	</div>
+	<div>
+		<label>Опишите проблему:</label>
+		<input type="text" class="" placeholder="Расскажите, что случилось">
+		<label>Введите код с картинки:</label>
+	</div>
+	<div class="table COL-two section">
+		<div class="table-cell">
+			<div class="captcha">
+				<input type="text" maxlength="5" class="" placeholder="AAAAA">
+				<img class="captcha-img" src="images/captcha.png" alt="">
+				<a class="reload" href="#" title="">Заменить картинку</a>
+			</div>
+		</div>
+		<div class="table-cell">
+			<input type="submit" value="ОТПРАВИТЬ">
+		</div>
+	</div>
+</form>
+
+

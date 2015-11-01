@@ -1,0 +1,32 @@
+<section class="alphabet">
+	<ol>
+		<li class="active"><a href="#" title="char">A</a></li>
+		<li><a href="#" title="char">Б</a></li>
+		<li><a href="#" title="char">В</a></li>
+		<li><a href="#" title="char">Г</a></li>
+		<li><a href="#" title="char">Д</a></li>
+		<li><a href="#" title="char">Е</a></li>
+		<li><a href="#" title="char">Ж</a></li>
+		<li><a href="#" title="char">З</a></li>
+		<li><a href="#" title="char">И</a></li>
+		<li><a href="#" title="char">К</a></li>
+		<li><a href="#" title="char">Л</a></li>
+		<li><a href="#" title="char">М</a></li>
+		<li><a href="#" title="char">Н</a></li>
+		<li><a href="#" title="char">О</a></li>
+		<li><a href="#" title="char">П</a></li>
+		<li><a href="#" title="char">Р</a></li>
+		<li><a href="#" title="char">С</a></li>
+		<li><a href="#" title="char">Т</a></li>
+		<li><a href="#" title="char">У</a></li>
+		<li><a href="#" title="char">Ф</a></li>
+		<li><a href="#" title="char">Х</a></li>
+		<li><a href="#" title="char">Ц</a></li>
+		<li><a href="#" title="char">Ч</a></li>
+		<li><a href="#" title="char">Ш</a></li>
+		<li><a href="#" title="char">Щ</a></li>
+		<li><a href="#" title="char">Э</a></li>
+		<li><a href="#" title="char">Ю</a></li>
+		<li><a href="#" title="char">Я</a></li>
+	</ol>
+</section>

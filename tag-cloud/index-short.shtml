@@ -1,0 +1,12 @@
+<section class="tag-search">
+
+	<form>
+		<input type="text" placeholder="Поиск по тегам">
+		<input type="submit" class="icon-search" value="&nbsp;">
+	</form>
+
+	<div>
+		<!--#include virtual="main.shtml"--> 
+	</div>
+
+</section>

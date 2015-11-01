@@ -1,0 +1,12 @@
+<div class="article-link all-bordered clearfix">
+	<div class="icon" style="display:none;">
+		<img src="images/avatar-31.jpg" alt="" />
+	</div>
+	<div class="">
+		<a href="" title="">
+			<p class="answer-status">Еженедельная <br>рассылка:</p>
+			<h5>Недельная глава</h5>
+		</a>
+		<!--#include virtual="/buttons/subscribe-with-popup.shtml?"-->
+	</div>
+</div>

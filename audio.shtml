@@ -1,37 +1,136 @@
 <!doctype html>
-<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<html itemscope itemtype="http://schema.org/WebSite" prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
 <head>
 
 	<!--#include virtual="_head.shtml"-->
-
-	<title>Иудаизм и евреи — Judaism and Jews</title>
-	<meta property="og:title" content="Иудаизм и евреи — Judaism and Jews" /><!-- Название страницы -->
-	<meta property="og:url" content="http://toldot.ru/" /><!-- Канонический путь к странице -->
-	<meta property="og:image" content="logo/images/og-logo.png" /><!-- Картинка для отображения -->
-	<meta property="og:type" content="website" /><!-- Тип контента -->
-	<meta property="og:description" content="Толдот Йешурун - иудаизм и евреи. Уроки иудаизма во многих городах Израиля, программа Талмуд по интернету, библиотека еврейских книг, статей, аудио и видеоуроков по иудаизму. Помощь построения семьи - программа еврейских знакомств, шидухим. Ежедневные онлайн видеоуроки по иудаизму" /><!-- Описание страницы -->
-
-	<meta name="keywords" content="евреи еврейские праздники знакомства культура философия образование книги иудаизм история библия танах тора талмуд аудио видео уроки мистика заповеди мицвот рав зильбер израиль иерусалим иудей раввин рав Зильбер толдот йешурун Toldot Yeshurun Toldos каббала недельная глава синагога ешива йешива колель иерусалим уроки торы суббота йом кипур рош а-шана суккот шавуот песах ханука пурим" />
-	<meta name="description" content="Толдот Йешурун - иудаизм и евреи. Уроки иудаизма во многих городах Израиля, программа Талмуд по интернету, библиотека еврейских книг, статей, аудио и видеоуроков по иудаизму. Помощь построения семьи - программа еврейских знакомств, шидухим. Ежедневные онлайн видеоуроки по иудаизму" />	
+	<link href="_css/audio.css" rel="stylesheet" type="text/css">
 
 </head>
-<body>
+<body class="page_audio" itemscope itemtype="http://schema.org/WebPage">
 
-		<!--#include virtual="header/index.shtml"-->
+	<!--#include virtual="_header.shtml"-->
 
-		<!--#include virtual="audio-main/index.shtml"-->
-
-		<!--#include virtual="banner-wide-toldot/index.shtml"-->
-
-		<!--#include virtual="daytopic-title/index.shtml"-->
-
-		<!--#include virtual="daytopic/index-audio.shtml"-->
-
-		<!--#include virtual="block-seo/index.shtml"-->			
+	<div class="audio-main table COL-asym wrapper">
 	
-		<!--#include virtual="footer/index.shtml"-->
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-audio.shtml"-->
+		</aside>
 
-		<!--[if lt IE 9]><script src="_js/html5shiv.js" type="text/javascript"></script><![endif]-->
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<div class="content_colored">
+				<!--#include virtual="breadcrumbs/audio.shtml"-->
+				<div class="table">
+					<div class="table-cell column-left">
+						<h1 class="color-LIGHTGRAY bordered">Аудиоуроки</h1>
+						<div class="topPageInfo">
+							<b>20 567</b> вопросов, <b>358</b> консультантов отвечают
+						</div>
+						<div class="audiolessons-list">
+							<!--#include virtual="audio-link/index-11.shtml"-->
+							<!--#include virtual="audio-link/index-12.shtml"-->
+						</div>
+					</div>
+					<div class="table-cell column-right clearfix">
+						<h3 class="color-LIGHTGRAY bordered">Циклы</h3>
+						<div>
+							<!--#include virtual="article-link/index-51.shtml"-->
+							<!--#include virtual="article-link/index-52.shtml"-->
+							<!--#include virtual="article-link/index-51.shtml"-->
+							<!--#include virtual="article-link/index-52.shtml"-->
+							<!--#include virtual="article-link/index-51.shtml"-->
+							<!--#include virtual="article-link/index-52.shtml"-->
+						</div>
+						<a href="#" class="more" title="">Далее</a>
+					</div>
+				</div>
+
+				<a href="" title="" style="display:block;" itemscope itemtype="http://schema.org/WPAdBlock">
+					<img src="images/banner_01.jpg" style="width:100%" alt="">
+				</a>
+			</div>
+			
+		</div>
+
+		<aside class="table-cell column-right">
+			<!--#include virtual="radio-toldot/index.shtml"-->
+			
+			<div class="lenta-box">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</div>
+
+		</aside>
+
+	</div>
+
+	<div class="table COL-sym audio-catalog wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+			<!--#include virtual="tag-cloud/index-short.shtml"-->
+
+			<div class="audio-list-wrapper">
+				<!--#include virtual="catalog-filters/audio.shtml"-->
+
+				<div class="audio-list">
+					<!--#include virtual="audio-link/index-21.shtml"-->
+					<!--#include virtual="audio-link/index-22.shtml"-->
+					<!--#include virtual="audio-link/index-23.shtml"-->
+					<!--#include virtual="audio-link/index-24.shtml"-->
+					<!--#include virtual="audio-link/index-25.shtml"-->
+					<!--#include virtual="audio-link/index-24.shtml"-->
+					<!--#include virtual="audio-link/index-25.shtml"-->
+					<!--#include virtual="audio-link/index-26.shtml"-->
+					<!--#include virtual="audio-link/index-25.shtml"-->
+					<!--#include virtual="audio-link/index-26.shtml"-->
+					<!--#include virtual="audio-link/index-25.shtml"-->
+				</div>
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+			</div>
+
+		</div>
+
+		<aside class="table-cell column-right">
+
+			<section>
+				<h4 class="color-AUDIO arrowed bordered">
+					<a href="#" title="">
+						Авторы
+						<b>&#9670;</b>
+					</a>
+				</h4>
+				<!--#include virtual="_authors-list.shtml"-->
+			</section>
+
+		</aside>
+
+	</div>
+
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+	<!--#include virtual="_daytopic-title.shtml"-->
+
+	<!--#include virtual="_daytopic-audio.shtml"-->
+
+	<!--#include virtual="_block-seo.shtml"-->			
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+	<script type="text/javascript" src="//toldot.ru/images/js/radioPlayer.js"></script>
 
 </body>
 </html>

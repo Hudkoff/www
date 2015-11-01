@@ -1,0 +1,64 @@
+@import "_talmud-top-block.css";
+@import "_map.css";
+@import "_daytopic.css";
+@import "_daytopic-title.css";
+@import "_daytopic-article.css";
+@import "_talmud-students.css";
+@import "_talmud-teachers.css";
+@import "_talmud-lessons.css";
+@import "_catalog-item.css";
+@import "_tabs.css";
+@import "_webinar.css";
+@import "_tests.css";
+@import "_intoldot.css";
+@import "_library-item.css";
+@import "_intopic.css";
+
+/* ============================================================================== */
+
+.page_talmud .sidemenu h4 {
+	color: #7247ba;
+}
+
+.page_talmud .content_colored {
+	background-color: rgba(233,233,233,0.85);
+}
+
+.page_talmud .daytopic-title-simple {
+	background-image: url('/images/header-bg-4.jpg') ;
+}
+
+.page_talmud .tabs {
+	margin: 20px 0;
+}
+.page_talmud .daily-learning-block h4 {
+	margin: 10px 0 5px;
+}
+
+.page_talmud .tabs-list {
+	border-bottom: 2px solid #7247ba;
+
+}
+
+.page_talmud .tabs-list .ui-state-active {
+	background-color: #7247ba;
+	border-radius: 2px;
+}
+.page_talmud .tabs-list .ui-state-active a {
+	color: #0a3674;
+}
+
+.page_talmud .tabs-list .ui-state-active a span{
+	color: #fff;
+}
+
+.page_talmud .tab-panel {
+	padding: 30px 15px 15px;
+}
+
+.page_talmud .map-bottom-block > div {
+
+}
+
+
+

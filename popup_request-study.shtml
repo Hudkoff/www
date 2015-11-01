@@ -1,0 +1,245 @@
+<h3 class="color-TOLDOT bordered">
+	Заявка на обучение
+</h3>
+
+<form>
+	<div class="table section">
+		<p class="text">Для подачи заявки на регистрацию в программе необходимо заполнить анкету. Введенные данные будут сохранены в Вашем аккаунте и посланы на рассмотрение модератору программы. По рассмотрении заявки модератор свяжется с Вами через имейл, по телефону или через Скайп для уточнения всех необходимых деталей.</p>
+	</div>
+	<div class="table COL-three bordered section">
+		<div class="table-cell">
+			<label>Имя:</label>
+			<input type="text" class="" placeholder="Имя">
+			<label>Email для связи:</label>
+			<input type="text" class="" placeholder="mail@mail.ru">
+		</div>
+		<div class="table-cell">
+			<label>Фамилия:</label>
+			<input type="text" class="" placeholder="Фамилия">
+			<label>Контактный телефон:</label>
+			<input type="text" class="" placeholder="телефон">
+		</div>
+		<div class="table-cell">
+			<label>Отчество:</label>
+			<input type="text" class="" placeholder="Иванович">
+			<label>Имя в Skype:</label>
+			<input type="text" class="" placeholder="skypeusername">
+		</div>
+	</div>
+	<div class="table COL-three bordered section">
+		<div class="table-cell">
+			<label>Страна:</label>
+			<select class="custom-select">
+                <option selected>Россия</option>
+                <option>Америка</option>
+                <option>Германия</option>
+                <option>Франиция</option>
+            </select>
+		</div>
+		<div class="table-cell">
+			<label>Населенный пункт:</label>
+			<input type="text" class="" placeholder="Москва">
+		</div>
+		<div class="table-cell">
+			<label>Улица, номер дома:</label>
+			<input type="text" class="" placeholder="не обязательно">
+		</div>
+	</div>
+	<div class="table COL-three bordered section">
+		<div class="table-cell">
+			<label>Пол:</label>
+			<select class="custom-select">
+                <option selected>Россия</option>
+                <option>Америка</option>
+                <option>Германия</option>
+                <option>Франиция</option>
+            </select>
+		</div>
+		<div class="table-cell">
+			<label>Дата рождения:</label>
+			<div class="birthday">
+				<select class="day-birthday custom-select">
+	                <option selected>10</option>
+	                <option>11</option>
+	                <option>12</option>
+	                <option>13</option>
+	                <option>14</option>
+	            </select>
+	            <select class="month-birthday custom-select">
+	                <option selected>Январь</option>
+	                <option>Февраль</option>
+	                <option>Март</option>
+	                <option>Апрель</option>
+	                <option>Май</option>
+	            </select>
+	            <select class="year-birthday custom-select">
+	                <option selected>1979</option>
+	                <option>1980</option>
+	                <option>1981</option>
+	                <option>1982</option>
+	                <option>1983</option>
+	            </select>
+            </div>
+		</div>
+		<div class="table-cell">
+			<label>Семейное положение:</label>
+			<select class="custom-select">
+                <option selected>В браке</option>
+                <option>Холост</option>
+            </select>
+		</div>
+	</div>
+	<div class="table section">
+		<h5>Ваше отношение к еврейству и исполнению</h5>
+	</div>
+	<div class="table COL-four">
+		<div class="table-cell">
+			<label>Вы еврей?</label>
+			<select class="custom-select">
+                <option selected>Да</option>
+                <option>Нет</option>
+            </select>
+		</div>
+		<div class="table-cell">
+			<label>Ваш отец еврей?</label>
+			<select class="custom-select">
+                <option selected>Не знаю</option>
+                <option>Да</option>
+                <option>Нет</option>
+            </select>
+		</div>
+		<div class="table-cell">
+			<label>Ваша мать еврейка?</label>
+			<select class="custom-select">
+                <option selected>Да</option>
+                <option>Нет</option>
+                <option>Не знаю</option>
+            </select>
+		</div>
+		<div class="table-cell">
+			<label>Ваш супруг еврей?</label>
+			<select class="custom-select">
+                <option selected>Да</option>
+                <option>Нет</option>
+            </select>
+		</div>
+	</div>
+	<div class="table COL-four bordered section">
+		<div class="table-cell">
+            <label>Вы молитесь?</label>
+			<select class="custom-select">
+                <option selected>Да</option>
+                <option>Нет</option>
+            </select>
+		</div>
+		<div class="table-cell">
+            <label>Ваш соблюдаете Шаббат?</label>
+			<select class="custom-select">
+                <option selected>Не знаю</option>
+                <option>Да</option>
+                <option>Нет</option>
+            </select>
+		</div>
+		<div class="table-cell">
+            <label>Ваша соблюдаете Кашрут?</label>
+			<select class="custom-select">
+                <option selected>Да</option>
+                <option>Нет</option>
+                <option>Не знаю</option>
+            </select>
+		</div>
+		<div class="table-cell">
+            <label>Ваш соблюдаете чистоту семейной жизни?</label>
+			<select class="custom-select">
+                <option selected>Да</option>
+                <option>Нет</option>
+            </select>
+		</div>
+	</div>
+	<div class="table section">
+		<h5>Участие в программе «Талмуд онлайн»</h5>
+	</div>
+	<p class="question margin-b15">Интересующие вас темы:</p>
+	<div class="table COL-four section">
+		<div class="table-cell">
+			<label class="checkboxWrap type">
+				<input type="checkbox" class="margin-r10">Пятикнижие
+			</label>
+			<label class="checkboxWrap type">
+				<input type="checkbox" class="margin-r10">Пророки
+			</label>
+			<label class="checkboxWrap type">
+				<input type="checkbox" class="margin-r10">Писания
+			</label>
+		</div>
+		<div class="table-cell">
+			<label class="checkboxWrap type">
+				<input type="checkbox" class="margin-r10">Мишна
+			</label>
+			<label class="checkboxWrap type">
+				<input type="checkbox" class="margin-r10">Талмуд
+			</label>
+			<label class="checkboxWrap type">
+				<input type="checkbox" class="margin-r10">Законы
+			</label>
+		</div>
+		<div class="table-cell">
+			<label class="checkboxWrap type">
+				<input type="checkbox" class="margin-r10">Этика
+			</label>
+			<label class="checkboxWrap type">
+				<input type="checkbox" class="margin-r10">Филасофия
+			</label>
+		</div>
+		<div class="table-cell">
+			<label class="checkboxWrap type">
+				<input type="checkbox" class="margin-r10">Гиюр
+			</label>
+			<label class="checkboxWrap type">
+				<input type="checkbox" class="margin-r10">Каббала
+			</label>
+		</div>
+	</div>
+	<div class="table section">
+		<p class="question margin-b5">Удобное время учебы:</p>
+		<label>Вводите время по Иерусалимскому времени. Посмотреть, сколько <br>сейчас времени в Иерусалиме, можно <a href="#">здесь</a></label>
+	</div>
+	<div class="table COL-four section bordered">
+		<div class="table-cell">
+			<label>Понедельник:</label>
+			<input type="text" class="" placeholder="Укажите часы">
+			<label>Пятница:</label>
+			<input type="text" class="" placeholder="Укажите часы">
+		</div>	
+		<div class="table-cell">
+			<label>Вторник:</label>
+			<input type="text" class="" placeholder="Укажите часы">
+			<label>Суббота:</label>
+			<input type="text" class="" placeholder="Укажите часы">
+		</div>	
+		<div class="table-cell">
+			<label>Среда:</label>
+			<input type="text" class="" placeholder="Укажите часы">
+			<label>Воскресенье:</label>
+			<input type="text" class="" placeholder="Укажите часы">
+		</div>
+		<div class="table-cell">
+			<label>Четверг:</label>
+			<input type="text" class="" placeholder="Укажите часы">
+		</div>
+	</div>
+	<div class="table COL-two section">
+		<div class="table-cell">
+			<div class="captcha">
+				<input type="text" maxlength="5" class="" placeholder="AAAAA">
+				<img class="captcha-img" src="images/captcha.png" alt="">
+				<a class="reload" href="#" title="">Заменить картинку</a>
+			</div>
+		</div>
+		<div class="table-cell">
+			<input type="submit" value="ОТПРАВИТЬ">	
+		</div>
+	</div>
+</form>
+
+

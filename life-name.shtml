@@ -1,0 +1,97 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+    <!--#include virtual="_head.shtml"-->
+    <link href="_css/life.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_life" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="table COL-asym wrapper">
+
+    <aside class="table-cell column-left">
+        <!--#include virtual="sidemenu/sidemenu-life.shtml"-->
+        <!--#include virtual="_banner-tora.shtml"-->
+        <!--#include virtual="shop-item/index.shtml"-->
+        <!--#include virtual="recommendation-link/index.shtml"-->
+    </aside>
+
+    <div class="table-cell column-central" itemprop="mainContentOfPage">
+        <!--#include virtual="breadcrumbs/life-name.shtml"-->
+
+        <h1 class="color-LIFE">Еврейские имена</h1>
+
+        <!--#include virtual="tag-cloud/index-short-life-name.shtml"-->
+
+        <div>
+            <h3 class="color-GRAY bordered">Поиск по алфавиту</h3>
+        </div>
+        <br>
+        <div class="content_colored">
+            <p class="names-title">Мужские имена</p>
+            <!--#include virtual="_alphabet.shtml"-->
+            <br>
+
+            <p class="names-title">Женские имена</p>
+            <!--#include virtual="_alphabet.shtml"-->
+            <br>
+            <br>
+
+            <!--#include virtual="_names.shtml"-->
+        </div>
+        <br>
+        <div class="clearfix">
+            <!--#include virtual="_socials-share.shtml"-->
+            <!--#include virtual="_socials-like.shtml"-->   
+        </div>
+        <br>
+        <!--#include virtual="_banner-names.shtml"-->
+        <!--#include virtual="_daytopic-names.shtml"-->
+
+    </div>
+
+    <div class="column-right table-cell lenta-column">
+
+        <section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+            <!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+            <!--#include virtual="lenta/index-02.shtml?ededed"-->
+            <!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+            <!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+            <!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+            <!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+            <!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+            <!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+            <!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+        </section>
+
+        <!--#include virtual="_ask-questions.shtml"-->
+
+        <!--#include virtual="_family-questions.shtml"-->
+
+        <section>
+            <h3 class="color-LEARNING arrowed bordered">
+                <a href="#" title="">
+                    Тесты
+                    <b>&#9670;</b>
+                </a>
+            </h3>
+
+            <div>
+                <!--#include virtual="tests/index-31.shtml"-->
+            </div>
+        </section>
+
+    </div>
+
+</div>
+
+<br>
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

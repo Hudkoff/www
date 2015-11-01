@@ -1,0 +1,62 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/cycles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_cycles" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="table COL-sym top-block wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-cycles.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
+		
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+			<!--#include virtual="breadcrumbs/cycles.shtml"-->
+
+			<h1>Циклы</h1>
+			<!--#include virtual="tag-cloud/index-all-01.shtml"-->
+			
+			<!--#include virtual="catalog-filters/cycles.shtml"-->
+			<div class="catalog-items-list">
+				<!--#include virtual="catalog-item/cycles-11.shtml"-->
+				<!--#include virtual="catalog-item/cycles-12.shtml"-->
+				<!--#include virtual="catalog-item/cycles-13.shtml"-->
+				<!--#include virtual="catalog-item/cycles-14.shtml"-->
+				<!--#include virtual="catalog-item/cycles-15.shtml"-->
+
+				<!--#include virtual="catalog-item/cycles-11.shtml"-->
+				<!--#include virtual="catalog-item/cycles-12.shtml"-->
+				<!--#include virtual="catalog-item/cycles-13.shtml"-->
+				<!--#include virtual="catalog-item/cycles-14.shtml"-->
+				<!--#include virtual="catalog-item/cycles-15.shtml"-->
+			</div>
+			<!--#include virtual="catalog-pagination/index.shtml"-->
+		</div>
+		
+		<aside class="table-cell column-right">
+			<!--#include virtual="_authors-list.shtml"-->
+		</aside>
+			
+	</div>
+
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+	<!--#include virtual="_daytopic-title.shtml"-->
+
+	<!--#include virtual="_daytopic-cycles.shtml"-->
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

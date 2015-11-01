@@ -1,0 +1,36 @@
+<h3 class="color-TOLDOT bordered">
+	Уход за захоронением
+</h3>
+
+<form>
+	<div class="table">
+		<p class="text">Здесь вы можете заказать услуги по уходу за этой могилой. Обратная связь с вами будет осуществлена посредством адреса электронной почты, введенного вами при регистрации</p>
+	</div>
+	<div class="table">
+		<div class="table-cell">
+			<label>Имя:</label>
+			<input type="text" class="" placeholder="Иван">
+		</div>
+		<div class="table-cell">
+			<label>Email:</label>
+			<input type="text" class="" placeholder="mail@mail.ru">
+		</div>
+	</div>
+	<div class="section">
+		<label>Вопрос:</label>
+		<input type="text" class="" placeholder="Что вас интересует?">
+		Можно ли публиковать ответ:
+		<label class="radioWrap">
+			<input type="radio" name="publ">Да
+		</label>
+		<label class="radioWrap">
+			<input type="radio" name="publ" checked="checked">Анонимно
+		</label>
+		<label class="radioWrap">
+			<input type="radio" name="publ">Нет
+		</label>
+	</div>
+	<input type="submit" value="ДАЛЕЕ">
+</form>
+
+

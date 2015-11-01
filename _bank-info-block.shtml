@@ -1,0 +1,23 @@
+<section class="bank-info-block">
+	<h3 class="color-LIGHTGRAY bordered">
+		Принимаем
+	</h3>
+
+	<div class="visas clearfix">
+		<img src="images/icon-visa.png" alt=""/>
+		<img src="images/icon-visa-1.png" alt=""/>
+		<img src="images/icon-visa-2.png" alt=""/>
+		<img src="images/icon-visa-3.png" alt=""/>
+		<img src="images/icon-visa-4.png" alt=""/>
+		<img src="images/icon-visa-5.png" alt=""/>
+		<img src="images/icon-visa-6.png" alt=""/>
+		<img src="images/icon-visa-7.png" alt=""/>
+	</div>
+
+	<a class="bank-link" href="" title="">Номера наших банковских счетов</a>
+
+	<a href="" title="">Наш аттестат WebMoney</a>
+	<a href="" title="">Мы в каталоге WebMoney</a>
+	<a href="" title="">Уведомление WebMoney</a>
+
+</section>

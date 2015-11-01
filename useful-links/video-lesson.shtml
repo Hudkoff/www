@@ -1,0 +1,12 @@
+<div class="useful-links">
+	<div class="table">
+		<div class="table-cell left">
+			<p>Книги по теме <a href="#">можно купить</a> в <a href="#">Магазине</a></p>
+			<p><a href="#">Пройдите тест</a> по этой теме в разделе <a href="#">Еврейские тесты!</a></p>
+		</div>			
+		<div class="table-cell right">
+			<p>Вы можете скачать аудиоролик даной видеозаписи</p> 
+			<a href="#" class="video"><span>Слушать и скачать аудио</span></a>
+		</div>
+	</div>			
+</div>

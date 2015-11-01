@@ -1,0 +1,4 @@
+<a href="#" class="buttonGRAY subscribe <!--#echo var='QUERY_STRING' -->">
+	<span class="null">Подписаться</span>
+	<span class="ontrue">Вы подписаны</span>		
+</a>

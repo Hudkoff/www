@@ -1,0 +1,22 @@
+<section class="shopping-cart">
+	<div class="heading">
+		Корзина
+	</div>
+	<div class="shopping-cart-content">
+		<div class="user-info">
+			Добро пожаловать, <a href="" title="">paprik</a>
+		</div>
+		<div class="shopping-cart-not-empty">
+			<span class="icon-cart">
+				<div class="quantity">1</div>
+			</span>
+
+			<div class="in-your-cart">В вашей корзине:</div>
+			товар на сумму <b>$5.08</b>
+		</div>
+		<a class="checkout">
+			Оформить заказ
+		</a>
+
+	</div>
+</section>

@@ -1,0 +1,22 @@
+.webinar {
+	position: relative;
+}
+.webinar h4{
+	margin-bottom: 10px;
+}
+.webinar .subscribe {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	padding: 8px 15px;
+	background-color: #7247ba;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.webinar img {
+	width: 100%;
+}

@@ -1,5 +1,3 @@
-<link href="intopic/css/css.css" rel="stylesheet" type="text/css" />
-
 <nav class="intopic" itemscope itemtype="http://schema.org/WPSideBar">
 	<h3>В Тему</h3>
 	<ul itemprop="text">

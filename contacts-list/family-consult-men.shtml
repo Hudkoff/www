@@ -1,0 +1,11 @@
+<div class="contacts-list">
+	<h3>Консультации по семейным отношениям</h3>
+	<div class="content_colored">
+		<h3 class="color-FAMILY bordered clearfix">Мужчины</h3>
+		<ul>
+			<!--#include virtual="../contact-item/index-01.shtml"-->
+			<!--#include virtual="../contact-item/index-02.shtml"-->
+			<!--#include virtual="../contact-item/index-03.shtml"-->
+		</ul>
+	</div>	
+</div>

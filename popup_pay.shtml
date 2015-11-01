@@ -1,0 +1,52 @@
+<h3 class="color-TOLDOT bordered">
+	Способ оплаты
+	<a class="tablink" href="#" onclick="$.colorbox.next(); return false">Платежные данные</a>
+</h3>
+
+<form>
+	<div class="table">
+		<div class="payment section">
+			<img src="images/pay-1.png">
+			<div class="payment-details section">
+				<h5 class="margin-b10">Израильские карты</h5>
+				<p class="note">Открытые в Израиле Visa, MasterCard, IsraCard</p>
+				<p class="details margin-b5">Принимаются: USD, EUR, NIS</p>
+				<p class="details">Для проведения оплаты откроется страница системы Pelecard</p>
+			</div>
+		</div>	
+		<div class="payment section">
+			<img src="images/pay-2.png">
+			<div class="payment-details section">
+				<h5 class="margin-b10">Неизраильские карты</h5>
+				<p class="note">Открытые не в Израиле Visa, MasterCard, Discover, American Express</p>
+				<p class="details margin-b5">Принимаются: USD, EUR, GBP, JPY, AUD, CAD</p>
+			</div>
+		</div>	
+		<div class="payment section">
+			<img src="images/pay-3.png">
+			<div class="payment-details section">
+				<h5 class="margin-b10">WebMoney</h5>
+				<p class="details margin-b5">Принимаются: USD, EUR, GBP</p>
+				<p class="details">Для проведения оплаты откроется страница системы WebMoney</p>
+			</div>
+		</div>
+		<div class="payment section">
+			<img src="images/pay-4.png">
+			<div class="payment-details section">
+				<h5 class="margin-b10">WebMoney</h5>
+				<p class="details margin-b5">Принимаются: USD, EUR, GBP</p>
+				<p class="details">Для проведения оплаты откроется страница системы WebMoney</p>
+			</div>
+		</div>	
+		<div class="payment">
+			<img src="images/pay-5.png">
+			<div class="payment-details section">
+				<h5 class="margin-b10">WebMoney</h5>
+				<p class="details margin-b5">Принимаются: RUR</p>
+				<p class="details">Этот способ оплаты не подходит для выбранной валюты</p>
+			</div>
+		</div>	
+	</div>
+</form>
+
+

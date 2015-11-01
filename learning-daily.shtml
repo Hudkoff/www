@@ -1,0 +1,76 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/learning.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_learning" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="table COL-asym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-learning-daily.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<!--#include virtual="breadcrumbs/learning-daily.shtml"-->
+
+			<h1 class="color-LEARNING bordered">
+				Ежедневная рассылка: Ни дня без Торы
+			</h1>
+			<br>
+			<p>Этот раздел создан для тех, у кого нет возможности самому искать и подбирать материалы для изучения Торы.</p>
+			<br>
+			<p>Ежедневно (кроме суббот и праздников) на этой страничке вы найдете свежий выпуск специально отобранных и адаптированных редактором для каждодневного изучения статей на разные тематики Иудаизма.</p>
+			<br>
+			<p>Есть возможность также подписаться на этот листочек и получать его на электронную почту.</p>
+			<br>
+			<h4>Ежедневная рассылка с сайта Толдот.ру — Иудаизм и евреи</h4>
+			
+			<!--#include virtual="_newsletter.shtml"-->
+
+			<br>
+			<div class="clearfix">
+				<!--#include virtual="_socials-like.shtml"-->
+				<!--#include virtual="_socials-share.shtml"-->
+			</div>
+		</div>
+
+		<div class="column-right table-cell lenta-column">
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</section>
+			<section>
+				<h4 class="color-ASK bordered">Вопрос дня</h4>
+				<div>
+					<!--#include virtual="article-link/book-consult-11.shtml"-->
+				</div>
+			</section>
+			<!--#include virtual="_family-questions.shtml"-->
+		</div>
+
+	</div>
+
+	<br>
+	
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

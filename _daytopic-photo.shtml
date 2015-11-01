@@ -1,0 +1,138 @@
+<div class="daytopic-content wrapper">
+
+	<div class="bg1"></div>
+	<div class="bg2"></div>
+
+	<div class="table COL-sym">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="intopic/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central">
+			<section class="summary">
+				<p>В этом году праздник еврейского Нового года, Рош-Ашана, наступает вечером в пятницу 18 сентября. Праздничными являются оба первых дня месяца тишрей, поэтому праздник кончится с появлением на небе первых звезд вечером 20 сентября. Все это время нельзя делать никакой работы, кроме приготовления пищи непосредственно для нужд праздника.
+				</p>
+				<a class="more" href="" title="">Читать дальше</a>
+			</section>
+
+			<div class="galleryBlock wrapper">
+			
+				<h3 class="color-LIGHTGRAY bordered">
+					Фото: Рош аШана
+				</h3>
+
+			</div>
+			<div class="galleryBlock wrapper">
+
+				<div class="photoBlock">
+					<div class="image folder">
+						<a href="#" title="В израиле">
+							<img src="images/photo-1.jpg" alt="В израиле" />
+						</a>
+						<div class="overlay">
+							<h3>
+								В израиле
+							</h3>
+							<div class="photoCount">
+								91
+							</div>
+						</div>
+					</div>
+					<div class="underlines"></div>
+					<div class="info">
+						28 марта,
+						<b>Рав Моше Пантелят</b>
+					</div>
+				</div>
+
+				<div class="photoBlock photo">
+					<div class="image">
+						<a href="/images/photo-2-big.jpg"  title="Выставка народного творчества <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+							<img src="images/photo-2.jpg" alt="Выставка народного творчества"/>
+						</a>
+					</div>
+					<h6>Выставка народного творчества</h6>
+					<div class="info">
+						28 марта,
+						<b>Рав Моше Пантелят</b>
+					</div>
+				</div>
+
+				<div class="photoBlock">
+					<div class="image folder">
+						<a href="/images/photo-3-big.jpg"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+							<img src="images/photo-3.jpg" alt="В израиле"/>
+						</a>
+						<div class="overlay">
+							<h3>
+								Встреча с раввином
+							</h3>
+							<div class="photoCount">
+								591
+							</div>
+						</div>
+					</div>
+					<div class="underlines"></div>
+					<div class="info">
+						28 марта,
+						<b>Рав Моше Пантелят</b>
+					</div>
+				</div>
+
+				<div class="photoBlock">
+					<div class="image folder" title="В израиле">
+						<a href="/images/photo-4-big.jpg"  title="В израиле <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+							<img src="images/photo-1.jpg" alt="В израиле"/>
+						</a>
+						<div class="overlay">
+							<h3>
+								В израиле
+							</h3>
+							<div class="photoCount">
+								91
+							</div>
+						</div>
+					</div>
+					<div class="underlines"></div>
+					<div class="info">
+						28 марта,
+						<b>Рав Моше Пантелят</b>
+					</div>
+				</div>
+
+				<div class="photoBlock photo">
+					<div class="image">
+						<a href="/images/photo-1-big.jpg"  title="Весенний пикник <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+							<img src="images/photo-4.jpg" alt="Весенний пикник"/>
+						</a>
+					</div>
+					<h6>Весенний пикник</h6>
+					<div class="info">
+						28 марта,
+						<b>Рав Моше Пантелят</b>
+					</div>
+				</div>
+
+				<div class="photoBlock photo">
+					<div class="image">
+						<a href="/images/photo-2-big.jpg"  title="Беседа с раввином <span>28 марта, <b>Рав Моше Пантелят</b></span>">
+							<img src="images/photo-3.jpg" alt="Беседа с раввином"/>
+						</a>
+					</div>
+					<h6>Беседа с раввином</h6>
+					<div class="info">
+						28 марта,
+						<b>Рав Моше Пантелят</b>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+		<aside class="table-cell column-right">
+
+		</aside>
+	</div>
+
+</div>

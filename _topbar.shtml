@@ -1,0 +1,31 @@
+<div class="topbar clearfix" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	<section class="wrapper clearfix">
+	
+		<menu class="topnav">
+			<a class="articles" href="#" itemprop="text">Статьи</a>
+			<a class="audio" href="#" itemprop="text">Аудио</a>
+			<a class="video" href="#" itemprop="text">Видео</a>
+			<a class="photo" href="#" itemprop="text">Фото</a>
+			<a class="blogs" href="#" itemprop="text">Блоги</a>
+		</menu>
+
+		<section class="globalSearch">
+			<form>
+				<input type="text" placeholder="Поиск">
+				<input type="submit" value="&nbsp;">
+			</form>
+		</section>
+
+		<menu class="lang">
+			<a class="e" href="#" itemprop="text">English</a>
+			<a class="i" href="#" itemprop="text">עברית</a>
+			<a class="d" href="#" itemprop="text">Deutsch</a>
+		</menu>
+
+		<menu class="login">
+			<a class="" href="popup_login.shtml" itemprop="text"><span>Войти</span></a>
+			<a class="" href="popup_registration.shtml" itemprop="text" style="display: none;"><span>Зарегистрироваться</span></a>
+		</menu>
+
+	</section>
+</div>

@@ -1,0 +1,20 @@
+<section class="sidemenu">
+    <ul class="first-level-nav">
+        <li>
+            <h4>Фото</h4>
+            <ul class="second-level-nav">
+                <li><a href="#" title="Праздники">Праздники</a></li>
+                <li><a href="#" title="Путешествия">Путешествия</a></li>
+                <li><a href="#" title="Дети">Дети</a></li>
+                <li><a href="#" title="Еврейская жизнь">Еврейская жизнь</a></li>
+                <li><a href="#" title="Еврейская история">Еврейская история</a></li>
+                <li><a href="#" title="Пейзаж">Пейзаж</a></li>
+                <li><a href="#" title="Животные">Животные</a></li>
+                <li><a href="#" title="Свадьба">Свадьба</a></li>
+                <li><a href="#" title="Семья">Семья</a></li>
+                <li><a href="#" title="Разное">Разное</a></li>
+                <li><a href="#" title="Молитва">Молитва</a></li>
+            </ul>
+        </li>
+    </ul>
+</section>

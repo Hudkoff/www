@@ -1,0 +1,37 @@
+
+.recommendation-link {
+	display: block;
+	padding: 14px 0;
+ 	border-top: 1px solid #e5e5e5;
+	font-family: 'Noto Serif', serif;
+ 	color: #000;
+ 	text-decoration: none;
+}
+.recommendation-link:first-child {
+ 	padding-top: 15px;
+ 	border-top: none;
+}
+.recommendation-link a {
+	text-decoration: none;
+ 	color: #000;
+}
+
+.recommendation-link .details {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #6c6c6c;
+}
+.recommendation-link .description {
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 1.4;
+}
+.recommendation-link .title {
+	margin-bottom: 7px;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;	
+}
+.recommendation-link:hover .title {
+	text-decoration: underline;
+}

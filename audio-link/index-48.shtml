@@ -1,0 +1,21 @@
+<!-- With date and small picture -->
+<div class="audio-link in-catalog">
+	<div class="author-photo" style="background-image: url('images/avatar-12.jpg')">
+		<a href="#"></a>
+	</div>
+	<p class="audio-date">10 апреля</p>
+	<div class="audio-info-container">
+		<div class="header clearfix">
+			<div class="center">
+				<h4><a href="#">Нужна ли ещё фольга, или кипятка с утюгом <br />достаточно?</a></h4>
+				<p class="details"><b>Рав Ашер Кушнир</b> отвечает на вопрос от Эллы Абрамович</p>
+			</div>
+		</div>
+		<p class="description">
+			Обязательно ли к Песаху застилать кухонные столы фольгой, если они хорошо вымыты с моющим средством, облиты кипятком и прокашерованы утюгом? <a href="#" class="more">Читать дальше</a>
+		</p>
+		<!--#include virtual="../buttons/later.shtml?"-->
+		<!--#include virtual="../buttons/subscribe-with-popup.shtml?true"-->
+
+	</div>
+</div>

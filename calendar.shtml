@@ -1,0 +1,236 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+    <!--#include virtual="_head.shtml"-->
+    <link href="_css/calendar.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_calendar" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="table COL-asym wrapper">
+
+    <aside class="table-cell column-left">
+        <!--#include virtual="sidemenu/sidemenu-calendar.shtml"-->
+        <!--#include virtual="_banner-tora.shtml"-->
+        <!--#include virtual="recommendation-link/index.shtml"-->
+    </aside>
+
+    <div class="table-cell column-central" itemprop="mainContentOfPage">
+
+        <!--#include virtual="breadcrumbs/calendar.shtml"-->
+
+        <h1 class="color-ASK bordered">
+            Еврейский календарь
+        </h1>
+
+        <!--#include virtual="_calendar.shtml"-->
+
+        <div class="holidays-announce">
+            В этом месяце мы празднуем 3 прекрасных праздника:
+            <ul>
+                <li>
+                    <a href="" title="">Песах Шени</a> 3 мая
+                </li>
+                <li>
+                    затем прекрасный праздник <a href="" title="">Лаг баОмер</a> 7 мая
+                </li>
+                <li>
+                    и 24 мая <a href="" title="">Шавуот</a>.
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="column-right table-cell lenta-column">
+        <section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+            <!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+            <!--#include virtual="lenta/index-02.shtml?ededed"-->
+            <!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+            <!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+            <!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+            <!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+            <!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+            <!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+            <!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+        </section>
+
+        <section class="calendar-right-block">
+            <h4 class="color-ASK bordered">Зманим: 7 июня 2015</h4>
+
+            <div>
+                <div class="tag-search">
+                    <form>
+                        <input type="text" placeholder="Москва">
+                        <input type="submit" class="icon-search" value="&nbsp;">
+                    </form>
+                </div>
+
+                <ul>
+                    <li>
+                        <div class="time-stamp">0:00</div>
+                        <a href="" title=""> Алот Шахар </a>
+                    </li>
+                    <li>
+                        <div class="time-stamp">3:00</div>
+                        <a href="" title="">Цицит</a>
+                    </li>
+                    <li>
+                        <div class="time-stamp">5:04</div>
+                        <a href="" title="">Нец Ахама</a>
+                    </li>
+                    <li>
+                        <div class="time-stamp">9:15</div>
+                        <a href="" title="">Конец времени Шма</a>
+                    </li>
+                    <li>
+                        <div class="time-stamp">10:39</div>
+                        <a href="" title="">Конец времени Тфилы</a>
+                    </li>
+                    <li>
+                        <div class="time-stamp">13:27</div>
+                        <a href="" title="">Хацот (полдень)</a>
+                    </li>
+                    <li>
+                        <div class="time-stamp">14:09</div>
+                        <a href="" title="">Минха гдола</a>
+                    </li>
+                    <li>
+                        <div class="time-stamp">18:20</div>
+                        <a href="" title="">Минха ктана</a>
+                    </li>
+                    <li>
+                        <div class="time-stamp">20:05</div>
+                        <a href="" title="">Плаг минха</a>
+                    </li>
+                    <li>
+                        <div class="time-stamp">21:50</div>
+                        <a href="" title="">Шкия (заход солнца)</a>
+                    </li>
+                    <li>
+                        <div class="time-stamp">22:43</div>
+                        <div class="time-stamp"></div>
+                        <a href="" title="">Цет акохаим</a>
+                    </li>
+                </ul>
+
+                <div class="shabbat-block">
+                    <div class="heading">Шабат: 23 Май - 5 Сиван</div>
+                    <ul>
+                        <li>
+                            <div class="time-stamp">19:17</div>
+                            Начало субботы
+                        </li>
+                        <li>
+                            <div class="time-stamp">20:17</div>
+                            Конец субботы
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</div>
+
+<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+<div class="table COL-asym wrapper">
+
+    <aside class="table-cell column-left">
+        &nbsp;
+    </aside>
+
+    <div class="table-cell column-central" itemprop="mainContentOfPage">
+
+        <h3 class="color-GRAY bordered">
+            Праздники и даты 2015
+        </h3>
+        <div class="table holidays-annual">
+            <div class="table-cell">
+                <div class="holiday-item">
+                    <b>Ту биШват</b> — 4 февраля (15 швата 5775)
+                    <a href="" title="">Показать на календаре</a>
+                </div>
+                <div class="holiday-item">
+                    <b>Пост Эстер</b> — 4 марта (13 адара 5775)
+                    <a href="" title="">Показать на календаре</a>
+                </div>
+                <div class="holiday-item">
+                    <b>Пурим</b> — 5 марта (14 адара 5775)
+                    <a href="" title="">Показать на календаре</a>
+                </div>
+                <div class="holiday-item">
+                    <b>Песах</b> — 4 апреля (15 нисана 5775)
+                    <a href="" title="">Показать на календаре</a>
+                </div>
+                <div class="holiday-item">
+                    <b>Лаг баОмер</b> — 7 мая (18 ияра 5775)
+                    <a href="" title="">Показать на календаре</a>
+                </div>
+                <div class="holiday-item">
+                    <b>Шавуот</b> — 24 мая (6 сивана 5775)
+                    <a href="" title="">Показать на календаре</a>
+                </div>
+            </div>
+            <div class="table-cell">
+                <div class="holiday-item">
+                    <b>Ту биШват</b> — 4 февраля (15 швата 5775)
+                    <a href="" title="">Показать на календаре</a>
+                </div>
+                <div class="holiday-item">
+                    <b>Пост Эстер</b> — 4 марта (13 адара 5775)
+                    <a href="" title="">Показать на календаре</a>
+                </div>
+                <div class="holiday-item">
+                    <b>Пурим</b> — 5 марта (14 адара 5775)
+                    <a href="" title="">Показать на календаре</a>
+                </div>
+                <div class="holiday-item">
+                    <b>Песах</b> — 4 апреля (15 нисана 5775)
+                    <a href="" title="">Показать на календаре</a>
+                </div>
+                <div class="holiday-item">
+                    <b>Лаг баОмер</b> — 7 мая (18 ияра 5775)
+                    <a href="" title="">Показать на календаре</a>
+                </div>
+                <div class="holiday-item">
+                    <b>Шавуот</b> — 24 мая (6 сивана 5775)
+                    <a href="" title="">Показать на календаре</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="column-right table-cell lenta-column">
+        <section>
+            <h3 class="color-LEARNING arrowed bordered">
+                <a href="#" title="">
+                    Тесты
+                    <b>&#9670;</b>
+                </a>
+            </h3>
+            <div>
+                <!--#include virtual="tests/index-31.shtml"-->
+            </div>
+        </section>
+    </div>
+
+</div>
+
+
+<!--#include virtual="_daytopic-title.shtml"-->
+
+<!--#include virtual="_daytopic-home.shtml"-->
+
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

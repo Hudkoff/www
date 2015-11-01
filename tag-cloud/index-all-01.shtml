@@ -1,0 +1,22 @@
+<section class="tag-search">
+
+	<form>
+		<input type="text" placeholder="Поиск по материалам">
+		<input type="submit" class="icon-search" value="&nbsp;">
+	</form>
+	
+	<div class="tags-button">
+		<span class="showTags-text" style="display: none;">&#8595; Показать теги</span>
+		<span class="hideTags-text">&#8593; Скрыть теги</span>
+	</div>
+
+	<div class="tags-hidden">
+		<!--#include virtual="main.shtml"-->
+		<!--#include virtual="additional.shtml"-->
+		<div class="show-all-tags-button">
+			<span class="showAllTags-text">&#8595; <span class="dotted">Показать все теги</span></span>
+			<span class="hideAllTags-text" style="display:none;">&#8593; <span class="dotted">Показать основные теги</span></span>
+		</div>
+	</div>
+
+</section> 

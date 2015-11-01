@@ -1,0 +1,45 @@
+@import "_block-seo.css";
+@import "_daytopic-title.css";
+@import "_daytopic.css";
+@import "_daytopic-article.css";
+
+@import "_people-list.css";
+@import "_video-live.css";
+@import "_catalog-filters.css";
+
+@import "_audio-link.css";
+@import "_catalog-pagination.css";
+
+@import "_ask-buttons.css";
+
+
+.page_ask .ask-main .column-central h3 {
+	color: #000;
+}
+
+.page_ask .catalog-pagination li.selected a {
+	background: #b38d39;
+}
+
+
+
+
+
+.ask-main {
+	margin-bottom: 25px;
+}
+
+.ask-main .column-central .column-left {
+	/*width: 57%;*/
+	padding: 0;
+}
+.ask-main .lenta-box {
+	border: 2px solid #ddd;
+	margin-bottom: 20px;
+}
+.ask-main .column-central h3 {
+  	padding: 10px 0 12px 0;
+}
+.ask-main .column-central .more {
+	margin-left: 5px;
+}

@@ -1,0 +1,19 @@
+<div class="article-link clearfix" href="" title="">
+	<div class="icon">
+		<img src="images/avatar-22.jpg" alt="" />
+	</div>
+	<div class="content">
+		<h4>Страх, побеждённый страхом</h4>	
+		<span class="label cycle">Циклы</span> <a href="#" class="more small-more">3 новых выпуска</a>
+		<p class="details">
+			10 апреля, <b>Неизвестный автор</b><br>
+		</p>	
+		<p class="description">
+			Существует качественно иной вид страха, а именно — страх, вызванный осознанием
+		</p>
+		<div class="buttons">
+			<!--#include virtual="/buttons/subscribe-with-popup.shtml?"-->
+			<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,11 @@
+<div class="photoLink">
+	<div class="image">
+		<a href="#" title="">
+			<img src="images/photo-2.jpg" alt="Выставка народного творчества">
+		</a>
+	</div>
+	<h6>В Израиле 2014</h6>
+	<div class="info">
+		28 марта, <b>Рав Моше Пантелят</b>
+	</div>
+</div>

@@ -1,0 +1,171 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/blogs.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_blogs" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="table COL-asym top-block wrapper clearfix">
+
+		<div class="table-cell column-left">
+			<div class="calendar"></div>
+
+			<!--#include virtual="tag-cloud/aside.shtml"-->
+
+		</div>
+		<div class="table-cell column-central ">
+
+			<div class="content_colored color-BLOGS blogs-topic clearfix">
+
+				<div class="blogs-topic-top-block">
+				<!--#include virtual="breadcrumbs/blogs-topic.shtml"-->
+
+					<img src="images/avatar-61.jpg" alt=""/>
+					<div class="author-name">Барух Фельдман</div>
+					<h1>Еврейский мужчина на кухне</h1>
+					<div class="description">
+						<p>События еврейской жизни в Израиле и не только</p>
+						<a class="more" href="#">Все записи автора списком</a>
+					</div>
+					<div class="note">
+						Вы можете <a class="color-GRAY" href="">связаться с автором</a>, <a class="color-AUDIO" href="">послушать</a> или <a class="color-VIDEO" href="">посмотреть</a> уроки автора, <a class="color-BLOG" href="">купить книги</a> автора в <a class="" href="">Магазине</a>
+					</div>
+
+				</div>
+
+				<!--#include virtual="catalog-item/blogs-11.shtml"-->
+				<!--#include virtual="catalog-item/blogs-12.shtml"-->
+
+			</div>
+
+		</div>
+
+		<aside class="table-cell column-right">
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</section>
+		</aside>
+	</div>
+
+	<div class="table COL-sym wrapper block">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<div class="content_colored">
+				<div class="catalog-items-list">
+					<!--#include virtual="catalog-item/blogs-21.shtml"-->
+					<!--#include virtual="catalog-item/blogs-22.shtml"-->
+					<!--#include virtual="catalog-item/blogs-23.shtml"-->
+					<!--#include virtual="catalog-item/blogs-24.shtml"-->
+					<!--#include virtual="catalog-item/blogs-21.shtml"-->
+					<!--#include virtual="catalog-item/blogs-22.shtml"-->
+					<!--#include virtual="catalog-item/blogs-23.shtml"-->
+
+				</div>
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+			</div>
+		</div>
+
+		<aside class="table-cell column-right">
+
+			<h3 class="color-BLOG arrowed bordered">
+				<a href="#" title="">
+					Авторы
+					<b>&#9670;</b>
+				</a>
+			</h3>
+			<!--#include virtual="_authors-list.shtml"-->
+
+			<section class="testLight">
+				<h3 class="color-BLOG arrowed bordered">
+					<a href="#" title="">
+						Популярное
+						<b>&#9670;</b>
+					</a>
+				</h3>
+				<div class="blogsLink">
+					<h6>Законы седьмого года 10</h6>
+					<div class="info">
+						<b>Рав Носон Шерман</b> <br/>
+						из цикла «Уроки Пятикнижия»
+					</div>
+					<div class="buttonGRAY comments">
+						10 Комментариев
+					</div>
+				</div>
+			</section>
+
+			<section class="testLight">
+				<h3 class="color-BLOG arrowed bordered">
+					<a href="#" title="">
+						Обсуждаемое
+						<b>&#9670;</b>
+					</a>
+				</h3>
+				<div class="blogsLink">
+					<h6>Книга Иова 43</h6>
+					<div class="info">
+						<b>Рав Носон Шерман</b> <br/>
+						из цикла «Уроки Пятикнижия»
+					</div>
+					<div class="buttonGRAY comments">
+						13 Комментариев
+					</div>
+				</div>
+			</section>
+
+			<section class="testLight">
+				<h3 class="color-BLOG arrowed bordered">
+					<a href="#" title="">
+						Год назад
+						<b>&#9670;</b>
+					</a>
+				</h3>
+				<div class="blogsLink">
+					<h6>Книга Иова 43</h6>
+					<div class="info">
+						<b>Рав Носон Шерман</b> <br/>
+						из цикла «Уроки Пятикнижия»
+					</div>
+					<div class="buttonGRAY comments">
+						13 Комментариев
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<a class="banner" href="">
+					<img src="images/banner-04.jpg" style="width: 100%"  alt=""/>
+				</a>
+			</section>
+
+
+		</aside>
+
+	</div>
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

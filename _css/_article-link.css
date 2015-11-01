@@ -1,0 +1,97 @@
+.article-link {
+	font-family: 'Noto Serif', serif;
+	display: block;
+ 	border-top: 1px solid #e5e5e5;
+ 	padding: 20px 0;
+ 	color: #000;
+ 	text-decoration: none;
+}
+.article-link.middle-padding {
+	padding: 15px 0;
+}
+.article-link.border-bottom {
+	border-top: none;
+	border-bottom: 1px solid #e5e5e5;
+}
+.article-link.small-padding {
+ 	padding: 10px 0 9px;
+}
+.article-link:first-child {
+ 	border-top: 0;
+ 	padding-top: 20px;
+}
+.article-link h6,
+.article-link h5,
+.article-link h4 {
+	margin-bottom: 5px;
+	/*display: inline;*/
+}
+.article-link a {
+	text-decoration: none;
+ 	color: #000;
+}
+.article-link a:hover,
+a.article-link:hover h6,
+a.article-link:hover h5,
+a.article-link:hover h4 {
+	text-decoration: underline;
+}
+
+/* колонки */
+.article-link .icon {
+	float: left;
+	font-size: 0;
+	margin:0 15px 5px 0;
+ }
+
+.article-link .details {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #6c6c6c;
+}
+.article-link .details.part {
+	margin-bottom: 10px;
+}
+.article-link .description {
+	margin-top: 10px;
+	font-size: 14px;
+	line-height: 1.4;
+}
+.article-link .content {
+	font-size: 13px;
+	margin-left: 79px;
+}
+.article-link .content .more {
+	margin-left: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.article-link .content h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.favourite .description {
+	line-height: 1.6;
+}
+.article-link .bordered {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.article-link .answer-status {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+.article-link .answered {
+	background: #d4e6c5;
+    padding: 0px 5px;
+}
+.article-link .not-answered {
+	background: #ebebeb;
+    padding: 0px 5px;
+}
+.all-bordered {
+	padding: 15px;
+	margin-top: -1px;
+	border: 1px solid #e5e5e5;
+}

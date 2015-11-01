@@ -1,0 +1,14 @@
+<a href="" class="video-link clearfix" title="">
+	<div class="screenshot" style="background-image: url('images/screen_03.jpg')">
+		<div class="fader">
+			<div class="icon"></div>
+			<div class="date">22 мая</div>		
+		</div> 
+	</div>
+	<div class="description">
+		<h6>Вечер памяти рава Ицхака Йосефа Зильбера</h6>
+		<p class="details"><b>Рав Бенцион Зильбер</b></b></p>
+		<span class="label video">Видео</span>
+	</div>
+</a>
+

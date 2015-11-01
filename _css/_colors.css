@@ -1,0 +1,260 @@
+/* цветные заголовки */
+h3[class ^= color],
+h2[class ^= color],
+h1[class ^= color] {
+	padding-bottom: 10px;
+}
+h4[class ^= color] {
+	padding-bottom: 6px;
+}
+[class ^= color] a {
+	text-decoration: none;
+	display: block;
+	white-space: nowrap; /* чтоб строка не переносилась */
+	color: inherit;
+}
+
+.color-ASK {
+	color: #b38d39;
+	border-bottom: 0px solid #b38d39;
+}
+.color-FAMILY {
+	color: #d55940;
+	border-bottom: 0px solid #d55940;
+}
+.color-PHOTO {
+	color: #9c5630;
+	border-bottom: 0px solid #9c5630;
+}
+.color-LIFE {
+	color: #f69227;
+	border-bottom: 0px solid #f69227;
+}
+.border-LIFE {
+	border-color: #f69227 !important;
+}
+.color-AUDIO {
+	color: #c4af23;
+	border-bottom: 0px solid #c4af23;
+}
+.color-VIDEO {
+	color: #4fc77a;
+	border-bottom: 0px solid #4fc77a;
+}
+.color-BLOG {
+	color: #3792aa;
+	border-bottom: 0px solid #3792aa;
+}
+.color-WIKI {
+	color: #0e53b2;
+	border-bottom: 0px solid #e5e5e5;
+}
+.color-MONEY {
+	color: #56a5d2;
+	border-bottom: 0px solid #56a5d2;
+}
+.color-TOLDOT {
+	color: #1159a9; /*+ 1259a8 0e53b2 */
+	border-bottom: 0px solid #1159a9;
+}
+.color-LEARNING {
+	color: #7247ba;
+	border-bottom: 0px solid #7247ba;
+}
+.color-CYCLES {
+	color: #b20e89;
+	border-bottom: 0px solid #b20e89;
+}
+.color-ARTICLES {
+	color: #727272;
+	border-bottom: 0px solid #727272;
+}
+/* не относящиеся к разделам */
+.color-GRAY {
+	color: #000;
+	border-bottom: 0px solid #989898;
+}
+.color-LIGHTGRAY {
+	color: #000;
+	border-bottom: 0px solid #e5e5e5;
+}
+.color-LIGHTPINK {
+	color: #000;
+	border-bottom: 0px solid #ffeeea;
+}
+.color-RED {
+	color: #f00;
+}
+.color-GREEN {
+	color: #008000;
+}
+
+
+/* цветные кнопки */
+.color-d55940.button {
+	background-color: #d55940;
+}
+.color-b38d39.button {
+	background-color: #b38d39;
+}
+
+.bordered {
+	border-bottom-width: 2px;
+}
+/* заготовка для стрелок */
+.arrowed b,
+.arrowed b:after {
+	font-family: Arial, serif;
+}
+.arrowed b {
+	position: relative;
+	display: inline-block;
+	font-size: 18px;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	margin-left: 0;
+	margin-right: 4px;
+}
+.arrowed b:after { 
+	position: absolute;
+	display: block;
+	content: "\25C6";
+	color: #fff;
+	font-size: 13px;
+	top: 3px;
+	left: 0;
+}
+.arrowed a:hover b {
+	/* анимация */
+	margin-left: 4px;
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.content_colored {
+	padding: 20px;
+}
+/* цвета */
+.page_audio .content_colored {
+	background: #faf9e6;
+}
+.page_ask .content_colored {
+	background: #f7f2e7;
+}
+.page_ask-article .content_colored {
+	background: #f7f2e7;
+}
+.page_articles .content_colored {
+    background: #f7f7f7;
+}
+.page_family .content_colored {
+	background: #ffeeea;
+}
+.page_video .content_colored {
+	background: #eaf8f0;
+}
+.page_topic .content_colored {
+	background-color: #f6f6f6;
+}
+.page_my .content_colored {
+	background-color: #e5f1ff;
+}
+.page_life .content_colored {
+	background: #f6ece2;
+}
+.page_life .content_colored.dating {
+	background: #f8f0e9 url('../images/page-dating-colored-bg.png') 0 0 repeat;
+}
+.page_learning .content_colored {
+	background: #efefef;
+}
+
+
+
+.content_bordered {
+	font-family: 'Noto Serif', serif;
+	border-width: 3px;
+	border-style: solid;
+	padding: 17px;
+}
+/* цвета */
+.page_ask-article .content_bordered {
+	border-color: #f7f2e7;
+}
+.page_articles .content_bordered {
+    border-color: #f7f7f7;
+}
+.page_family .content_bordered {
+	border-color: #ffeeea;
+}
+.content_narrow_bordered {
+	border: 1px solid #bdbdbd;
+/*    padding: 20px;
+*/}
+
+
+.content_transparent {
+	background: rgba(255,255,255,.9);
+	border: 1px solid #e5e5e5;
+}
+
+
+
+
+.page_ask-article h1 {
+	color: #b38d39;
+}
+.page_family h1 {
+    color: #d55940;
+}
+.page_articles h1 {
+    color: #727272;
+}
+.page_audio h1 {
+	color: #c4af23;
+}
+.page_ask h1 {
+	color: #b38d39;
+}
+.page_cycles h1 {
+    color: #b20e89;
+}
+.page_gallery h1 {
+    color: #9c5630;
+}
+.page_video h1 {
+    color: #4fc77a;
+}
+.page_library h1 {
+    color: #7247ba;
+}
+.page_my h1 {
+	color: #1159a9;
+}
+
+
+
+
+
+.page_family li.ui-tabs-active a {
+	background: #ffeeea;
+}
+
+
+
+
+.attention {
+	font-weight: 700;
+	color: #e70000;
+}

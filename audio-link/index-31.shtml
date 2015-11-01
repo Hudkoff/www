@@ -1,0 +1,20 @@
+<div class="audio-link in-catalog big-picture">
+	<div class="author-photo" style="background-image: url('images/picture_01.jpg')">
+		<a href="#"></a>
+		<div class="icon"></div>
+	</div>
+	<div class="audio-info-container">
+		<div class="header clearfix">
+			<div class="center">
+				<h4><a href="#">Шмита 6</a></h4>
+				<p class="details">28 марта, <b>Рав Носон Шерман</b> из цикла «Уроки Пятикнижия»</p>
+			</div>
+		</div>
+		<p class="description">
+			Домашний комитет решает пригласить садовника вопреки мнению религиозного жителя. Имеет ли право человек не платить домкому?
+		</p>
+		<!--#include virtual="../buttons/later.shtml?"-->
+		<!--#include virtual="../buttons/subscribe-with-popup.shtml?"-->
+
+	</div>
+</div>

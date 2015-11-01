@@ -1,0 +1,166 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+    <!--#include virtual="_head.shtml"-->
+    <!-- CSS-->
+    <link rel="stylesheet" href="_css/timeline/timeline.css">
+    <!--FONT-->
+    <link rel="stylesheet" href="_css/timeline/fonts/font.bevan-pontanosans.css">
+
+    <link href="_css/rabbis.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_rabbis" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="table COL-asym wrapper">
+
+    <aside class="table-cell column-left">
+        <!--#include virtual="sidemenu/sidemenu-rabbis.shtml"-->
+        <!--#include virtual="_banner-tora.shtml"-->
+        <!--#include virtual="recommendation-link/index.shtml"-->
+    </aside>
+
+    <div class="table-cell column-central" itemprop="mainContentOfPage">
+
+        <div class="content-colored">
+            <!--#include virtual="breadcrumbs/rabbis.shtml"-->
+
+            <h1 class="color-LIFE">
+                Раввины
+            </h1>
+
+            <div id="timeline-block" class="timeline-block clearfix"></div>
+
+            <!--<div class="rabbis-description">-->
+                <!--<div class="rabbis-arrow arrow-left"></div>-->
+                <!--<div class="rabbis-arrow arrow-right"></div>-->
+                <!--<h4>Эпоха Таннаим</h4>-->
+
+                <!--<p>ТАННАИМ (תַּנָּאִים, ТАННАИм; ед. число תַּנָּא, танна, от арамейского тни или тна — «повторять»,-->
+                <!--«изучать», «учить»), титул законоучителей в Эрец-Исраэль в 1–2 вв. (начиная с периода деятельности-->
+                <!--Хиллела и до завершения Мишны).</p>-->
+                <!--<p>В Талмуде этот термин употребляется для того, чтобы отличить мудрецов-->
+                <!--этого периода от предшествовавших им законоучителей и от последовавших за ними амораев.</p>-->
+            <!--</div>-->
+
+            <div class="rabbis-list clearfix">
+                <input type="text" placeholder="Поиск раввина по имени" />
+                <div class="rabbis-list-info">
+                    27 раввинов
+                </div>
+                <div class="rabbis-list-item clearfix">
+                    <img src="images/avatar-11.jpg" alt=""/>
+                    <div class="rabbi-name">Рав Ашер Кушнир</div>
+                    <div class="rabbi-years">род. в 1956</div>
+                </div>
+
+                <div class="rabbis-list-item clearfix">
+                    <img src="images/avatar-12.jpg" alt=""/>
+                    <div class="rabbi-name">Рав Ицхак Зильбер</div>
+                    <div class="rabbi-years">1917—2004</div>
+                </div>
+                <div class="rabbis-list-item clearfix">
+                    <img src="images/avatar-11.jpg" alt=""/>
+                    <div class="rabbi-name">Рав Ашер Кушнир</div>
+                    <div class="rabbi-years">род. в 1956</div>
+                </div>
+                <div class="rabbis-list-item clearfix">
+                    <img src="images/avatar-12.jpg" alt=""/>
+                    <div class="rabbi-name">Рав Ицхак Зильбер</div>
+                    <div class="rabbi-years">1917—2004</div>
+                </div>
+                <div class="rabbis-list-item clearfix">
+                    <img src="images/avatar-11.jpg" alt=""/>
+                    <div class="rabbi-name">Рав Ашер Кушнир</div>
+                    <div class="rabbi-years">род. в 1956</div>
+                </div>
+                <div class="rabbis-list-item clearfix">
+                    <img src="images/avatar-12.jpg" alt=""/>
+                    <div class="rabbi-name">Рав Ицхак Зильбер</div>
+                    <div class="rabbi-years">1917—2004</div>
+                </div>
+                <div class="rabbis-list-item clearfix">
+                    <img src="images/avatar-11.jpg" alt=""/>
+                    <div class="rabbi-name">Рав Ашер Кушнир</div>
+                    <div class="rabbi-years">род. в 1956</div>
+                </div>
+                <div class="rabbis-list-item clearfix">
+                    <img src="images/avatar-12.jpg" alt=""/>
+                    <div class="rabbi-name">Рав Ицхак Зильбер</div>
+                    <div class="rabbi-years">1917—2004</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="column-right table-cell lenta-column">
+
+        <section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+            <!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+            <!--#include virtual="lenta/index-02.shtml?ededed"-->
+            <!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+            <!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+            <!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+            <!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+            <!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+            <!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+            <!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+        </section>
+
+        <section>
+            <h3 class="color-CYCLES arrowed bordered">
+                <a href="#" title="">
+                    В Толдоте
+                    <b>&#9670;</b>
+                </a>
+            </h3>
+
+            <div>
+                <!--#include virtual="intoldot/index-01.shtml"-->
+                <!--#include virtual="intoldot/index-02.shtml"-->
+                <!--#include virtual="intoldot/index-03.shtml"-->
+                <!--#include virtual="intoldot/index-01.shtml"-->
+                <!--#include virtual="intoldot/index-02.shtml"-->
+            </div>
+        </section>
+
+    </div>
+
+</div>
+
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+<script src="_js/timeline.js"></script>
+<script>
+    $(document).ready(function() {
+        var timeline = new TL.Timeline('timeline-block', '_js/marktwain.json', {
+            ga_property_id: "UA-27829802-4",
+            is_embed:true,
+            timenav_position: "top",
+            height: '300px'
+        });
+
+        setTimeout(function(){ // some kind of JS magic is happening without timeout.
+            var textBlock = $('.tl-text'),
+                maxHeight = 0;
+            textBlock.each(function(){
+                if ($(this).height() > maxHeight) {
+                    maxHeight = $(this).height();
+                }
+            });
+            $('.tl-storyslider').css('height', maxHeight + 50);
+        },500);
+
+    });
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<section class="sidemenu color-ASK">
+    <ul class="first-level-nav">
+        <li>
+            <h3>Жизнь</h3>
+        </li>
+        <li>
+            <h3>Места</h3>
+        </li>
+        <li>
+            <h3>Раввины</h3>
+        </li>
+        <li>
+            <h3>Кладбища</h3>
+        </li>
+        <li>
+            <h3>Знакомства</h3>
+        </li>
+        <li>
+            <h3>Фамилия</h3>
+        </li>
+        <li>
+            <h3>Имена</h3>
+        </li>
+    </ul>
+</section>

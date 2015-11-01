@@ -1,0 +1,76 @@
+
+.page_talmud .top-block h1,
+.page_talmud .top-block h3 {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #e5e5e5;
+}
+
+.page_talmud .top-block .column-right {
+	width: 30%;
+}
+.page_talmud .top-block .column-right h3{
+	margin-top: 12px;
+}
+
+.page_talmud .daily-learning .catalog-item h4 {
+	margin-top: 0;
+}
+
+.page_talmud .catalog-item .item-table .item-cell:nth-child(2) {
+	width: 70px;
+}
+
+.page_talmud .top-block .description {
+	margin-top: 10px;
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+.page_talmud .top-block .description p {
+	margin-bottom: 10px;
+}
+
+
+.page_talmud .top-block .buttons {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.page_talmud .top-block .buttons .button {
+
+	display: inline-block;
+	padding: 10px 17px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px 20px 0;
+}
+
+.button-green {
+	background-color: #109346;
+}
+.button-blue {
+	background-color: #1286c8;
+}
+
+
+.page_talmud .top-block .stats {
+	margin-top: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+.page_talmud .top-block .stats p {
+	margin-bottom: 10px;
+}
+.page_talmud .top-block .stats .help-link {
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 15px 0 5px;
+}

@@ -1,0 +1,68 @@
+<div class="table COL-asym block-a wrapper" itemprop="mainContentOfPage">
+
+	<div class="table-cell column-central">
+
+		<section class="table">
+
+			<div class="table-cell slider-box">
+				<!--#include virtual="../_slider.shtml"-->
+			</div>
+
+			<a class="table-cell banner-central" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
+				<img src="images/main-banner_01.jpg" alt="">
+			</a>
+			
+		</section>
+
+		<div class="table COL-two">
+
+			<section class="table-cell">
+				<h3 class="color-ASK arrowed bordered">
+					<a href="#" title="">
+						Вопросы раввину
+						<b>&#9670;</b>
+					</a>
+				</h3>
+				<div>
+					<!--#include virtual="../article-link/index-11.shtml"-->
+					<!--#include virtual="../article-link/index-12.shtml"-->
+					<!--#include virtual="../article-link/index-13.shtml"-->
+				</div>
+			</section>
+
+			<section class="table-cell">
+				<h3 class="color-FAMILY arrowed bordered">
+					<a href="#" title="">
+						Семья
+						<b>&#9670;</b>
+					</a>
+				</h3>
+				<div>
+					<!--#include virtual="../article-link/index-11.shtml"-->
+					<!--#include virtual="../article-link/index-12.shtml"-->
+					<!--#include virtual="../article-link/index-13.shtml"-->
+				</div>
+
+			</section>
+		</div>
+
+	</div>
+
+	<aside class="table-cell column-right">
+		<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+			<!--#include virtual="../lenta/index-01.shtml?f8f8f8"-->
+			<!--#include virtual="../lenta/index-02.shtml?ededed"-->
+			<!--#include virtual="../lenta/index-03.shtml?e5edf6"-->
+			<!--#include virtual="../lenta/index-04.shtml?fbf0ee"-->
+			<!--#include virtual="../lenta/index-05.shtml?fbe9f6"-->
+			<!--#include virtual="../lenta/index-06.shtml?e1f5fa"-->
+			<!--#include virtual="../lenta/index-07.shtml?e5edf6"-->
+			<!--#include virtual="../lenta/index-08.shtml?d3f1de"-->
+			<!--#include virtual="../lenta/index-09.shtml?e1f5fa"-->
+		</section>
+		<a class="" href="" title="" itemscope itemtype="http://schema.org/WPAdBlock">
+			<img src="images/right-banner_01.jpg" style="width: 100%" alt="">
+		</a>
+	</aside>
+
+</div>

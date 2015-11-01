@@ -1,0 +1,18 @@
+<section class="daytopic-article clearfix">
+	<a href="" title="">
+		<div class="test test-hard" style="background-image: url('images/test-01-big.jpg')">
+			<div class="num">
+				<i>вопросов</i>
+				<div>50</div>
+				<b>сложный</b>
+			</div>
+		</div>
+		<h4>Готовы ли вы к Шаувоту?</h4>
+	</a>
+	<p class="details">
+		Этот тест прошли 45 раз<br>
+	</p>
+	<p class="description">
+		Проверь себя - знаешь ли ты Талмуд? Трактат Бава Мецея, 6 глава.
+	</p>
+</section>

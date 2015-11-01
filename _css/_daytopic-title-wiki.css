@@ -1,0 +1,64 @@
+.daytopic-wiki .daytopic-menu {
+	margin: 20px 0;
+	position: relative;
+}
+
+.daytopic-wiki .daytopic-menu a {
+	display: block;
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin-right: 5px;
+}
+
+.daytopic-wiki .daytopic-menu a img {
+	width: 100%;
+}
+
+.carousel-block {
+	margin-right: 75px;
+}
+
+.carousel-block li {
+	overflow: visible!important;
+}
+
+.daytopic-wiki .daytopic-menu .jcarousel-item:hover  {
+
+	/*position: relative;*/
+	/*top: -4px;*/
+	/*left: -4px;*/
+	/*z-index: 10;*/
+	/*margin-bottom: -4px;*/
+	/*border: 4px solid #0e53b2;*/
+
+	/*-webkit-border-radius: 5px;*/
+	/*-moz-border-radius: 5px;*/
+	/*border-radius: 5px;*/
+
+	/*box-shadow: 0 5px 10px #999;*/
+}
+
+.daytopic-wiki .daytopic-menu .button-next {
+	z-index: 900;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 0;
+	width: 70px;
+	height: 70px;
+
+}
+.daytopic-wiki .daytopic-menu .button-prev {
+	z-index: 900;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	width: 70px;
+	height: 70px;
+}
+
+.daytopic-wiki .button-prev.disabled {
+	display: none;
+}

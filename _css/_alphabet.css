@@ -1,0 +1,27 @@
+.alphabet {
+	text-align: center;
+}
+.alphabet ol {
+	display: inline-block;
+}
+.alphabet li {
+	display: inline-block;
+}
+.alphabet li:first-child {
+	margin: 0;
+}
+.alphabet li a {
+	display: inline-block;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 1.3rem/2rem 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+.alphabet li a:hover {
+	text-decoration: underline;
+}
+.alphabet li.active a{
+	background: #f69227;
+	color: #fff;
+}

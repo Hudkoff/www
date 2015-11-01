@@ -1,0 +1,418 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+    <!--#include virtual="_head.shtml"-->
+    <link href="_css/hesed.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_hesed" itemscope itemtype="http://schema.org/WebPage">
+
+<!--#include virtual="_header.shtml"-->
+
+<div class="table COL-sym wrapper">
+
+    <aside class="table-cell column-left">
+        <!--#include virtual="sidemenu/sidemenu-hesed.shtml"-->
+        <!--#include virtual="_banner-tora.shtml"-->
+        <!--#include virtual="recommendation-link/index.shtml"-->
+    </aside>
+
+    <div class="table-cell column-central" itemprop="mainContentOfPage">
+
+        <div class="content-colored">
+            <!--#include virtual="breadcrumbs/hesed.shtml"-->
+            <h1 class="color-MONEY">
+                Хесед
+            </h1>
+            <h4>Здесь можно реально помочь людям</h4>
+
+            <div class="description">
+                <p>Мы ежемесячно помогаем более чем 400 русскоязычным семьям в Израиле. Вы — наши партнеры в этом святом
+                    деле! Поставьте галочки и нажмите кнопку «Пожертвовать» внизу. Информация на странице обновляется по
+                    факту
+                    успешного проведения платежа. Если в текущем месяце собрано больше, то остаток перейдет на следующий
+                    месяц.
+                </p>
+                <a href="" title="">
+                    Правила пользования
+                </a>
+                <a href="" title="">
+                    Номера наших банковских счетов
+                </a>
+            </div>
+        </div>
+
+        <div class="hesed-list">
+
+            <form name="hesed" id="hesed">
+                <div class="heading clearfix">
+                    <div class="donate">Пожертвовать</div>
+                    <div class="pledged">Уже есть</div>
+                    <div class="need">Требуется</div>
+                    <div class="name">Названия фондов и даты их последних обновлений</div>
+                </div>
+
+                <div class="hesed-item clearfix">
+                    <div class="donate clearfix">
+                        <input class="donation-flag" type="checkbox"/>
+
+                        <div class="donation-block">
+                            <input class="donation-sum" type="text" placeholder="Сумма"
+                                   onblur="if (this.value == '' || isNaN(this.value)) this.value='';"/>
+                            <select class="donation-currency">
+                                <option value="USD"> USD</option>
+                                <option value="NIS"> NIS</option>
+                                <option value="EUR"> EUR</option>
+                                <option value="RUR"> RUR</option>
+                                <option value="GBP"> GBP</option>
+                                <option value="JPY"> JPY</option>
+                                <option value="AUD"> AUD</option>
+                                <option value="CAD"> CAD</option>
+                            </select>
+
+                            <div class="donation-type">
+                                <div class="radio-item clearfix">
+                                    <input type="radio" name="donation-type-1" value="1"/>
+
+                                    <div class="description">
+                                        Ежемесячно
+                                    </div>
+                                </div>
+                                <div class="radio-item clearfix">
+                                    <input type="radio" name="donation-type-1" value="2"/>
+
+                                    <div class="description">
+                                        Ежемесячно в течение
+                                        <input class="donation-period" type="text" value="12"/>
+                                        мес.
+                                    </div>
+                                </div>
+                                <div class="radio-item clearfix">
+                                    <input type="radio" checked="checked" name="donation-type-1" value="3"/>
+
+                                    <div class="description">
+                                        Одноразово
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pledged">
+                        <span class="sum">379</span>
+                        <span class="currency">NIS</span>
+                    </div>
+                    <div class="need">
+                        <span class="sum">1000</span>
+                        <span class="currency">NIS</span>
+
+                        <div class="info">ежемесячно</div>
+                    </div>
+                    <div class="name">
+                        <div class="info"><b>№385</b> 12.05.2015</div>
+                        Помощь семье русскоязычного раввина К.(Многодетная семья)
+                    </div>
+                </div>
+
+                <div class="hesed-item clearfix">
+                    <div class="donate clearfix">
+                        <input class="donation-flag" type="checkbox"/>
+
+                        <div class="donation-block">
+                            <input class="donation-sum" type="text" placeholder="Сумма"
+                                   onblur="if (this.value == '' || isNaN(this.value)) this.value='';"/>
+                            <select class="donation-currency">
+                                <option value="USD"> USD</option>
+                                <option value="NIS"> NIS</option>
+                                <option value="EUR"> EUR</option>
+                                <option value="RUR"> RUR</option>
+                                <option value="GBP"> GBP</option>
+                                <option value="JPY"> JPY</option>
+                                <option value="AUD"> AUD</option>
+                                <option value="CAD"> CAD</option>
+                            </select>
+
+                            <div class="donation-type">
+                                <div class="radio-item clearfix">
+                                    <input type="radio" name="donation-type-2" value="1"/>
+
+                                    <div class="description">
+                                        Ежемесячно
+                                    </div>
+                                </div>
+                                <div class="radio-item clearfix">
+                                    <input type="radio" name="donation-type-2" value="2"/>
+
+                                    <div class="description">
+                                        Ежемесячно в течение
+                                        <input class="donation-period" type="text" value="12"/>
+                                        мес.
+                                    </div>
+                                </div>
+                                <div class="radio-item clearfix">
+                                    <input type="radio" checked="checked" name="donation-type-2" value="3"/>
+
+                                    <div class="description">
+                                        Одноразово
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pledged">
+                        <span class="sum">379</span>
+                        <span class="currency">NIS</span>
+                    </div>
+                    <div class="need">
+                        <span class="sum">1000</span>
+                        <span class="currency">NIS</span>
+
+                        <div class="info">ежемесячно</div>
+                    </div>
+                    <div class="name">
+                        <div class="info"><b>№385</b> 12.05.2015</div>
+                        Помощь семье русскоязычного раввина К.(Многодетная семья)
+                    </div>
+                </div>
+
+                <div class="hesed-item clearfix">
+                    <div class="donate clearfix">
+                        <input class="donation-flag" type="checkbox"/>
+
+                        <div class="donation-block">
+                            <input class="donation-sum" type="text" placeholder="Сумма"
+                                   onblur="if (this.value == '' || isNaN(this.value)) this.value='';"/>
+                            <select class="donation-currency">
+                                <option value="USD"> USD</option>
+                                <option value="NIS"> NIS</option>
+                                <option value="EUR"> EUR</option>
+                                <option value="RUR"> RUR</option>
+                                <option value="GBP"> GBP</option>
+                                <option value="JPY"> JPY</option>
+                                <option value="AUD"> AUD</option>
+                                <option value="CAD"> CAD</option>
+                            </select>
+
+                            <div class="donation-type">
+                                <div class="radio-item clearfix">
+                                    <input type="radio" name="donation-type-3" value="1"/>
+
+                                    <div class="description">
+                                        Ежемесячно
+                                    </div>
+                                </div>
+                                <div class="radio-item clearfix">
+                                    <input type="radio" name="donation-type-3" value="2"/>
+
+                                    <div class="description">
+                                        Ежемесячно в течение
+                                        <input class="donation-period" type="text" value="12"/>
+                                        мес.
+                                    </div>
+                                </div>
+                                <div class="radio-item clearfix">
+                                    <input type="radio" checked="checked" name="donation-type-3" value="3"/>
+
+                                    <div class="description">
+                                        Одноразово
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pledged">
+                        <span class="sum">379</span>
+                        <span class="currency">NIS</span>
+                    </div>
+                    <div class="need">
+                        <span class="sum">1000</span>
+                        <span class="currency">NIS</span>
+
+                        <div class="info">ежемесячно</div>
+                    </div>
+                    <div class="name">
+                        <div class="info"><b>№385</b> 12.05.2015</div>
+                        Помощь семье русскоязычного раввина К.(Многодетная семья)
+                    </div>
+                </div>
+
+                <div class="hesed-item clearfix">
+                    <div class="donate clearfix">
+                        <input class="donation-flag" type="checkbox"/>
+
+                        <div class="donation-block">
+                            <input class="donation-sum" type="text" placeholder="Сумма"
+                                   onblur="if (this.value == '' || isNaN(this.value)) this.value='';"/>
+                            <select class="donation-currency">
+                                <option value="USD"> USD</option>
+                                <option value="NIS"> NIS</option>
+                                <option value="EUR"> EUR</option>
+                                <option value="RUR"> RUR</option>
+                                <option value="GBP"> GBP</option>
+                                <option value="JPY"> JPY</option>
+                                <option value="AUD"> AUD</option>
+                                <option value="CAD"> CAD</option>
+                            </select>
+
+                            <div class="donation-type">
+                                <div class="radio-item clearfix">
+                                    <input type="radio" name="donation-type-4" value="1"/>
+
+                                    <div class="description">
+                                        Ежемесячно
+                                    </div>
+                                </div>
+                                <div class="radio-item clearfix">
+                                    <input type="radio" name="donation-type-4" value="2"/>
+
+                                    <div class="description">
+                                        Ежемесячно в течение
+                                        <input class="donation-period" type="text" value="12"/>
+                                        мес.
+                                    </div>
+                                </div>
+                                <div class="radio-item clearfix">
+                                    <input type="radio" checked="checked" name="donation-type-4" value="3"/>
+
+                                    <div class="description">
+                                        Одноразово
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pledged">
+                        <span class="sum">379</span>
+                        <span class="currency">NIS</span>
+                    </div>
+                    <div class="need">
+                        <span class="sum">1000</span>
+                        <span class="currency">NIS</span>
+
+                        <div class="info">ежемесячно</div>
+                    </div>
+                    <div class="name">
+                        <div class="info"><b>№385</b> 12.05.2015</div>
+                        Помощь семье русскоязычного раввина К.(Многодетная семья)
+                    </div>
+                </div>
+
+                <div class="submit-block clearfix">
+                    <div class="submit-block-wrapper">
+                        <div class="label">Итого к оплате:</div>
+                        <div class="total-sum">
+                            <span class="sum">0</span>
+                            <span class="currency">USD</span>
+                        </div>
+                        <span class="p_pay">
+                            <a class="submit" href="popup_pay.shtml">Пожертвовать</a>
+                            <a href="popup_pay-settings.shtml" style="display: none;">Платежные данные</a>    
+                        </span>
+                        <a class="note" href="" title="">Примечание к платежу</a>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+        <div class="hesed-completed">
+            <div class="heading">
+                <h4>Уже собранные в этом месяце</h4>
+                <span class="accordion-arrow arrow-down"></span>
+            </div>
+        </div>
+
+        <div class="hesed-feedback">
+            <div class="heading">
+                <h4>Обратная связь</h4>
+                <span class="accordion-arrow arrow-up"></span>
+            </div>
+            <div class="feedback-item">
+                <div class="info"><b>№385</b> 12.05.2015</div>
+                <div class="feedback-text">
+                    Рав О. выражает глубокую признательность за поддержку его семье в трудной жизненной ситуации.
+                </div>
+            </div>
+            <div class="feedback-item">
+                <div class="info"><b>№385</b> 12.05.2015</div>
+                <div class="feedback-text">
+                    Рав О. выражает глубокую признательность за поддержку его семье в трудной жизненной ситуации.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="column-right table-cell">
+        <!--#include virtual="_bank-info-block.shtml"-->
+
+        <section class="donaters-list">
+            <div class="heading">Помогли:</div>
+            <ul>
+                <li>
+                    mikhail — <span class="amount">500</span>USD
+                    <div class="info">8 марта, Толдот Йешурун</div>
+                </li>
+                <li>
+                    mikhail — <span class="amount">500</span>USD
+                    <div class="info">8 марта, Толдот Йешурун</div>
+                </li>
+                <li>
+                    mikhail — <span class="amount">500</span>USD
+                    <div class="info">8 марта, Толдот Йешурун</div>
+                </li>
+                <li>
+                    mikhail — <span class="amount">500</span>USD
+                    <div class="info">8 марта, Толдот Йешурун</div>
+                </li>
+                <li>
+                    mikhail — <span class="amount">500</span>USD
+                    <div class="info">8 марта, Толдот Йешурун</div>
+                </li>
+            </ul>
+        </section>
+
+        <div class="donation-manual">
+            <p>Если Вы не хотите, чтобы Ваше имя (без фамилии) отображалось в списке выше, нажмите на «платежные данные» в окне выбора способа платежа и выставьте соответствующую галочку. В нем выводятся последние 10 пожертвований на сумму 5$ и выше.</p>
+            <p>Под именем пожертвовавшего приведено название раздела, в котором произведено пожертвование. Сумма переводится адресатам полностью, комиссию, удержанную платежными системами, оплачивает Толдот Йешурун</p>
+            <div class="tax-free">
+                Все пожертвования освобождаются от налогов в <span class="country">США</span>, <span class="country">Израиле</span> и <span class="country">Германии</span>
+            </div>
+        </div>
+
+        <!--#include virtual="_currency-block.shtml"-->
+
+        <section class="related">
+            <h3 class="color-LIGHTGRAY bordered">В тему</h3>
+
+            <div class="related-item">
+                <a href="" title="">
+                <img src="/images/avatar-12.jpg"/>
+                <div class="heading">
+                    Любите делать добро 2.
+                </div>
+                </a>
+            </div>
+
+            <div class="related-item">
+                <a href="" title="">
+                    <img src="/images/avatar-11.jpg"/>
+                    <div class="heading">
+                        Отдаю десятину с прибыли после вычета расходов. Покупка оборудования — это расход?
+                    </div>
+                </a>
+            </div>
+
+        </section>
+    </div>
+
+</div>
+
+
+<!--#include virtual="_footer.shtml"-->
+
+<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

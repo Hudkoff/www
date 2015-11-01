@@ -1,0 +1,30 @@
+
+.intopic {
+	border: 1px solid #e5e5e5;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	padding: 15px 20px 20px;
+	background: rgba(255,255,255,.9);
+}
+.intopic h3 {
+	font-family: 'Noto Serif', serif;
+	margin-bottom: 20px;
+}
+.intopic ul {
+	margin-bottom: 20px;
+}
+.intopic li {
+	padding-bottom: 5px;
+}
+.intopic li:before {
+	color: #2f63b7;
+	display: inline-block;
+	content: "\2022";
+	padding-right: 5px;
+}
+.intopic a {
+	color: #2f63b7;
+}
+.daytopic-content .intopic {
+	margin-top: 20px;
+}

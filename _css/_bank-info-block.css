@@ -1,0 +1,27 @@
+.bank-info-block a {
+	clear: both;
+	display: block;
+}
+.bank-info-block a.bank-link{
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	display: inline;
+}
+.bank-info-block .webmoney-links {
+	margin-top: 15px;
+}
+.bank-info-block a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+.visas {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.visas img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}

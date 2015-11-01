@@ -1,0 +1,109 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/family.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_family" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="articles-main table COL-sym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-family.shtml"-->
+			<!--#include virtual="_banner-fam-prog.shtml"-->
+			<!--#include virtual="_banner-fam-cons.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<div class="content_colored">
+				<!--#include virtual="breadcrumbs/family.shtml"-->
+
+				<h1 class="color-LIGHTGRAY bordered clearfix">
+					Семья
+					<a href="#" class="askLink" title="Спросить раввина">Спросить раввина</a>
+					<a href="#" class="askQuestionButton p_ask-rav" title="Спросить семейного консультанта">Спросить семейного консультанта</a>
+				</h1>
+
+				<div class="article-of-day">
+					<div class="topPageInfo">
+						<b>20 567</b>
+						вопросов,
+						<b>358</b>
+						консультантов отвечают
+					</div>
+
+					<section>
+						<!--#include virtual="articles-link/index-31.shtml"-->
+					</section>
+
+				</div>
+				
+			</div>
+
+			<div class="content_bordered">
+				<div class="clearfix">
+					<!--#include virtual="_socials-like.shtml"-->					
+					<!--#include virtual="_socials-share.shtml"-->
+				</div>
+				<br>
+				<!--#include virtual="articles/article.shtml"-->
+
+			</div>
+			<br>
+
+			<h3 class="color-LIGHTGRAY bordered">В тему</h3>
+			<div class="table COL-three">
+				<div class="table-cell">
+					<!--#include virtual="daytopic-article/index-01.shtml"-->
+					<!--#include virtual="daytopic-article/index-02.shtml"-->
+					<!--#include virtual="daytopic-article/index-03.shtml"-->
+					<!--#include virtual="daytopic-article/index-04.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="daytopic-article/index-05.shtml"-->
+					<!--#include virtual="daytopic-article/index-06.shtml"-->
+					<!--#include virtual="daytopic-article/index-07.shtml"-->
+					<!--#include virtual="daytopic-article/index-08.shtml"-->
+				</div>
+				<div class="table-cell">
+					<!--#include virtual="daytopic-article/index-09.shtml"-->
+					<!--#include virtual="daytopic-article/index-10.shtml"-->
+					<!--#include virtual="daytopic-article/index-11.shtml"-->
+				</div>
+			</div>
+
+		</div>
+
+		<div class="column-right table-cell lenta-column">
+
+		 	<!--#include virtual="reminder/family-consult.shtml"-->
+			<!--#include virtual="_banner-fam-prog.shtml"-->
+			<!--#include virtual="_banner-fam-cons.shtml"-->
+
+			<section>
+				<h4 class="color-FAMILY bordered">Семья</h4>
+				<div>
+					<!--#include virtual="article-link/family-consult-11.shtml"-->
+					<!--#include virtual="article-link/family-consult-11.shtml"-->
+					<!--#include virtual="article-link/family-consult-11.shtml"-->
+				</div>
+			</section>
+
+		</div>
+
+	</div>
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

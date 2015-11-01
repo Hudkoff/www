@@ -1,0 +1,32 @@
+.useful-links {
+	font: normal 13px 'Open Sans', sans-serif;
+	color: #797979;
+}
+.useful-links .right {
+	text-align: right;
+}
+.useful-links a {
+	color: #797979;
+}
+.useful-links a:hover {
+	text-decoration: none;
+}
+.useful-links a.video {
+	text-decoration: none;	
+}
+.useful-links a.video:before {
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin: 0 5px 0 0;
+	border-style: solid;
+	border-width: 4px 0 4px 8px;
+	border-color: transparent transparent transparent #797979;
+}
+.useful-links a.video span {
+	text-decoration: underline;
+}
+.useful-links a.video:hover span {
+	text-decoration: none;
+}

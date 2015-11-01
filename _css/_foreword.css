@@ -1,0 +1,17 @@
+.page_library .foreword {
+	background: #eeeeee;
+}
+
+.foreword {
+	padding: 40px 20px;
+	margin-bottom: 20px;
+}
+.foreword h4 {
+	margin-bottom: 20px;
+}
+.foreword p {
+	margin-bottom: 10px;
+	font-family: 'Noto Serif', serif;
+    font-size: 14px;
+    line-height: 1.4;
+}

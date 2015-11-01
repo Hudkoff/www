@@ -1,0 +1,13 @@
+
+<div class="photoLink">
+	<div class="image">
+		<a href="#" title="">
+			<img src="images/photo-6.jpg" alt="">
+		</a>
+	</div>
+	<h6>Весенний пикник</h6>
+	<div class="info">
+		28 марта, <b>Рав Моше Пантелят</b>
+	</div>
+</div>
+

@@ -1,0 +1,139 @@
+/* стили для страницы аудио */
+@import "_block-seo.css";
+@import "_daytopic-title.css";
+@import "_daytopic.css";
+@import "_daytopic-article.css";
+@import "_authors-list.css";
+
+@import "_tests.css";
+@import "_audio-link.css";
+@import "_catalog-pagination.css";
+@import "_radio-toldot.css";
+@import "_lessons-navigation.css";
+@import "_download.css";
+@import "_catalog-filters.css";
+@import "_useful-links.css";
+
+.audio-main {
+	margin-bottom: 25px;
+}
+
+.audio-main .column-central .column-left {
+	width: 57%;
+	padding: 0;
+}
+.audio-main .lenta-box {
+	border: 2px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.audio-main .column-central h3 {
+  	padding: 10px 0 12px 0;
+}
+.audio-main .column-central .more {
+	float: right;
+	margin-top:13px;
+	font: normal 13px 'Open Sans', sans-serif;
+	color: #4a7ec0;
+}
+
+.audio-main .column-central p.txt {
+	color: #777777;
+	font: normal 13px 'Open Sans', sans-serif;
+	margin-bottom: 10px;
+}
+
+
+
+
+.audio-catalog .catalog-pagination li.selected a {
+	background-color: #c4af23;
+}
+
+
+
+
+.audio-catalog .column-right .more {
+	float: right;
+	font: normal 13px 'Noto Serif', serif;
+}
+/*.audio-catalog .column-left section {
+	margin-top: 13px;
+}*/
+
+.audio-catalog .banner {
+	display: block;
+	margin-bottom: 20px;
+}
+.audio-catalog .audio-list-wrapper {
+	margin-bottom: 20px;
+	padding: 20px;
+	background: #faf9e6;
+}
+
+.audio-catalog .audio-list-wrapper .block-title {
+	padding: 0 0 10px 0;
+	margin-bottom: 10px;
+  	border-bottom: 1px solid #e5e5e5;
+  	font-family: 'Noto Serif', serif;
+  	font-size: 20px;
+  	font-weight: bold;
+  	color: #b38d39;
+}
+
+.audio-catalog .audio-list {
+	margin-bottom: 25px;
+  	border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+
+.familyQuestion .question {
+    display: block;
+    margin: 15px 39px 0 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #0a3674;
+}
+
+
+
+
+.page_audio .audio-name {
+	margin-bottom: 20px;
+}
+.page_audio .audio-name .author-photo {
+    float: left;
+    width: 128px;
+    height: 128px;
+    border-radius: 4px;
+    background-size: cover;
+}
+.page_audio .audio-name .audio-info-container {
+    margin-left: 148px;
+}
+.page_audio .audio-name .audio-info-container .details {
+   	font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #6c6c6c;
+    line-height: 1.5;
+    margin-bottom: 15px
+}
+.page_audio .audio-name .audio-info-container .details a {
+    color: #6c6c6c;
+}
+.page_audio .audio-name .audio-info-container .description {
+    font-family: 'Noto Serif', serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.page_audio .audio-bar {
+	margin-bottom: 25px;
+}
+
+
+.author-cycles {
+	margin-bottom: 20px;
+}

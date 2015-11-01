@@ -1,0 +1,8 @@
+<div class="learn-item">
+	<a href="#" class="learn-item-link" title="">
+		<div class="image table">
+			<img src="images/test-01.jpg" alt=""/>
+		</div>
+		<p class="title">Как правильно <br> ругаться?</p>
+	</a>
+</div>

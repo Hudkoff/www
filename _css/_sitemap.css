@@ -1,0 +1,166 @@
+/* для отображения в футере */
+.sitemap-box {
+	padding: 15px 0 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+.sitemap-box .section {
+	float: left;
+	margin-right: 2%;
+}
+/* общие стили для ссылок */
+.sitemap-box a {
+	font-size: 12px;
+	color: #505050;
+	text-decoration: none;
+	display: block;
+}
+.sitemap-box a:hover {
+	text-decoration: underline;
+}
+/* родительский пункт */
+.sitemap-box a.menu-item {
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 3.3;
+}
+/* дочерний */
+.sitemap-box a.submenu-item {
+	line-height: 1.8;
+}
+.sitemap-box .arrowed bordered {
+	display: none;
+}
+
+
+
+
+
+
+
+/* для отображения в меню */ 
+.main-menu {
+	height: 57px;
+	border-bottom: 1px solid #fff;
+	position: relative; /* чтобы выпадающее меню позиционировалось относительно родителя */
+}
+.main-menu .root {
+	position: absolute;
+	z-index: 1000;
+	left: 0;
+	right: 0;
+	top: 9px;
+}
+.main-menu .section .submenu {
+	display: none;
+	padding-top: 28px;
+
+}
+/*.main-menu:hover .section .submenu {
+}*/
+.main-menu .section:hover .submenu {
+	padding-top: 27px;
+}
+.main-menu .wrapper {
+	padding: 0 12px;
+}
+
+
+.main-menu .no-in-menu {
+	display: none;
+}
+.main-menu .submenu-bg {
+	display: none;
+	opacity: 0.97;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 60px; /* высоту лучше не делать большей высоты пункта меню первого уровня */
+	background: #f2f2f2;
+	z-index: 999;
+	height: 190px;
+
+	-webkit-box-shadow: 0px 25px 54px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 25px 54px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 25px 54px 0px rgba(0,0,0,0.2);
+}
+/*.main-menu:hover .submenu-bg,
+.main-menu:hover .submenu-bg:hover,
+.main-menu .submenu-bg:hover,
+.menu .submenu-bg.on {
+	/*display: block;
+}*/
+
+
+
+.main-menu .section {
+	float: left; 
+	/*margin-right: 0%;*/
+	cursor: pointer;
+}
+@media all and (min-width: 1000px) {
+	.main-menu .section {
+		/*margin-right: 0.3%;*/
+	}
+}
+@media all and (min-width: 1024px) {
+	.main-menu .section {
+		/*margin-right: 1%;*/
+	}
+}
+.main-menu .section:first-child {
+	padding-left: 0;
+}
+
+
+
+.main-menu .section .menu-item {
+	display: inline-block;
+	font-family: 'Noto Serif', serif;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #0e53b2;
+	padding: 4px 8px 8px;
+	margin-right: 14px;
+
+}
+.main-menu .section .menu-item:after {
+	display: inline-block;
+	content: "";
+	width: 10px;
+	height: 7px;
+	margin-left: 8px;
+	background-image: url("../images/sprite_arrow.png");
+	background-position: 0 100%;
+	margin-bottom: 2px;
+}
+.main-menu .section:hover .menu-item {
+	background-color: #0e53b2;
+	color: #fff;
+}
+.main-menu .section:hover .menu-item:after {
+	background-position: 0 0;
+}
+.main-menu .section:hover .submenu-item {
+	text-shadow: 0px 1px 0px rgba(150, 150, 150, 1);
+	color: #000;
+}
+
+
+
+
+
+.main-menu .submenu li {
+	margin: 0 0 10px 8px;
+	line-height: 0.95;
+}
+.main-menu .submenu-item {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	color: #222;
+	text-decoration: none;
+}
+.main-menu .submenu-item:hover {
+	text-decoration: underline;
+}

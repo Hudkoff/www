@@ -1,0 +1,15 @@
+<div class="library-item clearfix">
+	<a href="#" class="library-item-link" title="">
+		<div class="image">
+			<img src="/images/library-05.jpg" alt=""/>
+		</div>
+		<h4 class="title">Махзор на Шавуот «Время дарования нашей Торы»</h4>
+	</a>
+	<div class="description">
+		Второй из серии махзоров на «Шалош регалим» с параллельным переводом на русский язык и транслитерацией, с подробными комментариями детальными инструкциями. Нусах ашкеназ
+	</div>
+	<div class="buttons">
+		<a href="#" class="buttonGRAY download">Скачать</a>
+		<a href="#" class="buttonGRAY buy">Купить</a>
+	</div>
+</div>

@@ -1,0 +1,81 @@
+/*----------------------------------*/
+.page_learning .my-results {
+	display: block;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 900;
+	color: #7247ba;
+	text-transform: uppercase;
+	padding: 15px 0;
+	background-color: #f2f2f2;
+	margin-bottom: 25px;
+}
+/*----------------------------------*/
+.page_learning .thematic-tests ul {
+	list-style: disc;
+	list-style-position: inside;
+	color: #2f63b7;
+	margin: 8px 0 18px;
+
+}
+.page_learning .thematic-tests ul li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+}
+/*----------------------------------*/
+.page_learning .rating-block {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.page_learning .rating-block .heading {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.page_learning .rating-block ul {
+	list-style: decimal;
+	list-style-position: inside;
+}
+.page_learning .rating-block ul li{
+	margin-bottom: 8px;
+}
+
+.page_learning .rating-block .average {
+	background-color: #f1d7d1;
+	padding: 12px 12px 4px;
+}
+.page_learning .rating-block .speed {
+	background-color: #c4e1f6;
+	padding: 12px 12px 4px;
+}
+.page_learning .rating-block .quantity {
+	background-color: #d0f6cb;
+	padding: 12px 12px 4px;
+}
+
+.page_learning .rating-block .rating-calculate {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #0a3674;
+	margin: 10px 0 25px;
+}
+/*----------------------------------*/
+.page_learning .recent-completed-item {
+	font-family: 'Open Sans', sans-serif;
+	padding: 15px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.page_learning .recent-completed-item:last-child {
+	border-bottom: none;
+}
+.page_learning .recent-completed-item .heading {
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+.page_learning .recent-completed-item .info {
+	font-size: 12px;
+	color: #6c6c6c;
+}

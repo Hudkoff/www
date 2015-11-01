@@ -1,0 +1,9 @@
+<ul class="catalog-filters">
+	<li><span>Консультант</span></li>
+	<li>
+		<ul>
+			<li><span>Название</span></li>
+			<li><span>Тип материала</span></li>
+		</ul>
+	<li><span>Дата</span></li>
+</ul>

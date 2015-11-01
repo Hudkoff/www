@@ -1,7 +1,5 @@
-<link href="video-link/css/css.css" rel="stylesheet" type="text/css" />
-
-<a href="" class="video-link clearfix" title="">
-	<div class="screenshot" style="background-image: url('video-link/images/screen_02.jpg')">
+<a href="" class="video-link content_transparent clearfix" title="">
+	<div class="screenshot" style="background-image: url('images/screen_02.jpg')">
 		<div class="fader">
 			<div class="icon"></div>
 			<div class="date">25 мая</div>
@@ -13,4 +11,3 @@
 		<p class="details">28 марта, <b>Рав Моше Пантелят. «Уроки Пятикнижия»</b></p>
 	</div>
 </a>
-

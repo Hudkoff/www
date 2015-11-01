@@ -1,0 +1,365 @@
+@import "_currency-block.css";
+@import "_bank-info-block.css";
+
+/* ============================================================================== */
+
+.page_hesed .content-colored {
+	background-color: #e8eff7;
+	padding: 20px;
+}
+
+.page_hesed .content-colored .description {
+	margin-top: 12px;
+	font-family: 'Open Sans', sans-serif;
+	color: #222325;
+	font-size: 13px;
+
+}
+
+.page_hesed .content-colored .description a {
+	display: inline-block;
+	margin-right: 35px;
+	margin-top: 18px;
+	border-bottom: 1px dotted;
+	text-decoration: none;
+}
+
+.hesed-list {
+	margin: 30px 0;
+}
+.hesed-list .heading {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	color: #222325;
+	padding: 0 10px 8px;
+	border-bottom: 1px solid #d3d8df;
+}
+
+.hesed-list .need {
+	float: right;
+	width: 100px;
+}
+.hesed-list .pledged {
+	float: right;
+	width: 120px;
+}
+.hesed-list .donate {
+	float: right;
+	width: 170px;
+	position: relative;
+}
+.hesed-list .name {
+	width: 100%;
+	padding-right: 400px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.hesed-item {
+	padding: 10px 10px 15px;
+	border-top: 1px solid #e5e5e5;
+
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+
+.hesed-item .name {
+	font-family: 'Noto Serif', serif;
+	font-weight: bold;
+	color: #000;
+	font-size: 14px;
+}
+.hesed-item .name .info {
+	margin-bottom: 7px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #6c6c6c;
+}
+
+
+.hesed-item .need,
+.hesed-item .pledged,
+.hesed-item .donate {
+	margin-top: 8px;
+}
+.hesed-item .need .sum{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #e60000;
+}
+.hesed-item .need .currency{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #6c6c6c;
+}
+.hesed-item .need .info{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+
+
+.hesed-item .pledged .sum{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #6da420;
+}
+.hesed-item .pledged .currency{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #6c6c6c;
+}
+
+.hesed-list .donation-flag {
+	position: absolute;
+	left: 0;
+}
+.hesed-item .donation-block {
+	display: none;
+}
+.hesed-item.active {
+	background-color: #e8eff7;
+}
+.hesed-item .donation-block .donation-sum{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	padding: 6px;
+	width: 60px;
+	height: 21px;
+	line-height: 20px;
+	vertical-align: middle;
+	border: 1px solid #d4d4d4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	margin-left: 30px;
+
+}
+
+.hesed-item .donation-block .donation-currency {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	position: relative;
+	top: -7px;
+	width: 60px;
+	height: 21px;
+	line-height: 20px;
+	vertical-align: middle;
+	border: 1px solid #d4d4d4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.hesed-item .donation-block .donation-type {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+.hesed-item .donation-block .donation-type .radio-item {
+	margin-bottom: 5px;
+}
+.hesed-item .donation-block .donation-type input[type="radio"]{
+	float: left;
+	position: relative;
+	top: -3px;
+}
+.hesed-item .donation-block .donation-type .donation-period {
+	width: 30px;
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	border: 1px solid #d4d4d4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+	padding: 0;
+	position: relative;
+	top: 5px;
+}
+
+.page_hesed .submit-block {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #e8eff7;
+	padding: 20px;
+	border-top: 1px solid #e5e5e5;
+}
+.submit-block-wrapper {
+	width: 380px;
+	float: right;
+}
+.submit-block .label {
+	font-weight: bold;
+	font-size: 13px;
+	color: #000;
+	text-transform: uppercase;
+}
+.submit-block .total-sum {
+	display: inline-block;
+	width: 195px;
+	height: 32px;
+	line-height: 32px;
+	vertical-align: middle;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	padding: 0 8px;
+	background-color: #a8daa4;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.submit-block .total-sum .sum {
+	font-size: 20px;
+	font-weight: bold;
+}
+.submit-block .total-sum .currency {
+	font-size: 14px;
+	color: #6c6c6c;
+}
+.submit-block  a.submit {
+	display: inline-block;
+	height: 32px;
+	width: auto;
+	margin-bottom: 15px;
+	line-height: 31px;
+	vertical-align: middle;
+	padding: 0 11px;
+	background-color: #56a5d2;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #fff;
+	text-decoration: none;	
+}
+.submit-block .note {
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	font-size: 13px;
+}
+.hesed-completed,
+.hesed-feedback {
+	margin-bottom: 25px;
+}
+.hesed-completed .heading,
+.hesed-feedback .heading {
+	padding-bottom: 12px;
+	border-bottom: 2px solid #e5e5e5;
+	cursor: pointer;
+}
+.hesed-completed h4,
+.hesed-feedback h4 {
+	display: inline-block;
+	border-bottom: 1px dotted;
+
+}
+.page_hesed .accordion-arrow {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: url("/images/accordion-arrows-sprite.png") no-repeat;
+}
+.page_hesed .accordion-arrow.arrow-up {
+	background-position: 0 0;
+}
+.page_hesed .accordion-arrow.arrow-down {
+	background-position: 0 -10px;
+}
+.hesed-feedback .feedback-item {
+	padding: 15px 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.feedback-item .info {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #6c6c6c;
+	margin-bottom: 5px;
+}
+.feedback-item .feedback-text {
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.donaters-list {
+	font-family: 'Open Sans', sans-serif;
+	border: 2px solid #e8e8e8;
+}
+.donaters-list .heading {
+	padding: 10px 8px;
+	background-color: #e8e8e8;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+}
+.donaters-list li {
+	font-size: 13px;
+	padding: 9px 8px;
+	background-color: #f4f4f4;
+}
+.donaters-list li:nth-child(2n){
+	background-color: #fff;
+}
+.donaters-list li .amount {
+	color: #6da420;
+}
+.donaters-list li .info {
+	margin-top: 5px;
+	font-size: 12px;
+	color: #6c6c6c
+}
+
+.donation-manual {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+}
+.donation-manual .tax-free {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 10px 0 20px;
+}
+.donation-manual .tax-free .country {
+	color: #0e53b2;
+}
+
+.related-item {
+	padding: 20px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.related-item a {
+	text-decoration: none;
+}
+.related-item .heading {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+	margin-top: 5px;
+}

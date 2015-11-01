@@ -1,8 +1,4 @@
-<link href="intoldot/css/css.css" rel="stylesheet" type="text/css" />
-
-
-<a href="#" class="intoldot" title="">
+<section class="intoldot">
 	<p class="date">6 апреля, 22:00</p>
-	<p class="description">На месте нацистского концлагеря в Крыму откроют мемориальный комплекс</p>
-</a>
-
+	<a href="#" class="description" title="">На месте нацистского концлагеря в Крыму откроют мемориальный комплекс</a>
+</section>

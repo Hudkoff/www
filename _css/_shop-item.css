@@ -1,0 +1,46 @@
+.shop-item {
+	display: block;
+	padding: 20px 20px 0;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+.shop-item .image {
+	text-align: center;
+	font-size: 0;
+	margin-bottom: 5px;
+}
+.shop-item .price {
+	background-color: #1159a9;
+	color: #fff;
+	font-size: 18px;
+	padding: 4px 0 3px;
+}
+.shop-item .title {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 5px;
+}
+.shop-item .author {
+	font-size: 13px;
+	font-weight: bold;
+	color: #717171;
+}
+.shop-item:hover .title,
+.shop-item:hover .author {
+	text-decoration: underline;
+}
+.shop-item .discount {
+	background-image: url("/images/sale-bg.png");
+	width: 107px;
+	height: 37px;
+	line-height: 37px;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: 900;
+	position: relative;
+	top: -3px;
+	left: 50%;
+	margin-left: -53px;
+	color: #000;
+}

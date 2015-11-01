@@ -1,0 +1,101 @@
+.socials-share-block,
+.socials-like-block {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #676767;
+    /*margin-top: 20px;*/
+}
+
+
+
+
+.socials-share-block .b-share-icon_vkontakte{
+    background-position: -24px 0;
+}
+.socials-share-block .b-share-icon_vkontakte:hover{
+    background-position: -24px -24px;
+}
+.socials-share-block .b-share-icon_facebook {
+    background-position: 0 0;
+}
+.socials-share-block .b-share-icon_facebook:hover {
+    background-position: 0 -24px;
+}
+.socials-share-block .b-share-icon_twitter {
+    background-position: -48px 0;
+}
+.socials-share-block .b-share-icon_twitter:hover {
+    background-position: -48px -24px;
+}
+.socials-share-block .b-share-icon_odnoklassniki{
+    background-position: -144px 0;
+}    
+.socials-share-block .b-share-icon_odnoklassniki:hover{
+    background-position: -144px -24px;
+}    
+.socials-share-block .b-share-icon_lj{
+    background-position: -72px 0;
+}    
+.socials-share-block .b-share-icon_lj:hover{
+    background-position: -72px -24px;
+}    
+.socials-share-block .b-share-icon_gplus {
+  background-position: -96px 0;
+}
+.socials-share-block .b-share-icon_gplus:hover {
+  background-position: -96px -24px;
+}
+.socials-share-block .b-share-icon_t{
+    background-position: -120px 0;
+}    
+.socials-share-block .b-share-icon_t:hover{
+    background-position: -120px -24px;
+}    
+.socials-share-block .b-share-icon{
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/socials.png");
+}
+.socials-share-block .b-share__link{
+    margin: 8px 10px 3px 0;
+    height: 24px;
+    padding: 0 !important;
+    float: left;
+}
+.socials-share-block .b-share {
+    padding: 0 !important;
+}
+/* для страниц */
+.page_life      .socials-like-block,
+.page_articles      .socials-like-block,
+.page_family        .socials-like-block,
+.page_audio         .socials-like-block,
+.page_ask-article   .socials-like-block,
+.page_blogs         .socials-like-block {
+    width: 50%;
+    float: left;
+}
+.page_life      .socials-like-block,
+.page_articles      .socials-like-block,
+.page_family        .socials-like-block,
+.page_audio         .socials-share-block,
+.page_ask-article   .socials-share-block,
+.page_blogs         .socials-share-block {
+    width: 50%;
+    /*margin-left: 1%;*/
+    float: left;
+}
+.page_video .socials-like-block {
+    float: left;
+}
+.page_video .socials-share-block {
+    margin-left: 1%;
+    float: right;
+}
+.page_life .socials-like-block {
+    float: left;
+}
+.page_life .socials-share-block {
+    float: right;
+}

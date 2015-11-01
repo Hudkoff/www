@@ -1,0 +1,19 @@
+<div class="article-link clearfix" title="">
+	<div class="icon">
+		<img src="images/avatar-21.jpg" alt="" />
+	</div>
+	<div class="content">
+		<a href=""><h4>По спирали времени</h4></a>
+		<span class="label cycle">Циклы</span> <a href="#" class="more small-more">2 новых выпуска</a>
+		<p class="details">
+			10 апреля, <b>Неизвестный автор</b><br>
+		</p>
+		<p class="description">
+			Во многих еврейских семьях, не ведущих традиционный образ жизни, существует странный, на первый взгляд, обычай: собираться раз в год 	
+		</p>
+		<div class="buttons">
+			<!--#include virtual="/buttons/subscribe-with-popup.shtml?"-->
+			<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
+		</div>
+	</div>
+</div>

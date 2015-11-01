@@ -1,0 +1,57 @@
+.ui-datepicker-calendar {
+	width: 100%;
+	margin-bottom: 30px
+}
+.ui-datepicker-title {
+	text-align: center;
+}
+.ui-datepicker-year {display: none}
+.ui-datepicker-month {
+	font-family: 'Noto Serif', serif;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #3792aa
+}
+.ui-datepicker-header {
+	position: relative;
+	height: 30px;
+	margin-bottom: 20px;
+}
+.ui-datepicker-prev,
+.ui-datepicker-next {
+	position: absolute;
+	text-indent: -9999px;
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-image: url("../images/arrows-sprite.png");
+	cursor: pointer;
+}
+.ui-datepicker-prev {
+	left: 0;
+}
+.ui-datepicker-next {
+	background-position: 30px 0;
+	right: 0;
+}
+
+.ui-datepicker-calendar thead {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #cccccc;
+	text-transform: lowercase;
+}
+.ui-datepicker-calendar tbody {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	text-align: center;
+	line-height: 24px;
+}
+.ui-datepicker-calendar tbody a {
+	color: #000;
+	text-decoration: none;
+}
+.ui-datepicker-today a {
+	font-weight: bold;
+}

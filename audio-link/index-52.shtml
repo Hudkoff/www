@@ -1,0 +1,19 @@
+<div class="audio-link in-catalog big-picture">
+	<div class="author-photo" style="background-image: url('images/picture_02.jpg')">
+		<a href="#"></a>
+	</div>
+	<div class="audio-info-container">
+		<div class="header clearfix">
+			<div class="center">
+				<h4><a href="#">Нужна ли еще фольга, или кмпятка с утюгом достаточно?</a></h4>
+				<p class="details">28 марта, <b>Рав Носон Шерман</b> отвечает на вопрос Эллы Абрамовны</p>
+			</div>
+		</div>
+		<p class="description">
+			Шалом. Я знаю, что в холь-амоэд («праздничные будни» — те дни праздников Песах и Суккот... <a href="#" class="more">Читать дальше</a>
+		</p>
+		<!--#include virtual="../buttons/later.shtml?"-->
+		<!--#include virtual="../buttons/subscribe-with-popup.shtml?"-->
+
+	</div>
+</div>

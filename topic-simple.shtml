@@ -1,0 +1,203 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/topic.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_topic" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div style="background: url(images/bg-1.jpg) 96% 75% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>
+	<div style="background: url(images/bg-2.jpg) 8% 52% no-repeat; position: absolute; left: 0; right: 0; height: 100%;"></div>
+	<div style="background: url(images/bg-3.jpg) 90% 94% no-repeat; position: absolute; left: 0; right: 0; height: 200%;"></div>
+
+	<div class="articles-main table COL-asym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="intopic/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<!--#include virtual="breadcrumbs/topic.shtml"-->
+			<!--#include virtual="_daytopic-title.shtml"-->
+			<div class="content_transparent main_content">
+				<p>В этом году праздник еврейского Нового года, Рош-Ашана, наступает вечером в пятницу 18 сентября. Праздничными являются оба первых дня месяца тишрей, поэтому праздник кончится с появлением на небе первых звезд вечером 20 сентября. Все это время нельзя делать никакой работы, кроме приготовления пищи непосредственно для нужд праздника. 
+				<p>В канун Рош аШана встают до наступления утра для чтения Слихот и покаянных молитв, стараясь завершить тшуву, ибо это последний находящийся в нашем распоряжении день перед Днем Суда, когда все создания проходят перед Творцом как скот перед хозяином. В этот день мы более, чем когда-либо, остерегаемся обидеть другого человека или иначе согрешить перед ним, и стараемся, чтобы ничто не отвлекало нас от процесса тшувы.
+				<p>Вдумаемся: ведь человек, который должен предстать перед судом земного, смертного царя, непременно испытывает смятение и страх, и ему не придет в голову заниматься посторонними делами — он всецело поглощен подготовкой к суду и думает о том, как ему снискать царскую милость и умолить царя о прощении. 
+			</div>
+
+		</div>
+
+		<div class="column-right table-cell lenta-column">
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</section>
+		</div>
+
+	</div>
+
+
+	<div class="articles-catalog table COL-sym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<div class="table COL-two">
+				<section class="table-cell">
+					<h3 class="color-ASK arrowed bordered">
+						<a href="#" title="">
+							Вопросы раввину
+							<b>&#9670;</b>
+						</a>
+					</h3>
+					<div>
+						<!--#include virtual="article-link/index-11.shtml"-->
+						<!--#include virtual="article-link/index-12.shtml"-->
+						<!--#include virtual="article-link/index-13.shtml"-->
+					</div>
+				</section>
+				<section class="table-cell">
+					<h3 class="color-ARTICLES arrowed bordered">
+						<a href="#" title="">
+							Статьи
+							<b>&#9670;</b>
+						</a>
+					</h3>
+					<div>
+						<!--#include virtual="article-link/index-11.shtml"-->
+						<!--#include virtual="article-link/index-12.shtml"-->
+						<!--#include virtual="article-link/index-13.shtml"-->
+					</div>
+				</section>
+			</div>
+			<br>
+
+			<div class="table COL-two">
+				<div class="table-cell">
+					<div class="table COL-two">
+						<section class="table-cell">
+							<h3 class="color-AUDIO arrowed bordered">
+								<a href="#" title="">
+									Аудио
+									<b>&#9670;</b>
+								</a>
+							</h3>
+							<div>
+								<!--#include virtual="article-link/index-41.shtml"-->
+								<!--#include virtual="article-link/index-42.shtml"-->
+								<!--#include virtual="article-link/index-41.shtml"-->
+							</div>
+						</section>
+						<section class="table-cell">
+							<h3 class="color-LEARNING arrowed bordered">
+								<a href="#" title="">
+									Тесты
+									<b>&#9670;</b>
+								</a>
+							</h3>
+							<div>
+								<!--#include virtual="tests/index-01.shtml"-->
+								<!--#include virtual="tests/index-02.shtml"-->
+								<!--#include virtual="tests/index-03.shtml"-->
+							</div>
+						</section>						
+					</div>	
+				</div>
+				<section class="table-cell">
+					<h3 class="color-VIDEO arrowed bordered">
+						<a href="#" title="">
+							Видео
+							<b>&#9670;</b>
+						</a>
+					</h3>
+					<div>
+						<!--#include virtual="video-link/index-01.shtml?block"-->
+						<!--#include virtual="video-link/index-02.shtml?none"-->
+						<!--#include virtual="video-link/index-03.shtml?none"-->
+					</div>
+				</section>
+			</div>
+			<br>
+
+			<div class="table COL-two">
+				<section class="table-cell">
+					<h3 class="color-BLOG arrowed bordered">
+						<a href="#" title="">
+							Блоги
+							<b>&#9670;</b>
+						</a>
+					</h3>
+					<div>
+						<!--#include virtual="article-link/index-31.shtml"-->
+						<!--#include virtual="article-link/index-32.shtml"-->
+						<!--#include virtual="article-link/index-33.shtml"-->
+						<!--#include virtual="article-link/index-32.shtml"-->
+					</div>
+				</section>
+				<section class="table-cell">
+					<h3 class="color-FAMILY arrowed bordered">
+						<a href="#" title="">
+							Семья
+							<b>&#9670;</b>
+						</a>
+					</h3>
+					<div>
+						<!--#include virtual="article-link/index-11.shtml"-->
+						<!--#include virtual="article-link/index-12.shtml"-->
+						<!--#include virtual="article-link/index-13.shtml"-->
+					</div>
+				</section>
+			</div>
+
+
+
+
+		</div>
+
+		<aside class="table-cell column-right">
+
+			<section>
+				<h3 class="color-PHOTO arrowed bordered">
+					<a href="#" title="">
+						Фото
+						<b>&#9670;</b>
+					</a>
+				</h3>
+
+				<div>
+					<!--#include virtual="photos/index-03.shtml"-->
+					<!--#include virtual="photos/index-04.shtml"-->
+					<!--#include virtual="photos/index-05.shtml"-->
+				</div>
+			</section>
+
+		</aside>
+
+	</div>
+
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+	<!--#include virtual="_block-seo.shtml"-->			
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

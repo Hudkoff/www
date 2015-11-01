@@ -1,0 +1,47 @@
+<div class="daytopic-content blogs-page wrapper">
+
+	<div class="bg1"></div>
+	<div class="bg2"></div>
+
+	<div class="table COL-sym">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="intopic/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central">
+			<section class="summary">
+				<p>В этом году праздник еврейского Нового года, Рош-Ашана, наступает вечером в пятницу 18 сентября. Праздничными являются оба первых дня месяца тишрей, поэтому праздник кончится с появлением на небе первых звезд вечером 20 сентября. Все это время нельзя делать никакой работы, кроме приготовления пищи непосредственно для нужд праздника.
+				</p>
+				<a class="more" href="" title="">Читать дальше</a>
+			</section>
+
+			<div class="catalog wrapper">
+			
+				<h3 class="color-GRAY bordered">
+					Блоги: Рош аШана
+				</h3>
+
+				<div class="table COL-three content">
+					<div class="table-cell double">
+						<!--#include virtual="audio-link/index-71.shtml"-->
+						<!--#include virtual="audio-link/index-72.shtml"-->
+					</div>
+					<div class="table-cell">
+						<!--#include virtual="article-link/index-51.shtml"-->
+						<!--#include virtual="article-link/index-52.shtml"-->
+						<!--#include virtual="article-link/index-51.shtml"-->
+						<a href="#" class="more" title="">Далее</a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		
+		<aside class="table-cell column-right">
+			
+		</aside>
+	</div>
+
+</div>

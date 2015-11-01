@@ -1,0 +1,8 @@
+<div class="video-live">
+	<p class="title">Прямой эфир</p>
+	<a href="#" class="screenshot" style="background-image: url('images/screen_02.jpg')">
+		<div class="fader">
+			<div class="icon"></div>	
+		</div> 
+	</a>
+</div>

@@ -1,0 +1,34 @@
+<section class="sidemenu">
+    <ul class="first-level-nav">
+        <li>
+            <h4>
+                <a href="" title="">Талмуд онлайн</a>
+            </h4>
+        </li>
+        <li>
+            <h4>
+	            <a href="" title="">Вебинары</a>
+            </h4>
+        </li>
+        <li>
+            <h4>
+                <a href="" title="">Ежедневная учеба</a>
+            </h4>
+        </li>
+        <li>
+            <h4>
+                <a href="" title="">Библиотека</a>
+            </h4>
+        </li>
+	    <li>
+		    <h4>
+			    <a href="" title="">Где учить тору?</a>
+		    </h4>
+	    </li>
+	    <li>
+		    <h4>
+			    <a href="" title="">Еврейские тесты</a>
+		    </h4>
+	    </li>
+    </ul>
+</section>

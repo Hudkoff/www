@@ -1,0 +1,813 @@
+<div id="jdBlock">
+    <div style="clear:both"></div>
+    <div class="jdsmn2">Сегодня:</div>
+    <div id="todayBlock" class="todayBlock">
+        <div class="jdbigdate">
+            <div class="jdbpl1 jdbckg1"></div>
+            <div class="jdbpl2 jdbckg1"></div>
+            <div class="jdbckg1 jdb jdr1"></div>
+            <div class="jdbckg1 jdb jdr8"></div>
+        </div>
+        <div class="jdmonthbl">
+            <div class="jdbckg1 jdmm1 jdcm5"></div>
+            <div class="jdcy">
+                <div class="jdbckg1 jdc jdbc2"></div>
+                <div class="jdbckg1 jdc jdbc0"></div>
+                <div class="jdbckg1 jdc jdbc1"></div>
+                <div class="jdbckg1 jdc jdbc5"></div>
+            </div>
+        </div>
+        <div class="jdmonthbl">
+            <div class="jdbckg1 jdmm2 jdhm1"></div>
+            <div class="jdhy">
+                <div class="jdbckg1 jdc jdbc5"></div>
+                <div class="jdbckg1 jdc jdbc7"></div>
+                <div class="jdbckg1 jdc jdbc7"></div>
+                <div class="jdbckg1 jdc jdbc5"></div>
+            </div>
+        </div>
+        <div class="jdbigdate">
+            <div class="jdbpl1 jdbckg1"></div>
+            <div class="jdbpl2 jdbckg1"></div>
+            <div class="jdbckg1 jdb jdb2"></div>
+            <div class="jdbckg1 jdb jdb9"></div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+</div>
+
+
+<div id="jdYear">
+    <div class="jdyy">
+        <div onclick="toldotJewishCalendar.buildSmallYearCalendar([15,9,2014],false,false,&quot;jdYear&quot;)"
+             class="jdbckg1 jdlea"></div>
+        <div class="jdbckg1 jdc jdbc2"></div>
+        <div class="jdbckg1 jdc jdbc0"></div>
+        <div class="jdbckg1 jdc jdbc1"></div>
+        <div class="jdbckg1 jdc jdbc5"></div>
+        <div onclick="toldotJewishCalendar.buildSmallYearCalendar([15,9,2016],false,false,&quot;jdYear&quot;)"
+             class="jdbckg1 jdria"></div>
+    </div>
+    <div class="jdchc"><span class="jdymtd bluelink dot-bordered"
+                             onclick="toldotJewishCalendar.buildSmallYearCalendar([15,9,2015],false,false,&quot;jdYear&quot;)">Сегодня</span>
+        || <span id="jdchc0" class="jdchc0"
+                 onclick="toldotJewishCalendar.buildSmallYearCalendar([15,9,2015],false,false,&quot;jdYear&quot;)">григорианский</span>
+        | <span onclick="toldotJewishCalendar.buildSmallYearCalendar([2,1,5776],true,false,&quot;jdYear&quot;)"
+                class="jdchc1" id="jdchc1">еврейский</span>
+
+        <div class="jdconv"><span class="dashed-bordered" onclick="showcard2(&quot;jdcon&quot;);">Конвертер дат</span>
+        </div>
+    </div>
+    <div id="jdMonth0" class="jdymn jdymn0"
+         onclick="toldotJewishCalendar.selectSmallMonth([1,0,2015],false,&quot;jdbCalend&quot;,this,event)">январь
+        <div class="jdym">
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdgr jdymdbl"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+        </div>
+    </div>
+    <div id="jdMonth1" class="jdymn jdymn0"
+         onclick="toldotJewishCalendar.selectSmallMonth([1,1,2015],false,&quot;jdbCalend&quot;,this,event)">февраль
+        <div class="jdym">
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+        </div>
+    </div>
+    <div id="jdMonth2" class="jdymn jdymn0"
+         onclick="toldotJewishCalendar.selectSmallMonth([1,2,2015],false,&quot;jdbCalend&quot;,this,event)">март
+        <div class="jdym">
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr jdymdbl"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+        </div>
+    </div>
+    <div id="jdMonth3" class="jdymn jdymn0"
+         onclick="toldotJewishCalendar.selectSmallMonth([1,3,2015],false,&quot;jdbCalend&quot;,this,event)">апрель
+        <div class="jdym">
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+        </div>
+    </div>
+    <div id="jdMonth4" class="jdymn jdymn0"
+         onclick="toldotJewishCalendar.selectSmallMonth([1,4,2015],false,&quot;jdbCalend&quot;,this,event)">май
+        <div class="jdym">
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+        </div>
+    </div>
+    <div id="jdMonth5" class="jdymn jdymn0"
+         onclick="toldotJewishCalendar.selectSmallMonth([1,5,2015],false,&quot;jdbCalend&quot;,this,event)">июнь
+        <div class="jdym">
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+        </div>
+    </div>
+    <div id="jdMonth6" class="jdymn jdymn0"
+         onclick="toldotJewishCalendar.selectSmallMonth([1,6,2015],false,&quot;jdbCalend&quot;,this,event)">июль
+        <div class="jdym">
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr jdymdbl"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr jdymdbl"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+        </div>
+    </div>
+    <div id="jdMonth7" class="jdymn jdymn0"
+         onclick="toldotJewishCalendar.selectSmallMonth([1,7,2015],false,&quot;jdbCalend&quot;,this,event)">август
+        <div class="jdym">
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+        </div>
+    </div>
+    <div id="jdMonth8" class="jdymn jdymn0"
+         onclick="toldotJewishCalendar.selectSmallMonth([1,8,2015],false,&quot;jdbCalend&quot;,this,event)">сентябрь
+        <div class="jdym">
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdbl"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+        </div>
+    </div>
+    <div id="jdMonth9" class="jdymn jdthy0 jdymn0"
+         onclick="toldotJewishCalendar.selectSmallMonth([1,9,2015],false,&quot;jdbCalend&quot;,this,event)">октябрь
+        <div class="jdym">
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+        </div>
+    </div>
+    <div id="jdMonth10" class="jdymn jdymn0"
+         onclick="toldotJewishCalendar.selectSmallMonth([1,10,2015],false,&quot;jdbCalend&quot;,this,event)">ноябрь
+        <div class="jdym">
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+        </div>
+    </div>
+    <div id="jdMonth11" class="jdymn jdymn0"
+         onclick="toldotJewishCalendar.selectSmallMonth([1,11,2015],false,&quot;jdbCalend&quot;,this,event)">декабрь
+        <div class="jdym">
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdwh"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr jdymdrd"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr jdymdbl"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+            <div class="jdymd jdymdgr"></div>
+        </div>
+    </div>
+</div>
+
+
+<div id="jdbCalend">
+    <div style="clear:both"></div>
+    <table class="jd">
+        <tbody>
+        <tr>
+            <th colspan="7" class="jd">
+                <div class="jdhBlock">
+                    <div class="jdMonth1"><span>тишрей</span><span> — хешван</span></div>
+                    <div class="jdYear1">5776</div>
+                    <div class="jdYear0">2015</div>
+                    <div class="jdMonth0">октябрь</div>
+                </div>
+            </th>
+        </tr>
+        <tr class="jdd">
+            <td>
+                <div>Вс</div>
+            </td>
+            <td>
+                <div>Пн</div>
+            </td>
+            <td>
+                <div>Вт</div>
+            </td>
+            <td>
+                <div>Ср</div>
+            </td>
+            <td>
+                <div>Чт</div>
+            </td>
+            <td>
+                <div>Пт</div>
+            </td>
+            <td class="jdsb">
+                <div>Сб</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="jdnull">
+                <div></div>
+            </td>
+            <td class="jdnull">
+                <div></div>
+            </td>
+            <td class="jdnull">
+                <div></div>
+            </td>
+            <td class="jdnull">
+                <div></div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">1</div>
+                    <div class="jdsd1">18 тишрея</div>
+                    <div class="jdcdn"><a class="bluelink" href="http://toldot.ru/tora/articles/articles_2222.html">Суккот</a>,
+                        холь амоэд
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">2</div>
+                    <div class="jdsd1">19 тишрея</div>
+                    <div class="jdcdn"><a class="bluelink" href="http://toldot.ru/tora/articles/articles_2222.html">Суккот</a>,
+                        холь амоэд
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="jd jdsbb">
+                    <div class="jdbd0">3</div>
+                    <div class="jdsd1">20 тишрея</div>
+                    <div class="jdcdn"><a class="bluelink" href="http://toldot.ru/tora/articles/articles_2222.html">Суккот</a>,
+                        холь амоэд
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">4</div>
+                    <div class="jdsd1">21 тишрея</div>
+                    <div class="jdcdn"><a class="bluelink" href="http://toldot.ru/tora/articles/articles_5292.html">Суккот</a>,
+                        холь амоэд, Ошана Раба
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="jd jdm5 jdbckg2">
+                    <div class="jdbd0">5</div>
+                    <div class="jdsd1">22 тишрея</div>
+                    <div class="jdcdn"><a class="bluelink" href="http://toldot.ru/tora/articles/articles_5290.html">Шмини
+                        Ацерет</a>, йом тов
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">6</div>
+                    <div class="jdsd1">23 тишрея</div>
+                    <div class="jdcdn"><a class="bluelink" href="http://toldot.ru/tora/articles/articles_5290.html"></a>Вне
+                        Израиля второй день йом тов
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">7</div>
+                    <div class="jdsd1">24 тишрея</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">8</div>
+                    <div class="jdsd1">25 тишрея</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">9</div>
+                    <div class="jdsd1">26 тишрея</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd jdsbb">
+                    <div class="jdbd0">10</div>
+                    <div class="jdsd1">27 тишрея</div>
+                    <div class="jdcdn">
+                        <div class="jdps">Глава <a class="bluelink"
+                                                   href="http://toldot.ru/tora/library/humash/bereshit/bereshit/">Берешит</a>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">11</div>
+                    <div class="jdsd1">28 тишрея</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">12</div>
+                    <div class="jdsd1">29 тишрея</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">13</div>
+                    <div class="jdsd1">30 тишрея</div>
+                    <div class="jdcdn">
+                        <div class="jdrh"><a class="bluelink" href="http://toldot.ru/tora/articles/articles_14103.html">Рош
+                            ходеш Хешван 1</a></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="jd jdrh1 jdbckg2">
+                    <div class="jdbd0">14</div>
+                    <div class="jdsd1">1 хешвана</div>
+                    <div class="jdcdn">
+                        <div class="jdrh"><a class="bluelink" href="http://toldot.ru/tora/articles/articles_14103.html">Рош
+                            ходеш Хешван 2</a></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="jd jdtd">
+                    <div class="jdbd0">15</div>
+                    <div class="jdsd1">2 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">16</div>
+                    <div class="jdsd1">3 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd jdsbb">
+                    <div class="jdbd0">17</div>
+                    <div class="jdsd1">4 хешвана</div>
+                    <div class="jdcdn">
+                        <div class="jdps">Глава <a class="bluelink"
+                                                   href="http://toldot.ru/tora/library/humash/bereshit/noah/">Ноах</a>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">18</div>
+                    <div class="jdsd1">5 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">19</div>
+                    <div class="jdsd1">6 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">20</div>
+                    <div class="jdsd1">7 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">21</div>
+                    <div class="jdsd1">8 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">22</div>
+                    <div class="jdsd1">9 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">23</div>
+                    <div class="jdsd1">10 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd jdsbb">
+                    <div class="jdbd0">24</div>
+                    <div class="jdsd1">11 хешвана</div>
+                    <div class="jdcdn">
+                        <div class="jdps">Глава <a class="bluelink"
+                                                   href="http://toldot.ru/tora/library/humash/bereshit/leh/">Лех
+                            Леха</a></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">25</div>
+                    <div class="jdsd1">12 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">26</div>
+                    <div class="jdsd1">13 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">27</div>
+                    <div class="jdsd1">14 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">28</div>
+                    <div class="jdsd1">15 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">29</div>
+                    <div class="jdsd1">16 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd">
+                    <div class="jdbd0">30</div>
+                    <div class="jdsd1">17 хешвана</div>
+                </div>
+            </td>
+            <td>
+                <div class="jd jdsbb">
+                    <div class="jdbd0">31</div>
+                    <div class="jdsd1">18 хешвана</div>
+                    <div class="jdcdn">
+                        <div class="jdps">Глава <a class="bluelink"
+                                                   href="http://toldot.ru/tora/library/humash/bereshit/vaera/">Ваера</a>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <div style="clear:both"></div>
+</div>

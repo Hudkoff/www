@@ -1,0 +1,91 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/video.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_video" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="table COL-sym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-video.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+			<!--#include virtual="recommendation-link/index.shtml"-->
+			<!--#include virtual="shop-item/index.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<!--#include virtual="breadcrumbs/video.shtml"-->
+
+			<h1 class="color-LIGHTGRAY bordered">
+				Видеоуроки
+			</h1>
+			<div class="topPageInfo">
+				<b>20 567</b> видеоуроков, <b>358</b> авторов
+			</div>
+
+			<!--#include virtual="tag-cloud/index-short-video.shtml"-->
+
+			<section class="content_colored margin-bottom">
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+				<!--#include virtual="catalog-filters/video.shtml"-->
+				
+				<!--#include virtual="catalog-item/video-11.shtml"-->
+				<!--#include virtual="catalog-item/video-12.shtml"-->
+				<!--#include virtual="catalog-item/video-11.shtml"-->
+				<!--#include virtual="catalog-item/video-12.shtml"-->
+				<!--#include virtual="catalog-item/video-11.shtml"-->
+				<!--#include virtual="catalog-item/video-12.shtml"-->
+				<!--#include virtual="catalog-item/video-11.shtml"-->
+				<!--#include virtual="catalog-item/video-12.shtml"-->
+				<!--#include virtual="catalog-item/video-11.shtml"-->
+				<!--#include virtual="catalog-item/video-12.shtml"-->
+				<!--#include virtual="catalog-item/video-12.shtml"-->
+				
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+			</section>
+
+		</div>
+
+		<div class="column-right table-cell lenta-column">
+
+			<h3 class="color-VIDEO arrowed bordered">
+				<a href="#" title="">
+					Циклы
+					<b>&#9670;</b>
+				</a>
+			</h3>
+			<section>
+				<!--#include virtual="article-link/index-51.shtml"-->
+				<!--#include virtual="article-link/index-52.shtml"-->
+				<!--#include virtual="article-link/index-51.shtml"-->
+				<!--#include virtual="article-link/index-52.shtml"-->
+				<!--#include virtual="article-link/index-51.shtml"-->
+				<!--#include virtual="article-link/index-52.shtml"-->
+				<!--#include virtual="article-link/index-51.shtml"-->
+			</section>
+
+			<h3 class="color-VIDEO arrowed bordered">
+				<a href="#" title="">
+					Авторы
+					<b>&#9670;</b>
+				</a>
+			</h3>
+		 	<!--#include virtual="_authors-list.shtml"-->
+			
+		</div>
+
+	</div>
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>

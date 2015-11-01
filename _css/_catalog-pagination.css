@@ -1,0 +1,78 @@
+.catalog-pagination {
+	display: table;
+	margin: 10px auto 20px;
+	font: bold 14px 'Open Sans', sans-serif;
+}
+.catalog-pagination ul {
+	display: inline-block;
+	vertical-align: top;
+}
+.catalog-pagination li {
+	display: inline-block;
+	margin-right: 8px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.catalog-pagination li:hover {
+	background-color: #ddd;
+}
+
+
+.catalog-pagination li:first-child {
+	margin-left: 20px;
+}
+.catalog-pagination li a {
+	text-decoration: none;
+	color: #000;
+	line-height: 30px;
+}
+.catalog-pagination li.selected a {
+	display: block;
+	width: 30px;
+	color: #fff;
+	background: #8db20e;
+	border-radius: 50%;
+	text-align: center;
+}
+.catalog-pagination .left-button, 
+.catalog-pagination .right-button {
+	display: inline-block;
+	height: 28px;
+	width: 28px;
+	background: url("../images/left-button.png") 9px 7px no-repeat;
+	vertical-align: top;
+	border:2px solid #e5e5e5;
+	border-radius: 50%;
+}
+.catalog-pagination .right-button {
+	background: url("../images/right-button.png") 11px 7px no-repeat;
+}
+
+.catalog-pagination .right-button:hover {
+	background-color: #ddd;
+}
+.catalog-pagination .left-button:hover {
+	background-color: #ddd;
+}
+
+
+.page_family .catalog-pagination li.selected a {
+	background: #d55940;
+}
+.page_family .catalog-pagination {
+	margin-top: 20px;
+}
+.page_video .catalog-pagination li.selected a {
+    background-color: #4fc77a;
+}
+.page_library .catalog-pagination li.selected a {
+	background-color: #7247ba;
+	/*background-color: #9c5630;*/
+}
+

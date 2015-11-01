@@ -1,0 +1,207 @@
+/* стили для страницы фото */
+@import "_tests.css";
+@import "_catalog-pagination.css";
+@import "_daytopic-title.css";
+@import "_daytopic-article.css";
+@import "_daytopic.css";
+
+@import "_lenta.css";
+@import "_authors-list.css";
+@import "_audio-link.css";
+
+.page_articles {
+    margin-bottom: 20px;
+}
+.page_articles .first-level-nav h3 {
+    color: #545454;
+}
+.page_articles .catalog-pagination li.selected a {
+    background-color: #727272;
+}
+
+
+
+/* ======== Central column ======== */
+.page_articles .articles-main .table-cell .table-cell {
+    width: auto;
+}
+.page_articles .articles-main .table-cell .table-cell.lenta-column {
+    width: 32.5%;
+}
+
+
+
+.page_articles .search {
+    position: relative;
+    float: none;
+    width: 100%;
+    margin: 7px auto 40px;
+}
+
+
+
+
+
+.page_articles .article-link {
+    padding: 20px 0;
+}
+.page_articles .article-link:first-child {
+    border: none;
+    padding-top: 0;
+}
+.page_articles .article-link img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.page_articles .article-link.big-picture .description,
+.page_articles .article-link.big-picture .buttons {
+    margin-left: 0;
+    clear: both;
+}
+
+.page_articles .article-link .description,
+.page_articles .article-link .buttons {
+    margin-left: 134px;
+}
+.column-central-fake {
+    padding-right: 25%;
+}
+
+.tag-search input[type="submit"] {
+    position: absolute;
+    border: 0;
+    background: url('../images/icon-search.png') no-repeat center;
+    left: 0;
+    top: 6px;
+    width: 38px;
+    height: 28px;
+    padding: 0;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.page_articles .articles-catalog-wrapper {
+    padding-top: 10px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f8f8f8;
+}
+.page_articles .articles-catalog-wrapper .catalog-pagination {
+    margin: 10px auto;
+}
+.page_articles .articles-catalog-wrapper .article-link {
+    padding: 20px;
+}
+.page_articles .articles-catalog-wrapper .article-link:first-child {
+    border-top: 1px solid #e5e5e5;
+}
+.page_articles .articles-catalog-wrapper .article-link:last-child {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.page-articles.daytopic-content .column-central .column-right {
+    width: 15%;
+}
+
+.page-articles-daytopic .article-link img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.page-articles-daytopic .description {
+    clear: both;
+}
+.page-articles.daytopic-content .column-central .column-right .article-link img {
+    float: none;
+    margin-bottom: 10px;
+}
+
+.content_colored h2 {
+    margin-bottom: 7px;
+}
+
+.content_colored img {
+    float: left;
+    margin: 0 20px 5px 0;
+}
+.content_colored .details {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #6c6c6c;
+    margin-bottom: 5px;
+}
+.content_colored .authorBlock {
+    width: 33%;
+}
+.content_colored .authorBlock img {
+    margin-bottom: 5px;
+}
+.content_colored .authorBlock .heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+.content_colored .authorBlock .heading span {
+    display: block;
+    font-family: 'Noto Serif', serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+.content_colored .authorBlock .links {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.content_colored .authorBlock .links .about a {color: #333333}
+.content_colored .authorBlock .links .all-cycles a {color: #792fb7}
+.content_colored .authorBlock .links .answers a {color: #b7792f}
+.content_colored .authorBlock .links .audios a {color: #719826}
+
+
+
+
+
+
+.page_articles  .related .article-link:first-child {
+    padding-top: 20px;
+}
+
+
+.cycles .cycles-item {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.cycles .cycles-item .details {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #6c6c6c;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.cycles .cycles-item .cycle-type {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 3px 1px;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+}
+.cycles .cycles-item img {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.cycles-item-audio .cycle-type{
+    background-color: #8db20e;
+}
+.cycles-item-blogs .cycle-type {
+    background-color: #46aac4;
+}
+.cycles-item-video .cycle-type {
+    background-color: #43ac69;
+}
