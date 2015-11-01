@@ -208,12 +208,26 @@ body.cboxOn {overflow: hidden;}
  .popup_error input[type="submit"] {
 	width: 203px;
 }
+.popup .question {
+	font: bold 1.3rem 'Open Sans', sans-serif;	
+}
+.popup .type {
+	display: block;
+	font: normal 1.3rem 'Open Sans', sans-serif;
+	color: #000;
+}
 .popup .details {
 	font: bold 1.2rem 'Open Sans', sans-serif;
     color: #6c6c6c;
 } 
+.popup .margin-r10 {
+	margin-right: 10px;
+}
 .popup .margin-b10 {
 	margin-bottom: 10px;
+}
+.popup .margin-b15 {
+	margin-bottom: 15px;
 }
 .popup .margin-b5 {
 	margin-bottom: 5px;
@@ -239,4 +253,21 @@ body.cboxOn {overflow: hidden;}
 	font: normal 1.3rem 'Noto Serif', serif;	
 	margin-left: 30px;
 	color: #000;
+}
+.popup .birthday {
+	font-size: 0;
+}
+.popup .birthday select {
+	display: inline-block;
+}
+.popup .birthday .day-birthday {
+	width: 50px;
+	border-right: none;
+}
+.popup .birthday .month-birthday {
+	width: 85px;
+	border-right: none;
+}
+.popup .birthday .year-birthday {
+	width: 65px;
 }
