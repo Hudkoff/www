@@ -10,7 +10,7 @@
 			<input type="checkbox">
 			<div class="option-description">
 				<h5 class="margin-b5">Рассказ о выходе из Египта и другие заповеди Седера</h5>
-				<p class="details margin-b5">Рав Моше Пантелят</p>
+				<p class="details margin-b5"><b>Рав Моше Пантелят</b></p>
 				<p class="description">Цикл вебинаров рава Элиезера Ксидо, посвященных углублённому изучению смысла и содержания ряда отдельных заповедей</p>
 			</div>
 		</label>
@@ -18,7 +18,7 @@
 			<input type="checkbox">
 			<div class="option-description">
 				<h5 class="margin-b5">ПИРКЕЙ АВОТ. «Поучения отцов»</h5>
-				<p class="details margin-b5">Рав Моше Пантелят</p>
+				<p class="details margin-b5"><b>Рав Моше Пантелят</b></p>
 				<p class="description">Цикл вебинаров рава Патласа, изучающий высказывания наших мудрецов, сформулированныe в трактате «Пиркей Авот»</p>
 			</div>
 		</label>
@@ -26,7 +26,7 @@
 			<input type="checkbox">
 			<div class="option-description">
 				<h5 class="margin-b5">Рав Арье Цукерман — «УЧИМ ИВРИТ»</h5>
-				<p class="details margin-b5">Рав Моше Пантелят</p>
+				<p class="details margin-b5"><b>Рав Моше Пантелят</b></p>
 				<p class="description">Цикл лекций рава Арье Цукермана по эффективному изучению иврита</p>
 			</div>
 		</label>
