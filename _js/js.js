@@ -456,7 +456,7 @@ if (p_request_study.length != 0) { // если элемент есть на ст
 	p_request_study.colorbox({
 		scrolling: false,
 		opacity: 0.5,
-		width: "526px",
+		width: "760px",
 		onComplete: cboxPageScrollingAdjust,
 		onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_request-study",
