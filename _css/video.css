@@ -10,7 +10,7 @@
 @import "_useful-links.css";
 @import "_lessons-navigation.css";
 
-.video-player {
+/*.video-player {
 	position: relative;
 	margin-top: 20px;
 	font-size: 0;
@@ -34,7 +34,7 @@
 	right: 0;
 	margin: 0 auto;
 	cursor: pointer;
-}
+}*/
 
 .video-bar {
 	margin: 20px 0;
