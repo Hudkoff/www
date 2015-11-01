@@ -24,18 +24,20 @@
 	text-decoration: underline;
 }
 
-.page_topic .daytopic-title .daytopic-menu a {
+/*.page_topic .daytopic-title .daytopic-menu a {
     font-size: 14px;
-}
+}*/
 
 
 .daytopic-title .bottom-text {
 	bottom: 10px;
 	position: absolute;
-}
-.page_home .daytopic-title .bottom-text {
 	margin-left: 20%;
-	padding-left: 20px;
+	padding-left: 16px;
+}
+.daytopic-wiki .daytopic-title .bottom-text {
+	margin-left: 20%;
+	padding-left: 0;
 }
 
 .daytopic-title .bottom-text .definition {

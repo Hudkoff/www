@@ -724,7 +724,7 @@ $(function() {
 		}
 
 		function carouselInit() {
-			var maxWidth = $(".daytopic-menu").width() - 70;
+			var maxWidth = $(".wiki-menu").width() - 70;
 			var count = maxWidth / 75;
 
 			$(".carousel-block").jCarouselLite({
@@ -745,7 +745,7 @@ $(function() {
 
 	}
 
-	$('.daytopic-wiki').find("a").tipsy({
+	$('.wiki-menu').find("a").tipsy({
 		gravity: 's',
 		offset: 4
 	});
