@@ -509,6 +509,10 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	opacity: .85;
 }
+input.center {
+	display: block;
+	margin: 0 auto;
+}
 
 /* поиск по тэгам */
 .tag-search input[type="text"] {
