@@ -325,12 +325,19 @@ body.cboxOn {overflow: hidden;}
 .popup .accordion-info .price:after {
 	color: #000;
 }
+.popup .accordion li {
+	margin-bottom: 5px;
+}
 .popup .accordion ol {
 	list-style-type: decimal;
 	margin-left: 16px;
 }
+.popup .accordion ul li {
+	padding-left: 15px;
+}
 .popup .accordion ul li:before {
 	content: '— ';
+	margin-left: -15px;
 }
 
 .popup .birthday {
