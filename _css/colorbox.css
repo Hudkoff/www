@@ -328,7 +328,9 @@ body.cboxOn {overflow: hidden;}
 }
 .popup .accordion ul li:before {
 	content: '— ';
-}.popup .birthday {
+}
+
+.popup .birthday {
 	font-size: 0;
 }
 .popup .birthday select {
@@ -345,6 +347,8 @@ body.cboxOn {overflow: hidden;}
 .popup .birthday .year-birthday {
 	width: 65px;
 }
+
+
 .popup .payment {
 	border-bottom: 1px solid #e5e5e5;
 }
@@ -356,4 +360,14 @@ body.cboxOn {overflow: hidden;}
 }
 .popup .payment .payment-details {
 	margin-left: 140px;
+}
+.popup .radio-buttons-list li {
+	float: left;
+	margin-right: 20px;
+}
+.popup .radioWrap {
+	color: #000;
+}
+.popup .radioWrap input {
+	margin-right: 10px;
 }

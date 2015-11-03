@@ -4,7 +4,7 @@
 </h3>
 
 <form>
-	<div class="table section">
+	<div class="table margin-b15">
 		<p class="text">Пожалуйста, введите здесь необходимые по Вашему мнению данные. Например, если Вы хотите получать по почте квитанции о платежах, заполните поля «Имя», «Фамилия», «Адрес», «Освобождение от налогов». Ваш телефон поможет нам в случае необходимости связаться с Вами для уточнения деталей платежа. Введенные данные будут сохранены в Вашем аккаунте.</p>
 	</div>
 	<div class="table COL-two margin-b15">
@@ -21,15 +21,15 @@
 			<input type="text" class="" placeholder="Введите телефон">	
 		</div>
 	</div>
-	<div class="table bordered section">
-		<label class="checkboxWrap option section">
+	<div class="table bordered-block margin-b15">
+		<label class="checkboxWrap option">
 			<input type="checkbox">
 			<p class="additionally">При платеже не отображать имя в блоке «Нам помогли» в разделе 
 	Деньги справа</p>
 		</label>
 	</div>
-	<h5 class="section">Доставка платежной квитанции</h5>
-	<div class="table COL-two bordered section">
+	<h5 class="margin-b15">Доставка платежной квитанции</h5>
+	<div class="table COL-two bordered-block margin-b15">
 		<div class="table-cell">
 			<label>Страна:</label>
 			<select class="custom-select">
@@ -48,31 +48,31 @@
 			<input type="text" class="" placeholder="почтовый индекс">
 		</div>
 	</div>
-	<h5 class="section">Освобождение от налогов</h5>
-	<div class="table">
-		Требуется ли Вам форма освобождения от налогов?
-		<div class="table COL-four">
-			<div class="table-cell">
+	<h5 class="margin-b15">Освобождение от налогов</h5>
+	<div>
+		<p class="margin-b10">Требуется ли Вам форма освобождения от налогов?</p>
+		<ul class="radio-buttons-list clearfix">
+			<li>
 				<label class="radioWrap">
 					<input type="radio" name="publ">Нет
 				</label>
-			</div>
-			<div class="table-cell">
+			</li>
+			<li>
 				<label class="radioWrap">
 					<input type="radio" name="publ" checked="checked">для США
 				</label>
-			</div>
-			<div class="table-cell">
+			</li>
+			<li>
 				<label class="radioWrap">
 					<input type="radio" name="publ">для Израиля
 				</label>
-			</div>
-			<div class="table-cell">
+			</li>
+			<li>
 				<label class="radioWrap">
 					<input type="radio" name="publ">для Германии
 				</label>
-			</div>
-		</div>
+			</li>
+		</ul>
 	</div>
 </form>
 
