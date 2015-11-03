@@ -21,7 +21,7 @@
 		</label>
 		<label class="checkboxWrap option section">
 			<input type="checkbox">
-			<p class="in-html">получать рассылки в текстовом виде (без HTML)</p>
+			<p class="additionally">получать рассылки в текстовом виде (без HTML)</p>
 		</label>
 	</div>
 	<div class="table COL-two">

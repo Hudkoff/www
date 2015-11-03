@@ -238,10 +238,10 @@ body.cboxOn {overflow: hidden;}
 .popup .description {
 	font: normal 1.4rem 'Noto Serif', serif;
 }
-.popup .bordered {
+/*.popup .bordered {
 	padding: 0 0 20px 0;
 	border-bottom: 1px solid #e5e5e5;	
-}
+}*/
 .popup .middle-text {
 	vertical-align: middle;
 }
@@ -252,7 +252,7 @@ body.cboxOn {overflow: hidden;}
 	color: #000;
 	margin-left: 30px;
 }
-.popup .option .in-html {
+.popup .option .additionally {
 	font: normal 1.3rem 'Noto Serif', serif;	
 	margin-left: 30px;
 	color: #000;
@@ -276,6 +276,9 @@ body.cboxOn {overflow: hidden;}
 }
 .popup .payment {
 	border-bottom: 1px solid #e5e5e5;
+}
+.popup .payment:last-child {
+	border: none;
 }
 .popup .payment img {
 	float: left;
