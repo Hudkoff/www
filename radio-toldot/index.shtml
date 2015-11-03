@@ -2,7 +2,6 @@
 	<h3>Радио Толдот</h3>
 	<ul>
 		<li id="trBody" class="current-audio controls-block clearfix">
-
 			<div id="trPlB" title="Запустить вещание"></div>
 			<div id="trStB" title="Остановить вещание"></div>
 			<div id="trVlR" title="Изменить громкость" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
@@ -14,24 +13,29 @@
 				<span id="trMsBrd" title="Сообщение плеера"></span>
 			</div>
 		</li>
-		<li class="current-audio"><a href="#" title="">
-			<div class="audio-description">
-				<span class="label audio">В эфире:</span>
-				<div class="audio-info">
-					<span class="audio-title">Законы седьмого года 10</span>
-					<!--<span class="audio-time">20:10</span>-->
+
+		<li class="current-audio">
+			<a href="#" title="">
+				<div class="audio-description">
+					<span class="label audio">В эфире:</span>
+					<div class="audio-info">
+						<span class="audio-title">Законы седьмого года 10</span>
+					</div>
 				</div>
-			</div>
-		</a></li>
-		<li class="next-audio"><a href="#" title="">
-			<div class="audio-description">
-				<span class="label-0">Далее:</span>
-				<div class="audio-info">
-					<span class="audio-title">Законы седьмого года 11</span>
-					<span class="audio-time">21:00</span>
+			</a>
+		</li>
+
+		<li class="next-audio">
+			<a href="#" title="">
+				<div class="audio-description">
+					<span class="label-0">Далее:</span>
+					<div class="audio-info">
+						<span class="audio-title">Законы седьмого года 11</span>
+						<span class="audio-time">21:00</span>
+					</div>
 				</div>
-			</div>
-		</a></li>
+			</a>
+		</li>
 		     
 	</ul>
 </section>

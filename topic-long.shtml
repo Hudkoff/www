@@ -15,6 +15,15 @@
 	<div style="background: url(images/bg-3.jpg) 90% 94% no-repeat; position: absolute; left: 0; right: 0; height: 150%;"></div>
 
 	<div class="articles-main table COL-asym wrapper">
+		<aside class="table-cell column-left">
+		</aside>
+		<div class="table-cell column-central" style="padding-left:20px;">
+			<!--#include virtual="breadcrumbs/topic.shtml"-->
+		</div>		
+	</div>	
+	<!--#include virtual="_daytopic-title.shtml"-->
+
+	<div class="articles-main table COL-asym wrapper">
 
 		<aside class="table-cell column-left">
 			<!--#include virtual="intopic/index.shtml"-->
@@ -22,8 +31,6 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<!--#include virtual="breadcrumbs/topic.shtml"-->
-			<!--#include virtual="_daytopic-title.shtml"-->
 			<div class="content_transparent main_content">
 				<h4>Оглавление</h4>
 				<br>

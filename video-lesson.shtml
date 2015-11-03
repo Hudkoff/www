@@ -5,6 +5,11 @@
 	<!--#include virtual="_head.shtml"-->
 	<link href="_css/video.css" rel="stylesheet" type="text/css">
 
+	<!-- файлы видеоплеера -->
+	<script src="jwplayer/jwplayer.js" type="text/javascript"></script>
+	<script>jwplayer.key="00DvZV0BV0Wm4az/8jnnOlON+elKEaUrD1Cddg==";</script>
+	<link rel="stylesheet" type="text/css" href="jwplayer/skins/toldot.css"></link>
+
 </head>
 <body class="page_video" itemscope itemtype="http://schema.org/WebPage">
 
@@ -29,12 +34,31 @@
 						<h1 class="color-LIGHTGRAY bordered">
 							Учим иврит 11. Есть вопросы? Вопросительные слова
 						</h1>
-						<div class="video-player">
-							<img src="images/screen_06.jpg" alt="" />
+
+						<div class="video-player" id="lesson-player">
+							<!--img src="images/screen_06.jpg" alt="" />
 							<div class="fader-big">
 								<img src="images/video-bar.png" alt="" />
-							</div> 
+							</div--> 
 						</div>
+
+
+
+
+						<script type="text/javascript">
+						    jwplayer("lesson-player").setup({
+						        file: "jwplayer/video/sample.flv",
+						        image: "jwplayer/video/sample.jpg",
+								width: "100%",
+								aspectratio: "16:9",
+						        title: "Учим иврит 11. Есть вопросы? Вопросительные слова",
+						        skin: {
+						        	name: "toldot"
+						        }
+						    });
+						</script>
+
+
 						<div class="table video-bar">
 							<div class="table-cell">
 								<p class="details">28 марта, <b>Рав Носон Шерман</b> из цикла «Уроки Пятикнижия»</p>

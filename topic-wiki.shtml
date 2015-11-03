@@ -11,6 +11,17 @@
 
 <!--#include virtual="_header.shtml"-->
 
+	<div class="articles-main table COL-asym wrapper">
+		<aside class="table-cell column-left">
+		</aside>
+		<div class="table-cell column-central">
+			<!--#include virtual="breadcrumbs/topic-wiki.shtml"-->
+		</div>		
+	</div>	
+
+	<!--#include virtual="_daytopic-title-wiki.shtml"-->
+	<br>
+
 <div class="articles-main table COL-sym wrapper">
 
 	<aside class="table-cell column-left">
@@ -20,11 +31,56 @@
 	</aside>
 
 	<div class="table-cell column-central" itemprop="mainContentOfPage">
-		<!--#include virtual="breadcrumbs/topic-wiki.shtml"-->
 
 		<h1 class="color-WIKI bordered">Еврейская энциклопедия</h1>
 
-		<!--#include virtual="_daytopic-title-wiki.shtml"-->
+		<div class="wiki-menu clearfix">
+			<div class="carousel-block">
+				<ul>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-11.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-12.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-13.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-21.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-22.jpg" alt=""/></a></li>
+
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-33.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-40.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-41.jpg" alt=""/></a></li>
+
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-11.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-12.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-13.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-21.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-22.jpg" alt=""/></a></li>
+
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-33.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-40.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-41.jpg" alt=""/></a></li>
+
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-33.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-40.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-41.jpg" alt=""/></a></li>
+
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-33.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-40.jpg" alt=""/></a></li>
+					<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-41.jpg" alt=""/></a></li>
+				</ul>
+
+			</div>
+			<a class="button-prev" href="#" title=""><img src="images/button-prev-gray.jpg" alt=""/></a>
+			<a class="button-next" href="#" title=""><img src="images/button-next-gray.jpg" alt=""/></a>
+
+		</div>
+
+
 		<div class="content_transparent main_content">
 			Песах 2016: праздник Песах начинается с заходом солнца 22 апреля. Квасное запрещено есть с четвертого
 			солнечного часа 22 апреля. В этом году, чтобы было разрешено готовить в Седьмой день Песаха на следующий за

@@ -242,6 +242,10 @@ body.cboxOn {overflow: hidden;}
 	padding: 0 0 20px 0;
 	border-bottom: 1px solid #e5e5e5;	
 }*/
+.popup .bordered-block {
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #e5e5e5;	
+}
 .popup .middle-text {
 	vertical-align: middle;
 }
@@ -257,7 +261,74 @@ body.cboxOn {overflow: hidden;}
 	margin-left: 30px;
 	color: #000;
 }
-.popup .birthday {
+
+
+.popup .accordion-title,
+.popup .accordion-info {
+	margin: 15px 0 12px;
+	font-weight: bold;
+}
+.popup .accordion-title .right,
+.popup .accordion-info .right {
+	float: right;
+}
+.accordion-info {
+	margin-bottom: 20px;
+}
+.popup .accordion {
+	margin-bottom: 10px;
+	font: normal 1.3rem 'Open Sans', sans-serif;
+}
+.popup .accordion .collapsed {
+	margin: 0 90px 10px 22px;
+}
+.popup .accordion .collapsed span {
+	padding-right: 15px;
+	background: url('../images/icon-arrow-down-gray.png') center right no-repeat;
+	cursor: pointer;
+	line-height: 1.3rem;
+}
+.popup .accordion .collapsed span:hover {
+	text-decoration: underline;
+}
+.popup .accordion .expanded .collapsed span {
+	background-image: url('../images/icon-arrow-up-gray.png');
+}
+.popup .accordion .collapsed-content {
+	display: none;
+	padding: 10px;
+	margin: 0 90px 10px 22px;
+	background: #f2f2f2;
+	color: #747474;
+	font-size: 1.2rem;
+}
+.popup .accordion .expanded + .collapsed-content {
+	/*display: block;*/
+}
+.popup .accordion input[type="checkbox"] {
+	float: left;
+    width: 12px;
+    height: 12px;
+}
+.popup .accordion .price {
+	float: right;
+	width: 90px;
+	text-align: right;
+}
+.popup .price:after {
+	content: ' USD';
+	color: #747474;
+}
+.popup .accordion-info .price:after {
+	color: #000;
+}
+.popup .accordion ol {
+	list-style-type: decimal;
+	margin-left: 16px;
+}
+.popup .accordion ul li:before {
+	content: '— ';
+}.popup .birthday {
 	font-size: 0;
 }
 .popup .birthday select {

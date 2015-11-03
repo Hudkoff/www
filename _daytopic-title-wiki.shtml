@@ -1,49 +1,4 @@
 <div class="daytopic-wiki">
-	<div class="daytopic-menu clearfix">
-		<div class="carousel-block">
-			<ul>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-11.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-12.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-13.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-21.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-22.jpg" alt=""/></a></li>
-
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-33.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-40.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-41.jpg" alt=""/></a></li>
-
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-11.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-12.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-13.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-21.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-22.jpg" alt=""/></a></li>
-
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-33.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-40.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-41.jpg" alt=""/></a></li>
-
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-33.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-40.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-41.jpg" alt=""/></a></li>
-
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-31.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-33.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-40.jpg" alt=""/></a></li>
-				<li><a class="jcarousel-item" href="#" title="" original-title="Песах (еврейская Пасха)"><img src="images/avatar-41.jpg" alt=""/></a></li>
-			</ul>
-
-		</div>
-		<a class="button-prev" href="#" title=""><img src="images/button-prev-gray.jpg" alt=""/></a>
-		<a class="button-next" href="#" title=""><img src="images/button-next-gray.jpg" alt=""/></a>
-
-	</div>
 
 	<div class="daytopic-title wrapper">
 		<div class="bottom-text">
