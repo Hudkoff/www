@@ -238,16 +238,9 @@ body.cboxOn {overflow: hidden;}
 .popup .description {
 	font: normal 1.4rem 'Noto Serif', serif;
 }
-/*.popup .bordered {
-	padding: 0 0 20px 0;
-	border-bottom: 1px solid #e5e5e5;	
-}*/
 .popup .bordered-block {
 	padding: 0 0 10px 0;
 	border-bottom: 1px solid #e5e5e5;	
-}
-.bordered-block.section {
-	padding-bottom: 20px;
 }
 .popup .middle-text {
 	vertical-align: middle;
@@ -375,9 +368,83 @@ body.cboxOn {overflow: hidden;}
 	float: left;
 	margin-right: 20px;
 }
+.popup .radio-buttons-list.wide li {
+	width: 150px;
+}
+.popup .days-list li {
+	float: left;
+	margin-right: 20px;
+	width: 150px;
+}
 .popup .radioWrap {
 	color: #000;
 }
-.popup .radioWrap input {
+.popup .radioWrap input,
+.popup .checkboxWrap input {
 	margin-right: 10px;
+}
+
+.popup .align-bottom .table-cell {
+	vertical-align: bottom;
+}
+.popup .align-right {
+	text-align: right;
+}
+
+.popup .radio-like-button li {
+	float: left;
+	width: 50%;
+	height: 36px;
+	position: relative;
+}
+.popup .radio-like-button input[type="radio"] {
+	display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.011;
+    z-index: 100;
+}
+.popup .radio-like-button input[type="radio"]:checked + label {
+    border-color: #0e53b2;
+}
+.popup .radio-like-button input[type="radio"]:checked + label:before {
+	content: '';
+    position: absolute;
+    top: -2px;
+    right: 100%;
+    display: block;
+    height: 36px;
+    border-left: 2px solid #0e53b2;
+}
+.popup .radio-like-button label {
+	display: block;
+    position: absolute;
+    z-index: 90;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    border: 2px solid #e1e1e1;
+    border-left: none;
+    font-weight: bold;
+    padding: 10px 8px 8px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 0;
+    cursor: pointer;
+    color: #000;
+    text-align: center;
+}
+.popup .radio-like-button label:hover {
+	background: #f5f5f5;
+}
+.popup .radio-like-button li:first-child label {
+    border-left: 2px solid #e1e1e1;
 }
