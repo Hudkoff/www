@@ -246,6 +246,9 @@ body.cboxOn {overflow: hidden;}
 	padding: 0 0 10px 0;
 	border-bottom: 1px solid #e5e5e5;	
 }
+.bordered-block.section {
+	padding-bottom: 20px;
+}
 .popup .middle-text {
 	vertical-align: middle;
 }

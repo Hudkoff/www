@@ -3,13 +3,11 @@
 </h3>
 
 <form>
-	<div class="table section">
-		<p class="text">Найденная нами информация о Вашей фамилии будет опубликована на сайте в разделе <a href="#">Спросить / Еврейские фамилии</a>, о чем Вы получите оповещение на свой электронный почтовый ящик. Спама не будет.</p>
-	</div>
+	<p class="text margin-b15">Найденная нами информация о Вашей фамилии будет опубликована на сайте в разделе <a href="#">Спросить / Еврейские фамилии</a>, о чем Вы получите оповещение на свой электронный почтовый ящик. Спама не будет.</p>
 	<div class="table COL-two section">
 		<div class="table-cell">
 			<label>Email для оповежения:</label>
-			<input type="text" class="" placeholder="max@mail.ru">
+			<input type="text" class="" placeholder="Введите Email">
 			<div class="captcha">
 				<input type="text" maxlength="5" class="" placeholder="AAAAA">
 				<img class="captcha-img" src="images/captcha.png" alt="">
@@ -18,7 +16,7 @@
 		</div>
 		<div class="table-cell">
 			<label>Узнать о фамилии:</label>
-			<input type="text" class="" placeholder="Фамилия">
+			<input type="text" class="" placeholder="Введите фамилию">
 			<input type="submit" value="ОТПРАВИТЬ">
 		</div>
 	</div>

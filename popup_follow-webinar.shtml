@@ -6,7 +6,7 @@
 	<div class="table">
 		<p class="text section">Поставьте галочки рядом с интересующими вас вебинарами (если хотите отписаться — уберите соответствующие галочки). Нажмите на кнопку «Сохранить».</p>
 		<p class="text section">Подписавшись на те или иные вебинары, вы будете получать на имейл оповещения о них. В оповещениях будут все необходимые инструкции по регистрации и входу в виртуальный кабинет для участия в занятии. Подробнее: <a href="#">Как работает система вебинаров</a></p>
-		<label class="checkboxWrap option bordered section">
+		<label class="checkboxWrap option bordered-block section">
 			<input type="checkbox">
 			<div class="option-description">
 				<h5 class="margin-b5">Рассказ о выходе из Египта и другие заповеди Седера</h5>
@@ -14,7 +14,7 @@
 				<p class="description">Цикл вебинаров рава Элиезера Ксидо, посвященных углублённому изучению смысла и содержания ряда отдельных заповедей</p>
 			</div>
 		</label>
-		<label class="checkboxWrap option bordered section">
+		<label class="checkboxWrap option bordered-block section">
 			<input type="checkbox">
 			<div class="option-description">
 				<h5 class="margin-b5">ПИРКЕЙ АВОТ. «Поучения отцов»</h5>

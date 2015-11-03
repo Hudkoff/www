@@ -1,16 +1,15 @@
 <h3 class="color-TOLDOT bordered">
 	Сообщить об ошибке
 </h3>
-
 <form class="popup_error">
 	<div class="table COL-two">
 		<div class="table-cell">
 			<label>Ваше имя:</label>
-			<input type="text" class="" placeholder="Максим">
+			<input type="text" class="" placeholder="Введите имя">
 		</div>
 		<div class="table-cell">
 			<label>Email для уточнений:</label>
-			<input type="text" class="" placeholder="max@mail.ru">
+			<input type="text" class="" placeholder="Введите Email">
 		</div>
 	</div>
 	<div>

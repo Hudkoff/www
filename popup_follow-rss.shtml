@@ -5,14 +5,14 @@
 <form>
 	<div class="table">
 		<p class="text section">Галочками в списке отмечены рассылки, на которые вы уже подписаны. Чтобы отменить подписку, снимите соответствующую галочку, а чтобы подписаться — поставьте. Затем нажмите кнопку «сохранить». Для подписки будет использован адрес, введенный при регистрации: max@gmail.ru</p>
-		<label class="checkboxWrap option bordered section">
+		<label class="checkboxWrap option bordered-block section">
 			<input type="checkbox">
 			<div class="option-description">
 				<h5 class="margin-b10">Недельная глава</h5>
 				<p class="description">Еженедельно по средам. Статья рава Бенциона Зильбера по недельной главе, ссылки на избранные материалы сайта за неделю.</p>
 			</div>
 		</label>
-		<label class="checkboxWrap option bordered section">
+		<label class="checkboxWrap option bordered-block section">
 			<input type="checkbox">
 			<div class="option-description">
 				<h5 class="margin-b10">«Ни дня без Торы» ежедневная</h5>
