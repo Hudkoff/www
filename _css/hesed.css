@@ -281,7 +281,7 @@
 	display: inline-block;
 	width: 10px;
 	height: 10px;
-	background: url("/images/accordion-arrows-sprite.png") no-repeat;
+	background: url("../images/accordion-arrows-sprite.png") no-repeat;
 }
 .page_hesed .accordion-arrow.arrow-up {
 	background-position: 0 0;

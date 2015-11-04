@@ -114,14 +114,14 @@
 .icon-cart {
 	display: block;
 	float: left;
-	background-image: url("/images/icon-cart.png");
+	background-image: url("../images/icon-cart.png");
 	width: 25px;
 	height: 23px;
 	margin-right: 15px;
 	position: relative;
 }
 .icon-cart-white {
-	background-image: url("/images/icon-cart-white.png");
+	background-image: url("../images/icon-cart-white.png");
 	width: 20px;
 	height: 19px;
 	display: inline-block;
@@ -154,7 +154,7 @@
 }
 
 .page_store .discount {
-	background-image: url("/images/sale-bg.png");
+	background-image: url("../images/sale-bg.png");
 	width: 107px;
 	height: 37px;
 	line-height: 37px;
@@ -297,7 +297,7 @@
 .shopping-cart-wrapper .cart-item .delete-item:before {
 	content: "";
 	display: inline-block;
-	background-image: url("/images/icon-cross.png");
+	background-image: url("../images/icon-cross.png");
 	width: 10px;
 	height: 10px;
 	margin-right: 5px;

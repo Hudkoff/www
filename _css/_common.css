@@ -533,7 +533,7 @@ input.center {
     height: 46px;
     top: 3px;
     left: 7px;
-    background: url(../images/icon-search.png) no-repeat center center;
+    background: url("../images/icon-search.png") no-repeat center center;
 }
 
 

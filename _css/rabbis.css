@@ -34,7 +34,7 @@
 	margin-top: -20px;
 	width: 23px;
 	height: 39px;
-	background: url("/images/rabbis-arrows-sprite.png") no-repeat;
+	background: url("../images/rabbis-arrows-sprite.png") no-repeat;
 	cursor: pointer;
 }
 .tl-slidenav-previous .tl-slidenav-icon,

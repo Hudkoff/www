@@ -203,7 +203,7 @@
 	height: 290px;
 	width: 100%;
 	position: relative;
-	background: url("/images/banner-cemetery.jpg");
+	background: url("../images/banner-cemetery.jpg");
 	background-size: cover;
 
 }

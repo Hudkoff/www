@@ -231,13 +231,13 @@
 	padding-left: 8px;
 }
 .page_blogs .all-authors-button .icon-arrow-right{
-	background: url(/images/icon-arrow-right.png) no-repeat;
+	background: url("../images/icon-arrow-right.png") no-repeat;
 	height: 13px;
 	width: 8px;
 	margin: 8px 0;
 }
 .page_blogs .all-authors-button .icon-arrow-left{
-    background: url(/images/icon-arrow-left.png) no-repeat;
+    background: url("../images/icon-arrow-left.png") no-repeat;
     height: 13px;
     width: 8px;
     margin: 8px 0;

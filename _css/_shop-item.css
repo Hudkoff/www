@@ -31,7 +31,7 @@
 	text-decoration: underline;
 }
 .shop-item .discount {
-	background-image: url("/images/sale-bg.png");
+	background-image: url("../images/sale-bg.png");
 	width: 107px;
 	height: 37px;
 	line-height: 37px;

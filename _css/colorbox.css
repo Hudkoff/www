@@ -65,8 +65,8 @@
 	font-weight: normal;
 }
 #cboxCurrent{position:absolute; bottom:8px; left:65px; color:#949494;}
-#cboxLoadingOverlay{background:url(/images/colorBox/loading_background.png) no-repeat center center;}
-#cboxLoadingGraphic{background:url(/images/colorBox/loading.gif) no-repeat center center;}
+#cboxLoadingOverlay{background:url(../images/colorBox/loading_background.png) no-repeat center center;}
+#cboxLoadingGraphic{background:url(../images/colorBox/loading.gif) no-repeat center center;}
 
 /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
 #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
@@ -75,11 +75,11 @@
 #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
 
 #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
-#cboxPrevious{position:absolute; bottom:5px; left:7px; background:url(/images/colorBox/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+#cboxPrevious{position:absolute; bottom:5px; left:7px; background:url(../images/colorBox/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
 #cboxPrevious:hover{background-position:-75px -25px;}
-#cboxNext{position:absolute; bottom:5px; left:35px; background:url(/images/colorBox/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+#cboxNext{position:absolute; bottom:5px; left:35px; background:url(../images/colorBox/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
 #cboxNext:hover{background-position:-50px -25px;}
-#cboxClose{position:absolute; top:5px; right:5px; background:url(/images/colorBox/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+#cboxClose{position:absolute; top:5px; right:5px; background:url(../images/colorBox/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
 #cboxClose:hover{background-position:-25px -25px;}
 
 /*
@@ -126,7 +126,7 @@ body.cboxOn {overflow: hidden;}
 }
 .popup #cboxClose {
 	top: 0;
-	background: url(/images/colorBox/popup_close.png) no-repeat center;
+	background: url(../images/colorBox/popup_close.png) no-repeat center;
 	opacity: .5;
 	width: 31px;
 	height: 31px;

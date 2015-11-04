@@ -104,21 +104,21 @@
 	position: relative;
 }
 .jdr1 {
-	background-image: url(/images/calendar_date_left_1.png);
+	background-image: url("../images/calendar_date_left_1.png");
 	width: 32px;
 	height: 65px;
 }
 .jdr8 {
 	width: 43px;
 	height: 65px;
-	background-image: url(/images/calendar_date_right_8.png);
+	background-image: url("../images/calendar_date_right_8.png");
 }
 
 .jdmonthbl {
 	float: left;
 }
 .jdcm5 {
-	background-image: url(/images/calendar_month_5.png);
+	background-image: url("../images/calendar_month_5.png");
 	width: 47px;
 	height: 15px;
 	position: relative;
@@ -137,16 +137,16 @@
 	display: inline-block;
 }
 .jdbc0 {
-	background-image: url(/images/calendar_year_blue_0.png);
+	background-image: url("../images/calendar_year_blue_0.png");
 }
 .jdbc1 {
-	background-image: url(/images/calendar_year_blue_1.png);
+	background-image: url("../images/calendar_year_blue_1.png");
 }
 .jdbc2 {
-	background-image: url(/images/calendar_year_blue_2.png);
+	background-image: url("../images/calendar_year_blue_2.png");
 }
 .jdbc5 {
-	background-image: url(/images/calendar_year_blue_5.png);
+	background-image: url("../images/calendar_year_blue_5.png");
 }
 
 .todayBlock {
@@ -180,15 +180,15 @@
 
 }
 .todayBlock > div + div + div .jdhm1 {
-	background-image: url("/images/calendar_month_red_5.png");
+	background-image: url("../images/calendar_month_red_5.png");
 	width: 59px;
 	height: 20px;
 }
 .todayBlock > div + div + div .jdbc5 {
-	background-image: url("/images/calendar_year_red_5.png");
+	background-image: url("../images/calendar_year_red_5.png");
 }
 .todayBlock > div + div + div .jdbc7 {
-	background-image: url("/images/calendar_year_red_7.png");
+	background-image: url("../images/calendar_year_red_7.png");
 }
 .todayBlock > div + div + div + div .jdbckg1.jdb{
 	display: inline-block;
@@ -196,12 +196,12 @@
 .todayBlock > div + div + div + div .jdb2{
 	width: 37px;
 	height: 65px;
-	background: url("/images/calendar_date_red_left_2.png");
+	background: url("../images/calendar_date_red_left_2.png");
 }
 .todayBlock > div + div + div + div .jdb9 {
 	width: 38px;
 	height: 65px;
-	background: url("/images/calendar_date_red_right_9.png");
+	background: url("../images/calendar_date_red_right_9.png");
 }
 
 .jdyy {
@@ -211,7 +211,7 @@
 	font-size: 0;
 }
 .jdbckg1.jdlea {
-	background: url("/images/calendar_arrow_left.png");
+	background: url("../images/calendar_arrow_left.png");
 	width: 24px;
 	height: 24px;
 	display: inline-block;
@@ -221,7 +221,7 @@
 	cursor: pointer;
 }
 .jdbckg1.jdria {
-	background: url("/images/calendar_arrow_right.png");
+	background: url("../images/calendar_arrow_right.png");
 	width: 24px;
 	height: 24px;
 	display: inline-block;
@@ -235,16 +235,16 @@
 	height: 16px;
 }
 .jdyy .jdbc0{
-	background: url("/images/calendar_year_0.png");
+	background: url("../images/calendar_year_0.png");
 }
 .jdyy .jdbc1{
-	background: url("/images/calendar_year_1.png");
+	background: url("../images/calendar_year_1.png");
 }
 .jdyy .jdbc2{
-	background: url("/images/calendar_year_2.png");
+	background: url("../images/calendar_year_2.png");
 }
 .jdyy .jdbc5{
-	background: url("/images/calendar_year_5.png");
+	background: url("../images/calendar_year_5.png");
 }
 
 #jdbCalend {
@@ -325,7 +325,7 @@
 	color: #000;
 }
 #jdbCalend .jdbckg2 {
-	background: url(/images/calendar_gradient.png) top repeat-x, url(/images/calendar_01.jpg) center no-repeat;
+	background: url("../images/calendar_gradient.png") top repeat-x, url("../images/calendar_01.jpg") center no-repeat;
 }
 #jdbCalend .jd.jdbckg2 .jdcdn{
 	background-color: rgb(255,255,255);
@@ -334,8 +334,8 @@
 }
 
 #jdbCalend .jdm5 {
-	background: url(/images/calendar_gradient.png) top repeat-x, url(/images/calendar_01.jpg) center no-repeat;
+	background: url("../images/calendar_gradient.png") top repeat-x, url("../images/calendar_01.jpg") center no-repeat;
 }
 #jdbCalend .jdrh1 {
-	background: url(/images/calendar_gradient.png) top repeat-x, url(/images/calendar_02.jpg) center no-repeat;
+	background: url("../images/calendar_gradient.png") top repeat-x, url("../images/calendar_02.jpg") center no-repeat;
 }
