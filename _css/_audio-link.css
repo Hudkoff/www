@@ -1,3 +1,102 @@
+
+.links-table {
+	width: 100%;
+	font-family: 'Noto Serif', serif;
+ 	font-size: 12px;	
+}
+.links-table td,
+.links-table th {
+	padding-right: 20px;
+}
+.links-table td:first-child,
+.links-table th:first-child {
+	padding-left: 20px;
+}
+.links-table th {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.links-table td {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.links-table tr:first-child {
+	border-top: 1px solid #e5e5e5;
+}
+.links-table tr {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+
+/* заголовок с сортировкой */
+.links-table th {
+	text-align: left;
+}
+.links-table th span {
+	padding-right: 15px;
+    background: url("../images/icon-arrow.png") 100% 7px no-repeat;
+    border-bottom: 1px dotted #000;
+    color: #0a3674;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+.links-table th span:hover {
+	background-image: url("../images/icon-arrows.png");
+	background-position: 100% 3px;
+}
+
+
+/* ячейки */
+.links-table img {
+	vertical-align: text-top;
+}
+
+.links-table h4 {
+	margin-bottom: 11px;
+}
+.links-table h4 a {
+	color: #000;
+	text-decoration: none;
+}
+.links-table h4 a:hover {
+	text-decoration: underline;
+}
+.links-table .details {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #6c6c6c;
+}
+.links-table .description {
+	margin: 12px 0 17px 0;
+	text-decoration: none;
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .audio-link {
 	display: block;
 	padding: 20px 0;
@@ -6,16 +105,16 @@
 .audio-link:first-child {
 	border-top: none;
 }
-.audio-link .author-photo {
+.audio-link .author-photo {/* delete */
 	position: relative;
 	float: left;
 	width: 128px;
 	height: 128px;
 	margin-right: 20px;
 	border-radius: 4px;
-	background-size: cover; /* масштабируем фон на всякий случай */
+	background-size: cover;
 }
-.audio-link .author-photo a {
+.audio-link .author-photo a {/* delete */
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -30,49 +129,48 @@
 	right: 10px;
 	bottom: 10px;
 }
-.audio-link .header {
+.audio-link .header {/* delete */
 	display: table;
 	height: 128px;
-	/*margin-left: 150px;*/
 }
-.audio-link .header .center {
+.audio-link .header .center {/* delete */
 	display: table-cell;
 	vertical-align: middle;
 }
-.audio-link h4 {
+.audio-link h4 {/* delete */
 	margin-bottom: 11px;
 }
-.audio-link h4 a {
+.audio-link h4 a {/* delete */
 	color: #000;
 	text-decoration: none;
 }
-.audio-link h4 a:hover {
+.audio-link h4 a:hover {/* delete */
 	text-decoration: underline;
 }
-.audio-link .details {
+.audio-link .details {/* delete */
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	color: #6c6c6c;
 }
-.audio-link .description {
+.audio-link .description {/* delete */
 	margin: 12px 0 17px 0;
 	text-decoration: none;
 	font-family: 'Noto Serif', serif;
 	font-size: 14px;
 	line-height: 1.4;
 }
-.audio-link .description .more {
+.audio-link .description .more { /* delete */
 	font-family: inherit;
 }
 
 
 
 
-.audio-link.in-catalog .author-photo {
+.audio-link.in-catalog .author-photo { /* delete */
 	width: 64px;
 	height: 64px;
 }
-.audio-link.in-catalog.big-picture .author-photo {
+.audio-link.in-catalog.big-picture .author-photo { /* delete */
 	width: 128px;
 	height: 128px;
 }
@@ -99,7 +197,7 @@
 	margin-right: 25px;
 }
 
-.page_family .audio-link.in-catalog .author-photo {
+.page_family .audio-link.in-catalog .author-photo { /* delete */
 	width: 80px;
 	height: 60px;
 }

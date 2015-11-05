@@ -57,19 +57,13 @@
 	float: right;
 	font: normal 13px 'Noto Serif', serif;
 }
-/*.audio-catalog .column-left section {
-	margin-top: 13px;
-}*/
+
 
 .audio-catalog .banner {
 	display: block;
 	margin-bottom: 20px;
 }
-.audio-catalog .audio-list-wrapper {
-	margin-bottom: 20px;
-	padding: 20px;
-	background: #faf9e6;
-}
+
 
 .audio-catalog .audio-list-wrapper .block-title {
 	padding: 0 0 10px 0;

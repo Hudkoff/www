@@ -3,8 +3,8 @@
 	width: 100%;
 	padding: 10px 0;
 	font-family: 'Noto Serif', serif;
-  	border-bottom: 1px solid #e5e5e5;
-	font-size: 12px;	
+ 	font-size: 12px;	
+ 	border-bottom: 1px solid #e5e5e5;
 }
 .catalog-filters > li {
 	display: table-cell;
@@ -29,7 +29,7 @@
 .catalog-filters ul li:nth-child(2){
 	width: 115px;
 }
-.catalog-filters span {
+.catalog-filters span { /* delete */
 	padding-right: 15px;
 	background: url("../images/icon-arrow.png") 100% 7px no-repeat;
 	border-bottom: 1px dotted #000;
@@ -40,7 +40,7 @@
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
 }
-.catalog-filters span:hover {
+.catalog-filters span:hover { /* delete */
 	background-image: url("../images/icon-arrows.png");
 	background-position: 100% 3px;
 }

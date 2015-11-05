@@ -1,4 +1,4 @@
-<ul class="catalog-filters">
+<ul class="catalog-filters"> <!-- delete -->
 	<li><span>Автор</span></li>
 	<li>
 		<ul>

@@ -1,6 +1,7 @@
 .catalog-pagination {
 	display: table;
-	margin: 10px auto 20px;
+	margin: 0 auto;
+	padding: 15px 0;
 	font: bold 14px 'Open Sans', sans-serif;
 }
 .catalog-pagination ul {

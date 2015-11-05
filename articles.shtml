@@ -67,23 +67,23 @@
 
 			<!--#include virtual="tag-cloud/index-short.shtml"-->
 
-			<section class="articles-catalog-wrapper">
-
+			<div class="content_colored">
 				<!--#include virtual="catalog-pagination/index.shtml"-->
+				<table class="links-table">
+					<tr><!--#include virtual="links-table-items/index-42.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-43.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-42.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-43.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-42.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-43.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-42.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-43.shtml"--></tr>
+				</table>
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+			</div>
+			<br>
 
-				<div>
-					<!--#include virtual="articles-link/index-42.shtml"-->
-					<!--#include virtual="articles-link/index-43.shtml"-->
-					<!--#include virtual="articles-link/index-42.shtml"-->
-					<!--#include virtual="articles-link/index-43.shtml"-->
-					<!--#include virtual="articles-link/index-42.shtml"-->
-					<!--#include virtual="articles-link/index-43.shtml"-->
-					<!--#include virtual="articles-link/index-42.shtml"-->
-					<!--#include virtual="articles-link/index-43.shtml"-->
-				</div>
-		 
-				<!--#include virtual="catalog-pagination/index.shtml"--> 
-			</section>
+
 
 		</div>
 

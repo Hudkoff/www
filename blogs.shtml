@@ -130,17 +130,29 @@
 		</aside>
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
 			<!--#include virtual="tag-cloud/index-all-blogs.shtml"-->
 			
-			<div class="content_colored padding">
-				<div class="catalog-items-list">
-					<!--#include virtual="catalog-item/blogs-11.shtml"-->
-					<!--#include virtual="catalog-item/blogs-11.shtml"-->
-					<!--#include virtual="catalog-item/blogs-11.shtml"-->
-					<!--#include virtual="catalog-item/blogs-11.shtml"-->
-				</div>
+
+			<div class="content_colored">
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+				<table class="links-table">
+					<tr>
+						<th><span>Автор</span></th>
+						<th><span>Название</span></th>
+						<th width="60px"><span>Дата</span></th>
+					</tr>
+					<tr><!--#include virtual="links-table-items/blogs-11.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/blogs-11.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/blogs-11.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/blogs-11.shtml"--></tr>
+				</table>
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 			</div>
+			<br>
+
+
+
 		</div>
 
 		<aside class="table-cell column-right">

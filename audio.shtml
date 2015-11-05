@@ -82,24 +82,27 @@
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 			<!--#include virtual="tag-cloud/index-short.shtml"-->
 
-			<div class="audio-list-wrapper">
-				<!--#include virtual="catalog-filters/audio.shtml"-->
-
-				<div class="audio-list">
-					<!--#include virtual="audio-link/index-21.shtml"-->
-					<!--#include virtual="audio-link/index-22.shtml"-->
-					<!--#include virtual="audio-link/index-23.shtml"-->
-					<!--#include virtual="audio-link/index-24.shtml"-->
-					<!--#include virtual="audio-link/index-25.shtml"-->
-					<!--#include virtual="audio-link/index-24.shtml"-->
-					<!--#include virtual="audio-link/index-25.shtml"-->
-					<!--#include virtual="audio-link/index-26.shtml"-->
-					<!--#include virtual="audio-link/index-25.shtml"-->
-					<!--#include virtual="audio-link/index-26.shtml"-->
-					<!--#include virtual="audio-link/index-25.shtml"-->
-				</div>
+			<div class="content_colored">
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+				<table class="links-table">
+					<tr>
+						<th><span>Автор</span></th>
+						<th><span>Название</span></th>
+						<th width="60px"><span>Дата</span></th>
+					</tr>
+					<tr><!--#include virtual="links-table-items/index-21.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-22.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-23.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-24.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-25.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-26.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-25.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-26.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/index-25.shtml"--></tr>
+				</table>
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 			</div>
+			<br>
 
 		</div>
 
