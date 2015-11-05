@@ -18,7 +18,7 @@
 	</aside>
 
 	<div class="table-cell column-central" itemprop="mainContentOfPage">
-		<div class="content_colored top-block">
+		<div class="content_colored padding top-block">
 			<!--#include virtual="breadcrumbs/talmud-online.shtml"-->
 			<div class="table">
 				<div class="table-cell column-left">

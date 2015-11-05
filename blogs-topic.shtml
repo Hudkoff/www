@@ -20,7 +20,7 @@
 		</div>
 		<div class="table-cell column-central ">
 
-			<div class="content_colored color-BLOGS blogs-topic clearfix">
+			<div class="content_colored padding color-BLOGS blogs-topic clearfix">
 
 				<div class="blogs-topic-top-block">
 				<!--#include virtual="breadcrumbs/blogs-topic.shtml"-->
@@ -70,7 +70,7 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="content_colored">
+			<div class="content_colored padding">
 				<div class="catalog-items-list">
 					<!--#include virtual="catalog-item/blogs-21.shtml"-->
 					<!--#include virtual="catalog-item/blogs-22.shtml"-->

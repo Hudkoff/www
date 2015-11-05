@@ -19,7 +19,7 @@
 		</aside>
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
-			<div class="content_colored margin-b20">
+			<div class="content_colored padding margin-b20">
 				<!--#include virtual="breadcrumbs/learning-webinars.shtml"-->
 
 				<h1 class="color-LEARNING bordered margin-b20">
@@ -83,7 +83,7 @@
 							<b>&#9670;</b>
 						</a>
 					</h4>
-					<div class="content_colored">
+					<div class="content_colored padding">
 						<!--#include virtual="catalog-item/video-les-11.shtml"-->
 						<!--#include virtual="catalog-item/video-les-12.shtml"-->
 						<!--#include virtual="catalog-item/video-les-13.shtml"-->

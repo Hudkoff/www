@@ -19,7 +19,7 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="content_colored">
+			<div class="content_colored padding">
 				<!--#include virtual="breadcrumbs/articles.shtml"-->
 
 				<h1 class="color-LIGHTGRAY bordered">Статьи</h1>

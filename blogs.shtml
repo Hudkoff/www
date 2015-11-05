@@ -132,7 +132,7 @@
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 			<!--#include virtual="tag-cloud/index-all-blogs.shtml"-->
 			
-			<div class="content_colored">
+			<div class="content_colored padding">
 				<div class="catalog-items-list">
 					<!--#include virtual="catalog-item/blogs-11.shtml"-->
 					<!--#include virtual="catalog-item/blogs-11.shtml"-->

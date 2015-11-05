@@ -30,7 +30,7 @@
             <h3 class="color-GRAY bordered">Поиск по алфавиту</h3>
         </div>
         <br>
-        <div class="content_colored">
+        <div class="content_colored padding">
             <p class="names-title">Мужские имена</p>
             <!--#include virtual="_alphabet.shtml"-->
             <br>

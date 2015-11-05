@@ -22,7 +22,7 @@
 	<div class="table-cell column-central" itemprop="mainContentOfPage">
 		<div class="tests-main-block test-active content_bordered color-LEARNING clearfix ">
 
-			<div class="content_colored">
+			<div class="content_colored padding">
 
 				<!--#include virtual="breadcrumbs/learning-test.shtml"-->
 
@@ -38,7 +38,7 @@
 				<!--#include virtual="tests/index-21.shtml"-->
 			</div>
 
-			<div class="content_colored test-info-block">
+			<div class="content_colored padding test-info-block">
 				<div class="test-info-item"><b>152</b> попыток пройти тест</div>
 				<div class="test-info-item"><b>265</b> пользователей</div>
 				<div class="test-info-item"><b>874</b> максимальный балл</div>
@@ -48,7 +48,7 @@
 				</div>
 			</div>
 
-			<div class="content_colored users-info-block">
+			<div class="content_colored padding users-info-block">
 				<div class="heading">
 					<b>Лучшие в этом тесте:</b>
 				</div>

@@ -19,7 +19,7 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="content_colored">
+			<div class="content_colored padding">
 				<!--#include virtual="breadcrumbs/ask.shtml"-->
 
 				<div class="table COL-three">
@@ -85,7 +85,7 @@
 
 			<!--#include virtual="tag-cloud/index-short.shtml"-->
 
-			<div class="audio-list-wrapper content_colored">
+			<div class="audio-list-wrapper content_colored padding">
 				<h3 class="color-ASK bordered">Вопросы Раввину</h3>
 				
 				<!--#include virtual="catalog-filters/index.shtml"-->

@@ -18,7 +18,7 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="content_colored">
+			<div class="content_colored padding">
 				<!--#include virtual="breadcrumbs/audio.shtml"-->
 				<div class="table">
 					<div class="table-cell column-left">

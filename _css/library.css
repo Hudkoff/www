@@ -47,30 +47,26 @@
 	margin: 30px 0;
 }
 
-.page_library .column-central .content_colored h1 {
-	color: #c50825;
-}
-
-.page_library .content_colored .author .heading {
+.page_library .author .heading {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #6c6c6c;
 }
-.page_library .content_colored .author .heading span {
+.page_library .author .heading span {
     display: block;
     font-family: 'Noto Serif', serif;
     font-size: 14px;
     font-weight: bold;
     color: #000;
 }
-.page_library .content_colored .author img {
+.page_library .author img {
     float: left;
     margin: 0 20px 5px 0;
 }
-.page_library .content_colored .author h6 {
+.page_library .author h6 {
     margin:15px 0;
 }
-.page_library .content_colored .author .item-list li {
+.page_library .author .item-list li {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     margin-bottom: 5px;

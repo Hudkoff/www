@@ -28,7 +28,7 @@
 
         <div class="alphabet-saerch">
             <h3 class="color-GRAY bordered">Поиск по алфавиту</h3>
-            <div class="content_colored">
+            <div class="content_colored padding">
                 <!--#include virtual="_alphabet.shtml"-->
                 <!--#include virtual="_surnames-active.shtml"-->
                 <a href="#" class="buttonGRAY show-all">↓ Показать все имена</a>

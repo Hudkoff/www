@@ -94,13 +94,7 @@
 
 }
 
-.tests-main-block .content_colored {
-	background-color: #7247ba;
-	color: #fff !important;
-}
-.tests-main-block .content_colored * {
-	color: #fff;
-}
+
 
 .tests-main-block.test-active {
 	padding: 0;

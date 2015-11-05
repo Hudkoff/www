@@ -123,8 +123,9 @@
 
 		<div class="author-materials">
 			<h2 class="color-WIKI">Материалы по автору: Рав Ашер Кушнир</h2>
+			<br>
 
-			<div class="content_colored clearfix">
+			<div class="content_colored padding clearfix">
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 				<div class="materials-list">
 
@@ -189,7 +190,10 @@
 					</div>
 				</div>
 				<!--#include virtual="catalog-pagination/index.shtml"-->
+
 			</div>
+
+			<br>
 		</div>
 
 

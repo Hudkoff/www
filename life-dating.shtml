@@ -21,7 +21,7 @@
 
     <div class="table-cell column-central" itemprop="mainContentOfPage">
 
-        <div class="content_colored dating margin-bottom">
+        <div class="content_colored padding dating margin-bottom">
             <!--#include virtual="breadcrumbs/life-dating.shtml"-->
 
             <h1 class="color-LIFE bordered">

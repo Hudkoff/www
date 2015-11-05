@@ -22,7 +22,7 @@
 	<div class="table-cell column-central" itemprop="mainContentOfPage">
 		<div class="tests-main-block test-active content_bordered color-LEARNING clearfix ">
 
-			<div class="content_colored">
+			<div class="content_colored padding">
 
 				<!--#include virtual="breadcrumbs/learning-test.shtml"-->
 
@@ -38,7 +38,7 @@
 				<!--#include virtual="tests/index-23.shtml"-->
 			</div>
 
-			<div class="content_colored test-question-block">
+			<div class="content_colored padding test-question-block">
 				Результат теста:
 			</div>
 
@@ -47,7 +47,7 @@
 				<div class="subheading">Вы ответили верно на <b>5</b> вопросов из  <b>12</b>.</div>
 
 				<div class="results-share">
-					<div class="heading content_colored">
+					<div class="heading content_colored padding">
 						Ваша оценка
 					</div>
 					<div class="mark">
@@ -64,7 +64,7 @@
 				</div>
 			</div>
 
-			<div class="content_colored test-navigation-block">
+			<div class="content_colored padding test-navigation-block">
 				<div class="test-stats">
 					<div class="test-stats-item">
 						прохождения
@@ -81,7 +81,7 @@
 				</div>
 			</div>
 
-			<div class="content_colored users-info-block">
+			<div class="content_colored padding users-info-block">
 				<div class="heading">
 					<b>Лучшие в этом тесте:</b>
 				</div>

@@ -22,7 +22,7 @@
 	<div class="table-cell column-central" itemprop="mainContentOfPage">
 		<div class="tests-main-block test-active content_bordered color-LEARNING clearfix ">
 
-			<div class="content_colored">
+			<div class="content_colored padding">
 
 				<!--#include virtual="breadcrumbs/learning-test.shtml"-->
 
@@ -38,7 +38,7 @@
 				<!--#include virtual="tests/index-22.shtml"-->
 			</div>
 
-			<div class="content_colored test-question-block">
+			<div class="content_colored padding test-question-block">
 				Перекупщик взял товар у продавца, чтобы отвезти его на ярмарку и там продать. После продажи он вернет
 				деньги продавцу. Является ли он должником (шоэль)
 				по дороге туда (куда он везет товар) и обратно (если товар продать не удалось)?
@@ -61,7 +61,7 @@
 				</form>
 			</div>
 
-			<div class="content_colored test-navigation-block">
+			<div class="content_colored padding test-navigation-block">
 				<p>На вопросы можно отвечать в любом порядке:</p>
 				<ul class="clearfix">
 					<li><a href="" title="">1</a></li>
@@ -111,7 +111,7 @@
 				</div>
 			</div>
 
-			<div class="content_colored users-info-block">
+			<div class="content_colored padding users-info-block">
 				<div class="heading">
 					<b>Лучшие в этом тесте:</b>
 				</div>

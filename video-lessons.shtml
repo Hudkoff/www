@@ -25,7 +25,7 @@
 
 				<div class="table-cell" itemprop="mainContentOfPage">
 
-					<div class="content_colored">
+					<div class="content_colored padding">
 						<!--#include virtual="breadcrumbs/video-lessons.shtml"-->
 
 						<div class="table COL-three">
@@ -97,7 +97,7 @@
 				<div class="table-cell" itemprop="mainContentOfPage">
 					<!--#include virtual="tag-cloud/index-short.shtml"-->
 
-					<section class="content_colored">
+					<section class="content_colored padding">
 
 						<!--#include virtual="catalog-filters/index.shtml"-->
 

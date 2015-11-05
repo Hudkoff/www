@@ -19,93 +19,93 @@
 		</aside>
 		
 		<div class="table-cell column-central margin-bottom" itemprop="mainContentOfPage">
-			<div class="content_colored">
+
+			<div class="content_colored padding">
 				<!--#include virtual="breadcrumbs/my.shtml"-->
 
 				<h1>Моё</h1>
 				<h6 class="hello">Шалом, username!</h6>
 				<p>C помощью меню слева вы можете <a href="#">управлять вашим аккаунтом</a>, следить за новыми выпусками в <a href="#">циклах, на которые вы подписаны</a>, просмотретьсвои <a href="#">комментарии в блоках</a>, отслеживать <a href="#">статус заказов в магазине</a>, статистику <a href="#">прохождения тестов, настраивать рассылки</a> и др.</p>
+
 			</div>
+
+			<h3 class="color-TOLDOT arrowed bordered">
+				<a href="#" title="">
+					Отложенное
+					<b>&#9670;</b>
+				</a>
+			</h3>
+
 			<section class="table COL-two">
 
-				<h3 class="color-TOLDOT arrowed bordered">
-					<a href="#" title="">
-						Отложенное
-						<b>&#9670;</b>
-					</a>
-				</h3>
 
-				<div class="table COL-two">
-					<div class="table-cell">
-						<section class="article-link favourite">
-							<a href="" title="">
-								<img src="images/article.jpg" alt="" />
-								<br><br>
-								<h4>
-									Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов
-									<span class="label article">Статья</span>
-								</h4>
-							</a>
+				<div class="table-cell">
+					<section class="article-link favourite">
+						<a href="" title="">
+							<img src="images/article.jpg" alt="" />
+							<br><br>
+							<h4>
+								Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов
+								<span class="label article">Статья</span>
+							</h4>
+						</a>
 
-							<p class="details">
-								10 апреля, <b>Рав Йеошуа Ишайя Нойвирт</b>
-							</p>
-							<p class="description">
-							Любой плод запрещено выжимать в пустой сосуд или в напиток, как используя для выжимания инструмент, так и выжимая рукой Часть 5. Законы выжимания (סְחִיטָה — сехита) плодов в Шаббат и Йом тов 5.1. Выжимание плодов для получения напитка запрещено в Шаббат и Йом тов, и есть для этого различные законы, как будет объяснено далее.
-							</p>
-						</section>
-					</div>
-					<section class="table-cell">
-						<!--#include virtual="article-link/index-94.shtml"-->
-						<!--#include virtual="article-link/index-95.shtml"-->
-						<!--#include virtual="article-link/index-93.shtml"-->
-						<a href="#" class="more right" title="">Перейти к Отложенному</a>
+						<p class="details">
+							10 апреля, <b>Рав Йеошуа Ишайя Нойвирт</b>
+						</p>
+						<p class="description">
+						Любой плод запрещено выжимать в пустой сосуд или в напиток, как используя для выжимания инструмент, так и выжимая рукой Часть 5. Законы выжимания (סְחִיטָה — сехита) плодов в Шаббат и Йом тов 5.1. Выжимание плодов для получения напитка запрещено в Шаббат и Йом тов, и есть для этого различные законы, как будет объяснено далее.
+						</p>
 					</section>
-
 				</div>
+				<section class="table-cell">
+					<!--#include virtual="article-link/index-94.shtml"-->
+					<!--#include virtual="article-link/index-95.shtml"-->
+					<!--#include virtual="article-link/index-93.shtml"-->
+					<a href="#" class="more right" title="">Перейти к Отложенному</a>
+				</section>
+
 			</section>
-			
+
+			<h3 class="color-TOLDOT arrowed bordered">
+				<a href="#" title="">
+					Подписки
+					<span class="notification">45</span>
+					<b>&#9670;</b>
+				</a>
+			</h3>
+
 			<section class="table COL-two">
 
-				<h3 class="color-TOLDOT arrowed bordered">
-					<a href="#" title="">
-						Подписки
-						<span class="notification">45</span>
-						<b>&#9670;</b>
-					</a>
-				</h3>
+				<div class="table-cell">
+					<section class="article-link favourite">
+						<a href="" title="">
+							<img src="images/article.jpg" alt="" />
+							<br><br>
+							<h4>
+								Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов
+								<span class="label blog">Блоги</span> <a href="#" class="more small-more">3 новых записи в блоге</a>
+							</h4>
+						</a>
 
-				<div class="table COL-two">
-					<div class="table-cell">
-						<section class="article-link favourite">
-							<a href="" title="">
-								<img src="images/article.jpg" alt="" />
-								<br><br>
-								<h4>
-									Соблюдение Шаббата по закону 3. Законы выжимания плодов в Шаббат и Йом тов
-									<span class="label blog">Блоги</span> <a href="#" class="more small-more">3 новых записи в блоге</a>
-								</h4>
-							</a>
-
-							<p class="details">
-								10 апреля, <b>Рав Йеошуа Ишайя Нойвирт</b>
-							</p>
-							<div class="buttons">
-								<!--#include virtual="/buttons/subscribe-with-popup.shtml?"-->
-								<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
-							</div>
-							<p class="description">
-							Любой плод запрещено выжимать в пустой сосуд или в напиток, как используя для выжимания инструмент, так и выжимая рукой Часть 5. Законы выжимания (סְחִיטָה — сехита) плодов в Шаббат и Йом тов 5.1. Выжимание плодов для получения напитка запрещено в Шаббат и Йом тов, и есть для этого различные законы, как будет объяснено далее.
-							</p>
-						</section>
-					</div>
-					<section class="table-cell">
-						<!--#include virtual="article-link/index-91.shtml"-->
-						<!--#include virtual="article-link/index-92.shtml"-->
-						<a href="#" class="more right" title="">Перейти к Подпискам</a>
+						<p class="details">
+							10 апреля, <b>Рав Йеошуа Ишайя Нойвирт</b>
+						</p>
+						<div class="buttons">
+							<!--#include virtual="/buttons/subscribe-with-popup.shtml?"-->
+							<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
+						</div>
+						<p class="description">
+						Любой плод запрещено выжимать в пустой сосуд или в напиток, как используя для выжимания инструмент, так и выжимая рукой Часть 5. Законы выжимания (סְחִיטָה — сехита) плодов в Шаббат и Йом тов 5.1. Выжимание плодов для получения напитка запрещено в Шаббат и Йом тов, и есть для этого различные законы, как будет объяснено далее.
+						</p>
 					</section>
-
 				</div>
+				<section class="table-cell">
+					<!--#include virtual="article-link/index-91.shtml"-->
+					<!--#include virtual="article-link/index-92.shtml"-->
+					<a href="#" class="more right" title="">Перейти к Подпискам</a>
+				</section>
+
 			</section>
 
 			<section class="table COL-two">
@@ -142,6 +142,7 @@
 					<a href="#" class="more" title="">Перейти к Вопросам раввину</a>
 				</section>
 			</section>
+			
 		</div>
 
 		
