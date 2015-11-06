@@ -5,7 +5,7 @@
 	<h4><a href="#">Ароматный луковый хлеб</a></h4>
 	<p class="details">14 мая 2015, 14:02</p>
 	<p class="description">
-		<img src="images/video-01.jpg" alt=""/>
+		<img src="images/video-01.jpg" alt=""/><br>
 		<a href="#" class="more">Далее</a>
 	</p>							
 	<div class="buttons">				
