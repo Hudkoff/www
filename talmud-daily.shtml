@@ -24,11 +24,12 @@
 
 		<h4 class="color-LEARNING">Ежедневная учеба</h4>
 
-		<div class="daily-learning">
-			<!--#include virtual="catalog-item/talmud-11.shtml"-->
-			<!--#include virtual="catalog-item/talmud-12.shtml"-->
-			<!--#include virtual="catalog-item/talmud-13.shtml"-->
-		</div>
+		<table class="links-table">
+			<tr class="catalog-item-audio"><!--#include virtual="links-table-items/talmud-11.shtml"--></tr>
+			<tr class="catalog-item-video"><!--#include virtual="links-table-items/talmud-12.shtml"--></tr>
+			<tr class="catalog-item-article"><!--#include virtual="links-table-items/talmud-13.shtml"--></tr>
+		</table>
+
 
 		<!--#include virtual="tabs/talmud.shtml"-->
 

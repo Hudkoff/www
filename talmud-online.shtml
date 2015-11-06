@@ -35,11 +35,11 @@
 							Скайп или по телефону с раввинами и преподавателями иудаизма на русском языке. <a href="#" title="">Как это работает?</a></p>
 					</div>
 
-					<div class="buttons">
-						<a class="button button-green p_request-study" href="popup_request-study.shtml" title="">
+					<div class="">
+						<a class="page_talmud_button button-green p_request-study" href="popup_request-study.shtml" title="">
 							заявка на учебу
 						</a>
-						<a class="button button-blue p_request-edu" href="popup_request-edu.shtml" title="">
+						<a class="page_talmud_button button-blue p_request-edu" href="popup_request-edu.shtml" title="">
 							заявка на преподавание
 						</a>
 					</div>

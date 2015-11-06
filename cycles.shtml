@@ -24,22 +24,32 @@
 
 			<h1>Циклы</h1>
 			<!--#include virtual="tag-cloud/index-all-01.shtml"-->
-			
-			<!--#include virtual="catalog-filters/cycles.shtml"-->
-			<div class="catalog-items-list">
-				<!--#include virtual="catalog-item/cycles-11.shtml"-->
-				<!--#include virtual="catalog-item/cycles-12.shtml"-->
-				<!--#include virtual="catalog-item/cycles-13.shtml"-->
-				<!--#include virtual="catalog-item/cycles-14.shtml"-->
-				<!--#include virtual="catalog-item/cycles-15.shtml"-->
 
-				<!--#include virtual="catalog-item/cycles-11.shtml"-->
-				<!--#include virtual="catalog-item/cycles-12.shtml"-->
-				<!--#include virtual="catalog-item/cycles-13.shtml"-->
-				<!--#include virtual="catalog-item/cycles-14.shtml"-->
-				<!--#include virtual="catalog-item/cycles-15.shtml"-->
+
+			<div class="content_colored">
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+				<table class="links-table">
+					<tr>
+						<th><span>Автор</span></th>
+						<th><span>Название</span></th>
+						<th width="110px"><span>Все разделы</span></th>
+						<th width="60px"><span>Дата</span></th>
+					</tr>
+					<tr class="catalog-item-audio"><!--#include virtual="links-table-items/cycles-11.shtml"--></tr>
+					<tr class="catalog-item-video"><!--#include virtual="links-table-items/cycles-12.shtml"--></tr>
+					<tr class="catalog-item-article"><!--#include virtual="links-table-items/cycles-13.shtml"--></tr>
+					<tr class="catalog-item-question"><!--#include virtual="links-table-items/cycles-14.shtml"--></tr>
+					<tr class="catalog-item-cycle"><!--#include virtual="links-table-items/cycles-15.shtml"--></tr>
+					<tr class="catalog-item-audio"><!--#include virtual="links-table-items/cycles-11.shtml"--></tr>
+					<tr class="catalog-item-video"><!--#include virtual="links-table-items/cycles-12.shtml"--></tr>
+					<tr class="catalog-item-article"><!--#include virtual="links-table-items/cycles-13.shtml"--></tr>
+					<tr class="catalog-item-question"><!--#include virtual="links-table-items/cycles-14.shtml"--></tr>
+					<tr class="catalog-item-cycle"><!--#include virtual="links-table-items/cycles-15.shtml"--></tr>
+				</table>
+				<!--#include virtual="catalog-pagination/index.shtml"-->
 			</div>
-			<!--#include virtual="catalog-pagination/index.shtml"-->
+			<br>
+
 		</div>
 		
 		<aside class="table-cell column-right">

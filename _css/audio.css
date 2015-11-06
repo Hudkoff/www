@@ -11,7 +11,6 @@
 @import "_radio-toldot.css";
 @import "_lessons-navigation.css";
 @import "_download.css";
-@import "_catalog-filters.css";
 @import "_useful-links.css";
 
 .audio-main {
@@ -65,7 +64,7 @@
 }
 
 
-.audio-catalog .audio-list-wrapper .block-title {
+/*.audio-catalog .audio-list-wrapper .block-title {
 	padding: 0 0 10px 0;
 	margin-bottom: 10px;
   	border-bottom: 1px solid #e5e5e5;
@@ -73,12 +72,12 @@
   	font-size: 20px;
   	font-weight: bold;
   	color: #b38d39;
-}
+}*/
 
-.audio-catalog .audio-list {
+/*.audio-catalog .audio-list {
 	margin-bottom: 25px;
   	border-bottom: 1px solid #e5e5e5;
-}
+}*/
 
 
 

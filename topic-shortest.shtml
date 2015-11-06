@@ -66,11 +66,13 @@
 
 		<div class="table-cell content_transparent COL-three column-central" itemprop="mainContentOfPage">
 
-				<!--#include virtual="catalog-item/cycles-11.shtml"-->
-				<!--#include virtual="catalog-item/cycles-12.shtml"-->
-				<!--#include virtual="catalog-item/cycles-13.shtml"-->
-				<!--#include virtual="catalog-item/cycles-14.shtml"-->
-				<!--#include virtual="catalog-item/cycles-11.shtml"-->
+			<table class="links-table">
+				<tr class="catalog-item-audio"><!--#include virtual="links-table-items/cycles-11.shtml"--></tr>
+				<tr class="catalog-item-video"><!--#include virtual="links-table-items/cycles-12.shtml"--></tr>
+				<tr class="catalog-item-article"><!--#include virtual="links-table-items/cycles-13.shtml"--></tr>
+				<tr class="catalog-item-question"><!--#include virtual="links-table-items/cycles-14.shtml"--></tr>
+				<tr class="catalog-item-cycle"><!--#include virtual="links-table-items/cycles-15.shtml"--></tr>
+			</table>
 
 		</div>
 

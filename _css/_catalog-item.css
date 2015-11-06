@@ -76,40 +76,12 @@
     margin: 15px 0 0 0;
 }
 
-.catalog-item-video {
-    background-color: #eaf8f0;
-}
-.catalog-item-video h4 a {
-    color: #4fc77a;
-}
 
 
-.catalog-item-audio {
-    background-color: #eef6e7;
-}
-.catalog-item-audio h4 a {
-    color: #c4af23;
-}
 
 
-.catalog-item-article {
-    background-color: #eeeeee;
-}
-.catalog-item-article h4 a {
-    color: #000;
-}
 
 
-.catalog-item-question {
-    background-color: #f8f4ea;
-}
-.catalog-item-question h4 a {
-    color: #d55940;
-}
 
-.catalog-item-cycle {
-    background-color: #f8eaf5;
-}
-.catalog-item-cycle h4 a {
-    color: #b20e89;
-}
+
+
