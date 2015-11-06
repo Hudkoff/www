@@ -55,7 +55,6 @@
 }
 
 .links-table h4 {
-	margin-bottom: 11px;
 }
 .links-table h4 a {
 	color: #000;
@@ -65,18 +64,21 @@
 	text-decoration: underline;
 }
 .links-table .details {
+	margin-top: 11px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	color: #6c6c6c;
 }
 .links-table .description {
-	margin: 12px 0 17px 0;
+	margin-top: 12px;
 	text-decoration: none;
 	font-family: 'Noto Serif', serif;
 	font-size: 14px;
 	line-height: 1.4;
 }
-
+.links-table .buttons {
+	margin-top: 17px;
+}
 
 
 

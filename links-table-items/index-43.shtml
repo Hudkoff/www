@@ -8,8 +8,9 @@
 		Книга Давида Россофа, раскрывающая ценность земли Израиля для каждого еврея. О великой
 		привилегии, но и не менее великой ответственности жить в стране Израиля.
 		<a href="#" class="more">Далее</a>
-	</p>							
-	<!--#include virtual="../buttons/later.shtml?true"-->
-	<!--#include virtual="../buttons/subscribe-with-popup.shtml?"-->
-
+	</p>
+	<div class="buttons">				
+		<!--#include virtual="../buttons/later.shtml?true"-->
+		<!--#include virtual="../buttons/subscribe-with-popup.shtml?"-->
+	</div>
 </td>

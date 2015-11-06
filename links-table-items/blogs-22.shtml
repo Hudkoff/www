@@ -1,0 +1,15 @@
+<td>
+	<a href="#" title=""><img src="images/avatar-21.jpg" alt=""></a>
+</td>
+<td>
+	<h4><a href="#">Салат «Мимоза»</a></h4>
+	<p class="details">14 мая 2015, 14:02</p>
+	<p class="description">
+		Рита распахнула входную дверь и втащила упирающегося Ильку в дом. - Отстань, я сам. У колонки могли бы умыться, - ворчал брат. На его виске кровоточили ссадины. Разбитый нос тоже кровил...
+				<a href="#" class="more">Далее</a>
+	</p>							
+	<div class="buttons">				
+		<a href="#" class="buttonGRAY comments">13 Комментариев</a>
+		<a href="#" class="buttonGRAY comment">Комментировать</a>
+	</div>
+</td>

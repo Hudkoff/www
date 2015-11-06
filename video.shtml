@@ -32,24 +32,31 @@
 
 			<!--#include virtual="tag-cloud/index-short-video.shtml"-->
 
-			<section class="content_colored padding margin-bottom">
+			<div class="content_colored">
 				<!--#include virtual="catalog-pagination/index.shtml"-->
-				<!--#include virtual="catalog-filters/video.shtml"-->
-				
-				<!--#include virtual="catalog-item/video-11.shtml"-->
-				<!--#include virtual="catalog-item/video-12.shtml"-->
-				<!--#include virtual="catalog-item/video-11.shtml"-->
-				<!--#include virtual="catalog-item/video-12.shtml"-->
-				<!--#include virtual="catalog-item/video-11.shtml"-->
-				<!--#include virtual="catalog-item/video-12.shtml"-->
-				<!--#include virtual="catalog-item/video-11.shtml"-->
-				<!--#include virtual="catalog-item/video-12.shtml"-->
-				<!--#include virtual="catalog-item/video-11.shtml"-->
-				<!--#include virtual="catalog-item/video-12.shtml"-->
-				<!--#include virtual="catalog-item/video-12.shtml"-->
-				
+				<table class="links-table">
+					<tr>
+						<th><span>Автор</span></th>
+						<th><span>Название</span></th>
+						<th width="100px"><span>Все разделы</span></th>
+						<th width="60px"><span>Дата</span></th>
+					</tr>
+					<tr><!--#include virtual="links-table-items/video-11.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/video-12.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/video-11.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/video-12.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/video-11.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/video-12.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/video-11.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/video-12.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/video-11.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/video-12.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/video-11.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/video-12.shtml"--></tr>
+				</table>
 				<!--#include virtual="catalog-pagination/index.shtml"-->
-			</section>
+			</div>
+			<br>
 
 		</div>
 

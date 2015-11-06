@@ -122,78 +122,104 @@
 		</div>
 
 		<div class="author-materials">
-			<h2 class="color-WIKI">Материалы по автору: Рав Ашер Кушнир</h2>
+
+
+			<h2 class="color-WIKI bordered">Материалы по автору: Рав Ашер Кушнир</h2>
 			<br>
 
-			<div class="content_colored padding clearfix">
+			<div class="content_colored">
 				<!--#include virtual="catalog-pagination/index.shtml"-->
-				<div class="materials-list">
-
-					<div class="material-link clearfix">
-						<img src="images/avatar-12.jpg" alt=""/>
-						<div class="description">
-							<a href="" title="">21 мая. Вебинар только для женщин: рав Ашер Кушнира: Как не повторять ошибок наших
+				<table class="links-table">
+					<tr>
+						<td>
+							<a href="#" title=""><img src="images/avatar-12.jpg" alt="" width="45" height="45"></a>
+						</td>
+						<td style="vertical-align:middle;">
+							<div class="description" style="margin:0;">
+								<a href="" title="">21 мая. Вебинар только для женщин: рав Ашер Кушнира: Как не повторять ошибок наших
 								родителей?</a>
-						</div>
-					</div>
-
-					<div class="material-link clearfix">
-						<img src="images/icon-radio-noava.png" alt=""/>
-						<div class="description">
-							<a href="" title="">21 мая. Вебинар только для женщин</a>
-						</div>
-					</div>
-
-					<div class="material-link clearfix">
-						<img src="images/avatar-12.jpg" alt=""/>
-						<div class="description">
-							<a href="" title="">21 мая. Вебинар только для женщин: рав Ашер Кушнира: Как не повторять ошибок наших
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#" title=""><img src="images/icon-radio-noava.png" alt="" width="45" height="45"></a>
+						</td>
+						<td style="vertical-align:middle;">
+							<div class="description" style="margin:0;">
+								<a href="" title="">21 мая. Вебинар только для женщин</a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#" title=""><img src="images/avatar-12.jpg" alt="" width="45" height="45"></a>
+						</td>
+						<td style="vertical-align:middle;">
+							<div class="description" style="margin:0;">
+								<a href="" title="">21 мая. Вебинар только для женщин: рав Ашер Кушнира: Как не повторять ошибок наших
 								родителей?</a>
-						</div>
-					</div>
-
-					<div class="material-link clearfix">
-						<img src="images/avatar-12.jpg" alt=""/>
-						<div class="description">
-							<a href="" title="">21 мая. Вебинар только для женщин: рав Ашер Кушнира: Как не повторять ошибок наших
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#" title=""><img src="images/avatar-12.jpg" alt="" width="45" height="45"></a>
+						</td>
+						<td style="vertical-align:middle;">
+							<div class="description" style="margin:0;">
+								<a href="" title="">21 мая. Вебинар только для женщин: рав Ашер Кушнира: Как не повторять ошибок наших
 								родителей?</a>
-						</div>
-					</div>
-
-					<div class="material-link clearfix">
-						<img src="images/icon-radio-noava.png" alt=""/>
-						<div class="description">
-							<a href="" title="">21 мая. Вебинар только для женщин</a>
-						</div>
-					</div>
-
-					<div class="material-link clearfix">
-						<img src="images/avatar-12.jpg" alt=""/>
-						<div class="description">
-							<a href="" title="">21 мая. Вебинар только для женщин: рав Ашер Кушнира: Как не повторять ошибок наших
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#" title=""><img src="images/icon-radio-noava.png" alt="" width="45" height="45"></a>
+						</td>
+						<td style="vertical-align:middle;">
+							<div class="description" style="margin:0;">
+								<a href="" title="">21 мая. Вебинар только для женщин</a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#" title=""><img src="images/avatar-12.jpg" alt="" width="45" height="45"></a>
+						</td>
+						<td style="vertical-align:middle;">
+							<div class="description" style="margin:0;">
+								<a href="" title="">21 мая. Вебинар только для женщин: рав Ашер Кушнира: Как не повторять ошибок наших
 								родителей?</a>
-						</div>
-					</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#" title=""><img src="images/icon-radio-noava.png" alt="" width="45" height="45"></a>
+						</td>
+						<td style="vertical-align:middle;">
+							<div class="description" style="margin:0;">
+								<a href="" title="">21 мая. Вебинар только для женщин</a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#" title=""><img src="images/icon-radio-noava.png" alt="" width="45" height="45"></a>
+						</td>
+						<td style="vertical-align:middle;">
+							<div class="description" style="margin:0;">
+								<a href="" title="">21 мая. Вебинар только для женщин</a>
+							</div>
+						</td>
+					</tr>
 
-					<div class="material-link clearfix">
-						<img src="images/icon-radio-noava.png" alt=""/>
-						<div class="description">
-							<a href="" title="">21 мая. Вебинар только для женщин</a>
-						</div>
-					</div>
-
-					<div class="material-link clearfix">
-						<img src="images/icon-radio-noava.png" alt=""/>
-						<div class="description">
-							<a href="" title="">21 мая. Вебинар только для женщин</a>
-						</div>
-					</div>
-				</div>
+				</table>
 				<!--#include virtual="catalog-pagination/index.shtml"-->
-
 			</div>
-
 			<br>
+
 		</div>
 
 

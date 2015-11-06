@@ -70,19 +70,21 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="content_colored padding">
-				<div class="catalog-items-list">
-					<!--#include virtual="catalog-item/blogs-21.shtml"-->
-					<!--#include virtual="catalog-item/blogs-22.shtml"-->
-					<!--#include virtual="catalog-item/blogs-23.shtml"-->
-					<!--#include virtual="catalog-item/blogs-24.shtml"-->
-					<!--#include virtual="catalog-item/blogs-21.shtml"-->
-					<!--#include virtual="catalog-item/blogs-22.shtml"-->
-					<!--#include virtual="catalog-item/blogs-23.shtml"-->
-
-				</div>
+			<div class="content_colored">
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+				<table class="links-table">
+					<tr><!--#include virtual="links-table-items/blogs-21.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/blogs-22.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/blogs-23.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/blogs-24.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/blogs-21.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/blogs-22.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/blogs-23.shtml"--></tr>
+				</table>
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 			</div>
+			<br>
+
 		</div>
 
 		<aside class="table-cell column-right">

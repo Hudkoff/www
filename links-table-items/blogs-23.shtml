@@ -1,0 +1,15 @@
+<td>
+	<a href="#" title=""><img src="images/avatar-11.jpg" alt=""></a>
+</td>
+<td>
+	<h4><a href="#">Ароматный луковый хлеб</a></h4>
+	<p class="details">14 мая 2015, 14:02</p>
+	<p class="description">
+		Лейб, восемнадцатилетний узник концлагеря Биркенау, погибал от истощения. Вот какую необыкновенную историю рассказал нам рав Шроя. Но сначала несколько слов о нем самом...
+				<a href="#" class="more">Далее</a>
+	</p>							
+	<div class="buttons">				
+		<a href="#" class="buttonGRAY comments">13 Комментариев</a>
+		<a href="#" class="buttonGRAY comment">Комментировать</a>
+	</div>
+</td>

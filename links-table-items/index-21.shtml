@@ -7,10 +7,11 @@
 	<p class="description">
 		Урок рава Бенциона Зильбера в ешиве Толдот Йешурун. О подробностях исполнения заповедей Пасхального вечера <a href="#" class="more">Далее</a>
 	</p>							
-	<!--#include virtual="../buttons/later.shtml?true"-->
-	<!--#include virtual="../buttons/subscribe-with-popup.shtml?"-->
-	<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
-
+	<div class="buttons">				
+		<!--#include virtual="../buttons/later.shtml?true"-->
+		<!--#include virtual="../buttons/subscribe-with-popup.shtml?"-->
+		<a href="#" class="buttonGRAY itunes">Доступно в iTunes</a>
+	</div>
 </td>
 <td class="details">
 	10 апреля

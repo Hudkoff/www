@@ -85,23 +85,29 @@
 
 			<!--#include virtual="tag-cloud/index-short.shtml"-->
 
-			<div class="audio-list-wrapper content_colored padding">
-				<h3 class="color-ASK bordered">Вопросы Раввину</h3>
-				
-				<!--#include virtual="catalog-filters/index.shtml"-->
-
-				<div class="audio-list">
-					<!--#include virtual="audio-link/index-41.shtml"-->
-					<!--#include virtual="audio-link/index-42.shtml"-->
-					<!--#include virtual="audio-link/index-43.shtml"-->
-					<!--#include virtual="audio-link/index-44.shtml"-->
-					<!--#include virtual="audio-link/index-45.shtml"-->
-					<!--#include virtual="audio-link/index-46.shtml"-->
-					<!--#include virtual="audio-link/index-47.shtml"-->
-					<!--#include virtual="audio-link/index-48.shtml"-->
-				</div>
+			<h3 class="color-ASK bordered">Вопросы Раввину</h3>
+			<br>
+			
+			<div class="content_colored">
+				<!--#include virtual="catalog-pagination/index.shtml"-->
+				<table class="links-table">
+					<tr>
+						<th><span>Автор</span></th>
+						<th><span>Название</span></th>
+						<th width="60px"><span>Дата</span></th>
+					</tr>
+					<tr><!--#include virtual="links-table-items/ask-41.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/ask-42.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/ask-43.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/ask-44.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/ask-45.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/ask-46.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/ask-47.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/ask-48.shtml"--></tr>
+				</table>
 				<!--#include virtual="catalog-pagination/index.shtml"-->
 			</div>
+			<br>
 
 		</div>
 

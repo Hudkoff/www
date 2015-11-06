@@ -4,7 +4,8 @@
 @import "_tabs.css";
 @import "_newsletter.css";
 @import "_authors-list.css";
-@import "_catalog-item.css";
+@import "_catalog-pagination.css";
+@import "_audio-link.css";
 
 /* ============================================================================== */
 .margin-b20 {

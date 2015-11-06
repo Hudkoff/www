@@ -63,17 +63,20 @@
 }
 
 
+
+
 .page_family .catalog-pagination li.selected a {
 	background: #d55940;
-}
-.page_family .catalog-pagination {
-	margin-top: 20px;
 }
 .page_video .catalog-pagination li.selected a {
     background-color: #4fc77a;
 }
 .page_library .catalog-pagination li.selected a {
 	background-color: #7247ba;
-	/*background-color: #9c5630;*/
 }
-
+.page_learning .catalog-pagination li.selected a {
+	background-color: #7247ba;
+}
+.page_topic .catalog-pagination li.selected a {
+	background-color: #0e53b2;
+}

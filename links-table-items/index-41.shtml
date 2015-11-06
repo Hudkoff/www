@@ -10,7 +10,8 @@
 		Шаббат и Йом тов 5.1. Выжимание плодов для получения напитка запрещено...
 		<a href="#" class="more">Далее</a>
 	</p>							
-	<!--#include virtual="../buttons/later.shtml?"-->
-	<!--#include virtual="../buttons/subscribe-with-popup.shtml?"-->
-
+	<div class="buttons">				
+		<!--#include virtual="../buttons/later.shtml?true"-->
+		<!--#include virtual="../buttons/subscribe-with-popup.shtml?"-->
+	</div>
 </td>

@@ -97,23 +97,32 @@
 				<div class="table-cell" itemprop="mainContentOfPage">
 					<!--#include virtual="tag-cloud/index-short.shtml"-->
 
-					<section class="content_colored padding">
-
-						<!--#include virtual="catalog-filters/index.shtml"-->
-
-						<!--#include virtual="catalog-item/video-les-11.shtml"-->
-						<!--#include virtual="catalog-item/video-les-12.shtml"-->
-						<!--#include virtual="catalog-item/video-les-13.shtml"-->
-						<!--#include virtual="catalog-item/video-les-14.shtml"-->
-						<!--#include virtual="catalog-item/video-les-15.shtml"-->
-						<!--#include virtual="catalog-item/video-les-14.shtml"-->
-						<!--#include virtual="catalog-item/video-les-15.shtml"-->
-						<!--#include virtual="catalog-item/video-les-12.shtml"-->
-						<!--#include virtual="catalog-item/video-les-15.shtml"-->
-						<!--#include virtual="catalog-item/video-les-12.shtml"-->
-						<hr />
+					<div class="content_colored">
 						<!--#include virtual="catalog-pagination/index.shtml"-->
-					</section>
+						<table class="links-table">
+							<tr>
+								<th><span>Автор</span></th>
+								<th><span>Название</span></th>
+								<th width="100px"><span>Все разделы</span></th>
+								<th width="60px"><span>Дата</span></th>
+							</tr>
+							<tr><!--#include virtual="links-table-items/video-11.shtml"--></tr>
+							<tr><!--#include virtual="links-table-items/video-12.shtml"--></tr>
+							<tr><!--#include virtual="links-table-items/video-11.shtml"--></tr>
+							<tr><!--#include virtual="links-table-items/video-12.shtml"--></tr>
+							<tr><!--#include virtual="links-table-items/video-11.shtml"--></tr>
+							<tr><!--#include virtual="links-table-items/video-12.shtml"--></tr>
+							<tr><!--#include virtual="links-table-items/video-11.shtml"--></tr>
+							<tr><!--#include virtual="links-table-items/video-12.shtml"--></tr>
+							<tr><!--#include virtual="links-table-items/video-11.shtml"--></tr>
+							<tr><!--#include virtual="links-table-items/video-12.shtml"--></tr>
+							<tr><!--#include virtual="links-table-items/video-11.shtml"--></tr>
+							<tr><!--#include virtual="links-table-items/video-12.shtml"--></tr>
+						</table>
+						<!--#include virtual="catalog-pagination/index.shtml"-->
+					</div>
+					<br>
+			
 				</div>
 
 				<aside class="table-cell column-right">

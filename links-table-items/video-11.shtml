@@ -7,10 +7,9 @@
 	<p class="description">
 		Урок рава Бенциона Зильбера в ешиве Толдот Йешурун. О подробностях исполнения заповедей Пасхального вечера <a href="#" class="more">Далее</a>
 	</p>							
-	<div class="buttons">				
-		<!--#include virtual="../buttons/later.shtml?true"-->
-		<!--#include virtual="../buttons/subscribe-with-popup.shtml?"-->
-	</div>
+</td>
+<td>
+	<span class="label video">Видео</span>
 </td>
 <td class="details">
 	10 апреля
