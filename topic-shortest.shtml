@@ -67,11 +67,11 @@
 		<div class="table-cell content_transparent COL-three column-central" itemprop="mainContentOfPage">
 
 			<table class="links-table">
-				<tr class="catalog-item-audio"><!--#include virtual="links-table-items/cycles-11.shtml"--></tr>
-				<tr class="catalog-item-video"><!--#include virtual="links-table-items/cycles-12.shtml"--></tr>
-				<tr class="catalog-item-article"><!--#include virtual="links-table-items/cycles-13.shtml"--></tr>
-				<tr class="catalog-item-question"><!--#include virtual="links-table-items/cycles-14.shtml"--></tr>
-				<tr class="catalog-item-cycle"><!--#include virtual="links-table-items/cycles-15.shtml"--></tr>
+				<tr class="links-table-item_AUDIO"><!--#include virtual="links-table-items/cycles-11.shtml"--></tr>
+				<tr class="links-table-item_VIDEO"><!--#include virtual="links-table-items/cycles-12.shtml"--></tr>
+				<tr class="links-table-item_ARTICLES"><!--#include virtual="links-table-items/cycles-13.shtml"--></tr>
+				<tr class="links-table-item_FAMILY"><!--#include virtual="links-table-items/cycles-14.shtml"--></tr>
+				<tr class="links-table-item_CYCLES"><!--#include virtual="links-table-items/cycles-15.shtml"--></tr>
 			</table>
 
 		</div>
