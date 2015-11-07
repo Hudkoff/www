@@ -20,7 +20,7 @@
 	</aside>
 
 	<div class="table-cell column-central" itemprop="mainContentOfPage">
-		<div class="tests-main-block content_bordered color-LEARNING clearfix">
+		<div class="content_bordered clearfix">
 
 			<!--#include virtual="breadcrumbs/learning-tests.shtml"-->
 
@@ -41,10 +41,8 @@
 				</div>
 			</div>
 
-
-
-
 		</div>
+		<br>
 
 		<section class="thematic-block">
 			<h3 class="color-GRAY bordered">

@@ -179,7 +179,7 @@ h4[class ^= color] {
 	background: #f8f0e9 url('../images/page-dating-colored-bg.png') 0 0 repeat;
 }
 .page_learning .content_colored {
-	background: #efefef;
+	background: #7247ba;
 }
 .page_talmud .content_colored {
 	background-color: rgba(233,233,233,0.85);
@@ -189,11 +189,8 @@ h4[class ^= color] {
 }
 .tests-main-block .content_colored {
 	background-color: #7247ba;
-	color: #fff !important;
 }
-.tests-main-block .content_colored * {
-	color: #fff;
-}
+
 
 .content_bordered {
 	font-family: 'Noto Serif', serif;
@@ -210,6 +207,9 @@ h4[class ^= color] {
 }
 .page_family .content_bordered {
 	border-color: #ffeeea;
+}
+.page_learning .content_bordered {
+	border-color: #7247ba;
 }
 .content_narrow_bordered {
 	border: 1px solid #bdbdbd;

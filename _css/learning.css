@@ -33,6 +33,7 @@
 
 .page_learning .tests-main-block {
 	margin-bottom: 20px;
+	color: #fff;
 }
 
 .page_learning .main-description {
@@ -40,6 +41,11 @@
 	font-size: 13px;
 	color: #000;
 	margin: 15px 0 0;
+}
+.page_learning  .tests-main-block .main-description,
+.page_learning .content_colored .bread-crumbs,
+.page_learning .content_colored .bread-crumbs a {
+	color: #fff;
 }
 
 .page_learning .socials-like-block {
@@ -217,6 +223,7 @@
 }
 .page_learning .test-navigation-block li a{
 	text-decoration: none;
+	color: #fff;
 }
 .page_learning .test-navigation-block .active {
 	background-color: #fff;
