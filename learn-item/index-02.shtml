@@ -1,8 +1,6 @@
-<div class="learn-item">
+<div class="learn-item clearfix">
 	<a href="#" class="learn-item-link" title="">
-		<div class="image table">
-			<img src="images/test-02.jpg" alt=""/>
-		</div>
+		<img src="images/test-02.jpg" alt=""/>
 		<p class="title">Урок для женщин. <br>Мне давно никто не <br>нравится!</p>
 	</a>
 </div>

@@ -102,6 +102,7 @@
 		<aside class="table-cell column-right">
 			<section>
 				<h4 class="color-LIGHTGRAY bordered">Ежедневная учеба</h4>
+				<br>
 				<div>
 					<!--#include virtual="learn-item/index-01.shtml"-->
 					<!--#include virtual="learn-item/index-02.shtml"-->

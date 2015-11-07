@@ -1,8 +1,6 @@
-<div class="learn-item">
+<div class="learn-item clearfix">
 	<a href="#" class="learn-item-link" title="">
-		<div class="image table">
-			<img src="images/test-01.jpg" alt=""/>
-		</div>
+		<img src="images/test-01.jpg" alt=""/>
 		<p class="title">Как правильно <br> ругаться?</p>
 	</a>
 </div>

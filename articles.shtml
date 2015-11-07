@@ -19,24 +19,34 @@
 
 		<div class="table-cell column-central" itemprop="mainContentOfPage">
 
-			<div class="content_colored padding">
+			<div class="content_colored">
+
+			<div class="wrapper">
+				<br>
 				<!--#include virtual="breadcrumbs/articles.shtml"-->
 
 				<h1 class="color-LIGHTGRAY bordered">Статьи</h1>
-
-				<div class="article-of-day">
-					<div class="topPageInfo">
-						<b>20 567</b> статей, <b>358</b> авторов
-					</div>
-
-					<section>
-						<!--#include virtual="articles-link/index-41.shtml"-->
-						<!--#include virtual="articles-link/index-42.shtml"-->
-						<!--#include virtual="articles-link/index-43.shtml"-->
-					</section>
-
+				<div class="topPageInfo" style="margin-bottom:0;">
+					<b>20 567</b> статей, <b>358</b> авторов
 				</div>
+
 			</div>
+
+			<table class="links-table">
+				<tr style="border: none;"><!--#include virtual="links-table-items/index-41.shtml"--></tr>
+			</table>
+			<table class="links-table">
+				<tr><!--#include virtual="links-table-items/index-42.shtml"--></tr>
+				<tr><!--#include virtual="links-table-items/index-43.shtml"--></tr>
+			</table>
+
+
+
+			</div>
+
+
+
+
 		</div>
 
 		<div class="column-right table-cell lenta-column">

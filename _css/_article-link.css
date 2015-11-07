@@ -59,10 +59,9 @@ a.article-link:hover h4 {
 }
 .article-link .content {
 	font-size: 13px;
-	margin-left: 79px;
+	/*margin-left: 79px;*/
 }
 .article-link .content .more {
-	margin-left: 0;
 	font-family: 'Open Sans', sans-serif;
 }
 .article-link .content h6 {

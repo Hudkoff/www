@@ -75,7 +75,7 @@
 		<h3 class="color-GRAY bordered">
 			<a href="" title="">Рекомендуем также</a>
 		</h3>
-
+		<br>
 		<div class="clearfix">
 			<!--#include virtual="shop-item/index-01.shtml"-->
 			<!--#include virtual="shop-item/index-02.shtml"-->

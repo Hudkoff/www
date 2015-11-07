@@ -41,7 +41,7 @@
 
 			<div class="content_colored">
 				<table class="links-table">
-					<tr><!--#include virtual="links-table-items/blogs-11.shtml"--></tr>
+					<tr><!--#include virtual="links-table-items/blogs-13.shtml"--></tr>
 					<tr><!--#include virtual="links-table-items/blogs-12.shtml"--></tr>
 				</table>
 			</div>
