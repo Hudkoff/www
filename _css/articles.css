@@ -9,9 +9,9 @@
 @import "_authors-list.css";
 @import "_audio-link.css";
 
-.page_articles {
+/*.page_articles {
     margin-bottom: 20px;
-}
+}*/
 .page_articles .first-level-nav h3 {
     color: #545454;
 }

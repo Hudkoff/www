@@ -342,8 +342,8 @@ if (p_globalSearch.length != 0) { // если элемент есть на ст�
 		width: "80%",
 		maxWidth: "1600px",
 		height: "60%",
-		onComplete: cboxPageScrollingAdjust,
-		onCleanup: cboxPageScrollingReturn,
+		// onComplete: cboxPageScrollingAdjust,
+		// onCleanup: cboxPageScrollingReturn,
 		className: "popup",
 	});
 }
@@ -354,8 +354,8 @@ if (p_loginButton.length != 0) { // если элемент есть на стр
 		rel: "login",
 		scrolling: false,
 		opacity: 0.5,
-		onComplete: cboxPageScrollingAdjust,
-		onCleanup: cboxPageScrollingReturn,
+		// onComplete: cboxPageScrollingAdjust,
+		// onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_login-reg",
 	});
 }
@@ -366,8 +366,8 @@ if (p_askrav.length != 0) { // если элемент есть на стран�
 		scrolling: false,
 		opacity: 0.5,
 		width: "526px",
-		onComplete: cboxPageScrollingAdjust,
-		onCleanup: cboxPageScrollingReturn,
+		// onComplete: cboxPageScrollingAdjust,
+		// onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_ask-rav",
 	});
 }
@@ -379,8 +379,8 @@ if (p_error.length != 0) { // если элемент есть на страни
 		scrolling: false,
 		opacity: 0.5,
 		width: "526px",
-		onComplete: cboxPageScrollingAdjust,
-		onCleanup: cboxPageScrollingReturn,
+		// onComplete: cboxPageScrollingAdjust,
+		// onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_error",
 	});
 }
@@ -392,8 +392,8 @@ if (p_family.length != 0) { // если элемент есть на стран�
 		scrolling: false,
 		opacity: 0.5,
 		width: "526px",
-		onComplete: cboxPageScrollingAdjust,
-		onCleanup: cboxPageScrollingReturn,
+		// onComplete: cboxPageScrollingAdjust,
+		// onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_family",
 	});
 }
@@ -405,8 +405,8 @@ if (p_follow_rss.length != 0) { // если элемент есть на стр�
 		scrolling: false,
 		opacity: 0.5,
 		width: "526px",
-		onComplete: cboxPageScrollingAdjust,
-		onCleanup: cboxPageScrollingReturn,
+		// onComplete: cboxPageScrollingAdjust,
+		// onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_follow-rss",
 	});
 }
@@ -418,8 +418,8 @@ if (p_follow_webinar.length != 0) { // если элемент есть на с�
 		scrolling: false,
 		opacity: 0.5,
 		width: "528px",
-		onComplete: cboxPageScrollingAdjust,
-		onCleanup: cboxPageScrollingReturn,
+		// onComplete: cboxPageScrollingAdjust,
+		// onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_follow-webinar",
 	});
 }
@@ -431,8 +431,8 @@ if (p_funer.length != 0) { // если элемент есть на страни
 		scrolling: false,
 		opacity: 0.5,
 		width: "526px",
-		onComplete: cboxPageScrollingAdjust,
-		onCleanup: cboxPageScrollingReturn,
+		// onComplete: cboxPageScrollingAdjust,
+		// onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_funer",
 	});
 }
@@ -444,8 +444,8 @@ if (p_request_edu.length != 0) { // если элемент есть на стр
 		scrolling: false,
 		opacity: 0.5,
 		width: "760px",
-		onComplete: cboxPageScrollingAdjust,
-		onCleanup: cboxPageScrollingReturn,
+		// onComplete: cboxPageScrollingAdjust,
+		// onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_request-edu",
 	});
 }
@@ -457,8 +457,8 @@ if (p_request_study.length != 0) { // если элемент есть на ст
 		scrolling: false,
 		opacity: 0.5,
 		width: "760px",
-		onComplete: cboxPageScrollingAdjust,
-		onCleanup: cboxPageScrollingReturn,
+		// onComplete: cboxPageScrollingAdjust,
+		// onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_request-study",
 	});
 }
@@ -471,8 +471,8 @@ if (p_pay.length != 0) { // если элемент есть на страниц
 		scrolling: false,
 		opacity: 0.5,
 		width: "526px",
-		onComplete: cboxPageScrollingAdjust,
-		onCleanup: cboxPageScrollingReturn,
+		// onComplete: cboxPageScrollingAdjust,
+		// onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_pay-reg",
 	});
 }
