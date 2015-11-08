@@ -42,9 +42,9 @@
 	color: #000;
 	margin: 15px 0 0;
 }
-.page_learning  .tests-main-block .main-description,
-.page_learning .content_colored .bread-crumbs,
-.page_learning .content_colored .bread-crumbs a {
+.page_learning .tests-main-block .main-description,
+.page_learning .tests-main-block .content_colored .bread-crumbs,
+.page_learning .tests-main-block .content_colored .bread-crumbs a {
 	color: #fff;
 }
 
