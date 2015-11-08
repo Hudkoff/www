@@ -30,9 +30,6 @@ h4[class ^= color] {
 	color: #f69227;
 	border-bottom: 0px solid #f69227;
 }
-.border-LIFE {
-	border-color: #f69227 !important;
-}
 .color-AUDIO {
 	color: #c4af23;
 	border-bottom: 0px solid #c4af23;
@@ -138,7 +135,9 @@ h4[class ^= color] {
 
 
 
-
+.border-LIFE {
+	border-color: #f69227 !important;
+}
 
 
 

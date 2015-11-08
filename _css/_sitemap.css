@@ -131,23 +131,73 @@
 	height: 7px;
 	margin-left: 8px;
 	background-image: url("../images/sprite_arrow.png");
-	background-position: 0 100%;
+	background-position: 100% 100%;
 	margin-bottom: 2px;
 }
+
+
+.main-menu .section .menu-item.current.item-LIFE:after {
+	background-position: 0 100%;
+}
+.main-menu .section .menu-item.current.item-LIFE {
+	background-color: #f6ece2;
+	color: #f69227;
+}
+.main-menu .section .menu-item.current.item-LEARNING:after {
+	background-position: -10px 100%;
+}
+.main-menu .section .menu-item.current.item-LEARNING {
+	background-color: #ececec;
+	color: #7247ba;
+}
+.main-menu .section .menu-item.current.item-ASK:after {
+	background-position: -20px 100%;
+}
+.main-menu .section .menu-item.current.item-ASK {
+	background-color: #f7f2e7;
+	color: #b38d39;
+}
+.main-menu .section .menu-item.current.item-FAMILY:after {
+	background-position: -30px 100%;
+}
+.main-menu .section .menu-item.current.item-FAMILY {
+	background-color: #ffeeea;
+	color: #d55940;
+}
+.main-menu .section .menu-item.current.item-MONEY:after {
+	background-position: -40px 100%;
+}
+.main-menu .section .menu-item.current.item-MONEY {
+	background-color: #e7eef6;
+	color: #1159a9;
+}
+.main-menu .section .menu-item.current.item-MY:after {
+	background-position: -50px 100%;
+}
+.main-menu .section .menu-item.current.item-MY {
+	background-color: #e1edf0;
+	color: #3792aa;
+}
+.main-menu .section .menu-item.current.item-CYCLES:after {
+	background-position: -60px 100%;
+}
+.main-menu .section .menu-item.current.item-CYCLES {
+	background-color: #f8eaf5;
+	color: #b20e89;
+}
+
+
 .main-menu .section:hover .menu-item {
-	background-color: #0e53b2;
-	color: #fff;
+	background-color: #0e53b2 !important;
+	color: #fff !important;
 }
 .main-menu .section:hover .menu-item:after {
-	background-position: 0 0;
+	background-position: 0 0 !important;
 }
 .main-menu .section:hover .submenu-item {
 	text-shadow: 0px 1px 0px rgba(150, 150, 150, 1);
 	color: #000;
 }
-
-
-
 
 
 .main-menu .submenu li {
