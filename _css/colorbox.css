@@ -198,9 +198,9 @@ body.cboxOn {overflow: hidden;}
 	line-height: 2;
 }
 
- .popup_ask-rav .radioWrap {
+/* .popup_ask-rav .radioWrap {
 	margin-left: 20px;
- }
+ }*/
 
  .popup_ask-rav input[type="submit"] {
 	float: right;
