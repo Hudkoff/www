@@ -1012,12 +1012,18 @@ ul.ogl ul {
     font-weight: bold;
     padding: 8px 8px 7px;
     width: 100%;
-    box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    box-sizing: border-box;
     margin-bottom: 14px;
 	background: #fff url('../images/icon-arrow-down-gray.png') right 10px center no-repeat;
     border-radius: 0;
     -webkit-appearance: none;
+    -moz-appearance: none;
     cursor: pointer;
 }
+@-moz-document url-prefix() {
+	.custom-select {
+		padding-left: 4px;
+	}
+} 
