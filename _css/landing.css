@@ -1,0 +1,250 @@
+@import "indyFadeBox.css";
+
+body {
+	background: url('../images/landing/bg-3.jpg') repeat;
+	background-size: contain;
+}
+
+.page_landing {
+	font-family: 'Open Sans', sans-serif;
+}
+.page_landing header {
+	margin-bottom: 1px;
+}
+.page_landing a {
+	text-decoration: none;
+}
+.page_landing a:hover {
+	text-decoration: underline;
+}
+
+
+/* ----- top navigation ----- */
+.landing-nav ul {
+	min-height: 80px;
+}
+.landing-nav li {
+	position: relative;
+	vertical-align: middle;
+	font: normal 2.4rem 'Noto Serif', serif;
+	color: #fff;
+}
+.landing-nav li a {
+	display: inline-block;
+	padding: 0 0 0 100px;
+	color: #fff;
+}
+.landing-nav .current {
+	text-align: center;
+	font-size: 3.6rem;
+}
+.landing-nav .left a:before,
+.landing-nav .right a:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	display: block;
+	height: 100%;
+	width: 80px;
+}
+.landing-nav .left a:before {
+	left: 0;
+	background: rgba(0,0,0,0.2) url('../images/icon-landing-arrow-left.png') 50% no-repeat;
+}
+.landing-nav .right a:before {
+	right: 0;
+	background: rgba(0,0,0,0.2) url('../images/icon-landing-arrow-right.png') 50% no-repeat;
+}
+.landing-nav .right {
+	text-align: right;
+}
+.landing-nav .right a {
+	padding: 0 100px 0 0;
+
+}
+.landing-nav .right a:before {
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+
+/* ----- content ----- */
+.parallax-window {
+    height: 344px;
+    background: transparent;
+    border-top: 10px solid #fff;
+}
+.parallax-window:first-child {
+	border: none;
+}
+
+
+/* ----- circles ----- */
+.circle {
+	position: relative;
+	width: 230px;
+	height: 230px;
+	border-radius: 100%;
+	overflow: hidden;
+	font: normal 1.8rem/1 'Open Sans', sans-serif;
+	-webkit-box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	-ms-transition: all 200ms ease-out;
+	-o-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
+}
+.circle a {
+	display: block;
+	color: #000;
+}
+.circle:hover {
+	-webkit-box-shadow: 0 8px 8px 0 rgba(0,0,0,0.5);
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+.circle .bottom-text {
+	position: absolute;
+	bottom: 0;
+	box-sizing: border-box;
+	height: 50%;
+	width: 100%;
+	padding: 20px;
+	background: #fff;
+	text-align: center;
+}
+.circle img {
+	position: absolute;
+    left: 50%;
+    margin-left: -321px;
+	height: 50%;
+
+}
+
+
+.info-section {
+	position: relative;
+	padding: 145px 0 70px;
+}
+.info-section:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	display: block;
+	width: 10px;
+	height: 100%;
+	margin-left: -5px;
+	background: #fff;
+
+}
+
+.tree-header {
+	position: absolute;
+	left: 50%;
+	top: -145px;
+	height: 290px;
+	width: 290px;
+	margin-left: -145px;
+	-webkit-box-shadow: inset 0 0 0 10px #fff, 0 8px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 0 10px #fff, 0 8px 8px 0 rgba(0,0,0,0.2);
+	font: 700 3.0rem/1 'Noto Serif', serif;
+}
+.tree-header:hover {
+	-webkit-box-shadow: inset 0 0 0 10px #fff, 0 8px 8px 0 rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 0 10px #fff, 0 8px 8px 0 rgba(0,0,0,0.5);
+}
+.tree-content {
+	padding: 0;
+	font-size: 0;
+}
+.tree-content .tree-level {
+	position: relative;
+	display: inline-block;
+	min-width: 465px;
+	text-align: right;
+}
+.tree-content .tree-level {
+	padding-top: 40px;
+}
+.tree-content .tree-level.from-main:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	margin-top: 20px;
+	border-top: 10px solid #fff;
+}
+.tree-content .tree-level.from-top {
+	padding-top: 40px;
+}
+.tree-content .tree-level.from-top.two-children:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 50%;
+	margin: 20px 0 0 -10px;
+	border-top: 10px solid #fff;
+}
+.tree-content .tree-level.from-top.two-children:after {
+	content: '';
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	height: 50%;
+	width: 10px;
+	padding: 0 0 20px 0;
+	border-top: 10px solid #fff;
+	background: #fff;
+    margin-left: 35px;
+}
+.tree-content .tree-level.from-top.only-one:before {
+	content: '';
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	height: 40px;
+	width: 10px;
+	padding: 0 0 20px 0;
+	border-top: 10px solid #fff;
+	background: #fff;
+    margin-left: 110px;
+}
+.tree-content .tree-level .tree-elem {
+	position: relative;
+	display: inline-block;
+}
+.tree-content .tree-level.only-one {
+
+}
+
+
+.tree-content.left {
+	text-align: right;
+}
+.tree-content.left .tree-elem {
+	margin-right: 80px;
+}
+.tree-content.left .only-one {
+	text-align: left;
+}
+
+
+.tree-content.right {
+	text-align: left;
+}
+.tree-content.right .tree-elem {
+	margin-left: 80px;
+}
+
+
+
+
+/* ----- COLORS ----- */
+.landing-calendar .landing-nav {
+	background: #b46a22;
+}
