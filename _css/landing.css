@@ -2,7 +2,6 @@
 
 body {
 	background: url('../images/landing/bg-3.jpg') repeat;
-	background-size: contain;
 }
 
 .page_landing {
@@ -88,13 +87,12 @@ body {
 	overflow: hidden;
 	font: normal 1.8rem/1 'Open Sans', sans-serif;
 	-webkit-box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
 	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
 
-	-webkit-transition: all 200ms ease-out;
-	-moz-transition: all 200ms ease-out;
-	-ms-transition: all 200ms ease-out;
-	-o-transition: all 200ms ease-out;
-	transition: all 200ms ease-out;
+	-webkit-transition: -webkit-box-shadow 200ms ease-out;
+	-moz-transition: -moz-box-shadow 200ms ease-out;
+	transition: box-shadow 200ms ease-out;
 }
 .circle a {
 	display: block;
@@ -118,7 +116,7 @@ body {
 .circle img {
 	position: absolute;
     left: 50%;
-    margin-left: -321px;
+    margin-left: -115px;
 	height: 50%;
 
 }
@@ -143,6 +141,7 @@ body {
 
 .tree-header {
 	position: absolute;
+	transform: translateZ(0);
 	left: 50%;
 	top: -145px;
 	height: 290px;
@@ -228,6 +227,7 @@ body {
 }
 .tree-content.left .tree-elem {
 	margin-right: 80px;
+	transform: translateZ(0);
 }
 .tree-content.left .only-one {
 	text-align: left;
@@ -239,6 +239,7 @@ body {
 }
 .tree-content.right .tree-elem {
 	margin-left: 80px;
+	transform: translateZ(0);
 }
 
 
