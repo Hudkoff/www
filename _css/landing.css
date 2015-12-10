@@ -125,6 +125,8 @@ body {
 .info-section {
 	position: relative;
 	padding: 145px 0 70px;
+	margin: 0 auto;
+    width: 1280px;
 }
 .info-section:before {
 	content: '';
@@ -164,8 +166,6 @@ body {
 	display: inline-block;
 	min-width: 465px;
 	text-align: right;
-}
-.tree-content .tree-level {
 	padding-top: 40px;
 }
 .tree-content .tree-level.from-main:before {
