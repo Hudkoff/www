@@ -1,9 +1,16 @@
-<span class="subscribe-with-popup">
+<!-- Демонстрация работы поп-апа по кнопке -->
+
+
+<span class="subscribe button-with-popup"> <!-- button-with-popup класс для работы скрипта попапа -->
+
+    <!-- сама кнопка -->
     <a href="#" class="buttonGRAY subscribe <!--#echo var='QUERY_STRING' -->">
         <span class="null">Подписаться</span>
         <span class="ontrue">Вы подписаны</span>
     </a>
-    <div class="subscribe-popup">
+
+    <!-- код попапа -->
+    <div class="button-popup" style="width: 410px; height: 155px;"> <!-- Ширина и высота попапа. Позиционируется автоматически над элементом с классом "button-with-popup" -->
         <a title="" href="">
             <div class="icon-close"></div>
         </a>
@@ -25,4 +32,5 @@
             </div>
         </div>
     </div>
+
 </span>

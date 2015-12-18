@@ -91,24 +91,24 @@ $(document).ready(function() {
 		$(this).on('click', function(){
 			$(this).toggleClass("true");
 			if($(this).hasClass("true")) {
-				$('.subscribe-popup').hide();
-				$(this).closest('.subscribe-with-popup').find('.subscribe-popup').show();
+				$('.button-popup').hide();
+				$(this).closest('.button-with-popup').find('.button-popup').show();
 			} else {
-				$('.subscribe-popup').hide();
+				$('.button-popup').hide();
 			}
 			return false;
 		});
 	});
 
 	$("body").on('click', function (e) {
-		if(!e.target.closest(".subscribe-popup")) {
-			$(".subscribe-popup").hide();
+		if(!e.target.closest(".button-popup")) {
+			$(".button-popup").hide();
 		}
 	});
 
-	$(".subscribe-popup .icon-close").on("click", function(e){
+	$(".button-popup .icon-close").on("click", function(e){
 		e.preventDefault();
-		$(this).closest(".subscribe-popup").hide();
+		$(this).closest(".button-popup").hide();
 	});
 
 });

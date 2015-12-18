@@ -739,10 +739,10 @@ label.radioWrap {
 .buttonGRAY.subscribe {
 	background: #ebebeb url('../images/icon-plus.png') 7px 5px no-repeat;
 }
-.subscribe-with-popup {
+.button-with-popup {
 	position: relative;
 }
-.subscribe-with-popup .subscribe-popup {
+.button-with-popup .button-popup {
 	display: none;
 	position: absolute;
 	bottom: 28px;
@@ -758,7 +758,7 @@ label.radioWrap {
 	font-size: 11px;
 	color: #333;
 }
-.subscribe-with-popup .subscribe-popup::before {
+.button-with-popup .button-popup::before {
 	display: block;
 	content: "";
 	position: absolute;
@@ -768,15 +768,15 @@ label.radioWrap {
 	height: 8px;
 	background: url("../images/popup-arrow-down.png") 0 0 no-repeat;
 }
-.column-right .subscribe-popup {
+.column-right .button-popup {
 	right: 0;
 	left: inherit;
 }
-.column-right .subscribe-popup:before {
+.column-right .button-popup:before {
 	left: inherit;
 	right: 40px;
 }
-.subscribe-popup .icon-close {
+.button-popup .icon-close {
 	display: block;
 	position: absolute;
 	top: 7px;
@@ -786,18 +786,18 @@ label.radioWrap {
 	height: 8px;
 	cursor: pointer;
 }
-.subscribe-popup .popup-text {
+.button-popup .popup-text {
 	padding: 18px;
 }
-.subscribe-popup .popup-text a {
+.button-popup .popup-text a {
 	color: #0e53b2;
 	text-decoration: underline;
 }
-.subscribe-popup .popup-text ul{
+.button-popup .popup-text ul{
 	list-style: disc inside;
 	margin: 10px 0;
 }
-.subscribe-popup .popup-text .popup-button {
+.button-popup .popup-text .popup-button {
 	float: left;
 	text-decoration: none;
 	width: 70px;
@@ -810,7 +810,7 @@ label.radioWrap {
 	color: #333;
 	margin: 10px 10px 0 0;
 }
-.subscribe-popup .popup-button:hover {
+.button-popup .popup-button:hover {
 	text-decoration: none;
 }
 
