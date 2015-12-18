@@ -29,3 +29,6 @@
 .video-bar .description {
 	font: normal 14px 'Noto Serif', serif;
 }
+.video-bar .buttons > * {
+	margin-bottom: 10px;
+}

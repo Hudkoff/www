@@ -22,4 +22,19 @@
 	padding-bottom: 15px;
 }
 
-
+.page_topic.shifted-lenta .lenta-box {
+	position: absolute;
+	top: 0;
+	right: 20px;
+	z-index: 500;
+	width: 30%;
+}
+.page_topic.shifted-lenta .daytopic-menu {
+	padding-right: 32%;
+}
+.page_topic.shifted-lenta .bottom-text{
+	width: 43%;
+}
+.page_topic.shifted-lenta .main_content {
+	padding-right: 12%;
+}

@@ -6,7 +6,7 @@
 	<link href="_css/topic.css" rel="stylesheet" type="text/css">
 
 </head>
-<body class="page_topic" itemscope itemtype="http://schema.org/WebPage">
+<body class="page_topic shifted-lenta" itemscope itemtype="http://schema.org/WebPage">
 
 	<!--#include virtual="_header.shtml"-->
 
@@ -19,7 +19,20 @@
 		</aside>
 		<div class="table-cell column-central" style="padding-left:20px;">
 			<!--#include virtual="breadcrumbs/topic.shtml"-->
-		</div>		
+		</div>
+		<div class="column-right table-cell lenta-column">
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</section>
+		</div>
 	</div>	
 	<!--#include virtual="_daytopic-title.shtml"-->
 
@@ -40,17 +53,7 @@
 		</div>
 
 		<div class="column-right table-cell lenta-column">
-			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
-				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
-				<!--#include virtual="lenta/index-02.shtml?ededed"-->
-				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
-				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
-				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
-				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
-				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
-				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
-				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
-			</section>
+
 		</div>
 
 	</div>
