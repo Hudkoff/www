@@ -764,6 +764,7 @@ $(function() {
 
 
 $(function() {
+	var cartDisabled = false;
 
 	var currency = $('.donation-currency'),
 		submitCurrency = $('.submit-block .currency');
@@ -783,11 +784,27 @@ $(function() {
 		$(this).next().slideToggle();
 	});
 
+	$(".add-to-cart-button").on('click',function (e){
+		e.preventDefault();
+		if (!cartDisabled) {
+			cartDisabled = true
+			var quantity = parseInt($(".shopping-cart .quantity").html());
+			$(".item-added-description").slideDown();
+
+			// эмуляция добавления товара в корзину
+			$(".shopping-cart .quantity").html(quantity + 1);
+		}
+	});
+
 	$(".donation-comment-toggle").on('click', function (e){
 		e.preventDefault();
 		$(".donation-comment").toggle();
 	});
 
+	$(".delivery-link").on('click', function (e) {
+		e.preventDefault();
+		$(".delivery-block-wrapper").slideToggle();
+	});
 
 	$('.donation-flag').on('click', function(){
 		$(this).closest(".hesed-item").toggleClass('active').find('.donation-block').slideToggle(200);

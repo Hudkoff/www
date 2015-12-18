@@ -448,3 +448,12 @@ body.cboxOn {overflow: hidden;}
 .popup .radio-like-button li:first-child label {
     border-left: 2px solid #e1e1e1;
 }
+
+
+.popup-delivery .radio-buttons-list li label{
+	font-size: 10px;
+}
+.popup-delivery .popup-delivery-submit {
+	display: block;
+	margin: 0 auto;
+}
