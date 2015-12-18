@@ -764,6 +764,22 @@ $(function() {
 		submitCurrency.html(this.value);
 	});
 
+	$(".toggle-hesed").on('click',function(){
+		$(this).next().slideToggle();
+		$(this).find(".accordion-arrow").toggleClass("arrow-up")
+	});
+
+	$(".bank-link").on('click', function (e){
+		e.preventDefault();
+		$(this).next().slideToggle();
+	});
+
+	$(".donation-comment-toggle").on('click', function (e){
+		e.preventDefault();
+		$(".donation-comment").toggle();
+	});
+
+
 	$('.donation-flag').on('click', function(){
 		$(this).closest(".hesed-item").toggleClass('active').find('.donation-block').slideToggle(200);
 	});

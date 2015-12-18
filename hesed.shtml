@@ -298,7 +298,9 @@
                 </div>
 
                 <div class="submit-block clearfix">
+
                     <div class="submit-block-wrapper">
+
                         <div class="label">Итого к оплате:</div>
                         <div class="total-sum">
                             <span class="sum">0</span>
@@ -308,8 +310,12 @@
                             <a class="submit" href="popup_pay.shtml">Пожертвовать</a>
                             <a href="popup_pay-settings.shtml" style="display: none;">Платежные данные</a>    
                         </span>
-                        <a class="note" href="" title="">Примечание к платежу</a>
+                        <a class="note donation-comment-toggle" href="" title="">Примечание к платежу</a>
                     </div>
+                    <div class="donation-comment-wrapper">
+                        <textarea class="donation-comment" placeholder="Примечание к платежу"></textarea>
+                    </div>
+
                 </div>
 
             </form>
@@ -317,27 +323,101 @@
         </div>
 
         <div class="hesed-completed">
-            <div class="heading">
+            <div class="heading toggle-hesed">
                 <h4>Уже собранные в этом месяце</h4>
                 <span class="accordion-arrow arrow-down"></span>
             </div>
+            <div class="hidden-hesed">
+                <div class="hesed-list">
+
+                    <div class="heading clearfix">
+                        <div class="donate">&nbsp;</div>
+                        <div class="pledged">&nbsp;</div>
+                        <div class="need">Требуется</div>
+                        <div class="name">Названия фондов и даты их последних обновлений</div>
+                    </div>
+
+                    <div class="hesed-item clearfix">
+                        <div class="donate clearfix">
+                           Собрано
+                        </div>
+                        <div class="pledged">
+                            <span class="sum">379</span>
+                            <span class="currency">NIS</span>
+                        </div>
+                        <div class="need">
+                            <span class="sum">1000</span>
+                            <span class="currency">NIS</span>
+
+                            <div class="info">ежемесячно</div>
+                        </div>
+                        <div class="name">
+                            <div class="info"><b>№385</b> 12.05.2015</div>
+                            Помощь семье русскоязычного раввина К.(Многодетная семья)
+                        </div>
+                    </div>
+
+                    <div class="hesed-item clearfix">
+                        <div class="donate clearfix">
+                            Собрано
+                        </div>
+                        <div class="pledged">
+                            <span class="sum">379</span>
+                            <span class="currency">NIS</span>
+                        </div>
+                        <div class="need">
+                            <span class="sum">1000</span>
+                            <span class="currency">NIS</span>
+
+                            <div class="info">ежемесячно</div>
+                        </div>
+                        <div class="name">
+                            <div class="info"><b>№385</b> 12.05.2015</div>
+                            Помощь семье русскоязычного раввина К.(Многодетная семья)
+                        </div>
+                    </div>
+
+                    <div class="hesed-item clearfix">
+                        <div class="donate clearfix">
+                            Собрано
+                        </div>
+                        <div class="pledged">
+                            <span class="sum">379</span>
+                            <span class="currency">NIS</span>
+                        </div>
+                        <div class="need">
+                            <span class="sum">1000</span>
+                            <span class="currency">NIS</span>
+
+                            <div class="info">ежемесячно</div>
+                        </div>
+                        <div class="name">
+                            <div class="info"><b>№385</b> 12.05.2015</div>
+                            Помощь семье русскоязычного раввина К.(Многодетная семья)
+                        </div>
+                    </div>
+
+            </div>
+            </div>
         </div>
 
-        <div class="hesed-feedback">
-            <div class="heading">
+        <div class="hesed-feedback ">
+            <div class="heading toggle-hesed">
                 <h4>Обратная связь</h4>
-                <span class="accordion-arrow arrow-up"></span>
+                <span class="accordion-arrow arrow-down"></span>
             </div>
-            <div class="feedback-item">
-                <div class="info"><b>№385</b> 12.05.2015</div>
-                <div class="feedback-text">
-                    Рав О. выражает глубокую признательность за поддержку его семье в трудной жизненной ситуации.
+            <div class="hidden-hesed">
+                <div class="feedback-item">
+                    <div class="info"><b>№385</b> 12.05.2015</div>
+                    <div class="feedback-text">
+                        Рав О. выражает глубокую признательность за поддержку его семье в трудной жизненной ситуации.
+                    </div>
                 </div>
-            </div>
-            <div class="feedback-item">
-                <div class="info"><b>№385</b> 12.05.2015</div>
-                <div class="feedback-text">
-                    Рав О. выражает глубокую признательность за поддержку его семье в трудной жизненной ситуации.
+                <div class="feedback-item">
+                    <div class="info"><b>№385</b> 12.05.2015</div>
+                    <div class="feedback-text">
+                        Рав О. выражает глубокую признательность за поддержку его семье в трудной жизненной ситуации.
+                    </div>
                 </div>
             </div>
         </div>
