@@ -661,8 +661,17 @@ $(function() {
 });
 
 
+//////////////////////////////////////////////
+// Книги в магазине
+//////////////////////////////////////////////
 
-
+$(function() {
+	$('.book').each(function (el) {
+		var width = $(this).innerWidth(),
+			height = $(this).innerHeight();
+		$(this).css('background-size', width + 'px ' + height + 'px' );
+	})
+});
 
 
 //////////////////////////////////////////////
