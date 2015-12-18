@@ -8,7 +8,7 @@
         <li>
             <h4>Магазин</h4>
             <ul class="second-level-nav">
-                <li class="selected"><a href="#" title="Недельные главы Торы">Книги</a></li>
+                <li class="active"><a href="#" title="Недельные главы Торы">Книги</a></li>
                 <li class="dotless">
                     <ul class="third-level-nav">
                         <li><a href="#" title="Книги">Книги</a></li>

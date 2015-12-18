@@ -28,20 +28,20 @@
 
 				<h1 class="color-LIGHTGRAY bordered clearfix">
 					Семья
-					<a href="#" class="askLink" title="Спросить раввина">Спросить раввина</a>
+					<!--<a href="#" class="askLink" title="Спросить раввина">Спросить раввина</a>-->
 					<a href="#" class="askQuestionButton p_ask-rav" title="Спросить семейного консультанта">Спросить семейного консультанта</a>
 				</h1>
 
 				<div class="article-of-day">
-					<div class="topPageInfo">
-						<b>20 567</b>
-						вопросов,
-						<b>358</b>
-						консультантов отвечают
-					</div>
+					<!--<div class="topPageInfo">-->
+						<!--<b>20 567</b>-->
+						<!--вопросов,-->
+						<!--<b>358</b>-->
+						<!--консультантов отвечают-->
+					<!--</div>-->
 
 					<section>
-						<!--#include virtual="articles-link/index-31.shtml"-->
+						<!--#include virtual="articles-link/index-33.shtml"-->
 					</section>
 
 				</div>

@@ -1,16 +1,16 @@
 <section class="sidemenu color-LIFE">
     <ul class="first-level-nav">
         <li>
-            <h3>Жизнь</h3>
+            <h4>Жизнь</h4>
         </li>
         <li>
-            <h3>Места</h3>
+            <h4>Места</h4>
         </li>
         <li>
-            <h3>Раввины</h3>
+            <h4>Раввины</h4>
         </li>
         <li>
-            <h3>Кладбища</h3>
+            <h4 class="active">Кладбища</h4>
             <ul class="second-level-nav">
                 <li><a href="#" title="Недельные главы Торы"> О проекте</a></li>
                 <li><a href="#" title="Пятикнижие Торы">От первого лица</a></li>
@@ -23,13 +23,13 @@
             </ul>
         </li>
         <li>
-            <h3>Знакомства</h3>
+            <h4>Знакомства</h4>
         </li>
         <li>
-            <h3>Фамилия</h3>
+            <h4>Фамилия</h4>
         </li>
         <li>
-            <h3>Имена</h3>
+            <h4>Имена</h4>
         </li>
 
     </ul>

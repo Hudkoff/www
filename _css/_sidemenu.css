@@ -5,35 +5,65 @@
 .page_gallery .sidemenu h4 {
     color: #9c5630;
 }
+.page_gallery .sidemenu .active {
+    background-color: #f4efe5;
+}
 .page_ask .sidemenu h4,
 .page_ask-article .sidemenu h4 {
     color: #b38d39;
 }
+.page_ask .sidemenu .active,
+.page_ask-article .sidemenu .active {
+    background-color: #f7f2e7;
+}
 .page_audio .sidemenu h4 {
     color: #c4af23;
+}
+.page_audio .sidemenu .active{
+    background-color: #fbfae9;
 }
 .page_family .sidemenu h4 {
     color: #d55940;
 }
+.page_family .sidemenu .active {
+    background-color: #ffeeea;
+}
 .page_cycles .sidemenu h4 {
     color: #b20e89;
+}
+.page_cycles .sidemenu .active {
+    background-color: #f8eaf5;
 }
 .page_video .sidemenu h4 {
     color: #4fc77a;
 }
+.page_video .sidemenu .active {
+    background-color: #f2faf5;
+}
 .page_store .sidemenu h4 {
     color: #56a5d2;
+}
+.page_store .sidemenu .active {
+    background-color: #f0f7f9;
 }
 .page_library .sidemenu h4 {
     color: #7247ba;
 }
+.page_library .sidemenu .active {
+    background-color: #ececec;
+}
 .page_learning .sidemenu h4 {
     color: #7247ba;
+}
+.page_learning .sidemenu .active {
+    background-color: #ececec;
 }
 .page_my .sidemenu h4 {
     color: #1159a9;
 }
-
+.page_my .sidemenu .active {
+    background-color: #f6f6f6;
+}
 
 .page_my .notification {
     background: #0e53b2;
@@ -77,7 +107,7 @@
 .page_audio .sidemenu .second-level-nav > li.selected:before {
     color: #c4af23;
 }
-.page_family ..sidemenu .second-level-nav > li.selected:before {
+.page_family .sidemenu .second-level-nav > li.selected:before {
     color: #d55940;
 }
 .page_cycles .sidemenu .second-level-nav > li.selected:before {
@@ -92,10 +122,12 @@
 
 
 /* структура */
+.sidemenu h4 {
+    padding: 10px;
+}
 .sidemenu h4 a {
     display: block;
     height: 100%;
-    padding: 0;
     border: none;
     text-decoration: none;
 }
@@ -103,7 +135,7 @@
     text-decoration: underline;
 }
 .sidemenu .first-level-nav > li {
-    padding: 19px 0 19px 0;
+    padding: 9px 0 9px 0;
     border-top: 1px solid #eef6e7;
 }
 .sidemenu .first-level-nav > li.selected h4 {

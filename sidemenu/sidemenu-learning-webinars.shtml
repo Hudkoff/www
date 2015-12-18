@@ -6,7 +6,7 @@
             </h4>
         </li>
         <li>
-            <h4>
+            <h4 class="active">
 	            <a href="" title="">Вебинары</a>
             </h4>
         </li>

@@ -64,13 +64,13 @@
 			<div class="content_colored padding test-navigation-block">
 				<p>На вопросы можно отвечать в любом порядке:</p>
 				<ul class="clearfix">
-					<li><a href="" title="">1</a></li>
-					<li><a href="" title="">2</a></li>
-					<li class="active"><a href="" title="">3</a></li>
-					<li><a href="" title="">4</a></li>
+					<li class="answered"><a href="" title="">1</a></li>
+					<li class="answered"><a href="" title="">2</a></li>
+					<li class="answered"><a href="" title="">3</a></li>
+					<li class="answered"><a href="" title="">4</a></li>
 					<li><a href="" title="">5</a></li>
-					<li><a href="" title="">6</a></li>
-					<li><a href="" title="">7</a></li>
+					<li class="answered"><a href="" title="">6</a></li>
+					<li class="active"><a href="" title="">7</a></li>
 					<li><a href="" title="">8</a></li>
 					<li><a href="" title="">9</a></li>
 					<li><a href="" title="">10</a></li>
