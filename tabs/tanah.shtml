@@ -1,0 +1,43 @@
+<div id="tabs" class="tabs">
+    <ul class="tabs-list clearfix">
+        <li><a href="#tabs-1"><span>Пятикнижие</span></a></li>
+        <li><a href="#tabs-2"><span>Пророки</span></a></li>
+        <li><a href="#tabs-3"><span>Писания</span></a></li>
+    </ul>
+    <div id="tabs-1" class="tab-panel">
+        <div>
+            <a class="bibliomenu" href="">Берейшит</a>,
+            <a class="bibliomenu" href="">Шмот</a>,
+            <a class="bibliomenu" href="">Ваикра</a>,
+            <a class="bibliomenu active" href="">Бемидбар</a>,
+            <a class="bibliomenu" href="">Дварим</a>
+        </div>
+    </div>
+    <div id="tabs-2" class="tab-panel">
+        <div>
+            <a class="bibliomenu" href="">Йегошуа</a>,
+            <a class="bibliomenu" href="">Шофтим</a>,
+            <a class="bibliomenu" href="">Шмуэль&nbsp;I</a>,
+            <a class="bibliomenu" href="">Шмуэль&nbsp;II</a>,
+            <a class="bibliomenu active" href="">Мелахим&nbsp;I</a>,
+            <a class="bibliomenu" href="">Мелахим&nbsp;II</a>,
+            <a class="bibliomenu" href="">Йешайя</a>,
+            <a class="bibliomenu" href="">Ирмийя</a>,
+            <a class="bibliomenu" href="">Йехезкель</a>,
+            <a class="bibliomenu" href="">Трей Асар</a>
+        </div>
+    </div>
+    <div id="tabs-3" class="tab-panel">
+        <div>
+            <a class="bibliomenu" href="">Тегилим</a>,
+            <a class="bibliomenu" href="">Мишлей</a>,
+            <a class="bibliomenu" href="">Ийов</a>,
+            <a class="bibliomenu" href="">Мегилот</a>,
+            <a class="bibliomenu" href="">Даниель</a>,
+            <a class="bibliomenu" href="">Эзра</a>,
+            <a class="bibliomenu active" href="">Нехемия</a>,
+            <a class="bibliomenu" href="">Диврей гаЙамим&nbsp;I</a>,
+            <a class="bibliomenu" href="">Диврей гаЙамим&nbsp;II</a>
+        </div>
+    </div>
+</div>

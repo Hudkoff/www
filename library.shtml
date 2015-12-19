@@ -29,6 +29,7 @@
 			<!--#include virtual="navigation-list/library.shtml"-->
 
 			<h3 class="color-LIGHTGRAY bordered">Танах</h3>
+			<!--#include virtual="tabs/tanah.shtml"-->
 			<div class="table COL-three">
 				<div class="table-cell"><!--#include virtual="library-item/index-01.shtml"--></div>
 				<div class="table-cell"><!--#include virtual="library-item/index-01.shtml"--></div>
