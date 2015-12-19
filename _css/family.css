@@ -245,3 +245,13 @@
 .cycles-item-video .cycle-type {
     background-color: #43ac69;
 }
+
+
+.page_family .dating-search-list-heading {
+    margin:20px 0;
+}
+.page_family .dating-search-list li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 10px 20px;
+}

@@ -1,0 +1,111 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/family.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_family" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--div class="popup popup_login-reg">
+		<div class="window_container">
+			<a href="#" onclick="toldot.closePopup(event); cboxPageScrollingReturn();">&times;</a>
+			<!--#include virtual="articles-link/index-31.shtml"-->		
+		</div>
+	</div-->
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="articles-main table COL-asym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-family.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<div class="content_bordered padding">
+				<!--#include virtual="breadcrumbs/family.shtml"-->
+
+				<h1 class="color-LIGHTGRAY bordered clearfix">
+					Семья
+				</h1>
+
+				<h3 class="dating-search-list-heading">Поиск шадханов</h3>
+
+				<ul class="dating-search-list">
+					<li>
+						<a href="" title="">Esther Davidoff</a> — США, Калифорния
+					</li>
+					<li>
+						<a href="" title="">Элла Абрамович</a> — Израиль, Центр
+					</li>
+					<li>
+						<a href="" title="">Эстер Авезова</a> — Израиль, Юг
+					</li>
+					<li>
+						<a href="" title="">Исроэль Акерман</a> — США, Нью-Йорк (город)
+					</li>
+					<li>
+						<a href="" title="">Эли Александрович</a> — Израиль, Юг
+					</li>
+					<li>
+						<a href="" title="">Борухов Анжела</a> — Израиль, Центр
+					</li>
+					<li>
+						<a href="" title="">Esther Davidoff</a> — США, Калифорния
+					</li>
+					<li>
+						<a href="" title="">Элла Абрамович</a> — Израиль, Центр
+					</li>
+					<li>
+						<a href="" title="">Эстер Авезова</a> — Израиль, Юг
+					</li>
+					<li>
+						<a href="" title="">Исроэль Акерман</a> — США, Нью-Йорк (город)
+					</li>
+					<li>
+						<a href="" title="">Эли Александрович</a> — Израиль, Юг
+					</li>
+					<li>
+						<a href="" title="">Борухов Анжела</a> — Израиль, Центр
+					</li>
+
+				</ul>
+
+			</div>
+			
+		</div>
+
+		<div class="column-right table-cell lenta-column">
+			<!--#include virtual="video-live/index.shtml"-->
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</section>
+		</div>
+
+	</div>
+
+
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+	<!--#include virtual="_daytopic-title.shtml"-->
+
+	<!--#include virtual="_daytopic-family.shtml"-->
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>
