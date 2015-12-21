@@ -1,7 +1,6 @@
 <section class="daytopic-article clearfix">
 	<a href="" title="">
-		<div class="shop" style="background-image: url('images/shop-01.jpg')">
-		</div>
+		<img src="images/shop-01.jpg" class="shop book-3d"/>
 		<h4>Слихот на русском языке. Нусах Хабад</h4>
 	</a>
 	<p class="details">

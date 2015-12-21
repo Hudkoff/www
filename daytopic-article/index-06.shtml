@@ -1,6 +1,7 @@
 <section class="daytopic-article clearfix">
 	<a href="" title="">
-		<div class="shop" style="background-image: url('images/shop-01.jpg')">
+		<div class="shop">
+			<img src="images/shop-01.jpg" class="book-3d"/>
 			<div class="price">₪<b>20.00</b> / $5.08</div>
 		</div>
 		<h4>Слихот на русском языке. Нусах Хабад</h4>		

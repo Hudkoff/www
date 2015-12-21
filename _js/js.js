@@ -360,17 +360,17 @@ if (p_loginButton.length != 0) { // если элемент есть на стр
 	});
 }
 
-var p_askrav = $(".p_ask-rav");
-if (p_askrav.length != 0) { // если элемент есть на странице
-	p_askrav.colorbox({
-		scrolling: false,
-		opacity: 0.5,
-		width: "526px",
-		// onComplete: cboxPageScrollingAdjust,
-		// onCleanup: cboxPageScrollingReturn,
-		className: "popup popup_ask-rav",
-	});
-}
+//var p_askrav = $(".p_ask-rav");
+//if (p_askrav.length != 0) { // если элемент есть на странице
+//	p_askrav.colorbox({
+//		scrolling: false,
+//		opacity: 0.5,
+//		width: "526px",
+//		// onComplete: cboxPageScrollingAdjust,
+//		// onCleanup: cboxPageScrollingReturn,
+//		className: "popup popup_ask-rav",
+//	});
+//}
 
 // заготовка
 var p_error = $(".p_error");
@@ -666,7 +666,7 @@ $(function() {
 //////////////////////////////////////////////
 
 $(function() {
-	$('.book').each(function (el) {
+	$('.book-3d').each(function (el) {
 		var width = $(this).innerWidth(),
 			height = $(this).innerHeight();
 		$(this).css('background-size', width + 'px ' + height + 'px' );

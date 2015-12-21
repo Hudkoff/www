@@ -90,6 +90,9 @@ section.daytopic-article {
 
 /* магазин */
 .daytopic-article .shop {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
 	height: 165px;
 	max-width: 240px;
 	background-repeat: no-repeat;

@@ -2,7 +2,7 @@
 	<div class="image">
 		<div class="table">
 			<div class="image-container">
-				<img class="book" src="images/t.jpg" alt=""/>
+				<img class="book-3d" src="images/t.jpg" alt=""/>
 			</div>
 		</div>
 		<div class="price">₪<b>20.00</b> / $5.08</div>

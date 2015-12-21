@@ -5,11 +5,11 @@
 	<div class="image">
 		<div class="table">
 			<div class="image-container">
-				<div class="book book-no-cover">
+				<div class="book-3d book-no-cover">
 					<div class="cover" style="background-color: #c37325"> <!-- ЦВЕТ ОБЛОЖКИ -->
-						<div class="author">Рав Бенцион Зильбер</div>
-						<div class="name">АМ ИСРАЭЛЬ ХАЙ</div>
-						<div class="year">2015</div>
+						<div class="book-author">Рав Бенцион Зильбер</div>
+						<div class="book-name">АМ ИСРАЭЛЬ ХАЙ</div>
+						<div class="book-year">2015</div>
 					</div>
 				</div>
 			</div>
