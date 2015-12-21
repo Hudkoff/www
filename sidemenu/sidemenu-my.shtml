@@ -1,6 +1,6 @@
 <section class="sidemenu">
     <div class="content_colored">
-        <h4>Моё</h4>
+        <h4 class="active">Моё</h4>
     </div>
     <ul class="second-level-nav">
         <li><a href="#" title="Отложенное">Отложенное</a></li>

@@ -94,3 +94,16 @@ a.article-link:hover h4 {
 	margin-top: -1px;
 	border: 1px solid #e5e5e5;
 }
+
+.page_family .article-link.family-article {
+	padding-bottom: 0;
+}
+.family-article img {
+	display: block;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.family-article .description {
+	margin-top: 5px;
+
+}

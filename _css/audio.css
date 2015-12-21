@@ -130,3 +130,11 @@
 .author-cycles {
 	margin-bottom: 20px;
 }
+
+
+.page_audio #lesson-player {
+	margin-bottom: 20px;
+}
+.page_audio .audio-bar > * {
+	margin-bottom: 10px;
+}

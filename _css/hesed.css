@@ -23,7 +23,9 @@
 	border-bottom: 1px dotted;
 	text-decoration: none;
 }
-
+.hidden-hesed {
+	display: none;
+}
 .hesed-list {
 	margin: 30px 0;
 }
@@ -48,6 +50,8 @@
 	float: right;
 	width: 170px;
 	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
 }
 .hesed-list .name {
 	width: 100%;
@@ -201,6 +205,22 @@
 	width: 380px;
 	float: right;
 }
+.donation-comment-wrapper {
+	margin-right: 400px;
+}
+.donation-comment {
+	display: none;
+	width: 100%;
+	padding: 7px 12px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	resize: vertical;
+	height: 77px;
+
+}
 .submit-block .label {
 	font-weight: bold;
 	font-size: 13px;
@@ -283,12 +303,13 @@
 	height: 10px;
 	background: url("../images/accordion-arrows-sprite.png") no-repeat;
 }
-.page_hesed .accordion-arrow.arrow-up {
-	background-position: 0 0;
-}
 .page_hesed .accordion-arrow.arrow-down {
 	background-position: 0 -10px;
 }
+.page_hesed .accordion-arrow.arrow-up {
+	background-position: 0 0;
+}
+
 .hesed-feedback .feedback-item {
 	padding: 15px 20px;
 	border-bottom: 1px solid #e5e5e5;

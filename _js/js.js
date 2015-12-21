@@ -91,24 +91,24 @@ $(document).ready(function() {
 		$(this).on('click', function(){
 			$(this).toggleClass("true");
 			if($(this).hasClass("true")) {
-				$('.subscribe-popup').hide();
-				$(this).closest('.subscribe-with-popup').find('.subscribe-popup').show();
+				$('.button-popup').hide();
+				$(this).closest('.button-with-popup').find('.button-popup').show();
 			} else {
-				$('.subscribe-popup').hide();
+				$('.button-popup').hide();
 			}
 			return false;
 		});
 	});
 
 	$("body").on('click', function (e) {
-		if(!e.target.closest(".subscribe-popup")) {
-			$(".subscribe-popup").hide();
+		if(!e.target.closest(".button-popup")) {
+			$(".button-popup").hide();
 		}
 	});
 
-	$(".subscribe-popup .icon-close").on("click", function(e){
+	$(".button-popup .icon-close").on("click", function(e){
 		e.preventDefault();
-		$(this).closest(".subscribe-popup").hide();
+		$(this).closest(".button-popup").hide();
 	});
 
 });
@@ -661,8 +661,17 @@ $(function() {
 });
 
 
+//////////////////////////////////////////////
+// Книги в магазине
+//////////////////////////////////////////////
 
-
+$(function() {
+	$('.book').each(function (el) {
+		var width = $(this).innerWidth(),
+			height = $(this).innerHeight();
+		$(this).css('background-size', width + 'px ' + height + 'px' );
+	})
+});
 
 
 //////////////////////////////////////////////
@@ -755,6 +764,7 @@ $(function() {
 
 
 $(function() {
+	var cartDisabled = false;
 
 	var currency = $('.donation-currency'),
 		submitCurrency = $('.submit-block .currency');
@@ -762,6 +772,38 @@ $(function() {
 	currency.on('change', function(){
 		$('.donation-currency').val(this.value);
 		submitCurrency.html(this.value);
+	});
+
+	$(".toggle-hesed").on('click',function(){
+		$(this).next().slideToggle();
+		$(this).find(".accordion-arrow").toggleClass("arrow-up")
+	});
+
+	$(".bank-link").on('click', function (e){
+		e.preventDefault();
+		$(this).next().slideToggle();
+	});
+
+	$(".add-to-cart-button").on('click',function (e){
+		e.preventDefault();
+		if (!cartDisabled) {
+			cartDisabled = true
+			var quantity = parseInt($(".shopping-cart .quantity").html());
+			$(".item-added-description").slideDown();
+
+			// эмуляция добавления товара в корзину
+			$(".shopping-cart .quantity").html(quantity + 1);
+		}
+	});
+
+	$(".donation-comment-toggle").on('click', function (e){
+		e.preventDefault();
+		$(".donation-comment").toggle();
+	});
+
+	$(".delivery-link").on('click', function (e) {
+		e.preventDefault();
+		$(".delivery-block-wrapper").slideToggle();
 	});
 
 	$('.donation-flag').on('click', function(){

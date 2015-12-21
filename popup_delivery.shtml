@@ -1,0 +1,79 @@
+<h3 class="color-TOLDOT bordered">
+	Карточка доставки
+</h3>
+
+<form class="popup-delivery">
+
+	<div class="table COL-two margin-b15">
+		<div class="table-cell">
+			<label>Имя:</label>
+			<input type="text" class="" placeholder="Введите имя">
+			<label>Email для связи:</label>
+			<input type="text" class="" placeholder="Введите email">
+		</div>
+		<div class="table-cell">
+			<label>Фамилия:</label>
+			<input type="text" class="" placeholder="Введите фамилию">
+			<label>Контактный телефон:</label>
+			<input type="text" class="" placeholder="Введите телефон">
+		</div>
+	</div>
+	<div class="table bordered-block margin-b15">
+		<p class="text">По умолчанию ваш заказ будет отправлен на ваши имя и фамилию. Если вы хотите отправить его на имя другого человека, укажите его имя и фамилию в поле «Примечания» внизу.</p>
+	</div>
+	<div class="table COL-two bordered-block margin-b15">
+		<div class="table-cell">
+			<label>Страна:</label>
+			<select class="custom-select">
+				<option selected>Россия</option>
+				<option>Америка</option>
+				<option>Германия</option>
+				<option>Франиция</option>
+			</select>
+		</div>
+		<div class="table-cell">
+			<ul class="radio-buttons-list clearfix">
+				<li>
+					<label class="radioWrap">
+						<input type="radio" name="publ">Зайду в магазин и заберу
+					</label>
+				</li>
+				<li>
+					<label class="radioWrap">
+						<input type="radio" name="publ" checked="checked">  Экспресс-посылкой — $12.53
+					</label>
+				</li>
+				<li>
+					<label class="radioWrap">
+						<input type="radio" name="publ">  Заказной посылкой — $9.11
+					</label>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="table COL-three bordered-block margin-b15">
+		<div class="table-cell">
+			<label>Населенный пункт:</label>
+			<input type="text" class="" placeholder="Москва">
+		</div>
+		<div class="table-cell">
+			<label>Улица, номер дома:</label>
+			<input type="text" class="" placeholder="">
+		</div>
+		<div class="table-cell">
+			<label>Индекс:</label>
+			<input type="text" class="" placeholder="почтовый индекс">
+		</div>
+	</div>
+	<div class="table bordered-block margin-b15">
+		<label>Примечания</label>
+		<input type="text" class="" placeholder="Все, что вы считаете нужным добавить">
+	</div>
+	<div class="table">
+		<div class="table-cell">
+			<input class="popup-delivery-submit" type="submit" value="К оплате 445.32 USD"/>
+		</div>
+	</div>
+</form>
+

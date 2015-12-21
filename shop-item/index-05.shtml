@@ -1,14 +1,20 @@
+
+<!-- КНИГА БЕЗ ОБЛОЖКИ -->
+
 <a href="#" class="shop-item clearfix" title="">
 	<div class="image">
 		<div class="table">
 			<div class="image-container">
-				<img src="images/shop-04.jpg" alt=""/>
+				<div class="book book-no-cover">
+					<div class="cover" style="background-color: #c37325"> <!-- ЦВЕТ ОБЛОЖКИ -->
+						<div class="author">Рав Бенцион Зильбер</div>
+						<div class="name">АМ ИСРАЭЛЬ ХАЙ</div>
+						<div class="year">2015</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="price">₪<b>20.00</b> / $5.08</div>
-		<div class="discount">
-			скидка 10%
-		</div>
 	</div>
 	<p class="title">Спасение Торы из огня катастрофы</p>
 

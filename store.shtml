@@ -27,6 +27,8 @@
 		<div class="content">
 			<div class="clearfix">
 				<!--#include virtual="shop-item/index-01.shtml"-->
+				<!--#include virtual="shop-item/index-05.shtml"-->
+				<!--#include virtual="shop-item/index-06.shtml"-->
 				<!--#include virtual="shop-item/index-02.shtml"-->
 				<!--#include virtual="shop-item/index-03.shtml"-->
 				<!--#include virtual="shop-item/index-04.shtml"-->

@@ -1,10 +1,10 @@
 <section class="shop-item-block">
-    <h4 class="color-TOLDOT arrowed bordered">
+    <h3 class="color-TOLDOT arrowed bordered">
         <a href="#" title="">
             Магазин
             <b>&#9670;</b>
         </a>
-    </h4>
+    </h3>
     
 	<a href="#" class="shop-item clearfix" title="">
 		<div class="image">

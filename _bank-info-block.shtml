@@ -16,6 +16,45 @@
 
 	<a class="bank-link" href="" title="">Номера наших банковских счетов</a>
 
+	<div class="bank-accounts">
+		<div class="description">
+			При оформлении платежа в банке Вы можете указать номера фондов, на которые Вы хотите пожертвовать и средства будут зачислены на них. Если Вы не указываете номера фондов, то деньги принимаются как помощь Толдот Йешурун (как пожертвование из раздела «Помочь нам»). Пожертвования освобождаются от налогов в США, Израиле и в Германии.
+		</div>
+
+		<h6>Наши счета</h6>
+
+		<div class="heading">США</div>
+		<ul>
+			<li><b>Счет на имя:</b> Toldos Yeshurun inc</li>
+			<li><b>Адрес организации:</b> PO Box 300680, Brooklyn, NY 11230</li>
+			<li><b>Банк:</b> Citibank</li>
+			<li><b>Отделение банка:</b> Madison Ave/42nd Street</li>
+			<li><b>Адрес отделения:</b> 330 Madison Ave, New York, NY 10017</li>
+			<li><b>Swift код:</b> CITIUS33</li>
+			<li><b>Номер счета:</b> 9932282344</li>
+		</ul>
+
+		<div class="heading">Израиль</div>
+		<ul>
+			<li><b>Счет на имя:</b> Toldot Yeshurun</li>
+			<li><b>Банк:</b> Mizrahi Tefahot</li>
+			<li><b>Код банка:</b> 20</li>
+			<li><b>Номер отделения:</b> 417</li>
+			<li><b>Номер счета:</b> 131987</li>
+			<li><b>Swift код:</b> MIZBILIT</li>
+			<li><b>Iban #:</b> IL780204170000000131987</li>
+		</ul>
+
+		<div class="heading">Германия</div>
+		<ul>
+			<li><b>Счет на имя:</b> Toldot Deutsch</li>
+			<li><b>Банк:</b> Förde Sparkasse</li>
+			<li><b>Код банка:</b> 21050170</li>
+			<li><b>Номер счета:</b> 1001940871</li>
+		</ul>
+
+	</div>
+
 	<a href="" title="">Наш аттестат WebMoney</a>
 	<a href="" title="">Мы в каталоге WebMoney</a>
 	<a href="" title="">Уведомление WebMoney</a>

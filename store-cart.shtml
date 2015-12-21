@@ -85,7 +85,7 @@
 							</select>
 						</div>
 						<span class="p_pay">
-							<a class="purchase-button" href="popup_pay.shtml" title="">
+							<a class="purchase-button" href="popup_delivery.shtml" title="">
 								Оформить заказ
 							</a>
 							<a href="popup_pay-settings.shtml" style="display: none;">Платежные данные</a>
@@ -108,18 +108,20 @@
 						Прикинуть стоимость доставки
 					</a>
 
-					<div class="delivery-block clearfix">
-						<div class="delivery-price">
-							Заказной бандеролью - <b>$5.44</b> <br/>
-							Быстрой международной почтой ЕМS - <b>$31.88</b>
+					<div class="delivery-block-wrapper">
+						<div class="delivery-block clearfix">
+							<div class="delivery-price">
+								Заказной бандеролью - <b>$5.44</b> <br/>
+								Быстрой международной почтой ЕМS - <b>$31.88</b>
+							</div>
+							Страна назначения:
+							<select>
+								<option>Россия</option>
+								<option>Америка</option>
+								<option>Германия</option>
+								<option>Франиция</option>
+							</select>
 						</div>
-						Страна назначения:
-						<select>
-							<option>Россия</option>
-							<option>Америка</option>
-							<option>Германия</option>
-							<option>Франиция</option>
-						</select>
 					</div>
 					<p>Если суммарный вес книг вместе с ориентировочным весом упаковки превышает 5 кг, для использования
 						более дешевого варианта пересылки — бандероли — разбейте заказ на два или более, так, чтобы вес

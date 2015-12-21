@@ -1,0 +1,19 @@
+<div class="article-link audio-link family-article">
+    <img src="images/article-04.jpg" alt=""/>
+    <h4>
+        Волшебное прикосновение 3. Поставьте своей целью самое лучшее.
+    </h4>
+
+    <p class="details">
+        28 марта, <b>Рав Носон Шерман</b>
+    </p>
+
+    <p class="description">
+        Если мужчина, который живет с девушкой, говорит ей о том, что он от нее уйдет, если она не достигнет
+        определенных целей в жизни… Стоит ли продолжать с ним совместную жизнь или лучше развестись?
+    </p>
+    <!--#include virtual="../buttons/later.shtml"-->
+    <!--#include virtual="../buttons/subscribe-with-popup.shtml?"-->
+    <a href="#" class="buttonGRAY all-cycle">Весь цикл</a>
+
+</div>

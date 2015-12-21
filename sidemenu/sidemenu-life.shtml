@@ -1,7 +1,7 @@
 <section class="sidemenu color-LIFE">
     <ul class="first-level-nav">
         <li>
-            <h3>Жизнь</h3>
+            <h3 class="active">Жизнь</h3>
         </li>
         <li>
             <h3>Места</h3>

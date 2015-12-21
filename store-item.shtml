@@ -35,10 +35,13 @@
 					</div>
 				</div>
 				<div class="add-to-cart">
-					<a href="" title="">
+					<a class="add-to-cart-button" href="" title="">
 						В корзину
 						<span class="icon-cart-white"></span>
 					</a>
+				</div>
+				<div class="item-added-description">
+					Товар добавлен в <a href="" title="">корзину</a>. В ней можно поменять количество единиц
 				</div>
 			</div>
 			<div class="info">

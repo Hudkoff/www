@@ -231,6 +231,9 @@
 .page_learning .test-navigation-block .active a {
 	color: #7247ba;
 }
+.page_learning .test-navigation-block .answered a {
+	color: #15eb12;
+}
 .page_learning .buttons {
 	margin: 10px 0;
 }

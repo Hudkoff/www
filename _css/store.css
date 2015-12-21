@@ -332,6 +332,7 @@
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+	padding: 3px 8px 3px;
 
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -450,6 +451,9 @@
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 }
+.delivery-block-wrapper {
+	display: none;
+}
 .order-info-block .delivery-block {
 	background-color: #e7eef6;
 	padding: 10px;
@@ -471,6 +475,14 @@
 }
 .order-info-block p {
 	margin-top: 15px;
+}
+
+.item-added-description {
+	display: none;
+	padding: 20px;
+	padding-bottom: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
 }
 
 @media screen and (min-width: 1290px) {

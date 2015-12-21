@@ -1,3 +1,124 @@
+<div id="jdcon" class="shadowBlock" style="">
+    <div class="gs1">
+        <div class="ltb2"></div>
+        <div onclick="$('#jdcon').hide()" class="gsc"></div>
+        <div class="gs3">
+            <div class="gsb ltbb">
+                <div class="bcapt1 darkorange">Конвертер дат</div>
+                <div id="jdbCon">
+                    <select id="jdDateNum" class="jdDate">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <select id="jdDateMon" class="jdDate">
+                        <option>Января</option>
+                        <option>Февраля</option>
+                        <option>Марта</option>
+                        <option>Апреля</option>
+                        <option>Мая</option>
+                        <option>Июня</option>
+                        <option>Июля</option>
+                        <option>Августа</option>
+                        <option>Сентября</option>
+                        <option>Октября</option>
+                        <option>Ноября</option>
+                        <option>Декабря</option>
+                    </select>
+                    <input class="jdDate" id="jdDateYea" type="text" value="2015" maxlength="4">
+                    <span class="bluelink dashed-bordered jdCon1"
+                          onclick="toldotJewishCalendar.showDateConverter(false);">→</span>
+
+                    <span class="bluelink dashed-bordered jdCon2"
+                          onclick="toldotJewishCalendar.showDateConverter(true);">←</span>
+                    <select id="jdhDateNum" class="jdDate">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                    </select>
+                    <select id="jdhDateMon" class="jdDate">
+                        <option>Тишрея</option>
+                        <option>Хешвана</option>
+                        <option>Кислева</option>
+                        <option>Тевета</option>
+                        <option>Швата</option>
+                        <option>Адара</option>
+                        <option>Адара I</option>
+                        <option>Адара II</option>
+                        <option>Нисана</option>
+                        <option>Ияра</option>
+                        <option>Сивана</option>
+                        <option>Таммуза</option>
+                        <option>Ава</option>
+                        <option>Элуля</option>
+                    </select>
+                    <input class="jdDate" id="jdhDateYea" type="text" value="5776" maxlength="4">
+
+                    <div id="jdMesBlock" style="display: none;"></div>
+                    <div id="jdShow" class="jdshowr"><span
+                            onclick="toldotJewishCalendar.showDateInCalendar([26,3,5775],true,&quot;jdcon&quot;)">Показать эту дату в календаре</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="jdBlock">
     <div style="clear:both"></div>
     <div class="jdsmn2">Сегодня:</div>
@@ -55,7 +176,7 @@
         | <span onclick="toldotJewishCalendar.buildSmallYearCalendar([2,1,5776],true,false,&quot;jdYear&quot;)"
                 class="jdchc1" id="jdchc1">еврейский</span>
 
-        <div class="jdconv"><span class="dashed-bordered" onclick="showcard2(&quot;jdcon&quot;);">Конвертер дат</span>
+        <div class="jdconv"><span class="dashed-bordered" onclick="$('#jdcon').show()">Конвертер дат</span>
         </div>
     </div>
     <div id="jdMonth0" class="jdymn jdymn0"

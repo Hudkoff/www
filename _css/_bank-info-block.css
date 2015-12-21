@@ -25,3 +25,18 @@
 	margin-right: 10px;
 	margin-bottom: 15px;
 }
+
+.bank-accounts {
+	display: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	margin-bottom: 12px;
+}
+.bank-accounts .description {
+	margin: 12px 0;
+}
+.bank-accounts .heading {
+	margin: 12px 0;
+	padding: 7px 12px;
+	background-color: #e8eff7;
+}

@@ -1,7 +1,7 @@
 <section class="sidemenu">
     <ul class="first-level-nav color-MONEY">
         <li>
-            <h4>
+            <h4 class="active">
                 <a href="" title="">Хесед</a>
             </h4>
         </li>

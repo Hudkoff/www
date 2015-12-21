@@ -99,55 +99,79 @@
 	font-size: 0;
 	float: left;
 }
+.jdbigdate {
+	padding: 13px 8px;
+	width: 74px;
+	height: 66px;
+	background: url('../images/calendar_sprite.png') 0 0 no-repeat;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 .jdb {
+	background: url('../images/calendar_sprite.png') 40px 0 no-repeat;
+	width: 28px;
+	height: 38px;
 	display: inline-block;
 	position: relative;
 }
-.jdr1 {
-	background-image: url("../images/calendar_date_left_1.png");
-	width: 32px;
-	height: 65px;
-}
-.jdr8 {
-	width: 43px;
-	height: 65px;
-	background-image: url("../images/calendar_date_right_8.png");
-}
+.jdr1 { background-position: 0 -66px; }
+.jdr2 { background-position: 0 -104px; }
+.jdr3 { background-position: 0 -142px; }
+.jdr4 { background-position: 0 -180px; }
+.jdr5 { background-position: 0 -218px; }
+.jdr6 { background-position: 0 -256px; }
+.jdr7 { background-position: 0 -294px; }
+.jdr8 { background-position: 0 -332px; }
+.jdr9 { background-position: 0 -370px; }
+.jdr0 { background-position: 0 -408px; }
 
 .jdmonthbl {
 	float: left;
 }
-.jdcm5 {
-	background-image: url("../images/calendar_month_5.png");
-	width: 47px;
-	height: 15px;
+.jdmm1 {
+	height: 28px;
+	width: 120px;
+	background: url('../images/calendar_sprite.png') 40px 0 no-repeat;
+	position: relative;
+	top: 4px;
+	left: 10px;
+}
+.jdcm1 { background-position: -190px 5px; }
+.jdcm2 { background-position: -190px -21px; }
+.jdcm3 { background-position: -190px -49px; }
+.jdcm4 { background-position: -190px -77px; }
+.jdcm5 { background-position: -190px -105px; }
+.jdcm6 { background-position: -190px -133px; }
+.jdcm7 { background-position: -190px -161px; }
+.jdcm8 { background-position: -190px -189px; }
+.jdcm9 { background-position: -190px -217px; }
+.jdcm10 { background-position: -190px -245px; }
+.jdcm11 { background-position: -190px -273px; }
+.jdcm12 { background-position: -190px -301px; }
+
+.jdcy {
+	float: left;
 	position: relative;
 	top: 10px;
 	left: 10px;
 }
-.jdcy {
-	float: left;
-	position: relative;
-	top: 18px;
-	left: 10px;
-}
-.jdbckg1.jdc {
-	width: 12px;
+.jdc {
+	background: url('../images/calendar_sprite.png') 40px 0 no-repeat;
+	width: 14px;
 	height: 19px;
 	display: inline-block;
 }
-.jdbc0 {
-	background-image: url("../images/calendar_year_blue_0.png");
-}
-.jdbc1 {
-	background-image: url("../images/calendar_year_blue_1.png");
-}
-.jdbc2 {
-	background-image: url("../images/calendar_year_blue_2.png");
-}
-.jdbc5 {
-	background-image: url("../images/calendar_year_blue_5.png");
-}
+.jdbc1 { background-position: -59px -256px; }
+.jdbc2 { background-position: -59px -275px; }
+.jdbc3 { background-position: -59px -294px; }
+.jdbc4 { background-position: -59px -313px; }
+.jdbc5 { background-position: -59px -332px; }
+.jdbc6 { background-position: -59px -351px; }
+.jdbc7 { background-position: -59px -370px; }
+.jdbc8 { background-position: -59px -389px; }
+.jdbc9 { background-position: -59px -408px; }
+.jdbc0 { background-position: -59px -427px; }
 
 .todayBlock {
 	width: 100%;
@@ -172,37 +196,68 @@
 	top: 0;
 	font-size: 0;
 }
-.todayBlock > div + div + div .jdbckg1.jdc {
+.todayBlock > div + div + div .jdc {
 	display: inline-block;
 	background-repeat: no-repeat;
 	width: 14px;
 	height: 19px;
 
 }
-.todayBlock > div + div + div .jdhm1 {
-	background-image: url("../images/calendar_month_red_5.png");
-	width: 59px;
-	height: 20px;
-}
-.todayBlock > div + div + div .jdbc5 {
-	background-image: url("../images/calendar_year_red_5.png");
-}
-.todayBlock > div + div + div .jdbc7 {
-	background-image: url("../images/calendar_year_red_7.png");
-}
-.todayBlock > div + div + div + div .jdbckg1.jdb{
+.todayBlock > div + div + div + div .jdb{
+	background: url('../images/calendar_sprite.png') 40px 0 no-repeat;
+	width: 28px;
+	height: 38px;
 	display: inline-block;
+	position: relative;
 }
-.todayBlock > div + div + div + div .jdb2{
-	width: 37px;
-	height: 65px;
-	background: url("../images/calendar_date_red_left_2.png");
+.todayBlock > div + div + div + div .jdb1 { background-position: -30px -66px; }
+.todayBlock > div + div + div + div .jdb2 { background-position: -30px -104px; }
+.todayBlock > div + div + div + div .jdb3 { background-position: -30px -142px; }
+.todayBlock > div + div + div + div .jdb4 { background-position: -30px -180px; }
+.todayBlock > div + div + div + div .jdb5 { background-position: -30px -218px; }
+.todayBlock > div + div + div + div .jdb6 { background-position: -30px -256px; }
+.todayBlock > div + div + div + div .jdb7 { background-position: -30px -294px; }
+.todayBlock > div + div + div + div .jdb8 { background-position: -30px -332px; }
+.todayBlock > div + div + div + div .jdb9 { background-position: -30px -370px; }
+.todayBlock > div + div + div + div .jdb0 { background-position: -30px -408px; }
+
+
+.todayBlock > div + div + div .jdmm2 {
+	height: 28px;
+	width: 120px;
+	background: url('../images/calendar_sprite.png') 40px 0 no-repeat;
+	position: relative;
+	top: -5px;
 }
-.todayBlock > div + div + div + div .jdb9 {
-	width: 38px;
-	height: 65px;
-	background: url("../images/calendar_date_red_right_9.png");
+.todayBlock > div + div + div .jdhm1 { background-position: -75px 5px; width: 100px; }
+.todayBlock > div + div + div .jdhm2 { background-position: -75px -21px; width: 115px; }
+.todayBlock > div + div + div .jdhm3 { background-position: -75px -49px; width: 105px; }
+.todayBlock > div + div + div .jdhm4 { background-position: -75px -77px; width: 90px; }
+.todayBlock > div + div + div .jdhm5 { background-position: -75px -105px; width: 85px; }
+.todayBlock > div + div + div .jdhm6 { background-position: -75px -133px; width: 80px; }
+.todayBlock > div + div + div .jdhm7 { background-position: -75px -161px; width: 90px; }
+.todayBlock > div + div + div .jdhm8 { background-position: -75px -189px; width: 100px; }
+.todayBlock > div + div + div .jdhm9 { background-position: -75px -217px; width: 95px; }
+.todayBlock > div + div + div .jdhm10 { background-position: -75px -245px; width: 65px; }
+.todayBlock > div + div + div .jdhm11 { background-position: -75px -273px; width: 95px; }
+.todayBlock > div + div + div .jdhm12 { background-position: -75px -301px; width: 95px; }
+.todayBlock > div + div + div .jdhm13 { background-position: -75px -329px; width: 50px; }
+.todayBlock > div + div + div .jdhm14 { background-position: -75px -357px; width: 75px; }
+
+.todayBlock > div + div + div .jdc {
+
 }
+.todayBlock > div + div + div .jdbc1 {background-position: -58px -66px; }
+.todayBlock > div + div + div .jdbc2 {background-position: -58px -85px; }
+.todayBlock > div + div + div .jdbc3 {background-position: -58px -104px; }
+.todayBlock > div + div + div .jdbc4 {background-position: -58px -123px; }
+.todayBlock > div + div + div .jdbc5 {background-position: -58px -142px; }
+.todayBlock > div + div + div .jdbc6 {background-position: -58px -161px; }
+.todayBlock > div + div + div .jdbc7 {background-position: -58px -180px; }
+.todayBlock > div + div + div .jdbc8 {background-position: -58px -199px; }
+.todayBlock > div + div + div .jdbc9 {background-position: -58px -218px; }
+.todayBlock > div + div + div .jdbc0 {background-position: -58px -237px; }
+
 
 .jdyy {
 	position: absolute;
@@ -230,22 +285,20 @@
 	margin-left: 7px;
 	cursor: pointer;
 }
-.jdyy .jdbckg1.jdc {
-	width: 10px;
+.jdyy .jdc {
+	width: 12px;
 	height: 16px;
 }
-.jdyy .jdbc0{
-	background: url("../images/calendar_year_0.png");
-}
-.jdyy .jdbc1{
-	background: url("../images/calendar_year_1.png");
-}
-.jdyy .jdbc2{
-	background: url("../images/calendar_year_2.png");
-}
-.jdyy .jdbc5{
-	background: url("../images/calendar_year_5.png");
-}
+.jdyy .jdbc1 { background-position: -192px -332px; width: 10px }
+.jdyy .jdbc2 { background-position: -202px -332px; }
+.jdyy .jdbc3 { background-position: -214px -332px; }
+.jdyy .jdbc4 { background-position: -226px -332px; }
+.jdyy .jdbc5 { background-position: -238px -332px; }
+.jdyy .jdbc6 { background-position: -250px -332px; }
+.jdyy .jdbc7 { background-position: -262px -332px; }
+.jdyy .jdbc8 { background-position: -274px -332px; }
+.jdyy .jdbc9 { background-position: -286px -332px; }
+.jdyy .jdbc0 { background-position: -298px -332px; }
 
 #jdbCalend {
 	margin-top: 10px;
@@ -338,4 +391,96 @@
 }
 #jdbCalend .jdrh1 {
 	background: url("../images/calendar_gradient.png") top repeat-x, url("../images/calendar_02.jpg") center no-repeat;
+}
+
+
+
+/* КОНВЕРТЕР ДАТ */
+
+#jdcon {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: none rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	z-index: 1100;
+	cursor: pointer;
+}
+.gsc {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+}
+.gs1 {
+	width: 100%;
+	height: 100%;
+}
+.gs3 {
+	vertical-align: middle;
+	text-align: center;
+	background: white;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	width: 620px;
+	margin: -100px auto;
+	cursor: default;
+}
+.gsb.ltbb {
+	padding: 30px;
+}
+.bcapt1 {
+	font-family: 'Noto Serif', serif;
+	font-weight: bold;
+	color: #b38d39;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.jdbCon {
+	font-size: 0;
+}
+.jdDate {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	border: 2px solid #e1e1e1;
+	font-weight: bold;
+	padding: 8px 8px 7px;
+	display: inline-block;
+	max-width: 125px;
+}
+#jdDateYea,
+#jdhDateYea {
+	width: 50px;
+}
+.jdCon1 {
+	margin-right: 50px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.jdCon2 {
+	font-size: 20px;
+	cursor: pointer;
+}
+#jdShow {
+	display: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #0e53b2;
+	border-bottom: 1px solid;
+	position: absolute;
+	cursor: pointer;
+}
+.jdshowr {
+	display: block !important;
+	right: 45px;
+
+}
+.jdshowl {
+	display: block !important;
+	left: 45px;
 }
