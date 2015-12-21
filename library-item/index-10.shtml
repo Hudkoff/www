@@ -1,7 +1,7 @@
 <div class="library-item">
 	<a href="#" class="library-item-link" title="">
 		<div class="image">
-			<img src="images/book-2.jpg" alt=""/>
+			<img src="images/book-2.jpg" class="book-3d book-3d-big" alt=""/>
 		</div>
 		<h4 class="title">Дерех Хаим. Комментарий на трактат Авот</h4>
 	</a>

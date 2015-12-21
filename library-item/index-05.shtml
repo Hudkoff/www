@@ -1,7 +1,7 @@
 <div class="library-item">
 	<a href="#" class="library-item-link" title="">
 		<div class="image">
-			<img src="images/book-1.jpg" alt=""/>
+			<img src="images/book-1.jpg" class="book-3d book-3d-big" alt=""/>
 		</div>
 		<h4 class="title">Пророки (Невиим)</h4>
 	</a>

@@ -1033,10 +1033,15 @@ ul.ogl ul {
 
 .book-3d {
 	background-image: url(../images/shop-book.png);
+	background-repeat: no-repeat;
+	background-position: right;
 	background-size: cover;
 	padding: 0 4px 3px 0;
 	margin-bottom: 3px;
 	position: relative;
+}
+.book-3d.book-3d-big {
+	padding: 0 7px 7px 0;
 }
 .book-3d .book-author {
 	font-family: 'Open Sans', sans-serif;
@@ -1070,6 +1075,11 @@ ul.ogl ul {
 	width: 117px;
 	height: 184px;
 }
+
+.book-no-cover.book-3d-big {
+
+}
+
 .book-no-cover .cover {
 	width: 100%;
 	height: 100%;
