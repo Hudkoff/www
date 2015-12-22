@@ -52,6 +52,7 @@
 		</ul>
 	</li>
 	<li class="section">
+		<div class="new-articles">99+</div>
 		<a class="menu-item item-MY" href="" title="">Моё</a>
 		<ul class="submenu">
 			<li><a class="submenu-item" href="" title="">Избранное</a></li>

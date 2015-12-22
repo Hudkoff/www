@@ -96,7 +96,23 @@
 	float: left; 
 	/*margin-right: 0%;*/
 	cursor: pointer;
+	position: relative;
 }
+.new-articles {
+	position: absolute;
+	top: -4px;
+	right: 15px;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	background-color: #0e53b2;
+	padding: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #fff;
+}
+
 @media all and (min-width: 1000px) {
 	.main-menu .section {
 		/*margin-right: 0.3%;*/
