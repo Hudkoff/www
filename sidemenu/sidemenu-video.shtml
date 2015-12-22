@@ -5,7 +5,7 @@
             <ul class="second-level-nav">
                 <li><a href="#" title="Мораль иудаизма">Мораль иудаизма</a></li>
                 <li><a href="#" title="Танах">Танах</a></li>
-                <li><a href="#" title="Суббота">Суббота</a></li>
+                <li class="selected"><a href="#" title="Суббота">Суббота</a></li>
                 <li><a href="#" title="Еврейские праздники">Еврейские праздники</a></li>
                 <li><a href="#" title="Еврейские законы">Еврейские законы</a></li>
                 <li><a href="#" title="Талмуд на грузинском">Талмуд на грузинском</a></li>

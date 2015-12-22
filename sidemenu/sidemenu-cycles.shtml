@@ -8,7 +8,7 @@
                 <li><a href="#" title="Пророки">Пророки</a></li>
                 <li><a href="#" title="Писания">Писания</a></li>
                 <li><a href="#" title="Талмуд">Талмуд</a></li>
-                <li><a href="#" title="Законы">Законы</a></li>
+                <li class="selected"><a href="#" title="Законы">Законы</a></li>
                 <li><a href="#" title="Мусар">Мусар</a></li>
                 <li><a href="#" title="Мировоззрение">Мировоззрение</a></li>
                 <li><a href="#" title="Каббала">Каббала</a></li>

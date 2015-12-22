@@ -1,14 +1,14 @@
 <section class="sidemenu">
 	<ul class="first-level-nav">
 		<li>
-			<h4>Аудиоуроки</h4>
+			<h4 class="active"><a href="#" title="Аудиоуроки">Аудиоуроки</a></h4>
 			<ul class="second-level-nav">
-				<li class="active"><a href="#" title="Талмуд">Талмуд</a></li>
+				<li><a href="#" title="Талмуд">Талмуд</a></li>
 				<li><a href="#" title="Еврейские законы">Еврейские законы</a></li>
 				<li><a href="#" title="Мировоззрение">Мировоззрение</a></li>
 				<li><a href="#" title="Пиркей Авот">Пиркей Авот</a></li>
 				<li><a href="#" title="Еврейская история">Еврейская история</a></li>
-				<li><a href="#" title="Танах">Танах</a></li>
+				<li class="selected"><a href="#" title="Танах">Танах</a></li>
 				<li><a href="#" title="Еврейская семья">Еврейская семья</a></li>
 				<li><a href="#" title="Недельная глава">Недельная глава</a></li>
 				<li><a href="#" title="Еврейские праздники">Еврейские праздники</a></li>

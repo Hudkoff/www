@@ -1,7 +1,7 @@
 <section class="sidemenu">
     <ul class="first-level-nav">
         <li>
-            <h4><a href="#" title="Муж и жена">Муж и жена</a></h4>
+            <h4 class="active"><a href="#" title="Муж и жена">Муж и жена</a></h4>
         </li>
         <li>
             <h4><a href="#" title="Воспитание детей">Воспитание детей</a></h4>

@@ -3,7 +3,7 @@
         <li>
             <h4 class="active"><a href="#" title="Муж и жена">Муж и жена</a></h4>
             <ul class="second-level-nav">
-                <li><a href="#" title="Статьи">Статьи</a></li>
+                <li class="selected"><a href="#" title="Статьи">Статьи</a></li>
                 <li><a href="#" title="Вопросы и ответы">Вопросы и ответы</a></li>
             </ul>
         </li>

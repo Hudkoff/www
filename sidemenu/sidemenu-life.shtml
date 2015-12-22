@@ -1,25 +1,25 @@
 <section class="sidemenu color-LIFE">
     <ul class="first-level-nav">
         <li>
-            <h3 class="active">Жизнь</h3>
+            <h4 class="active"><a href="" title="">Жизнь</a></h4>
         </li>
         <li>
-            <h3>Места</h3>
+            <h4><a href="" title="">Места</a></h4>
         </li>
         <li>
-            <h3>Раввины</h3>
+            <h4><a href="" title="">Раввины</a></h4>
         </li>
         <li>
-            <h3>Кладбища</h3>
+            <h4><a href="" title="">Кладбища</a></h4>
         </li>
         <li>
-            <h3>Знакомства</h3>
+            <h4><a href="" title="">Знакомства</a></h4>
         </li>
         <li>
-            <h3>Фамилия</h3>
+            <h4><a href="" title="">Фамилия</a></h4>
         </li>
         <li>
-            <h3>Имена</h3>
+            <h4><a href="" title="">Имена</a></h4>
         </li>
 
     </ul>

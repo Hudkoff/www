@@ -1,5 +1,6 @@
 <h3 class="color-TOLDOT bordered">
-	Спросить раввина → Дополнительно
+	Дополнительно
+	<a class="tablink" href="#" onclick="$.colorbox.prev(); return false">Спросить раввина</a>
 </h3>
 
 <form>
@@ -51,7 +52,6 @@
 		</div>
 	</div>
 
-	<input type="submit" class="button-proceed" value="Отправить вопрос">
-	<a class="button-back" href="#" onclick="$.colorbox.prev(); return false">Назад</a>
+	<input type="submit" class="button-submit" value="Отправить вопрос">
 
 </form>

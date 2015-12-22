@@ -8,7 +8,7 @@
     
 	<a href="#" class="shop-item clearfix" title="">
 		<div class="image">
-			<img src="images/t.jpg" alt=""/>
+			<img class="book-3d" src="images/t.jpg" alt=""/>
 			<div class="price">₪<b>20.00</b> / $5.08</div>
 		</div>
 		<p class="title">Спасение Торы из огня катастрофы</p>

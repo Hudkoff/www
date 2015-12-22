@@ -32,7 +32,7 @@
             <ul class="second-level-nav">
                 <li><a href="#" title="Недельные главы Торы">Еврейский календарь</a></li>
                 <li><a href="#" title="Недельные главы Торы">Мусар</a></li>
-                <li><a href="#" title="Недельные главы Торы">Разное</a></li>
+                <li class="selected"><a href="#" title="Недельные главы Торы">Разное</a></li>
                 <li><a href="#" title="Недельные главы Торы">Талмуд</a></li>
                 <li><a href="#" title="Недельные главы Торы">Танах</a></li>
             </ul>

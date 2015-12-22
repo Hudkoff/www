@@ -38,7 +38,25 @@
     color: #4fc77a;
 }
 .page_video .sidemenu .active {
-    background-color: #f2faf5;
+    background-color: #eaf8f0;
+}
+.page_articles .sidemenu .active {
+    background-color: #f7f7f7;
+}
+.page_calendar .sidemenu .active {
+    background-color: #f7f2e7;
+}
+.page_hesed .sidemenu .active {
+    background-color: #e8eff7;
+}
+.page_life .sidemenu .active {
+    background-color: #f8f0e9 ;
+}
+.page_rabbis .sidemenu .active {
+    background-color: #f9f3ec;
+}
+.page_talmud .sidemenu .active {
+    background-color: #ececec;
 }
 .page_store .sidemenu h4 {
     color: #56a5d2;
@@ -70,55 +88,11 @@
 }
 
 
-
-.sidemenu .second-level-nav li.selected {
-    color: inherit;
-}
-.page_gallery .sidemenu .second-level-nav li.selected a {
-    color: #9c5630;
-}
-.page_ask .sidemenu .second-level-nav li.selected a,
-.page_ask-article .sidemenu .second-level-nav li.selected a {
-    color: #b38d39;
-}
-.page_audio .sidemenu .second-level-nav li.selected a {
-    color: #c4af23;
-}
-.page_family .sidemenu .second-level-nav li.selected a {
-    color: #d55940;
-}
-.page_cycles .sidemenu .second-level-nav li.selected a {
-    color: #b20e89;
-}
-.page_video .sidemenu .second-level-nav li.selected a {
-    color: #4fc77a;
-}
-.page_store .sidemenu .second-level-nav li.selected a {
-    color: #56a5d2;
+.page_cemetery .sidemenu .active {
+    background-color: #f9f3ec;
 }
 
-.page_gallery .sidemenu .sidemenu .second-level-nav > li.selected:before {
-    color: #9c5630;
-}
-.page_ask .sidemenu .sidemenu .second-level-nav > li.selected:before,
-.page_ask-article .sidemenu .second-level-nav > li.selected:before {
-    color: #b38d39;
-}
-.page_audio .sidemenu .second-level-nav > li.selected:before {
-    color: #c4af23;
-}
-.page_family .sidemenu .second-level-nav > li.selected:before {
-    color: #d55940;
-}
-.page_cycles .sidemenu .second-level-nav > li.selected:before {
-    color: #b20e89;
-}
-.page_video .sidemenu .second-level-nav > li.selected:before {
-    color: #4fc77a;
-}
-.page_store .sidemenu .second-level-nav > li.selected:before {
-    color: #56a5d2;
-}
+
 
 
 /* структура */
@@ -167,12 +141,12 @@
 }
 .sidemenu .second-level-nav li.selected {
     width: 190px;
-    background: #f4fbf6;
+    /*background: #f4fbf6;*/
     margin-left: -8px;
     padding-left: 8px;
 }
 .page_store .sidemenu .second-level-nav li.selected {
-	background: #e7eef6;
+	/*background: #e7eef6;*/
 }
 
 .sidemenu .third-level-nav li {
@@ -188,4 +162,67 @@
     font-size: 12px;
     padding-left: 12px;
     padding-right: 7px;
+}
+
+
+.sidemenu .second-level-nav li.selected {
+    color: inherit;
+}
+.page_cemetery .sidemenu .second-level-nav li.selected a {
+    color: #f69227;
+}
+.page_articles .sidemenu .second-level-nav li.selected a {
+    color: #727272;
+}
+.page_my .sidemenu .second-level-nav li.selected a {
+    color: #1159a9;
+}
+.page_gallery .sidemenu .second-level-nav li.selected a {
+    color: #9c5630;
+}
+.page_learning .sidemenu .second-level-nav li.selected a,
+.page_talmud .sidemenu .second-level-nav li.selected a {
+    color: #7247ba;
+}
+.page_ask .sidemenu .second-level-nav li.selected a,
+.page_ask-article .sidemenu .second-level-nav li.selected a {
+    color: #b38d39;
+}
+.page_audio .sidemenu .second-level-nav li.selected a {
+    color: #c4af23;
+}
+.page_family .sidemenu .second-level-nav li.selected a {
+    color: #d55940;
+}
+.page_cycles .sidemenu .second-level-nav li.selected a {
+    color: #b20e89;
+}
+.page_video .sidemenu .second-level-nav li.selected a {
+    color: #4fc77a;
+}
+.page_store .sidemenu .second-level-nav li.selected a {
+    color: #56a5d2;
+}
+
+.page_gallery .sidemenu .sidemenu .second-level-nav > li.selected:before {
+    color: #9c5630;
+}
+.page_ask .sidemenu .sidemenu .second-level-nav > li.selected:before,
+.page_ask-article .sidemenu .second-level-nav > li.selected:before {
+    color: #b38d39;
+}
+.page_audio .sidemenu .second-level-nav > li.selected:before {
+    color: #c4af23;
+}
+.page_family .sidemenu .second-level-nav > li.selected:before {
+    color: #d55940;
+}
+.page_cycles .sidemenu .second-level-nav > li.selected:before {
+    color: #b20e89;
+}
+.page_video .sidemenu .second-level-nav > li.selected:before {
+    color: #4fc77a;
+}
+.page_store .sidemenu .second-level-nav > li.selected:before {
+    color: #56a5d2;
 }

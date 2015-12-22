@@ -1,35 +1,35 @@
 <section class="sidemenu color-LIFE">
     <ul class="first-level-nav">
         <li>
-            <h4>Жизнь</h4>
+            <h4><a href="" title="Жизнь">Жизнь</a></h4>
         </li>
         <li>
-            <h4>Места</h4>
+            <h4><a href="" title="Места">Места</a></h4>
         </li>
         <li>
-            <h4>Раввины</h4>
+            <h4><a href="" title="Раввины">Раввины</a></h4>
         </li>
         <li>
-            <h4 class="active">Кладбища</h4>
+            <h4 class="active"><a href="" title="Кладбища">Кладбища</a></h4>
             <ul class="second-level-nav">
                 <li><a href="#" title="Недельные главы Торы"> О проекте</a></li>
                 <li><a href="#" title="Пятикнижие Торы">От первого лица</a></li>
                 <li><a href="#" title="Пророки">Этические вопросы</a></li>
                 <li><a href="#" title="Писания">613 заповедей</a></li>
-                <li><a href="#" title="Талмуд">Услуги по уходу за    захоронениями</a></li>
+                <li class="selected"><a href="#" title="Талмуд">Услуги по уходу за захоронениями</a></li>
                 <li><a href="#" title="Законы">Сотрудничество    с общинами</a></li>
                 <li><a href="#" title="Мусар">Помочь проекту</a></li>
                 <li><a href="#" title="Мировоззрение">Контакты</a></li>
             </ul>
         </li>
         <li>
-            <h4>Знакомства</h4>
+            <h4><a href="" title="Знакомства">Знакомства</a></h4>
         </li>
         <li>
-            <h4>Фамилия</h4>
+            <h4><a href="" title="Фамилия">Фамилия</a></h4>
         </li>
         <li>
-            <h4>Имена</h4>
+            <h4><a href="" title="Имена">Имена</a></h4>
         </li>
 
     </ul>

@@ -1,5 +1,6 @@
 <h3 class="color-TOLDOT bordered">
 	Спросить раввина
+	<a class="tablink" href="#" onclick="$.colorbox.next(); return false">Дополнительно</a>
 </h3>
 
 <form>
