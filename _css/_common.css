@@ -1030,7 +1030,10 @@ ul.ogl ul {
 	}
 }
 
-
+.daytopic-article .book-no-cover {
+	display: block;
+	margin: 0 auto;
+}
 .book-3d {
 	background-image: url(../images/shop-book.png);
 	background-repeat: no-repeat;
@@ -1039,6 +1042,20 @@ ul.ogl ul {
 	padding: 0 4px 3px 0;
 	margin-bottom: 3px;
 	position: relative;
+}
+.book-3d:before,
+.book-3d.book-3d-big .cover:before {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5px;
+	background: url("../images/shop-book-cover.png") repeat-y;
+	width: 37px;
+	height: 100%;
+}
+.book-3d.book-3d-big .cover:before {
+	left: 10px;
 }
 .book-3d.book-3d-big {
 	padding: 0 7px 7px 0;
@@ -1075,12 +1092,59 @@ ul.ogl ul {
 	width: 117px;
 	height: 184px;
 }
-
-.book-no-cover.book-3d-big {
-
-}
-
 .book-no-cover .cover {
 	width: 100%;
 	height: 100%;
+}
+
+.book-3d-big-wrapper {
+	position: relative;
+	max-width: 200px;
+	margin: 0 auto;
+}
+.book-no-cover.book-3d-big {
+	display: block;
+	width: initial;
+	height: initial;
+}
+.book-no-cover.book-3d-big .cover {
+	position: absolute;
+	width: initial;
+	height: initial;
+	top: 0;
+	left: 0;
+	bottom: 7px;
+	right: 7px;
+}
+.book-no-cover.book-3d-big .book-author {
+	font-weight: bold;
+	font-size: 14px;
+	padding: 20px;
+}
+.book-no-cover.book-3d-big .book-name {
+	padding: 20px;
+	font-size: 18px;
+	top: 25%;
+}
+.book-no-cover.book-3d-big .book-year {
+	padding: 20px;
+	font-weight: bold;
+	font-size: 12px;
+}
+@media screen and (max-width: 1024px) {
+	.book-no-cover.book-3d-big .book-author {
+		font-weight: bold;
+		font-size: 12px;
+		padding: 20px;
+	}
+	.book-no-cover.book-3d-big .book-name {
+		padding: 20px;
+		font-size: 14px;
+		top: 25%;
+	}
+	.book-no-cover.book-3d-big .book-year {
+		padding: 20px;
+		font-weight: bold;
+		font-size: 10px;
+	}
 }

@@ -1,6 +1,12 @@
 <section class="daytopic-article clearfix">
 	<a href="" title="">
-		<img src="images/shop-01.jpg" class="shop book-3d"/>
+		<div class="book-3d book-no-cover">
+			<div class="cover" style="background-color: #3e99b9"> <!-- ЦВЕТ ОБЛОЖКИ -->
+				<div class="book-author">Рав Бенцион Зильбер</div>
+				<div class="book-name">АМ ИСРАЭЛЬ ХАЙ</div>
+				<div class="book-year">2015</div>
+			</div>
+		</div>
 		<h4>Слихот на русском языке. Нусах Хабад</h4>
 	</a>
 	<p class="details">

@@ -49,13 +49,3 @@
 	text-decoration: none;
 }
 
-.shop-item .image-container .book:before {
-	display: block;
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 5px;
-	background: url("../images/shop-book-cover.png") no-repeat;
-	width: 37px;
-	height: 100%;
-}

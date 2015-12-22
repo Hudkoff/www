@@ -1,10 +1,23 @@
 <div class="library-item">
 	<a href="#" class="library-item-link" title="">
+
 		<div class="image">
-			<img src="images/book-4.jpg" class="book-3d book-3d-big" alt=""/>
+			<div class="book-3d-big-wrapper">
+				<div class="book-3d book-3d-big book-no-cover">
+
+					<img src="images/shop-book.png"/>
+
+					<div class="cover" style="background-color: #c37325"> <!-- ЦВЕТ ОБЛОЖКИ -->
+						<div class="book-author">Рав Бенцион Зильбер</div>
+						<div class="book-name">АМ ИСРАЭЛЬ ХАЙ</div>
+						<div class="book-year">2015</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<h4 class="title">Пророки (Невиим)</h4>
+		<h4 class="title">Дерех Хаим. Комментарий на трактат Авот</h4>
 	</a>
+
 	<div class="buttons">
 		<a href="#" class="buttonGRAY download">Скачать</a>
 		<a href="#" class="buttonGRAY all-cycle">Цикл</a>
