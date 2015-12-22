@@ -27,7 +27,7 @@
 			<input type="radio" name="publ">Нет
 		</label>
 	</div>
-	<input type="submit" value="ДАЛЕЕ">
+	<a class="button-proceed" href="#" onclick="$.colorbox.next(); return false">Далее</a>
 </form>
 
 

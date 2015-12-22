@@ -1,0 +1,57 @@
+<h3 class="color-TOLDOT bordered">
+	Спросить раввина → Дополнительно
+</h3>
+
+<form>
+
+	<div class="table COL-two">
+		<div class="table-cell">
+			<div>
+				<label>Ваш пол:</label>
+
+				<div class="input-row">
+					<label class="radioWrap">
+						<input type="radio" checked="checked" name="sex1">Мужской
+					</label>
+					<label class="radioWrap">
+						<input type="radio" name="sex1">Женский
+					</label>
+				</div>
+			</div>
+
+			<div>
+				<label>Из какой вы страны:</label>
+				<select>
+					<option>Россия</option>
+					<option>Америка</option>
+					<option>Германия</option>
+					<option>Франиция</option>
+				</select>
+			</div>
+
+			<div>
+				<label>Семейное положение:</label>
+				<select>
+					<option>Женат (замужем)</option>
+					<option>Холост (не замужем)</option>
+				</select>
+			</div>
+
+		</div>
+		<div class="table-cell">
+			<div>
+				<label>Ваш год рождения:</label>
+				<input type="text" class="" placeholder="">
+			</div>
+
+			<div>
+				<label>Из какого вы города:</label>
+				<input type="text" class="" placeholder="">
+			</div>
+		</div>
+	</div>
+
+	<input type="submit" class="button-proceed" value="Отправить вопрос">
+	<a class="button-back" href="#" onclick="$.colorbox.prev(); return false">Назад</a>
+
+</form>

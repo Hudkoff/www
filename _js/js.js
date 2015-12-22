@@ -360,17 +360,18 @@ if (p_loginButton.length != 0) { // если элемент есть на стр
 	});
 }
 
-//var p_askrav = $(".p_ask-rav");
-//if (p_askrav.length != 0) { // если элемент есть на странице
-//	p_askrav.colorbox({
-//		scrolling: false,
-//		opacity: 0.5,
-//		width: "526px",
-//		// onComplete: cboxPageScrollingAdjust,
-//		// onCleanup: cboxPageScrollingReturn,
-//		className: "popup popup_ask-rav",
-//	});
-//}
+var p_askrav = $(".p_ask-rav");
+if (p_askrav.length != 0) { // если элемент есть на странице
+	p_askrav.colorbox({
+		rel: "ask-rav",
+		scrolling: false,
+		opacity: 0.5,
+		width: "526px",
+		// onComplete: cboxPageScrollingAdjust,
+		// onCleanup: cboxPageScrollingReturn,
+		className: "popup popup_ask-rav",
+	});
+}
 
 // заготовка
 var p_error = $(".p_error");
@@ -470,7 +471,7 @@ if (p_pay.length != 0) { // если элемент есть на страниц
 		rel: "pay",
 		scrolling: false,
 		opacity: 0.5,
-		width: "526px",
+		width: "600px",
 		// onComplete: cboxPageScrollingAdjust,
 		// onCleanup: cboxPageScrollingReturn,
 		className: "popup popup_pay-reg",

@@ -20,3 +20,49 @@
 .ask-buttons .ask-button:hover {
 	opacity: 0.9;
 }
+
+
+.popup_ask-rav select {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	border: 2px solid #e1e1e1;
+	font-weight: bold;
+	padding: 8px 8px 7px;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin-bottom: 14px;
+}
+.popup_ask-rav .input-row {
+	height: 36px; margin-bottom: 14px;
+}
+.popup_ask-rav .input-row .radioWrap {
+	margin-top: 7px;
+}
+.popup_ask-rav .button-proceed {
+	display: block;
+	width: 100px;
+	text-align: center;
+	float: right;
+	border: 0;
+	background: #0e53b2;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #fff;
+	padding: 9px 8px 8px;
+	cursor: pointer;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.popup_ask-rav .button-back {
+	float: right;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	vertical-align: middle;
+	margin-right: 20px;
+}
