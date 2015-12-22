@@ -230,3 +230,6 @@
 .main-menu .submenu-item:hover {
 	text-decoration: underline;
 }
+.sitemap-box .new-articles {
+	display: none;
+}
