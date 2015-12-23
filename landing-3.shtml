@@ -6,6 +6,7 @@
 	<link href="_css/landing.css" rel="stylesheet" type="text/css">
 	<script src="_js/parallax.min.js" type="text/javascript"></script>
 	<script src="_js/jquery.indyFadeBox.js" type="text/javascript"></script>
+	<script src="_js/jquery.visible.min.js" type="text/javascript"></script>
 
 </head>
 <body class="page_landing landing-calendar" itemscope itemtype="http://schema.org/WebPage">
@@ -21,582 +22,623 @@
 	</nav>
 
 	<div class="content">
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/01.jpg">
-		</section>
+		<div class="level">
+			<section class="parallax-2 bg-1 picture-section">
+			</section>
 
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Суббота - Шаббат</p>
-			</div>
-
-			<div class="tree-container table COL-two">
-
-				<div class="tree-content left table-cell">
-					<div class="tree-level from-main">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/01-1.jpg" alt="" />
-									<p class="bottom-text">39 работ</p>
-								</a>
-							</div>
-						</div>
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/01-2.jpg" alt="" />
-									<p class="bottom-text">Запретительные законы</p>
-								</a>
-							</div>
-						</div>
-					</div>
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Суббота - Шаббат</p>
 				</div>
 
-				<div class="tree-content right table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/01-3.jpg" alt="" />
-									<p class="bottom-text">Повелительные законы</p>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="tree-level from-top two-children">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/01-4.jpg" alt="" />
-									<p class="bottom-text">Онег Шаббат</p>
-								</a>
-							</div>
-						</div>
+				<div class="tree-container table COL-two">
 
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/01-5.jpg" alt="" />
-									<p class="bottom-text">Зажигание свечей и кидуш</p>
-								</a>
+					<div class="tree-content left table-cell">
+						<div class="tree-level from-main">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/01-1.jpg" alt="" />
+										<p class="bottom-text">39 работ</p>
+									</a>
+								</div>
+							</div>
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/01-2.jpg" alt="" />
+										<p class="bottom-text">Запретительные законы</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+
+					<div class="tree-content right table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/01-3.jpg" alt="" />
+										<p class="bottom-text">Повелительные законы</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="tree-level from-top two-children">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/01-4.jpg" alt="" />
+										<p class="bottom-text">Онег Шаббат</p>
+									</a>
+								</div>
+							</div>
+
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/01-5.jpg" alt="" />
+										<p class="bottom-text">Зажигание свечей и кидуш</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</div>
+		<div class="level">
+			<section class="parallax-2 bg-2 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Еврейские праздники</p>
+				</div>
+			</section>
+		</div>
+
+		<div class="level">
+			<section class="parallax-2 bg-3 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Песах</p>
 				</div>
 
-			</div>
-		</section>
+				<div class="tree-container table COL-two">
 
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/02.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Еврейские праздники</p>
-			</div>
-		</section>
-
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/03.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Песах</p>
-			</div>
-
-			<div class="tree-container table COL-two">
-
-				<div class="tree-content left table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/03-1.jpg" alt="" />
-									<p class="bottom-text">Маца и хамец</p>
-								</a>
+					<div class="tree-content left table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/03-1.jpg" alt="" />
+										<p class="bottom-text">Маца и хамец</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+
+					<div class="tree-content right table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/03-2.jpg" alt="" />
+										<p class="bottom-text">Подготовка к Песаху</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="tree-level from-top only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/03-3.jpg" alt="" />
+										<p class="bottom-text">Пасхальный Седер</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="tree-level from-top two-children">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/03-4.jpg" alt="" />
+										<p class="bottom-text">Пасхальная Агада</p>
+									</a>
+								</div>
+							</div>
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/03-5.jpg" alt="" />
+										<p class="bottom-text">4 бокала</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<div class="level">
+			<section class="parallax-2 bg-4 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Счёт Омера</p>
+				</div>
+			</section>
+		</div>
+
+
+		<div class="level">
+			<section class="parallax-2 bg-5 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Лаг баОмер</p>
 				</div>
 
-				<div class="tree-content right table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/03-2.jpg" alt="" />
-									<p class="bottom-text">Подготовка к Песаху</p>
-								</a>
+				<div class="tree-container table COL-two">
+
+					<div class="tree-content left table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/05-1.jpg" alt="" />
+										<p class="bottom-text">Книга Зоар</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="tree-level from-top only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/03-3.jpg" alt="" />
-									<p class="bottom-text">Пасхальный Седер</p>
-								</a>
+
+					<div class="tree-content right table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/05-2.jpg" alt="" />
+										<p class="bottom-text">Раби Шимон бар Йохай</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="tree-level from-top two-children">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/03-4.jpg" alt="" />
-									<p class="bottom-text">Пасхальная Агада</p>
-								</a>
-							</div>
-						</div>
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/03-5.jpg" alt="" />
-									<p class="bottom-text">4 бокала</p>
-								</a>
-							</div>
-						</div>
-					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<div class="level">
+			<section class="parallax-2 bg-6 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Шавуот</p>
+				</div>
+			</section>
+		</div>
+
+
+		<div class="level">
+			<section class="parallax-2 bg-7 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Рош аШана</p>
 				</div>
 
-			</div>
-		</section>
+				<div class="tree-container table COL-two">
 
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/04.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Счёт Омера</p>
-			</div>
-		</section>
-
-
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/05.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Лаг баОмер</p>
-			</div>
-
-			<div class="tree-container table COL-two">
-
-				<div class="tree-content left table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/05-1.jpg" alt="" />
-									<p class="bottom-text">Книга Зоар</p>
-								</a>
+					<div class="tree-content left table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/07-1.jpg" alt="" />
+										<p class="bottom-text">Элуль</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/07-3.jpg" alt="" />
+										<p class="bottom-text">Правосудие</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+
+					<div class="tree-content right table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/07-2.jpg" alt="" />
+										<p class="bottom-text">Шофар</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<div class="level">
+			<section class="parallax-2 bg-8 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Йом Кипур</p>
 				</div>
 
-				<div class="tree-content right table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/05-2.jpg" alt="" />
-									<p class="bottom-text">Раби Шимон бар Йохай</p>
-								</a>
+				<div class="tree-container table COL-two">
+
+					<div class="tree-content left table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/08-1.jpg" alt="" />
+										<p class="bottom-text">Грех</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+
+					<div class="tree-content right table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/08-2.jpg" alt="" />
+										<p class="bottom-text">Раскаяние — тшува</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<div class="level">
+			<section class="parallax-2 bg-9 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Суккот</p>
 				</div>
 
-			</div>
-		</section>
+				<div class="tree-container table COL-two">
 
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/06.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Шавуот</p>
-			</div>
-		</section>
-
-
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/07.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Рош аШана</p>
-			</div>
-
-			<div class="tree-container table COL-two">
-
-				<div class="tree-content left table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/07-1.jpg" alt="" />
-									<p class="bottom-text">Элуль</p>
-								</a>
+					<div class="tree-content left table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/09-1.jpg" alt="" />
+										<p class="bottom-text">Сукка</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/07-3.jpg" alt="" />
-									<p class="bottom-text">Правосудие</p>
-								</a>
+
+					<div class="tree-content right table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/09-2.jpg" alt="" />
+										<p class="bottom-text">4 вида растений</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<div class="level">
+			<section class="parallax-2 bg-10 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Шмини Ацерет</p>
 				</div>
 
-				<div class="tree-content right table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/07-2.jpg" alt="" />
-									<p class="bottom-text">Шофар</p>
-								</a>
+				<div class="tree-container table COL-two">
+
+					<div class="tree-content left table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/10-1.jpg" alt="" />
+										<p class="bottom-text">Симхат Тора</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 
-			</div>
-		</section>
-
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/08.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Йом Кипур</p>
-			</div>
-
-			<div class="tree-container table COL-two">
-
-				<div class="tree-content left table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/08-1.jpg" alt="" />
-									<p class="bottom-text">Грех</p>
-								</a>
+					<div class="tree-content right table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/10-2.jpg" alt="" />
+										<p class="bottom-text">Ошана Раба</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<div class="level">
+			<section class="parallax-2 bg-11 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Ханука</p>
 				</div>
 
-				<div class="tree-content right table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/08-2.jpg" alt="" />
-									<p class="bottom-text">Раскаяние — тшува</p>
-								</a>
+				<div class="tree-container table COL-two">
+
+					<div class="tree-content left table-cell">
+					</div>
+
+					<div class="tree-content right table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/11-1.jpg" alt="" />
+										<p class="bottom-text">Ханукальные свечи</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<div class="level">
+			<section class="parallax-2 bg-12 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Ту биШват</p>
+				</div>
+			</section>
+		</div>
+
+		<div class="level">
+			<section class="parallax-2 bg-13 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Пурим</p>
 				</div>
 
-			</div>
-		</section>
+				<div class="tree-container table COL-two">
 
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/09.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Суккот</p>
-			</div>
-
-			<div class="tree-container table COL-two">
-
-				<div class="tree-content left table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/09-1.jpg" alt="" />
-									<p class="bottom-text">Сукка</p>
-								</a>
+					<div class="tree-content left table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/13-1.jpg" alt="" />
+										<p class="bottom-text">Вино и опьянение</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/13-3.jpg" alt="" />
+										<p class="bottom-text">Мишлоах манот</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="tree-content right table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/09-2.jpg" alt="" />
-									<p class="bottom-text">4 вида растений</p>
-								</a>
+					<div class="tree-content right table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/13-2.jpg" alt="" />
+										<p class="bottom-text">Подарки бедным</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/13-4.jpg" alt="" />
+										<p class="bottom-text">Чтение Свитка Эстер</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<div class="level">
+			<section class="parallax-2 bg-14 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Посты</p>
+				</div>
+			</section>
+		</div>
+
+		<div class="level">
+			<section class="parallax-2 bg-15 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Пост 17 Тамуза</p>
 				</div>
 
-			</div>
-		</section>
+				<div class="tree-container table COL-two">
 
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/10.jpg">
-		</section>
+					<div class="tree-content left table-cell">
+					</div>
 
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Шмини Ацерет</p>
-			</div>
-
-			<div class="tree-container table COL-two">
-
-				<div class="tree-content left table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/10-1.jpg" alt="" />
-									<p class="bottom-text">Симхат Тора</p>
-								</a>
+					<div class="tree-content right table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/15-1.jpg" alt="" />
+										<p class="bottom-text">Между теснин</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+
+				</div>
+			</section>
+		</div>
+
+		<div class="level">
+			<section class="parallax-2 bg-16 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Пост 9 Ава</p>
 				</div>
 
-				<div class="tree-content right table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/10-2.jpg" alt="" />
-									<p class="bottom-text">Ошана Раба</p>
-								</a>
+				<div class="tree-container table COL-two">
+
+					<div class="tree-content left table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/16-1.jpg" alt="" />
+										<p class="bottom-text">Разрушение Храма</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 
-			</div>
-		</section>
-
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/11.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Ханука</p>
-			</div>
-
-			<div class="tree-container table COL-two">
-
-				<div class="tree-content left table-cell">
-				</div>
-
-				<div class="tree-content right table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/11-1.jpg" alt="" />
-									<p class="bottom-text">Ханукальные свечи</p>
-								</a>
+					<div class="tree-content right table-cell">
+						<div class="tree-level from-main only-one">
+							<div class="tree-elem indy-fade-box">
+								<div class="circle">
+									<a href="#">
+										<img src="images/landing/3/16-2.jpg" alt="" />
+										<p class="bottom-text">Траур по Храму</p>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+
 				</div>
+			</section>
+		</div>
 
-			</div>
-		</section>
+		<div class="level">
+			<section class="parallax-2 bg-17 picture-section">
+			</section>
 
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/12.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Ту биШват</p>
-			</div>
-		</section>
-
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/13.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Пурим</p>
-			</div>
-
-			<div class="tree-container table COL-two">
-
-				<div class="tree-content left table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/13-1.jpg" alt="" />
-									<p class="bottom-text">Вино и опьянение</p>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/13-3.jpg" alt="" />
-									<p class="bottom-text">Мишлоах манот</p>
-								</a>
-							</div>
-						</div>
-					</div>
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Пост Гедалии</p>
 				</div>
+			</section>
+		</div>
 
-				<div class="tree-content right table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/13-2.jpg" alt="" />
-									<p class="bottom-text">Подарки бедным</p>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/13-4.jpg" alt="" />
-									<p class="bottom-text">Чтение Свитка Эстер</p>
-								</a>
-							</div>
-						</div>
-					</div>
+		<div class="level">
+			<section class="parallax-2 bg-18 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Пост 10 Тевета</p>
 				</div>
+			</section>
+		</div>
 
-			</div>
-		</section>
+		<div class="level">
+			<section class="parallax-2 bg-19 picture-section">
+			</section>
 
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/14.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Посты</p>
-			</div>
-		</section>
-
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/15.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Пост 17 Тамуза</p>
-			</div>
-
-			<div class="tree-container table COL-two">
-
-				<div class="tree-content left table-cell">
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Пост Царицы Эстер</p>
 				</div>
+			</section>
+		</div>
 
-				<div class="tree-content right table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/15-1.jpg" alt="" />
-									<p class="bottom-text">Между теснин</p>
-								</a>
-							</div>
-						</div>
-					</div>
+		<div class="level">
+			<section class="parallax-2 bg-20 picture-section">
+			</section>
+
+			<section class="info-section parallax-3">
+				<div class="tree-header circle">
+					<p class="bottom-text">Седьмой год — Шмита</p>
 				</div>
+			</section>
+		</div>
 
-			</div>
-		</section>
-
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/16.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Пост 9 Ава</p>
-			</div>
-
-			<div class="tree-container table COL-two">
-
-				<div class="tree-content left table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/16-1.jpg" alt="" />
-									<p class="bottom-text">Разрушение Храма</p>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="tree-content right table-cell">
-					<div class="tree-level from-main only-one">
-						<div class="tree-elem indy-fade-box">
-							<div class="circle">
-								<a href="#">
-									<img src="images/landing/3/16-2.jpg" alt="" />
-									<p class="bottom-text">Траур по Храму</p>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</section>
-
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/17.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Пост Гедалии</p>
-			</div>
-		</section>
-
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/18.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Пост 10 Тевета</p>
-			</div>
-		</section>
-
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/19.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Пост Царицы Эстер</p>
-			</div>
-		</section>
-
-		<section class="parallax-window" data-speed="0.7" data-parallax="scroll" data-image-src="images/landing/3/20.jpg">
-		</section>
-
-		<section class="info-section">
-			<div class="tree-header circle">
-				<p class="bottom-text">Седьмой год — Шмита</p>
-			</div>
-		</section>
+		<div class="background parallax-1"></div>
 	</div>
 
 

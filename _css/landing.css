@@ -1,7 +1,22 @@
 @import "indyFadeBox.css";
 
-body {
+.content {
+	position: relative;
+	overflow: hidden;
+}
+
+.background {
+	position: absolute;
+	z-index: -3;
+	top: 0;
+	left: 0;
+	height: 30000px;
+	width: 100%;
 	background: url('../images/landing/bg-3.jpg') repeat;
+}
+
+.parallax-3 {
+
 }
 
 .page_landing {
@@ -15,6 +30,67 @@ body {
 }
 .page_landing a:hover {
 	text-decoration: underline;
+}
+
+.bg-1 {
+	background: url('../images/landing/3/01.jpg') no-repeat;
+}
+.bg-2 {
+	background: url('../images/landing/3/02.jpg') no-repeat;
+}
+.bg-3 {
+	background: url('../images/landing/3/03.jpg') no-repeat;
+}
+.bg-4 {
+	background: url('../images/landing/3/04.jpg') no-repeat;
+}
+.bg-5 {
+	background: url('../images/landing/3/05.jpg') no-repeat;
+}
+.bg-6 {
+	background: url('../images/landing/3/06.jpg') no-repeat;
+}
+.bg-7 {
+	background: url('../images/landing/3/07.jpg') no-repeat;
+}
+.bg-8 {
+	background: url('../images/landing/3/08.jpg') no-repeat;
+}
+.bg-9 {
+	background: url('../images/landing/3/09.jpg') no-repeat;
+}
+.bg-10 {
+	background: url('../images/landing/3/10.jpg') no-repeat;
+}
+.bg-11 {
+	background: url('../images/landing/3/11.jpg') no-repeat;
+}
+.bg-12 {
+	background: url('../images/landing/3/12.jpg') no-repeat;
+}
+.bg-13 {
+	background: url('../images/landing/3/13.jpg') no-repeat;
+}
+.bg-14 {
+	background: url('../images/landing/3/14.jpg') no-repeat;
+}
+.bg-15 {
+	background: url('../images/landing/3/15.jpg') no-repeat;
+}
+.bg-16 {
+	background: url('../images/landing/3/16.jpg') no-repeat;
+}
+.bg-17 {
+	background: url('../images/landing/3/17.jpg') no-repeat;
+}
+.bg-18 {
+	background: url('../images/landing/3/18.jpg') no-repeat;
+}
+.bg-19 {
+	background: url('../images/landing/3/19.jpg') no-repeat;
+}
+.bg-20 {
+	background: url('../images/landing/3/20.jpg') no-repeat;
 }
 
 
@@ -68,12 +144,18 @@ body {
 
 
 /* ----- content ----- */
-.parallax-window {
+.level {
+	position: relative;
+}
+.picture-section {
+	position: absolute;
+	top: 0;
+	z-index: -2;
     height: 344px;
-    background: transparent;
+    width: 100%;
     border-top: 10px solid #fff;
 }
-.parallax-window:first-child {
+.level:first-child .picture-section {
 	border: none;
 }
 
@@ -123,10 +205,15 @@ body {
 
 
 .info-section {
-	position: relative;
+	position: absolute;
+	top: 354px;
+	left: 50%;
+	margin: 0 0 0 -640px;
 	padding: 145px 0 70px;
-	margin: 0 auto;
     width: 1280px;
+}
+.level:first-child .info-section {
+	top: 344px;
 }
 .info-section:before {
 	content: '';
