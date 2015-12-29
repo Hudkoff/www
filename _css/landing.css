@@ -119,6 +119,79 @@
 	border: none;
 }
 
+.bg-2-1 {
+	background-image: url('../images/landing/2/01.jpg');
+}
+.bg-2-2 {
+	background-image: url('../images/landing/2/02.jpg');
+}
+.bg-2-3 {
+	background-image: url('../images/landing/2/03.jpg');
+}
+.bg-2-4 {
+	background-image: url('../images/landing/2/04.jpg');
+}
+.bg-2-5 {
+	background-image: url('../images/landing/2/05.jpg');
+}
+.bg-2-6 {
+	background-image: url('../images/landing/2/06.jpg');
+}
+.bg-2-7 {
+	background-image: url('../images/landing/2/07.jpg');
+}
+.bg-2-8 {
+	background-image: url('../images/landing/2/08.jpg');
+}
+.bg-2-9 {
+	background-image: url('../images/landing/2/09.jpg');
+}
+.bg-2-10 {
+	background-image: url('../images/landing/2/10.jpg');
+}
+.bg-2-11 {
+	background-image: url('../images/landing/2/11.jpg');
+}
+.bg-2-12 {
+	background-image: url('../images/landing/2/12.jpg');
+}
+.bg-2-13 {
+	background-image: url('../images/landing/2/13.jpg');
+}
+.bg-2-14 {
+	background-image: url('../images/landing/2/14.jpg');
+}
+.bg-2-15 {
+	background-image: url('../images/landing/2/15.jpg');
+}
+.bg-2-16 {
+	background-image: url('../images/landing/2/16.jpg');
+}
+.bg-2-17 {
+	background-image: url('../images/landing/2/17.jpg');
+}
+.bg-2-18 {
+	background-image: url('../images/landing/2/18.jpg');
+}
+.bg-2-19 {
+	background-image: url('../images/landing/2/19.jpg');
+}
+.bg-2-20 {
+	background-image: url('../images/landing/2/20.jpg');
+}
+.bg-2-21 {
+	background-image: url('../images/landing/2/21.jpg');
+}
+.bg-2-22 {
+	background-image: url('../images/landing/2/22.jpg');
+}
+.bg-2-23 {
+	background-image: url('../images/landing/2/23.jpg');
+}
+.bg-2-24 {
+	background-image: url('../images/landing/2/24.jpg');
+}
+
 .bg-3-1 {
 	background-image: url('../images/landing/3/01.jpg');
 }
@@ -179,7 +252,6 @@
 .bg-3-20 {
 	background-image: url('../images/landing/3/20.jpg');
 }
-
 
 /* ----- circles ----- */
 .circle {

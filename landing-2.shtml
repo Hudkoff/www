@@ -1,0 +1,723 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/landing.css" rel="stylesheet" type="text/css">
+	<script src="_js/parallax.min.js" type="text/javascript"></script>
+	<script src="_js/jquery.indyFadeBox.js" type="text/javascript"></script>
+	<script src="_js/jquery.visible.min.js" type="text/javascript"></script>
+
+</head>
+<body class="page_landing landing-calendar" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<nav class="landing-nav">
+		<ul class="table COL-three">
+			<li class="left table-cell"><a href="#">Еврейский календарь</a></li>
+			<li class="current table-cell">Цикл жизни</li>
+			<li class="right table-cell"><a href="#">Еврейская жизнь</a></li>
+		</ul>
+	</nav>
+
+	<div class="content">
+		<div class="parallax">
+			<div class="level">
+				<section class="bg-2-1 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Душа</p>
+					</div>
+				</section>
+			</div>
+			<div class="level">
+				<section class="bg-2-2 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Брит мила &ndash; обрезание</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/02-1.jpg" alt="" />
+											<p class="bottom-text">Еврейское имя</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/02-2.jpg" alt="" />
+											<p class="bottom-text">Еврейская фамилия</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-3 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Выкуп первенца</p>
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-4 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Бар мицва</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/04-1.jpg" alt="" />
+											<p class="bottom-text">Тфилин</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/04-2.jpg" alt="" />
+											<p class="bottom-text">Цицит и кипа</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+
+			<div class="level">
+				<section class="bg-2-5 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Молитва</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/05-1.jpg" alt="" />
+											<p class="bottom-text">Сидур</p>
+										</a>
+									</div>
+								</div>
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/05-2.jpg" alt="" />
+											<p class="bottom-text">Благословения</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/05-3.jpg" alt="" />
+											<p class="bottom-text">Синагога</p>
+										</a>
+									</div>
+								</div>
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/05-4.jpg" alt="" />
+											<p class="bottom-text">Хазанут</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-6 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Знакомства &ndash; шидух</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/06-1.jpg" alt="" />
+											<p class="bottom-text">Шадхан</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+
+			<div class="level">
+				<section class="bg-2-7 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Помолвка &ndash; Эрусин</p>
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-8 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Еврейская свадьба</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/08-1.jpg" alt="" />
+											<p class="bottom-text">Ктуба</p>
+										</a>
+									</div>
+								</div>
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/08-2.jpg" alt="" />
+											<p class="bottom-text">Хупа</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/08-3.jpg" alt="" />
+											<p class="bottom-text">Кидушин</p>
+										</a>
+									</div>
+								</div>
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/08-4.jpg" alt="" />
+											<p class="bottom-text">Шева брахот</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-9 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Чистота семейной жизни</p>
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-10 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Любовь</p>
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-11 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Интимная жизнь</p>
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-12 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Женщина</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/12-1.jpg" alt="" />
+											<p class="bottom-text">Скромность</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-13 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Дурное<br>начало</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/13-1.jpg" alt="" />
+											<p class="bottom-text">Гордость</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/13-2.jpg" alt="" />
+											<p class="bottom-text">Гнев</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-14 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Прелюбодеяние</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/14-1.jpg" alt="" />
+											<p class="bottom-text">Лень</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/14-2.jpg" alt="" />
+											<p class="bottom-text">Злословие</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-15 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Развод</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/15-1.jpg" alt="" />
+											<p class="bottom-text">Алименты &ndash;<br>мезонот</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/15-2.jpg" alt="" />
+											<p class="bottom-text">Гет</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-16 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Еврейская семья</p>
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-17 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Дом</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/17-1.jpg" alt="" />
+											<p class="bottom-text">Милосердие</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/17-2.jpg" alt="" />
+											<p class="bottom-text">Мезуза</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-18 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Земля<br>Израиля</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/18-1.jpg" alt="" />
+											<p class="bottom-text">Иерусалим</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-19 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Воспитание детей</p>
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-20 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Почитание родителей</p>
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-21 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Деньги</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/21-1.jpg" alt="" />
+											<p class="bottom-text">Цдака</p>
+										</a>
+									</div>
+								</div>
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/21-2.jpg" alt="" />
+											<p class="bottom-text">Десятина</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/21-3.jpg" alt="" />
+											<p class="bottom-text">Работа</p>
+										</a>
+									</div>
+								</div>
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/21-4.jpg" alt="" />
+											<p class="bottom-text">Еврейский<br>бизнес</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-22 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Кашрут</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/22-1.jpg" alt="" />
+											<p class="bottom-text">Мясо и молоко</p>
+										</a>
+									</div>
+								</div>
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/22-2.jpg" alt="" />
+											<p class="bottom-text">Шхита</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/22-3.jpg" alt="" />
+											<p class="bottom-text">Трумот и Маасрот</p>
+										</a>
+									</div>
+								</div>
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/22-4.jpg" alt="" />
+											<p class="bottom-text">Шмита</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-23 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Еврейские похороны<br>и траур</p>
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-2-24 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Еврейские кладбища</p>
+					</div>
+				</section>
+			</div>
+			</div>
+	</div>
+
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/landing.js" type="text/javascript"></script>
+
+</body>
+</html>
