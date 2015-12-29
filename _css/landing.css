@@ -1,11 +1,33 @@
 @import "indyFadeBox.css";
 
+/* ----- common styles ----- */
+.page_landing {
+	font-family: 'Open Sans', sans-serif;
+}
+.page_landing header {
+	margin-bottom: 1px;
+}
+.page_landing a {
+	text-decoration: none;
+}
+.page_landing a:hover {
+	text-decoration: underline;
+}
+
+
+/* ----- main content block ----- */
 .content {
 	position: relative;
 	overflow: hidden;
 	min-width: 1280px;
+}
+.landing-calendar .content {
 	background: url('../images/landing/bg-3.jpg') 0 0 repeat;
 }
+.landing-life .content {
+	background: url('../images/landing/bg-1.jpg') 0 0 repeat;
+}
+
 .content:before {
 	content: '';
 	position: absolute;
@@ -22,82 +44,15 @@
 	overflow: hidden;
 }
 
-.page_landing {
-	font-family: 'Open Sans', sans-serif;
-}
-.page_landing header {
-	margin-bottom: 1px;
-}
-.page_landing a {
-	text-decoration: none;
-}
-.page_landing a:hover {
-	text-decoration: underline;
-}
-
-.bg-1 {
-	background: url('../images/landing/3/01.jpg') no-repeat;
-}
-.bg-2 {
-	background: url('../images/landing/3/02.jpg') no-repeat;
-}
-.bg-3 {
-	background: url('../images/landing/3/03.jpg') no-repeat;
-}
-.bg-4 {
-	background: url('../images/landing/3/04.jpg') no-repeat;
-}
-.bg-5 {
-	background: url('../images/landing/3/05.jpg') no-repeat;
-}
-.bg-6 {
-	background: url('../images/landing/3/06.jpg') no-repeat;
-}
-.bg-7 {
-	background: url('../images/landing/3/07.jpg') no-repeat;
-}
-.bg-8 {
-	background: url('../images/landing/3/08.jpg') no-repeat;
-}
-.bg-9 {
-	background: url('../images/landing/3/09.jpg') no-repeat;
-}
-.bg-10 {
-	background: url('../images/landing/3/10.jpg') no-repeat;
-}
-.bg-11 {
-	background: url('../images/landing/3/11.jpg') no-repeat;
-}
-.bg-12 {
-	background: url('../images/landing/3/12.jpg') no-repeat;
-}
-.bg-13 {
-	background: url('../images/landing/3/13.jpg') no-repeat;
-}
-.bg-14 {
-	background: url('../images/landing/3/14.jpg') no-repeat;
-}
-.bg-15 {
-	background: url('../images/landing/3/15.jpg') no-repeat;
-}
-.bg-16 {
-	background: url('../images/landing/3/16.jpg') no-repeat;
-}
-.bg-17 {
-	background: url('../images/landing/3/17.jpg') no-repeat;
-}
-.bg-18 {
-	background: url('../images/landing/3/18.jpg') no-repeat;
-}
-.bg-19 {
-	background: url('../images/landing/3/19.jpg') no-repeat;
-}
-.bg-20 {
-	background: url('../images/landing/3/20.jpg') no-repeat;
-}
-
 
 /* ----- top navigation ----- */
+.landing-calendar .landing-nav {
+	background: #b46a22;
+}
+.landing-life .landing-nav {
+	background: #d2ac26;
+}
+
 .landing-nav ul {
 	min-height: 80px;
 }
@@ -150,15 +105,79 @@
 .level {
 	position: relative;
 }
+
+/* ----- images ----- */
 .picture-section {
     height: 344px;
     width: 100%;
     border-top: 10px solid #fff;
     background-size: cover;
     background-position-x: 50%;
+    background-repeat: no-repeat;
 }
 .level:first-child .picture-section {
 	border: none;
+}
+
+.bg-3-1 {
+	background-image: url('../images/landing/3/01.jpg');
+}
+.bg-3-2 {
+	background-image: url('../images/landing/3/02.jpg');
+}
+.bg-3-3 {
+	background-image: url('../images/landing/3/03.jpg');
+}
+.bg-3-4 {
+	background-image: url('../images/landing/3/04.jpg');
+}
+.bg-3-5 {
+	background-image: url('../images/landing/3/05.jpg');
+}
+.bg-3-6 {
+	background-image: url('../images/landing/3/06.jpg');
+}
+.bg-3-7 {
+	background-image: url('../images/landing/3/07.jpg');
+}
+.bg-3-8 {
+	background-image: url('../images/landing/3/08.jpg');
+}
+.bg-3-9 {
+	background-image: url('../images/landing/3/09.jpg');
+}
+.bg-3-10 {
+	background-image: url('../images/landing/3/10.jpg');
+}
+.bg-3-11 {
+	background-image: url('../images/landing/3/11.jpg');
+}
+.bg-3-12 {
+	background-image: url('../images/landing/3/12.jpg');
+}
+.bg-3-13 {
+	background-image: url('../images/landing/3/13.jpg');
+}
+.bg-3-14 {
+	background-image: url('../images/landing/3/14.jpg');
+}
+.bg-3-15 {
+	background-image: url('../images/landing/3/15.jpg');
+}
+.bg-3-16 {
+	background-image: url('../images/landing/3/16.jpg');
+}
+.bg-3-17 {
+	background-image: url('../images/landing/3/17.jpg');
+}
+.bg-3-18 {
+	background-image: url('../images/landing/3/18.jpg');
+}
+.bg-3-19 {
+	background-image: url('../images/landing/3/19.jpg');
+}
+.bg-3-20 {
+	background-image: url('../images/landing/3/20.jpg');
 }
 
 
@@ -208,40 +227,9 @@
 
 .info-section {
 	position: relative;
-	/*top: 354px;
-	left: 50%;
-	margin: 0 0 0 -640px;*/
 	margin: 0 auto;
 	padding: 145px 0 70px;
     width: 1280px;
-}
-.level:first-child .info-section {
-	/*top: 344px;*/
-}
-/*.info-section:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 50%;
-	display: block;
-	width: 10px;
-	height: 100%;
-	margin-left: -5px;
-	background: #fff;
-
-}*/
-
-.tree-header {
-	position: absolute;
-	transform: translateZ(0);
-	left: 50%;
-	top: -145px;
-	height: 290px;
-	width: 290px;
-	margin-left: -145px;
-	-webkit-box-shadow: inset 0 0 0 10px #fff, 0 8px 8px 0 rgba(0,0,0,0.2);
-    box-shadow: inset 0 0 0 10px #fff, 0 8px 8px 0 rgba(0,0,0,0.2);
-	font: 700 3.0rem/1 'Noto Serif', serif;
 }
 .info-section:before {
 	content: '';
@@ -254,10 +242,23 @@
 	margin-left: -5px;
 	background: #fff;
 }
+.tree-header {
+	position: absolute;
+	transform: translateZ(0);
+	left: 50%;
+	top: -145px;
+	height: 290px;
+	width: 290px;
+	margin-left: -145px;
+	-webkit-box-shadow: inset 0 0 0 10px #fff, 0 8px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 0 10px #fff, 0 8px 8px 0 rgba(0,0,0,0.2);
+	font: 700 3.0rem/1 'Noto Serif', serif;
+}
 .tree-header:hover {
 	-webkit-box-shadow: inset 0 0 0 10px #fff, 0 8px 8px 0 rgba(0,0,0,0.5);
     box-shadow: inset 0 0 0 10px #fff, 0 8px 8px 0 rgba(0,0,0,0.5);
 }
+
 .tree-content {
 	padding: 0;
 	font-size: 0;
@@ -290,6 +291,10 @@
 	margin: 20px 0 0 -10px;
 	border-top: 10px solid #fff;
 }
+.tree-content.left .tree-level.from-top.two-children:before {
+	left: 0;
+	margin-left: 0;
+}
 .tree-content .tree-level.from-top.two-children:after {
 	content: '';
 	position: absolute;
@@ -301,6 +306,9 @@
 	border-top: 10px solid #fff;
 	background: #fff;
     margin-left: 35px;
+}
+.tree-content.left .tree-level.from-top.two-children:after{
+	margin-left: -45px;
 }
 .tree-content .tree-level.from-top.only-one:before {
 	content: '';
@@ -321,8 +329,6 @@
 .tree-content .tree-level.only-one {
 
 }
-
-
 .tree-content.left {
 	text-align: right;
 }
@@ -333,20 +339,10 @@
 .tree-content.left .only-one {
 	text-align: left;
 }
-
-
 .tree-content.right {
 	text-align: left;
 }
 .tree-content.right .tree-elem {
 	margin-left: 80px;
 	transform: translateZ(0);
-}
-
-
-
-
-/* ----- COLORS ----- */
-.landing-calendar .landing-nav {
-	background: #b46a22;
 }
