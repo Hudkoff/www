@@ -24,7 +24,7 @@
 	<div class="content">
 		<div class="parallax">
 			<div class="level">
-				<section class="bg-1 picture-section">
+				<section class="bg-1-1 picture-section">
 				</section>
 
 				<section class="info-section">
@@ -81,6 +81,34 @@
 									</div>
 								</div>
 							</div>
+							<div class="tree-level from-top two-children">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/01-11.jpg" alt="" />
+											<p class="bottom-text">Еврейская этика &ndash; Мусар</p>
+										</a>
+									</div>
+								</div>
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/01-12.jpg" alt="" />
+											<p class="bottom-text">Каббала</p>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tree-level from-top only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/01-13.jpg" alt="" />
+											<p class="bottom-text">Гематрия &ndash; нумерология</p>
+										</a>
+									</div>
+								</div>
+							</div>
 						</div>
 
 						<div class="tree-content right table-cell">
@@ -88,8 +116,8 @@
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
-											<img src="images/landing/1/01-3.jpg" alt="" />
-											<p class="bottom-text">Повелительные законы</p>
+											<img src="images/landing/1/01-2.jpg" alt="" />
+											<p class="bottom-text">Письменная<br />тора</p>
 										</a>
 									</div>
 								</div>
@@ -98,8 +126,8 @@
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
-											<img src="images/landing/1/01-4.jpg" alt="" />
-											<p class="bottom-text">Онег Шаббат</p>
+											<img src="images/landing/1/01-5.jpg" alt="" />
+											<p class="bottom-text">Пятикнижие</p>
 										</a>
 									</div>
 								</div>
@@ -107,8 +135,27 @@
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
-											<img src="images/landing/1/01-5.jpg" alt="" />
-											<p class="bottom-text">Зажигание свечей и кидуш</p>
+											<img src="images/landing/1/01-6.jpg" alt="" />
+											<p class="bottom-text">Писания</p>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tree-level from-top custom-right-top two-children">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/01-9.jpg" alt="" />
+											<p class="bottom-text">Недельная<br />глава</p>
+										</a>
+									</div>
+								</div>
+
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/01-10.jpg" alt="" />
+											<p class="bottom-text">Пророки</p>
 										</a>
 									</div>
 								</div>
@@ -119,23 +166,66 @@
 				</section>
 			</div>
 			<div class="level">
-				<section class="bg-2 picture-section">
+				<section class="bg-1-2 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Еврейские праздники</p>
+						<p class="bottom-text">Изучение<br />торы</p>
+					</div>
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/02-1.jpg" alt="" />
+											<p class="bottom-text">Талмуд он-лайн</p>
+										</a>
+									</div>
+								</div>
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/02-2.jpg" alt="" />
+											<p class="bottom-text">Где учить<br />Тору</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/02-3.jpg" alt="" />
+											<p class="bottom-text">Ешива</p>
+										</a>
+									</div>
+								</div>
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/02-4.jpg" alt="" />
+											<p class="bottom-text">Раввины</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</section>
 			</div>
 
 			<div class="level">
-				<section class="bg-3 picture-section">
+				<section class="bg-1-3 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Песах</p>
+						<p class="bottom-text">613 заповедей</p>
 					</div>
 
 					<div class="tree-container table COL-two">
@@ -146,7 +236,7 @@
 									<div class="circle">
 										<a href="#">
 											<img src="images/landing/1/03-1.jpg" alt="" />
-											<p class="bottom-text">Маца и хамец</p>
+											<p class="bottom-text">Запреты и повеления</p>
 										</a>
 									</div>
 								</div>
@@ -159,35 +249,7 @@
 									<div class="circle">
 										<a href="#">
 											<img src="images/landing/1/03-2.jpg" alt="" />
-											<p class="bottom-text">Подготовка к Песаху</p>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="tree-level from-top only-one">
-								<div class="tree-elem indy-fade-box">
-									<div class="circle">
-										<a href="#">
-											<img src="images/landing/1/03-3.jpg" alt="" />
-											<p class="bottom-text">Пасхальный Седер</p>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="tree-level from-top two-children">
-								<div class="tree-elem indy-fade-box">
-									<div class="circle">
-										<a href="#">
-											<img src="images/landing/1/03-4.jpg" alt="" />
-											<p class="bottom-text">Пасхальная Агада</p>
-										</a>
-									</div>
-								</div>
-								<div class="tree-elem indy-fade-box">
-									<div class="circle">
-										<a href="#">
-											<img src="images/landing/1/03-5.jpg" alt="" />
-											<p class="bottom-text">4 бокала</p>
+											<p class="bottom-text">10 заповедей</p>
 										</a>
 									</div>
 								</div>
@@ -199,24 +261,24 @@
 			</div>
 
 			<div class="level">
-				<section class="bg-4 picture-section">
+				<section class="bg-1-4 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Счёт Омера</p>
+						<p class="bottom-text">Иудаизм</p>
 					</div>
 				</section>
 			</div>
 
 
 			<div class="level">
-				<section class="bg-5 picture-section">
+				<section class="bg-1-5 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Лаг баОмер</p>
+						<p class="bottom-text">Религия</p>
 					</div>
 
 					<div class="tree-container table COL-two">
@@ -227,7 +289,7 @@
 									<div class="circle">
 										<a href="#">
 											<img src="images/landing/1/05-1.jpg" alt="" />
-											<p class="bottom-text">Книга Зоар</p>
+											<p class="bottom-text">Христианство</p>
 										</a>
 									</div>
 								</div>
@@ -240,7 +302,7 @@
 									<div class="circle">
 										<a href="#">
 											<img src="images/landing/1/05-2.jpg" alt="" />
-											<p class="bottom-text">Раби Шимон бар Йохай</p>
+											<p class="bottom-text">Ислам</p>
 										</a>
 									</div>
 								</div>
@@ -252,75 +314,35 @@
 			</div>
 
 			<div class="level">
-				<section class="bg-6 picture-section">
+				<section class="bg-1-6 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Шавуот</p>
+						<p class="bottom-text">Антисемитизм</p>
 					</div>
 				</section>
 			</div>
 
 
 			<div class="level">
-				<section class="bg-7 picture-section">
+				<section class="bg-1-7 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Рош аШана</p>
-					</div>
-
-					<div class="tree-container table COL-two">
-
-						<div class="tree-content left table-cell">
-							<div class="tree-level from-main only-one">
-								<div class="tree-elem indy-fade-box">
-									<div class="circle">
-										<a href="#">
-											<img src="images/landing/1/07-1.jpg" alt="" />
-											<p class="bottom-text">Элуль</p>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="tree-level from-main only-one">
-								<div class="tree-elem indy-fade-box">
-									<div class="circle">
-										<a href="#">
-											<img src="images/landing/1/07-3.jpg" alt="" />
-											<p class="bottom-text">Правосудие</p>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="tree-content right table-cell">
-							<div class="tree-level from-main only-one">
-								<div class="tree-elem indy-fade-box">
-									<div class="circle">
-										<a href="#">
-											<img src="images/landing/1/07-2.jpg" alt="" />
-											<p class="bottom-text">Шофар</p>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
+						<p class="bottom-text smaller-font">Национальность</p>
 					</div>
 				</section>
 			</div>
 
 			<div class="level">
-				<section class="bg-8 picture-section">
+				<section class="bg-1-8 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Йом Кипур</p>
+						<p class="bottom-text">История еврейского народа</p>
 					</div>
 
 					<div class="tree-container table COL-two">
@@ -331,7 +353,7 @@
 									<div class="circle">
 										<a href="#">
 											<img src="images/landing/1/08-1.jpg" alt="" />
-											<p class="bottom-text">Грех</p>
+											<p class="bottom-text">Чудеса</p>
 										</a>
 									</div>
 								</div>
@@ -344,7 +366,7 @@
 									<div class="circle">
 										<a href="#">
 											<img src="images/landing/1/08-2.jpg" alt="" />
-											<p class="bottom-text">Раскаяние — тшува</p>
+											<p class="bottom-text">Пророчества</p>
 										</a>
 									</div>
 								</div>
@@ -356,12 +378,12 @@
 			</div>
 
 			<div class="level">
-				<section class="bg-9 picture-section">
+				<section class="bg-1-9 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Суккот</p>
+						<p class="bottom-text">Евреи</p>
 					</div>
 
 					<div class="tree-container table COL-two">
@@ -372,7 +394,7 @@
 									<div class="circle">
 										<a href="#">
 											<img src="images/landing/1/09-1.jpg" alt="" />
-											<p class="bottom-text">Сукка</p>
+											<p class="bottom-text">Бней Ноах</p>
 										</a>
 									</div>
 								</div>
@@ -385,7 +407,7 @@
 									<div class="circle">
 										<a href="#">
 											<img src="images/landing/1/09-2.jpg" alt="" />
-											<p class="bottom-text">4 вида растений</p>
+											<p class="bottom-text">Неевреи</p>
 										</a>
 									</div>
 								</div>
@@ -397,14 +419,35 @@
 			</div>
 
 			<div class="level">
-				<section class="bg-10 picture-section">
+				<section class="bg-1-10 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Шмини Ацерет</p>
+						<p class="bottom-text">Гиюр &ndash; приятие еврейства</p>
 					</div>
+				</section>
+			</div>
 
+			<div class="level">
+				<section class="bg-1-11 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Баалей<br />тшува</p>
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-1-12 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Харедим</p>
+					</div>
 					<div class="tree-container table COL-two">
 
 						<div class="tree-content left table-cell">
@@ -412,8 +455,8 @@
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
-											<img src="images/landing/1/10-1.jpg" alt="" />
-											<p class="bottom-text">Симхат Тора</p>
+											<img src="images/landing/1/12-1.jpg" alt="" />
+											<p class="bottom-text">Хасидизм</p>
 										</a>
 									</div>
 								</div>
@@ -425,8 +468,8 @@
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
-											<img src="images/landing/1/10-2.jpg" alt="" />
-											<p class="bottom-text">Ошана Раба</p>
+											<img src="images/landing/1/12-2.jpg" alt="" />
+											<p class="bottom-text">Мизрахи</p>
 										</a>
 									</div>
 								</div>
@@ -438,56 +481,24 @@
 			</div>
 
 			<div class="level">
-				<section class="bg-11 picture-section">
+				<section class="bg-1-13 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Ханука</p>
-					</div>
-
-					<div class="tree-container table COL-two">
-
-						<div class="tree-content left table-cell">
-						</div>
-
-						<div class="tree-content right table-cell">
-							<div class="tree-level from-main only-one">
-								<div class="tree-elem indy-fade-box">
-									<div class="circle">
-										<a href="#">
-											<img src="images/landing/1/11-1.jpg" alt="" />
-											<p class="bottom-text">Ханукальные свечи</p>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
+						<p class="bottom-text">Реформисты</p>
 					</div>
 				</section>
 			</div>
 
 			<div class="level">
-				<section class="bg-12 picture-section">
+				<section class="bg-1-14 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Ту биШват</p>
+						<p class="bottom-text smaller-font">Еврейское мировоззрение</p>
 					</div>
-				</section>
-			</div>
-
-			<div class="level">
-				<section class="bg-13 picture-section">
-				</section>
-
-				<section class="info-section">
-					<div class="tree-header circle">
-						<p class="bottom-text">Пурим</p>
-					</div>
-
 					<div class="tree-container table COL-two">
 
 						<div class="tree-content left table-cell">
@@ -495,18 +506,8 @@
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
-											<img src="images/landing/1/13-1.jpg" alt="" />
-											<p class="bottom-text">Вино и опьянение</p>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="tree-level from-main only-one">
-								<div class="tree-elem indy-fade-box">
-									<div class="circle">
-										<a href="#">
-											<img src="images/landing/1/13-3.jpg" alt="" />
-											<p class="bottom-text">Мишлоах манот</p>
+											<img src="images/landing/1/14-1.jpg" alt="" />
+											<p class="bottom-text">Вера</p>
 										</a>
 									</div>
 								</div>
@@ -518,18 +519,8 @@
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
-											<img src="images/landing/1/13-2.jpg" alt="" />
-											<p class="bottom-text">Подарки бедным</p>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div class="tree-level from-main only-one">
-								<div class="tree-elem indy-fade-box">
-									<div class="circle">
-										<a href="#">
-											<img src="images/landing/1/13-4.jpg" alt="" />
-											<p class="bottom-text">Чтение Свитка Эстер</p>
+											<img src="images/landing/1/14-2.jpg" alt="" />
+											<p class="bottom-text">Первородный<br />грех</p>
 										</a>
 									</div>
 								</div>
@@ -541,65 +532,23 @@
 			</div>
 
 			<div class="level">
-				<section class="bg-14 picture-section">
+				<section class="bg-1-15 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Посты</p>
-					</div>
-				</section>
-			</div>
-
-			<div class="level">
-				<section class="bg-15 picture-section">
-				</section>
-
-				<section class="info-section">
-					<div class="tree-header circle">
-						<p class="bottom-text">Пост 17 Тамуза</p>
+						<p class="bottom-text">Смысл<br />жизни</p>
 					</div>
 
 					<div class="tree-container table COL-two">
 
 						<div class="tree-content left table-cell">
-						</div>
-
-						<div class="tree-content right table-cell">
 							<div class="tree-level from-main only-one">
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
 											<img src="images/landing/1/15-1.jpg" alt="" />
-											<p class="bottom-text">Между теснин</p>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</section>
-			</div>
-
-			<div class="level">
-				<section class="bg-16 picture-section">
-				</section>
-
-				<section class="info-section">
-					<div class="tree-header circle">
-						<p class="bottom-text">Пост 9 Ава</p>
-					</div>
-
-					<div class="tree-container table COL-two">
-
-						<div class="tree-content left table-cell">
-							<div class="tree-level from-main only-one">
-								<div class="tree-elem indy-fade-box">
-									<div class="circle">
-										<a href="#">
-											<img src="images/landing/1/16-1.jpg" alt="" />
-											<p class="bottom-text">Разрушение Храма</p>
+											<p class="bottom-text">Упование</p>
 										</a>
 									</div>
 								</div>
@@ -611,8 +560,8 @@
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
-											<img src="images/landing/1/16-2.jpg" alt="" />
-											<p class="bottom-text">Траур по Храму</p>
+											<img src="images/landing/1/15-2.jpg" alt="" />
+											<p class="bottom-text">Атеизм</p>
 										</a>
 									</div>
 								</div>
@@ -624,49 +573,300 @@
 			</div>
 
 			<div class="level">
-				<section class="bg-17 picture-section">
+				<section class="bg-1-16 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Пост Гедалии</p>
+						<p class="bottom-text">Свобода выбора</p>
+					</div>
+
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/16-1.jpg" alt="" />
+											<p class="bottom-text">Философия</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</section>
 			</div>
 
 			<div class="level">
-				<section class="bg-18 picture-section">
+				<section class="bg-1-17 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Пост 10 Тевета</p>
+						<p class="bottom-text">13 принципов веры</p>
+					</div>
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/17-1.jpg" alt="" />
+											<p class="bottom-text">Тора и наука</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</section>
 			</div>
 
 			<div class="level">
-				<section class="bg-19 picture-section">
+				<section class="bg-1-18 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Пост Царицы Эстер</p>
+						<p class="bottom-text">Реальность Творца</p>
+					</div>
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/18-1.jpg" alt="" />
+											<p class="bottom-text">Психология</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</section>
 			</div>
 
 			<div class="level">
-				<section class="bg-20 picture-section">
+				<section class="bg-1-19 picture-section">
 				</section>
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Седьмой год — Шмита</p>
+						<p class="bottom-text">Тора<br />с небес</p>
 					</div>
 				</section>
 			</div>
+
+			<div class="level">
+				<section class="bg-1-20 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Награда<br />и наказание</p>
+					</div>
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/20-1.jpg" alt="" />
+											<p class="bottom-text">Рай</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/20-2.jpg" alt="" />
+											<p class="bottom-text">Ад</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
 			</div>
+
+			<div class="level">
+				<section class="bg-1-21 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Мессия &ndash; Машиах</p>
+					</div>
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/21-1.jpg" alt="" />
+											<p class="bottom-text">Мессия</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/21-2.jpg" alt="" />
+											<p class="bottom-text">Война Гого<br />и Магога</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-1-22 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Воскрешение из мертвых</p>
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-1-23 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Храм</p>
+					</div>
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/23-1.jpg" alt="" />
+											<p class="bottom-text">Священник</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/23-2.jpg" alt="" />
+											<p class="bottom-text">Служение в храме</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-1-24 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Добро и зло</p>
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-1-25 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Истина<br />и ложь</p>
+					</div>
+				</section>
+			</div>
+
+			<div class="level">
+				<section class="bg-1-26 picture-section">
+				</section>
+
+				<section class="info-section">
+					<div class="tree-header circle">
+						<p class="bottom-text">Духовность &ndash; мистика</p>
+					</div>
+					<div class="tree-container table COL-two">
+
+						<div class="tree-content left table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/26-1.jpg" alt="" />
+											<p class="bottom-text">Переселение душ</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tree-content right table-cell">
+							<div class="tree-level from-main only-one">
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/26-2.jpg" alt="" />
+											<p class="bottom-text">Колдовство<br />и магия</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+		</div>
 	</div>
 
 	<nav class="landing-nav">

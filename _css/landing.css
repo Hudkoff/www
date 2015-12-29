@@ -288,12 +288,17 @@
 	background: #fff;
 	text-align: center;
 }
+.circle .bottom-text.smaller-font {
+	font-size: 2.8rem;
+}
 .circle img {
 	position: absolute;
     left: 50%;
-    margin-left: -115px;
+    margin-left: -321px;
 	height: 50%;
-
+}
+.landing-calendar .circle img {
+	margin-left: -115px;
 }
 
 
@@ -367,35 +372,49 @@
 	left: 0;
 	margin-left: 0;
 }
+.tree-content .tree-level.custom-right-top.two-children:before {
+	width: 25%;
+	margin-left: 35px;
+}
+.tree-content .tree-level.custom-right-top.two-children .tree-elem:first-child:before {
+	content: '';
+	position: absolute;
+	top: -50%;
+	left: 50%;
+	height: 100%;
+	width: 10px;
+	background: #fff;
+    margin: 0 0 0 -5px;
+}
 .tree-content .tree-level.from-top.two-children:after {
 	content: '';
 	position: absolute;
-	top: -10px;
+	top: -50%;
 	left: 50%;
-	height: 50%;
+	height: 100%;
 	width: 10px;
-	padding: 0 0 20px 0;
-	border-top: 10px solid #fff;
 	background: #fff;
-    margin-left: 35px;
+    margin: 20px 0 0 35px;
 }
-.tree-content.left .tree-level.from-top.two-children:after{
+.tree-content.left .tree-level.from-top.two-children:after {
 	margin-left: -45px;
 }
 .tree-content .tree-level.from-top.only-one:before {
 	content: '';
 	position: absolute;
-	top: -10px;
+	top: -50%;
 	left: 50%;
-	height: 40px;
+	height: 100%;
 	width: 10px;
-	padding: 0 0 20px 0;
-	border-top: 10px solid #fff;
 	background: #fff;
-    margin-left: 110px;
+    margin: 20px 0 0 110px;
+}
+.tree-content.left .tree-level.from-top.only-one:before {
+	margin-left: -122px;
 }
 .tree-content .tree-level .tree-elem {
 	position: relative;
+	z-index: 1;
 	display: inline-block;
 }
 .tree-content .tree-level.only-one {
