@@ -13,10 +13,10 @@ $(window).on('load', function() {
 	    var docViewBottom = docScrollTop + $window.height();
 	    var parallax = content.find('.parallax');
 
-	    content.css('background-position-y', (0 - (docScrollTop * .1)) + 'px');
+	    content.css('background-position-y', (0 + (docScrollTop * .5)) + 'px');
 
-	    parallax.css('transform', 'translateY(' + (0 - (docScrollTop * .2)).toString() + 'px)');
-	    content.height(height - (docScrollTop * .2));
+	    // parallax.css('transform', 'translateY(' + (0 + (docScrollTop * .2)).toString() + 'px)');
+	    // content.height(height - (docScrollTop * .2));
 
 	    var infoSections = content.find('.info-section');
 

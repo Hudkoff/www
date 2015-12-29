@@ -24,12 +24,12 @@
 	<div class="content">
 		<div class="parallax">
 			<div class="level">
-				<section class="parallax-2 bg-1 picture-section">
+				<section class="bg-1 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
 					<div class="tree-header circle">
-						<p class="bottom-text">Суббота - Шаббат</p>
+						<p class="bottom-text">Суббота &ndash; Шаббат</p>
 					</div>
 
 					<div class="tree-container table COL-two">
@@ -91,7 +91,7 @@
 				</section>
 			</div>
 			<div class="level">
-				<section class="parallax-2 bg-2 picture-section">
+				<section class="bg-2 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -102,7 +102,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-3 picture-section">
+				<section class="bg-3 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -171,7 +171,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-4 picture-section">
+				<section class="bg-4 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -183,7 +183,7 @@
 
 
 			<div class="level">
-				<section class="parallax-2 bg-5 picture-section">
+				<section class="bg-5 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -224,7 +224,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-6 picture-section">
+				<section class="bg-6 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -236,7 +236,7 @@
 
 
 			<div class="level">
-				<section class="parallax-2 bg-7 picture-section">
+				<section class="bg-7 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -287,7 +287,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-8 picture-section">
+				<section class="bg-8 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -328,7 +328,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-9 picture-section">
+				<section class="bg-9 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -369,7 +369,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-10 picture-section">
+				<section class="bg-10 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -410,7 +410,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-11 picture-section">
+				<section class="bg-11 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -441,7 +441,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-12 picture-section">
+				<section class="bg-12 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -452,7 +452,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-13 picture-section">
+				<section class="bg-13 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -513,7 +513,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-14 picture-section">
+				<section class="bg-14 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -524,7 +524,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-15 picture-section">
+				<section class="bg-15 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -555,7 +555,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-16 picture-section">
+				<section class="bg-16 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -596,7 +596,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-17 picture-section">
+				<section class="bg-17 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -607,7 +607,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-18 picture-section">
+				<section class="bg-18 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -618,7 +618,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-19 picture-section">
+				<section class="bg-19 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">
@@ -629,7 +629,7 @@
 			</div>
 
 			<div class="level">
-				<section class="parallax-2 bg-20 picture-section">
+				<section class="bg-20 picture-section">
 				</section>
 
 				<section class="info-section parallax-3">

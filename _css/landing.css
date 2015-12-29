@@ -3,6 +3,7 @@
 .content {
 	position: relative;
 	overflow: hidden;
+	min-width: 1280px;
 	background: url('../images/landing/bg-3.jpg') 0 0 repeat;
 }
 .content:before {
@@ -150,12 +151,11 @@
 	position: relative;
 }
 .picture-section {
-	/*position: absolute;
-	top: 0;
-	z-index: -2;*/
     height: 344px;
     width: 100%;
     border-top: 10px solid #fff;
+    background-size: cover;
+    background-position-x: 50%;
 }
 .level:first-child .picture-section {
 	border: none;
