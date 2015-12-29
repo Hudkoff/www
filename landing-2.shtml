@@ -9,7 +9,7 @@
 	<script src="_js/jquery.visible.min.js" type="text/javascript"></script>
 
 </head>
-<body class="page_landing landing-calendar" itemscope itemtype="http://schema.org/WebPage">
+<body class="page_landing landing-cycle" itemscope itemtype="http://schema.org/WebPage">
 
 	<!--#include virtual="_header.shtml"-->
 
@@ -711,9 +711,16 @@
 					</div>
 				</section>
 			</div>
-			</div>
+		</div>
 	</div>
 
+	<nav class="landing-nav">
+		<ul class="table COL-three">
+			<li class="left table-cell"><a href="#">Еврейский календарь</a></li>
+			<li class="current table-cell">Цикл жизни</li>
+			<li class="right table-cell"><a href="#">Еврейская жизнь</a></li>
+		</ul>
+	</nav>
 
 	<!--#include virtual="_footer.shtml"-->
 

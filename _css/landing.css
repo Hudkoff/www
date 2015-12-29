@@ -27,6 +27,9 @@
 .landing-life .content {
 	background: url('../images/landing/bg-1.jpg') 0 0 repeat;
 }
+.landing-cycle .content {
+	background: url('../images/landing/bg-2.jpg') 0 0 repeat;
+}
 
 .content:before {
 	content: '';
@@ -51,6 +54,9 @@
 }
 .landing-life .landing-nav {
 	background: #d2ac26;
+}
+.landing-cycle .landing-nav {
+	background: #869aa3;
 }
 
 .landing-nav ul {
