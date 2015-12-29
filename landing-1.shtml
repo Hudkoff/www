@@ -871,9 +871,9 @@
 
 	<nav class="landing-nav">
 		<ul class="table COL-three">
-			<li class="left table-cell"><a href="#">Еврейская жизнь</a></li>
-			<li class="current table-cell">Еврейский календарь</li>
-			<li class="right table-cell"><a href="#">Цикл жизни</a></li>
+			<li class="left table-cell"><a href="#">Цикл жизни</a></li>
+			<li class="current table-cell">Еврейская жизнь</li>
+			<li class="right table-cell"><a href="#">Еврейский календарь</a></li>
 		</ul>
 	</nav>
 
