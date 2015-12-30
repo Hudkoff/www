@@ -59,6 +59,7 @@
 }
 
 .landing-nav ul {
+	height: 80px;
 	min-height: 80px;
 }
 .landing-nav li {
@@ -381,12 +382,13 @@
 .circle img {
 	position: absolute;
     left: 50%;
-    margin-left: -321px;
+    /*margin-left: -321px;*/
+	margin-left: -115px;
 	height: 50%;
 }
-.landing-calendar .circle img {
+/*.landing-calendar .circle img {
 	margin-left: -115px;
-}
+}*/
 
 
 .info-section {
@@ -402,7 +404,7 @@
 	left: 50%;
 	display: block;
 	width: 10px;
-	height: 50px;
+	height: 110px;
 	margin-left: -5px;
 	background: #fff;
 }
