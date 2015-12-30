@@ -110,12 +110,20 @@
 						</div>
 
 						<div class="tree-content right table-cell">
-							<div class="tree-level from-main only-one">
+							<div class="tree-level from-main">
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
-											<img src="images/landing/2/04-2.jpg" alt="Цицит и кипа" />
-											<p class="bottom-text">Цицит и кипа</p>
+											<img src="images/landing/2/04-2.jpg" alt="Цицит" />
+											<p class="bottom-text">Цицит</p>
+										</a>
+									</div>
+								</div>
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/2/04-3.jpg" alt="Кипа" />
+											<p class="bottom-text">Кипа</p>
 										</a>
 									</div>
 								</div>

@@ -34,8 +34,7 @@
 .content:before {
 	content: '';
 	position: absolute;
-    top: 0;
-    bottom: 0;
+    bottom: 560px;
     left: 50%;
     display: block;
     width: 10px;
@@ -123,6 +122,9 @@
 }
 .level:first-child .picture-section {
 	border: none;
+}
+.level:last-child .info-section:before {
+	display: none;
 }
 
 .bg-1-1 {
@@ -421,6 +423,18 @@
     box-shadow: inset 0 0 0 10px #fff, 0 8px 8px 0 rgba(0,0,0,0.5);
 }
 
+.tree-container.middle-border:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+    bottom: 105px;
+    left: 50%;
+    display: block;
+    width: 10px;
+    height: 100%;
+    margin-left: -5px;
+    background: #fff;
+}
 .tree-content {
 	padding: 0;
 	font-size: 0;
@@ -492,7 +506,7 @@
 	height: 100%;
 	width: 10px;
 	background: #fff;
-    margin: 20px 0 0 110px;
+    margin: 20px 0 0 113px;
 }
 .tree-content.left .tree-level.from-top.only-one:before {
 	margin-left: -122px;

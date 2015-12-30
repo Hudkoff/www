@@ -1,8 +1,26 @@
 $(window).on('load', function() {
 
 	var $window = $(window);
+	var docScrollTop = $window.scrollTop();
 	var content = $('.content');
 	var height = content.height();
+
+	var infoSections = content.find('.info-section');
+
+    infoSections.each(function(i){
+    	var elem = $(this);
+    	var elemTop = elem.offset().top;
+    	var elemBottom = elemTop + elem.height();
+
+    	var translate = (-190 -((docScrollTop - elemTop) *.3));
+    	
+    	if(translate > -190 && translate < 0) {
+    		elem.css('transform', 'translateY(' + translate.toString() + 'px)');
+    	}
+    	if(translate < -190) {
+    		elem.css('transform', 'translateY(-190px)');
+    	}
+    });
 
 	$window.bind('scroll',function(e){
 	    parallaxScroll();

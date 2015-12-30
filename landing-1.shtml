@@ -833,9 +833,9 @@
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Духовность &ndash; мистика</p>
+						<p class="bottom-text">Духовность</p>
 					</div>
-					<div class="tree-container table COL-two">
+					<div class="tree-container table COL-two middle-border">
 
 						<div class="tree-content left table-cell">
 							<div class="tree-level from-main only-one">
@@ -851,12 +851,20 @@
 						</div>
 
 						<div class="tree-content right table-cell">
-							<div class="tree-level from-main only-one">
+							<div class="tree-level from-main">
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
-											<img src="images/landing/1/26-2.jpg" alt="Колдовство и магия" />
-											<p class="bottom-text">Колдовство<br />и магия</p>
+											<img src="images/landing/1/26-2.jpg" alt="Колдовство" />
+											<p class="bottom-text">Колдовство</p>
+										</a>
+									</div>
+								</div>
+								<div class="tree-elem indy-fade-box">
+									<div class="circle">
+										<a href="#">
+											<img src="images/landing/1/26-3.jpg" alt="Магия" />
+											<p class="bottom-text">Магия</p>
 										</a>
 									</div>
 								</div>
