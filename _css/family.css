@@ -250,8 +250,28 @@
 .page_family .dating-search-list-heading {
     margin:20px 0;
 }
-.page_family .dating-search-list li {
+.page_family .dating-search-list {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    margin: 10px 20px;
+}
+.page_family .dating-search-list li {
+    margin-bottom: 10px;
+}
+.page_family .dating-search-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.page_family .dating-search-table td,
+.page_family .dating-search-table th {
+    padding: 5px 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.page_family .dating-search-table th {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+}
+.page_family .dating-search-table .graylink {
+    color: inherit;
 }

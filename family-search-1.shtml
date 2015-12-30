@@ -1,0 +1,237 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" prefix="ya: https://webmaster.yandex.ru/vocabularies/">
+<head>
+
+	<!--#include virtual="_head.shtml"-->
+	<link href="_css/family.css" rel="stylesheet" type="text/css">
+
+</head>
+<body class="page_family" itemscope itemtype="http://schema.org/WebPage">
+
+	<!--#include virtual="_header.shtml"-->
+
+	<div class="articles-main table COL-asym wrapper">
+
+		<aside class="table-cell column-left">
+			<!--#include virtual="sidemenu/sidemenu-family.shtml"-->
+			<!--#include virtual="_banner-tora.shtml"-->
+		</aside>
+
+		<div class="table-cell column-central" itemprop="mainContentOfPage">
+
+			<div class="content_bordered padding">
+				<!--#include virtual="breadcrumbs/family.shtml"-->
+
+				<h1 class="color-LIGHTGRAY bordered clearfix">
+					Семья
+				</h1>
+
+				<h3 class="dating-search-list-heading">Поиск женихов и невест</h3>
+
+
+				<table class="dating-search-table">
+				    <tr>
+						<th>Пользователь</th>
+						<th>Возраст</th>
+						<th>Регион</th>
+						<th>Шадхан</th>
+					</tr>
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1527.html?info=1">Rochel</a></td>
+						<td>22</td>
+						<td>Израиль, Иерусалим</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_94.html?info=1">Ольга/Песси&nbsp;Кац</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1729.html?info=1">Hana</a></td>
+						<td>23</td>
+						<td>Израиль, Юг</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_63.html?info=1">Александр&nbsp;Хмельницкий</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1568.html?info=1">Сара</a></td>
+						<td>24</td>
+						<td>Израиль, Иерусалим</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_21.html?info=1">Адасса&nbsp;Орлов</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_922.html?info=1">Violetta</a></td>
+						<td>25</td>
+						<td>Израиль, Иерусалим</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_57.html?info=1">Йохевед&nbsp;Долинская</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1215.html?info=1">Yana</a></td>
+						<td>25</td>
+						<td>Израиль, Иерусалим</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_82.html?info=1">Керен&nbsp;Кацин</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1508.html?info=1">Элишева</a></td>
+						<td>25</td>
+						<td>Израиль, Иерусалим</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_94.html?info=1">Ольга/Песси&nbsp;Кац</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1558.html?info=1">Эстер</a></td>
+						<td>25</td>
+						<td>Израиль, Иерусалим</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_21.html?info=1">Адасса&nbsp;Орлов</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1592.html?info=1">Алина</a></td>
+						<td>25</td>
+						<td>Украина</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_21.html?info=1">Адасса&nbsp;Орлов</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1613.html?info=1">проба</a></td>
+						<td>25</td>
+						<td>Израиль, Иерусалим</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_63.html?info=1">Александр&nbsp;Хмельницкий</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1618.html?info=1">Адина</a></td>
+						<td>25</td>
+						<td>Израиль, Иерусалим</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_21.html?info=1">Адасса&nbsp;Орлов</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_920.html?info=1">Yoheved</a></td>
+						<td>26</td>
+						<td>Израиль, Иерусалим</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_57.html?info=1">Йохевед&nbsp;Долинская</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1087.html?info=1">RAHELY</a></td>
+						<td>26</td>
+						<td>Израиль, Север</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_66.html?info=1">Белла&nbsp;Мериин</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1161.html?info=1">Katia</a></td>
+						<td>26</td>
+						<td>Украина</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_75.html?info=1">Цви и Яэль&nbsp;Ценциппер</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1502.html?info=1">Ноа</a></td>
+						<td>26</td>
+						<td>Израиль, Иерусалим</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_21.html?info=1">Адасса&nbsp;Орлов</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1509.html?info=1">Хава</a></td>
+						<td>26</td>
+						<td>США, Нью-Йорк (город)</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_94.html?info=1">Ольга/Песси&nbsp;Кац</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1560.html?info=1">Diana</a></td>
+						<td>26</td>
+						<td>Израиль, Центр</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_100.html?info=1">Маша&nbsp;Гурвич</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1605.html?info=1">Yudit</a></td>
+						<td>26</td>
+						<td>Россия</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_105.html?info=1">Дувид&nbsp;Майер</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1718.html?info=1">Оснат</a></td>
+						<td>26</td>
+						<td>Израиль, Иерусалим</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_21.html?info=1">Адасса&nbsp;Орлов</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1404.html?info=1">Ада</a></td>
+						<td>27</td>
+						<td>Израиль, Иерусалим</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_89.html?info=1">Лея&nbsp;Бродская</a></td>
+					</tr>
+
+
+					<tr>
+						<td><a href="/jfamily/znakomstva/shiduh/shiduhim_1391.html?info=1">Dvora</a></td>
+						<td>27</td>
+						<td>Германия</td>
+						<td><a class="graylink" href="/jfamily/znakomstva/shadchanim/shadchanim_63.html?info=1">Александр&nbsp;Хмельницкий</a></td>
+					</tr>
+
+                </table>
+
+                <!--#include virtual="catalog-pagination/index.shtml"-->
+
+
+			</div>
+			
+		</div>
+
+		<div class="column-right table-cell lenta-column">
+			<!--#include virtual="video-live/index.shtml"-->
+			<section class="lenta-box" itemscope itemtype="http://schema.org/WPSideBar">
+				<!--#include virtual="lenta/index-01.shtml?f8f8f8"-->
+				<!--#include virtual="lenta/index-02.shtml?ededed"-->
+				<!--#include virtual="lenta/index-03.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-04.shtml?fbf0ee"-->
+				<!--#include virtual="lenta/index-05.shtml?fbe9f6"-->
+				<!--#include virtual="lenta/index-06.shtml?e1f5fa"-->
+				<!--#include virtual="lenta/index-07.shtml?e5edf6"-->
+				<!--#include virtual="lenta/index-08.shtml?d3f1de"-->
+				<!--#include virtual="lenta/index-09.shtml?e1f5fa"-->
+			</section>
+		</div>
+
+	</div>
+
+
+	<!--#include virtual="_banner-wide-toldot.shtml"-->
+
+	<!--#include virtual="_daytopic-title.shtml"-->
+
+	<!--#include virtual="_daytopic-family.shtml"-->
+
+	<!--#include virtual="_footer.shtml"-->
+
+	<script src="_js/js.js" type="text/javascript"></script>
+
+</body>
+</html>
