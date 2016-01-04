@@ -104,7 +104,7 @@
 									<div class="circle">
 										<a href="#">
 											<img src="images/landing/1/01-13.jpg" alt="Гематрия - нумерология" />
-											<p class="bottom-text">Гематрия &ndash; нумерология</p>
+											<p class="bottom-text">Гематрия <!-- &ndash; нумерология --></p>
 										</a>
 									</div>
 								</div>
@@ -342,7 +342,7 @@
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">История еврейского народа</p>
+						<p class="bottom-text">Еврейская история</p>
 					</div>
 
 					<div class="tree-container table COL-two">
@@ -424,7 +424,7 @@
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Гиюр &ndash; приятие еврейства</p>
+						<p class="bottom-text">Гиюр &ndash; принятие еврейства</p>
 					</div>
 				</section>
 			</div>
@@ -742,8 +742,8 @@
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
-											<img src="images/landing/1/21-2.jpg" alt="Война Гого и Магога" />
-											<p class="bottom-text">Война Гого<br />и Магога</p>
+											<img src="images/landing/1/21-2.jpg" alt="Война Гога и Магога" />
+											<p class="bottom-text">Война Гога<br />и Магога</p>
 										</a>
 									</div>
 								</div>
@@ -793,8 +793,8 @@
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
-											<img src="images/landing/1/23-2.jpg" alt="Служение в храме" />
-											<p class="bottom-text">Служение в храме</p>
+											<img src="images/landing/1/23-2.jpg" alt="Служение в Храме" />
+											<p class="bottom-text">Служение в Храме</p>
 										</a>
 									</div>
 								</div>

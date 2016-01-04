@@ -7,6 +7,11 @@
 .page_landing header {
 	margin-bottom: 1px;
 }
+.page_landing .landing-nav,
+.page_landing footer,
+.page_landing header {
+	min-width: 1280px;
+}
 .page_landing a {
 	text-decoration: none;
 }
