@@ -29,7 +29,7 @@
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Суббота &ndash; Шаббат</p>
+						<p class="bottom-text">Суббота — Шаббат</p>
 					</div>
 
 					<div class="tree-container table COL-two">
@@ -325,8 +325,8 @@
 								<div class="tree-elem indy-fade-box">
 									<div class="circle">
 										<a href="#">
-											<img src="images/landing/3/08-2.jpg" alt="Раскаяние — тшува" />
-											<p class="bottom-text">Раскаяние — тшува</p>
+											<img src="images/landing/3/08-2.jpg" alt="Раскаяние — Тшува" />
+											<p class="bottom-text">Раскаяние — Тшува</p>
 										</a>
 									</div>
 								</div>
@@ -611,7 +611,7 @@
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Пост Гедалии</p>
+						<p class="bottom-text">Пост Гедальи</p>
 					</div>
 				</section>
 			</div>
@@ -633,7 +633,7 @@
 
 				<section class="info-section">
 					<div class="tree-header circle">
-						<p class="bottom-text">Пост Царицы Эстер</p>
+						<p class="bottom-text">Пост Эстер</p>
 					</div>
 				</section>
 			</div>
